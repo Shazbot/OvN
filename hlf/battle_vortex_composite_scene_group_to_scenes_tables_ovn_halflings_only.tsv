@@ -1,0 +1,4 @@
+id	composite_scene	group_id	trigger_delay	freeze_position	freeze_rotation
+#battle_vortex_composite_scene_group_to_scenes_tables;0;db/battle_vortex_composite_scene_group_to_scenes_tables/ovn_halflings_only					
+435231213	composite_scene/spells_and_abilities/cr_spell_moot_phineas_wrath.csc	phineas_wrath	0.0	false	false
+435961214	composite_scene/spells_and_abilities/cr_spell_moot_barnyard_stampede.csc	barnyard_stampede	0.0	false	false

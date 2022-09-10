@@ -1,0 +1,9 @@
+faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/ovn_halflings_only						
+		1	cr_skill_mtl_matron_esmeralda_worship		x	9
+		1	cr_skill_mtl_matron_phineas_worship		x	9
+		1	cr_skill_mtl_matron_josias_worship		x	9
+		1	cr_skill_mtl_matron_groplotta_worship		x	9
+		1	cr_skill_mtl_matron_hyacinth_worship		x	9
+		1	cr_skill_mtl_matron_gaffey_worship		x	9
+		1	cr_skill_mtl_matron_quinsberry_worship		x	9

@@ -1,0 +1,119 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_halflings_only_unit_abilities.loc		
+unit_abilities_tooltip_text_ovn_fight_eat	Maybe the only threat to a halfling that might make them fight harder is a threat to their food.	true
+unit_abilities_onscreen_name_ovn_fight_eat	Who doesn't fight also doesn't eat!	true
+unit_abilities_tooltip_text_ovn_take_bite	Nothing like a snack mid-battle to re-invigourate a halfling!	true
+unit_abilities_onscreen_name_ovn_take_bite	Here, take a bite!	true
+unit_abilities_tooltip_text_ovn_dont_abandon	If we can't save the food, then why are we even fighting?	true
+unit_abilities_onscreen_name_ovn_dont_abandon	Don't abandon the food!	true
+unit_abilities_tooltip_text_ovn_baby_dragon_breath	Not as dangerous as the breath of an adult, but it is still advised to avoid being its target.	true
+unit_abilities_onscreen_name_ovn_baby_dragon_breath	Hatchling Dragon Breath	true
+unit_abilities_tooltip_text_elo_superfood	"Strange food make strong, eat lots get impressive gut! Taste like dead plague rat though!" - Unknown Ogre Mercenary	true
+unit_abilities_onscreen_name_elo_superfood	Superfood	true
+unit_abilities_onscreen_name_hlf_gatherers_yank	Pin Down	false
+unit_abilities_tooltip_text_hlf_gatherers_yank	"Yank em down boys!"	false
+unit_abilities_onscreen_name_ovn_unit_abilities_crazed_cooks	Crazed Cooks	true
+unit_abilities_tooltip_text_ovn_unit_abilities_crazed_cooks	Frenzied, crazed cooks (they've been at the 'spicy dumplings' again!) jump out of the cooks' formation whirling their heavy cookpots around.	true
+unit_abilities_onscreen_name_ovn_unit_abilities_crazed_cooks_upgraded	Crazed Cooks	true
+unit_abilities_tooltip_text_ovn_unit_abilities_crazed_cooks_upgraded	Frenzied, crazed cooks (they've been at the 'spicy dumplings' again!) jump out of the cooks' formation whirling their heavy cookpots around.	true
+unit_abilities_onscreen_name_ovn_unit_passive_running_with_the_herd	Running with the Herd	true
+unit_abilities_tooltip_text_ovn_unit_passive_running_with_the_herd	Sheep dogs are perfect for managing large herds of livestock.	true
+unit_abilities_tooltip_text_ovn_feast	Doesn't matter if you're a Halfling, an Ogre or something else, the promise of good grub is worth fighting for.	true
+unit_abilities_onscreen_name_ovn_feast	The Feast is Coming!	true
+unit_abilities_tooltip_text_ovn_thief	Halflings have a knack for dodging blows before pin-pointing exposed armour and thrusting their blade.	true
+unit_abilities_onscreen_name_ovn_thief	Tricksy Little Halflings!	true
+special_ability_phases_onscreen_name_ovn_hlf_mislead		true
+unit_abilities_onscreen_name_ovn_hlf_mislead	Mislead	true
+unit_abilities_tooltip_text_ovn_hlf_mislead	This halfling has mastered the arts of deception and distraction.	true
+unit_abilities_tooltip_text_reckless_taste	The gunner of the half-tank schloshes soup around the tank, scalding all enemies who get too close. What can men do against such reckless taste?	true
+unit_abilities_onscreen_name_reckless_taste	Reckless Taste	true
+unit_abilities_tooltip_text_ovn_hlf_ammo	Shoot faster, we have plenty more where that came from!	true
+unit_abilities_onscreen_name_ovn_hlf_ammo	Ammunition Supplies	true
+unit_abilities_onscreen_name_ovn_character_abilities_the_recovery_of_the_king	Recovery of the King	true
+unit_abilities_tooltip_text_ovn_character_abilities_the_recovery_of_the_king	Sobering up Aragand might not always be the best idea, but you might learn a thing or two about him...	true
+unit_abilities_onscreen_name_ovn_character_passive_sobriety	Sobriety	true
+unit_abilities_tooltip_text_ovn_character_passive_sobriety	Heavy drinking leads to a heavy toll, withdrawal. It is inevitable that Aragand will return to the bottle, but for now, heroic deeds await!	true
+unit_abilities_onscreen_name_ovn_character_abilities_hair_of_the_dog	Hair of the Dog	true
+unit_abilities_tooltip_text_ovn_character_abilities_hair_of_the_dog	Just a sip, just one drop, just to dull the pain...	true
+unit_abilities_onscreen_name_ovn_character_abilities_whirling_death	Whirling Death	true
+unit_abilities_tooltip_text_ovn_character_abilities_whirling_death	A Bladesinger’s dance may start as a mesmerising, graceful pirouette, but always ends as a violent maelstrom of slicing, gashing slaughter!	true
+unit_abilities_onscreen_name_ovn_character_abilities_storm_of_blades	Storm of Blades	true
+unit_abilities_tooltip_text_ovn_character_abilities_storm_of_blades	What beauty and violence there is in the dance? A flurry of blades and a certain savagery of intent...	true
+unit_abilities_onscreen_name_ovn_character_abilities_the_shadows_coil	The Shadow's Coil	true
+unit_abilities_tooltip_text_ovn_character_abilities_the_shadows_coil	The wending and twisting of the Wardancers hardens their spirits and their bodies against would-be attackers.	true
+unit_abilities_onscreen_name_ovn_character_abilities_woven_mist	Woven Mist	true
+unit_abilities_tooltip_text_ovn_character_abilities_woven_mist	The Wardancer threads and loops, contorting to create an ethereal fabric that turns aside arrows and bolts.	true
+unit_abilities_onscreen_name_ovn_character_passive_unlikely_friendship	An Unlikely Friendship	true
+unit_abilities_tooltip_text_ovn_character_passive_unlikely_friendship	Legles's friendship comes with some benefits.	true
+unit_abilities_onscreen_name_ovn_character_passive_self_preservation	Self Preservation	true
+unit_abilities_tooltip_text_ovn_character_passive_self_preservation	Giblit would very much like to see tomorrow.	true
+unit_abilities_additional_ui_effects_localised_text_ovn_character_abilities_the_recovery_of_the_king_transform	[[col:green]][[img:icon_arrow_up]][[/img]] The king is back (temporarily)[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_ovn_character_abilities_the_recovery_of_the_king_damage	[[col:red]][[img:icon_arrow_down]][[/img]] Sobriety causes health loss over time[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_ovn_heal_passive_24	[[col:green]][[img:icon_arrow_up]][[/img]] Restores [[img:icon_hp]][[/img]]24 Hit Points per second[[/col]]	true
+unit_abilities_tooltip_text_ovn_fight_eat	Maybe the only threat to a halfling that might make them fight harder is a threat to their food.	true
+unit_abilities_onscreen_name_ovn_fight_eat	Who doesn't fight also doesn't eat!	true
+unit_abilities_tooltip_text_ovn_take_bite	Nothing like a snack mid-battle to re-invigourate a halfling!	true
+unit_abilities_onscreen_name_ovn_take_bite	Here, take a bite!	true
+unit_abilities_tooltip_text_ovn_dont_abandon	If we can't save the food, then why are we even fighting?	true
+unit_abilities_onscreen_name_ovn_dont_abandon	Don't abandon the food!	true
+unit_abilities_tooltip_text_ovn_baby_dragon_breath	Not as dangerous as the breath of an adult, but it is still advised to avoid being its target.	true
+unit_abilities_onscreen_name_ovn_baby_dragon_breath	Hatchling Dragon Breath	true
+unit_abilities_onscreen_name_ammo_supply	Ammunition Supplies	true
+unit_abilities_tooltip_text_ammo_supply	Shoot faster, we have plenty more where that came from!	true
+unit_abilities_onscreen_name_equipment_maintanance	Equipment Wagon	true
+unit_abilities_tooltip_text_equipment_maintanance	Get your broken weapons fixed, your armour upgraded or your hat patched.	true
+unit_abilities_onscreen_name_smokeleaf_smokescreen	Tobacco Smokescreen	true
+unit_abilities_tooltip_text_smokeleaf_smokescreen	The tactical burning of special tobacco obscures the unit and its allies, making them harder to hit with missiles. It also temporarily numbs the pain of warriors in range.	true
+unit_abilities_onscreen_name_hlf_glibfoot_adv_continues	And the Adventure Continues!	true
+unit_abilities_tooltip_text_hlf_glibfoot_adv_continues	“A good story, you don't really write. It was always there. You just uncover it.”	true
+unit_abilities_onscreen_name_hlf_glibfoot_for_the_moot	For the Moot!	false
+unit_abilities_tooltip_text_hlf_glibfoot_for_the_moot	Through his perseverance and determination, Glibfoot's tall tales have now become a reality, and as such he now inspires the Halflings following him to deeds of legend.	false
+unit_abilities_onscreen_name_hlf_glibfoot_hyshia_charged_shot	Hyshia	false
+unit_abilities_tooltip_text_hlf_glibfoot_hyshia_charged_shot	No one is quite sure of how a Halfling adventurer has gotten his hands onto a Druchii Repeater Crossbow, and what's even stranger, the weapon is enchanted with the White Wind of Magic. Could any of Glibfoot's braggadocious tales be actually true?	false
+unit_abilities_onscreen_name_hlf_glibfoot_willowblade_ability	Cipher Blade	false
+unit_abilities_tooltip_text_hlf_glibfoot_willowblade_ability	Glibfoot claims that the High Elves of Ulthuan gifted him this small magical blade as thanks for single-handedly defeating a Greenskin invasion of the Asur Homeland. In reality, it is a trinket "borrowed" from the chambers of an Elven Archmage, an enchanted letter opener with the ability to magically "open" almost anything... armour included.	false
+unit_abilities_onscreen_name_hlf_glibfoot_thief_tactics	Thief Tactics	false
+unit_abilities_tooltip_text_hlf_glibfoot_thief_tactics	"It's TREASURE HUNTER, not thief!"	false
+unit_abilities_onscreen_name_hlf_master_chef_regeneration_passive_aura	Stir the Pot	true
+unit_abilities_tooltip_text_hlf_master_chef_regeneration_passive_aura	So long as the Master Chef is out of combat, he will keep cooking revitalising food for his fellow Halflings. 	true
+unit_abilities_onscreen_name_hlf_master_chef_earth_blood	Beef & Beer Pie	true
+unit_abilities_tooltip_text_hlf_master_chef_earth_blood	"A little bit of Rhya’s fancy"	true
+unit_abilities_onscreen_name_hlf_master_chef_earth_blood_upgraded	Rumster’s Special	true
+unit_abilities_tooltip_text_hlf_master_chef_earth_blood_upgraded	The Rumster Clan of Halflings are known to make anything put in a pie taste good... even each other	true
+unit_abilities_onscreen_name_hlf_master_chef_hot_spices	Hot Spices	true
+unit_abilities_tooltip_text_hlf_master_chef_hot_spices	"One of the longshanks brought these mean little buggers from Lustria... Why don't you have a taste?"	true
+unit_abilities_onscreen_name_hlf_master_chef_flush_soup	Spill the Soup!	true
+unit_abilities_tooltip_text_hlf_master_chef_flush_soup	"So you want to get my food? WELL, CHOKE ON IT!"	true
+unit_abilities_onscreen_name_hlf_master_chef_epinephrine	Epinephrine	true
+unit_abilities_tooltip_text_hlf_master_chef_epinephrine	Go live forever!	true
+special_ability_phases_onscreen_name_hlf_master_chef_contact_poisoned	[[col:red]][[img:ui/skins/default/modifier_icon_poison.png]][[/img]]Deadly Poison Arrow！\\n[[img:icon_hp]][[/img]]Sustained Damage[[/col]]	true
+special_ability_phases_onscreen_name_wh_main_unit_contact_teefin	Teefin'	true
+special_ability_phases_onscreen_name_wh_main_unit_contact_souped	Soup'd	true
+special_ability_phases_onscreen_name_ovn_hlf_bee_throwers_contact	[[col:red]][[img:ui/pj_hlf_bees/bee_icon_16.png]][[/img]]Not the bees!!![[/col]]	true
+unit_abilities_onscreen_name_cr_lore_passive_whiff_of_home_and_hearth	Whiff of Home and Hearth	true
+unit_abilities_tooltip_text_cr_lore_passive_whiff_of_home_and_hearth	So far behind, and yet how easily the memories and smells of home spring to mind.	true
+unit_abilities_onscreen_name_cr_spell_moot_40_goulashes	40 Goulashes	true
+unit_abilities_tooltip_text_cr_spell_moot_40_goulashes	It is said that the Hearth of Esmeralda holds an eternal vessel, inside of which a stew has cooked since time immemorial. Those who fall inside the pot will eventually lose themselves to an empyrean piquancy and a transmundane mouthfeel.	true
+unit_abilities_onscreen_name_cr_spell_moot_40_goulashes_upgraded	40 Goulashes	true
+unit_abilities_tooltip_text_cr_spell_moot_40_goulashes_upgraded	It is said that the Hearth of Esmeralda holds an eternal vessel, inside of which a stew has cooked since time immemorial. Those who fall inside the pot will eventually lose themselves to an empyrean piquancy and a transmundane mouthfeel.	true
+unit_abilities_onscreen_name_cr_spell_moot_phineas_wrath	Phineas's Wrath	true
+unit_abilities_tooltip_text_cr_spell_moot_phineas_wrath	Call upon a manifestation of Phineas Fullpouch, patron of tobacco smokers, to huff and puff your enemies away!	true
+unit_abilities_onscreen_name_cr_spell_moot_phineas_wrath_upgraded	Phineas's Wrath	true
+unit_abilities_tooltip_text_cr_spell_moot_phineas_wrath_upgraded	Call upon a manifestation of Phineas Fullpouch, patron of tobacco smokers, to huff and puff your enemies away!	true
+unit_abilities_onscreen_name_cr_spell_moot_josiass_bodily_cleanse	Josias's Bodily Cleanse	true
+unit_abilities_tooltip_text_cr_spell_moot_josiass_bodily_cleanse	Josias the Farmer can provide five of the seven recommended servings of fruits and vegetables. Not locally sourced, but certainly locally applied.	true
+unit_abilities_onscreen_name_cr_spell_moot_josiass_bodily_cleanse_upgraded	Josias's Bodily Cleanse	true
+unit_abilities_tooltip_text_cr_spell_moot_josiass_bodily_cleanse_upgraded	Josias the Farmer can provide five of the seven recommended servings of fruits and vegetables. Not locally sourced, but certainly locally applied.	true
+unit_abilities_onscreen_name_cr_spell_moot_barnyard_stampede	Barnyard Stampede	true
+unit_abilities_tooltip_text_cr_spell_moot_barnyard_stampede	A simultaneous prayer to both Gaffey the Builder and Josias the Farmer can result in the appearance of a dimensional barndoor, likely linked to a stable somewhere in the Aver March, where husbandry is an art.	true
+unit_abilities_onscreen_name_cr_spell_moot_barnyard_stampede_upgraded	Barnyard Stampede	true
+unit_abilities_tooltip_text_cr_spell_moot_barnyard_stampede_upgraded	A simultaneous prayer to both Gaffey the Builder and Josias the Farmer can result in the appearance of a dimensional barndoor, likely linked to a stable somewhere in the Aver March, where husbandry is an art.	true
+unit_abilities_onscreen_name_cr_spell_moot_esmeraldas_last_course	Esmeralda's Last Course	true
+unit_abilities_tooltip_text_cr_spell_moot_esmeraldas_last_course	Pies can be thought of as a divine manifestation of Esmeralda. Any foe of the Moot that finds themself baked inside one won't last long, one way or the other...	true
+unit_abilities_onscreen_name_cr_spell_moot_esmeraldas_last_course_upgraded	Esmeralda's Last Course	true
+unit_abilities_tooltip_text_cr_spell_moot_esmeraldas_last_course_upgraded	Pies can be thought of as a divine manifestation of Esmeralda. Any foe of the Moot that finds themself baked inside one won't last long, one way or the other...	true
+unit_abilities_onscreen_name_cr_spell_moot_haffenlyver	Haffenlyver	true
+unit_abilities_tooltip_text_cr_spell_moot_haffenlyver	Quinsberry, the halfling god of ancestry and tradition, grants each ally a tailor-made vision of their lineage, bolstering their resolve in combat.	true
+unit_abilities_onscreen_name_cr_spell_moot_haffenlyver_upgraded	Haffenlyver	true
+unit_abilities_tooltip_text_cr_spell_moot_haffenlyver_upgraded	Quinsberry, the halfling god of ancestry and tradition, grants each ally a tailor-made vision of their lineage, bolstering their resolve in combat.	true
+unit_abilities_additional_ui_effects_localised_text_cr_spell_tasty_pies	[[col:green]][[img:icon_arrow_up]][[/img]] Allied units in combat with target will heal overtime, tasty![[/col]]	true

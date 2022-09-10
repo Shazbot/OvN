@@ -1,0 +1,27 @@
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;3;db/unit_variants_colours_tables/ovn_halflings_only_custom_battles							
+694122311	ovn_hlf_the_moot	soldier	ovn_mtl_art_hotpot		F0F0F0	F0F0F0	F0F0F0
+694122312	ovn_hlf_the_moot	soldier	ovn_mtl_art_hotpot_ror		F0F0F0	F0F0F0	F0F0F0
+694122313	ovn_hlf_the_moot	soldier	elo_supply_wagon		F0F0F0	F0F0F0	F0F0F0
+694122314	ovn_hlf_the_moot	soldier	halfling_militia		917832	785A19	A08246
+694122315	ovn_hlf_the_moot	soldier	halfling_milittia_arch		917832	785A19	785A19
+694122316	ovn_hlf_the_moot	soldier	halfling_warfoot		FFFFBE	9B2323	234B23
+694122317	ovn_hlf_the_moot	soldier	sr_ogre		8CA032	C8BE3C	DCDCDC
+694122318	ovn_hlf_the_moot	soldier	ovn_hlf_ll		191919	503228	191919
+694122319	ovn_hlf_the_moot	soldier	halfling_cook		8CA032	C8A03C	F0F0F0
+694122320	ovn_hlf_the_moot	soldier	halfling_thief		323232	503828	191919
+694122321	ovn_hlf_the_moot	soldier	halfling_cat		E6E6E6	E6E6E6	E6E6E6
+694122322	ovn_hlf_the_moot	soldier	halfling_spear		917832	785A19	A08246
+694122323	ovn_hlf_the_moot	soldier	halfling_cook_ror		E6E6E6	E6E6E6	F0F0F0
+694122324	ovn_hlf_the_moot	soldier	halfling_cat_ror		E6E6E6	E6E6E6	E6E6E6
+694122325	ovn_hlf_the_moot	soldier	halfling_archer		4B6E3C	4B6E3C	C8C8C8
+694122326	ovn_hlf_the_moot	soldier	halfling_cock		3F7C45	960000	960000
+694122327	ovn_hlf_the_moot	soldier	ovn_hlf_glibfoot		2B4830	000000	2B3730
+694122328	ovn_hlf_the_moot	soldier	ovn_hlf_fieldwarden		983300	663300	983300
+694122329	ovn_hlf_the_moot	soldier	ovn_hlf_moot_general		8CA032	800000	9B2D23
+694122330	ovn_hlf_the_moot	soldier	ovn_hlf_master_chef		CC9900	E6E6E6	E6E6E6
+694122331	ovn_hlf_the_moot	officer	ovn_hlf_moot_general_2_poultry		8CA032	800000	9B2D23
+694122332	ovn_hlf_the_moot	officer	ovn_hlf_master_chef_1		CC9900	E6E6E6	E6E6E6
+694122333	ovn_hlf_the_moot	soldier	halfling_knights_kitchentable_ror		773232	F3F3F3	010101
+694122334	ovn_hlf_the_moot	soldier	halfling_lords_of_harvest_ror		773232	FFFF66	010101
+694122335	ovn_hlf_the_moot	soldier	halfling_pantry_guards_ror		009999	FFFF66	FFFFFF

@@ -1,0 +1,3 @@
+agent	faction	subtype
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/ovn_halflings_only		
+general	ovn_hlf_the_moot	cr_mtl_matron

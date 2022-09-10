@@ -1,0 +1,33 @@
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_hlf_buildings						
+261500000	ovn_hlf_moot_cauldron_1	ovn_mtl_art_hotpot_ror	0	0		false
+261500001	ovn_hlf_moot_cauldron_1	halfling_cook_ror	0	0		false
+261500002	ovn_hlf_moot_cauldron_1	sr_ogre	0	0		false
+261500003	ovn_hlf_welf_1	halfling_inf	0	0		false
+261500004	ovn_hlf_welf_1	wh2_dlc10_hef_inf_dryads_0	0	0		false
+261500005	ovn_hlf_welf_2	wh2_dlc10_hef_mon_treekin_0	0	0		false
+261500006	ovn_hlf_welf_2	halfling_archer	0	0		false
+261500007	ovn_hlf_welf_3	wh2_dlc10_hef_mon_treeman_0	0	0		false
+261500008	ovn_hlf_welf_3	wh2_main_hef_mon_great_eagle	0	0		false
+261500009	ovn_half_barracks_1	halfling_milittia_great	0	0		false
+261500010	ovn_half_barracks_1	halfling_spear	0	0		false
+261500011	ovn_half_barracks_1	ovn_hlf_bee_throwers	0	0		false
+261500012	ovn_half_barracks_1	ovn_hlf_sheep_dogs	0	0		false
+261500013	ovn_half_barracks_2	halfling_inf	0	0		false
+261500014	ovn_half_barracks_2	halfling_archer	0	0		false
+261500015	ovn_half_barracks_3	halfling_thief	0	0		false
+261500016	ovn_half_barracks_3	halfling_warden_great	0	0		false
+261500017	ovn_half_barracks_3	elo_supply_wagon	0	0		false
+261500018	ovn_half_forges_1	ovn_mtl_art_hotpot	0	0		false
+261500019	ovn_half_forges_1	ovn_mtl_veh_reaper	0	0		false
+261500020	ovn_Animal_Rearing_1	ovn_mtl_cav_swine_riders_0	0	0		false
+261500021	ovn_Animal_Rearing_1	half_pig	0	0		false
+261500022	ovn_Animal_Rearing_1	hlf_roast_pig	0	0		false
+261500023	ovn_Animal_Rearing_2	ovn_mtl_cav_battleram_riders_0	0	0		false
+261500024	ovn_Animal_Rearing_2	ovn_mtl_cav_poultry_riders_0	0	0		false
+261500025	ovn_Animal_Rearing_2	ovn_mtl_cav_swan_riders_0	0	0		false
+261500026	ovn_half_dragon	hlf_baby_dragon	0	0		false
+261500027	ovn_half_tavern_1	halfling_cook	0	0		false
+261500028	ovn_half_tavern_2	hlf_gatherers	0	0		false
+261500029	ovn_half_tavern_2	halfling_housewives	0	0		false
+261500030	ovn_half_tavern_3	sr_ogre	0	0		false

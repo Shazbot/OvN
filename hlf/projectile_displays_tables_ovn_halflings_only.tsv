@@ -1,0 +1,10 @@
+key	display_model	impact	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood	mirroring_start	mirroring_trail	scale
+#projectile_displays_tables;12;db/projectile_displays_tables/ovn_halflings_only																		
+reckless_taste		wh_main_mtl_soup_projectile						0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact						1.0
+ovn_com_firework_rocket	projectiles/ovn_com_fireworks_rocket_01.wsmodel	wh_main_impact_very_small		wh_main_weapon_trail_rocket_medium				0.0	true	wh_main_unit_launch_light	wh_main_impact_very_small	wh_main_entity_impact						1.0
+ovn_com_firework_rocket_shrapnel	projectiles\wh_emp_rocket_shrapnel.rigid_model_v2	wh2_main_hero_abilities_doomrocket_impact		wh2_main_abilities_doomrocket_shrapnel_trail				0.0	true	wh_main_unit_launch_light	wh2_main_hero_abilities_doomrocket_impact	wh2_main_hero_abilities_doomrocket_impact						1.0
+wh_main_mtl_soup_projectile		wh_main_mtl_soup_projectile		wh_main_hotpot_soupcart_projectile_trail				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact						1.0
+ovn_mtl_hotpot_projectile	projectiles\mtl_hotpot_projectile_01.wsmodel	wh_main_mtl_soup_projectile		wh_main_soup_projectile_trail				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact						1.0
+ovn_mtl_hotpot_ror_projectile	projectiles\mtl_hotpot_ror_projectile_01.wsmodel	ovn_mtl_hotpot_ror_projectile		ovn_mtl_hotpot_ror_projectile_trail				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact						1.0
+ovn_hlf_bee_throwers	variantmeshes/wh_variantmodels/hu3/mtl/mtl_bees/beehive1.rigid_model_v2			wh_main_weapon_trail_smoke_small				0.0	false	wh_main_unit_launch_medium	wh_main_bounce_impact	wh_main_entity_impact						1.0
+cr_spell_moot_josiass_bodily_cleanse		cr_moot_josiass_bodily_cleanse		cr_moot_josiass_bodily_cleanse_trail				0.0	false	wh_main_unit_launch_medium	wh_main_spell_bound_soulfire	wh_main_spell_bound_soulfire						1.0

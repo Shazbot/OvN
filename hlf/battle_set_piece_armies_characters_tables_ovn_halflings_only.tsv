@@ -1,0 +1,10 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/ovn_halflings_only												
+ovn_com_cha_olorin_the_grey_wizard	1	162509577	wh_dlc05_lore_shadows	100	271572567	ovn_com_cha_olorin_the_grey_wizard_0	general	ovn_com_olorin_the_grey_wizard	ui/portraits/portholes/ovn_the_comradeship/ovn_com_olorin_the_grey_wizard.png	137587985		true
+ovn_com_cha_aragand_the_layabout	1	452577106		100	564280971	ovn_com_cha_aragand_the_layabout_0	champion	ovn_com_aragand_the_layabout	ui/portraits/portholes/ovn_the_comradeship/ovn_com_aragand_the_layabout.png	137587986		true
+ovn_com_cha_legles_the_elf	1	252755655		100	431114642	ovn_com_cha_legles_the_elf_0	spy	ovn_com_legles_the_elf	ui/portraits/portholes/ovn_the_comradeship/ovn_com_legles_the_elf.png	137587987		true
+ovn_com_cha_giblit_the_dwarf	1	187373064		100	854306550	ovn_com_cha_giblit_the_dwarf_0	champion	ovn_com_giblit_the_dwarf	ui/portraits/portholes/ovn_the_comradeship/ovn_com_giblit_the_dwarf.png	137587988		true
+ovn_hlf_ll	1	999982316	wh_dlc05_lore_shadows	100		ovn_hlf_ll	general	ovn_hlf_ll	ui/portraits/portholes/no_culture/ovn_hlf_ll.png	290598904		true
+hlf_glibfoot	1	858212100		100	858212101	ovn_hlf_glibfoot	general	ovn_hlf_glibfoot	ui/portraits/portholes/no_culture/ovn_hlf_glibfoot.png	278687905		true
+ovn_hlf_moot_general	1	999982316		100		ovn_hlf_moot_general_0	general	ovn_hlf_moot_general	ui/portraits/portholes/no_culture/ovn_hlf_moot_general.png	299597905		true
+cr_mtl_cha_matron_moot_0	1	523411111		100	2147350596	cr_mtl_cha_matron_moot_0	runesmith	cr_mtl_matron	ui/portraits/portholes/wh_main_emp_empire/cr_mtl_matron_01.png	43521111	wh_main_skill_node_set_emp_general	false

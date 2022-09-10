@@ -1,0 +1,18 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/ovn_hlf_buildings									
+ovn_half_smiths			military	false	ovn_half_smiths		1		true
+ovn_hlf_resource_salt			money	true	ovn_hlf_resource_salt		10		true
+ovn_hlf_welf			military	false	ovn_hlf_welf		7		true
+ovn_hlf_cig			money	false	ovn_hlf_cig		7		true
+ovn_Animal_Rearing			military	false	ovn_Animal_Rearing		7		true
+ovn_half_industry			money	false	ovn_half_industry		7		true
+ovn_half_dragon			military	false	ovn_half_dragon		7		true
+ovn_half_barracks			military	false	ovn_half_barracks		1		true
+ovn_half_forges			military	false	ovn_half_forges		3		true
+ovn_half_tavern			happiness	false	ovn_half_tavern		3		true
+ovn_hlf_roads			money	false	ovn_hlf_roads		4		true
+ovn_hlf_foreign_slot_discovery			money	false	ovn_hlf_foreign_slot_discovery		9		true
+ovn_hlf_farm_basic			money	true	ovn_hlf_farm_basic		1		true
+ovn_hlf_garrison			military	true	ovn_hlf_garrison		0		true
+ovn_hlf_worship			military	true	ovn_hlf_worship		2		true
+ovn_hlf_moot_cauldron			money	false	ovn_hlf_moot_cauldron		0		true

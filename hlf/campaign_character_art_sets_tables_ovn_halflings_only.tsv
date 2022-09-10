@@ -1,0 +1,18 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_halflings_only								
+ovn_hlf_glibfoot	general				false	true	ovn_hlf_glibfoot	1.4
+ovn_hlf_moot_general	general				false	true	ovn_hlf_moot_general	1.4
+ovn_hlf_moot_general_1	general				false	true	ovn_hlf_moot_general	1.4
+ovn_hlf_fieldwarden_01	spy				false	true	ovn_hlf_fieldwarden	1.0
+ovn_hlf_fieldwarden_02	spy				false	true	ovn_hlf_fieldwarden	1.0
+ovn_hlf_master_chef_01	dignitary				false	true	ovn_hlf_master_chef	1.0
+ovn_hlf_master_chef_02	dignitary				false	true	ovn_hlf_master_chef	1.0
+ovn_hlf_sheriff_01	champion				false	true	ovn_hlf_sheriff	1.0
+ovn_hlf_sheriff_02	champion				false	true	ovn_hlf_sheriff	1.0
+ovn_art_set_com_olorin_the_grey_wizard	general	wh_main_emp_empire			false	true	ovn_com_olorin_the_grey_wizard	1.0
+ovn_art_set_com_aragand_the_layabout	champion	wh_main_emp_empire			false	true	ovn_com_aragand_the_layabout	1.0
+ovn_art_set_com_legles_the_elf	spy	wh_main_emp_empire			false	true	ovn_com_legles_the_elf	1.0
+ovn_art_set_com_giblit_the_dwarf	champion	wh_main_emp_empire			false	true	ovn_com_giblit_the_dwarf	1.0
+ovn_hlf_ll	general				false	true	ovn_hlf_ll	1.4
+cr_art_set_mtl_matron_01	general		wh_main_sc_emp_empire		false	true	cr_mtl_matron	1.0
+cr_art_set_mtl_matron_02	general		wh_main_sc_emp_empire		false	true	cr_mtl_matron	1.0

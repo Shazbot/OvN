@@ -1,0 +1,6 @@
+key	decal	vfx_central	vfx_ring	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time	custom_spline	spline_col_hex	spline_oor_col_hex
+#area_of_effect_displays_tables;9;db/area_of_effect_displays_tables/ovn_halflings_only												
+cr_spell_moot_40_goulashes		cr_moot_40_goulashes_pot		0.0	1		false	-1	true		0000FF	0000FF
+cr_spell_moot_phineas_wrath		cr_moot_phineas_wrath_phineas		0.0	1		false	-1	true		0000FF	0000FF
+cr_spell_moot_barnyard_stampede		cr_moot_barnyard_stampede_barndoor		50.0	24		false	-1	true		0000FF	0000FF
+cr_spell_moot_haffenlyver		cr_moot_haffenlyver		0.0	1		false	-1	true		0000FF	0000FF
