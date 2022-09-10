@@ -1,0 +1,16 @@
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;3;db/unit_variants_colours_tables/ovn_albion_only							
+808891004	ovn_alb_order_of_the_truthsayers	soldier	albion_huntresses		E1DCC8	3C3C8C	8C1E1E
+808891005	ovn_alb_order_of_the_truthsayers	soldier	albion_hearthguard		E1DCC8	3C3C8C	8C1E1E
+808891006	ovn_alb_order_of_the_truthsayers	soldier	albion_hearthguard_halberd		E1DCC8	3C3C8C	8C1E1E
+808891007	ovn_alb_order_of_the_truthsayers	soldier	albion_hearthguard_2h		E1DCC8	3C3C8C	8C1E1E
+808891008	ovn_alb_order_of_the_truthsayers	soldier	ovn_barrow_wight		E1DCC8	3C3C8C	8C1E1E
+112233441	ovn_alb_order_of_the_truthsayers	soldier	albion_shieldmaiden_ror		FFE97F	7F0000	7F0000
+112233442	ovn_alb_order_of_the_truthsayers	soldier	albion_woadraider_sworn_ror		A00000	A00000	A00000
+112233443	ovn_alb_order_of_the_truthsayers	soldier	alb_cav_noble_first_ror		A00000	729E79	A00000
+112233444	ovn_alb_order_of_the_truthsayers	soldier	albion_warriors_lugh		CD6600	7F0000	A00000
+112233445	ovn_alb_order_of_the_truthsayers	soldier	albion_huntresses_warden_ror		737C67	729E79	A00000
+112233446	ovn_alb_order_of_the_truthsayers	soldier	albion_centaur_hunter_ror		005921	7C0420	A00000
+112233447	ovn_alb_order_of_the_truthsayers	soldier	albion_highlander_ror		006915	7C0420	A00000
+112233448	ovn_alb_order_of_the_truthsayers	soldier	albion_cachtorr_stonethrower		006915	E1E100	FF0000
+112233449	ovn_alb_order_of_the_truthsayers	soldier	albion_bologs_giant_ror		A00000	A00000	A00000

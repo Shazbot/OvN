@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_albion_only_special_ability_groups.loc		
+special_ability_groups_name_elo_lore_truthsayer	Lore of the Truthsayers	true
+special_ability_groups_name_elo_lore_morrigan	Magic of the Murder-Queen	true
+special_ability_groups_name_elo_lore_wyrd	Druidic Magic	true

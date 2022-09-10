@@ -1,0 +1,5 @@
+key	close_formation_spacing_horizontal	close_formation_spacing_variation	close_formation_spacing_vertical	dismounted_close_formation_spacing_horizontal	dismounted_close_formation_spacing_variation	dismounted_close_formation_spacing_vertical	dismounted_loose_formation_spacing_horizontal	dismounted_loose_formation_spacing_variation	dismounted_loose_formation_spacing_vertical	loose_formation_spacing_horizontal	loose_formation_spacing_variation	loose_formation_spacing_vertical	routing_space_variation	is_chaotic_formation
+#unit_spacings_tables;5;db/unit_spacings_tables/ovn_albion_only														
+wh_main_monstrous_bog_beast	7.0	1.8	12.0	1.0	1.0	1.0	1.0	1.0	1.0	10.5	4.0	12.5	3.0	false
+cr_shieldwall	1.6	0.0	1.8	1.0	0.0	1.0	1.0	0.0	1.0	2.0	0.0	2.0	3.0	false
+cr_cavalry_chaos_knights	4.5	1.1	5.0	1.2	1.0	1.0	1.0	1.0	1.0	2.8	0.8	5.0	3.0	false

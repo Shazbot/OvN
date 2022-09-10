@@ -1,0 +1,5 @@
+key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon	small_icon	recruitable_in_ui
+#agent_culture_details_tables;9;db/agent_culture_details_tables/ovn_albion_only										
+1116865	general	ovn_albion	albion_warleader		0				ui/campaign ui/agents/wh_main_emp_champion.png	true
+1116866	wizard	ovn_albion	albion_wyrd_druid		0		f		ui/campaign ui/agents/wh_main_wizard.png	true
+1116867	champion	ovn_albion	albion_chief		0		m		ui/campaign ui/agents/wh2_main_hef_champion.png	true

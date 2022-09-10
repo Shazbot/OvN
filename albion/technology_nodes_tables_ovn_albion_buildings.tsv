@@ -1,0 +1,26 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/ovn_albion_buildings														
+albion_tech_war_1			0	albion_tech_war_1	alb_mil	1	100	0	0			0	0	0
+albion_tech_war_2			0	albion_tech_war_2	alb_mil	2	400	0	0			0	0	0
+albion_tech_war_3			0	albion_tech_war_3	alb_mil	3	700	0	0			0	0	0
+albion_tech_war_4			0	albion_tech_war_4	alb_mil	4	1000	0	0			0	0	0
+albion_tech_war_5			0	albion_tech_war_5	alb_mil	5	1500	0	0			0	0	0
+albion_tech_war_truth_1			2	albion_tech_war_truth_1	alb_mil	2	800	0	0			0	0	0
+albion_tech_war_truth_2			2	albion_tech_war_truth_2	alb_mil	3	1200	0	0			0	0	0
+albion_tech_war_truth_3			2	albion_tech_war_truth_3	alb_mil	4	1600	0	0			0	0	0
+albion_tech_war_truth_4			2	albion_tech_war_truth_4	alb_mil	5	2000	0	0			0	0	0
+albion_tech_truth_1			4	albion_tech_truth_1	alb_mil	1	100	0	0			0	0	0
+albion_tech_truth_2			4	albion_tech_truth_2	alb_mil	2	400	0	0			0	0	0
+albion_tech_truth_3			4	albion_tech_truth_3	alb_mil	3	700	0	0			0	0	0
+albion_tech_truth_4			4	albion_tech_truth_4	alb_mil	4	1000	0	0			0	0	0
+albion_tech_truth_5			4	albion_tech_truth_5	alb_mil	5	1500	0	0			0	0	0
+albion_tech_truth_peace_1			6	albion_tech_truth_peace_1	alb_mil	2	800	0	0			0	0	0
+albion_tech_truth_peace_2			6	albion_tech_truth_peace_2	alb_mil	3	1200	0	0			0	0	0
+albion_tech_truth_peace_3			6	albion_tech_truth_peace_3	alb_mil	4	1600	0	0			0	0	0
+albion_tech_truth_peace_4			6	albion_tech_truth_peace_4	alb_mil	5	2000	0	0			0	0	0
+albion_tech_peace_1			8	albion_tech_peace_1	alb_mil	1	100	0	0			0	0	0
+albion_tech_peace_2			8	albion_tech_peace_2	alb_mil	2	400	0	0			0	0	0
+albion_tech_peace_3			8	albion_tech_peace_3	alb_mil	3	700	0	0			0	0	0
+albion_tech_peace_4			8	albion_tech_peace_4	alb_mil	4	1000	0	0			0	0	0
+albion_tech_peace_5			8	albion_tech_peace_5	alb_mil	5	1500	0	0			0	0	0
+albion_tech_ultimate			4	albion_tech_ultimate	alb_mil	6	2500	0	0			0	0	0

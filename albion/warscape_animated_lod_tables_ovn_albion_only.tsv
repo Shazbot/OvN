@@ -1,0 +1,4 @@
+key	filename	range	animated
+#warscape_animated_lod_tables;1;db/warscape_animated_lod_tables/ovn_albion_only			
+21466556926	warmachines\chariot\tmb_basic_chariot\elo_albion_chariot_01.rigid_model_v2	0.0	albion_chariot
+21466556937	warmachines/stonethrower/alb_stonethrower.rigid_model_v2	0.0	alb_stonethrower

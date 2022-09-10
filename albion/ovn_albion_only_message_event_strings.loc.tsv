@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_albion_only_message_event_strings.loc		
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_primary_detail	Dark Emissaries forces at the Mainland!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_secondary_detail	Dark forces prepare to ravage our Capital! They seek to use its power for their own dark and twisted purposes.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_primary_detail	Dark Emissary forces to the North!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_n_secondary_detail	Dark forces muster to the north! Prepare the defenses, we shall beat them back from the Citadel! We will never fall to their dark and twisted plans.	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_primary_detail	Dark Emissary forces to the South!	true
+event_feed_strings_text_ovn_event_feed_string_scripted_event_alb_invasion_s_secondary_detail	Dark forces sighted on the southern shores! Their lay their greedy eyes on the Isle of Wights!	true
