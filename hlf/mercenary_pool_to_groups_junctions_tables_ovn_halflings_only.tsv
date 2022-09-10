@@ -1,0 +1,12 @@
+key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
+#mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/ovn_halflings_only						
+1436884094	halfling_warfoot	1	ovn_halflings_ror			
+1436884095	sr_ogre_ror	1	ovn_halflings_ror			
+1436884096	halfling_cock	1	ovn_halflings_ror			
+1436884097	wh_main_mtl_veh_soupcart	1	ovn_halflings_ror			
+1436884098	halfling_cat_ror	1	ovn_halflings_ror			
+1436884099	halfling_pantry_guards_ror	1	ovn_halflings_ror			
+1436884100	halfling_lords_of_harvest_ror	1	ovn_halflings_ror			
+1436884101	halfling_knights_kitchentable_ror	1	ovn_halflings_ror			
+1436884102	halfling_cook_ror	1	ovn_halflings_ror			
+1436884103	ovn_mtl_art_hotpot_ror	1	ovn_halflings_ror			
