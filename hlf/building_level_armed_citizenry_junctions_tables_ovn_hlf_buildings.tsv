@@ -1,0 +1,17 @@
+id	building_level	unit_group
+#building_level_armed_citizenry_junctions_tables;1;db/building_level_armed_citizenry_junctions_tables/ovn_hlf_buildings		
+92112945	ovn_hlf_welf_1	wh_dlc05_wef_dryads
+92112946	ovn_hlf_welf_2	wh_dlc05_wef_dryads
+92112947	ovn_hlf_welf_2	wh_dlc05_wef_dryads
+92112948	ovn_hlf_welf_3	wh_dlc05_wef_dryads
+92112949	ovn_hlf_welf_3	wh2_dlc10_hef_mon_treeman_0
+92112535	wh2_main_emp_defence_norsca_1	ovn_halfling
+92112410	ovn_hlf_garrison_1	ovn_halfling
+92112411	ovn_hlf_garrison_2	ovn_halfling
+92112412	ovn_hlf_garrison_2	ovn_halfling2
+92112473	ovn_hlf_walls_1	ovn_halfling
+92112474	ovn_hlf_walls_2	ovn_halfling
+92112475	ovn_hlf_walls_2	ovn_halfling
+92112476	ovn_hlf_walls_3	ovn_halfling2
+92112477	ovn_hlf_walls_3	ovn_halfling
+92112644	wh_main_sch_special_moot_cauldron_1	ovn_halfling_landmark

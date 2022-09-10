@@ -73,7 +73,7 @@ ovn_hlf_roads_2	wh_main_effect_province_growth_building		region_to_province_own	
 ovn_hlf_foreign_slot_discovery_1	wh2_main_effect_plague_infectivity_mod		region_to_region_own	-50.0	-25.0	0.0
 ovn_hlf_foreign_slot_discovery_1	wh3_main_effect_block_chaos_rifts		region_to_province_own	1.0	1.0	0.0
 ovn_hlf_foreign_slot_discovery_1	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-1.0	-1.0	0.0
-ovn_hlf_foreign_slot_discovery_1	wh_main_effect_public_order_penalty_other_religions		province_to_province_own_unseen	-50.0	-25.0	0.0
+ovn_hlf_foreign_slot_discovery_1	wh_main_effect_public_order_base		province_to_province_own_unseen	3.0	2.0	0.0
 ovn_hlf_farm_basic_1	wh_main_effect_force_all_campaign_replenishment_rate		province_to_army_own	2.0	1.0	0.0
 ovn_hlf_farm_basic_1	wh_main_effect_province_growth_building		region_to_province_own	20.0	10.0	0.0
 ovn_hlf_farm_basic_2	wh_main_effect_force_all_campaign_replenishment_rate		province_to_army_own	3.0	2.0	0.0
