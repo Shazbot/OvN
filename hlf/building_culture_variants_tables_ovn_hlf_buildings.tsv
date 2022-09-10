@@ -42,3 +42,6 @@ ovn_hlf_settlement_minor_1				wh_main_PLACEHOLDER	empire_city	false	wh_main_emp_
 ovn_hlf_settlement_minor_2				wh_main_PLACEHOLDER	empire_city	false	wh_main_emp_settlement_major_2	true
 ovn_hlf_settlement_minor_3				wh_main_PLACEHOLDER	empire_city	false	wh_main_emp_settlement_major_3	true
 ovn_hlf_settlement_minor_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	wh_main_settlement_major_ruin	true
+ovn_hlf_walls_1				wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_1	true
+ovn_hlf_walls_2				wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_2	true
+ovn_hlf_walls_3				wh_main_PLACEHOLDER	empire_walls	false	wh_main_emp_walls_3	true

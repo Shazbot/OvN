@@ -16,5 +16,6 @@ ovn_hlf_farm_basic			money	true	ovn_hlf_farm_basic		1		true
 ovn_hlf_garrison			military	true	ovn_hlf_garrison		0		true
 ovn_hlf_worship			military	true	ovn_hlf_worship		2		true
 ovn_hlf_moot_cauldron			money	false	ovn_hlf_moot_cauldron		0		true
+ovn_hlf_walls			military	true	ovn_hlf_walls		0		true
 ovn_hlf_settlement_major			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
 ovn_hlf_settlement_minor			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
