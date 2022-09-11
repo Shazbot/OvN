@@ -179,3 +179,18 @@ effects_description_cr_effect_magic_moot_reduce_wom_cost_josiass_bodily_cleanse	
 effects_description_cr_effect_magic_moot_reduce_wom_cost_josiass_bodily_cleanse_upgraded	Winds of Magic cost: %n for "Josias's Bodily Cleanse Upgraded"	true
 effects_description_cr_effect_magic_moot_reduce_wom_cost_phineas_wrath	Winds of Magic cost: %n for "Phineas's Wrath"	true
 effects_description_cr_effect_magic_moot_reduce_wom_cost_phineas_wrath_upgraded	Winds of Magic cost: %n for "Phineas's Wrath Upgraded"	true
+effects_description_ovn_buff_soup_art	Missile strength: %+n% for Hot-Pot Catapults and Kathleen Steam Tank	true
+effects_description_ovn_buff_halfling_welf	Melee defence: %+n for Dryads, Treekin, Treemen and Great Eagles	true
+effects_description_ovn_halfling_hlf_r7_morale	Leadership: %+n for all Halflings {{tr:rank7}}	true
+effects_description_ovn_halfling_ogre_r7_morale	Leadership: %+n for Imperial Ogres {{tr:rank7}}	true
+effects_description_ovn_halfling_welf_r7_morale	Leadership: %+n for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
+effects_description_ovn_soup_art_r7_range	Range: %+n for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
+effects_description_ovn_halfling_hlf_r7_melee	Melee Attack: %+n for all Halflings {{tr:rank7}}	true
+effects_description_ovn_halfling_ogre_r7_resistance_physical	Physical resistance: %+n for Imperial Ogres {{tr:rank7}}	true
+effects_description_ovn_halfling_welf_r7_speed	Speed: %+n% for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
+effects_description_ovn_soup_art_r7_reload	Reload time reduction: %+n% for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
+effects_description_ovn_halfling_hlf_r7_melee	Melee Attack: %+n for all Halflings {{tr:rank7}}	true
+effects_description_ovn_halfling_ogre_r7_resistance_physical	Physical resistance: %+n for Imperial Ogres {{tr:rank7}}	true
+effects_description_ovn_halfling_welf_r7_speed	Speed: %+n% for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
+effects_description_ovn_soup_art_r7_reload	Reload time reduction: %+n% for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
+effects_description_elo_ogres_trait	Leadership: %+n for Imperial Ogres	true

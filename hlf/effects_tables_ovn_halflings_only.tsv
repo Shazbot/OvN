@@ -170,3 +170,14 @@ cr_effect_magic_moot_reduce_wom_cost_josiass_bodily_cleanse	spell_ability.png	68
 cr_effect_magic_moot_reduce_wom_cost_josiass_bodily_cleanse_upgraded	spell_ability.png	68	spell_ability.png	battle	false
 cr_effect_magic_moot_reduce_wom_cost_phineas_wrath	spell_ability.png	68	spell_ability.png	battle	false
 cr_effect_magic_moot_reduce_wom_cost_phineas_wrath_upgraded	spell_ability.png	68	spell_ability.png	battle	false
+ovn_buff_soup_art	ranged_damage.png	4	ranged_damage.png	battle	true
+ovn_buff_halfling_welf	defence.png	4	defence.png	battle	true
+ovn_halfling_hlf_r7_morale	morale.png	4	morale.png	battle	true
+ovn_halfling_hlf_r7_melee	melee.png	4	general_ability.png	battle	true
+ovn_halfling_ogre_r7_morale	morale.png	4	morale.png	battle	true
+ovn_halfling_ogre_r7_resistance_physical	resistance_physical.png	4	resistance_physical.png	battle	true
+ovn_halfling_welf_r7_morale	morale.png	4	morale.png	battle	true
+ovn_halfling_welf_r7_speed	battle_movement.png	4	general_ability.png	battle	true
+ovn_soup_art_r7_range	ranged_damage.png	4	ranged_damage.png	battle	true
+ovn_soup_art_r7_reload	ranged_damage.png	4	ranged_damage.png	battle	true
+elo_ogres_trait	morale.png	4	morale.png	battle	true
