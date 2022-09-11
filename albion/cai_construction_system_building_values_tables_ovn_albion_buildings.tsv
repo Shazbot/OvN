@@ -12,3 +12,5 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		ovn_albion_stables_1	ovn_albion_stables_3			cai_military_group					0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	40	40
 		ovn_albion_foreign_slot_discovery_1	ovn_albion_foreign_slot_discovery_1			cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
 ovn_albion_walls						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	250
+ovn_albion_settlement_minor						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+ovn_albion_settlement_major						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50

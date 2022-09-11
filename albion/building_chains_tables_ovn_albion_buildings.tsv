@@ -24,3 +24,5 @@ alb_resource_gold			money	false	alb_resource_gold		0		true
 alb_resource_iron			money	false	alb_resource_iron		0		true
 alb_resource_pottery			money	false	alb_resource_pottery		0		true
 alb_resource_medicine			money	false	alb_resource_medicine		0		true
+ovn_albion_settlement_major			money	true	wh_main_sch_main_settlement		0		true
+ovn_albion_settlement_minor			money	true	wh_main_sch_main_settlement		0		true
