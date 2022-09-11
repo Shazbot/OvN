@@ -63,3 +63,5 @@ elo_hlf_emp_ranged_dmg	ranged_damage.png	100	ranged_damage.png	battle	true
 supply_cart_loose	general_ability.png	100	general_ability.png	battle	true
 elo_hlf_supply_speed	battle_movement.png	100	battle_movement.png	battle	true
 elo_superfood	general_ability.png	100	general_ability.png	battle	true
+ovn_force_stat_leadership_vs_greenskins_skaven	morale.png	411	morale.png	battle	true
+ovn_character_stat_weapon_strength_vs_greenskins_skaven	weapon_damage_character.png	161	weapon_damage_character.png	battle	true

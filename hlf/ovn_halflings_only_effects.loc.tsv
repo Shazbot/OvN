@@ -194,3 +194,5 @@ effects_description_ovn_halfling_ogre_r7_resistance_physical	Physical resistance
 effects_description_ovn_halfling_welf_r7_speed	Speed: %+n% for Dryads, Treekin, Treemen and Great Eagles {{tr:rank7}}	true
 effects_description_ovn_soup_art_r7_reload	Reload time reduction: %+n% for Hot-Pot Catapults and Kathleen Steam Tank {{tr:rank7}}	true
 effects_description_elo_ogres_trait	Leadership: %+n for Imperial Ogres	true
+effects_description_ovn_character_stat_weapon_strength_vs_greenskins_skaven	Weapon strength: %+n% when fighting against Greenskins, Ogres and Skaven	false
+effects_description_ovn_force_stat_leadership_vs_greenskins_skaven	Leadership: %+n when fighting against Greenskins, Ogres and Skaven	false
