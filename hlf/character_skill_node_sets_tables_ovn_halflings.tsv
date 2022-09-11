@@ -1,0 +1,13 @@
+key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
+#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/ovn_halflings							
+ovn_skill_node_set_olorin_the_grey_wizard	general	false	false				ovn_com_olorin_the_grey_wizard
+ovn_skill_node_set_aragand_the_layabout	champion	false	false				ovn_com_aragand_the_layabout
+ovn_skill_node_set_legles_the_elf	spy	false	false				ovn_com_legles_the_elf
+ovn_skill_node_set_giblit_the_dwarf	champion	false	false				ovn_com_giblit_the_dwarf
+wh_main_skill_node_set_ovn_hlf_ll	general	false	false				ovn_hlf_ll
+wh_main_skill_node_set_hlf_glibfoot	general	false	false				ovn_hlf_glibfoot
+wh_main_skill_node_set_ovn_hlf_moot_general	general	false	false				ovn_hlf_moot_general
+wh_main_skill_node_set_ovn_hlf_fieldwarden	spy	false	false				ovn_hlf_fieldwarden
+wh_main_skill_node_set_hlf_master_chef	dignitary	false	false				ovn_hlf_master_chef
+wh_main_skill_node_set_hlf_sheriff	champion	false	false				ovn_hlf_sheriff
+cr_skill_node_set_mtl_matron	general	false	false				cr_mtl_matron
