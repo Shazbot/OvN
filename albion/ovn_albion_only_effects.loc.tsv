@@ -114,3 +114,17 @@ effects_description_increase_cap_albion_chief	Recruitment Capacity: %+n for Albi
 effects_description_enable_recruitment_chief	Enables Recruitment of Albion Petty Chieftains	false
 effects_description_increase_cap_albion_wyrd_druid	Recruitment Capacity: %+n for Druidic Priests	false
 effects_description_enable_recruitment_albion_wyrd_druid	Enables Recruitment of Druidic Priests	false
+effects_description_elo_druid_circle_banish	Bound Spell: "Banishment" for Druid Neophytes	false
+effects_description_elo_druid_circle_xp	Recruitment Rank: %+n for Druid Neophytes	false
+effects_description_elo_druid_circle_mdef	Melee Defence: %+n for Druid Neophytes	false
+effects_description_elo_druid_circle_mattk	Melee Attack: %+n for Druid Neophytes	false
+effects_description_elo_druid_circle_lead	Leadership: %+n for Druid Neophytes	false
+effects_description_finian_troops_mdef	Melee Defence: %+n for human (non-hero/lords) units	true
+effects_description_elo_swamp_ain	Anti-Infantry: %+n for Fenbeasts and Fenhulks	true
+effects_description_elo_swamp_xp	Recruitment Rank: %+n for Fenbeasts and Fenhulks	true
+effects_description_elo_swamp_ward	Ward Save: %+n% for Fenbeasts and Fenhulks	true
+effects_description_elo_giant_speed	Battle Speed: %+n% for Giants and Half-Giants	true
+effects_description_elo_giant_xp	Recruitment Rank: %+n for Giants and Half-Giants	true
+effects_description_elo_giant_mor	Charge Bonus: %+n% for Giants and Half-Giants	true
+effects_description_chaos_attrition_immunity_dummy	Immune against attrition caused by Chaos Corruption	true
+effects_description_recruitment_rank_truthsayer	Recruitment Rank: %+n for Truthsayers	false

@@ -49,3 +49,6 @@ technologies_short_description_albion_tech_truth_peace_4	The Truthsayers were ta
 technologies_onscreen_name_albion_tech_ultimate	Guardians of the World	true
 technologies_short_description_albion_tech_ultimate	The Powers of Ruin and Destruction threaten the world from all sides, but they will be forced back into the shadows by the bravery of Albions warriors, the wisdom of the Truthsayers and the might of their allies.	true
 Albion Techs	Albion Techs	false
+technology_node_sets_localised_name_alb_mil	Albion Techs	true
+technology_node_sets_tooltip_string_alb_mil	Albion Techs	true
+technology_node_sets_encyclopaedia_string_alb_mil	Albion Techs	true

@@ -6,6 +6,6 @@ albion_truthsayer_beast	general		ovn_sc_alb_albion		false	true	albion_truthsayer
 albion_truthsayer_life	general		ovn_sc_alb_albion		false	true	albion_truthsayer_life	1.0
 albion_truthsayer_light	general		ovn_sc_alb_albion		false	true	albion_truthsayer_light	1.0
 albion_truthsayer_truth	general		ovn_sc_alb_albion		false	true	albion_truthsayer_truth	1.0
-albion_wyrd_druid	wizard		ovn_sc_alb_albion		false	true	albion_wyrd_druid	1.0
+albion_wyrd_druid	wizard		ovn_sc_alb_albion		false	false	albion_wyrd_druid	1.0
 albion_chief	champion		ovn_sc_alb_albion		false	true	albion_chief	1.0
 bl_elo_dural_durak	general		ovn_sc_alb_albion		false	true	bl_elo_dural_durak	1.0
