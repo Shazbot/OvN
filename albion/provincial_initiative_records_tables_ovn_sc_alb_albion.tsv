@@ -1,0 +1,7 @@
+key	effect_bundle	order	icon_path	campaign_vfx_id
+#provincial_initiative_records_tables;0;db/provincial_initiative_records_tables/ovn_sc_alb_albion				
+province_edict_albion1	province_edict_albion1	1	UI/Campaign UI/edicts/wh_main_edict_collect_tribute.png	
+province_edict_albion2	province_edict_albion2	2	UI/Campaign UI/edicts/wh_main_edict_camp_ruckus.png	
+province_edict_albion3	province_edict_albion3	3	UI/Campaign UI/edicts/wh_main_edict_foster_terror.png	
+province_edict_albion4	province_edict_albion4	4	UI/Campaign UI/edicts/wh_main_edict_state_troop_levy.png	
+province_edict_albion5	province_edict_albion5	5	UI/Campaign UI/edicts/wh_main_edict_venerate_the_lady.png	
