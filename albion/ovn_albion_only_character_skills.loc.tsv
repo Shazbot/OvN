@@ -158,3 +158,27 @@ character_skills_localised_name_dural_loremaster	Loremaster of the Lore of Truth
 character_skills_localised_description_dural_loremaster	The greatest Druid in existence, no other Truthsayer can rival Dural Durak.	false
 character_skills_localised_name_dural_leader_circle	The Circle of Truthsayers	false
 character_skills_localised_description_dural_leader_circle	Dural Durak can call upon his Circle of Truthsayers, mighty druids in their own right who expertly wield the winds of magic to aid the armies of Albion.	false
+character_skills_localised_name_elo_guardians_land	Warleader's Guardians	true
+character_skills_localised_description_elo_guardians_land	Only the best and most accomplished warriors may join the ranks of the Hearthguard and become the personal guards of Chieftains and Warleaders.	true
+character_skills_localised_name_sessair_leader	Warleader of the Sessair	true
+character_skills_localised_description_sessair_leader	This Warleader emerged from the Sessair tribe and has been shaped by their aggressive, savage fighting style and tactics.	true
+character_skills_localised_name_fir_leader	Warleader of the Fir Domain	true
+character_skills_localised_description_fir_leader	This Warleader emerged from the Fir Domain and has been shaped by their adaptable, shield based tactics.	true
+character_skills_localised_name_filian_leader	Falian Warleader	true
+character_skills_localised_description_filian_leader	This Warleader emerged from the Falian tribe and has been shaped by their way of fighting.	true
+character_skills_localised_name_finian_leader	Finian Warleader	true
+character_skills_localised_description_finian_leader	This Warleader emerged from the Finian tribe and has been shaped by their focus on defense.	true
+character_skills_localised_description_truthsayer_innate_priest_danu	The Druids are not only mages, but also religious leaders. This one follows Danu, the goddess of the earth.	true
+character_skills_localised_description_truthsayer_innate_priest_lugh	The Druids are not only mages, but also religious leaders. This one follows Lugh, the god of the sun.	true
+character_skills_localised_description_truthsayer_innate_priest_carnun	The Druids are not only mages, but also religious leaders. This one follows Carnun, the god of the hunt.	true
+character_skills_localised_description_chief_leader	A Warleader in the making, this warrior already has the presence of a great general, motivating his men to endure in times of strife.	true
+character_skills_localised_description_warrior_shaman	Prioritizing the path of the Warrior, this Wyrd Druid is a better fighter than others - but his abilities to weave magic suffered in return.	true
+character_skills_localised_description_morrigan_innate	Wherever Morrigan goes, clouds of her loyal ravens follow for they know that a feast awaits them.	true
+character_skills_localised_description_morrigan_raven_skill	Sometimes Morrigan is seen riding a giant raven named Dubh'neach into battle. This raven is the only one of its kind that is known to the inhabitants of Albion, his origin a mystery only Morrigan herself knows the answer to.	true
+character_skills_localised_description_morrigan_legendary_staff	Morrigan is rarely ever seen without this staff which looks like a mere branch of a random tree. But those who know what to look for easily notice that it brims with magical power.	true
+character_skills_localised_description_morrigan_wings_bound	Ravens will always heed Morrigan's call, even if it costs their lives.	true
+character_skills_localised_description_morrigan_magical_being	Although Morrigan is surrounded by mystery, there is one thing everyone agrees on: She is no mere human. Even deadly wounds can't hold her down and ravens follow her willingly into battle.	true
+character_skills_localised_name_morrigan_maidens	Morrigan's Handmaidens	true
+character_skills_localised_description_morrigan_maidens	Every unbound woman may leave their tribe and wander into the wilderness to pledge themselves to Morrigan. What exactly happens to this women is unknown, but Morrigan is sometimes accompanied by grim female warriors of great skill.	true
+character_skills_localised_description_morrigan_mage	Morrigan wields her magic with the ease and grace of long experience and deep knowledge.	true
+character_skills_localised_description_morrigan_omen_of_victory	Morrigan's appearance on the battlefield is seen as an omen of imminent victory in an important battle, her presence encouraging her allies and filling her enemies with dispair.	true
