@@ -1,0 +1,15 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_troll_buildings_descriptions.loc		
+building_short_description_texts_short_description_ovn_grn_agent	It is not unusual to find daemons among the Fimir war and raiding parties, which are summoned and bound by the Dirachs.	true
+building_short_description_texts_short_description_ovn_grn_agent_2	Through gruesome rituals and sacrifices, the mightiest daemons are summoned to aid the war effort of the Fimir.	true
+building_short_description_texts_short_description_ovn_troll_Wyvern	Giant Trolls are usually avoided by their smaller kin and have plenty of room for themselves. The messy leftovers of their meals often attract feral Wyverns which sometimes will follow the trolls around in the hope of more easy prey.	false
+building_short_description_texts_short_description_ovn_troll_mil1	Trollz are sacrificed here and either victim or executioner can gain the dark lords blessings in return.	false
+building_short_description_texts_short_description_ovn_troll_mil1b	Here smaller Trollz are rounded up & forced to fight in cages, much to the amusement of their bigger kin.	false
+building_short_description_texts_short_description_ovn_troll_mil2	From the chamber, chilling screams can be heard, but what emerges is far more terrible to behold.	false
+building_short_description_texts_short_description_ovn_troll_mil2b	Trollz fight here over spoils with some known to devour their fallen foes afterwards.	false
+building_short_description_texts_short_description_ovn_troll_mil3	Nearer to the Chaos Wastes, Trolls become more disturbing and macabre, the Dark Gods watch the fiercest of Trolls fight, offering their favour to the victors.	false
+building_short_description_texts_short_description_ovn_troll_mil3b	Only the ardest of Trolls can fight here and truly prove themselves to be the best.	false
+building_short_description_texts_short_description_ovn_troll_inc1	Trolls get shinies and food from travellers passing over the fords, log crossings & old stone bridges they control. They make simple repairs, ensuring its continued use, a behaviour far from the destruction trolls are feared for.	false
+building_short_description_texts_short_description_ovn_troll_po_b	Only a troll could love such a stench.	false
+building_short_description_texts_short_description_ovn_troll_po_a	Trollz worship too you know.	false
+building_short_description_texts_short_description_ovn_troll_offer	After a feast, they pile high the remaining bones and limbs in respect to the Dark Gods.	false

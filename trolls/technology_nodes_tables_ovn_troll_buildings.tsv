@@ -1,0 +1,11 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/ovn_troll_buildings														
+tech_ovn_troll_1		wh3_main_kho_exiles_of_khorne	8	tech_ovn_troll_1	kho_mil	1	1000	500	0			0	0	0
+tech_ovn_troll_2		wh3_main_kho_exiles_of_khorne	0	tech_ovn_troll_2	kho_mil	3	3500	0	0			0	0	0
+tech_ovn_troll_3		wh3_main_kho_exiles_of_khorne	4	tech_ovn_troll_3	kho_mil	6	1000	500	0			0	0	0
+tech_ovn_troll_4		wh3_main_kho_exiles_of_khorne	5	tech_ovn_troll_4	kho_mil	2	2000	0	0			0	0	0
+tech_ovn_troll_5		wh3_main_kho_exiles_of_khorne	6	tech_ovn_troll_5	kho_mil	4	1000	0	0			0	0	0
+tech_ovn_troll_6		wh3_main_kho_exiles_of_khorne	1	tech_ovn_troll_6	kho_mil	5	2000	0	0			0	0	0
+tech_ovn_troll_7		wh3_main_kho_exiles_of_khorne	3	tech_ovn_troll_7	kho_mil	1	2500	0	0			0	0	0
+tech_ovn_troll_8		wh3_main_kho_exiles_of_khorne	3	tech_ovn_troll_8	kho_mil	4	1000	500	0			0	0	0
+tech_ovn_troll_9		wh3_main_kho_exiles_of_khorne	8	tech_ovn_troll_9	kho_mil	6	5000	0	0			0	0	0

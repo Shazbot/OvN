@@ -1,0 +1,11 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;6;db/technologies_tables/ovn_troll_buildings										
+tech_ovn_troll_1	wh_main_chs_port_ruin	1	wh_main_vmp_cannibalistic_rituals	false	false	"placeholder.tga"	250519884	false	false	true
+tech_ovn_troll_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	250519885	false	false	true
+tech_ovn_troll_3	wh_main_chs_port_ruin	1	wh_main_grn_heavy_clubs	false	false	"placeholder.tga"	250519886	false	false	true
+tech_ovn_troll_4	wh_main_chs_port_ruin	1	wh_main_chs_unholy_communion	false	false	"placeholder.tga"	250519887	false	false	true
+tech_ovn_troll_5	wh_main_chs_port_ruin	1	wh2_skv_tech_unfathomable_horrors	false	false	"placeholder.tga"	250519888	false	false	true
+tech_ovn_troll_6	wh_main_chs_port_ruin	1	tech_cst_rotten_gift	false	false	"placeholder.tga"	250519889	false	false	true
+tech_ovn_troll_7	wh_main_chs_port_ruin	1	tech_dlc07_brt_economy_start	false	false	"placeholder.tga"	250519890	false	false	true
+tech_ovn_troll_8	wh_main_chs_port_ruin	1	wh2_dlc13_emp_assumbly_line	false	false	"placeholder.tga"	250519891	false	false	true
+tech_ovn_troll_9	wh_main_chs_port_ruin	1	wh_main_vmp_beastmaster	false	false	"placeholder.tga"	250519892	false	false	true
