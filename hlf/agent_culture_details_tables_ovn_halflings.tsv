@@ -3,3 +3,5 @@ key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon
 9880239	champion	ovn_halflings	ovn_hlf_sheriff_0		0		m		ui/campaign ui/agents/wh_main_brt_champion.png	true
 9880246	spy	ovn_halflings	ovn_hlf_fieldwarden_0		0		m		ui/campaign ui/agents/wh_dlc05_lore_life.png	true
 9880241	dignitary	ovn_halflings	ovn_hlf_master_chef_0		0		m		ui/campaign ui/agents/hlf_master_chef.png	true
+9880245	runesmith	ovn_halflings	cr_mtl_cha_matron_moot_0		0		m		ui/campaign ui/agents/paladin.png	true
+9880243	general	ovn_halflings	ovn_hlf_moot_general_0		0		m		ui/campaign ui/agents/paladin.png	true

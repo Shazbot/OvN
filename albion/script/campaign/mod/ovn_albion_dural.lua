@@ -1,15 +1,15 @@
 local function spawn_new_force()
 	cm:create_force_with_general(
-		"ovn_alb_host_ravenqueen", -- faction_key,
-		"elo_youngbloods,albion_giant,albion_swordmaiden,elo_albion_warriors,albion_hearthguard,albion_riders_spear", -- unit_list,
-		"wh3_main_combi_region_the_folly_of_malofex", -- region_key,
-		466, -- x,
-		907, -- y,
+		"ovn_alb_order_of_the_truthsayers", -- faction_key,
+		"elo_youngbloods,albion_giant,druid_neophytes,elo_albion_warriors,albion_hearthguard,albion_riders_spear", -- unit_list,
+		"wh3_main_combi_region_citadel_of_lead", -- region_key,
+		350, -- x,
+		761, -- y,
 		"general", -- type,
-		"albion_morrigan", -- subtype,
-		"names_name_77777001", -- name1,
+		"bl_elo_dural_durak", -- subtype,
+		"names_name_77777202", -- name1,
 		"", -- name2,
-		"names_name_77777002", -- name3,
+		"names_name_77777201", -- name3,
 		"", -- name4,
 		true,-- make_faction_leader,
         function(cqi) -- callback
@@ -21,31 +21,36 @@ local function spawn_new_force()
 end
 
 local function new_game_startup()
-    local ravenqueen_host_string = "ovn_alb_host_ravenqueen"
-	local ravenqueen_host = cm:get_faction(ravenqueen_host_string)
+    local order_of_the_truthsayers_string = "ovn_alb_order_of_the_truthsayers"
+	local order_of_the_truthsayers = cm:get_faction(order_of_the_truthsayers_string)
 
-    if not ravenqueen_host then return end
+    if not order_of_the_truthsayers then return end
 
     local to_kill_cqi = nil
-    local mixer_ravenqueen_host_leader = ravenqueen_host:faction_leader()
+    local mixer_order_of_the_truthsayers_leader = order_of_the_truthsayers:faction_leader()
 
-	if mixer_ravenqueen_host_leader and not mixer_ravenqueen_host_leader:is_null_interface() then
-		to_kill_cqi = mixer_ravenqueen_host_leader:command_queue_index()
+	if mixer_order_of_the_truthsayers_leader and not mixer_order_of_the_truthsayers_leader:is_null_interface() then
+		to_kill_cqi = mixer_order_of_the_truthsayers_leader:command_queue_index()
 	end
 
     spawn_new_force()
 
-    local folly_of_malofex = cm:get_region("wh3_main_combi_region_the_folly_of_malofex")
-    cm:transfer_region_to_faction("wh3_main_combi_region_the_folly_of_malofex", "ovn_alb_host_ravenqueen")
-	cm:instantly_set_settlement_primary_slot_level(folly_of_malofex:settlement(), 3)
-	cm:heal_garrison(folly_of_malofex:cqi());
+    local shadowlegion = cm:get_faction("wh3_main_chs_shadow_legion")
+    if not shadowlegion:is_human() then
+    cm:teleport_to("faction:wh3_main_chs_shadow_legion", 370, 800, true)
+    end
+
+    local citadel_of_lead = cm:get_region("wh3_main_combi_region_citadel_of_lead")
+    cm:transfer_region_to_faction("wh3_main_combi_region_citadel_of_lead", "ovn_alb_order_of_the_truthsayers")
+	cm:instantly_set_settlement_primary_slot_level(citadel_of_lead:settlement(), 3)
+	cm:heal_garrison(citadel_of_lead:cqi());
 
     cm:create_agent(
-        "ovn_alb_host_ravenqueen",
-        "champion",
-        "albion_chief",
-        465,
-        906,
+        "ovn_alb_order_of_the_truthsayers",
+        "wizard",
+        "albion_wyrd_druid",
+        353,
+        761,
         false,
         function(cqi)
             cm:replenish_action_points(cm:char_lookup_str(cqi))
