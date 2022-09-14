@@ -1,56 +1,56 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/ovn_hlf_buildings														
-elo_halfling_training		wh3_main_ogr_goldtooth	0	elo_halfling_training	ogr_mil	0	1000	0	0			0	0	0
-elo_halfling_housewifes		wh3_main_ogr_goldtooth	0	elo_halfling_housewifes	ogr_mil	1	1500	0	0			0	0	0
-elo_halfling_chicken		wh3_main_ogr_goldtooth	0	elo_halfling_chicken	ogr_mil	2	1000	0	0			0	0	0
-elo_halfling_cav		wh3_main_ogr_goldtooth	0	elo_halfling_cav	ogr_mil	3	1500	0	0			0	0	0
-elo_halfling_warden		wh3_main_ogr_goldtooth	0	elo_halfling_warden	ogr_mil	4	1000	0	0			0	0	0
-elo_halfling_warden_2		wh3_main_ogr_goldtooth	0	elo_halfling_warden_2	ogr_mil	5	1500	0	0			0	0	0
-elo_halfling_feast_carrier		wh3_main_ogr_goldtooth	0	elo_halfling_feast_carrier	ogr_mil	6	1000	0	0			0	0	0
-elo_halfling_chuck_wagons		wh3_main_ogr_goldtooth	0	elo_halfling_chuck_wagons	ogr_mil	7	1500	0	0			0	0	0
-elo_halfling_empire_heroes		wh3_main_ogr_goldtooth	0	elo_halfling_empire_heroes	ogr_mil	8	1000	0	0			0	0	0
-elo_halfling_empire_equipment		wh3_main_ogr_goldtooth	0	elo_halfling_empire_equipment	ogr_mil	9	1500	0	0			0	0	0
-elo_halfling_farmer_tools		wh3_main_ogr_goldtooth	1	elo_halfling_farmer_tools	ogr_mil	0	800	0	0			0	0	0
-elo_halfling_farmer_tools_2		wh3_main_ogr_goldtooth	1	elo_halfling_farmer_tools_2	ogr_mil	1	1000	0	0			0	0	0
-elo_halfling_piggies		wh3_main_ogr_goldtooth	1	elo_halfling_piggies	ogr_mil	2	800	0	0			0	0	0
-elo_halfling_riders		wh3_main_ogr_goldtooth	1	elo_halfling_riders	ogr_mil	3	1000	0	0			0	0	0
-elo_halfling_thieves		wh3_main_ogr_goldtooth	1	elo_halfling_thieves	ogr_mil	4	800	0	0			0	0	0
-elo_halfling_thieves_2		wh3_main_ogr_goldtooth	1	elo_halfling_thieves_2	ogr_mil	5	1000	0	0			0	0	0
-elo_halfling_hot_pot		wh3_main_ogr_goldtooth	1	elo_halfling_hot_pot	ogr_mil	7	1000	0	0			0	0	0
-elo_halfling_cooks_unit		wh3_main_ogr_goldtooth	1	elo_halfling_cooks_unit	ogr_mil	6	800	0	0			0	0	0
-elo_halfling_empire_elite		wh3_main_ogr_goldtooth	1	elo_halfling_empire_elite	ogr_mil	8	800	0	0			0	0	0
-elo_halfling_empire_mages		wh3_main_ogr_goldtooth	1	elo_halfling_empire_mages	ogr_mil	9	1000	0	0			0	0	0
-elo_halfling_good_pots		wh3_main_ogr_goldtooth	2	elo_halfling_good_pots	ogr_mil	0	600	0	0			0	0	0
-elo_halfling_doggos		wh3_main_ogr_goldtooth	2	elo_halfling_doggos	ogr_mil	2	600	0	0			0	0	0
-elo_halfling_sheriff		wh3_main_ogr_goldtooth	2	elo_halfling_sheriff	ogr_mil	4	600	0	0			0	0	0
-elo_halfling_hero_cooks		wh3_main_ogr_goldtooth	2	elo_halfling_hero_cooks	ogr_mil	6	600	0	0			0	0	0
-elo_halfling_empire_support		wh3_main_ogr_goldtooth	2	elo_halfling_empire_support	ogr_mil	8	600	0	0			0	0	0
-elo_halfling_conscription		wh3_main_ogr_goldtooth	4	elo_halfling_conscription	ogr_mil	0	300	0	0			0	0	0
-elo_halfling_fields		wh3_main_ogr_goldtooth	4	elo_halfling_fields	ogr_mil	1	300	0	0			0	0	0
-elo_halfling_animals		wh3_main_ogr_goldtooth	4	elo_halfling_animals	ogr_mil	2	300	0	0			0	0	0
-elo_halfling_old_ones		wh3_main_ogr_goldtooth	4	elo_halfling_old_ones	ogr_mil	3	300	0	0			0	0	0
-elo_halfling_security		wh3_main_ogr_goldtooth	4	elo_halfling_security	ogr_mil	4	300	0	0			0	0	0
-elo_halfling_forest		wh3_main_ogr_goldtooth	4	elo_halfling_forest	ogr_mil	5	300	0	0			0	0	0
-elo_halfling_cooking		wh3_main_ogr_goldtooth	4	elo_halfling_cooking	ogr_mil	6	300	0	0			0	0	0
-elo_halfling_unlikely_allies		wh3_main_ogr_goldtooth	4	elo_halfling_unlikely_allies	ogr_mil	7	300	0	0			0	0	0
-elo_halfling_rights_movement		wh3_main_ogr_goldtooth	4	elo_halfling_rights_movement	ogr_mil	8	300	0	0			0	0	0
-elo_halfling_borrowing		wh3_main_ogr_goldtooth	6	elo_halfling_borrowing	ogr_mil	1	600	0	0			0	0	0
-elo_halfling_worship		wh3_main_ogr_goldtooth	6	elo_halfling_worship	ogr_mil	3	600	0	0			0	0	0
-elo_halfling_hunters		wh3_main_ogr_goldtooth	6	elo_halfling_hunters	ogr_mil	5	600	0	0			0	0	0
-elo_halfling_eagles		wh3_main_ogr_goldtooth	6	elo_halfling_eagles	ogr_mil	7	600	0	0			0	0	0
-elo_halfling_tobacco_1		wh3_main_ogr_goldtooth	7	elo_halfling_tobacco_1	ogr_mil	1	800	0	0			0	0	0
-elo_halfling_tobacco_2		wh3_main_ogr_goldtooth	7	elo_halfling_tobacco_2	ogr_mil	2	1000	0	0			0	0	0
-elo_halfling_hyacinth		wh3_main_ogr_goldtooth	7	elo_halfling_hyacinth	ogr_mil	3	800	0	0			0	0	0
-elo_halfling_josias		wh3_main_ogr_goldtooth	7	elo_halfling_josias	ogr_mil	4	1000	0	0			0	0	0
-elo_halfling_rangers		wh3_main_ogr_goldtooth	7	elo_halfling_rangers	ogr_mil	5	800	0	0			0	0	0
-elo_halfling_ranged		wh3_main_ogr_goldtooth	7	elo_halfling_ranged	ogr_mil	6	1000	0	0			0	0	0
-elo_halfling_ogres		wh3_main_ogr_goldtooth	7	elo_halfling_ogres	ogr_mil	7	800	0	0			0	0	0
-elo_halfling_ogres_2		wh3_main_ogr_goldtooth	7	elo_halfling_ogres_2	ogr_mil	8	1000	0	0			0	0	0
-elo_halfling_trade_1		wh3_main_ogr_goldtooth	8	elo_halfling_trade_1	ogr_mil	1	1000	0	0			0	0	0
-elo_halfling_trade_2		wh3_main_ogr_goldtooth	8	elo_halfling_trade_2	ogr_mil	2	1500	0	0			0	0	0
-elo_halfling_quinsberry		wh3_main_ogr_goldtooth	8	elo_halfling_quinsberry	ogr_mil	3	1000	0	0			0	0	0
-elo_halfling_esmeralda		wh3_main_ogr_goldtooth	8	elo_halfling_esmeralda	ogr_mil	4	1500	0	0			0	0	0
-elo_halfling_trees		wh3_main_ogr_goldtooth	8	elo_halfling_trees	ogr_mil	5	1000	0	0			0	0	0
-elo_halfling_better_trees		wh3_main_ogr_goldtooth	8	elo_halfling_better_trees	ogr_mil	6	1500	0	0			0	0	0
-elo_halfling_baby_dragon		wh3_main_ogr_goldtooth	8	elo_halfling_baby_dragon	ogr_mil	7	1000	0	0			0	0	0
-elo_halfling_monsters		wh3_main_ogr_goldtooth	8	elo_halfling_monsters	ogr_mil	8	1500	0	0			0	0	0
+elo_halfling_training			5	elo_halfling_training	ovn_halflings_tech	1	1000	0	0			0	0	0
+elo_halfling_housewifes			5	elo_halfling_housewifes	ovn_halflings_tech	2	1500	0	0			0	0	0
+elo_halfling_chicken			5	elo_halfling_chicken	ovn_halflings_tech	3	1000	0	0			0	0	0
+elo_halfling_cav			5	elo_halfling_cav	ovn_halflings_tech	4	1500	0	0			0	0	0
+elo_halfling_warden			5	elo_halfling_warden	ovn_halflings_tech	5	1000	0	0			0	0	0
+elo_halfling_warden_2			5	elo_halfling_warden_2	ovn_halflings_tech	6	1500	0	0			0	0	0
+elo_halfling_feast_carrier			5	elo_halfling_feast_carrier	ovn_halflings_tech	7	1000	0	0			0	0	0
+elo_halfling_chuck_wagons			5	elo_halfling_chuck_wagons	ovn_halflings_tech	8	1500	0	0			0	0	0
+elo_halfling_empire_heroes			5	elo_halfling_empire_heroes	ovn_halflings_tech	9	1000	0	0			0	0	0
+elo_halfling_empire_equipment			5	elo_halfling_empire_equipment	ovn_halflings_tech	10	1500	0	0			0	0	0
+elo_halfling_farmer_tools			6	elo_halfling_farmer_tools	ovn_halflings_tech	1	800	0	0			0	0	0
+elo_halfling_farmer_tools_2			6	elo_halfling_farmer_tools_2	ovn_halflings_tech	2	1000	0	0			0	0	0
+elo_halfling_piggies			6	elo_halfling_piggies	ovn_halflings_tech	3	800	0	0			0	0	0
+elo_halfling_riders			6	elo_halfling_riders	ovn_halflings_tech	4	1000	0	0			0	0	0
+elo_halfling_thieves			6	elo_halfling_thieves	ovn_halflings_tech	5	800	0	0			0	0	0
+elo_halfling_thieves_2			6	elo_halfling_thieves_2	ovn_halflings_tech	6	1000	0	0			0	0	0
+elo_halfling_hot_pot			6	elo_halfling_hot_pot	ovn_halflings_tech	8	1000	0	0			0	0	0
+elo_halfling_cooks_unit			6	elo_halfling_cooks_unit	ovn_halflings_tech	7	800	0	0			0	0	0
+elo_halfling_empire_elite			6	elo_halfling_empire_elite	ovn_halflings_tech	9	800	0	0			0	0	0
+elo_halfling_empire_mages			6	elo_halfling_empire_mages	ovn_halflings_tech	10	1000	0	0			0	0	0
+elo_halfling_good_pots			7	elo_halfling_good_pots	ovn_halflings_tech	1	600	0	0			0	0	0
+elo_halfling_doggos			7	elo_halfling_doggos	ovn_halflings_tech	3	600	0	0			0	0	0
+elo_halfling_sheriff			7	elo_halfling_sheriff	ovn_halflings_tech	5	600	0	0			0	0	0
+elo_halfling_hero_cooks			7	elo_halfling_hero_cooks	ovn_halflings_tech	7	600	0	0			0	0	0
+elo_halfling_empire_support			7	elo_halfling_empire_support	ovn_halflings_tech	9	600	0	0			0	0	0
+elo_halfling_conscription			9	elo_halfling_conscription	ovn_halflings_tech	1	300	0	0			0	0	0
+elo_halfling_fields			9	elo_halfling_fields	ovn_halflings_tech	2	300	0	0			0	0	0
+elo_halfling_animals			9	elo_halfling_animals	ovn_halflings_tech	3	300	0	0			0	0	0
+elo_halfling_old_ones			9	elo_halfling_old_ones	ovn_halflings_tech	4	300	0	0			0	0	0
+elo_halfling_security			9	elo_halfling_security	ovn_halflings_tech	5	300	0	0			0	0	0
+elo_halfling_forest			9	elo_halfling_forest	ovn_halflings_tech	6	300	0	0			0	0	0
+elo_halfling_cooking			9	elo_halfling_cooking	ovn_halflings_tech	7	300	0	0			0	0	0
+elo_halfling_unlikely_allies			9	elo_halfling_unlikely_allies	ovn_halflings_tech	8	300	0	0			0	0	0
+elo_halfling_rights_movement			9	elo_halfling_rights_movement	ovn_halflings_tech	9	300	0	0			0	0	0
+elo_halfling_borrowing			11	elo_halfling_borrowing	ovn_halflings_tech	2	600	0	0			0	0	0
+elo_halfling_worship			11	elo_halfling_worship	ovn_halflings_tech	4	600	0	0			0	0	0
+elo_halfling_hunters			11	elo_halfling_hunters	ovn_halflings_tech	6	600	0	0			0	0	0
+elo_halfling_eagles			11	elo_halfling_eagles	ovn_halflings_tech	8	600	0	0			0	0	0
+elo_halfling_tobacco_1			12	elo_halfling_tobacco_1	ovn_halflings_tech	2	800	0	0			0	0	0
+elo_halfling_tobacco_2			12	elo_halfling_tobacco_2	ovn_halflings_tech	3	1000	0	0			0	0	0
+elo_halfling_hyacinth			12	elo_halfling_hyacinth	ovn_halflings_tech	4	800	0	0			0	0	0
+elo_halfling_josias			12	elo_halfling_josias	ovn_halflings_tech	5	1000	0	0			0	0	0
+elo_halfling_rangers			12	elo_halfling_rangers	ovn_halflings_tech	6	800	0	0			0	0	0
+elo_halfling_ranged			12	elo_halfling_ranged	ovn_halflings_tech	7	1000	0	0			0	0	0
+elo_halfling_ogres			12	elo_halfling_ogres	ovn_halflings_tech	8	800	0	0			0	0	0
+elo_halfling_ogres_2			12	elo_halfling_ogres_2	ovn_halflings_tech	9	1000	0	0			0	0	0
+elo_halfling_trade_1			13	elo_halfling_trade_1	ovn_halflings_tech	2	1000	0	0			0	0	0
+elo_halfling_trade_2			13	elo_halfling_trade_2	ovn_halflings_tech	3	1500	0	0			0	0	0
+elo_halfling_quinsberry			13	elo_halfling_quinsberry	ovn_halflings_tech	4	1000	0	0			0	0	0
+elo_halfling_esmeralda			13	elo_halfling_esmeralda	ovn_halflings_tech	5	1500	0	0			0	0	0
+elo_halfling_trees			13	elo_halfling_trees	ovn_halflings_tech	6	1000	0	0			0	0	0
+elo_halfling_better_trees			13	elo_halfling_better_trees	ovn_halflings_tech	7	1500	0	0			0	0	0
+elo_halfling_baby_dragon			13	elo_halfling_baby_dragon	ovn_halflings_tech	8	1000	0	0			0	0	0
+elo_halfling_monsters			13	elo_halfling_monsters	ovn_halflings_tech	9	1500	0	0			0	0	0
