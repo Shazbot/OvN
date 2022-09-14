@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_trolls_only_land_units.loc		
+land_units_onscreen_name_elo_sea_hag	Sea Troll Hag	true
+land_units_onscreen_name_elo_carrion_boss	Carrion Big Boss	true
+land_units_onscreen_name_elo_carrion_boss_squig	Carrion Big Boss	true
+land_units_onscreen_name_elo_armoured_icetrolls	Ice Trolls (Armoured)	true
+land_units_onscreen_name_elo_southern_trolls	Southern Trolls	true
+land_units_onscreen_name_elo_red_avalanche	The Bloody Avalanche (Armoured Ice Trolls)	true
+land_units_onscreen_name_elo_river_trolls	Cavern Trolls	true
+land_units_onscreen_name_elo_mountain_trolls	Chaos Stone Trolls	true
+land_units_onscreen_name_elo_shipwreckers	Shipwreckers (Cavern Trolls)	true
+land_units_onscreen_name_elo_cha_troll_lord	Troll Chief	true
+land_units_onscreen_name_elo_kin	Throgg's Company (Norscan Trolls)	true
+land_units_onscreen_name_elo_forest_trolls	Forest Trolls	true
+land_units_onscreen_name_elo_bile_trolls	Bile Trolls	true
+land_units_onscreen_name_elo_snow_troll	Snow Trolls	true
+land_units_onscreen_name_elo_chief_ugma	Chief Ugma	true
+land_units_onscreen_name_elo_lava_trolls	Lava Trolls	true
+land_units_onscreen_name_elo_warpstone_trolls	Warped Ones (Chaos Stone Trolls)	true
+land_units_onscreen_name_elo_sea_troll	Sea Trolls	true
+land_units_onscreen_name_elo_troll_champ	Troll Champion	true
+land_units_onscreen_name_elo_troll_giant	Giant Troll	true
+land_units_onscreen_name_elo_carrion_gobbo_bow	Carrion Archers	true
+land_units_onscreen_name_elo_carrion_squig_hoppers	Carrion Squig Hoppers	true
+land_units_onscreen_name_elo_carrion_gobbo_melee	Carrion Warriors	true
+land_units_onscreen_name_ovn_trl_inf_stone_throw_troll	Troll (Bone Thrower)	true
+land_units_concealed_name_ovn_trl_inf_stone_throw_troll		true
+land_units_onscreen_name_elo_night_trolls_ror	Night Trolls (Stone Trolls)	true

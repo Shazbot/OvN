@@ -1,0 +1,6 @@
+key	sort_order	effect_state
+#unit_abilities_additional_ui_effects_tables;3;db/unit_abilities_additional_ui_effects_tables/ovn_trolls_only		
+troll_fodder_ui	200	positive
+elo_summon_sea_trolls	101	positive
+deals_damage_to_friendly	105	positive
+unit_kills_itself	103	positive

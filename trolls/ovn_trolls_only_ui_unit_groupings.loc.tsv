@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_trolls_only_ui_unit_groupings.loc		
+ui_unit_groupings_onscreen_monstrous_bone_thrower	Monstrous Missile Infantry	true
+ui_unit_groupings_tooltip_monstrous_bone_thrower	 	true

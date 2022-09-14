@@ -1,0 +1,4 @@
+key	order	icon_file_path
+#agent_recruitment_categories_tables;1;db/agent_recruitment_categories_tables/ovn_fimir_only		
+fimir_lord	5	UI\Common UI\unit_category_icons\warhammer2\monstrous_infantry.png
+fimir_dirach_lord	4	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png

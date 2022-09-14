@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/ovn_trolls_only				
+ovn_trl_throwing_bone	false	ovn_trl_throwing_bone	none	false
+carrion_bow	false	carrion_bow	bow	false

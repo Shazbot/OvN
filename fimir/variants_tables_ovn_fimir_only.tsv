@@ -1,0 +1,70 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_fimir_only							
+fim_moor_hounds		fim_moor_hounds		1.0	1.0	0.05	
+fim_shearl		fim_shearl		1.0	0.65	0.05	
+fim_shearl_javelineer		fim_shearl_javelineer		1.0	0.65	0.05	
+fim_bog_beast	VariantMeshes\wh_variantmodels\lz1\fim\fim_bog_beast\tech	fim_bog_beast		1.5	1.0	0.0	
+fim_bog_beast_lord	variantmeshes/wh_variantmodels/lz1/fim/fim_bog_beast/tech2	fim_bog_beast		1.5	1.0	0.0	
+fim_bog_beast_rider		fim_marsh_reaver		1.0	1.0	0.0	
+fim_bog_beast_rider_kroll		fim_marsh_reaver_kroll		1.0	1.0	0.0	
+fim_death_quest		fim_death_quest		1.0	0.7	0.1	
+fim_killing_eye		fim_killing_eye		1.0	0.78	0.05	
+fim_gharnus_daemon		fim_gharnus_daemon		1.0	1.0	0.0	
+fim_mistmor		fim_mistmor		1.0	1.2	0.0	
+fim_mistmor_kroll		fim_mistmor_kroll		1.0	1.2	0.0	
+fim_boglar		fim_boglar	hu5/ogr/ogr_gnoblar/fim_boglar_01_imposter	1.0	1.0	0.05	
+fim_fimirach_noble		fim_fimirach_noble		1.0	1.15	0.0	
+fim_fimirach_noble_0		fim_fimirach_noble_0		1.0	1.15	0.0	
+fim_fimirach_noble_1		fim_fimirach_noble_1		1.0	1.15	0.0	
+fim_fimirach_noble_2		fim_fimirach_noble_2		1.0	1.15	0.0	
+fim_fimirach_noble_3		fim_fimirach_noble_3		1.0	1.15	0.0	
+fim_fimirach_noble_4		fim_fimirach_noble_4		1.0	1.15	0.0	
+fim_balefiend_apprentices		fim_balefiend_apprentices		1.0	0.95	0.0	
+fim_finmor		fim_finmor		1.0	1.1	0.0	
+fim_meargh_skattach		fim_meargh_skattach		1.0	1.1	0.0	
+fim_fimm_warriors		fim_fimm_warriors		1.0	0.8	0.05	
+fim_fimm_warriors_great_weapons		fim_fimm_warriors_great_weapons		1.0	0.8	0.05	
+fim_fimm_warriors_kroll		fim_fimm_warriors_kroll		1.0	0.8	0.05	
+fim_fimm_warriors_great_weapons_kroll		fim_fimm_warriors_great_weapons_kroll		1.0	0.8	0.05	
+fim_dirach		fim_dirach		1.0	1.1	0.0	
+fim_dirach_0		fim_dirach_0		1.0	1.1	0.0	
+fim_dirach_1		fim_dirach_1		1.0	1.1	0.0	
+fim_dirach_2		fim_dirach_2		1.0	1.1	0.0	
+fim_finmor_0		fim_finmor_0		1.0	1.1	0.0	
+fim_finmor_1		fim_finmor_1		1.0	1.1	0.0	
+fim_finmor_2		fim_finmor_2		1.0	1.1	0.0	
+fim_death_quest_officer		fim_death_quest_officer		1.0	0.82	0.0	
+fim_death_quest_balefiend		fim_death_quest_balefiend		1.0	0.75	0.0	
+fim_killing_eye_officer		fim_killing_eye_officer		1.0	0.82	0.0	
+fim_swamp_daemon		fim_swamp_daemon		1.0	0.85	0.05	
+fim_daemonomaniac		fim_daemonomaniac		1.0	3.0	0.0	
+fim_nuckelavee_horse		fim_nuckelavee_horse		1.0	1.0	0.0	
+fim_nuckelavee		fim_nuckelavee_rider		1.0	1.0	0.05	
+fim_eye_tyrant		fim_eye_tyrant		1.0	2.5	0.0	
+fim_daemonomaniac_ror		fim_daemonomaniac_ror		1.0	1.0	0.0	
+fim_marsh_hornets_ror		fim_marsh_hornets_ror		1.0	1.0	0.0	
+fim_moor_hounds_ror		fim_moor_hounds_ror		1.0	1.5	0.0	
+fim_fenbeast_draught		fim_fenbeast_draught		1.0	1.5	0.0	
+fim_fimm_warriors_axe_throwers_ror		fim_fimm_warriors_axe_throwers_ror		1.0	0.8	0.05	
+fim_boglar_shaman		fim_boglar_shaman		1.0	1.15	0.05	
+fim_boglar_shaman_0		fim_boglar_shaman_0		1.0	1.15	0.05	
+fim_boglar_shaman_1		fim_boglar_shaman_1		1.0	1.15	0.05	
+fim_boglar_shaman_2		fim_boglar_shaman_2		1.0	1.15	0.05	
+fim_boglar_shaman_3		fim_boglar_shaman_3		1.0	1.15	0.05	
+elo_fenbeast		elo_fenbeast		1.1	1.1	0.0	
+albion_fenhulk		elo_fenhulk		1.75	1.75	0.0	
+fim_meargh_skattach_palanquin	VariantMeshes\wh_variantmodels\th07d\fim\fim_palanquin\tech	fim_meargh_skattach_palanquin		1.0	1.0	0.0	
+ovn_fim_mon_bog_octopus_0		fim_bog_octopus		1.0	1.0	0.0	
+fim_daemon_octopus_kroll		fim_kroll		1.0	1.3	0.0	
+fim_fianna		fim_fianna		1.0	1.0	0.0	
+fim_fianna_gw		fim_fianna_gw		1.0	1.0	0.0	
+fim_fianna_kroll		fim_fianna_kroll		1.0	1.0	0.0	
+fim_fianna_gw_kroll		fim_fianna_gw_kroll		1.0	1.0	0.0	
+fim_fimirach_noble_kroll_0		fim_fimirach_noble_kroll_0		1.0	1.15	0.0	
+fim_fimirach_noble_kroll_1		fim_fimirach_noble_kroll_1		1.0	1.15	0.0	
+fim_fimirach_noble_kroll_2		fim_fimirach_noble_kroll_2		1.0	1.15	0.0	
+fim_fimirach_noble_kroll_3		fim_fimirach_noble_kroll_3		1.0	1.15	0.0	
+fim_fimirach_noble_kroll_4		fim_fimirach_noble_kroll_4		1.0	1.15	0.0	
+fim_finmor_kroll_0		fim_finmor_0_kroll		1.0	1.1	0.0	
+fim_finmor_kroll_1		fim_finmor_1_kroll		1.0	1.1	0.0	
+fim_finmor_kroll_2		fim_finmor_2_kroll		1.0	1.1	0.0	

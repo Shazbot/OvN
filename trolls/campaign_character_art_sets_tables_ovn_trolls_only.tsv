@@ -1,0 +1,9 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_trolls_only								
+elo_sea_hag	runesmith		ovn_sc_troll_troll		false	false	elo_sea_hag	0.65
+elo_cha_troll_lord_01	general				false	true	elo_cha_troll_lord	1.0
+elo_cha_troll_lord_02	general				false	true	elo_cha_troll_lord	1.0
+elo_cha_troll_lord_03	general				false	true	elo_cha_troll_lord	1.0
+elo_troll_champ	champion				false	true	elo_troll_champ	0.6
+elo_chief_ugma	general				false	true	elo_chief_ugma	1.0
+elo_carrion_boss	spy				false	true	elo_carrion_boss	1.1

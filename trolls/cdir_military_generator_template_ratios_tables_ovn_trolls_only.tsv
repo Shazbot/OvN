@@ -1,0 +1,8 @@
+template_key	unit_group_key	ratio
+#cdir_military_generator_template_ratios_tables;0;db/cdir_military_generator_template_ratios_tables/ovn_trolls_only		
+ovn_trollz	wh3_default_land_monsters	8
+ovn_trollz	wh3_default_land_melee_infantry	2
+ovn_trollz	wh3_default_land_ranged_infantry	3
+ovn_trollz	wh3_default_land_melee_cavalry	2
+ovn_trollz	wh3_default_land_aura	1
+ovn_trollz	wh3_default_land_ranged_infantry_main_heavy	3

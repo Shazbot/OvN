@@ -1,0 +1,9 @@
+id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
+#campaign_character_arts_tables;0;db/campaign_character_arts_tables/ovn_trolls_only																
+119234	elo_sea_hag	0	0		none	elo_sea_hag			wh_main_campaign_grn_ship_light	wh_main_campaign_grn_ship_heavy	cam_lord_hu4f_dlc15_hag_staff_net	cam_light_ship_02	cam_heavy_ship_02	0	0	0
+119190	elo_cha_troll_lord_01	0	0		none	elo_cha_troll_lord_01			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4c_throgg_2handed_hammer	cam_transport_ship_05	cam_transport_ship_05	0	0	0
+119191	elo_cha_troll_lord_02	0	0		none	elo_cha_troll_lord_02			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4c_throgg_2handed_hammer	cam_transport_ship_05	cam_transport_ship_05	0	0	0
+119192	elo_cha_troll_lord_03	0	0		none	elo_cha_troll_lord_03			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4c_throgg_2handed_hammer	cam_transport_ship_05	cam_transport_ship_05	0	0	0
+119199	elo_troll_champ	0	0		none	elo_troll_champ			wh_main_campaign_grn_ship_light	wh_main_campaign_grn_ship_heavy	cam_lord_hu4c_throgg_2handed_hammer	cam_light_ship_02	cam_heavy_ship_02	0	0	0
+119193	elo_chief_ugma	0	0		none	elo_chief_ugma			wh_dlc08_campaign_nor_ship_transport	wh_dlc08_campaign_nor_ship_transport	cam_lord_hu4f_dlc15_hag_staff_net	cam_transport_ship_05	cam_transport_ship_05	0	0	0
+27332733	elo_carrion_boss	0	0		none	elo_carrion_boss			wh_main_campaign_grn_ship_light	wh_main_campaign_grn_ship_heavy	cam_hu5_goblin_spear_and_shield	cam_light_ship_02	cam_heavy_ship_02	0	0	0

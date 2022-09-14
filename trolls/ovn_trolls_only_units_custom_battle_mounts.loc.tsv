@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_trolls_only_units_custom_battle_mounts.loc		
+units_custom_battle_mounts_mount_name_elo_carrion_bosselo_carrion_boss_squig	Cave Squig	true
+units_custom_battle_mounts_localised_description_elo_carrion_bosselo_carrion_boss_squig	Some Carrion Goblins bosses like to ride Cave Squigs into battle.	true

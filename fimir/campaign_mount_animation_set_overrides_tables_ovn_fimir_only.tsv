@@ -1,0 +1,3 @@
+character_animation_set	mount_unit	rider_animation_set	vfx_filter_override
+#campaign_mount_animation_set_overrides_tables;2;db/campaign_mount_animation_set_overrides_tables/ovn_fimir_only			
+cam_hu5_goblin_staff_and_sword	fim_cha_boglar_shaman_hound	cam_hu5_goblin_wf1_wolf_staff_and_sword	0
