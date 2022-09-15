@@ -1,0 +1,15 @@
+key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn_fimir_buildings	
+ovn_fimir_discovery	1
+ovn_fimir_exp	1
+ovn_fimir_garrison	1
+ovn_fimir_growth	1
+ovn_fimir_income	1
+ovn_fimir_mil	1
+ovn_fimir_agrul_migdhal_landmark	1
+ovn_fimir_nor	1
+ovn_fimir_beast	1
+ovn_fimir_marsh	1
+ovn_fimir_agent	1
+ovn_fimir_slaves	1
+ovn_fimir_sacking	1

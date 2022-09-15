@@ -1,0 +1,11 @@
+id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/ovn_fimir_buildings			
+92112190	10	fim_inf_boglar	fim_inf_boglar
+92112191	1	fim_inf_shearl	fim_inf_shearl
+92112192	1	fim_inf_fimm_warriors	fim_inf_fimm_warriors
+92112193	1	fim_mon_fenbeast	fim_mon_fenbeast
+92112194	1	fim_mon_fianna_fimm	fim_mon_fianna_fimm
+92112195	1	fim_mon_mistmor	fim_mon_mistmor
+92112196	1	fim_cav_marsh_reavers	fim_cav_marsh_reavers
+92112197	1	fim_inf_fimm_warriors_great_weapons	fim_inf_fimm_warriors_great_weapons
+92112198	1	fim_cav_marsh_reavers	fim_cav_marsh_reavers
