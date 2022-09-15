@@ -1,0 +1,70 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_hlf_under.loc		
+culture_settlement_occupation_options_tooltip_5165439	Establish Restaurant||There comes a time in every Halfling's life he gets an itch to leave the Moot and establish his own resturant. Most Halflings, however, ignore this urge.	true
+agent_actions_localised_action_name_ovn_create_restaurant	{{tr:ovn_create_restaurant}}	true
+agent_actions_localised_action_description_ovn_create_restaurant	[[col:yellow]]Establishes a Halfling Restaurant in the target settlement.[[/col]]	true
+character_skills_localised_name_ovn_create_restaurant_hidden	Actions [HIDDEN]	true
+character_skills_localised_description_ovn_create_restaurant_hidden	 	true
+effect_bundles_localised_title_ovn_create_restaurant_cooldown	Restaurant Established	true
+effect_bundles_localised_description_ovn_create_restaurant_cooldown	A Restaurant has been established recently, more time is required until we can efficiently establish another.	true
+effects_description_ovn_create_restaurant_enable	[hidden]	true
+effects_description_ovn_create_restaurant_cost_mod	[[col:yellow]]{{tr:vmp_agent_action_dignitary_establish_vampire_coven}}[[/col]] action: %+n% cost to perform action	true
+effects_description_ovn_create_restaurant_cost_mod_hidden	[hidden]	true
+effects_description_ovn_create_restaurant_disable	Cannot establish further Halfling Restaurants	true
+ui_text_replacements_localised_text_ovn_create_restaurant	Establish Restaurant	true
+effects_description_ovn_restaurant_exclusive_food_chains	The three Foodstuffs building chains with menu types are mutually exclusive!	true
+ovn_hlf_under_region_restaurant_tooltip	Restaurant||This region contains a Halfling restaurant.	false
+effects_description_ovn_restaurant_faction_effect_dummy	Establish restaurants in foreign regions with Master Chef agents or when gifting a region to the Empire	true
+effect_bundles_localised_title_ovn_hlf_recruit_general	Recruit Moot General	true
+effect_bundles_localised_description_ovn_hlf_recruit_general	Click to recruit a Moot General near this Restaurant. Usable once per turn per restaurant.	true
+effect_bundles_localised_title_ovn_hlf_recruit_wizard	Recruit Grand Enchanter	true
+effect_bundles_localised_description_ovn_hlf_recruit_wizard	Click to recruit a Grand Enchanter near this Restaurant. Usable once per turn per restaurant.	true
+ovn_hlf_restaurant_discoverability	Chance the Restaurant gets closed down by the authorities: +20	false
+ovn_hlf_ui_wizard_req_label	Establish a Restaurant inside an Empire settlement that has a Wizard's Conclave to enable Wizard recruitment and increase the faction Wizard cap and recruitment rank.	true
+building_sets_onscreen_name_ovn_hlf_under_set_food	Foodstuffs	true
+building_short_description_texts_short_description_ovn_hlf_under_set_menu_1	A full-course dinner, and a testament to Halfling culinary expertise.	true
+building_short_description_texts_short_description_ovn_hlf_under_set_menu_2	Complementary dishes found through centuries of Halfling striving for culinary perfection.	true
+building_short_description_texts_short_description_ovn_hlf_under_set_menu_3	With rare and expensive ingredients, the true genious and madness of Halfling cooking can finally be expressed.	true
+building_short_description_texts_short_description_ovn_hlf_under_pick_menu_1	A varied selection of expertly crafted dishes.	true
+building_short_description_texts_short_description_ovn_hlf_under_pick_menu_2	With an ice cellar extension, the restaurant's offer can be enriched by fresh seafood.	true
+building_short_description_texts_short_description_ovn_hlf_under_pick_menu_3	Exotic and expensive ingredients can truly unlock the Halfling culinary mind, and the customer's purse.	true
+building_short_description_texts_short_description_ovn_hlf_under_buffet_menu_1	An all-you-can-eat buffet adored by the poorer classes.	true
+building_short_description_texts_short_description_ovn_hlf_under_buffet_menu_2	More tables and more dishes to better serve the hungry masses.	true
+building_short_description_texts_short_description_ovn_hlf_under_buffet_menu_3	This restaurant is now a genuine tourist attraction. Lower classes pay pilgrimage to this culinary den.	true
+building_short_description_texts_short_description_ovn_hlf_under_special_menu_1	"Troll meat? But good Sir, this is not that kind of establishment. Just because we're Halflings..."	true
+building_culture_variants_name_ovn_hlf_under_set_menu_1	Pricey Menu	true
+building_culture_variants_name_ovn_hlf_under_set_menu_2	Expensive Menu	true
+building_culture_variants_name_ovn_hlf_under_set_menu_3	Don't Even Ask	true
+building_culture_variants_name_ovn_hlf_under_pick_menu_1	Empire Dishes	true
+building_culture_variants_name_ovn_hlf_under_pick_menu_2	Fresh Seafood Dishes	true
+building_culture_variants_name_ovn_hlf_under_pick_menu_3	Exotic Dishes	true
+building_culture_variants_name_ovn_hlf_under_buffet_menu_1	Simple Buffet	true
+building_culture_variants_name_ovn_hlf_under_buffet_menu_2	Extensive Buffet	true
+building_culture_variants_name_ovn_hlf_under_buffet_menu_3	Buffet Mecca	true
+building_culture_variants_name_ovn_hlf_under_special_menu_1	Special Menu	true
+building_chains_chain_tooltip_ovn_hlf_under_drinks_wine	Sourced Bretonnian Wine	true
+building_culture_variants_name_ovn_hlf_under_drinks_wine	Bretonnian Wine List 	true
+building_short_description_texts_short_description_ovn_hlf_under_drinks_wine	Finest Bretonnian vintages, some of them even actually from Bretonnia.	true
+building_short_description_texts_short_description_ovn_hlf_under_drinks_cofee	A rare treat for the affluent and bored, as well as a great way to display wealth.	true
+building_chains_chain_tooltip_ovn_hlf_under_drinks_cofee	Sourced Arabyan Coffee	true
+building_culture_variants_name_ovn_hlf_under_drinks_cofee	Arabyan Coffee 	true
+building_chains_chain_tooltip_ovn_hlf_under_barn	Accomodations	false
+building_chains_chain_tooltip_ovn_hlf_under_revelry	Revelry	false
+building_chains_chain_tooltip_ovn_hlf_under_security	Security Council	false
+building_chains_chain_tooltip_ovn_hlf_under_fence	The Fence	false
+building_short_description_texts_short_description_ovn_hlf_under_barn_1	An empty barn with hay bedding that can accomodate fellow Halflings.	false
+building_culture_variants_name_ovn_hlf_under_barn_1	Backyard Barn	false
+building_short_description_texts_short_description_ovn_hlf_under_revelry_1	A table always kept reserved for Halfling travelers. While the merriment does wonders for the body and mind, it is at odds with the call of the road.	false
+building_culture_variants_name_ovn_hlf_under_revelry_1	Reserved Table	false
+building_short_description_texts_short_description_ovn_hlf_under_security_1	In this furtive room Halflings discuss the security of the Moot and the whole Old World.	false
+building_culture_variants_name_ovn_hlf_under_security_1	Backroom Security Council	false
+building_short_description_texts_short_description_ovn_hlf_under_fence_1	Halflings are not thieves, but they do have a knack for finding lost things. And a knack for making sure things become lost.	false
+building_culture_variants_name_ovn_hlf_under_fence_1	The Fence	false
+building_sets_onscreen_name_ovn_hlf_under_set_drinks	Drinks	true
+building_sets_onscreen_name_ovn_hlf_under_set_other	Special Buildings	true
+building_chains_chain_tooltip_ovn_hlf_under_set_menu	Six-Course Menu	true
+building_chains_chain_tooltip_ovn_hlf_under_pick_menu	À La Carte Menu	true
+building_chains_chain_tooltip_ovn_hlf_under_buffet_menu	Buffet	true
+building_chains_chain_tooltip_ovn_hlf_under_special_menu	Special Menu	true
+building_short_description_texts_short_description_ovn_hlf_under_barn_2	An extra wing was added to fit in more Halfling beds.	false
+building_culture_variants_name_ovn_hlf_under_barn_2	Extended Barn	false

@@ -1,0 +1,20 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/ovn_hlf_under_other						
+ovn_hlf_under_barn_1	hlf_reduce_all_units_upkeep		foreign_building_to_forces_own_regionwide	-15.0	-10.0	0.0
+ovn_hlf_under_revelry_1	wh2_main_effect_force_own_campaign_movement_range		foreign_building_to_forces_own_regionwide	-10.0	-5.0	0.0
+ovn_hlf_under_revelry_1	wh_main_effect_force_all_campaign_replenishment_rate_horde		foreign_building_to_character_own	25.0	10.0	0.0
+ovn_hlf_under_security_1	wh_main_effect_attribute_enable_vanguard_deployment		foreign_building_to_forces_own_regionwide	1.0	1.0	0.0
+ovn_hlf_under_security_1	wh_main_effect_agent_action_success_chance		foreign_building_to_character_own	20.0	10.0	0.0
+ovn_hlf_under_security_1	wh_main_effect_conquest_enable_night_battles		foreign_building_to_character_own	1.0	1.0	0.0
+ovn_hlf_under_fence_1	wh_main_effect_economy_gdp_manufacture		foreign_building_to_foreign_building_own	100.0	50.0	0.0
+ovn_hlf_under_fence_1	wh2_dlc11_effect_percentage_region_income		foreign_building_to_foreign_building_own	5.0	2.0	0.0
+ovn_hlf_under_fence_1	wh_main_effect_public_order_base		ovn_foreign_to_province	-1.0	0.0	0.0
+ovn_hlf_under_barn_2	wh_dlc05_effect_global_recruitment_duration_all		foreign_building_to_forces_own_regionwide	-1.0	0.0	0.0
+ovn_hlf_under_barn_2	wh_main_effect_force_all_campaign_recruitment_cost_all		foreign_building_to_forces_own_regionwide	-60.0	-30.0	0.0
+ovn_hlf_under_barn_2	hlf_reduce_all_units_upkeep		foreign_building_to_forces_own_regionwide	-25.0	-10.0	0.0
+ovn_hlf_under_barn_1	wh2_main_effect_force_own_campaign_movement_range		foreign_building_to_forces_own_regionwide	20.0	10.0	0.0
+ovn_hlf_under_barn_1	wh_main_effect_force_all_campaign_recruitment_cost_all		foreign_building_to_forces_own_regionwide	-50.0	-25.0	0.0
+ovn_hlf_under_barn_1	wh_dlc05_effect_global_recruitment_duration_all		foreign_building_to_forces_own_regionwide	-1.0	0.0	0.0
+ovn_hlf_under_barn_1	wh_main_effect_force_all_campaign_replenishment_rate_horde		foreign_building_to_character_own	25.0	10.0	0.0
+ovn_hlf_under_barn_2	wh_main_effect_force_all_campaign_replenishment_rate_horde		foreign_building_to_character_own	25.0	10.0	0.0
+ovn_hlf_under_barn_2	wh2_main_effect_force_own_campaign_movement_range		foreign_building_to_forces_own_regionwide	25.0	13.0	0.0

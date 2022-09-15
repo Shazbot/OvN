@@ -19,3 +19,13 @@ ovn_hlf_moot_cauldron			money	false	ovn_hlf_moot_cauldron		0		true
 ovn_hlf_walls			military	true	ovn_hlf_walls		0		true
 ovn_hlf_settlement_major			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
 ovn_hlf_settlement_minor			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
+ovn_hlf_under_set_menu			money	false	ovn_hlf_under_food		1		true
+ovn_hlf_under_pick_menu			money	false	ovn_hlf_under_food		2		true
+ovn_hlf_under_buffet_menu			money	false	ovn_hlf_under_food		3		true
+ovn_hlf_under_special_menu			money	false	ovn_hlf_under_food		4		true
+ovn_hlf_under_drinks_wine			money	false	ovn_hlf_under_drinks		5		true
+ovn_hlf_under_drinks_cofee			money	false	ovn_hlf_under_drinks		7		true
+ovn_hlf_under_barn			money	false	ovn_hlf_under_other		9		true
+ovn_hlf_under_revelry			money	false	ovn_hlf_under_other		1		true
+ovn_hlf_under_security			money	false	ovn_hlf_under_other		1		true
+ovn_hlf_under_fence			money	false	ovn_hlf_under_other		1		true
