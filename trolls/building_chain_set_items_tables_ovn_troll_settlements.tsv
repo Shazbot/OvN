@@ -1,5 +1,5 @@
 chain	set	super_chain	remove
-#building_chain_set_items_tables;0;db/building_chain_set_items_tables/ovn_fimir_settlements			
+#building_chain_set_items_tables;0;db/building_chain_set_items_tables/ovn_troll_settlements			
 ovn_troll_settlement_major	wh3_main_primary_core_generic_major		false
 ovn_troll_settlement_minor	wh3_main_primary_core_generic_minor		false
 ovn_troll_settlement_major	wh3_main_primary_core_special_major_altdorf		true

@@ -1,5 +1,5 @@
 building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables;0;db/building_effects_junction_tables/ovn_fimir_settlements						
+#building_effects_junction_tables;0;db/building_effects_junction_tables/ovn_troll_settlements						
 ovn_troll_settlement_major_1	wh3_main_effect_building_settlement_initial_supply_points		region_to_region_own	1000.0	500.0	0.0
 ovn_troll_settlement_major_1	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-2.0	-2.0	0.0
 ovn_troll_settlement_major_1	wh_main_effect_construction_slot_dummy		this_building	1.0	1.0	1.0

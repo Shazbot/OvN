@@ -1,4 +1,4 @@
 key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
 #building_chains_tables;9;db/building_chains_tables/ovn_fimir_settlements									
-ovn_troll_settlement_major			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
-ovn_troll_settlement_minor			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
+ovn_fimir_settlement_major			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true
+ovn_fimir_settlement_minor			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_empire_city.png	0		true

@@ -1,4 +1,4 @@
 building_chain	id
 #building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/ovn_fimir_settlements	
-ovn_troll_settlement_minor	ovn_troll
-ovn_troll_settlement_major	ovn_troll
+ovn_fimir_settlement_minor	ovn_fimir
+ovn_fimir_settlement_major	ovn_fimir

@@ -1,5 +1,5 @@
 building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_fimir_settlements								
+#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_troll_settlements								
 ovn_troll_settlement_major_1		ovn_sc_troll_troll		wh_main_PLACEHOLDER	nor_settlement	false	wh_main_emp_settlement_major_1	true
 ovn_troll_settlement_major_2		ovn_sc_troll_troll		wh_main_PLACEHOLDER	nor_settlement	false	wh_main_emp_settlement_major_2	true
 ovn_troll_settlement_major_3		ovn_sc_troll_troll		wh_main_PLACEHOLDER	nor_settlement	false	wh_main_emp_settlement_major_3	true
