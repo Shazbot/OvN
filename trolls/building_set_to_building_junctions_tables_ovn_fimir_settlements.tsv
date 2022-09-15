@@ -1,0 +1,4 @@
+building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/ovn_fimir_settlements			
+ovn_troll_settlement_major		wh_main_set_settlement_major	false
+ovn_troll_settlement_minor		wh_main_set_settlement_minor	false
