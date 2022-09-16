@@ -1,5 +1,5 @@
 key	icon	sort_order	show_in_ui	audio_switch	colour_hex
 #building_sets_tables;5;db/building_sets_tables/ovn_halflings					
-ovn_hlf_under_set_food	UI/Buildings/Icons/skaven_cat_under_empire_food.png	1	true	107	000067
-ovn_hlf_under_set_other	UI/Buildings/Icons/empire_cat_defence.png	3	true	85	000073
-ovn_hlf_under_set_drinks	UI/Buildings/Icons/vampire_coast_cat_smuggling_trade.png	2	true	99	000115
+ovn_hlf_under_set_food	UI/Buildings/Icons/skaven_cat_under_empire_food.png	1	true	107	006B00
+ovn_hlf_under_set_other	UI/Buildings/Icons/empire_cat_defence.png	3	true	85	006B00
+ovn_hlf_under_set_drinks	UI/Buildings/Icons/vampire_coast_cat_smuggling_trade.png	2	true	99	006B00
