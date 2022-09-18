@@ -1,0 +1,6 @@
+key	unit	trade_value	icon_filepath	strategic_value	in_encyclopedia	show_on_city_infobar
+#resources_tables;5;db/resources_tables/ovn_araby_only						
+res_ivory	sacks	50	ui\campaign ui\effect_bundles\res_ivory.png	500	false	true
+ovn_coffee	sacks	50	ui/campaign ui/effect_bundles/ovn_araby_coffee.png	500	false	true
+res_location_araby		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	true
+res_location_araby_hidden		0	ui\campaign ui\effect_bundles\strategic_location.png	0	false	false

@@ -1,0 +1,103 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set
+#units_custom_battle_permissions_tables;10;db/units_custom_battle_permissions_tables/ovn_araby_only									
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_art_ballista	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_art_grand_bombard	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_art_grand_bombard_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_art_naphtha_thrower	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_veh_naphtha_thrower_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_arabyan_knights	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_arabyan_knights_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_archer_camels	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_bedouin_scouts	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_flying_carpets	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_flying_carpets_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_jezzail_camels	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_lancer_camels	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_lancer_camels_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_sipahis	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_sipahis_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_champion_0	true	true	ui/portraits/portholes/no_culture/ovn_arb_cha_champion.png	ovn_arb_cha_champion	ovn_arb_cha_champion_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_champion_1	true	true	ui/portraits/portholes/no_culture/ovn_arb_cha_champion.png	ovn_arb_cha_champion	ovn_arb_cha_champion_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_champion_2	true	true	ui/portraits/portholes/no_culture/ovn_arb_cha_champion.png	ovn_arb_cha_champion	ovn_arb_cha_champion_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_champion_3	true	true	ui/portraits/portholes/no_culture/ovn_arb_cha_champion.png	ovn_arb_cha_champion	ovn_arb_cha_champion_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_fatandira_0	true	true	ui/portraits/portholes/no_culture/arb_fatandira.png	ovn_arb_cha_fatandira_0	ovn_arb_cha_fatandira_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_fatandira_1	true	true	ui/portraits/portholes/no_culture/arb_fatandira.png	ovn_arb_cha_fatandira_0	ovn_arb_cha_fatandira_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_fatandira_2	true	true	ui/portraits/portholes/no_culture/arb_fatandira.png	ovn_arb_cha_fatandira_0	ovn_arb_cha_fatandira_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_golden_magus_0	true	true	ui/portraits/portholes/no_culture/arb_golden_magus.png	ovn_arb_cha_golden_magus_0	ovn_arb_cha_golden_magus_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_golden_magus_1	true	true	ui/portraits/portholes/no_culture/arb_golden_magus.png	ovn_arb_cha_golden_magus_1	ovn_arb_cha_golden_magus_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_golden_magus_2	true	true	ui/portraits/portholes/no_culture/arb_golden_magus.png	ovn_arb_cha_golden_magus_0	ovn_arb_cha_golden_magus_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_desert_0	true	true	ui/portraits/portholes/no_culture/araby_wiz.png		ovn_arb_cha_magician_desert_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_desert_1	true	true	ui/portraits/portholes/no_culture/araby_wiz.png		ovn_arb_cha_magician_desert_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_desert_2	true	true	ui/portraits/portholes/no_culture/araby_wiz.png		ovn_arb_cha_magician_desert_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_fire_0	true	true	ui/portraits/portholes/no_culture/araby_wiz_fire.png		ovn_arb_cha_magician_fire_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_fire_1	true	true	ui/portraits/portholes/no_culture/araby_wiz_fire.png		ovn_arb_cha_magician_fire_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_fire_2	true	true	ui/portraits/portholes/no_culture/araby_wiz_fire.png		ovn_arb_cha_magician_fire_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_heavens_0	true	true	ui/portraits/portholes/no_culture/araby_wiz_sky.png		ovn_arb_cha_magician_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_heavens_1	true	true	ui/portraits/portholes/no_culture/araby_wiz_sky.png		ovn_arb_cha_magician_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_heavens_2	true	true	ui/portraits/portholes/no_culture/araby_wiz_sky.png		ovn_arb_cha_magician_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_life_0	true	true	ui/portraits/portholes/no_culture/araby_wiz_life.png		ovn_arb_cha_magician_life_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_life_1	true	true	ui/portraits/portholes/no_culture/araby_wiz_life.png		ovn_arb_cha_magician_life_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_magician_life_2	true	true	ui/portraits/portholes/no_culture/araby_wiz_life.png		ovn_arb_cha_magician_life_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_nomad_0	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_uniform_01	ovn_arb_cha_nomad_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_nomad_1	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_uniform_01	ovn_arb_cha_nomad_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_nomad_2	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_jezzail_uniform_01	ovn_arb_cha_nomad_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cha_nomad_3	true	true	ui/portraits/portholes/no_culture/roy_arb_cha_nomad.png	ovn_arb_cha_nomad_assassin_uniform_01	ovn_arb_cha_nomad_3	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sheikh_0	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_arb_cha_sheikh_01	ovn_arb_cha_sheikh_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sheikh_1	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_arb_cha_sheikh_02	ovn_arb_cha_sheikh_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sheikh_2	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_arb_cha_sheikh_01	ovn_arb_cha_sheikh_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sheikh_3	true	true	ui/portraits/portholes/no_culture/ovn_araby_ll.png	ovn_arb_cha_sheikh_01	ovn_arb_cha_sheikh_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sultan_jaffar_0	true	true	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	ovn_arb_cha_sultan_jaffar_0	ovn_arb_cha_sultan_jaffar_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sultan_jaffar_1	true	true	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	ovn_arb_cha_sultan_jaffar_1	ovn_arb_cha_sultan_jaffar_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sultan_jaffar_2	true	true	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	ovn_arb_cha_sultan_jaffar_0	ovn_arb_cha_sultan_jaffar_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_sultan_jaffar_3	true	true	ui/portraits/portholes/no_culture/Sultan_Jaffar.png	ovn_arb_cha_sultan_jaffar_0	ovn_arb_cha_sultan_jaffar_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_desert_0	true	true	ui/portraits/portholes/no_culture/arb_vizier_desert_0.png	ovn_arb_cha_vizier_desert_01	wh_main_emp_cha_wizard_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_desert_1	true	true	ui/portraits/portholes/no_culture/arb_vizier_desert_0.png	ovn_arb_cha_vizier_desert_01	wh_main_emp_cha_wizard_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_desert_2	true	true	ui/portraits/portholes/no_culture/arb_vizier_desert_0.png	ovn_arb_cha_vizier_desert_01	wh_main_emp_cha_wizard_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_fire_0	true	true	ui/portraits/portholes/no_culture/arb_vizier_fire_1.png	ovn_arb_cha_vizier_fire_02	wh_main_emp_cha_wizard_fire_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_fire_1	true	true	ui/portraits/portholes/no_culture/arb_vizier_fire_1.png	ovn_arb_cha_vizier_fire_02	wh_main_emp_cha_wizard_fire_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_fire_2	true	true	ui/portraits/portholes/no_culture/arb_vizier_fire_1.png	ovn_arb_cha_vizier_fire_02	wh_main_emp_cha_wizard_fire_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_heavens_0	true	true	ui/portraits/portholes/no_culture/arb_vizier_heavens_1.png	ovn_arb_cha_vizier_heavens_02	wh_main_emp_cha_wizard_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_heavens_1	true	true	ui/portraits/portholes/no_culture/arb_vizier_heavens_1.png	ovn_arb_cha_vizier_heavens_02	wh_main_emp_cha_wizard_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_heavens_2	true	true	ui/portraits/portholes/no_culture/arb_vizier_heavens_1.png	ovn_arb_cha_vizier_heavens_02	wh_main_emp_cha_wizard_heavens_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_life_0	true	true	ui/portraits/portholes/no_culture/arb_vizier_life_0.png	ovn_arb_cha_vizier_life_01	wh_main_emp_cha_wizard_fire_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_life_1	true	true	ui/portraits/portholes/no_culture/arb_vizier_life_0.png	ovn_arb_cha_vizier_life_01	wh_main_emp_cha_wizard_fire_0	false	
+ovn_arb_sultanate_of_all_araby	true	ovn_arb_cha_vizier_life_2	true	true	ui/portraits/portholes/no_culture/arb_vizier_life_0.png	ovn_arb_cha_vizier_life_01	wh_main_emp_cha_wizard_fire_0	false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_alrahem_nomads	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_arabyan_bowmen	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_arabyan_guard	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_arabyan_guard_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_arabyan_ogres	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_arabyan_spearmen	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_arabyan_warriors	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_corsairs	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_dervishers	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_jaguar_champions_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_jezzails	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_jezzails_ror	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_pit_fighters	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_sharkas_slaves	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_inf_southland_warriors	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_desert_spirit	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_desert_spirit_ror	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_elephant	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_fire_efreet	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_fire_efreet_ror	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_genie	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_sea_nymph	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_sea_nymph_ror	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_tempest_djinn	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_tempest_djinn_ror	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_war_elephant	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_war_elephant_ror_1	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_war_elephant_ror_2	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	wh_main_grn_mon_giant	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_giant_vulture_feral	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_waghzen	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_enchanted_rope	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_cav_scorpion_riders	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_giant_scorpion	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_necrofex_colossus	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_mon_promethean_hatchlings	true	true				true	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_djinn_carriage	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_art_quadballista	true	true				false	
+ovn_arb_sultanate_of_all_araby	false	ovn_arb_art_quadballista_ror	true	true				false	

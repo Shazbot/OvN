@@ -1,0 +1,32 @@
+faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/ovn_araby_only						
+		1	roy_skill_nomad_mount_warhorse		x	6
+		1	roy_skill_champion_mount_horse		x	6
+		1	roy_skill_champion_mount_warhorse		x	10
+		1	roy_skill_champion_mount_elephant		x	17
+		1	roy_skill_arb_agent_missile_res		x	7
+		1	roy_skill_nomad_mount_assassin		x	14
+		1	roy_skill_nomad_jezzail		x	14
+		1	roy_skill_champion_arb_guard		x	9
+		1	roy_skill_champion_arb_warrior		x	9
+		1	roy_skill_champion_arb_sergeant		x	9
+		1	roy_skill_arb_nomad_strike_from_the_shadows		x	12
+		1	ovn_skill_arb_all_unique_ward_of_the_one		x	7
+		1	ovn_skill_arb_magician_unique_magician_life_magic_carpet		x	6
+		1	ovn_skill_arb_magician_unique_magician_life_djinn_vessel		x	10
+		1	ovn_skill_arb_magician_unique_magician_desert_magic_carpet		x	6
+		1	ovn_skill_arb_magician_unique_magician_desert_djinn_vessel		x	10
+		1	ovn_skill_arb_magician_unique_magician_fire_magic_carpet		x	6
+		1	ovn_skill_arb_magician_unique_magician_fire_djinn_vessel		x	10
+		1	ovn_skill_arb_magician_unique_magician_heavens_magic_carpet		x	6
+		1	ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel		x	10
+		1	sword		x	10
+		1	Helm		x	10
+		1	Talisman		x	5
+		1	Order_Buff		x	13
+		1	Chaos_Buff		x	6
+		1	rattlesnake_staff		x	14
+		1	ovn_skill_arb_lord_mount_horse		x	6
+		1	Mount		x	13
+		1	Mount_Elephant		x	15
+		1	Djinn		x	20

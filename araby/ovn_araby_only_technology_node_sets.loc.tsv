@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_only_technology_node_sets.loc		
+technology_node_sets_localised_name_ovn_araby_tech	Arabyan Technology	true
+technology_node_sets_tooltip_string_ovn_araby_tech		true

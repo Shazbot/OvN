@@ -1,0 +1,5 @@
+faction	mercenary_set
+#faction_to_mercenary_set_junctions_tables;0;db/faction_to_mercenary_set_junctions_tables/ovn_araby_only	
+ovn_arb_aswad_scythans	ovn_arb_units_of_renown_pool
+ovn_arb_sultanate_of_all_araby	ovn_arb_units_of_renown_pool
+ovn_arb_golden_fleet	ovn_arb_units_of_renown_pool

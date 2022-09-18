@@ -1,0 +1,5 @@
+agent_subtype	effect_bundle
+#faction_starting_general_effects_tables;0;db/faction_starting_general_effects_tables/ovn_araby_only	
+arb_sultan_jaffar	ovn_lord_trait_arb_sultanate_of_all_araby
+arb_fatandira	ovn_lord_trait_arb_aswad_scythans
+arb_golden_magus	ovn_lord_trait_arb_golden_fleet

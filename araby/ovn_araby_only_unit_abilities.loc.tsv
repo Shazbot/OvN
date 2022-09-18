@@ -1,0 +1,140 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_only_unit_abilities.loc		
+unit_abilities_onscreen_name_roy_unit_active_arb_strike_from_the_shadows	Strike from the Shadows	true
+unit_abilities_tooltip_text_roy_unit_active_arb_strike_from_the_shadows	The Hashishin are master assassins.	true
+unit_abilities_onscreen_name_roy_unit_active_arb_doppelgang	Doppelgang	false
+unit_abilities_tooltip_text_roy_unit_active_arb_doppelgang	Now you see him, now you don’t… and now you’re seeing double.	false
+unit_abilities_onscreen_name_wh2_dlc12_army_abilities_great_invocation_of_djinn	Summon Serpent Djinn	true
+unit_abilities_tooltip_text_wh2_dlc12_army_abilities_great_invocation_of_djinn	Djinn come in many forms none more feared and revered across Araby then the Serpent.	true
+unit_abilities_onscreen_name_claws_of_forest	Summon a forest djinn	false
+unit_abilities_onscreen_name_summon_djinn_fighter	Summon Unchained Ifreet	true
+unit_abilities_tooltip_text_summon_djinn_fighter	This Djinn has given in to the burning power of Aqshy, though those that burn so bright do not burn long.	true
+unit_abilities_onscreen_name_Black_Book_Of_Ibn_Naggazar	Black Book Of Ibn Naggazar	true
+unit_abilities_tooltip_text_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer.Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be no doubt he was utterly insane.	true
+unit_abilities_onscreen_name_arb_jaffar_serpent_djinn	Serpent Staff	false
+unit_abilities_tooltip_text_arb_jaffar_serpent_djinn	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	false
+unit_abilities_onscreen_name_arb_jaffar_aura_will	Will of Jaffar	false
+unit_abilities_tooltip_text_arb_jaffar_aura_will	Jaffar's natural gravitas coupled with his sorcerous might produce an oppressive aura of dread and authority around him that none under his command can resist.	false
+unit_abilities_onscreen_name_ovn_lore_passive_blessing_of_the_elements	Blessing of the Elements	true
+unit_abilities_tooltip_text_ovn_lore_passive_blessing_of_the_elements	The sorcerer  utters a blessing onto the weapons of his allies, imbuing their attacks with the magic of the elements.	true
+unit_abilities_onscreen_name_ovn_spell_desert_burning_hands	Burning Hands	true
+unit_abilities_onscreen_name_ovn_spell_desert_burning_hands_upgraded	Burning Hands Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_curse_of_the_djinn	Curse of the Djinn	true
+unit_abilities_onscreen_name_ovn_spell_desert_curse_of_the_djinn_upgraded	Curse of the Djinn Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_mirage	Mirage	true
+unit_abilities_onscreen_name_ovn_spell_desert_mirage_upgraded	Mirage Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_quicksand	Quicksand	true
+unit_abilities_onscreen_name_ovn_spell_desert_quicksand_upgraded	Quicksand Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_sandstorm	Sandstorm	true
+unit_abilities_onscreen_name_ovn_spell_desert_sandstorm_upgraded	Sandstorm Upgraded	true
+unit_abilities_onscreen_name_ovn_spell_desert_sunstrike	Sunstrike	true
+unit_abilities_onscreen_name_ovn_spell_desert_sunstrike_upgraded	Sunstrike Upgraded	true
+unit_abilities_tooltip_text_ovn_spell_desert_burning_hands	As if possessed by a Fire Efreet, the caster conjures scorching flames from his hands to burn his enemies to a crisp.	true
+unit_abilities_tooltip_text_ovn_spell_desert_burning_hands_upgraded	As if possessed by a Fire Efreet, the caster conjures scorching flames from his hands to burn his enemies to a crisp.	true
+unit_abilities_tooltip_text_ovn_spell_desert_curse_of_the_djinn	Channeling the immense powers of the Djinn through his own body, the sorcerer lays a terrible curse upon his foes.	true
+unit_abilities_tooltip_text_ovn_spell_desert_curse_of_the_djinn_upgraded	Channeling the immense powers of the Djinn through his own body, the sorcerer lays a terrible curse upon his foes.	true
+unit_abilities_tooltip_text_ovn_spell_desert_mirage	Conjured by an Arabyan sorcerer, a magical illusion exploits his enemy's most inner desires, distracting them from their foe.	true
+unit_abilities_tooltip_text_ovn_spell_desert_mirage_upgraded	Conjured by an Arabyan sorcerer, a magical illusion exploits his enemy's most inner desires, distracting them from their foe.	true
+unit_abilities_tooltip_text_ovn_spell_desert_quicksand	The wizard turns the ground into bottomless quicksand, dragging any unfortunates down into the abyss.	true
+unit_abilities_tooltip_text_ovn_spell_desert_quicksand_upgraded	The wizard turns the ground into bottomless quicksand, dragging any unfortunates down into the abyss.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sandstorm	Commanding the desert spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sandstorm_upgraded	Commanding the desert spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sunstrike	Bright beams of burning energy leap from the wizard's eyes and scythe through all before him.	true
+unit_abilities_tooltip_text_ovn_spell_desert_sunstrike_upgraded	Bright beams of burning energy leap from the wizard's eyes and scythe through all before him.	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_desert_spirit	Summon Desert Spirit	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_fire_efreet	Summon Fire Efreet	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_genie	Summon Genie	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_sea_nymph	Summon Sea Nymph	true
+unit_abilities_onscreen_name_ovn_hero_abilities_summon_tempest_djinn	Summon Tempest Djinn	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_desert_spirit	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_fire_efreet	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_genie	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_sea_nymph	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_tooltip_text_ovn_hero_abilities_summon_tempest_djinn	Crack open the djinn vessel, release the Djinn held within.	true
+unit_abilities_onscreen_name_ovn_unit_passive_unbinding_djinn	Return to the Lamp	true
+unit_abilities_tooltip_text_ovn_unit_passive_unbinding_djinn	Give a Djinn too much freedom and they will start thinking dangerous thoughts.	true
+unit_abilities_tooltip_text_arb_fatandira_desert_feint	"Heat of the desert, the sand is on my face, without accomplice the soldier knows no disgrace..."	true
+unit_abilities_onscreen_name_arb_fatandira_desert_feint	Desert Feint	true
+unit_abilities_tooltip_text_arb_fatandira_aimed_shot	"Breathe in, release, breathe out, repeat."	true
+unit_abilities_onscreen_name_arb_fatandira_aimed_shot	Aimed Shot	true
+unit_abilities_onscreen_name_arb_golden_magus_burning_scimitar_ability	The Flaming Scimitar	false
+unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_bolts_of_burning	Magical Support: Piercing Bolts of Ruin	false
+unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_hurricane_blades	Magical Support: Hurricane of Blades	false
+unit_abilities_onscreen_name_arb_golden_magus_flaming_scimitar_royal_djinn	Summon the Sultan of Flame	false
+unit_abilities_onscreen_name_arb_golden_magus_master_djinn	Master of the Djinn	false
+unit_abilities_onscreen_name_arb_golden_magus_mistral	Mistral	false
+unit_abilities_onscreen_name_arb_golden_magus_scirocco	Sirocco	false
+unit_abilities_onscreen_name_arb_golden_magus_wrath_djinn_passive	Wrath of the Djinn	false
+unit_abilities_tooltip_text_arb_golden_magus_burning_scimitar_ability	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_bolts_of_burning	Orders the Flaming Scimitar's Fire Efreets to unleash a barrage of burning bolts upon your enemies.	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_hurricane_blades	Orders the Flaming Scimitar's Tempest Djinns to conjure a potent torrent of curved windswords upon the battlefield.	false
+unit_abilities_tooltip_text_arb_golden_magus_flaming_scimitar_royal_djinn	"The power! THE ABSOLUTE POWER!"	false
+unit_abilities_tooltip_text_arb_golden_magus_master_djinn	"PHENOMENAL COSMIC POWERS!"	false
+unit_abilities_tooltip_text_arb_golden_magus_mistral	The cool and protective wind of the north, it blows away the evil and wrongness in the skies and shields all from harm.	false
+unit_abilities_tooltip_text_arb_golden_magus_scirocco	The dusty and unforgivable wind of the south, it brings with it the fury and the sweltering heat of the desert.	false
+unit_abilities_tooltip_text_arb_golden_magus_wrath_djinn_passive	The power the Golden Magus wields comes at a price. If his concentration wanes during battle, the Djinn under his control will sense his weakness and attempt to turn the Magus' power against himself.	false
+unit_abilities_onscreen_name_arb_sultan_flame_bound_fireburst	Flame Burst	false
+unit_abilities_tooltip_text_arb_sultan_flame_bound_fireburst	Searing flames burst from the caster, burning everything around them.	false
+unit_abilities_onscreen_name_arb_sultan_flame_bound_firestorm	Flame Storm	false
+unit_abilities_tooltip_text_arb_sultan_flame_bound_firestorm	A column of churning fire erupts from the battlefield, causing much destruction!    	false
+unit_abilities_onscreen_name_blood_howl	Blood Howl	true
+unit_abilities_tooltip_text_blood_howl	Devoted to their gods these Arabyans give out a shrill howl in their honour.	true
+unit_abilities_onscreen_name_ovn_unit_abilities_pot_of_naphtha	Naphtha Bomb	true
+unit_abilities_tooltip_text_ovn_unit_abilities_pot_of_naphtha	A mixture of chemicals that becomes a fiery liquid that is difficult to put out, conveniently packaged in a small clay pot.	true
+unit_abilities_onscreen_name_ovn_unit_passive_unbinding_arb_spearmen_mirage	Unbinding	true
+unit_abilities_onscreen_name_ovn_unit_passive_unbinding_arb_spearmen_mirage_upgraded	Unbinding	true
+unit_abilities_tooltip_text_ovn_unit_passive_unbinding_arb_spearmen_mirage	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true
+unit_abilities_tooltip_text_ovn_unit_passive_unbinding_arb_spearmen_mirage_upgraded	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true
+unit_abilities_tooltip_text_ovn_arb_baz_wep_10_vengeful_sword_heal	Slay, slay and slay some more so I might feed on their souls, I demand it!	true
+unit_abilities_tooltip_text_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Your soul is mine, your very life is mine to devour! Hurry now, so you are merely the entree to my feast!	true
+unit_abilities_tooltip_text_ovn_arb_baz_wep_08_matyr_shard_ability	Death is not the end, give yourself to death, give yourself to martyrdom and your name will echo through the ages.	true
+unit_abilities_tooltip_text_ovn_arb_baz_heal	The deserts of Araby are a harsh mistress but not always...	true
+unit_abilities_tooltip_text_ovn_arb_baz_escape	It's as if they have melted away into the Arabyan dunes, nowhere to be seen.	true
+unit_abilities_tooltip_text_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	The shard tears open a fragile portal to the realm of Chaos just long enough for vile Chaos Spawn to spill forth.	true
+unit_abilities_tooltip_text_ovn_arb_baz_arm_09_faith_shield_ability	Trust absolutey in the gods, never let your faith waver and you may yet live.	true
+unit_abilities_tooltip_text_ovn_arb_baz_arm_08_gorgon_shield_ability	Filled with dread, their bodies freeze for none can withstand the Gorgon's glare.	true
+unit_abilities_onscreen_name_ovn_arb_baz_wep_10_vengeful_sword_heal	Vengeful God Sword (Feeding)	true
+unit_abilities_onscreen_name_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Vengeful God Sword (Hungers)	true
+unit_abilities_onscreen_name_ovn_arb_baz_wep_08_matyr_shard_ability	Martyr’s Stand	true
+unit_abilities_onscreen_name_ovn_arb_baz_heal	Divine Healing	true
+unit_abilities_onscreen_name_ovn_arb_baz_escape	Enveloped by the Dune	true
+unit_abilities_onscreen_name_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	Twilight Mirror Shard	true
+unit_abilities_onscreen_name_ovn_arb_baz_arm_09_faith_shield_ability	Divine Faith	true
+unit_abilities_onscreen_name_ovn_arb_baz_arm_08_gorgon_shield_ability	Gorgon's Glare	true
+unit_abilities_tooltip_text_smokeleaf_smokescreen	The tactical burning of special tobacco obscures the unit and its allies, making them harder to hit with missiles. It also temporarily numbs the pain of warriors in range.	true
+unit_abilities_onscreen_name_smokeleaf_smokescreen	Tobacco Smokescreen	true
+unit_abilities_tooltip_text_arb_fatandira_blades_demise_skill	Taken by Fatandira from the tomb of the Liche Lord Karitamen in the Borderlands, this pair of Nehekharan Khopeshes magically enhance their owner's combat skills, and weaken anyone struck by them.	false
+unit_abilities_onscreen_name_arb_fatandira_blades_demise_skill	Blades of Honourable Demise	false
+unit_abilities_tooltip_text_ovn_arb_unit_passive_djinn_instability	As a Djinn's phyiscal manifestation is damaged, the enchantments keeping it bound to this plane further dissipate.	true
+unit_abilities_onscreen_name_ovn_arb_unit_passive_djinn_instability	Djinn Unbinding	true
+unit_abilities_tooltip_text_ovn_arb_unit_passive_djinn_instability_ii	When a Djinn can't sustain its physical form anymore, it returns to whence it came, be it the vessel they are bound to, or back to their planer.	true
+unit_abilities_onscreen_name_ovn_arb_unit_passive_djinn_instability_ii	Return to the Lamp!	true
+unit_attributes_bullet_text_djinn	Djinn||This unit is a Djinn, an elemental spirit (has physical resistance, does not rout, is immune to terror, takes damage when [[img:icon_morale]][[/img]]{{tr:morale}} is low)	true
+unit_attributes_imued_effect_text_djinn	Djinn	true
+unit_attributes_removed_effect_text_djinn	PLACEHOLDER	true
+unit_abilities_tooltip_text_ovn_arb_passive_djinn_carriage_power_of_djinn	The power and number of Djinn trapped in the vessels in the Carriage makes it a powerful nexus for aethyrical forces.	true
+unit_abilities_onscreen_name_ovn_arb_passive_djinn_carriage_power_of_djinn	Power of the Djinn	true
+unit_abilities_tooltip_text_ovn_djinn_carriage_summon_desert_spirit	Summon Desert Spirit	true
+unit_abilities_onscreen_name_ovn_djinn_carriage_summon_desert_spirit	Summon Desert Spirit	true
+unit_abilities_tooltip_text_ovn_djinn_carriage_summon_fire_efreet	Summon Fire Efreet	true
+unit_abilities_onscreen_name_ovn_djinn_carriage_summon_fire_efreet	Summon Fire Efreet	true
+unit_abilities_tooltip_text_ovn_djinn_carriage_summon_sea_nymph	Summon Sea Nymph	true
+unit_abilities_onscreen_name_ovn_djinn_carriage_summon_sea_nymph	Summon Sea Nymph	true
+unit_abilities_tooltip_text_ovn_djinn_carriage_summon_tempest_djinn	Summon Tempest Djinn	true
+unit_abilities_onscreen_name_ovn_djinn_carriage_summon_tempest_djinn	Summon Tempest Djinn	true
+unit_abilities_onscreen_name_ovn_arb_dervish_charge	Dervish Charge	true
+unit_abilities_onscreen_name_ovn_arb_dervish_dance	Whirling Dervishes	true
+unit_abilities_tooltip_text_ovn_arb_dervish_charge	Fueled by a fanatic devotion to the Djinn, the Dervishes spin wildly during their charge.	true
+unit_abilities_tooltip_text_ovn_arb_dervish_dance	As combat rages on, the Dervishes' zealotry drives them further into their trance, spinning recklessly, madly attacking the enemy even as they are being attacked themselves. 	true
+special_ability_phases_onscreen_name_ovn_arb_people_nomads	People of the Desert	true
+unit_abilities_tooltip_text_ovn_arb_people_nomads	The nomad tribes of Araby have inhabited it for generations, well before the first cities were founded on the coasts. Their preffred fighting style consists on keeping distance with their foes using their mounts or knowledge of the terrain, while peppering them with projectiles, or if necessary, unleashing a furious charge on them.	true
+unit_abilities_onscreen_name_ovn_arb_people_nomads	People of the Desert	true
+special_ability_phases_onscreen_name_arb_guard_ror_jaffar_elite	Pride of the Sultan	true
+unit_abilities_tooltip_text_arb_guard_ror_jaffar_elite	The Black Scimitar Guards are one of the most elite units in the armies of Araby, as long as the fight goes in their favour, their pride will swell and embolden them to fight more effectively.	true
+unit_abilities_onscreen_name_arb_guard_ror_jaffar_elite	Pride of the Sultan	true
+unit_abilities_tooltip_text_wh_main_spell_fire_flaming_sword_of_rhuin_bound_camel_ror	The Wizard ensorcels allied weapons, making them burn with a savage fire. The targets of the spell are augmented with superior flaming blades.	true
+unit_abilities_onscreen_name_wh_main_spell_fire_flaming_sword_of_rhuin_bound_camel_ror	Flaming Sword of Rhuin	true
+unit_abilities_tooltip_text_wh_main_spell_fire_the_burning_head_bound_camel_ror	A cackling, flaming visage appears before the Wizard. With a gleeful screech, it swirls around the battlefield, immolating anything in its way.  	true
+unit_abilities_onscreen_name_wh_main_spell_fire_the_burning_head_bound_camel_ror	The Burning Head	true
+unit_abilities_tooltip_text_ovn_arb_efreet_asscannon	asscannon	true
+unit_abilities_onscreen_name_ovn_arb_efreet_asscannon	asscannon	true

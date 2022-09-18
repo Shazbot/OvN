@@ -1,0 +1,10 @@
+alternate_unit	base_unit	type_category	type_icon	show_base_in_unit_list	id	colour	sort_order
+#units_custom_battle_types_tables;3;db/units_custom_battle_types_tables/ovn_araby_only							
+ovn_arb_cha_vizier_desert_0	ovn_arb_cha_vizier_desert_0	type_spell_lore		true	99998722	FFFFFF	0
+ovn_arb_cha_vizier_fire_0	ovn_arb_cha_vizier_desert_0	type_spell_lore		false	99998723	FFFFFF	20
+ovn_arb_cha_vizier_heavens_0	ovn_arb_cha_vizier_desert_0	type_spell_lore		false	99998724	FFFFFF	20
+ovn_arb_cha_vizier_life_0	ovn_arb_cha_vizier_desert_0	type_spell_lore		false	99998725	FFFFFF	20
+ovn_arb_cha_magician_desert_0	ovn_arb_cha_magician_desert_0	type_spell_lore		true	99998726	FFFFFF	0
+ovn_arb_cha_magician_fire_0	ovn_arb_cha_magician_desert_0	type_spell_lore		false	99998727	FFFFFF	20
+ovn_arb_cha_magician_heavens_0	ovn_arb_cha_magician_desert_0	type_spell_lore		false	99998728	FFFFFF	20
+ovn_arb_cha_magician_life_0	ovn_arb_cha_magician_desert_0	type_spell_lore		false	99998729	FFFFFF	20

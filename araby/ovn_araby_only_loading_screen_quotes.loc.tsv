@@ -1,0 +1,32 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_only_loading_screen_quotes.loc		
+loading_screen_quotes_bulletpoints_ovn_arb_mon_genie	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||Ethereal||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing	true
+loading_screen_quotes_description_ovn_arb_mon_genie	The Genies of Araby have mastery over the four native elements: water, sand, fire, and air.	true
+loading_screen_quotes_title_ovn_arb_mon_genie	Genie	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_sea_nymph	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||Ethereal||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing	true
+loading_screen_quotes_description_ovn_arb_mon_sea_nymph	Water Djinns that dwell along the coasts of Araby are fearsome indeed.	true
+loading_screen_quotes_title_ovn_arb_mon_sea_nymph	Sea Nymph	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_desert_spirit	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||Ethereal||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing	true
+loading_screen_quotes_description_ovn_arb_mon_desert_spirit	Sand Djinns that live in the deserts of Araby are a force to reckoned with.	true
+loading_screen_quotes_title_ovn_arb_mon_desert_spirit	Desert Spirit	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_fire_efreet	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||Ethereal||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing	true
+loading_screen_quotes_description_ovn_arb_mon_fire_efreet	Fire Djinns thrive under the hot sun of Araby and are powerful allies... and enemies.	true
+loading_screen_quotes_title_ovn_arb_mon_fire_efreet	Fire Efreet	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_tempest_djinn	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||Ethereal||[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles	true
+loading_screen_quotes_description_ovn_arb_mon_tempest_djinn	Air Djinns are native to the skies of Araby and are an excellent choice when it comes to enchanting furniture.	true
+loading_screen_quotes_title_ovn_arb_mon_tempest_djinn	Tempest Djinn	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_cannon_elephant	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	true
+loading_screen_quotes_description_ovn_arb_mon_cannon_elephant	These fearsome beasts have a small mounted cannon, a concept originating in the faraway lands of Ind.	true
+loading_screen_quotes_title_ovn_arb_mon_cannon_elephant	Gajnal Juggernaut	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_elephant	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	true
+loading_screen_quotes_description_ovn_arb_mon_elephant	These fearsome beasts can trample men and horse alike into the dust. 	true
+loading_screen_quotes_title_ovn_arb_mon_elephant	Elephant	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_war_elephant	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	true
+loading_screen_quotes_description_ovn_arb_mon_war_elephant	These fearsome beasts can trample men and horse alike into the dust. 	true
+loading_screen_quotes_title_ovn_arb_mon_war_elephant	War Elephant	true
+loading_screen_quotes_bulletpoints_ovn_arb_mon_war_elephant_ror_1	[[img:ui/battle ui/ability_icons/causes_fear.png]][[/img]]Causes Fear||[[img:ui/skins/default/modifier_icon_armour_piercing.png]][[/img]]Armour-piercing||[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured	true
+loading_screen_quotes_description_ovn_arb_mon_war_elephant_ror_1	The Ravager Elephant is said to rival a Norscan mammoth in ferocity.	true
+loading_screen_quotes_title_ovn_arb_mon_war_elephant_ror_1	Ravager of Ka-Sabar	true
+loading_screen_quotes_bulletpoints_ovn_game_hint_lore_of_djinns_unit	Lore of the Desert||Arabyan Mysticism||Arabyan Elementalism	true
+loading_screen_quotes_description_ovn_game_hint_lore_of_djinns_unit	The Sorcerers of the desert have their own magical tradition and can manipulate many of the Winds of Magic.	true
+loading_screen_quotes_title_ovn_game_hint_lore_of_djinns_unit	Lore of Djinns	true

@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_only_technologies.loc		
+technologies_short_description_araby_tech_good_1	We must open our minds to new ways.	false
+technologies_short_description_araby_tech_good_2	Learn from your past to better your future.	false
+technologies_short_description_araby_tech_good_3	Indentured servants don't count, right?	false
+technologies_short_description_araby_tech_good_4	Together we stand and fight, as equals, as brothers.	false
+technologies_short_description_araby_tech_good_5	Wisdom beats brutes.	false
+technologies_short_description_araby_tech_good_6	They are not beasts, they're simply misunderstood.	false
+technologies_short_description_araby_tech_good_7	Our future lies in the mind, protected by the sword.	false
+technologies_short_description_araby_tech_good_8	We will be the envy of our successors and will go down as the greatest of our people. 	false
+technologies_short_description_araby_tech_bad_1	One should have the freedom to practice and believe in what their heart desires.	false
+technologies_short_description_araby_tech_bad_2	What secrets lie in the blood scrawl.	false
+technologies_short_description_araby_tech_bad_3	A read to twist your soul.	false
+technologies_short_description_araby_tech_bad_4	This will give you more than nightmares.	false
+technologies_short_description_araby_tech_bad_5	It ends with a bang.	false
+technologies_short_description_araby_tech_bad_6	A portal to a nightmarish world and we welcome it.	false
+technologies_short_description_araby_tech_bad_7	Chaos is a pathway to many abilities some consider to be unnatural.\\n\\nPortal of Twilight can be built in Bel Aliad.	false
+technologies_short_description_araby_tech_bad_8	Who are we to deny those who wish to talk to their dearly departed.\\n\\nCrypt of Abdul ben Rachid can be built in Ka-Sabar.	false
+technologies_short_description_araby_tech_neu_1	True power lies in the anceint runes of Nehekhara.	false
+technologies_short_description_araby_tech_neu_2	Through selective breeding, we can rear Elephants that rival even Norscan Mammoths.	false
+technologies_short_description_araby_tech_neu_3	We will decorate our camp with their entrails.	false
+technologies_short_description_araby_tech_neu_4	We are the line between those that seek to destroy us and our families.	false
+technologies_short_description_araby_tech_neu_5	They won't know what hit them.	false
+technologies_short_description_araby_tech_neu_6	There is much honour and tradition in the Arabyan bow.	false
+technologies_onscreen_name_araby_tech_good_1	Teachings of the Wise	false
+technologies_onscreen_name_araby_tech_good_2	Sacred Scriptures	false
+technologies_onscreen_name_araby_tech_good_3	Abrogation of Slavery	false
+technologies_onscreen_name_araby_tech_good_4	Tribal Rights	false
+technologies_onscreen_name_araby_tech_good_5	Study of the Divine	false
+technologies_onscreen_name_araby_tech_good_6	Study of the Giants	false
+technologies_onscreen_name_araby_tech_good_7	Academia	false
+technologies_onscreen_name_araby_tech_good_8	Golden Age	false
+technologies_onscreen_name_araby_tech_bad_1	Temporal Freedom	false
+technologies_onscreen_name_araby_tech_bad_2	Forbidden Tomes	false
+technologies_onscreen_name_araby_tech_bad_3	Liber Malefic	false
+technologies_onscreen_name_araby_tech_bad_4	Liber Mortis	false
+technologies_onscreen_name_araby_tech_bad_5	Liber Tormentum	false
+technologies_onscreen_name_araby_tech_bad_6	Mirror of Nightmares	false
+technologies_onscreen_name_araby_tech_bad_7	Sufferance of Chaos	false
+technologies_onscreen_name_araby_tech_bad_8	Mortem Clemency	false
+technologies_onscreen_name_araby_tech_neu_1	Runic Studies	false
+technologies_onscreen_name_araby_tech_neu_2	Pure Breeds	false
+technologies_onscreen_name_araby_tech_neu_3	Savage Ways	false
+technologies_onscreen_name_araby_tech_neu_4	Rank & File	false
+technologies_onscreen_name_araby_tech_neu_5	Shock & Awe	false
+technologies_onscreen_name_araby_tech_neu_6	Way of the Bow	false
+technologies_onscreen_name_scythan_tech_neu_7	All-Embracing Necropolis	false
+technologies_onscreen_name_scythan_tech_neu_8	Devoted of Tutankhanut	false
+technologies_onscreen_name_araby_tech_neu_eco_1	Archaeology	false
+technologies_onscreen_name_araby_tech_neu_eco_2	Algoritmi	false
+technologies_onscreen_name_araby_tech_neu_eco_3	Hassan Order	false
+technologies_onscreen_name_araby_tech_neu_eco_4	Hashishin Teachings	false
+technologies_onscreen_name_araby_tech_neu_eco_5	Cartography	false
+technologies_onscreen_name_araby_tech_neu_eco_6	Kitab at-Tasrif	false
+technologies_short_description_araby_tech_neu_eco_1	We can learn much from the study of our forefathers and the Priest Kings.	false
+technologies_short_description_araby_tech_neu_eco_2	Any problem can be solved through the application of algorithms.	false
+technologies_short_description_araby_tech_neu_eco_3	Legendary order of assassins, renowned and feared across Araby.	false
+technologies_short_description_araby_tech_neu_eco_4	How to strike man and beast from the shadows, it may not be honourable but it is often fatal.	false
+technologies_short_description_araby_tech_neu_eco_5	We know these lands like the back of our hands, wait what's that.	false
+technologies_short_description_scythan_tech_neu_7	From slaves to beggars, all can now be laid to rest in the Necropolis so that they may serve their God for all eternity.	false
+technologies_short_description_scythan_tech_neu_8	Let us renew our undying pledge to Tutankhanut as our nomad forefathers once did.	false
+technologies_short_description_araby_tech_neu_eco_6	Encyclopedia of medical texts that will serve our peoples for eons.	false
+technologies_onscreen_name_araby_tech_neu_0	Camel Barding	false
+technologies_short_description_araby_tech_neu_0	The camel is a mighty creature that can bear the weight of more than just cargo.	false
+technologies_onscreen_name_araby_tech_neu_eco_0	Water Clock	false
+technologies_short_description_araby_tech_neu_eco_0	No time to say hello-goodbye, I'm late, I'm late, I'm late!	false
+technologies_short_description_araby_tech_good_9	Though the Askar have a strong sense of camaraderie with their leader, having a ceremony for those worthy can make them utterly devoted. 	false
+technologies_short_description_araby_tech_bad_9	Our foes hidden agendas will be exposed.	false
+technologies_onscreen_name_araby_tech_good_9	Oath of Loyalty	false
+technologies_onscreen_name_araby_tech_bad_9	Kryptós Analýein	false
+technologies_onscreen_name_scimitar_tech_neu_7	No Quarter Given	false
+technologies_short_description_scimitar_tech_neu_7	Those on the high seas are promised plunder, otherwise there'd be scarce men who would join at all.	false
+technologies_onscreen_name_scimitar_tech_neu_8	Undying Bucaneers	false
+technologies_short_description_scimitar_tech_neu_8	The undead make for useful troops, but they make for poor company.	false

@@ -1,0 +1,14 @@
+key	filename	range	animated
+#warscape_animated_lod_tables;1;db/warscape_animated_lod_tables/ovn_araby_only			
+455256191	warmachines\engines\arb_grand_bombard\arb_grand_bombard_01.wsmodel	0.0	arb_grand_bombard
+455256192	warmachines/engines/arb_grand_bombard/arb_basilic_bombard_01.wsmodel	0.0	arb_grand_bombard_ror
+455256193	warmachines/engines/arb_djinn_carriage/arb_djinn_carriage_01.wsmodel	0.0	arb_djinn_carriage
+912750751	warmachines\engines\arb_trebuchet\arb_trebuchet_01.wsmodel	0.0	arb_trebuchet
+861312231	warmachines/chariot/arb_golden_magus_ship/arb_golden_magus_ship_01.wsmodel	0.0	arb_ship
+739160156	warmachines/engines/akp_bolt_thrower/arb_bolt_thrower.wsmodel	0.0	ovn_arb_art_ballista
+676132131	warmachines/engines/arb_naphtha_thrower_01/arb_naphtha_thrower_01.wsmodel	0.0	arb_naphtha_thrower
+676132133	warmachines/engines/arb_naphtha_thrower_01/arb_naphtha_thrower_02.wsmodel	0.0	arb_naphtha_thrower_ror
+76457352	warmachines/engines/arb_quadballista/arb_quadballista_01.wsmodel	0.0	arb_quadballista
+76457353	warmachines/engines/arb_quadballista/arb_quadballista_01_destruct.wsmodel	0.0	arb_quadballista_destruct
+76457354	warmachines/engines/arb_quadballista/arb_quadballista_ror_01.wsmodel	0.0	arb_quadballista_ror
+76457355	warmachines/engines/arb_quadballista/arb_quadballista_ror_01_destruct.wsmodel	0.0	arb_quadballista_ror_destruct

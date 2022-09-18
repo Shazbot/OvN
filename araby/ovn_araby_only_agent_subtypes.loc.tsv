@@ -1,0 +1,32 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_only_agent_subtypes.loc		
+agent_subtypes_onscreen_name_override_arb_sultan_jaffar	Legendary Lord	false
+agent_subtypes_onscreen_name_override_arb_fatandira	Legendary Lord	false
+agent_subtypes_onscreen_name_override_arb_golden_magus	Legendary Lord	false
+agent_subtypes_onscreen_name_override_arb_vizier_fire	Grand Vizier (Fire)	false
+agent_subtypes_onscreen_name_override_arb_vizier_life	Grand Vizier (Life)	false
+agent_subtypes_onscreen_name_override_arb_vizier_heavens	Grand Vizier (Heavens)	false
+agent_subtypes_onscreen_name_override_arb_vizier_desert	Grand Vizier (Desert)	false
+agent_subtypes_onscreen_name_override_arb_magician_life	Sorcerer (Life)	false
+agent_subtypes_onscreen_name_override_arb_magician_desert	Sorcerer (Desert)	false
+agent_subtypes_onscreen_name_override_arb_magician_fire	Sorcerer (Fire)	false
+agent_subtypes_onscreen_name_override_arb_magician_heavens	Sorcerer (Heavens)	false
+agent_subtypes_onscreen_name_override_arb_nomad	Hashashin	false
+agent_subtypes_onscreen_name_override_arb_champion	Emir	false
+agent_subtypes_onscreen_name_override_arb_sheikh	Sheikh	false
+agent_subtypes_onscreen_name_override_arb_caravan_master	Caravan Master	false
+agent_subtypes_description_text_override_arb_magician_life	The Sorcerers of Araby who dwell near the sea are adept at manipulating the Wind of Ghyran and taming Sea Nymphs.	false
+agent_subtypes_description_text_override_arb_magician_desert	The Sorcerers of the desert have their own magical tradition and are able to manipulate many of the Winds of Magic.	false
+agent_subtypes_description_text_override_arb_magician_fire	Some Arabyan Sorcerers have mastered a technique to control Fire Efreets, and have learned to control the Wind of Aqshy along the way.	false
+agent_subtypes_description_text_override_arb_magician_heavens	Tempest Djinns and the Wind of Azyr are the powerful allies of these Arabyan Sorcerers.	false
+agent_subtypes_description_text_override_arb_nomad	The arabyan cities hide all kinds of dangers in their shadows. The assassins of this land are renowned for their skill, wiping out their targets in swift, stealthy attacks.	false
+agent_subtypes_description_text_override_arb_champion	The Emirs are warriors without equal, who are promoted for their worth, serving as bodyguards for most important leaders of Araby.	false
+agent_subtypes_description_text_override_arb_sultan_jaffar		false
+agent_subtypes_description_text_override_arb_fatandira		false
+agent_subtypes_description_text_override_arb_golden_magus		false
+agent_subtypes_description_text_override_arb_vizier_fire		false
+agent_subtypes_description_text_override_arb_vizier_life		false
+agent_subtypes_description_text_override_arb_vizier_heavens		false
+agent_subtypes_description_text_override_arb_vizier_desert		false
+agent_subtypes_description_text_override_arb_sheikh		false
+agent_subtypes_description_text_override_arb_caravan_master		false

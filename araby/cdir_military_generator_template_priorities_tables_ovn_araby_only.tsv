@@ -1,0 +1,16 @@
+config_key	template_key	priority	leader_only
+#cdir_military_generator_template_priorities_tables;1;db/cdir_military_generator_template_priorities_tables/ovn_araby_only			
+OvN_Araby_Jaffar	OvN_Araby_land	50	false
+OvN_Araby_Fatandira	OvN_Araby_land	50	false
+OvN_Araby_Golden_Magus	OvN_Araby_land	50	false
+OvN_Araby	OvN_Araby_land	50	false
+OvN_Araby_Jaffar	OvN_Araby_land_leader_jaffar	600	true
+OvN_Araby_Fatandira	OvN_Araby_land_leader_fatandira	600	true
+OvN_Araby_Golden_Magus	OvN_Araby_land_leader_golden_magus	600	true
+OvN_mp_Araby_Jaffar	OvN_Araby_land	50	false
+OvN_mp_Araby_Fatandira	OvN_Araby_land	50	false
+OvN_mp_Araby_Golden_Magus	OvN_Araby_land	50	false
+OvN_mp_Araby	OvN_Araby_land	50	false
+OvN_mp_Araby_Jaffar	OvN_Araby_land_leader_jaffar	600	true
+OvN_mp_Araby_Fatandira	OvN_Araby_land_leader_fatandira	600	true
+OvN_mp_Araby_Golden_Magus	OvN_Araby_land_leader_golden_magus	600	true

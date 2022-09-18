@@ -1,0 +1,5 @@
+ancillary_category	faction	allowed_per_character
+#ancillaries_categories_faction_junctions_tables;1;db/ancillaries_categories_faction_junctions_tables/ovn_araby_only		
+general	ovn_arb_sultanate_of_all_araby	8
+general	ovn_arb_aswad_scythans	8
+general	ovn_arb_golden_fleet	8

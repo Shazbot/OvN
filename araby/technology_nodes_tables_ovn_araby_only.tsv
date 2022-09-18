@@ -1,0 +1,103 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/ovn_araby_only														
+ovn_araby_tech_dummy_tech		wh2_dlc11_cst_vampire_coast_qb1	0	wh_main_tech_dwf_civ_5_0	ovn_araby_tech	0	999999	0	0			0	0	0
+araby_tech_good_1			2	araby_tech_good_1	ovn_araby_tech	0	400	0	0			0	0	0
+araby_tech_good_2			1	araby_tech_good_2	ovn_araby_tech	1	800	0	0			0	0	0
+araby_tech_good_3			1	araby_tech_good_3	ovn_araby_tech	2	1000	0	0			0	0	0
+araby_tech_good_4			2	araby_tech_good_4	ovn_araby_tech	2	1000	0	0			0	0	0
+araby_tech_good_5			3	araby_tech_good_5	ovn_araby_tech	2	1000	0	0			0	0	0
+araby_tech_good_6			2	araby_tech_good_6	ovn_araby_tech	3	1600	0	0			0	0	0
+araby_tech_good_7			3	araby_tech_good_7	ovn_araby_tech	3	1600	0	0			0	0	0
+araby_tech_good_8			4	araby_tech_good_8	ovn_araby_tech	3	1800	0	0			0	0	0
+araby_tech_bad_1			7	araby_tech_bad_1	ovn_araby_tech	0	500	0	0			0	0	0
+araby_tech_bad_2			8	araby_tech_bad_2	ovn_araby_tech	1	900	0	0			0	0	0
+araby_tech_bad_3			6	araby_tech_bad_3	ovn_araby_tech	2	1200	0	0			0	0	0
+araby_tech_bad_4			7	araby_tech_bad_4	ovn_araby_tech	2	1200	0	0			0	0	0
+araby_tech_bad_5			8	araby_tech_bad_5	ovn_araby_tech	2	1200	0	0			0	0	0
+araby_tech_bad_6			5	araby_tech_bad_6	ovn_araby_tech	3	2000	0	0			0	0	0
+araby_tech_bad_7			6	araby_tech_bad_7	ovn_araby_tech	3	1600	0	0			0	0	0
+araby_tech_bad_8			7	araby_tech_bad_8	ovn_araby_tech	3	1600	0	0			0	0	0
+araby_tech_neu_1			2	araby_tech_neu_1	ovn_araby_tech	5	800	0	0			0	0	0
+araby_tech_neu_0			1	araby_tech_neu_0	ovn_araby_tech	6	800	0	0			0	0	0
+araby_tech_neu_2			3	araby_tech_neu_2	ovn_araby_tech	5	800	0	0			0	0	0
+araby_tech_neu_3			4	araby_tech_neu_3	ovn_araby_tech	6	800	0	0			0	0	0
+araby_tech_neu_4			5	araby_tech_neu_4	ovn_araby_tech	6	600	0	0			0	0	0
+araby_tech_neu_5			6	araby_tech_neu_5	ovn_araby_tech	5	800	0	0			0	0	0
+araby_tech_neu_6			7	araby_tech_neu_6	ovn_araby_tech	5	500	0	0			0	0	0
+araby_tech_neu_eco_1			2	araby_tech_neu_eco_1	ovn_araby_tech	8	800	0	0			0	0	0
+araby_tech_neu_eco_0			1	araby_tech_neu_eco_0	ovn_araby_tech	7	800	0	0			0	0	0
+araby_tech_neu_eco_2			3	araby_tech_neu_eco_2	ovn_araby_tech	8	800	0	0			0	0	0
+araby_tech_neu_eco_3			4	araby_tech_neu_eco_3	ovn_araby_tech	7	800	0	0			0	0	0
+araby_tech_neu_eco_4			5	araby_tech_neu_eco_4	ovn_araby_tech	7	600	0	0			0	0	0
+araby_tech_neu_eco_5			6	araby_tech_neu_eco_5	ovn_araby_tech	8	800	0	0			0	0	0
+araby_tech_neu_eco_6			7	araby_tech_neu_eco_6	ovn_araby_tech	8	500	0	0			0	0	0
+araby_tech_good_9		ovn_arb_sultanate_of_all_araby	0	araby_tech_good_9	ovn_araby_tech	1	1000	0	0			0	0	0
+araby_tech_bad_9		ovn_arb_sultanate_of_all_araby	9	araby_tech_bad_9	ovn_araby_tech	1	1200	0	0			0	0	0
+scimitar_tech_good_1		ovn_arb_golden_fleet	2	araby_tech_good_1	ovn_araby_tech	0	400	0	0			0	0	0
+scimitar_tech_good_2		ovn_arb_golden_fleet	1	araby_tech_good_2	ovn_araby_tech	1	800	0	0			0	0	0
+scimitar_tech_good_3		ovn_arb_golden_fleet	1	araby_tech_good_3	ovn_araby_tech	2	1000	0	0			0	0	0
+scimitar_tech_good_4		ovn_arb_golden_fleet	2	araby_tech_good_4	ovn_araby_tech	2	1000	0	0			0	0	0
+scimitar_tech_good_5		ovn_arb_golden_fleet	3	araby_tech_good_5	ovn_araby_tech	2	1000	0	0			0	0	0
+scimitar_tech_good_6		ovn_arb_golden_fleet	2	araby_tech_good_6	ovn_araby_tech	3	1600	0	0			0	0	0
+scimitar_tech_good_7		ovn_arb_golden_fleet	3	araby_tech_good_7	ovn_araby_tech	3	1600	0	0			0	0	0
+scimitar_tech_good_8		ovn_arb_golden_fleet	4	araby_tech_good_8	ovn_araby_tech	3	1800	0	0			0	0	0
+scimitar_tech_bad_1		ovn_arb_golden_fleet	7	araby_tech_bad_1	ovn_araby_tech	0	500	0	0			0	0	0
+scimitar_tech_bad_2		ovn_arb_golden_fleet	8	araby_tech_bad_2	ovn_araby_tech	1	900	0	0			0	0	0
+scimitar_tech_bad_3		ovn_arb_golden_fleet	6	araby_tech_bad_3	ovn_araby_tech	2	1200	0	0			0	0	0
+scimitar_tech_bad_4		ovn_arb_golden_fleet	7	araby_tech_bad_4	ovn_araby_tech	2	1200	0	0			0	0	0
+scimitar_tech_bad_5		ovn_arb_golden_fleet	8	araby_tech_bad_5	ovn_araby_tech	2	1200	0	0			0	0	0
+scimitar_tech_bad_6		ovn_arb_golden_fleet	5	araby_tech_bad_6	ovn_araby_tech	3	2000	0	0			0	0	0
+scimitar_tech_bad_7		ovn_arb_golden_fleet	6	araby_tech_bad_7	ovn_araby_tech	3	1600	0	0			0	0	0
+scimitar_tech_bad_8		ovn_arb_golden_fleet	7	araby_tech_bad_8	ovn_araby_tech	3	1600	0	0			0	0	0
+scimitar_tech_neu_1		ovn_arb_golden_fleet	2	araby_tech_neu_1	ovn_araby_tech	5	800	0	0			0	0	0
+scimitar_tech_neu_0		ovn_arb_golden_fleet	1	araby_tech_neu_0	ovn_araby_tech	6	800	0	0			0	0	0
+scimitar_tech_neu_2		ovn_arb_golden_fleet	3	araby_tech_neu_2	ovn_araby_tech	5	800	0	0			0	0	0
+scimitar_tech_neu_3		ovn_arb_golden_fleet	4	araby_tech_neu_3	ovn_araby_tech	6	800	0	0			0	0	0
+scimitar_tech_neu_4		ovn_arb_golden_fleet	5	araby_tech_neu_4	ovn_araby_tech	6	600	0	0			0	0	0
+scimitar_tech_neu_5		ovn_arb_golden_fleet	6	araby_tech_neu_5	ovn_araby_tech	5	800	0	0			0	0	0
+scimitar_tech_neu_6		ovn_arb_golden_fleet	7	araby_tech_neu_6	ovn_araby_tech	5	500	0	0			0	0	0
+scimitar_tech_neu_eco_1		ovn_arb_golden_fleet	2	araby_tech_neu_eco_1	ovn_araby_tech	8	800	0	0			0	0	0
+scimitar_tech_neu_eco_0		ovn_arb_golden_fleet	1	araby_tech_neu_eco_0	ovn_araby_tech	7	800	0	0			0	0	0
+scimitar_tech_neu_eco_2		ovn_arb_golden_fleet	3	araby_tech_neu_eco_2	ovn_araby_tech	8	800	0	0			0	0	0
+scimitar_tech_neu_eco_3		ovn_arb_golden_fleet	4	araby_tech_neu_eco_3	ovn_araby_tech	7	800	0	0			0	0	0
+scimitar_tech_neu_eco_4		ovn_arb_golden_fleet	5	araby_tech_neu_eco_4	ovn_araby_tech	7	600	0	0			0	0	0
+scimitar_tech_neu_eco_5		ovn_arb_golden_fleet	6	araby_tech_neu_eco_5	ovn_araby_tech	8	800	0	0			0	0	0
+scimitar_tech_neu_eco_6		ovn_arb_golden_fleet	7	araby_tech_neu_eco_6	ovn_araby_tech	8	500	0	0			0	0	0
+scimitar_tech_good_9		ovn_arb_golden_fleet	0	araby_tech_good_9	ovn_araby_tech	1	1000	0	0			0	0	0
+scimitar_tech_bad_9		ovn_arb_golden_fleet	9	araby_tech_bad_9	ovn_araby_tech	1	1200	0	0			0	0	0
+scimitar_tech_neu_7		ovn_arb_golden_fleet	8	scimitar_tech_neu_7	ovn_araby_tech	6	500	0	0			0	0	0
+scimitar_tech_neu_8		ovn_arb_golden_fleet	8	scimitar_tech_neu_8	ovn_araby_tech	7	500	0	0			0	0	0
+scythan_tech_good_1		ovn_arb_aswad_scythans	2	araby_tech_good_1	ovn_araby_tech	0	400	0	0			0	0	0
+scythan_tech_good_2		ovn_arb_aswad_scythans	1	araby_tech_good_2	ovn_araby_tech	1	800	0	0			0	0	0
+scythan_tech_good_3		ovn_arb_aswad_scythans	1	araby_tech_good_3	ovn_araby_tech	2	1000	0	0			0	0	0
+scythan_tech_good_4		ovn_arb_aswad_scythans	2	araby_tech_good_4	ovn_araby_tech	2	1000	0	0			0	0	0
+scythan_tech_good_5		ovn_arb_aswad_scythans	3	araby_tech_good_5	ovn_araby_tech	2	1000	0	0			0	0	0
+scythan_tech_good_6		ovn_arb_aswad_scythans	2	araby_tech_good_6	ovn_araby_tech	3	1600	0	0			0	0	0
+scythan_tech_good_7		ovn_arb_aswad_scythans	3	araby_tech_good_7	ovn_araby_tech	3	1600	0	0			0	0	0
+scythan_tech_good_8		ovn_arb_aswad_scythans	4	araby_tech_good_8	ovn_araby_tech	3	1800	0	0			0	0	0
+scythan_tech_bad_1		ovn_arb_aswad_scythans	7	araby_tech_bad_1	ovn_araby_tech	0	500	0	0			0	0	0
+scythan_tech_bad_2		ovn_arb_aswad_scythans	8	araby_tech_bad_2	ovn_araby_tech	1	900	0	0			0	0	0
+scythan_tech_bad_3		ovn_arb_aswad_scythans	6	araby_tech_bad_3	ovn_araby_tech	2	1200	0	0			0	0	0
+scythan_tech_bad_4		ovn_arb_aswad_scythans	7	araby_tech_bad_4	ovn_araby_tech	2	1200	0	0			0	0	0
+scythan_tech_bad_5		ovn_arb_aswad_scythans	8	araby_tech_bad_5	ovn_araby_tech	2	1200	0	0			0	0	0
+scythan_tech_bad_6		ovn_arb_aswad_scythans	5	araby_tech_bad_6	ovn_araby_tech	3	2000	0	0			0	0	0
+scythan_tech_bad_7		ovn_arb_aswad_scythans	6	araby_tech_bad_7	ovn_araby_tech	3	1600	0	0			0	0	0
+scythan_tech_bad_8		ovn_arb_aswad_scythans	7	araby_tech_bad_8	ovn_araby_tech	3	1600	0	0			0	0	0
+scythan_tech_neu_1		ovn_arb_aswad_scythans	2	araby_tech_neu_1	ovn_araby_tech	5	800	0	0			0	0	0
+scythan_tech_neu_0		ovn_arb_aswad_scythans	1	araby_tech_neu_0	ovn_araby_tech	6	800	0	0			0	0	0
+scythan_tech_neu_2		ovn_arb_aswad_scythans	3	araby_tech_neu_2	ovn_araby_tech	5	800	0	0			0	0	0
+scythan_tech_neu_3		ovn_arb_aswad_scythans	4	araby_tech_neu_3	ovn_araby_tech	6	800	0	0			0	0	0
+scythan_tech_neu_4		ovn_arb_aswad_scythans	5	araby_tech_neu_4	ovn_araby_tech	6	600	0	0			0	0	0
+scythan_tech_neu_5		ovn_arb_aswad_scythans	6	araby_tech_neu_5	ovn_araby_tech	5	800	0	0			0	0	0
+scythan_tech_neu_6		ovn_arb_aswad_scythans	7	araby_tech_neu_6	ovn_araby_tech	5	500	0	0			0	0	0
+scythan_tech_neu_7		ovn_arb_aswad_scythans	8	scythan_tech_neu_7	ovn_araby_tech	6	500	0	0			0	0	0
+scythan_tech_neu_8		ovn_arb_aswad_scythans	8	scythan_tech_neu_8	ovn_araby_tech	7	100	1500	0			0	0	0
+scythan_tech_neu_eco_1		ovn_arb_aswad_scythans	2	araby_tech_neu_eco_1	ovn_araby_tech	8	800	0	0			0	0	0
+scythan_tech_neu_eco_0		ovn_arb_aswad_scythans	1	araby_tech_neu_eco_0	ovn_araby_tech	7	800	0	0			0	0	0
+scythan_tech_neu_eco_2		ovn_arb_aswad_scythans	3	araby_tech_neu_eco_2	ovn_araby_tech	8	800	0	0			0	0	0
+scythan_tech_neu_eco_3		ovn_arb_aswad_scythans	4	araby_tech_neu_eco_3	ovn_araby_tech	7	800	0	0			0	0	0
+scythan_tech_neu_eco_4		ovn_arb_aswad_scythans	5	araby_tech_neu_eco_4	ovn_araby_tech	7	600	0	0			0	0	0
+scythan_tech_neu_eco_5		ovn_arb_aswad_scythans	6	araby_tech_neu_eco_5	ovn_araby_tech	8	800	0	0			0	0	0
+scythan_tech_neu_eco_6		ovn_arb_aswad_scythans	7	araby_tech_neu_eco_6	ovn_araby_tech	8	500	0	0			0	0	0
+scythan_tech_good_9		ovn_arb_aswad_scythans	0	araby_tech_good_9	ovn_araby_tech	1	1000	0	0			0	0	0
+scythan_tech_bad_9		ovn_arb_aswad_scythans	9	araby_tech_bad_9	ovn_araby_tech	1	1200	0	0			0	0	0
