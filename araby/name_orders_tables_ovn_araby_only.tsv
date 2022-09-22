@@ -4,3 +4,7 @@ order	type	name_group	optional_language
 2	family_name	ovn_names_arb_araby	
 1	forename	ovn_names_arb_araby	
 3	other	ovn_names_arb_araby	
+0	clan_name	ovn_names_arb_araby_female	
+2	family_name	ovn_names_arb_araby_female	
+1	forename	ovn_names_arb_araby_female	
+3	other	ovn_names_arb_araby_female	

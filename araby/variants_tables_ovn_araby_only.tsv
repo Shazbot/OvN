@@ -57,6 +57,7 @@ ovn_arb_cha_nomad_jezzail_campaign_02		ovn_arb_cha_nomad_jezzail_campaign_02		1.
 ovn_arb_cha_nomad_jezzail_campaign_03		ovn_arb_cha_nomad_jezzail_campaign_03		1.0	1.0	0.0	
 ovn_arb_cha_sheikh_01		ovn_arb_cha_sheikh_01		1.0	1.15	0.0	
 ovn_arb_cha_sheikh_02		ovn_arb_cha_sheikh_02		1.0	1.15	0.0	
+ovn_arb_cha_sheikh_03		ovn_arb_cha_sheikh_03		1.0	1.15	0.0	
 ovn_arb_cha_sultan_jaffar_0		arb_sultan_jaffar		1.05	1.05	0.0	
 ovn_arb_cha_sultan_jaffar_1		arb_sultan_jaffar_mounted		1.05	1.05	0.0	
 ovn_arb_corsairs		aarb_corsair_dual_swords		1.0	1.0	0.05	
@@ -94,6 +95,7 @@ ovn_arb_mnt_royal_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_war_el
 ovn_arb_mnt_scorpion		arb_giant_scorpion		1.0	0.6	0.05	
 ovn_arb_mnt_sipahis_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sipahis_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
 ovn_arb_mnt_sipahis_warhorse_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sipahis_warhorse_ror	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
+ovn_arb_mnt_sheikh_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sheikh_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0	1.0	0.05	
 ovn_arb_mnt_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_war_elephant/tech	arb_war_elephant		1.3	1.3	0.0	
 ovn_arb_mnt_war_elephant_ror_1	variantmeshes/wh_variantmodels/el1/arb/arb_ravager_kasabar/tech	arb_kasabar_elephant		1.3	2.1	0.0	
 ovn_arb_mnt_war_elephant_ror_2	variantmeshes/wh_variantmodels/el1/arb/arb_war_elephant/tech_ror	arb_cannon_elephant		1.3	1.3	0.0	
