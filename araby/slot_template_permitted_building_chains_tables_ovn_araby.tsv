@@ -1,0 +1,4 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/ovn_araby				
+	ovn_araby_flaming_scimitar_boat_primary	ovn_araby_flaming_scimitar_boat_primary		false
+	ovn_araby_flaming_scimitar_boat_secondary	ovn_araby_flaming_scimitar_boat_secondary		false
