@@ -10,13 +10,8 @@ effects_description_wh_main_effect_ovn_Waystone_3_dummy	Invasion Threat: High	tr
 effects_description_wh_main_effect_ovn_Waystone_global_dummy	The threat of the Dark Emissaries is extinguished.	true
 effects_description_ovn_albion_waystone_geomancy	Empowers the network of Waystones	true
 effects_description_ovn_albion_waystone_construction_penalty_dummy	While this Waystone is being restored the restoration time for Waystones in other regions is increased	true
-effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands	true
-effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands	true
-effects_description_elo_elite_matt	Melee Attack: %+n for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_allrange_ammo	Ammunition: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
 effects_description_elo_allrange_dmg	Missile Damage: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
-effects_description_elo_riders_charge	Charge Bonus: %+n Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs	true
-effects_description_elo_riders_speed	Battle Speed: %+n% Hunting Dogs, Aonbarr Horse Warriors, Chariots and Centaurs	true
 effects_description_elo_warband_cost	Recruitment Cost: %+n% for Albion Warband units	true
 effects_description_elo_ranged_reload	Reload Speed: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
 effects_description_elo_ranged_xp	Recruitment Rank: %+n  for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true

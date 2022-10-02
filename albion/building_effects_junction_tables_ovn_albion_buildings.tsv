@@ -2,12 +2,10 @@ building	effect	context_requirement	effect_scope	value	value_damaged	value_ruine
 #building_effects_junction_tables;0;db/building_effects_junction_tables/ovn_albion_buildings						
 elo_great_ogham	increase_cap_albion_wyrd_druid		faction_to_faction_own_unseen	2.0	2.0	0.0
 elo_great_ogham	enable_recruitment_albion_wyrd_druid		province_to_province_own	1.0	1.0	0.0
-elo_great_ogham	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	15.0	8.0	0.0
+elo_great_ogham	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	6.0	8.0	0.0
 elo_citadel_lead	wh_main_faction_political_diplomacy_mod_norsca		faction_to_faction_own_unseen	-15.0	-8.0	0.0
-elo_great_ogham	wh_main_effect_public_order_base		province_to_province_own	-100.0	-15.0	0.0
 elo_great_ogham	wh3_main_effect_winds_of_magic_pooled_resource_change_positive_mod		region_to_force_own	30.0	15.0	0.0
 elo_great_ogham	wh2_main_faction_political_diplomacy_mod_high_elves_lizardmen		faction_to_faction_own_unseen	10.0	5.0	0.0
-elo_citadel_lead	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	5.0	3.0	0.0
 elo_citadel_lead	wh_main_faction_xp_increase_generals		faction_to_province_own_unseen	8.0	4.0	0.0
 elo_citadel_lead	wh_main_faction_political_diplomacy_mod_chaos		faction_to_faction_own_unseen	-40.0	-20.0	0.0
 elo_citadel_lead	wh_main_effect_agent_action_success_chance		faction_to_character_own_unseen	15.0	7.0	0.0
@@ -19,19 +17,15 @@ elo_forge_old_ones	wh_main_effect_economy_gdp_culture		building_to_building_own	
 elo_forge_old_ones	wh_main_effect_economy_gdp_mod_all		province_to_region_own	50.0	25.0	0.0
 elo_forge_old_ones	wh_main_effect_region_resource_gem_production		building_to_building_own	24.0	12.0	0.0
 elo_ogham_stone_1	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	1.0	0.0	0.0
-elo_ogham_stone_1	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	4.0	2.0	0.0
-elo_ogham_stone_1	wh_main_effect_public_order_base		province_to_province_own	-15.0	-8.0	0.0
+elo_ogham_stone_1	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	1.0	2.0	0.0
 elo_ogham_stone_2	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	2.0	1.0	0.0
-elo_ogham_stone_2	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	8.0	4.0	0.0
-elo_ogham_stone_2	wh_main_effect_public_order_base		province_to_province_own	-30.0	-8.0	0.0
+elo_ogham_stone_2	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	2.0	4.0	0.0
 elo_ogham_stone_2	wh3_main_effect_winds_of_magic_pooled_resource_change_positive_mod		region_to_force_own	10.0	5.0	0.0
 elo_ogham_stone_3	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	3.0	2.0	0.0
-elo_ogham_stone_3	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	15.0	8.0	0.0
-elo_ogham_stone_3	wh_main_effect_public_order_base		province_to_province_own	-60.0	-8.0	0.0
+elo_ogham_stone_3	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	3.0	8.0	0.0
 elo_ogham_stone_3	wh3_main_effect_winds_of_magic_pooled_resource_change_positive_mod		region_to_force_own	25.0	12.0	0.0
 elo_ogham_stone_4	wh3_main_effect_corruption_chaos_buildings		region_to_region_own	4.0	2.0	0.0
-elo_ogham_stone_4	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	11.0	5.0	0.0
-elo_ogham_stone_4	wh_main_effect_public_order_base		province_to_province_own	-45.0	-8.0	0.0
+elo_ogham_stone_4	wh3_main_effect_corruption_reduction_adjacent_provinces		province_to_province_adjacent	4.0	5.0	0.0
 elo_ogham_stone_4	wh3_main_effect_winds_of_magic_pooled_resource_change_positive_mod		region_to_force_own	15.0	7.0	0.0
 elo_temple_danu_1	wh_main_effect_force_all_campaign_replenishment_rate		province_to_army_own	10.0	5.0	0.0
 elo_temple_danu_1	wh_main_effect_religion_conversion_untainted		region_to_region_own	6.0	5.0	0.0

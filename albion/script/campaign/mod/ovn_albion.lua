@@ -80,16 +80,16 @@ local function new_game_startup()
         cm:add_unit_to_faction_mercenary_pool(
             ravenqueen_host,
             unit,
+            "renown",
             unit_count,
             rcp,
             max_units,
             murpt,
-            xp_level,
             frr,
             srr,
             trr,
             true,
-            "ovn_albion_ror"
+            unit
         )
     end
     

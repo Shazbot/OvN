@@ -10,7 +10,7 @@ diplomacy_strings_string_Albion_Dip_Generic_Offer_Negative_03	The horned god dec
 diplomacy_strings_string_Albion_Dip_Rejection_Negative_01	Those who lay with mangy dogs will wake up with fleas. We refuse.	false
 diplomacy_strings_string_Albion_Dip_Rejection_Negative_02	May the swamps take you for this insult!	false
 diplomacy_strings_string_Albion_Dip_Rejection_Negative_03	Get out, before we loose the hounds!	false
-diplomacy_strings_string_Albion_Dip_Greet_Neg_01	Speak, before I command my ravens to feed on your eyes.	false
+diplomacy_strings_string_Albion_Dip_Greet_Neg_01	Speak, before the giants crush your bones.	false
 diplomacy_strings_string_Albion_Dip_Greet_Neg_02	The mists are supposed to keep the likes of you from our sacred lands. Leave to whence you came, while you still can.	false
 diplomacy_strings_string_Albion_Dip_Greet_Neg_03	You reek of Be'lakor’s foul influence, dark emissary. 	false
 diplomacy_strings_string_Albion_Dip_Acceptance_Positive_01	The earth mother smiles upon this agreement, friend.	false
@@ -26,7 +26,7 @@ diplomacy_strings_string_Albion_Dip_Greet_Pos_01	A thousand welcomes, friend.	fa
 diplomacy_strings_string_Albion_Dip_Greet_Pos_02	The druid council welcomes you, dear friend.	false
 diplomacy_strings_string_Albion_Dip_Greet_Pos_03	May you live as long as you want, and never want as long as you live!	false
 diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_01	The tribes can live with this.	false
-diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_02	We shall seal this deal before the altars of our gods.	false
+diplomacy_strings_string_Albion_Dip_Acceptance_Neutral_02	The truthsayers foretold of this.	false
 diplomacy_strings_string_Albion_Dip_Accept_State_Gift_01	The hands are there for friendship, the gold is there for more.	false
 diplomacy_strings_string_Albion_Dip_Accept_State_Gift_02	May you live to be 100 years with one extra year to repent. 	false
 diplomacy_strings_string_Albion_Dip_Accept_State_Gift_03	You have the druids blessings.	false
@@ -38,7 +38,7 @@ diplomacy_strings_string_Albion_Dip_Acknowledge_Cancel_Treaty_02	The shadows gro
 diplomacy_strings_string_Albion_Dip_Acknowledge_Cancel_Treaty_03	Remember my friend, that knowledge is stronger than memory, and we should not trust the weaker.	false
 diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_01	May the holes in your nets be no larger than the fish in it.	false
 diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_02	May you drown in the bogs.	false
-diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_03	You reject even the Murder-Queen.	false
+diplomacy_strings_string_Albion_Dip_Acknowledge_Reject_03	You reject the wisdom of the Truthsayers.	false
 diplomacy_strings_string_Albion_Dip_Acknowledge_War_01	Sometimes one day changes everything; sometimes years change nothing.	false
 diplomacy_strings_string_Albion_Dip_Acknowledge_War_02	We beat our swords upon our shields. To no beast or man shall we ever yield to.	false
 diplomacy_strings_string_Albion_Dip_Acknowledge_War_03	We will call the giants to construct stone circles for your arrival.	false
@@ -51,7 +51,7 @@ diplomacy_strings_string_Albion_Dip_Demand_Join_War_03	May we extinguish the sha
 diplomacy_strings_string_Albion_Dip_Demand_Payments_Neutral_01	If only wishing it made it so.	false
 diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_01	May the sun shine through the gloom of despair.	false
 diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_02	May we banish the Shadows.	false
-diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_03	The Murder-Queen hears all.	false
+diplomacy_strings_string_Albion_Dip_Generic_Offer_Neutral_03	Submit to the truthsayers wisdom.	false
 diplomacy_strings_string_Albion_Dip_Rejection_Neutral_01	We prize our seclusion. No.	false
 diplomacy_strings_string_Albion_Dip_Rejection_Neutral_02	We have no need of you "civilised" people.	false
 diplomacy_strings_string_Albion_Dip_Rejection_Neutral_03	It's a good deed to forget a bad joke.	false

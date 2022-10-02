@@ -1,0 +1,4 @@
+blockade	culture	model_bmd
+#campaign_settlement_display_building_siege_models_tables;0;db/campaign_settlement_display_building_siege_models_tables/ovn_albion_culture		
+false	ovn_albion	prefabs/campaign/greenskins_siege.bmd
+true	ovn_albion	prefabs/campaign/greenskins_siege.bmd

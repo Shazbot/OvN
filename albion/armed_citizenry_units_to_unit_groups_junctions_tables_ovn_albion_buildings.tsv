@@ -10,6 +10,7 @@ id	priority	unit	unit_group
 77008	10	albion_riders	wh_main_nor_mon_chaos_warhounds_1
 77009	20	elo_woadraider	wh_dlc08_nor_inf_marauder_berserkers_0
 77010	55	albion_hearthguard_halberd	wh_dlc08_nor_mon_chaos_ice_trolls
+77030	50	ovn_barrow_wight	wh_dlc08_nor_mon_war_mammoth_0
 77011	60	albion_giant	wh_dlc08_nor_mon_war_mammoth_0
 77012	45	elo_albion_warriors_spears	wh_dlc08_nor_inf_marauder_spearman_0
 77013	10	elo_youngbloods	wh_dlc08_nor_inf_marauder_hunters_0

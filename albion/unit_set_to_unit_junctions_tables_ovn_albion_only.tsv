@@ -22,6 +22,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			albion_centaurs	elo_fast_attack	false
 			albion_riders	elo_fast_attack	false
 			elo_bloodhounds	elo_fast_attack	false
+			elo_albion_gryphon	elo_fast_attack	false
 			elo_albion_warriors	elo_champions_r7	false
 			elo_albion_warriors_2h	elo_champions_r7	false
 			elo_albion_warriors_spears	elo_champions_r7	false
@@ -34,6 +35,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			albion_giant	elo_monsters_r7	false
 			elo_fenbeast	elo_monsters_r7	false
 			druid_neophytes	elo_monsters_r7	false
+			elo_albion_gryphon	elo_monsters_r7	false
 			albion_swordmaiden	elo_riders_r7	false
 			elo_woadraider	elo_riders_r7	false
 			albion_stonethrower	elo_hunters_r7	false

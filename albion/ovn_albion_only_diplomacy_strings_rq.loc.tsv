@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_albion_only_diplomacy_strings_rq.loc		
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Negative_01	Forgive me Ishernos, we must accept.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Negative_02	On another day, my ravens would pluck your eyes.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Negative_03	I seen no other path, as dark it is.	false
+diplomacy_strings_string_AlbionRQ_Dip_Demand_Payments_Negative_01	An offering to appease my vengeance.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Negative_01	Let me wash your armour while we discuss my proposal.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Negative_02	Light can shine even in the darkest of places.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Negative_03	May our differences not cause discord.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Negative_01	My ravens make more sense.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Negative_02	May you be forever lost in the mist.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Negative_03	Get out, before I strike you down and my ravens feast!	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Neg_01	Speak, before I command my ravens to feed on your eyes.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Neg_02	Come, let me wash your armour while we speak.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Neg_03	You dare speak to me, the Murder Queen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Positive_01	Go now with Ghyran’s blessings.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Positive_03	May my ravens guide you safely home.	false
+diplomacy_strings_string_AlbionRQ_Dip_Demand_Payments_Positive_01	Aid us as we have aided the world for so long.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Positive_01	Help us rid chaos from this world.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Positive_02	This serves both our causes.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Positive_03	Come stand on the shoulders of giants.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Positive_01	I have read the ravens entrails. It speaks of a dark omen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Positive_02	Ishernos guides us elsewhere.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Positive_03	Unfortunately we can’t agree to that.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Pos_01	You are warmly received in the Raven court.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Pos_02	Mhorriníon the Murder Queen, welcomes you as friend.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Pos_03	The ravens caw in delight at your arrival.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Neutral_01	The Raven Queen accepts.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acceptance_Neutral_02	We shall seal this deal before the altars of our gods.	false
+diplomacy_strings_string_AlbionRQ_Dip_Accept_State_Gift_01	May this forge our weapons in which to strike down chaos.	false
+diplomacy_strings_string_AlbionRQ_Dip_Accept_State_Gift_02	The crows grow jealous of your generosity	false
+diplomacy_strings_string_AlbionRQ_Dip_Accept_State_Gift_03	You have the Murder Queens blessings.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Accept_01	The ravens caw in delight.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Accept_02	I’ve sent ravens of these good tidings so all may revel.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Accept_03	May this be beginning of the end of chaos.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Cancel_Treaty_01	You will incur the wrath of the Murder Queen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Cancel_Treaty_02	May ravens pluck your newborns from their cradles.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Cancel_Treaty_03	The ravens already told me of your treachery.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Reject_01	I will see revenge is served.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Reject_02	May ravens darken your skies.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_Reject_03	You reject the Phantom Queen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_War_01	The ravens will feast well on your entrails.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_War_02	You dare face the Raven Queen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Acknowledge_War_03	I will only cease when you have fallen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Cancel_Treaty_01	I fear you work against us.	false
+diplomacy_strings_string_AlbionRQ_Dip_Cancel_Treaty_02	The Murder Queen, knows all.	false
+diplomacy_strings_string_AlbionRQ_Dip_Cancel_Treaty_03	The ravens speak of your misdeeds.	false
+diplomacy_strings_string_AlbionRQ_Dip_Demand_Join_War_01	Let us rid this world of the shadows.	false
+diplomacy_strings_string_AlbionRQ_Dip_Demand_Join_War_02	This maybe our only chance, surely you must see this.	false
+diplomacy_strings_string_AlbionRQ_Dip_Demand_Join_War_03	Let our flocks join and wreak glorious havoc.	false
+diplomacy_strings_string_AlbionRQ_Dip_Demand_Payments_Neutral_01	If not, we may falter and who do you think chaos will come for next.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Neutral_01	The Murder Queen has a proposal.	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Neutral_02	My ravens wait for your answer?	false
+diplomacy_strings_string_AlbionRQ_Dip_Generic_Offer_Neutral_03	What say you to the Phantom Queen?	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Neutral_01	This does not serve our interests.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Neutral_02	The ravens speak of an ulterior motive in your proposal.	false
+diplomacy_strings_string_AlbionRQ_Dip_Rejection_Neutral_03	I Mhorriníon the Murder Queen, must decline.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Cooperation_01	Chaos surges, we must work together.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Cooperation_02	The ravens foretell of our doom, we must act now!	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Cooperation_03	As one, we will destroy chaos.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Peace_01	Let us cease this fighting, there are others that incur my vengeance.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Peace_02	Surely you grow tired of the ravens.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Peace_03	There are others you must destroy if not to be destroyed.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Join_War_01	The ravens circle, ready to feast.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Join_War_02	May we fight and die alongside each other.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Join_War_03	They will sing great songs and poems of our exploits.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Gift_01	So you may repent the corruption.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Gift_02	A gift to weather the storm.	false
+diplomacy_strings_string_AlbionRQ_Dip_Offer_Gift_03	The crows weeped as the gold left.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Neu_01	The ravens spoke of your arrival.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Neu_02	What have you to say to the Murder Queen.	false
+diplomacy_strings_string_AlbionRQ_Dip_Greet_Neu_03	May our fire warm you on this stormy eve.	false
+diplomacy_strings_string_AlbionRQ_Dip_Reject_Peace_01	Not until the ravens have your eyes.	false
+diplomacy_strings_string_AlbionRQ_Dip_Reject_Peace_02	Not until I see vengeance served.	false
+diplomacy_strings_string_AlbionRQ_Dip_Reject_Peace_03	I will rid your taint from this world.	false
+diplomacy_strings_string_AlbionRQ_Dip_Reject_Join_Confederation_01	It is not time to reunite Albion under one banner.	false
+diplomacy_strings_string_AlbionRQ_Dip_Reject_Join_Confederation_02	Rebuild the waystones and we will continue to shield you.	false
+diplomacy_strings_string_AlbionRQ_Dip_Reject_Join_Confederation_03	You must follow your own path.	false
+diplomacy_strings_string_AlbionRQ_Dip_War_01	My people flock to my banner to see your end.	false
+diplomacy_strings_string_AlbionRQ_Dip_War_02	You are tainted by chaos, therefore you must be destroyed.	false
+diplomacy_strings_string_AlbionRQ_Dip_War_03	I will slit your belly, your soldiers bellies and let the ravens feast on your entrails.	false

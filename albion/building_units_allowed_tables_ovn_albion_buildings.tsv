@@ -16,6 +16,7 @@ key	building	unit	xp	conditions	faction	enabled
 775095	elo_great_ogham	druid_neophytes	0	0		false
 775096	elo_great_ogham	albion_fenhulk	0	0		false
 775097	elo_great_ogham	albion_half_giants	0	0		false
+775098	elo_great_ogham	ovn_barrow_wight	0	0		false
 775041	elo_temple_danu_2	elo_fenbeast	0	0		false
 775052	elo_ogham_stone_2	druid_neophytes	0	0		false
 775042	elo_temple_danu_3	elo_fenbeast	0	0		false

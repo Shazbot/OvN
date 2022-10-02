@@ -13,6 +13,7 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	mount_horse_truthsayer_beasts_skill		x	4
 		1	mount_horse_truthsayer_light_skill		x	4
 		1	mount_horse_truthsayer_life_skill		x	4
+		1	mount_horse_truthsayer_truth_skill		x	4
 		1	chief_hunter		x	9
 		1	chief_leader		x	9
 		1	chief_bodyguard		x	9

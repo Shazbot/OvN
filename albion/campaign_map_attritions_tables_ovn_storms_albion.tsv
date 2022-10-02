@@ -1,0 +1,4 @@
+key	damage	type	message_event_association	show_vfx
+#campaign_map_attritions_tables;4;db/campaign_map_attritions_tables/ovn_storms_albion				
+ovn_albion_mist	ovn_albion_mist	storm_region		true
+ovn_albion_storm	ovn_albion_storm	storm_region		true
