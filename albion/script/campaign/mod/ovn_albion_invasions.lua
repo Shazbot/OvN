@@ -443,6 +443,12 @@ local function init_albion_mist_mechanic()
     );
 end
 
+local waystone_building_keys = {
+	ovn_Waystone_1 = true,
+	ovn_Waystone_2 = true,
+	ovn_Waystone_3 = true,
+}
+
 local function albion_init()
 	local faction_obj = cm:get_faction(albion_faction_key)
 
@@ -485,23 +491,44 @@ local function albion_init()
 		true
 	)
 
+	--- If construction has proceeded at least 1 turn you get a dialogue popup to click,
+	--- we don't check for that case.
+	core:remove_listener('ovn_albion_waystone_building_cancelled')
+	core:add_listener(
+		'ovn_albion_waystone_building_cancelled',
+		'ComponentLClickUp',
+		true,
+		function(context)
+			if cm:get_campaign_name() ~= "main_warhammer" then return end
+
+			if cm:get_local_faction_name(true) ~= albion_faction_key then
+				return
+			end
+
+			local comp = UIComponent(context.component)
+			if not comp then return end
+			if comp:Id() ~= "square_building_button" then return end
+
+			if not waystone_building_keys[comp:GetContextObjectId("CcoBuildingLevelRecord")] then return end
+
+			--- check we're not clicking the button to build it
+			if waystone_building_keys[UIComponent(comp:Parent()):Id()] then
+				return
+			end
+
+			CampaignUI.TriggerCampaignScriptEvent(
+				cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
+				"ovn_albion_remove_construction_penalty"
+			)
+		end,
+		true
+	)
+
     --- ALBION MIST MECHANIC (ME ONLY)
     if cm:get_campaign_name() == "main_warhammer" then
         init_albion_mist_mechanic()
     end
 end
-
-local waystone_building_keys = {
-	ovn_Waystone_1 = true,
-	ovn_Waystone_2 = true,
-	ovn_Waystone_3 = true,
-}
-
-local waystone_building_component_ids = {
-	ovn_Waystone_1wh2_main_nor_albion = true,
-	ovn_Waystone_2wh2_main_nor_albion = true,
-	ovn_Waystone_3wh2_main_nor_albion = true,
-}
 
 local albion_isle_regions = {
 	ALBION_REGION_KEY,
@@ -538,34 +565,6 @@ core:add_listener(
 				break
 			end
 		end
-	end,
-	true
-)
-
---- If construction has proceeded at least 1 turn you get a dialogue popup to click,
---- we don't check for that case.
-core:remove_listener('ovn_albion_waystone_building_cancelled')
-core:add_listener(
-	'ovn_albion_waystone_building_cancelled',
-	'ComponentLClickUp',
-	true,
-	function(context)
-		if cm:get_campaign_name() ~= "main_warhammer" then return end
-
-		if cm:get_local_faction_name(true) ~= albion_faction_key then
-			return
-		end
-
-		local comp = UIComponent(context.component)
-		if not comp then return end
-		if comp:Id() ~= "square_building_button" then return end
-
-		if not waystone_building_keys[comp:GetContextObjectId("CcoBuildingLevelRecord")] then return end
-
-		CampaignUI.TriggerCampaignScriptEvent(
-			cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(),
-			"ovn_albion_remove_construction_penalty"
-		)
 	end,
 	true
 )
