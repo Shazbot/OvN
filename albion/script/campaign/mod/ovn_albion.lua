@@ -73,8 +73,7 @@ local function new_game_startup()
 		"albion_highlander_ror",
     }
 
-    
-    
+     cm:change_corruption_in_province_by("wh3_main_combi_province_the_cold_mires","wh3_main_corruption_slaanesh", -60, "events")
     
     for _, unit in ipairs(units) do
         cm:add_unit_to_faction_mercenary_pool(

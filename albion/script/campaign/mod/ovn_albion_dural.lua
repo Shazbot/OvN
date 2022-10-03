@@ -63,7 +63,7 @@ local function new_game_startup()
         end
     )
    
-  --cm:change_corruption_in_province_by("wh3_main_combi_province_albion","wh3_main_corruption_tzeentch", -1)
+  cm:change_corruption_in_province_by("wh3_main_combi_province_albion","wh3_main_corruption_tzeentch", -40, "events")
 
     local unit_count = 1 -- card32 count
     local rcp = 20 -- float32 replenishment_chance_percentage
