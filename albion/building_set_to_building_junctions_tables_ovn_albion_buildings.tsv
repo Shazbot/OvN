@@ -20,3 +20,4 @@ ovn_albion_foreign_slot_discovery		wh3_main_set_ksl_defence	false
 ovn_albion_walls		wh3_main_set_ksl_defence	false
 ovn_albion_settlement_minor		wh_main_set_settlement_major	false
 ovn_albion_settlement_major		wh_main_set_settlement_minor	false
+ovn_Waystone		ovn_Waystone	false
