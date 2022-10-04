@@ -84,16 +84,16 @@ local function new_game_startup()
         cm:add_unit_to_faction_mercenary_pool(
             moot,
             unit,
+            "renown",
             unit_count,
             rcp,
             max_units,
             murpt,
-            xp_level,
             frr,
             srr,
             trr,
             true,
-            "ovn_halflings_ror"
+            unit
         )
     end
 

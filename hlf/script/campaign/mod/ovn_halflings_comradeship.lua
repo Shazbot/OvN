@@ -1,3 +1,50 @@
+local function spawn_heroes_around_olorin(olorin_cqi)
+    core:add_listener(
+        "aragand_created",
+        "CharacterCreated",
+        function(context)
+            return olorin_cqi and context:character():character_subtype("ovn_com_aragand_the_layabout");
+        end,
+        function(context)
+            cm:embed_agent_in_force(context:character(), cm:get_character_by_cqi(olorin_cqi):military_force());
+            local char_cqi = context:character():command_queue_index()
+            cm:set_character_immortality("character_cqi:"..char_cqi, true);
+        end,
+        false
+    );
+    core:add_listener(
+        "legles_created",
+        "CharacterCreated",
+        function(context)
+            return olorin_cqi and context:character():character_subtype("ovn_com_legles_the_elf");
+        end,
+        function(context)
+            cm:embed_agent_in_force(context:character(), cm:get_character_by_cqi(olorin_cqi):military_force());
+            local char_cqi = context:character():command_queue_index()
+            cm:set_character_immortality("character_cqi:"..char_cqi, true);
+        end,
+        false
+    );
+    core:add_listener(
+        "giblit_created",
+        "CharacterCreated",
+        function(context)
+            return olorin_cqi and context:character():character_subtype("ovn_com_giblit_the_dwarf");
+        end,
+        function(context)
+            cm:embed_agent_in_force(context:character(), cm:get_character_by_cqi(olorin_cqi):military_force());
+            local char_cqi = context:character():command_queue_index()
+            cm:set_character_immortality("character_cqi:"..char_cqi, true);
+        end,
+        false
+    );
+
+    local faction_cqi = cm:get_character_by_cqi(olorin_cqi):faction():command_queue_index()
+    cm:spawn_unique_agent_at_character(faction_cqi, "ovn_com_aragand_the_layabout", olorin_cqi, true);
+    cm:spawn_unique_agent_at_character(faction_cqi, "ovn_com_legles_the_elf", olorin_cqi, true);
+    cm:spawn_unique_agent_at_character(faction_cqi, "ovn_com_giblit_the_dwarf", olorin_cqi, true);
+end
+
 local function spawn_new_force()
 	cm:create_force_with_general(
 		"ovn_hlf_the_comradeship", -- faction_key,
@@ -16,6 +63,7 @@ local function spawn_new_force()
             local str = "character_cqi:" .. cqi
             cm:set_character_immortality(str, true);
             cm:set_character_unique(str, true);
+            spawn_heroes_around_olorin(cqi)
         end
 	)
 end
@@ -48,42 +96,6 @@ local function new_game_startup()
 
     cm:heal_garrison(grimtop_region:cqi())
 
-    cm:create_agent(
-        "ovn_hlf_the_comradeship",
-        "spy",
-        "ovn_com_legles_the_elf",
-        1045, -- x,
-		489, -- y,
-        false,
-        function(cqi)
-            cm:replenish_action_points(cm:char_lookup_str(cqi))
-        end
-    )
-	
-	cm:create_agent(
-        "ovn_hlf_the_comradeship",
-        "champion",
-        "ovn_com_giblit_the_dwarf",
-        1045, -- x,
-		489, -- y,
-        false,
-        function(cqi)
-            cm:replenish_action_points(cm:char_lookup_str(cqi))
-        end
-    )
-	
-	cm:create_agent(
-        "ovn_hlf_the_comradeship",
-        "champion",
-        "ovn_com_aragand_the_layabout",
-        1045, -- x,
-		467, -- y,
-        false,
-        function(cqi)
-            cm:replenish_action_points(cm:char_lookup_str(cqi))
-        end
-    )
-
     local unit_count = 1 -- card32 count
     local rcp = 20 -- float32 replenishment_chance_percentage
     local max_units = 1 -- int32 max_units
@@ -107,16 +119,16 @@ local function new_game_startup()
         cm:add_unit_to_faction_mercenary_pool(
             the_comradeship,
             unit,
+            "renown",
             unit_count,
             rcp,
             max_units,
             murpt,
-            xp_level,
             frr,
             srr,
             trr,
             true,
-            "ovn_halflings_ror"
+            unit
         )
     end
 
