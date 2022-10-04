@@ -10,3 +10,7 @@ ovn_lord_trait_alb_dural_durak	<-Placeholder->	Masters of a Blighted Land	factio
 ovn_lord_trait_alb_morrigan	<-Placeholder->	Masters of a Blighted Land	faction	1	disaster.png	false	false	true
 ovn_albion_waystone_build_time			province	1	construction.png	false	false	true
 ovn_faction_trait_albion			faction	1	food.png	false	false	true
+albion_global_mist_4			faction	1	ovn_albion_geo_4.png	true	false	true
+albion_global_mist_3			faction	1	ovn_albion_geo_3.png	true	false	true
+albion_global_mist_2			faction	1	ovn_albion_geo_2.png	true	false	true
+albion_global_mist_1			faction	1	ovn_albion_geo_1.png	true	false	true
