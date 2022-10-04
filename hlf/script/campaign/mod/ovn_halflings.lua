@@ -160,57 +160,57 @@ local function on_every_first_tick()
             true
         )
     end
+
+    core:remove_listener('ovn_hlf_on_opened_cooking_panel')
+    core:add_listener(
+        'ovn_hlf_on_opened_cooking_panel',
+        'PanelOpenedCampaign',
+        true,
+        function(context)
+            if cm:get_local_faction(true):name() ~= "ovn_hlf_the_moot" then return end
+
+            local ui_root = core:get_ui_root()
+            local cauldron = find_uicomponent(ui_root, "groms_cauldron")
+            if not cauldron then return end
+
+            local cauldron_bg = find_uicomponent(cauldron, "animated_background")
+            cauldron_bg:SetImagePath("ui/skins/default/hlfng_burrow_panel_background.png")
+
+            local arch = find_uicomponent(cauldron, "mid_colum", "pot_holder", "arch")
+            local pot = find_uicomponent(cauldron, "mid_colum", "pot_holder", "pot")
+            arch:SetVisible(false)
+            pot:SetVisible(false)
+
+            local startingX = nil
+            local startingY = nil
+            local ingredients_and_effects = find_uicomponent(cauldron, "mid_colum", "pot_holder", "ingredients_and_effects")
+            for i=1,4 do
+                local slot = find_uicomponent(ingredients_and_effects, "main_ingredient_slot_"..i)
+                if slot then
+                    if not startingX then
+                        startingX, startingY = slot:Position()
+                    end
+
+                    local currentX, currentY = slot:Position()
+
+                    local deltaY = 300
+                    if i==2 or i==3 then
+                        deltaY = 300
+                    end
+                    slot:MoveTo(currentX, startingY+deltaY)
+
+                    if i==1 or i==4 then
+                        slot:SetCanResizeHeight(true)
+                        slot:SetCanResizeWidth(true)
+                        slot:Resize(64,64)
+                        slot:ResizeCurrentStateImage(0,64,64)
+                    end
+                end
+            end
+        end,
+        true
+    )
 end
-
-core:remove_listener('ovn_hlf_on_opened_cooking_panel')
-core:add_listener(
-	'ovn_hlf_on_opened_cooking_panel',
-	'PanelOpenedCampaign',
-	true,
-	function(context)
-		if cm:get_local_faction(true):name() ~= "ovn_hlf_the_moot" then return end
-
-		local ui_root = core:get_ui_root()
-		local cauldron = find_uicomponent(ui_root, "groms_cauldron")
-		if not cauldron then return end
-
-		local cauldron_bg = find_uicomponent(cauldron, "animated_background")
-		cauldron_bg:SetImagePath("ui/skins/default/hlfng_burrow_panel_background.png")
-
-		local arch = find_uicomponent(cauldron, "mid_colum", "pot_holder", "arch")
-		local pot = find_uicomponent(cauldron, "mid_colum", "pot_holder", "pot")
-		arch:SetVisible(false)
-		pot:SetVisible(false)
-
-		local startingX = nil
-		local startingY = nil
-		local ingredients_and_effects = find_uicomponent(cauldron, "mid_colum", "pot_holder", "ingredients_and_effects")
-		for i=1,4 do
-			local slot = find_uicomponent(ingredients_and_effects, "main_ingredient_slot_"..i)
-			if slot then
-				if not startingX then
-					startingX, startingY = slot:Position()
-				end
-
-				local currentX, currentY = slot:Position()
-
-				local deltaY = 300
-				if i==2 or i==3 then
-					deltaY = 300
-				end
-				slot:MoveTo(currentX, startingY+deltaY)
-
-				if i==1 or i==4 then
-					slot:SetCanResizeHeight(true)
-					slot:SetCanResizeWidth(true)
-					slot:Resize(64,64)
-					slot:ResizeCurrentStateImage(0,64,64)
-				end
-			end
-		end
-	end,
-	true
-)
 
 cm:add_first_tick_callback(
 	function()
