@@ -1,0 +1,6 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_hlf_port								
+ovn_hlf_port_1		ovn_sc_halflings		wh_main_PLACEHOLDER	empire_port	false	wh_main_emp_port_1	true
+ovn_hlf_port_2		ovn_sc_halflings		wh_main_PLACEHOLDER	empire_port	false	wh_main_emp_port_2	true
+ovn_hlf_port_3		ovn_sc_halflings		wh_main_PLACEHOLDER	empire_port	false	wh_main_emp_port_3	true
+ovn_hlf_port_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	wh_main_settlement_major_ruin	true
