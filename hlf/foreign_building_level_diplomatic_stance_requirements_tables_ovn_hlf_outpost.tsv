@@ -1,0 +1,6 @@
+building_level	diplomatic_stance
+#foreign_building_level_diplomatic_stance_requirements_tables;0;db/foreign_building_level_diplomatic_stance_requirements_tables/ovn_hlf_outpost	
+ovn_hlf_allied_outpost_2	master
+ovn_hlf_allied_outpost_2	military_allies
+ovn_hlf_allied_outpost_3	master
+ovn_hlf_allied_outpost_3	military_allies
