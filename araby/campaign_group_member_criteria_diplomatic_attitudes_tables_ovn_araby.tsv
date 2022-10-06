@@ -1,0 +1,8 @@
+member	attitude
+#campaign_group_member_criteria_diplomatic_attitudes_tables;0;db/campaign_group_member_criteria_diplomatic_attitudes_tables/ovn_araby	
+diplomacy_Faction_Araby_&_Negative	hostile
+diplomacy_Faction_Araby_&_Positive	friendly
+diplomacy_Faction_Scythan_&_Negative	hostile
+diplomacy_Faction_Scythan_&_Positive	friendly
+diplomacy_Faction_Scimitar_&_Negative	hostile
+diplomacy_Faction_Scimitar_&_Positive	friendly
