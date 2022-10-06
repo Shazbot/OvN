@@ -1,10 +1,12 @@
 victory_type	tree_y	tree_x	icon	length_type	should_show_end_game_ui
 #victory_types_tables;3;db/victory_types_tables/ovn_albion_victory_conditions					
-ovn_victory_type_short	0	0	short	short	true
-ovn_victory_type_long	1	0	long	long	true
-ovn_victory_type_ultimate	2	0	long	ultimate	true
-ovn_victory_type_military	3	0	long	long	true
-ovn_victory_type_economic	4	0	long	long	true
-ovn_victory_type_cultural	5	0	long	long	true
-ovn_type_mp_coop	0	0	short	short	true
-ovn_type_mp_versus	0	0	short	short	true
+ovn_victory_type_short	1	0	short	short	false
+ovn_victory_type_long	2	0	long	long	false
+ovn_victory_type_domination	3	0	domination	long	true
+ovn_victory_type_ultimate	4	0	ultimate	long	true
+ovn_victory_type_roleplay_dd	5	0	ovn	long	false
+ovn_victory_type_roleplay_rq	5	0	ovn	long	false
+ovn_victory_type_military	5	0	long	long	true
+ovn_victory_type_economic	6	0	long	long	true
+ovn_victory_type_cultural	7	0	long	long	true
+ovn_type_multiplayer	0	0	short	short	true
