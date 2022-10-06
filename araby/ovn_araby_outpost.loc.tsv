@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_araby_outpost.loc		
+building_chains_chain_tooltip_ovn_araby_allied_outpost	Outpost	false
+building_short_description_texts_short_description_ovn_araby_allied_outpost_1	Envoy and his retinue from Araby on a diplomatic mission.	false
+building_short_description_texts_short_description_ovn_araby_allied_outpost_2	A hub of trading activity dealing in wares from Araby.	false
+building_short_description_texts_short_description_ovn_araby_allied_outpost_3	An Arabyan colony in a far-away land.	false
+building_culture_variants_name_ovn_araby_allied_outpost_1ovn_sc_arb_araby	Arabyan Outpost	false
+building_culture_variants_name_ovn_araby_allied_outpost_2ovn_sc_arb_araby	Arabyan Market	false
+building_culture_variants_name_ovn_araby_allied_outpost_3ovn_sc_arb_araby	Arabyan District	false
