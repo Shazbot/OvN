@@ -1,0 +1,5 @@
+from	to
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/ovn_araby_port	
+ovn_araby_port_1	ovn_araby_port_2
+ovn_araby_port_2	ovn_araby_port_3
+ovn_araby_port_ruin	ovn_araby_port_1

@@ -77,11 +77,11 @@ key	building	unit	xp	conditions	faction	enabled
 163523125	ovn_arb_worship_2	ovn_arb_mon_sea_nymph	0	0		false
 163523126	ovn_arb_worship_2	ovn_arb_mon_desert_spirit	0	0		true
 163523127	ovn_arb_worship_2	ovn_arb_mon_enchanted_rope	0	0		true
-260589300	wh_main_teb_port_1	ovn_arb_inf_corsairs	0	0		true
-260589301	wh_main_teb_port_2	ovn_arb_inf_corsairs	0	0		true
-260589303	wh_main_teb_port_2	ovn_arb_mon_promethean_hatchlings	0	0		true
-260589302	wh_main_teb_port_3	ovn_arb_inf_corsairs	0	0		true
-260589304	wh_main_teb_port_3	ovn_arb_mon_promethean_hatchlings	0	0		true
+260589300	ovn_araby_port_1	ovn_arb_inf_corsairs	0	0		true
+260589301	ovn_araby_port_2	ovn_arb_inf_corsairs	0	0		true
+260589303	ovn_araby_port_2	ovn_arb_mon_promethean_hatchlings	0	0		true
+260589302	ovn_araby_port_3	ovn_arb_inf_corsairs	0	0		true
+260589304	ovn_araby_port_3	ovn_arb_mon_promethean_hatchlings	0	0		true
 85516923	arb_flaming_scimitar_barracks_1	ovn_arb_inf_arabyan_bowmen	0	0		false
 85516924	arb_flaming_scimitar_barracks_1	ovn_arb_inf_arabyan_spearmen	0	0		false
 85516925	arb_flaming_scimitar_barracks_2	ovn_arb_inf_arabyan_bowmen	0	0		false
@@ -147,8 +147,8 @@ key	building	unit	xp	conditions	faction	enabled
 1260681778	arb_flaming_scimitar_main_5	ovn_arb_mon_necrofex_colossus	0	0		false
 1260681779	arb_flaming_scimitar_structure_growth_2	wh2_dlc11_cst_mon_animated_hulks_0	0	0		false
 1260681780	arb_flaming_scimitar_structure_growth_2	wh2_dlc11_cst_mon_bloated_corpse_0	0	0		false
-1260681783	wh_main_teb_port_3	wh2_dlc11_cst_mon_animated_hulks_0	0	0		false
-1260681784	wh_main_teb_port_3	wh2_dlc11_cst_mon_bloated_corpse_0	0	0		false
+1260681783	ovn_araby_port_3	wh2_dlc11_cst_mon_animated_hulks_0	0	0		false
+1260681784	ovn_araby_port_3	wh2_dlc11_cst_mon_bloated_corpse_0	0	0		false
 1260681864	wh2_main_special_settlement_sartosa_emp_2	ovn_arb_inf_arabyan_bowmen	0	0		false
 1260681865	wh2_main_special_settlement_sartosa_emp_3	ovn_arb_inf_arabyan_bowmen	0	0		false
 1260681866	wh2_main_special_settlement_sartosa_emp_4	ovn_arb_inf_arabyan_bowmen	0	0		false
