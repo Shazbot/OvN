@@ -12,3 +12,4 @@ ovn_halfling_cooking	ACTOR	ovn_sc_halflings
 ovn_halfling_cooking_ingredient_unlocked	ACTOR	ovn_sc_halflings
 ovn_hlf_how_they_play_event	ACTOR	ovn_sc_halflings
 ovn_occupation_decision_buildrestaurant	ACTOR	ovn_sc_halflings
+ovn_halflings	ACTOR	ovn_sc_halflings
