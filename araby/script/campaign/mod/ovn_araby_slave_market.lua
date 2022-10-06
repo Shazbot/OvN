@@ -433,7 +433,6 @@ end
 local function adjust_araby_crafting_panel()
 	local mortuary_cult = find_ui_component_str("root > mortuary_cult")
 	if not mortuary_cult then
-		dout("OUT")
 		real_timer.unregister("ovn_arb_crafting_adjust_panel")
 	end
 
