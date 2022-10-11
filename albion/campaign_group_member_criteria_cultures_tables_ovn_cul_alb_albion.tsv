@@ -3,3 +3,4 @@ member	context	culture
 wh_captive_option_enslave_albion	ORIGINATOR	ovn_albion
 wh_captive_option_kill_albion	ORIGINATOR	ovn_albion
 wh_captive_option_release_albion	ORIGINATOR	ovn_albion
+ovn_even_feed_cult_albion	ACTOR	ovn_albion
