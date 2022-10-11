@@ -1,3 +1,0 @@
-faction	can_make_client_states	can_make_confederations	can_make_vassals
-#diplomatic_action_faction_restrictions_tables;0;db/diplomatic_action_faction_restrictions_tables/ovn_sc_alb_albion			
-ovn_alb_order_of_the_truthsayers	false	false	true
