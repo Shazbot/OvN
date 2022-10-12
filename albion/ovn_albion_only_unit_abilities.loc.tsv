@@ -79,3 +79,5 @@ unit_abilities_onscreen_name_elo_albion_bologs	Bologs, Bologs, BOLOGS!	false
 unit_abilities_tooltip_text_elo_hengus_blessing	In their time as mercenaries, lost in the lands of Tilea, Hengus the Druid would guide Bologs and his brother. Hengus is far too old now to take to the battlefield himself, but he will still prepare the giant brothers with the last of his feeble magic for the battles ahead.	false
 unit_abilities_onscreen_name_elo_hengus_blessing	Hengus' Blessing	false
 unit_abilities_tooltip_text_elo_albion_something_prove	These warriors have focused on proving their worth on the battlefield. As long as their will is unbroken, they will push themselves beyond their limits.	false
+unit_abilities_tooltip_text_elo_albion_remove_war_fury_2	Removes "War Fury II" from all units that have it	false
+unit_abilities_onscreen_name_elo_albion_remove_war_fury_2	Remove "War Fury II"	false

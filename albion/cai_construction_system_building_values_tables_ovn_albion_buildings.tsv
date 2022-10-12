@@ -6,8 +6,7 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		albion_smith_1	albion_smith_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	30	30	30	30	0	0	25	25
 		albion_order_1	albion_order_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
 		ovn_Waystone_1	ovn_Waystone_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
-		ovn_Waystone_marker	ovn_Waystone_marker			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
-		ovn_Waystone_beacon	ovn_Waystone_beacon			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
+		ovn_Waystone_beacon	ovn_Waystone_marker			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	500	500
 		ovn_albion_military_1	ovn_albion_military_3			cai_military_group					0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	50	50
 		ovn_albion_stables_1	ovn_albion_stables_3			cai_military_group					0	0	10	10	10	10	0	0	0	0	60	60	60	60	0	0	40	40
 		ovn_albion_foreign_slot_discovery_1	ovn_albion_foreign_slot_discovery_1			cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10

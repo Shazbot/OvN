@@ -81,12 +81,13 @@ ovn_Waystone_1	wh_main_effect_ovn_Waystone_1_dummy		this_building	1.0	0.0	0.0
 ovn_Waystone_2	wh_main_effect_ovn_Waystone_2_dummy		this_building	1.0	0.0	0.0
 ovn_Waystone_3	wh_main_effect_ovn_Waystone_3_dummy		this_building	1.0	0.0	0.0
 ovn_Waystone_3	wh_main_effect_economy_gdp_manufacture		building_to_building_own	300.0	150.0	0.0
-ovn_Waystone_1	ovn_albion_waystone_geomancy		region_to_province_own	3.0	3.0	0.0
-ovn_Waystone_2	ovn_albion_waystone_geomancy		region_to_province_own	4.0	4.0	0.0
-ovn_Waystone_3	ovn_albion_waystone_geomancy		region_to_province_own	5.0	5.0	0.0
+ovn_Waystone_2	ovn_albion_waystone_geomancy		region_to_province_own	1.0	4.0	0.0
+ovn_Waystone_3	ovn_albion_waystone_geomancy		region_to_province_own	2.0	5.0	0.0
 ovn_Waystone_marker	ovn_albion_waystone_geomancy		region_to_province_own	5.0	5.0	0.0
+ovn_Waystone_marker	wh2_main_effect_building_major_settlement_only_dummy		region_to_region_own	1.0	1.0	1.0
 ovn_Waystone_marker	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-6.0	-3.0	0.0
 ovn_Waystone_beacon	ovn_albion_waystone_geomancy		region_to_province_own	4.0	2.0	0.0
+ovn_Waystone_beacon	wh2_main_effect_building_major_settlement_only_dummy		region_to_region_own	1.0	1.0	1.0
 ovn_Waystone_beacon	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-4.0	-2.0	0.0
 albion_oracle_hall_1	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-2.0	-1.0	0.0
 albion_oracle_hall_2	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-4.0	-2.0	0.0

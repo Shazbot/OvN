@@ -2,7 +2,6 @@ key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	buil
 #building_chains_tables;9;db/building_chains_tables/ovn_albion_buildings									
 ovn_Waystone			military	false	ovn_Waystone		7		true
 ovn_Waystone_marker			military	false	ovn_Waystone_marker		7		true
-ovn_Waystone_beacon			military	false	ovn_Waystone_beacon		7		true
 ovn_albion_military			military	false	ovn_albion_military		0		true
 ovn_albion_stables			military	false	ovn_albion_stables		0		true
 elo_ogham_stone			military	false	elo_ogham_stone		0		true

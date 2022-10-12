@@ -2,7 +2,6 @@ building_chain	id
 #building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/ovn_albion_buildings	
 ovn_Waystone	ovn_albion
 ovn_Waystone_marker	ovn_albion
-ovn_Waystone_beacon	ovn_albion
 ovn_albion_military	ovn_albion
 ovn_albion_stables	ovn_albion
 elo_ogham_stone	ovn_albion

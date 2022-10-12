@@ -2,7 +2,6 @@ chain	set	super_chain	remove
 #building_chain_set_items_tables;0;db/building_chain_set_items_tables/ovn_albion_buildings			
 ovn_Waystone	ovn_Waystone		false
 ovn_Waystone_marker	ovn_Waystone_marker		false
-ovn_Waystone_beacon	ovn_Waystone_beacon		false
 ovn_albion_military	wh3_main_secondary_core_generic_minor		false
 ovn_albion_stables	wh3_main_secondary_core_generic_minor		false
 elo_ogham_stone	wh3_main_secondary_core_generic_minor		false

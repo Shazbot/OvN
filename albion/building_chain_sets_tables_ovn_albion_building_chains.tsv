@@ -2,7 +2,6 @@ key	parent_set
 #building_chain_sets_tables;0;db/building_chain_sets_tables/ovn_albion_building_chains	
 ovn_Waystone	
 ovn_Waystone_marker	
-ovn_Waystone_beacon	
 elo_great_ogham	
 elo_forge_old_ones	
 elo_citadel_lead	
