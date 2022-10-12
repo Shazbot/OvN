@@ -106,13 +106,10 @@ chain	chain_set	slot_template	super_chain	remove
 	ovn_Waystone_marker	wh2_main_human_major_secondary_obsidian		false
 	ovn_Waystone_marker	wh2_main_human_major_secondary_spices		false
 	ovn_Waystone_marker	wh2_main_special_altar_of_ultimate_darkness_secondary		false
-	ovn_Waystone_marker	wh2_main_special_castle_drachenfels_secondary		false
-	ovn_Waystone_marker	wh2_main_special_clar_karond_secondary		false
 	ovn_Waystone_marker	wh2_main_special_galbaraz_secondary		false
 	ovn_Waystone_marker	wh2_main_special_galleons_graveyard_secondary		false
 	ovn_Waystone_marker	wh2_main_special_ghrond_secondary		false
 	ovn_Waystone_marker	wh2_main_special_hag_graef_secondary		false
-	ovn_Waystone_marker	wh2_main_special_har_ganeth_secondary		false
 	ovn_Waystone_marker	wh2_main_special_hef_vauls_anvil_secondary		false
 	ovn_Waystone_marker	wh2_main_special_hellpit_secondary		false
 	ovn_Waystone_marker	wh2_main_special_hexoatl_secondary		false
@@ -120,7 +117,6 @@ chain	chain_set	slot_template	super_chain	remove
 	ovn_Waystone_marker	wh2_main_special_karag_orrud_secondary		false
 	ovn_Waystone_marker	wh2_main_special_karak_izor_secondary		false
 	ovn_Waystone_marker	wh2_main_special_karak_zorn_secondary		false
-	ovn_Waystone_marker	wh2_main_special_karond_kar_secondary		false
 	ovn_Waystone_marker	wh2_main_special_khemri_secondary		false
 	ovn_Waystone_marker	wh2_main_special_kraka_drak_secondary		false
 	ovn_Waystone_marker	wh2_main_special_lahmia_secondary		false
@@ -130,7 +126,6 @@ chain	chain_set	slot_template	super_chain	remove
 	ovn_Waystone_marker	wh2_main_special_parravon_secondary		false
 	ovn_Waystone_marker	wh2_main_special_pyramid_of_nagash_secondary		false
 	ovn_Waystone_marker	wh2_main_special_quintex_secondary		false
-	ovn_Waystone_marker	wh2_main_special_salzenmund_secondary		false
 	ovn_Waystone_marker	wh2_main_special_sartosa_secondary		false
 	ovn_Waystone_marker	wh2_main_special_skavenblight_secondary		false
 	ovn_Waystone_marker	wh2_main_special_skeggi_secondary_major		false
@@ -218,12 +213,10 @@ chain	chain_set	slot_template	super_chain	remove
 	ovn_Waystone_marker	wh_main_norsca_major_secondary_dervingard_special		false
 	ovn_Waystone_marker	wh_main_norsca_major_secondary_iron		false
 	ovn_Waystone_marker	wh_main_norsca_major_secondary_salt		false
-	ovn_Waystone_marker	wh_main_special_altdorf_secondary		false
 	ovn_Waystone_marker	wh_main_special_black_crag_secondary		false
 	ovn_Waystone_marker	wh_main_special_bordeleux_secondary		false
 	ovn_Waystone_marker	wh_main_special_carcassonne_secondary		false
 	ovn_Waystone_marker	wh_main_special_castle_drakenhof_secondary		false
-	ovn_Waystone_marker	wh_main_special_couronne_secondary		false
 	ovn_Waystone_marker	wh_main_special_doomkeep_secondary		false
 	ovn_Waystone_marker	wh_main_special_eight_peaks_secondary		false
 	ovn_Waystone_marker	wh_main_special_karak_azgal_secondary		false
@@ -233,8 +226,6 @@ chain	chain_set	slot_template	super_chain	remove
 	ovn_Waystone_marker	wh_main_special_karak_norn_secondary		false
 	ovn_Waystone_marker	wh_main_special_karaz_a_karak_secondary		false
 	ovn_Waystone_marker	wh_main_special_magritta_secondary		false
-	ovn_Waystone_marker	wh_main_special_marienburg_secondary		false
-	ovn_Waystone_marker	wh_main_special_massif_orca_secondary		false
 	ovn_Waystone_marker	wh_main_special_middenheim_secondary		false
 	ovn_Waystone_marker	wh_main_special_miragliano_secondary		false
 	ovn_Waystone_marker	wh_main_special_monolith_of_katam_secondary		false

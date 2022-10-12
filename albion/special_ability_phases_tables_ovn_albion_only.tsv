@@ -5,8 +5,8 @@ war_fury_2	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	fa
 woad_paint	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	false	0		wh_main_generic_ward_save_all_passive		false	true	true	0.0			false	0.0	0.0
 druid_bound_awakening_of_the_wood	12.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0				false	true	true	0.0			false	0.0	0.0
 devestating_charge	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		false	true	true	0.0			false	0.0	0.0
-spell_truth_gift_life	25.0	positive		false	false	false	0.0	0.0	0.0	0.5	0	0	true	0.0	0.0	false	0		wh_dlc05_spell_life_regrowth	wh_dlc05_spell_life_regrowth	false	true	true	0.0			false	24.0	0.0
-spell_truth_gift_life_upgraded	25.0	positive		false	false	false	0.0	0.0	0.0	0.5	0	0	true	0.0	0.0	false	0		wh_dlc05_spell_life_regrowth	wh_dlc05_spell_life_regrowth	false	true	true	0.0			false	24.0	0.0
+spell_truth_gift_life	25.0	positive		false	false	false	0.0	0.0	0.0	1.0	0	0	true	0.0	0.0	false	0		wh_dlc05_spell_life_regrowth	wh_dlc05_spell_life_regrowth	false	true	true	0.0			false	0.008	0.0
+spell_truth_gift_life_upgraded	25.0	positive		false	false	false	0.0	0.0	0.0	1.0	0	0	true	0.0	0.0	false	0		wh_dlc05_spell_life_regrowth	wh_dlc05_spell_life_regrowth	false	true	true	0.0			false	0.008	0.0
 wh2_main_lore_passive_truthsayer	15.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0				false	true	true	0.0			false	0.0	0.0
 spell_truth_valor	22.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_harmonic_convergence	wh_main_spell_heavens_harmonic_convergence	false	true	true	0.0			false	0.0	0.0
 spell_truth_valor_upgraded	22.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	false	0		wh_main_spell_heavens_harmonic_convergence	wh_main_spell_heavens_harmonic_convergence	false	true	true	0.0			false	0.0	0.0
@@ -28,11 +28,11 @@ murder_crows_upgraded	-1.0	negative		false	false	false	0.0	0.0	0.0	1.0	6	8	false
 morrigan_hunters_dmg	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		false	true	true	0.0			false	0.0	0.0
 lesser_shield_of_the_old_ones	25.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh2_main_ability_shield_of_the_old_ones	false	true	true	0.0			false	0.0	0.0
 elo_staff_of_dural_durak	30.0	negative		false	false	false	0.0	0.0	30.0	0.0	0	0	false	0.0	0.0	false	0				false	true	true	0.0			false	0.0	0.0
-elo_amulet_old_ones	1.1	positive		false	false	false	0.0	0.0	0.0	1.0	0	0	false	15.0	50.0	false	0		wh2_main_unit_passive_rebirth		false	true	true	0.0			false	1100.0	0.0
+elo_amulet_old_ones	1.1	positive		false	false	false	0.0	0.0	0.0	1.0	0	0	false	15.0	50.0	false	0		wh2_main_unit_passive_rebirth		false	true	true	0.0			false	0.18333	0.0
 elo_albion_freedom	10.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_defence	wh_ability_positive	false	true	true	0.0			false	0.0	0.0
 elo_champion_of_albion	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0		wh_main_generic_buff_morale		false	true	true	0.0			false	0.0	0.0
 elo_albion_bologs	60.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	false	true	true	0.0			false	0.0	0.0
-elo_hengus_blessing	1.0	positive		false	false	false	0.0	0.0	0.0	1.0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	false	true	true	0.0			false	100.0	0.0
+elo_hengus_blessing	1.0	positive		false	false	false	0.0	0.0	0.0	1.0	0	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	false	true	true	0.0			false	0.01667	0.0
 elo_albion_something_prove	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0		wh_main_generic_buff_attack	wh_ability_positive	false	true	true	0.0			false	0.0	0.0
 cr_unit_formation_shieldwall	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0				false	true	true	0.0			false	0.0	0.0
 elo_albion_holy_warriors_unbreakable	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	-1	false	0.0	0.0	false	0		wh_main_generic_buff_defence_morale_passive		false	true	true	0.0			false	0.0	0.0
