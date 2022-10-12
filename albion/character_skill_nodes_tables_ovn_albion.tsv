@@ -495,3 +495,12 @@ wyrd_unique_03		elo_protective_charms	node_set_albion_wizard		0.0	3.0		0	0	true
 wyrd_unique_04		warrior_shaman	node_set_albion_wizard		1.0	1.0		0	0	true
 wyrd_unique_05		wyrd_spellbinder	node_set_albion_wizard		1.0	2.0		0	0	true
 wyrd_unique_06		wyrd_channeler	node_set_albion_wizard		1.0	3.0		0	0	true
+node_set_dural_durak_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_dural_durak		99.0	0.0		0	0	false
+node_set_morrigan_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_morrigan		99.0	0.0		0	0	false
+node_set_albion_chief_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_albion_chief		99.0	0.0		0	0	false
+node_set_warleader_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_warleader		99.0	0.0		0	0	false
+node_set_truth_beasts_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_truth_beasts		99.0	0.0		0	0	false
+node_set_truth_life_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_truth_life		99.0	0.0		0	0	false
+node_set_truth_light_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_truth_light		99.0	0.0		0	0	false
+node_set_truth_truth_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_truth_truth		99.0	0.0		0	0	false
+node_set_albion_wizard_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_albion_wizard		99.0	0.0		0	0	false
