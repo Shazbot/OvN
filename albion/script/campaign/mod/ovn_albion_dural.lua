@@ -1,7 +1,7 @@
 local function spawn_new_force()
 	cm:create_force_with_general(
 		"ovn_alb_order_of_the_truthsayers", -- faction_key,
-		"elo_youngbloods,albion_giant,druid_neophytes,elo_albion_warriors,albion_hearthguard,albion_riders_spear", -- unit_list,
+		"elo_youngbloods,albion_giant,druid_neophytes,elo_albion_warriors,albion_hearthguard,albion_centaurs", -- unit_list,
 		"wh3_main_combi_region_citadel_of_lead", -- region_key,
 		350, -- x,
 		761, -- y,

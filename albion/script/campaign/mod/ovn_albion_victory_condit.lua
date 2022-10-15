@@ -121,12 +121,8 @@ local function ovn_albion_victory_conditions()
 						   faction wh_dlc08_nor_vanaheimlings;
                            faction wh_main_vmp_mousillon;
 						   faction wh_dlc03_grn_black_pit;
+                           faction wh2_main_def_naggarond;
 						   confederation_valid;
-					   }
-					   objective
-					   {
-						type KILL_CHARACTER_BY_ANY_MEANS;
-						family_member 47;
 					   }
 					   objective
 					   {
@@ -263,12 +259,8 @@ local function ovn_albion_victory_conditions()
                                 faction wh3_main_sla_seducers_of_slaanesh;
                                 faction wh_main_vmp_mousillon;
                                 faction wh2_main_skv_clan_septik;
+                                faction wh2_main_def_naggarond;
                                 confederation_valid;
-                            }
-                            objective
-                            {
-                                type KILL_CHARACTER_BY_ANY_MEANS;
-                                family_member 47;
                             }
 							objective
 							{

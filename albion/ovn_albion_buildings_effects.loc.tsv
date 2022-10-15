@@ -15,13 +15,13 @@ effects_description_elo_allrange_dmg	Missile Damage: %+n% for Stonethrowers, You
 effects_description_elo_warband_cost	Recruitment Cost: %+n% for Albion Warband units	true
 effects_description_elo_ranged_reload	Reload Speed: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
 effects_description_elo_ranged_xp	Recruitment Rank: %+n  for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
-effects_description_disable_war_fury_2	Removes "War Fury 2" from all units that have it	true
+effects_description_disable_war_fury_2	Removes "War Fury II" from all units that have it when embedded into an army	true
 effects_description_elo_elite_warband_wps	Weapon Strength: %+n% for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_noble_cav_chariot_armour	Armour: %+n for Noble Cavalary and Chariots	true
 effects_description_elo_noble_cav_chariot_vigour	Vigour Loss: %+n% for Noble Cavalary and Chariots	true
-effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
-effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
-effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Zoats, Ogham Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Zoats, Ogham Barrow Wights and Centaurs	true
+effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Zoats, Ogham Barrow Wights and Centaurs	true
 effects_description_albion_monsters_fen_anti_small	Bonus vs Infantry: %+n for Fenbeasts and Fenhulks	true
 effects_description_albion_monsters_fen_mdef	Melee Defence: %+n for Fenbeasts and Fenhulks	true
 effects_description_albion_monsters_fen_mattk	Melee Attack: %+n for Fenbeasts and Fenhulks	true

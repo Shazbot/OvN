@@ -77,8 +77,8 @@ effects_description_elo_warband_matt	Melee Attack: %+n for Albion Warbands	true
 effects_description_elo_warband_mdef	Melee Defence: %+n  for Albion Warbands	true
 effects_description_elo_elite_mdef	Melee Defence: %+n  for Oathsworn, Highlanders and Chosen of Ishernos	true
 effects_description_elo_elite_matt	Melee Attack: %+n for Oathsworn, Highlanders and Chosen of Ishernos	true
-effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Albion Barrow Wights and Fenhulks	true
-effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Albion Barrow Wights and Fenhulks	true
+effects_description_elo_monster_mdef	Melee Defence: %+n  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Ogham Barrow Wights and Fenhulks	true
+effects_description_elo_monster_matt	Melee Attack: %+n  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Ogham Barrow Wights and Fenhulks	true
 effects_description_elo_savage_matt	Melee Attack: %+n for Woadraiders, Druidic Initiates and Maidenguard	true
 effects_description_elo_savage_dmg	Weapon Strength: %+n% for Woadraiders, Druidic Initiates and Maidenguard	true
 effects_description_elo_allrange_ammo	Ammunition: %+n% for Stonethrowers, Hog Trackers, Huntresses and Hobelars (Javelins)	true
@@ -94,9 +94,9 @@ effects_description_elo_hunters_r7_misres	Missile Resistance: %+n% for for Stone
 effects_description_elo_riders_r7_mattk	Melee Attack: %+n for Woadraiders, Maidenguard, Centaurs, Hunting Dogs and Hobelars {{tr:rank7}}	true
 effects_description_elo_riders_r7_charge	Charge Bonus: %+n for Woadraiders, Maidenguard, Albion Chariots, Hunting Dogs and Hobelars {{tr:rank7}}	true
 effects_description_elo_riders_r7_dmg	Weapon Strength: %+n% for Woadraiders, Maidenguard, Albion Chariots, Hunting Dogs and Hobelars {{tr:rank7}}	true
-effects_description_elo_monsters_r7_mattk	Melee Attack: %+n  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Fenhulks, Centaurs, Albion Barrow Wights, Feral Gryphons and Druidic Initiates {{tr:rank7}}	true
-effects_description_elo_monsters_r7_dmg	Weapon Strength: %+n%  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Fenhulks, Centaurs, Albion Barrow Wights, Feral Gryphons and Druidic Initiates {{tr:rank7}}	true
-effects_description_elo_monsters_r7_charge	Charge Bonus: %+n for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Fenhulks, Centaurs, Albion Barrow Wights, Feral Gryphons and Druidic Initiates {{tr:rank7}}	true
+effects_description_elo_monsters_r7_mattk	Melee Attack: %+n  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Fenhulks, Centaurs, Ogham Barrow Wights, Feral Gryphons and Druidic Initiates {{tr:rank7}}	true
+effects_description_elo_monsters_r7_dmg	Weapon Strength: %+n%  for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Fenhulks, Centaurs, Ogham Barrow Wights, Feral Gryphons and Druidic Initiates {{tr:rank7}}	true
+effects_description_elo_monsters_r7_charge	Charge Bonus: %+n for Fenbeasts, Giants, Aitheach Giant-Blooded, Zoats, Fenhulks, Centaurs, Ogham Barrow Wights, Feral Gryphons and Druidic Initiates {{tr:rank7}}	true
 effects_description_sessair_troops_mattk	Melee Attack: %+n for all human (non-hero/lord) units	true
 effects_description_sessair_troops_wps	Weapon Strength: %+n% for all human (non-hero/lord) units	true
 effects_description_sessair_troops_antiIn	Anti-Infantry: %+n for all human (non-hero/lord) units	true
@@ -133,13 +133,13 @@ unit_abilities_additional_ui_effects_localised_text_elo_amulet_old_ones	[[col:gr
 effects_description_elo_warband_cost	Recruitment Cost: %+n% for Albion Warband units	true
 effects_description_elo_ranged_reload	Reload Speed: %+n% for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
 effects_description_elo_ranged_xp	Recruitment Rank: %+n  for Stonethrowers, Youngbloods, Huntresses and Aonbarr Horse Warriors (Javelins)	true
-effects_description_disable_war_fury_2	Removes "War Fury II" from all units that have it	true
+effects_description_disable_war_fury_2	Removes "War Fury II" from all units that have it when embedded into an army	true
 effects_description_elo_elite_warband_wps	Weapon Strength: %+n% for Hearthguard, Highlanders and Viridian Lords	true
 effects_description_elo_noble_cav_chariot_armour	Armour: %+n for Noble Cavalary and Chariots	true
 effects_description_elo_noble_cav_chariot_vigour	Vigour Loss: %+n% for Noble Cavalary and Chariots	true
-effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
-effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
-effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Zoats, Albion Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_missiles_res	Missile Resistance: %+n% for Giants, Half Giants, Zoats, Ogham Barrow Wights and Centaurs	true
+effects_description_albion_ancient_allies_speed	Speed: %+n% for Giants, Half Giants, Zoats, Ogham Barrow Wights and Centaurs	true
+effects_description_albion_ancient_mattk	Melee Attack: %+n for Giants, Half Giants, Zoats, Ogham Barrow Wights and Centaurs	true
 effects_description_albion_monsters_fen_anti_small	Bonus vs Infantry: %+n for Fenbeasts and Fenhulks	true
 effects_description_albion_monsters_fen_mdef	Melee Defence: %+n for Fenbeasts and Fenhulks	true
 effects_description_albion_monsters_fen_mattk	Melee Attack: %+n for Fenbeasts and Fenhulks	true
