@@ -6,5 +6,7 @@ core:add_ui_created_callback(
 		mixer_enable_custom_faction("1222718341")
         mixer_add_starting_unit_list_for_faction("ovn_alb_host_ravenqueen", {"elo_youngbloods", "albion_swordmaiden","albion_giant","albion_hearthguard"})
 		mixer_change_lord_name("1222718341", "albion_morrigan")
+        mixer_add_faction_to_major_faction_list("ovn_alb_order_of_the_truthsayers")
+        mixer_add_faction_to_major_faction_list("ovn_alb_host_ravenqueen")
     end
 )
