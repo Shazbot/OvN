@@ -1,0 +1,12 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/ovn_albion_res									
+ovn_albion_resource_dyes			money	true	wh_main_sch_human_resource_dyes		20		true
+ovn_albion_resource_exotic_animals			money	true	wh2_main_sch_resource_animals		20		true
+ovn_albion_resource_furs			money	true	wh_main_sch_human_resource_furs		20		true
+ovn_albion_resource_gemstones			money	true	wh_main_sch_dwarf_resource_gemstones		20		true
+ovn_albion_resource_ivory			money	true	wh3_main_sch_human_resource_ivory		20		true
+ovn_albion_resource_pastures			money	true	wh_main_sch_human_resource_pastures		20		true
+ovn_albion_resource_salt			money	true	wh_main_sch_human_resource_salt		20		true
+ovn_albion_resource_spices			money	true	wh2_main_sch_resource_spices		20		true
+ovn_albion_resource_wine			money	true	wh_main_sch_human_resource_wine		20		true
+ovn_albion_resource_obsidian			money	true	wh2_main_sch_resource_obsidian		20		true
