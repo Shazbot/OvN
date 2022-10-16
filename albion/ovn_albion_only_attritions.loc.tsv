@@ -6,3 +6,5 @@ campaign_storms_display_name_1ovn_albion_mist	Mist of Albion	true
 campaign_map_attritions_unit_card_tooltip_ovn_albion_storm	This army is suffering losses within the heavy storms of Albion.	true
 campaign_map_attritions_unit_immunity_text_ovn_albion_storm	Storm of Albion	true
 campaign_storms_display_name_1ovn_albion_storm	Storm of Albion	true
+campaign_map_attritions_campaign_map_tooltip_ovn_albion_mist	Armies will suffer losses due to [[img:icon_attrition]][[/img]]attrition when in the Mists of Albion.	true
+campaign_map_attritions_campaign_map_tooltip_ovn_albion_storm	Armies will suffer losses due to [[img:icon_attrition]][[/img]]attrition when in the Storms of Albion.	true

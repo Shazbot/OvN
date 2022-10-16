@@ -6,3 +6,9 @@ campaign_post_battle_captive_options_onscreen_name_releasewh_captive_option_rele
 campaign_post_battle_captive_options_description_enslavewh_captive_option_enslave_albion	Beast or man, we accept all who repent.	false
 campaign_post_battle_captive_options_description_killwh_captive_option_kill_albion	They will make worthy offerings to our gods.	false
 campaign_post_battle_captive_options_description_releasewh_captive_option_release_albion	Freed and from their masters too if they choose, all we ask is a small token of gratitude.	false
+campaign_post_battle_captive_options_onscreen_name_290990	Convert Captives	true
+campaign_post_battle_captive_options_description_290990	Beast or man, we accept all who repent.	true
+campaign_post_battle_captive_options_onscreen_name_290991	Sacrifice Captives	true
+campaign_post_battle_captive_options_description_290991	They will make worthy offerings to our gods.	true
+campaign_post_battle_captive_options_onscreen_name_290992	Free Captives	true
+campaign_post_battle_captive_options_description_290992	Freed and from their masters too if they choose, all we ask is a small token of gratitude.	true

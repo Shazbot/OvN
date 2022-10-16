@@ -3,3 +3,7 @@ key	text	tooltip
 agent_culture_details_onscreen_name_9880207	Overking	true
 agent_culture_details_onscreen_name_9880211	Druidic Priest	true
 agent_culture_details_onscreen_name_9880203	Petty Chieftain	true
+agent_subtypes_description_text_override_albion_truthsayer_beast	The Truthsayers are expert in manipulating the winds related to nature. One of these is Ghur, the wind of beasts.	true
+agent_subtypes_description_text_override_albion_truthsayer_life	The Truthsayers are expert in manipulating the winds related to nature, like Ghyran, wind of life.	true
+agent_subtypes_description_text_override_albion_truthsayer_light	The Truthsayers are expert in manipulating the winds related to nature, such as Hyish, wind of light.	true
+agent_subtypes_description_text_override_albion_truthsayer_truth	The Truthsayers  have developed their own kind of druidic magic, distilled from their fragmented knowledge of Old One rituals used to defend and protect their fortresses in Albion.	true

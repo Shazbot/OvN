@@ -88,6 +88,7 @@ effect_bundles_localised_title_elo_staff_of_dural_durak	Staff of Dural Durak	tru
 effect_bundles_localised_description_elo_staff_of_dural_durak	When Dural Durak casts spells, this staff of his own creation twists the Winds of Magic in a way that disturbs the efforts of enemy casters.	true
 effect_bundles_localised_title_elo_amulet_old_ones	Amulet of the Old Ones	true
 effect_bundles_localised_description_elo_amulet_old_ones	One of the last functioning artifacts of the Old Ones remaining in the hands of the tribes of Albion, this amulet can save the life of its wearer once per battle with a surge of magical energy.	true
+ancillaries_colour_text_elo_amulet_old_ones	One of the last functioning artifacts of the Old Ones remaining in the hands of the tribes of Albion, this amulet can save the life of its wearer once per battle with a surge of magical energy.	true
 effect_bundles_localised_title_dural_mount_horse	Albion Warhorse	false
 effect_bundles_localised_description_dural_mount_horse	Albion bred warhorses are hardy, fast and sure-footed. However, only wealthy warriors can afford to ride on to battle.	false
 effect_bundles_localised_title_dural_mount_chariot	Albion Chariot	false
