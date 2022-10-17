@@ -360,7 +360,7 @@ local function remove_albion_mist_bundles(albion_faction)
 		local effect_bundle = "albion_global_mist_".. i;
 
 		if albion_faction:has_effect_bundle(effect_bundle) then
-				cm:remove_effect_bundle(effect_bundle, albion_faction_key);
+			cm:remove_effect_bundle(effect_bundle, albion_faction_key);
 		end
 	end
 end
@@ -374,10 +374,10 @@ local function init_albion_mist_mechanic()
         function(context) return context:faction():name() == albion_faction_key
         end,
         function(context)
-						handle_invasion_queue()
+			handle_invasion_queue()
 
             local faction = context:faction();
-						local region_list = faction:region_list();
+			local region_list = faction:region_list();
 
             local alb_region = cm:get_region(ALBION_REGION_KEY);
             local lead_region = cm:get_region(COL_REGION_KEY);
@@ -385,7 +385,38 @@ local function init_albion_mist_mechanic()
 
             local albion_faction = cm:get_faction(albion_faction_key);
 
-						for i = 0, region_list:num_items() - 1 do
+			if alb_region:building_exists("ovn_Waystone_3")
+				and lead_region:building_exists("ovn_Waystone_3")
+				and wight_region:building_exists("ovn_Waystone_3")
+			then
+				remove_albion_mist_bundles(albion_faction)
+				cm:apply_effect_bundle("albion_global_mist_4", albion_faction_key, -1);
+
+				if not cm:get_saved_value("disable_albion_mist_invasions") then
+					albion_mist_invasion_queue(ALBION_REGION_KEY)
+					albion_mist_invasion_queue(COL_REGION_KEY)
+					albion_mist_invasion_queue(IOW_REGION_KEY)
+
+					cm:set_saved_value("disable_albion_mist_invasions", true);
+				end
+			elseif (alb_region:building_exists("ovn_Waystone_3") or alb_region:building_exists("ovn_Waystone_2"))
+				and (lead_region:building_exists("ovn_Waystone_3") or lead_region:building_exists("ovn_Waystone_2"))
+				and (wight_region:building_exists("ovn_Waystone_3") or wight_region:building_exists("ovn_Waystone_2"))
+			then
+				remove_albion_mist_bundles(albion_faction)
+				cm:apply_effect_bundle("albion_global_mist_3", albion_faction_key, -1);
+			elseif (alb_region:building_exists("ovn_Waystone_3") or alb_region:building_exists("ovn_Waystone_2") or alb_region:building_exists("ovn_Waystone_1"))
+				and (lead_region:building_exists("ovn_Waystone_3") or lead_region:building_exists("ovn_Waystone_2") or lead_region:building_exists("ovn_Waystone_1"))
+				and (wight_region:building_exists("ovn_Waystone_3") or wight_region:building_exists("ovn_Waystone_2") or wight_region:building_exists("ovn_Waystone_1"))
+			then
+				remove_albion_mist_bundles(albion_faction)
+				cm:apply_effect_bundle("albion_global_mist_2", albion_faction_key, -1);
+			else
+				remove_albion_mist_bundles(albion_faction)
+				cm:apply_effect_bundle("albion_global_mist_1", albion_faction_key, -1);
+			end
+
+			for i = 0, region_list:num_items() - 1 do
                 local region = region_list:item_at(i);
                 local current_region_name = region:name();
 
@@ -405,39 +436,7 @@ local function init_albion_mist_mechanic()
                         albion_mist_invasion_queue(current_region_name)
                     end
                 end
-
-                if alb_region:building_exists("ovn_Waystone_3")
-                and lead_region:building_exists("ovn_Waystone_3")
-                and wight_region:building_exists("ovn_Waystone_3") then
-                    remove_albion_mist_bundles(albion_faction)
-
-                    cm:apply_effect_bundle("albion_global_mist_4", albion_faction_key, -1);
-
-                    if not cm:get_saved_value("disable_albion_mist_invasions") then
-                        albion_mist_invasion_queue(ALBION_REGION_KEY)
-                        albion_mist_invasion_queue(COL_REGION_KEY)
-                        albion_mist_invasion_queue(IOW_REGION_KEY)
-
-                        cm:set_saved_value("disable_albion_mist_invasions", true);
-                    end
-                elseif (alb_region:building_exists("ovn_Waystone_3") or alb_region:building_exists("ovn_Waystone_2"))
-                and (lead_region:building_exists("ovn_Waystone_3") or lead_region:building_exists("ovn_Waystone_2"))
-                and (wight_region:building_exists("ovn_Waystone_3") or wight_region:building_exists("ovn_Waystone_2")) then
-                    remove_albion_mist_bundles(albion_faction)
-
-                    cm:apply_effect_bundle("albion_global_mist_3", albion_faction_key, -1);
-                elseif (alb_region:building_exists("ovn_Waystone_3") or alb_region:building_exists("ovn_Waystone_2") or alb_region:building_exists("ovn_Waystone_1"))
-                and (lead_region:building_exists("ovn_Waystone_3") or lead_region:building_exists("ovn_Waystone_2") or lead_region:building_exists("ovn_Waystone_1"))
-                and (wight_region:building_exists("ovn_Waystone_3") or wight_region:building_exists("ovn_Waystone_2") or wight_region:building_exists("ovn_Waystone_1")) then
-										remove_albion_mist_bundles(albion_faction)
-
-                    cm:apply_effect_bundle("albion_global_mist_2", albion_faction_key, -1);
-                else
-                    remove_albion_mist_bundles(albion_faction)
-
-                    cm:apply_effect_bundle("albion_global_mist_1", albion_faction_key, -1);
-                end
-            end
+			end
         end,
 		true
     );
