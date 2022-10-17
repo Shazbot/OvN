@@ -20,6 +20,7 @@ local function spawn_new_force()
 	)
 end
 
+
 local function new_game_startup()
     local ravenqueen_host_string = "ovn_alb_host_ravenqueen"
 	local ravenqueen_host = cm:get_faction(ravenqueen_host_string)
@@ -51,7 +52,8 @@ local function new_game_startup()
             cm:replenish_action_points(cm:char_lookup_str(cqi))
         end
     )
-
+    
+    
     local unit_count = 1 -- card32 count
     local rcp = 20 -- float32 replenishment_chance_percentage
     local max_units = 1 -- int32 max_units
@@ -73,8 +75,29 @@ local function new_game_startup()
 		"albion_highlander_ror",
     }
 
-     cm:change_corruption_in_province_by("wh3_main_combi_province_the_cold_mires","wh3_main_corruption_slaanesh", -60, "events")
+    cm:change_corruption_in_province_by("wh3_main_combi_province_the_cold_mires","wh3_main_corruption_slaanesh", -30, "events")
+    cm:create_force_with_general(
+				"wh3_main_sla_subtle_torture",
+				"wh3_main_sla_inf_marauders_0,wh3_main_sla_inf_daemonette_0,wh3_main_sla_inf_daemonette_0,wh3_dlc20_chs_inf_chaos_warriors_msla",
+				"wh3_main_combi_region_the_folly_of_malofex",
+				466, -- x,
+                916, -- y,
+				"general",
+				"wh3_main_sla_herald_of_slaanesh_slaanesh",
+				"",
+				"",
+				"",
+				"",
+				false,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
+					cm:disable_movement_for_character("character_cqi:" .. cqi)
+				end
+			)
     
+		cm:force_declare_war("wh3_main_sla_subtle_torture", "ovn_alb_host_ravenqueen", false, false)
+     
+     
     for _, unit in ipairs(units) do
         cm:add_unit_to_faction_mercenary_pool(
             ravenqueen_host,

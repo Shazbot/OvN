@@ -37,9 +37,10 @@ local function new_game_startup()
 
     local shadowlegion = cm:get_faction("wh3_main_chs_shadow_legion")
     if not shadowlegion:is_human() then
-    cm:teleport_to("faction:wh3_main_chs_shadow_legion", 415, 850, true)
-    cm:teleport_to("faction:wh3_main_chs_shadow_legion,forename:2147353848", 419, 848, true)
+    cm:teleport_to("faction:wh3_main_chs_shadow_legion", 458, 862, true)
+    cm:teleport_to("faction:wh3_main_chs_shadow_legion,forename:2147353848", 458, 864, true)
     custom_starts:force_diplomacy_change("wh3_dlc20_tze_the_sightless","wh3_main_chs_shadow_legion","peace")
+    custom_starts:force_diplomacy_change("wh_main_nor_varg","wh3_main_chs_shadow_legion","war")
     cm:teleport_to("faction:wh3_dlc20_tze_the_sightless", 344, 755, true)
     if  not order_of_the_truthsayers:is_human() then
         cm:transfer_region_to_faction("wh3_main_combi_region_konquata", "ovn_alb_order_of_the_truthsayers")

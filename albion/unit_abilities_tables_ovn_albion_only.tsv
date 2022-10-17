@@ -28,7 +28,7 @@ omen_of_doom	true	omen_of_doom		wh_type_area_of_hexes		wh_main_anc_group_rare	tr
 omen_of_war	true	omen_of_war		wh_type_area_of_augments		wh_main_anc_group_rare	true	false	character		false
 murder_crows	true	murder_crow		wh_type_area_of_hexes		wh_main_anc_group_rare	true	false	character		false
 howling_shields	true	wh_main_weapon_abilities_charmed_shield		wh_type_area_of_hexes		wh_main_anc_group_uncommon	false	false	unit		false
-spell_truth_wings_fate_bound	false	truth_wings_of_fate		wh_type_magic_missiles		wh_main_anc_group_common	true	false	spell		false
+spell_truth_wings_fate_bound	true	truth_wings_of_fate		wh_type_magic_missiles		wh_main_anc_group_common	true	false	spell		false
 darkened_skies	true	murder_crow		wh_type_area_of_hexes		wh_main_anc_group_rare	true	false	character		false
 murder_crows_upgraded	true	murder_crow		wh_type_area_of_hexes		wh_main_anc_group_rare	true	false	character		false
 morrigan_hunters_dmg	false	wh_dlc05_hero_passive_hawkish_precision		wh_type_augment		wh_main_anc_group_uncommon	false	false	unit		false
