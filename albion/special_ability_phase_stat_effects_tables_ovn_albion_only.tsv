@@ -2,8 +2,9 @@ phase	stat	value	how
 #special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/ovn_albion_only			
 war_fury	stat_melee_attack	6.0000	add
 war_fury	stat_melee_damage_base	1.1000	mult
+war_fury	stat_melee_damage_ap	1.1000	mult
 war_fury_2	stat_morale	-5.0000	add
-war_fury	stat_charge_bonus	1.0100	mult
+war_fury	stat_charge_bonus	1.1000	mult
 woad_paint	stat_resistance_physical	15.0000	add
 druid_bound_awakening_of_the_wood	scalar_speed	0.5200	mult
 devestating_charge	stat_charge_bonus	1.5000	mult

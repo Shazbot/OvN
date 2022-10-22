@@ -222,7 +222,7 @@ morrigan_maidens	enable_hawkish_hunter	1	general_to_force_own	1.0000
 morrigan_maidens	elo_maidens_res	1	general_to_force_own	20.0000
 morrigan_maidens	elo_maidens_xp	1	general_to_force_own	4.0000
 morrigan_maidens	elo_maidens_speed	1	general_to_force_own	15.0000
-morrigan_unleashed	wh2_dlc14_effect_magic_cost_all_lores	1	faction_to_character_own	-2.0000
+morrigan_unleashed	wh2_dlc14_effect_magic_cost_all_lores_percentage	1	faction_to_character_own	-2.0000
 morrigan_unleashed	wh2_main_effect_ability_cooldown_spells	1	character_to_character_own	-20.0000
 morrigan_unleashed	enable_murder_of_crows_upgraded	1	character_to_character_own	1.0000
 morrigan_unleashed	disable_murder_of_crows	1	character_to_character_own	1.0000
