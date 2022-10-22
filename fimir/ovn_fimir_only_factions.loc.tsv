@@ -10,8 +10,8 @@ factions_defend_desc_ovn_fim_rancor_hold	You are defending against Rancor Hold!	
 factions_screen_adjective_ovn_fim_rancor_hold	 	false
 factions_screen_name_ovn_fim_rancor_hold	Rancor Hold	false
 factions_screen_name_when_rebels_ovn_fim_rancor_hold	Shearl Rebels	false
-factions_attack_desc_ovn_fim_tendrils_of_doom	You are attacking Servants of Kroll!	false
-factions_defend_desc_ovn_fim_tendrils_of_doom	You are defending against Servants of Kroll!	false
+factions_attack_desc_ovn_fim_tendrils_of_doom	You are attacking the Tendrils of Doom!	false
+factions_defend_desc_ovn_fim_tendrils_of_doom	You are defending against the Tendrils of Doom!	false
 factions_screen_adjective_ovn_fim_tendrils_of_doom	 	false
 factions_screen_name_ovn_fim_tendrils_of_doom	Tendrils of Doom	false
 factions_screen_name_when_rebels_ovn_fim_tendrils_of_doom	Heretic Rebels	false

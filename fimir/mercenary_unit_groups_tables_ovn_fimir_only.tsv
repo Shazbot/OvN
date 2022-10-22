@@ -1,8 +1,8 @@
 key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
 #mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/ovn_fimir_only					
-fim_inf_fimm_warriors_axe_throwers_ror	100.0	1	fim_inf_fimm_warriors_axe_throwers_ror	true	0.1
-fim_mon_gharnus_daemon_ror	100.0	1	fim_mon_gharnus_daemon_ror	true	0.1
-fim_inf_killing_eye_ror	100.0	1	fim_inf_killing_eye_ror	true	0.1
-fim_mon_daemonomaniac_ror	100.0	1	fim_mon_daemonomaniac_ror	true	0.1
-fim_cav_marsh_hornets_ror	100.0	1	fim_cav_marsh_hornets_ror	true	0.1
-fim_inf_moor_hounds_ror	100.0	1	fim_inf_moor_hounds_ror	true	0.1
+fim_inf_fimm_warriors_axe_throwers_ror	100.0000	1	fim_inf_fimm_warriors_axe_throwers_ror	true	0.1000
+fim_mon_gharnus_daemon_ror	100.0000	1	fim_mon_gharnus_daemon_ror	true	0.1000
+fim_inf_killing_eye_ror	100.0000	1	fim_inf_killing_eye_ror	true	0.1000
+fim_mon_daemonomaniac_ror	100.0000	1	fim_mon_daemonomaniac_ror	true	0.1000
+fim_cav_marsh_hornets_ror	100.0000	1	fim_cav_marsh_hornets_ror	true	0.1000
+fim_inf_moor_hounds_ror	100.0000	1	fim_inf_moor_hounds_ror	true	0.1000

@@ -2,3 +2,5 @@ faction_key	sort_order	culture_sort_order
 #custom_battle_factions_tables;1;db/custom_battle_factions_tables/ovn_fimir_only		
 ovn_fim_rancor_hold	0	20
 ovn_fim_tendrils_of_doom	1	20
+ovn_fim_marsh_hornets	2	20
+ovn_fim_mist_dragons	3	20
