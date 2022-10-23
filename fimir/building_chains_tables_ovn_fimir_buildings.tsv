@@ -17,3 +17,4 @@ ovn_fimir_walls_minor			military	false	wh2_main_sch_defence_minor		0		true
 ovn_fimir_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
 ovn_fimir_foreign_slot_discovery			money	false	wh2_main_sch_foreign_slot_discovery		9		true
 ovn_fimir_agrul_migdhal_landmark			money	false	ovn_fimir_agrul_migdhal_landmark		7		true
+ovn_fimir_kroll_temple			military	false	ovn_fimir_kroll_temple		7		false

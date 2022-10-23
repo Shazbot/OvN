@@ -17,3 +17,4 @@ ovn_fimir_walls_minor						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0
 ovn_fimir_allied_outpost						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	250
 		ovn_fimir_foreign_slot_discovery	ovn_fimir_foreign_slot_discovery			cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
 		ovn_fimir_agrul_migdhal_landmark	ovn_fimir_agrul_migdhal_landmark			cai_support_group					0	0	500	500	500	500	0	0	-1	-1	0	0	0	0	0	0	800	800
+ovn_fimir_kroll_temple						cai_support_group			ovn_fim_tendrils_of_doom		-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	450	450

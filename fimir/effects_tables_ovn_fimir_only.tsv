@@ -93,4 +93,15 @@ ovn_fim_effect_agent_cap_increase_champion_finmor	agent.png	302	agent.png	campai
 ovn_fim_effect_agent_recruitment_xp_dignitary_fimir_balefiend	fimir_balefiend.png	101	fimir_balefiend.png	campaign	true
 ovn_fim_effect_agent_enable_recruitment_dignitary_fimir_balefiend	fimir_balefiend.png	203	fimir_balefiend.png	campaign	true
 ovn_fim_effect_agent_cap_increase_dignitary_fimir_balefiend	fimir_balefiend.png	302	fimir_balefiend.png	campaign	true
-ovn_chs_dark_god_blessing	general_ability.png	4	general_ability.png	battle	true
+ovn_fim_skroll_innate_mis_resistance_monsters	resistance_missile.png	581	resistance_missile.png	battle	true
+ovn_fim_skroll_innate_bog_upkeep_reduction	treasury.png	106	treasury.png	campaign	false
+fim_kroll_enable_mother_young	general_ability.png	600	general_ability.png	battle	true
+fim_kroll_enable_constrict_effect	phase_posion.png	1		battle	true
+ovn_fim_skroll_bog_cotopus_speed	battle_movement.png	106	battle_movement.png	battle	true
+ovn_fim_skroll_bog_cotopus_charge	battle_movement.png	106	battle_movement.png	battle	true
+ovn_fim_skroll_monster_ma	melee.png	106	melee.png	battle	true
+fim_kroll_enable_broodmother	general_ability.png	600	general_ability.png	battle	true
+fim_kroll_enable_fulcrum	general_ability.png	600	general_ability.png	battle	true
+fim_kroll_temple_apotheosis	mass_character.png	600	general_ability.png	battle	true
+fim_kroll_temple_apotheosis_scale		0		campaign	true
+ovn_fim_kroll_apotheosis_dummy	weapon_damage_character.png	1	weapon_damage.png	battle	true

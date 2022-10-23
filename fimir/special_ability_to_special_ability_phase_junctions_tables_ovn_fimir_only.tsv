@@ -5,4 +5,6 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	fim_skattach_poison_mist	false	false	true	fim_skattach_poison_mist
 1	ovn_unit_passive_aura_great_eye	false	true	false	ovn_unit_passive_aura_great_eye
 1	embodiment_albion	false	false	true	embodiment_albion
-1	ovn_chs_dark_god_blessing	false	false	true	ovn_chs_dark_god_blessing
+1	ovn_fim_kroll_mother_young	true	false	false	ovn_fim_kroll_mother_young
+1	ovn_fim_kroll_broodmother	false	false	true	ovn_fim_kroll_broodmother
+1	ovn_fim_kroll_fulcrum_of_worship	true	true	false	ovn_fim_kroll_fulcrum_of_worship

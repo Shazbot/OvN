@@ -16,3 +16,11 @@ unit_abilities_onscreen_name_embodiment_albion	Embodiment of Albion	false
 unit_abilities_tooltip_text_embodiment_albion	Fen Hulks are embodiments of the corrupted lands of Albion. Wherever they go, the land is corrupted into muddy bogs which greatly hinder their enemies.	false
 unit_abilities_tooltip_text_ovn_mystic_mist	Fimir surround themselves with a magically-created mist, through which the Fimir are barely discernable from a distance of more than a few metres.	false
 unit_abilities_onscreen_name_ovn_mystic_mist	Mystic Mist	false
+unit_abilities_additional_ui_effects_localised_text_ovn_fim_kroll_summon_hatchling	Summons a Bog Octopus Hatchling	true
+unit_abilities_additional_ui_effects_localised_text_ovn_fim_kroll_inoculate	Kroll will inoculate one of her spawn into a random enemy unit with low health, destroying it instantly	true
+unit_abilities_tooltip_text_ovn_fim_kroll_mother_young	"...and while she ate, she grew. She swelled, and her children, hungry for nourishment, flocked to her, and she fed unto each of them the corrupted remains of her victims..."	true
+unit_abilities_onscreen_name_ovn_fim_kroll_mother_young	Mother of a Thousand Young	true
+unit_abilities_tooltip_text_ovn_fim_kroll_broodmother	Kroll has been known to force her eggs into the bodies of still her living but weakened victims. A fate much worse than death awaits those who recieve her spawn inside them.	true
+unit_abilities_onscreen_name_ovn_fim_kroll_broodmother	Broodmother	true
+unit_abilities_tooltip_text_ovn_fim_kroll_fulcrum_of_worship	Empowered by the sacrifices of her children and the death of the battlefield, Kroll grows ever mightier, as do her devout followers.	true
+unit_abilities_onscreen_name_ovn_fim_kroll_fulcrum_of_worship	Fulcrum of Worship	true

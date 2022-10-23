@@ -7,6 +7,12 @@ fim_daemon_octopus_kroll_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_mi
 fim_daemon_octopus_kroll_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	node_set_fimir_daemon_octopus_kroll		0.0000	6.0000		0	0	true
 fim_daemon_octopus_kroll_from_mists		elo_fimir_from_mists	node_set_fimir_daemon_octopus_kroll		0.0000	7.0000		0	0	true
 fim_daemon_octopus_kroll_immortality		wh2_main_skill_all_immortality_lord	node_set_fimir_daemon_octopus_kroll		0.0000	8.0000		0	0	true
+fim_daemon_octopus_kroll_unique_0		fim_kroll_unique_0	node_set_fimir_daemon_octopus_kroll		1.0000	0.0000		0	0	true
+fim_daemon_octopus_kroll_unique_1_1		fim_kroll_unique_1	node_set_fimir_daemon_octopus_kroll		1.0000	1.0000		0	0	true
+fim_daemon_octopus_kroll_unique_1_2		fim_kroll_unique_2	node_set_fimir_daemon_octopus_kroll		1.0000	2.0000		0	0	true
+fim_daemon_octopus_kroll_unique_1_3		fim_kroll_unique_3	node_set_fimir_daemon_octopus_kroll		1.0000	3.0000		0	0	true
+fim_daemon_octopus_kroll_unique_1_4		fim_kroll_unique_4	node_set_fimir_daemon_octopus_kroll		1.0000	4.0000		0	0	true
+fim_daemon_octopus_kroll_unique_1_5		fim_kroll_unique_5	node_set_fimir_daemon_octopus_kroll		1.0000	5.0000		0	3	true
 fim_daemon_octopus_kroll_magic1_01		wh2_main_skill_magic_dark_chillwind	node_set_fimir_daemon_octopus_kroll		2.0000	0.0000		0	0	true
 fim_daemon_octopus_kroll_magic1_02		wh2_main_skill_magic_dark_power_of_darkness_lord	node_set_fimir_daemon_octopus_kroll		2.0000	1.0000		0	0	true
 fim_daemon_octopus_kroll_magic1_03		wh2_main_skill_magic_dark_word_of_pain_lord	node_set_fimir_daemon_octopus_kroll		2.0000	2.0000		0	0	true

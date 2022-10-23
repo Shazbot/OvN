@@ -1,0 +1,6 @@
+effect	bonus_value_id
+#effect_bonus_value_basic_junction_tables;0;db/effect_bonus_value_basic_junction_tables/ovn_fimir_only	
+fim_kroll_temple_apotheosis	melee_damage_mod_mult
+fim_kroll_temple_apotheosis	armour_mod_mult
+fim_kroll_temple_apotheosis	unit_mass_percentage_mod
+fim_kroll_temple_apotheosis_scale	model_scale_mod

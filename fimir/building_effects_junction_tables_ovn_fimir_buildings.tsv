@@ -131,3 +131,8 @@ ovn_fimir_agrul_migdhal_landmark	wh2_main_effect_economy_gdp_slaves_def		buildin
 ovn_fimir_agrul_migdhal_landmark	wh2_main_effect_slave_decline_modifier		province_to_province_own	-50.0000	-25.0000	0.0000
 ovn_fimir_agrul_migdhal_landmark	wh2_main_effect_slave_income_modifier		province_to_province_own	25.0000	25.0000	0.0000
 ovn_fimir_agrul_migdhal_landmark	wh2_main_effect_slave_public_order_modifier		province_to_province_own	-30.0000	-15.0000	0.0000
+ovn_fimir_temple_kroll_1	wh_main_effect_force_all_campaign_recruitment_cost_all		region_to_force_own	-2.0000	-1.0000	0.0000
+ovn_fimir_temple_kroll_1	wh_main_effect_force_all_campaign_experience_base_all		province_to_province_own_unseen	2.0000	2.0000	0.0000
+ovn_fimir_temple_kroll_1	wh3_main_effect_corruption_chaos_characters		region_to_region_own	10.0000	0.0000	0.0000
+ovn_fimir_temple_kroll_1	fim_kroll_temple_apotheosis_scale		faction_to_faction_leader_unseen	0.0100	0.0000	0.0000
+ovn_fimir_temple_kroll_1	fim_kroll_temple_apotheosis		faction_to_faction_leader_unseen	5.0000	0.0000	0.0000

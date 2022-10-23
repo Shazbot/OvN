@@ -38,7 +38,6 @@ ovn_fim_rancor_hold	false	fim_mon_gharnus_daemon_ror	true	true				false
 ovn_fim_rancor_hold	false	fim_mon_mistmor	true	true				false	
 ovn_fim_rancor_hold	false	fim_mon_fenbeast	true	true				false	
 ovn_fim_rancor_hold	false	fim_mon_fenhulk	true	true				false	
-ovn_fim_rancor_hold	false	wh_main_chs_mon_giant	true	true				false	
 ovn_fim_rancor_hold	false	fim_mon_daemonomaniac	true	true				false	
 ovn_fim_rancor_hold	false	fim_mon_daemonomaniac_ror	true	true				false	
 ovn_fim_rancor_hold	false	fim_veh_eye_oculus	true	true				false	

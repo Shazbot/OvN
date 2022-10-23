@@ -488,3 +488,11 @@ fim_daemon_octopus_kroll_magic1_11	fim_daemon_octopus_kroll_magic1_07	0	1	1	0.00
 fim_daemon_octopus_kroll_magic1_11	fim_daemon_octopus_kroll_magic1_08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 fim_daemon_octopus_kroll_magic1_11	fim_daemon_octopus_kroll_magic1_09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 fim_daemon_octopus_kroll_magic1_11	fim_daemon_octopus_kroll_magic1_10	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+fim_daemon_octopus_kroll_unique_1_1	fim_daemon_octopus_kroll_unique_0	0	1	1	0.0000	0.0000	REQUIRED
+fim_daemon_octopus_kroll_unique_1_2	fim_daemon_octopus_kroll_unique_0	0	1	1	0.0000	0.0000	REQUIRED
+fim_daemon_octopus_kroll_unique_1_3	fim_daemon_octopus_kroll_unique_0	0	1	1	0.0000	0.0000	REQUIRED
+fim_daemon_octopus_kroll_unique_1_4	fim_daemon_octopus_kroll_unique_0	0	1	1	0.0000	0.0000	REQUIRED
+fim_daemon_octopus_kroll_unique_1_5	fim_daemon_octopus_kroll_unique_1_1	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+fim_daemon_octopus_kroll_unique_1_5	fim_daemon_octopus_kroll_unique_1_2	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+fim_daemon_octopus_kroll_unique_1_5	fim_daemon_octopus_kroll_unique_1_3	0	0	0	0.0000	0.0000	SUBSET_REQUIRED
+fim_daemon_octopus_kroll_unique_1_5	fim_daemon_octopus_kroll_unique_1_4	0	0	0	0.0000	0.0000	SUBSET_REQUIRED

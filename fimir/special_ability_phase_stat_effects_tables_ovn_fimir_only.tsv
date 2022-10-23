@@ -9,4 +9,6 @@ ovn_mystic_mist	stat_resistance_missile	6.0000	add
 fim_skattach_poison_mist	stat_morale	-10.0000	add
 ovn_unit_passive_aura_great_eye	stat_morale	10.0000	add
 embodiment_albion	scalar_speed	0.7000	mult
-ovn_chs_dark_god_blessing	stat_morale	8.0000	add
+ovn_fim_kroll_fulcrum_of_worship	stat_morale	10.0000	add
+ovn_fim_kroll_fulcrum_of_worship	stat_resistance_magic	15.0000	add
+ovn_fim_kroll_fulcrum_of_worship	stat_melee_damage_base	1.2000	mult

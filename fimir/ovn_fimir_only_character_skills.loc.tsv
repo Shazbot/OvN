@@ -31,7 +31,7 @@ character_skills_localised_description_elo_fimir_witness_me	The Fimir will do an
 character_skills_localised_name_elo_champions_chaos_r7	Ambitious Elites	false
 character_skills_localised_description_elo_champions_chaos_r7	Many mighty champions have flocked to Bel'akors banner, always honing their own skill in battle to serve their Dark Master and reap the promised rewards.	false
 character_skills_localised_name_fim_meargh_skattach_innate	Pretender Hell-Mother	true
-character_skills_localised_description_fim_meargh_skattach_innate	Having been ousted from her fortress at Schadensumpf by the ever-encroaching humans, Skattach has travelled far into the south along with the rest of her Clan in search of the lost Fimir homeland of the Wandering Isle. Believing to have found it in the marshes of the Badlands, she has proclaimed herself Hell-Mother, Meargh of all the Fimir.	true
+character_skills_localised_description_fim_meargh_skattach_innate	Having been ousted from her fortress at Schadensumpf by the ever-encroaching humans, Skattach has descended into insanity. Having regrouped in the misty coasts of the northern Wastelands, she has crowned herself Hell-Mother, ruler of all Fimir.	true
 character_skills_localised_name_fim_meargh_skattach_ancient_leadership	Ancient Leadership	false
 character_skills_localised_description_fim_meargh_skattach_ancient_leadership	The Meargh are the respected and feared witch-queens of the Fimir. Skattach is at her prime as a Meargh, having ruled over her Clan for 800 hundred years.	false
 character_skills_localised_name_fim_meargh_skattach_death_quest	Skattach's Fianna	false
@@ -54,5 +54,18 @@ character_skills_localised_description_anc_boglar_shaman_hound	Boglar Shamans ar
 character_skills_localised_name_anc_boglar_shaman_hound	Moor Hound	true
 character_skills_localised_description_anc_fimirach_noble_mount	The highest ranking Nobles often ride into battle on a mighty Bog Beast.	true
 character_skills_localised_name_anc_fimirach_noble_mount	Bog Beast	true
-character_skills_localised_name_fim_daemon_octopus_kroll_innate	Dread of the Bog	true
-character_skills_localised_description_fim_daemon_octopus_kroll_innate	The world will sink into the swamp...	true
+character_skills_localised_name_fim_daemon_octopus_kroll_innate	The All-Mother	true
+character_skills_localised_description_fim_daemon_octopus_kroll_innate	A being as ancient as the world possessing great malice and intellect, Kroll is a Daemon Princess unaligned to any of the Great Powers, and worshipped as mother of the Bog Octopi and ruler of the cursed bogs by the Fimir.	true
+character_skill_node_sets_enc_title_node_set_fimir_daemon_octopus_kroll	Kroll Skills	true
+character_skills_localised_name_fim_kroll_unique_0	Mother of a Thousand Young	true
+character_skills_localised_description_fim_kroll_unique_0	Ever the nurturing mother, Kroll's love for her children has no bounds, as she devours foes, all those she considers her progeny - Fimir, Bog Octopi and others - are fed the regurgigated remains and revitalised.	true
+character_skills_localised_name_fim_kroll_unique_1	Nameless Thing	true
+character_skills_localised_description_fim_kroll_unique_1	Kroll has survived for aeons, and the Fimir claim she's as old as the world itself. Whatever the truth, the many weapons and trinkets of would-be slayers that cover her form can attest to her endurance.	true
+character_skills_localised_name_fim_kroll_unique_2	Terrible Tentacles	true
+character_skills_localised_description_fim_kroll_unique_2	The grip of Kroll's colossal tentacles has such strenght that it can crush armour, flesh and bones in a matter of seconds. No foe who has been trapped in her embrace has lived to tell the tale.	true
+character_skills_localised_name_fim_kroll_unique_3	Bog Matriarch	true
+character_skills_localised_description_fim_kroll_unique_3	In the presence of Kroll both her eartthly children - the Bog Octopi - and the other supernatural denizens of the Marsh fight with greater cunning and ferocity, for now they're guided not be instinct alone, but by the will  of the Great Mother.	true
+character_skills_localised_name_fim_kroll_unique_4	Broodmother	true
+character_skills_localised_description_fim_kroll_unique_4	Kroll is has ben known to implant her magical eggs in the bodies of her still living prey,  eggs which then grow quickly feeding on the soul essence of the victim, ending with a Bog Octopus hatchling busting out of the doomed victim.	true
+character_skills_localised_name_fim_kroll_unique_5	Daemon Princess of the Fimir	true
+character_skills_localised_description_fim_kroll_unique_5	Whatever the truth of her origins, it is a fact that Kroll is now a creature of the Empyrean, and that worship and sacrifices dedicated to her greatly empower her phyiscal manifestation. Beholden to none of the Four, Kroll plans to eventually reach her own apotheosis as goddess of the Fimir...	true
