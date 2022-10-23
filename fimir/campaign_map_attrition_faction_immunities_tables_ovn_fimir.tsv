@@ -1,0 +1,14 @@
+attrition	faction
+#campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/ovn_fimir	
+chaos_territory	ovn_fim_rancor_hold
+disease	ovn_fim_rancor_hold
+swamp	ovn_fim_rancor_hold
+non_vampire_territory	ovn_fim_rancor_hold
+nurgle_plague	ovn_fim_rancor_hold
+mountain	ovn_fim_rancor_hold
+chaos_territory	ovn_fim_tendrils_of_doom
+disease	ovn_fim_tendrils_of_doom
+swamp	ovn_fim_tendrils_of_doom
+non_vampire_territory	ovn_fim_tendrils_of_doom
+nurgle_plague	ovn_fim_tendrils_of_doom
+mountain	ovn_fim_tendrils_of_doom
