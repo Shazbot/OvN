@@ -6,5 +6,7 @@ core:add_ui_created_callback(
 		mixer_enable_custom_faction("1809709658")
         mixer_add_starting_unit_list_for_faction("ovn_fim_tendrils_of_doom", {"fim_mon_fianna_fimm", "fim_mon_fenbeast","ovn_fim_mon_bog_octopus_0"})
 		mixer_change_lord_name("1809709658", "fim_cha_daemon_octopus_kroll")
+        mixer_add_faction_to_major_faction_list("ovn_fim_rancor_hold")
+        mixer_add_faction_to_major_faction_list("ovn_fim_tendrils_of_doom")
     end
 )

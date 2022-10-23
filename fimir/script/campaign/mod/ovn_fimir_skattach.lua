@@ -100,6 +100,7 @@ end
 
 cm:add_first_tick_callback(
 	function()
+        mixer_set_faction_trait("ovn_fim_rancor_hold", "ovn_rancor_hold_faction_trait", true)
 		if cm:is_new_game() then
 			if cm:get_campaign_name() == "main_warhammer" then
 				local ok, err =
