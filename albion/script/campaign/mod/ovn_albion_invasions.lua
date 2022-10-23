@@ -7,40 +7,6 @@ local IOW_REGION_KEY =  "wh3_main_combi_region_isle_of_wights"
 
 local albion_faction_key = "ovn_alb_order_of_the_truthsayers";
 
-local ovn_albion_anc_pool = {
-	"albion_hunting_dog",
-	"albion_lone_huntress",
-	"albion_woad_raider",
-	"albion_tame_raven",
-	"albion_druid_advisor",
-	"albion_chief",
-	"albion_old_warrior",
-	"albion_scavanger",
-	"albion_woman",
-	"fenbeast_follower",
-	"hearthguard_follower",
-	"druid_neophyte",
-	"albion_hardened_warrior",
-	"albion_scary_banner",
-	"anc_albion_triskele_banner",
-	"anc_danu_banner",
-	"anc_albion_hunter_banner",
-	"anc_albion_staff_of_light",
-	"anc_albion_talisman_triskele",
-	"anc_albion_hammer_giant",
-	"anc_albion_sun_shield",
-	"anc_hunter_spear",
-	"anc_dagger_shadow",
-	"anc_albion_chainmail",
-	"anc_albion_helmet_leader",
-	"anc_albion_talisman_danu",
-	"anc_albion_talisman_belakor",
-	"anc_albion_scepter_old_ones",
-	"anc_albion_staff_of_darkness",
-	"anc_albion_hound_statue",
-	"anc_albion_skull_trophies"
-}
-
 local albion_region_invasion_positions = {
 	wh3_main_combi_region_konquata = {
 		{335, 753},
@@ -168,7 +134,7 @@ local function albion_mist_invasion_start(region, x, y)
     albion_mist_invasion:apply_effect("wh_main_reduced_movement_range_60", 3);
     albion_mist_invasion:add_character_experience(experience_amount, true);
     albion_mist_invasion:add_unit_experience(experience_amount);
-		albion_mist_invasion:add_aggro_radius(25, {albion_faction_key}, 1)
+	albion_mist_invasion:add_aggro_radius(25, {albion_faction_key}, 1)
     albion_mist_invasion:start_invasion(true);
 
     if region == ALBION_REGION_KEY then
@@ -454,41 +420,6 @@ local function albion_init()
 	if not faction_obj or faction_obj:is_null_interface() then
 		return false
 	end
-
-	local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
-	local anc_key = ovn_albion_anc_pool[random_number]
-
-	core:add_listener(
-		"albion_anc_random_drop",
-		"CharacterTurnStart",
-		function(context)
-		return context:character():faction():name() == albion_faction_key end,
-			function(context)
-				local random_number = cm:random_number(#ovn_albion_anc_pool, 1)
-				local anc_key = ovn_albion_anc_pool[random_number]
-				local current_char = context:character()
-				if not current_char:character_type("colonel") then
-				common.ancillary(anc_key, 5, context)
-				end
-		end,
-		true
-	)
-
-	core:add_listener(
-		"albion_anc_win_battle_drop",
-		"CharacterCompletedBattle",
-		function(context)
-				local char = context:character()
-				return context:character():faction():name() == albion_faction_key
-				and char:won_battle()
-				and not char:is_wounded()
-				and not char:routed_in_battle()
-		end,
-		function(context)
-				common.ancillary(anc_key, 8, context)
-		end,
-		true
-	)
 
 	--- If construction has proceeded at least 1 turn you get a dialogue popup to click,
 	--- we don't check for that case.
