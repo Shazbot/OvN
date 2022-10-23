@@ -1,0 +1,5 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_fimir								
+ovn_annoy_chaos_gods	annoy	annoy	force	1	annoy_chaos.png	false	false	true
+ovn_annoy_chaos_gods_2	annoy	annoy	force	1	annoy_chaos.png	false	false	true
+ovn_favour_chaos_gods	favour	favour	force	1	favour_chaos.png	false	false	true

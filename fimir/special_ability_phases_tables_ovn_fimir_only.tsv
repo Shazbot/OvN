@@ -6,3 +6,4 @@ elo_fimir_witness_me	31.0000	positive		true	false	false	0.0000	0.0000	0.0000	0.0
 fim_skattach_poison_mist	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	1.0000	3	4	false	0.0000	0.0000	false	0		wh_main_generic_hp_damage_passive		false	true	true	0.0000			false	0.0000	0.0000
 magic_siphon	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_morale		false	true	true	0.0000			false	0.0000	0.0000
 embodiment_albion	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_debuff_defence_passive		false	true	true	0.0000			false	0.0000	0.0000
+ovn_chs_dark_god_blessing	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	1.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0004	0.0000

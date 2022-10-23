@@ -9,3 +9,4 @@ ovn_mystic_mist	stat_resistance_missile	6.0000	add
 fim_skattach_poison_mist	stat_morale	-10.0000	add
 ovn_unit_passive_aura_great_eye	stat_morale	10.0000	add
 embodiment_albion	scalar_speed	0.7000	mult
+ovn_chs_dark_god_blessing	stat_morale	8.0000	add
