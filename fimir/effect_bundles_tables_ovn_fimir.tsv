@@ -3,3 +3,7 @@ key	localised_description	localised_title	bundle_target	priority	ui_icon	is_glob
 ovn_annoy_chaos_gods	annoy	annoy	force	1	annoy_chaos.png	false	false	true
 ovn_annoy_chaos_gods_2	annoy	annoy	force	1	annoy_chaos.png	false	false	true
 ovn_favour_chaos_gods	favour	favour	force	1	favour_chaos.png	false	false	true
+ovn_fimir_edict_1		Miasma	province	1	edict_def_read_dark_portents.png	false	false	true
+ovn_fimir_edict_2		Prepare For War	province	1	edict_def_sacrifices_for_khaine.png	false	false	true
+ovn_fimir_edict_3		Corruption	province	1	edict_skv_efficient_scheming.png	false	false	true
+ovn_fimir_edict_4		Increase Slave Production	province	1	edict_def_increase_slave_production_quota.png	false	false	true

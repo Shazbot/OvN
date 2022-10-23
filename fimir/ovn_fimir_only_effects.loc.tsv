@@ -137,6 +137,6 @@ effects_description_ovn_fim_skroll_bog_cotopus_charge	Charge Bonus: %+n% for Bog
 effects_description_ovn_fim_skroll_monster_ma	Melee Attack: %+n for Chaos Furies, Swamp Daemons, Bog Octopi, Fen Beasts, Fen Hulks and Daemonomaniacs	true
 effects_description_fim_kroll_enable_broodmother	Ability: "Broodmother"	true
 effects_description_fim_kroll_enable_fulcrum	Ability: "Fulcrum of Worship"	true
-effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon Strength, Mass and Armour for each Temple of Kroll built in a major settlement.	true
+effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon Strength, Mass and Armour for each Temple of Kroll built in a major settlement	true
 effects_description_fim_kroll_temple_apotheosis_scale		false
-effects_description_ovn_fim_kroll_apotheosis_dummy	The Followers of Kroll can erect temples in her name at province capitals, increasing her mass, armour and weapon strength by %+n% each time.	true
+effects_description_ovn_fim_kroll_apotheosis_dummy	The Followers of Kroll can erect temples in her name at province capitals, increasing her mass, armour and weapon strength by %+n% each time	true
