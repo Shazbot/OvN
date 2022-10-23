@@ -105,3 +105,4 @@ fim_kroll_enable_fulcrum	general_ability.png	600	general_ability.png	battle	true
 fim_kroll_temple_apotheosis	mass_character.png	600	general_ability.png	battle	true
 fim_kroll_temple_apotheosis_scale		0		campaign	true
 ovn_fim_kroll_apotheosis_dummy	weapon_damage_character.png	1	weapon_damage.png	battle	true
+ovn_chs_dark_god_blessing	general_ability.png	4	general_ability.png	battle	true

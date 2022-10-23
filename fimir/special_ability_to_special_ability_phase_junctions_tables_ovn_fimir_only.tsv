@@ -8,3 +8,4 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	ovn_fim_kroll_mother_young	true	false	false	ovn_fim_kroll_mother_young
 1	ovn_fim_kroll_broodmother	false	false	true	ovn_fim_kroll_broodmother
 1	ovn_fim_kroll_fulcrum_of_worship	true	true	false	ovn_fim_kroll_fulcrum_of_worship
+1	ovn_chs_dark_god_blessing	true	true	false	ovn_chs_dark_god_blessing
