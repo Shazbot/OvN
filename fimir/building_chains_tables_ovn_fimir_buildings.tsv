@@ -1,15 +1,19 @@
 key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
 #building_chains_tables;9;db/building_chains_tables/ovn_fimir_buildings									
-ovn_fimir_discovery			money	false	ovn_fimir_discovery		9		true
-ovn_fimir_exp			military	false	ovn_fimir_exp		0		true
-ovn_fimir_garrison			military	false	ovn_fimir_garrison		0		true
+ovn_fimir_settlement_major			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_greenskins_orc_city.png	0		true
+ovn_fimir_settlement_minor			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_greenskins_orc_city.png	0		true
+ovn_fimir_infantry			military	false	ovn_fimir_infantry		1		true
+ovn_fimir_marsh			military	false	ovn_fimir_marsh		2		true
+ovn_fimir_cavalry			military	false	ovn_fimir_cavalry		3		true
+ovn_fimir_fianna			military	false	ovn_fimir_fianna		1		true
+ovn_fimir_dirach			military	false	ovn_fimir_dirach		2		true
+ovn_fimir_daemons			military	false	ovn_fimir_daemons		3		true
 ovn_fimir_growth			money	false	ovn_fimir_growth		0		true
-ovn_fimir_income			money	false	ovn_fimir_income		0		true
-ovn_fimir_mil			military	false	ovn_fimir_mil		7		true
-ovn_fimir_nor			military	false	ovn_fimir_nor		7		true
-ovn_fimir_beast			military	false	ovn_fimir_beast		7		true
+ovn_fimir_income			money	false	ovn_fimir_income		2		true
+ovn_fimir_order			money	false	ovn_fimir_order		4		true
+ovn_fimir_port			money	false	wh_main_sch_port		0		true
+ovn_fimir_walls_major			money	false	wh2_main_sch_defence_major_def		0		true
+ovn_fimir_walls_minor			military	false	wh2_main_sch_defence_minor		0		true
+ovn_fimir_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
+ovn_fimir_foreign_slot_discovery			money	false	wh2_main_sch_foreign_slot_discovery		9		true
 ovn_fimir_agrul_migdhal_landmark			money	false	ovn_fimir_agrul_migdhal_landmark		7		true
-ovn_fimir_marsh			military	false	ovn_fimir_marsh		7		true
-ovn_fimir_slaves			money	false	ovn_fimir_slaves		7		true
-ovn_fimir_agent			military	false	ovn_fimir_agent		7		true
-ovn_fimir_sacking			money	false	ovn_fimir_sacking		0		true
