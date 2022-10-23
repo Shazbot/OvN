@@ -422,17 +422,17 @@ local function init_albion_mist_mechanic()
 
                 if region:building_exists("ovn_Waystone_1") then
                     cm:create_storm_for_region(current_region_name, 1, 1, "ovn_albion_mist");
-                    if cm:random_number(12, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions") then
+                    if cm:random_number(16, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions") then
                         albion_mist_invasion_queue(current_region_name)
                     end
                 elseif region:building_exists("ovn_Waystone_2") then
                     cm:create_storm_for_region(current_region_name, 1, 1, "ovn_albion_mist");
-                    if cm:random_number(9, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions") then
+                    if cm:random_number(12, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions") then
                         albion_mist_invasion_queue(current_region_name)
                     end
                 elseif region:building_exists("ovn_Waystone_3") then
                     cm:create_storm_for_region(current_region_name, 1, 1, "ovn_albion_mist");
-                    if cm:random_number(6, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions")then
+                    if cm:random_number(8, 1) ==  1 and not cm:get_saved_value("disable_albion_mist_invasions")then
                         albion_mist_invasion_queue(current_region_name)
                     end
                 end
