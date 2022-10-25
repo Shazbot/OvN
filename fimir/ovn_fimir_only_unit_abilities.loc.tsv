@@ -1,11 +1,11 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/ovn_fimir_only_unit_abilities.loc		
 unit_abilities_onscreen_name_fim_skattach_poison_mist	Poison Mist	false
-unit_abilities_tooltip_text_fim_skattach_poison_mist	All Fimir Mearghs are acomppained by a noxious mist that demoralises and poisons their enemies. Skattach is no exception.	false
+unit_abilities_tooltip_text_fim_skattach_poison_mist	All Fimir Mearghs are accompanied by a noxious mist that demoralises and poisons their enemies. Skattach is no exception.	false
 unit_abilities_onscreen_name_fim_skattach_summon_swampdaemons	Summon Swamp Daemons	false
 unit_abilities_tooltip_text_fim_skattach_summon_swampdaemons	The caster opens a rift into the Realm of Chaos and binds a pack of Swamp Daemons to their will.	false
 unit_abilities_onscreen_name_fim_meargh_skattach_staff_balor_ability	Staff of Balor's Eye	false
-unit_abilities_tooltip_text_fim_meargh_skattach_staff_balor_ability	At the tip of this magical staff rests an ancient Fimir artifact known as "Balor's Eye" a magically preserved eye said to belong to the myterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user's enemies within.	false
+unit_abilities_tooltip_text_fim_meargh_skattach_staff_balor_ability	At the tip of this magical staff rests an ancient Fimir artifact known as "Balor's Eye" a magically preserved eye said to belong to the mysterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user's enemies within.	false
 unit_abilities_tooltip_text_magic_siphon	These unnatural creatures require magic to exist - the more the better. If the winds of magic blow strongly, they are more stable on the battlefield.	false
 unit_abilities_onscreen_name_magic_siphon	Magic Dependant	false
 unit_abilities_tooltip_text_elo_fimir_witness_me	The Fimir will do anything for but a moment of attention from the Dark Gods. No act of bravery is too foolhardy, no act of cruelty too savage.	false
@@ -20,7 +20,7 @@ unit_abilities_additional_ui_effects_localised_text_ovn_fim_kroll_summon_hatchli
 unit_abilities_additional_ui_effects_localised_text_ovn_fim_kroll_inoculate	Kroll will inoculate one of her spawn into a random enemy unit with low health, destroying it instantly	true
 unit_abilities_tooltip_text_ovn_fim_kroll_mother_young	"...and while she ate, she grew. She swelled, and her children, hungry for nourishment, flocked to her, and she fed unto each of them the corrupted remains of her victims..."	true
 unit_abilities_onscreen_name_ovn_fim_kroll_mother_young	Mother of a Thousand Young	true
-unit_abilities_tooltip_text_ovn_fim_kroll_broodmother	Kroll has been known to force her eggs into the bodies of still her living but weakened victims. A fate much worse than death awaits those who recieve her spawn inside them.	true
+unit_abilities_tooltip_text_ovn_fim_kroll_broodmother	Kroll has been known to force her eggs into the bodies of still her living but weakened victims. A fate much worse than death awaits those who receive her spawn inside them.	true
 unit_abilities_onscreen_name_ovn_fim_kroll_broodmother	Broodmother	true
-unit_abilities_tooltip_text_ovn_fim_kroll_fulcrum_of_worship	Empowered by the sacrifices of her children and the death of the battlefield, Kroll grows ever mightier, as do her devout followers.	true
+unit_abilities_tooltip_text_ovn_fim_kroll_fulcrum_of_worship	Empowered by the sacrifices of her children and the deaths on the battlefield, Kroll grows ever mightier, as do her devout followers.	true
 unit_abilities_onscreen_name_ovn_fim_kroll_fulcrum_of_worship	Fulcrum of Worship	true
