@@ -1,0 +1,5 @@
+id	culture	faction	remove	set	subculture
+#faction_set_items_tables;1;db/faction_set_items_tables/ovn_fimir					
+632635257	ovn_fimir		false	FavouredCorruptionUndivided	
+632635258	ovn_fimir		false	anc_set_multi_norsca_chaos	
+632635259	ovn_fimir		false	ovn_fimir	
