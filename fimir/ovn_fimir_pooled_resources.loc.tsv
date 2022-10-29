@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/ovn_fimir_pooled_resources.loc		
-pooled_resources_description_ovn_fimir_slaves	[[img:icon_slaves]][[/img]]Slaves are the lifeblood of the Dark Elf economy, captured in battle as well as by other means to provide additional [[img:icon_income]][[/img]]income. High numbers of slaves grant construction bonuses, but can negatively affect  [[img:icon_public_order]][[/img]]control. Slaves can be sacrificed to perform rites and provincial slave diktats.	false
+pooled_resources_description_ovn_fimir_slaves	Fimir make great use of [[img:icon_slaves]][[/img]]Slaves for manual labor and in sacrificial rites performed for the dark gods.	false
 pooled_resources_display_name_ovn_fimir_slaves	Slaves	false
 pooled_resources_negative_factors_display_name_ovn_fimir_slaves	Used	false
 pooled_resources_positive_factors_display_name_ovn_fimir_slaves	Gained	false

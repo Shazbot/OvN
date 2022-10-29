@@ -128,15 +128,16 @@ effects_description_ovn_fim_effect_agent_xp_increase_finmor	Hero recruit rank: %
 effects_description_ovn_fim_effect_agent_recruitment_xp_dignitary_fimir_balefiend	Hero recruit rank: %+n for Fimir Balefiends	false
 effects_description_ovn_fim_effect_agent_enable_recruitment_dignitary_fimir_balefiend	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Fimir Balefiends	false
 effects_description_ovn_fim_effect_agent_cap_increase_dignitary_fimir_balefiend	Hero capacity: %+n for Fimir Balefiends	false
-effects_description_ovn_fim_skroll_innate_mis_resistance_monsters	Missile Resistance: %+n for Chaos Furies, Swamp Daemons, Bog Octopi, Fen Beasts, Fen Hulks and Daemonomaniacs	true
+effects_description_ovn_fim_skroll_innate_mis_resistance_monsters	Missile Resistance: %+n for Chaos Furies, Swamp Daemons, Bog Octopi, Fen Beasts and Daemonomaniacs	true
 effects_description_ovn_fim_skroll_innate_bog_upkeep_reduction	Upkeep Reduction %+n% for Bog Octopi	true
 effects_description_fim_kroll_enable_mother_young	Ability: "Mother of a Thousand Young"	true
 effects_description_fim_kroll_enable_constrict_effect	Enables "Constriction" contact effect (damage over time)	true
 effects_description_ovn_fim_skroll_bog_cotopus_speed	Speed: %+n% for Bog Octopi	true
 effects_description_ovn_fim_skroll_bog_cotopus_charge	Charge Bonus: %+n% for Bog Octopi	true
-effects_description_ovn_fim_skroll_monster_ma	Melee Attack: %+n for Chaos Furies, Swamp Daemons, Bog Octopi, Fen Beasts, Fen Hulks and Daemonomaniacs	true
+effects_description_ovn_fim_skroll_monster_ma	Melee Attack: %+n for Chaos Furies, Swamp Daemons, Bog Octopi, Fen Beasts and Daemonomaniacs	true
 effects_description_fim_kroll_enable_broodmother	Ability: "Broodmother"	true
 effects_description_fim_kroll_enable_fulcrum	Ability: "Fulcrum of Worship"	true
 effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon Strength, Mass and Armour for each Temple of Kroll built in a major settlement	true
 effects_description_fim_kroll_temple_apotheosis_scale		false
 effects_description_ovn_fim_kroll_apotheosis_dummy	The Followers of Kroll can erect temples in her name at province capitals, increasing her mass, armour and weapon strength by %+n% each time	true
+effects_description_ovn_fimir_slaves_capacity	Faction slave capacity: +%n	false

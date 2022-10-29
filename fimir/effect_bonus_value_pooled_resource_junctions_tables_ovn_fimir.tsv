@@ -1,0 +1,3 @@
+bonus_value_id	effect	pooled_resource
+#effect_bonus_value_pooled_resource_junctions_tables;0;db/effect_bonus_value_pooled_resource_junctions_tables/ovn_fimir		
+maximum_mod	ovn_fimir_slaves_capacity	def_slaves
