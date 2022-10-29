@@ -1,5 +1,5 @@
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
 #building_levels_tables;0;db/building_levels_tables/ovn_hlf_outpost																						
-ovn_hlf_allied_outpost_1	ovn_hlf_allied_outpost	0	3	2000	0		false	false		true		false	0.0	0	true	1		true	0	0		0
-ovn_hlf_allied_outpost_2	ovn_hlf_allied_outpost	1	4	4000	0		false	false		true		false	0.0	0	true	2		true	0	0		0
-ovn_hlf_allied_outpost_3	ovn_hlf_allied_outpost	2	5	6000	0		false	false		true		false	0.0	0	true	3		true	0	0		0
+ovn_hlf_allied_outpost_1	ovn_hlf_allied_outpost	0	3	2000	0		false	false		true		false	0.0000	0	true	1		true	0	0		0
+ovn_hlf_allied_outpost_2	ovn_hlf_allied_outpost	1	4	4000	0		false	false		true		false	0.0000	0	true	2		true	0	0		0
+ovn_hlf_allied_outpost_3	ovn_hlf_allied_outpost	2	5	6000	0		false	false		true		false	0.0000	0	true	3		true	0	0		0

@@ -1,6 +1,6 @@
 level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
 #building_levels_tables;0;db/building_levels_tables/ovn_hlf_port																						
-ovn_hlf_port_1	ovn_hlf_port	1	2	1500	0		false	false		true	ovn_hlf_port	false	0.0	0	true	1	Wh_Cam_Settlement_Port_Empire	true	0	0		0
-ovn_hlf_port_2	ovn_hlf_port	2	4	3000	0		false	false		true	ovn_hlf_port	false	0.0	0	true	3	Wh_Cam_Settlement_Port_Empire	true	0	0		0
-ovn_hlf_port_3	ovn_hlf_port	3	6	6000	0		false	false		true	ovn_hlf_port	false	0.0	0	true	5	Wh_Cam_Settlement_Port_Empire	true	0	0		0
-ovn_hlf_port_ruin	ovn_hlf_port	0	1	0	0		false	false		true	ovn_hlf_port	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
+ovn_hlf_port_1	ovn_hlf_port	1	2	1500	0		false	false		true	ovn_hlf_port	false	0.0000	0	true	1	Wh_Cam_Settlement_Port_Empire	true	0	0		0
+ovn_hlf_port_2	ovn_hlf_port	2	4	3000	0		false	false		true	ovn_hlf_port	false	0.0000	0	true	3	Wh_Cam_Settlement_Port_Empire	true	0	0		0
+ovn_hlf_port_3	ovn_hlf_port	3	6	6000	0		false	false		true	ovn_hlf_port	false	0.0000	0	true	5	Wh_Cam_Settlement_Port_Empire	true	0	0		0
+ovn_hlf_port_ruin	ovn_hlf_port	0	1	0	0		false	false		true	ovn_hlf_port	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0

@@ -1,17 +1,17 @@
 key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
 #character_skills_tables;5;db/character_skills_tables/ovn_halflings_only									
-cr_skill_all_magic_moot_01_40_goulashes	cr_spell_moot_40_goulashes.png	 	40 Goulashes	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_02_phineas_wrath	cr_spell_moot_phineas_wrath.png	 	Phineas's Wrath	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_03_whiff_of_home_and_hearth	cr_lore_passive_whiff_of_home_and_hearth.png	 	Whiff of Home and Hearth	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_04_josiass_bodily_cleanse	cr_spell_moot_josiass_bodily_cleanse.png	 	Josias's Bodily Cleanse	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_05_barnyard_stampede	cr_spell_moot_barnyard_stampede.png	 	Barnyard Stampede	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_09_esmeraldas_last_course	cr_spell_moot_esmeraldas_last_course.png	 	Esmeralda's Last Course	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_10_haffenlyver	cr_spell_moot_haffenlyver.png	 	Haffenlyver	0	false	false	false	0.0	0
-cr_skill_all_magic_moot_dummy_40_goulashes	battle_attack.png	 	40 Goulashes [HIDDEN]	0	false	false	false	0.0	0
-cr_skill_mtl_matron_esmeralda_worship	character_defence.png		Praise Esmeralda	9	false	false	false	0.0	0
-cr_skill_mtl_matron_phineas_worship	character_public_order.png		Appease Phineas	9	false	false	false	0.0	0
-cr_skill_mtl_matron_josias_worship	character_military_spending.png		Honor Joasias	9	false	false	false	0.0	0
-cr_skill_mtl_matron_groplotta_worship	character_disaster.png		Placate Groplotta	9	false	false	false	0.0	0
-cr_skill_mtl_matron_hyacinth_worship	character_replenishment.png		Celebrate Hyacinth	9	false	false	false	0.0	0
-cr_skill_mtl_matron_gaffey_worship	character_construction.png		Admire Gaffey	9	false	false	false	0.0	0
-cr_skill_mtl_matron_quinsberry_worship	character_technology.png		Hail Quinsberry	9	false	false	false	0.0	0
+cr_skill_all_magic_moot_01_40_goulashes	cr_spell_moot_40_goulashes.png	 	40 Goulashes	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_02_phineas_wrath	cr_spell_moot_phineas_wrath.png	 	Phineas's Wrath	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_03_whiff_of_home_and_hearth	cr_lore_passive_whiff_of_home_and_hearth.png	 	Whiff of Home and Hearth	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_04_josiass_bodily_cleanse	cr_spell_moot_josiass_bodily_cleanse.png	 	Josias's Bodily Cleanse	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_05_barnyard_stampede	cr_spell_moot_barnyard_stampede.png	 	Barnyard Stampede	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_09_esmeraldas_last_course	cr_spell_moot_esmeraldas_last_course.png	 	Esmeralda's Last Course	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_10_haffenlyver	cr_spell_moot_haffenlyver.png	 	Haffenlyver	0	false	false	false	0.0000	0
+cr_skill_all_magic_moot_dummy_40_goulashes	battle_attack.png	 	40 Goulashes [HIDDEN]	0	false	false	false	0.0000	0
+cr_skill_mtl_matron_esmeralda_worship	character_defence.png		Praise Esmeralda	9	false	false	false	0.0000	0
+cr_skill_mtl_matron_phineas_worship	character_public_order.png		Appease Phineas	9	false	false	false	0.0000	0
+cr_skill_mtl_matron_josias_worship	character_military_spending.png		Honor Joasias	9	false	false	false	0.0000	0
+cr_skill_mtl_matron_groplotta_worship	character_disaster.png		Placate Groplotta	9	false	false	false	0.0000	0
+cr_skill_mtl_matron_hyacinth_worship	character_replenishment.png		Celebrate Hyacinth	9	false	false	false	0.0000	0
+cr_skill_mtl_matron_gaffey_worship	character_construction.png		Admire Gaffey	9	false	false	false	0.0000	0
+cr_skill_mtl_matron_quinsberry_worship	character_technology.png		Hail Quinsberry	9	false	false	false	0.0000	0

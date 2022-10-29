@@ -1,6 +1,6 @@
 key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
 #unit_porthole_camera_settings_tables;2;db/unit_porthole_camera_settings_tables/ovn_halflings_only								
-mtl_swan	3.8	28.0	200.0	212.0	-0.7	2.2	0.0	Porthole/advisor/default_porthole.lighting
-mtl_chuckwagon	7.0	28.0	190.0	190.0	0.0	0.0	0.0	Porthole/advisor/default_porthole.lighting
-mtk_halftank	8.0	32.0	200.0	220.0	-0.7	2.4	0.0	Porthole/advisor/default_porthole.lighting
-hlf_roast_pig	7.0	28.0	190.0	190.0	0.0	0.0	0.0	Porthole/advisor/default_porthole.lighting
+mtl_swan	3.8000	28.0000	200.0000	212.0000	-0.7000	2.2000	0.0000	Porthole/advisor/default_porthole.lighting
+mtl_chuckwagon	7.0000	28.0000	190.0000	190.0000	0.0000	0.0000	0.0000	Porthole/advisor/default_porthole.lighting
+mtk_halftank	8.0000	32.0000	200.0000	220.0000	-0.7000	2.4000	0.0000	Porthole/advisor/default_porthole.lighting
+hlf_roast_pig	7.0000	28.0000	190.0000	190.0000	0.0000	0.0000	0.0000	Porthole/advisor/default_porthole.lighting
