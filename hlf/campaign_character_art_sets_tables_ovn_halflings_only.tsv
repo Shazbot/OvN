@@ -14,5 +14,5 @@ ovn_art_set_com_aragand_the_layabout	champion				false	true	ovn_com_aragand_the_
 ovn_art_set_com_legles_the_elf	spy				false	true	ovn_com_legles_the_elf	1.0000
 ovn_art_set_com_giblit_the_dwarf	champion				false	true	ovn_com_giblit_the_dwarf	1.0000
 ovn_hlf_ll	general				false	true	ovn_hlf_ll	1.4000
-cr_art_set_mtl_matron_01	general				false	true	cr_mtl_matron	1.0000
-cr_art_set_mtl_matron_02	general				false	true	cr_mtl_matron	1.0000
+cr_art_set_mtl_matron_01	wizard				false	true	cr_mtl_matron	1.0000
+cr_art_set_mtl_matron_02	wizard				false	true	cr_mtl_matron	1.0000

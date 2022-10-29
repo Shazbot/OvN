@@ -181,3 +181,6 @@ ovn_halfling_welf_r7_speed	battle_movement.png	4	general_ability.png	battle	true
 ovn_soup_art_r7_range	ranged_damage.png	4	ranged_damage.png	battle	true
 ovn_soup_art_r7_reload	ranged_damage.png	4	ranged_damage.png	battle	true
 elo_ogres_trait	morale.png	4	morale.png	battle	true
+wh_main_effect_agent_cap_increase_matron	agent.png	2	agent.png	campaign	true
+wh_main_effect_agent_enable_recruitment_matron	agent.png	2	agent.png	campaign	true
+wh_main_effect_agent_level_increase_matron	agent.png	3	agent.png	campaign	true

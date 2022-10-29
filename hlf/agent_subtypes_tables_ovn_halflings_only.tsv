@@ -10,4 +10,4 @@ ovn_hlf_moot_general	true	false		ovn_hlf_moot_general_0	wh_main_vo_actor_Empire_
 ovn_hlf_fieldwarden	true	false	ui/campaign ui/agents/wh_dlc05_lore_life.png	ovn_hlf_fieldwarden_0	wh_main_vo_actor_Empire_WitchHunter	true	-1	false	true	false	true				true	true	cannot_be_loaded_in_campaign		false	true	750
 ovn_hlf_master_chef	true	false	ui/campaign ui/agents/hlf_master_chef.png	ovn_hlf_master_chef_0	wh_main_vo_actor_Empire_WarriorPriest	true	-1	false	true	false	true				true	true	cannot_be_loaded_in_campaign		false	true	750
 ovn_hlf_sheriff	true	false	ui/campaign ui/agents/wh_main_brt_champion.png	ovn_hlf_sheriff_0	wh_main_vo_actor_Empire_Captain	true	-1	false	true	false	true				true	true	cannot_be_loaded_in_campaign		false	true	750
-cr_mtl_matron	true	true	ui/campaign ui/agents/cr_lore_moot.png	cr_mtl_cha_matron_moot_0	wh_dlc07_vo_actor_Bretonnian_Prophetess	true	-1	true	true	true	true	cr_mtl_matron			true	true	cannot_be_loaded_in_campaign		false	true	0
+cr_mtl_matron	true	true	ui/campaign ui/agents/cr_lore_moot.png	cr_mtl_cha_matron_moot_0	wh_dlc07_vo_actor_Bretonnian_Prophetess	true	-1	true	true	true	true				true	true	cannot_be_loaded_in_campaign		false	true	750

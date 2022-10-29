@@ -1,9 +1,9 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_halflings_matron										
-cr_skill_node_mtl_matron_misc_01		wh_main_skill_all_lord_battle_brass-lunged	cr_skill_node_set_mtl_matron		0.0000	4.0000		0	0	true
-cr_skill_node_mtl_matron_misc_02		wh_main_skill_emp_lord_battle_hold_the_line	cr_skill_node_set_mtl_matron		0.0000	5.0000		0	0	true
+cr_skill_node_mtl_matron_misc_01		wh3_main_skill_all_mentor_hero	cr_skill_node_set_mtl_matron		0.0000	4.0000		0	0	true
+cr_skill_node_mtl_matron_misc_02		hlf_unique_ward	cr_skill_node_set_mtl_matron		0.0000	5.0000		0	0	true
 cr_skill_node_mtl_matron_misc_03		wh_main_skill_emp_all_unique_sigmars_ward	cr_skill_node_set_mtl_matron		0.0000	6.0000		0	0	true
-cr_skill_node_mtl_matron_immortality		wh2_main_skill_all_immortality_lord	cr_skill_node_set_mtl_matron		0.0000	7.0000		0	0	true
+cr_skill_node_mtl_matron_immortality		wh2_main_skill_all_immortality_hero	cr_skill_node_set_mtl_matron		0.0000	7.0000		0	0	true
 cr_skill_node_mtl_matron_unique_01		cr_skill_mtl_matron_esmeralda_worship	cr_skill_node_set_mtl_matron		1.0000	0.0000		0	0	true
 cr_skill_node_mtl_matron_unique_02		cr_skill_mtl_matron_phineas_worship	cr_skill_node_set_mtl_matron		1.0000	1.0000		0	0	true
 cr_skill_node_mtl_matron_unique_03		cr_skill_mtl_matron_josias_worship	cr_skill_node_set_mtl_matron		1.0000	2.0000		0	0	true
@@ -23,30 +23,12 @@ cr_skill_node_mtl_matron_magic1_07		wh_main_skill_all_magic_all_07_earthing	cr_s
 cr_skill_node_mtl_matron_magic1_08		wh_main_skill_all_magic_all_08_power_drain	cr_skill_node_set_mtl_matron		2.0000	9.0000		0	0	true
 cr_skill_node_mtl_matron_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	cr_skill_node_set_mtl_matron		2.0000	10.0000		0	4	true
 cr_skill_node_mtl_matron_magic1_dummy		cr_skill_all_magic_moot_dummy_40_goulashes	cr_skill_node_set_mtl_matron		2.0000	11.0000		1	0	false
-cr_skill_node_mtl_matron_battle_01		wh_main_skill_all_lord_battle_inspiring_presence	cr_skill_node_set_mtl_matron		4.0000	0.0000		0	0	true
-cr_skill_node_mtl_matron_battle_02		wh2_dlc11_skill_emp_army_buff_emperors_finest	cr_skill_node_set_mtl_matron		4.0000	1.0000		0	0	true
-cr_skill_node_mtl_matron_battle_03		wh2_dlc11_skill_emp_army_buff_speed_of_horse	cr_skill_node_set_mtl_matron		4.0000	2.0000		0	0	true
-cr_skill_node_mtl_matron_battle_04		wh2_dlc11_skill_emp_army_buff_pistolkorps	cr_skill_node_set_mtl_matron		4.0000	3.0000		0	0	true
-cr_skill_node_mtl_matron_battle_05		wh2_dlc11_skill_emp_army_buff_honest_steel	cr_skill_node_set_mtl_matron		4.0000	4.0000		0	0	true
-cr_skill_node_mtl_matron_battle_06		wh2_dlc11_skill_emp_army_buff_mighty_forge	cr_skill_node_set_mtl_matron		4.0000	5.0000		0	0	true
-cr_skill_node_mtl_matron_battle_07		wh2_dlc11_skill_emp_army_buff_imperial_gunnery	cr_skill_node_set_mtl_matron		4.0000	6.0000		0	0	true
-cr_skill_node_mtl_matron_battle_08		wh_main_skill_all_lord_battle_rally	cr_skill_node_set_mtl_matron		4.0000	7.0000		0	6	true
-cr_skill_node_mtl_matron_battle_09		wh2_dlc11_skill_emp_army_buff_strength_of_hardship	cr_skill_node_set_mtl_matron		4.0000	8.0000		0	0	true
-cr_skill_node_mtl_matron_battle_10		wh2_dlc11_skill_emp_army_buff_sharpshooter	cr_skill_node_set_mtl_matron		4.0000	9.0000		0	0	true
-cr_skill_node_mtl_matron_battle_11		wh2_dlc11_skill_emp_army_buff_taste_for_battle	cr_skill_node_set_mtl_matron		4.0000	10.0000		0	0	true
-cr_skill_node_mtl_matron_battle_12		wh2_dlc11_skill_emp_army_buff_artillery_master	cr_skill_node_set_mtl_matron		4.0000	11.0000		0	0	true
-cr_skill_node_mtl_matron_battle_13		wh_main_skill_all_lord_battle_stand_your_ground	cr_skill_node_set_mtl_matron		4.0000	12.0000		0	1	true
-cr_skill_node_mtl_matron_campaign_01		wh_main_skill_all_lord_campaign_route_marcher	cr_skill_node_set_mtl_matron		5.0000	0.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_02		wh_main_skill_emp_lord_campaign_iron_disciplinarian	cr_skill_node_set_mtl_matron		5.0000	1.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown	cr_skill_node_set_mtl_matron		5.0000	2.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence	cr_skill_node_set_mtl_matron		5.0000	3.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_05		wh_main_skill_emp_lord_campaign_fervent	cr_skill_node_set_mtl_matron		5.0000	4.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_06		wh_main_skill_all_lord_campaign_irrepressible	cr_skill_node_set_mtl_matron		5.0000	5.0000		0	4	true
-cr_skill_node_mtl_matron_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	cr_skill_node_set_mtl_matron		5.0000	6.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster	cr_skill_node_set_mtl_matron		5.0000	7.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_09		wh_main_skill_emp_lord_campaign_logistician	cr_skill_node_set_mtl_matron		5.0000	8.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_10		wh_main_skill_all_lord_campaign_alert	cr_skill_node_set_mtl_matron		5.0000	9.0000		0	0	true
-cr_skill_node_mtl_matron_campaign_11		wh_main_skill_emp_lord_campaign_headhunter	cr_skill_node_set_mtl_matron		5.0000	10.0000		0	4	true
+cr_skill_node_mtl_matron_campaign_01		wh2_main_skill_all_hero_assist_army_scouting	cr_skill_node_set_mtl_matron		5.0000	0.0000		0	0	true
+cr_skill_node_mtl_matron_campaign_02		wh2_main_skill_all_hero_passive_boost_income	cr_skill_node_set_mtl_matron		5.0000	1.0000		0	0	true
+cr_skill_node_mtl_matron_campaign_03		wh2_main_skill_all_hero_hinder_settlement_steal_technology	cr_skill_node_set_mtl_matron		5.0000	2.0000		0	0	true
+cr_skill_node_mtl_matron_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	cr_skill_node_set_mtl_matron		5.0000	3.0000		0	0	true
+cr_skill_node_mtl_matron_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_unit	cr_skill_node_set_mtl_matron		5.0000	4.0000		0	0	true
+cr_skill_node_mtl_matron_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	cr_skill_node_set_mtl_matron		5.0000	5.0000		0	4	true
 cr_skill_node_mtl_matron_innate_01		wh2_main_skill_innate_emp_regal	cr_skill_node_set_mtl_matron		6.0000	0.0000		0	0	false
 cr_skill_node_mtl_matron_innate_02		wh2_main_skill_innate_emp_noble	cr_skill_node_set_mtl_matron		6.0000	1.0000		0	0	false
 cr_skill_node_mtl_matron_innate_03		wh2_main_skill_innate_emp_imperious	cr_skill_node_set_mtl_matron		6.0000	2.0000		0	0	false
@@ -64,3 +46,4 @@ cr_skill_node_mtl_matron_innate_14		wh2_main_skill_innate_all_strong	cr_skill_no
 cr_skill_node_mtl_matron_innate_15		wh2_main_skill_innate_all_weapon_master	cr_skill_node_set_mtl_matron		6.0000	14.0000		0	0	false
 cr_skill_node_mtl_matron_innate_16		wh2_main_skill_innate_all_strategist	cr_skill_node_set_mtl_matron		6.0000	15.0000		0	0	false
 cr_skill_node_mtl_matron_innate_17		wh2_main_skill_innate_all_tactician	cr_skill_node_set_mtl_matron		6.0000	16.0000		0	0	false
+cr_skill_node_mtl_matron_actions_dummy		wh2_main_skill_all_dummy_agent_actions_emp_battle_wizard	cr_skill_node_set_mtl_matron		8.0000	0.0000		1	0	false

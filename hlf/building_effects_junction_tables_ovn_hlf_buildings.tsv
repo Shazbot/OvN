@@ -86,8 +86,8 @@ ovn_hlf_garrison_2	wh3_main_effect_building_settlement_supply_points		region_to_
 ovn_hlf_garrison_2	wh_main_effect_agent_action_success_chance_enemy_building		region_to_character_enemy	-15.0000	-8.0000	0.0000
 ovn_hlf_garrison_2	wh_main_effect_settlement_walls	WallEffect	region_to_region_own	1.0000	1.0000	1.0000
 ovn_hlf_worship_1	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-6.0000	-3.0000	0.0000
-ovn_hlf_worship_1	wh_main_effect_agent_cap_increase_dignitary_warrior_priest		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
-ovn_hlf_worship_1	wh_main_effect_agent_enable_recruitment_dignitary_empire		province_to_province_own_unseen	1.0000	1.0000	0.0000
+ovn_hlf_worship_1	wh_main_effect_agent_cap_increase_matron		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
+ovn_hlf_worship_1	wh_main_effect_agent_enable_recruitment_matron		province_to_province_own_unseen	1.0000	1.0000	0.0000
 ovn_hlf_moot_cauldron_1	wh3_main_effect_corruption_reduction_buildings		region_to_province_own	-4.0000	-2.0000	0.0000
 ovn_hlf_moot_cauldron_1	wh_main_effect_province_growth_building		faction_to_province_own	5.0000	2.0000	0.0000
 ovn_hlf_moot_cauldron_1	wh_main_effect_public_order_base		province_to_province_own_unseen	4.0000	1.0000	0.0000
@@ -158,3 +158,4 @@ ovn_hlf_settlement_minor_3	wh_main_effect_economy_gdp_subsistance		building_to_b
 ovn_hlf_settlement_minor_3	wh_main_effect_province_growth_building		region_to_province_own	30.0000	15.0000	0.0000
 ovn_hlf_settlement_minor_3	wh_main_effect_public_order_base		province_to_province_own_unseen	2.0000	1.0000	0.0000
 ovn_hlf_settlement_minor_ruin	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-1.0000	-1.0000	0.0000
+ovn_hlf_worship_1	wh_main_effect_agent_level_increase_matron		province_to_province_own_unseen	1.0000	1.0000	0.0000
