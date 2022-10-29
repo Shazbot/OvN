@@ -1,7 +1,7 @@
 local function spawn_new_force()
 	cm:create_force_with_general(
 		"ovn_fim_tendrils_of_doom", -- faction_key,
-		"fim_mon_fianna_fimm,elo_fenbeast,ovn_fim_mon_bog_octopus_0,fim_inf_shearl,fim_inf_shearl,fim_inf_shearl_javelineer", -- unit_list,
+		"fim_mon_fianna_fimm,fim_mon_fenbeast,ovn_fim_mon_bog_octopus_0,fim_inf_shearl,fim_inf_shearl,fim_inf_shearl_javelineer", -- unit_list,
 		"wh3_main_combi_region_monument_of_the_moon", -- region_key,
 		142, -- x,
 		451, -- y,

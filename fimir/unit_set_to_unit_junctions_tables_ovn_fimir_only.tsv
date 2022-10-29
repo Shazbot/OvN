@@ -23,7 +23,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_cav_nuckelavee	fimir_rushers	false
 			fim_cav_marsh_reavers	fimir_rushers	false
 			fim_mon_daemonomaniac	fimir_giants_fen	false
-			fim_mon_fenhulk	fimir_giants_fen	false
 			fim_mon_fenbeast	fimir_bog_monsters	false
 			fim_inf_swamp_daemons	fimir_bog_monsters	false
 			fim_inf_shearl	fimir_r7_warriors	false
@@ -39,7 +38,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_cav_nuckelavee	fimir_r7_fast	false
 			fim_cav_marsh_reavers	fimir_r7_fast	false
 			fim_mon_mistmor	fimir_r7_giants	false
-			fim_mon_fenhulk	fimir_r7_giants	false
 			fim_mon_daemonomaniac	fimir_r7_giants	false
 			fim_veh_eye_oculus	fimir_r7_giants	false
 			fim_mon_fenbeast	fimir_r7_auxillaries	false
@@ -153,11 +151,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_boglar	dlc08_nor_marauders_all	false
 			fim_inf_boglar	dlc08_nor_marauders_inf	false
 			fim_mon_fenbeast	all_units	false
-			fim_mon_fenhulk	all_units	false
 			fim_mon_fenbeast	wh2_dlc11_nor_fimir_giant_mammoth	false
-			fim_mon_fenhulk	wh2_dlc11_nor_fimir_giant_mammoth	false
 			fim_mon_fenbeast	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
-			fim_mon_fenhulk	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			fim_inf_killing_eye_ror	first_wave	false
 			fim_inf_killing_eye_ror	fimir_r7_warriors	false
 			fim_inf_killing_eye_ror	elo_fimir_shearl	false

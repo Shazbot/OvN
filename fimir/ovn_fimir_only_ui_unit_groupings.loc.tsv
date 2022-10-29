@@ -8,3 +8,5 @@ ui_unit_groupings_onscreen_fim_finmor_hero	Monstrous Infantry	true
 ui_unit_groupings_tooltip_fim_finmor_hero		true
 ui_unit_groupings_onscreen_ovn_bog_octopus	Monster	true
 ui_unit_groupings_tooltip_ovn_bog_octopus		true
+ui_unit_groupings_onscreen_ovn_fenbeasts	Fen Construct	true
+ui_unit_groupings_tooltip_ovn_fenbeasts	Fenbeasts are durable magic undead constructs, able to cause and endure a lot of damage.	true

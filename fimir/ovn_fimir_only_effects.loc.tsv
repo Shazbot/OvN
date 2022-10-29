@@ -46,9 +46,9 @@ effects_description_elo_champions_chaos_r7_wps	Weapon Strength: %+n% for all Cha
 effects_description_elo_champions_chaos_r7_md	Melee Defence: %+n for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units {{tr:rank7}}	true
 effects_description_elo_champions_chaos_r7_magicres	Magic Resistance: %+n% for all Chaos Warriors, Chosen, Marauders, Chaos Spawn, Forsaken and Demon units {{tr:rank7}}	true
 effects_description_ovn_campaign_enable_name_dirach		true
-effects_description_elo_swamp_ain	Anti-Infantry: %+n for Fenbeasts and Fenhulks	true
-effects_description_elo_swamp_xp	Recruitment Rank: %+n for Fenbeasts and Fenhulks	true
-effects_description_elo_swamp_ward	Ward Save: %+n% for Fenbeasts and Fenhulks	true
+effects_description_elo_swamp_ain	Anti-Infantry: %+n for Fenbeasts	true
+effects_description_elo_swamp_xp	Recruitment Rank: %+n for Fenbeasts	true
+effects_description_elo_swamp_ward	Ward Save: %+n% for Fenbeasts	true
 effects_description_elo_fimir_rusher_sp	Speed: %+n% for Hounds, Nuckelavees and Bog Raiders	true
 effects_description_elo_fimir_rusher_ch	Charge Bonus: %+n for Hounds, Nuckelavees and Bog Raiders	true
 effects_description_elo_fimir_first_wave_ma	Melee Attack: %+n for Boglars, Shearls and Fimm Deathquests	true
@@ -57,8 +57,8 @@ effects_description_elo_fimir_bog_monsters_wps	Weapon Strength: %+n% for Fenbeas
 effects_description_elo_fimir_bog_monsters_md	Melee Defence: %+n for Fenbeastsand Swamp Daemons	true
 effects_description_elo_fimir_swamp_warriors_ma	Melee Attack: %+n for Fimm Warriors, Fianna Fimm and Fimm Mistmors	true
 effects_description_elo_fimir_swamp_warriors_md	Melee Defence: %+n for Fimm Warriors, Fianna Fimm and Fimm Mistmors	true
-effects_description_elo_fimir_giants_fen_sp	Speed: %+n% for Bog Octopi, Fenhulks and Daemonomaniacs	true
-effects_description_elo_fimir_giants_fen_ma	Melee Attack: %+n for Bog Octopi, Fenhulks and Daemonomaniacs	true
+effects_description_elo_fimir_giants_fen_sp	Speed: %+n% for Bog Octopi and Daemonomaniacs	true
+effects_description_elo_fimir_giants_fen_ma	Melee Attack: %+n for Bog Octopi and Daemonomaniacs	true
 effects_description_elo_fimir_r7_warriors_md	Melee Defence: %+n for Boglars, Shearls, Fimm Deathquests, Fimm Warriors and Fianna Fimm {{tr:rank7}}	true
 effects_description_elo_fimir_r7_warriors_armour	Armour: %+n for Boglars, Shearls, Fimm Deathquests, Fimm Warriors and Fianna Fimm {{tr:rank7}}	true
 effects_description_elo_fimir_r7_warriors_phyres	Physical Resistance: %+n% for Boglars, Shearls, Fimm Deathquests, Fimm Warriors and Fianna Fimm {{tr:rank7}}	true
@@ -68,9 +68,9 @@ effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Fenbeast
 effects_description_elo_fimir_r7_fast_wps	Weapon Strength: %+n% for Hounds, Nuckelavees and Bog Raiders {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_ma	Melee Attack: %+n for Hounds, Nuckelavees and Bog Raiders {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_ch	Charge Bonus: %+n for Hounds, Nuckelavees and Bog Raiders {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_ward	Ward Save: %+n% for Bog Octopi, Fenhulks, Fimm Mistmors, Daemonomaniacsand Eye Oculus of Balor {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_wps	Weapon Strength: %+n% for Bog Octopi, Fenhulks, Fimm Mistmors, Daemonomaniacsand Eye Oculus of Balor {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Bog Octopi, Fenhulks, Fimm Mistmors, Daemonomaniacsand Eye Oculus of Balor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_ward	Ward Save: %+n% for Bog Octopi, Fimm Mistmors, Daemonomaniacsand Eye Oculus of Balor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_wps	Weapon Strength: %+n% for Bog Octopi, Fimm Mistmors, Daemonomaniacsand Eye Oculus of Balor {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Bog Octopi, Fimm Mistmors, Daemonomaniacsand Eye Oculus of Balor {{tr:rank7}}	true
 effects_description_fimir_slaves_upkeep	Upkeep: %+n% for Boglars and Shearls	true
 effects_description_fimir_slaves_cost	Recruitment Cost: %+n% for Boglars and Shearls	true
 effects_description_fimir_warrior_elite_xp	Recruitment Rank: %+n for Fimm Warriors and Fianna Fimm	true
@@ -115,8 +115,8 @@ effects_description_elo_fen_lord_heroes_ward	Ward Save: %+n% for all Lords and H
 effects_description_elo_charge_trolls_fim	Charge Bonus: %+n% for all Troll and Fimir units	false
 effects_description_elo_cost_trolls_fim	Recruitment Cost: %+n% for all Troll and Fimir units	false
 effects_description_elo_wps_trolls_fim	Weapon Strength: %+n% for all Troll and Fimir units	false
-effects_description_albion_monsters_fen_mdef	Melee Defence: %+n for Fenbeasts and Fenhulks	true
-effects_description_albion_monsters_fen_mattk	Melee Attack: %+n for Fenbeasts and Fenhulks	true
+effects_description_albion_monsters_fen_mdef	Melee Defence: %+n for Fenbeasts	true
+effects_description_albion_monsters_fen_mattk	Melee Attack: %+n for Fenbeasts	true
 effects_description_enable_wh_dlc08_unit_passive_from_the_mist	Ability: "From the Mists" for all units	true
 effects_description_ovn_effect_enable_attribute_stalk_bog_octopus	Attribute: Stalk for Bog Octopus units	true
 effects_description_ovn_fim_effect_agent_cap_increase_elo_boglar_shaman	Hero capacity: %+n for Boglar Shamans	false

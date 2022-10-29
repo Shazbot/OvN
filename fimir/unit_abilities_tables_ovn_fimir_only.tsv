@@ -6,7 +6,7 @@ ovn_unit_passive_aura_great_eye	false	ovn_unit_passive_aura_great_eye		wh_type_a
 fim_skattach_poison_mist	true	fim_skattach_poison_mist		wh_type_area_of_direct_damage		wh_main_anc_group_rare	true	false	passive		false
 fim_skattach_summon_swampdaemons	true	fim_skattach_summon_swampdaemons		wh_type_summon_unit		wh_main_anc_group_uncommon	true	false	active		false
 fim_meargh_skattach_staff_balor_ability	true	fim_skattach_staff_balor		wh_type_vortex		wh_main_anc_group_rare	true	false	bound		false
-magic_siphon	false	wh2_main_unit_passive_attuned_to_magic		wh_type_augment		wh_main_anc_group_common	false	false	passive		false
+magic_siphon	false	wh2_main_unit_passive_attuned_to_magic		wh_type_augment		wh_main_anc_group_common	false	false	unit		false
 embodiment_albion	false	embodiement_albion		wh_type_area_of_hexes		wh_main_anc_group_uncommon	false	false	passive		false
 ovn_fim_kroll_mother_young	true	wh3_dlc20_unit_passive_giver_of_abundant_glory		wh_type_regeneration		wh_main_anc_group_unique	true	false	passive		false
 ovn_fim_kroll_broodmother	true	wh_dlc06_unit_abilities_venom_queen		wh_type_direct_damage		wh_main_anc_group_unique	true	false	passive		false

@@ -110,9 +110,6 @@ daemonic	fim_inf_swamp_daemons_summon
 causes_fear	fim_mon_fenbeast
 construct	fim_mon_fenbeast
 hide_forest	fim_mon_fenbeast
-causes_fear	fim_mon_fenhulk
-causes_terror	fim_mon_fenhulk
-construct	fim_mon_fenhulk
 strider	ovn_fim_mon_bog_octopus_0_attributes
 causes_fear	ovn_fim_mon_bog_octopus_0_attributes
 causes_terror	ovn_fim_mon_bog_octopus_0_attributes

@@ -1,7 +1,7 @@
 local function spawn_new_force()
 	cm:create_force_with_general(
 		"ovn_fim_rancor_hold", -- faction_key,
-		"ovn_swamp_daemons,elo_fenbeast,fim_inf_fimm_warriors_great_weapons,fim_inf_shearl,fim_inf_shearl,fim_inf_shearl_javelineer", -- unit_list,
+		"fim_inf_swamp_daemons,fim_cav_nuckelavee,fim_veh_eye_oculus,fim_inf_shearl,fim_inf_shearl,fim_inf_shearl_javelineer", -- unit_list,
 		"wh3_main_combi_region_wreckers_point", -- region_key,
 		479, -- x,
 		744, -- y,

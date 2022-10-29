@@ -52,7 +52,6 @@ fim_boglar_shaman_1		fim_boglar_shaman_1		1.0000	1.1500	0.0500
 fim_boglar_shaman_2		fim_boglar_shaman_2		1.0000	1.1500	0.0500	
 fim_boglar_shaman_3		fim_boglar_shaman_3		1.0000	1.1500	0.0500	
 elo_fenbeast		elo_fenbeast		1.1000	1.1000	0.0000	
-albion_fenhulk		elo_fenhulk		1.7500	1.7500	0.0000	
 fim_meargh_skattach_palanquin	VariantMeshes\wh_variantmodels\th07d\fim\fim_palanquin\tech	fim_meargh_skattach_palanquin		1.0000	1.0000	0.0000	
 ovn_fim_mon_bog_octopus_0		fim_bog_octopus		1.0000	1.0000	0.0000	
 ovn_fim_mon_bog_octopus_summon		fim_bog_octopus		1.0000	0.7000	0.0000	
@@ -70,3 +69,5 @@ fim_fimirach_noble_kroll_4		fim_fimirach_noble_kroll_4		1.0000	1.1500	0.0000
 fim_finmor_kroll_0		fim_finmor_0_kroll		1.0000	1.1000	0.0000	
 fim_finmor_kroll_1		fim_finmor_1_kroll		1.0000	1.1000	0.0000	
 fim_finmor_kroll_2		fim_finmor_2_kroll		1.0000	1.1000	0.0000	
+campaign_fim_ship_agent		campaign_fim_ship_agent		1.0000	0.5000	0.0000	
+campaign_fim_ship_transport		campaign_fim_ship_transport		1.0000	0.5000	0.0000	

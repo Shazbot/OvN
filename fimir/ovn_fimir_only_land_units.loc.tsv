@@ -1,7 +1,6 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/ovn_fimir_only_land_units.loc		
 land_units_onscreen_name_fim_mon_fenbeast	Fenbeasts	true
-land_units_onscreen_name_fim_mon_fenhulk	Fen Hulk	true
 land_units_onscreen_name_fim_inf_boglar	Boglars	true
 land_units_onscreen_name_wh_dlc08_nor_cha_fimir_balefiend_beast	Fimir Balefiend (Beasts)	true
 land_units_onscreen_name_wh_dlc08_nor_cha_fimir_balefiend_death	Fimir Balefiend (Death)	true
@@ -32,7 +31,7 @@ land_units_onscreen_name_fim_cav_nuckelavee	Nuckelavees	true
 land_units_onscreen_name_fim_mon_daemonomaniac	Daemonomaniac	true
 land_units_onscreen_name_fim_inf_swamp_daemons	Swamp Daemons	true
 land_units_onscreen_name_fim_veh_eye_oculus	Eye Oculus of Balor	true
-land_units_onscreen_name_fim_cav_marsh_hornets_ror	Chulann's Marsh Hornets (Bog Raiders)	true
+land_units_onscreen_name_fim_cav_marsh_hornets_ror	Skean's Swamp Scorpions (Bog Raiders)	true
 land_units_onscreen_name_fim_mon_daemonomaniac_ror	Eye of Doom (Daemonomaniac)	true
 land_units_onscreen_name_fim_inf_moor_hounds_ror	Hellhounds of Basker Moor (Moor Hounds)	true
 land_units_onscreen_name_fim_inf_swamp_daemons_summon	Swamp Daemons	true

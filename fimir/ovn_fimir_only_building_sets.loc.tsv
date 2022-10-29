@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_fimir_only_building_sets.loc		
+building_sets_onscreen_description_ovn_set_fimir_defence	Towers and barricades provide bigger garrisons and boost a region’s defending armies.	false
+building_sets_onscreen_description_ovn_set_fimir_economy	Structures that boost income and help to expand and control the settlement.	false
+building_sets_onscreen_description_ovn_set_fimir_military_recruitment	Recruit Fimir infantry and allies.	false
+building_sets_onscreen_description_ovn_set_fimir_military_support	Recruit advanced units to join your War Party.	false
+building_sets_onscreen_name_ovn_set_fimir_defence	Defence	false
+building_sets_onscreen_name_ovn_set_fimir_economy	Economy	false
+building_sets_onscreen_name_ovn_set_fimir_military_recruitment	Military Recruitment	false
+building_sets_onscreen_name_ovn_set_fimir_military_support	Military Support	false
