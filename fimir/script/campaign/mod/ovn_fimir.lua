@@ -113,6 +113,17 @@ local function on_every_first_tick()
 
     if cm:get_local_faction(true):subculture() == "ovn_sc_fim_fimir" then
         local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+        local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/hud_campaign_resource_bar_wh3"))
+        find_uicomponent(ovn_fimir_topbar_eye, "treasury_holder"):SetVisible(false)
+        find_uicomponent(ovn_fimir_topbar_eye, "eye_of_the_gods_holder"):SetVisible(true)
+
+        local button_chaos_gifts = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_chaos_gifts")
+        if button_chaos_gifts then
+            button_chaos_gifts:SetVisible(true)
+        end
+
+
+        local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
         if res_bar then
             UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
         end
