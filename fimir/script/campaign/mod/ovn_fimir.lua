@@ -147,7 +147,13 @@ local function on_every_first_tick()
 				end
 				for _, uic_child in uic_pairs(panel) do
 					if uic_child:Id() == "frame_slaves" then
-						uic_child:SetVisible(true)
+                        if not uic_child:Visible() then
+                            uic_child:SetVisible(true)
+                            local dy_slaves = find_uicomponent(uic_child, "header_slaves", "dy_slaves")
+                            if dy_slaves then
+                                dy_slaves:SetStateText("Slave Rituals")
+                            end
+                        end
                         break
 					end
 				end
