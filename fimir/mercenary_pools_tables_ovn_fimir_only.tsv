@@ -1,3 +1,4 @@
 key	recruitment_source	ui_recruitment_info
 #mercenary_pools_tables;1;db/mercenary_pools_tables/ovn_fimir_only		
 ovn_fimir_units_of_renown_pool		
+ovn_fimir_daemon_pool_skattach	daemonic_summoning	nurgle_buildings

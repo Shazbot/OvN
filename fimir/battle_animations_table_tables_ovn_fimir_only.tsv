@@ -1,9 +1,11 @@
 key	skeleton
 #battle_animations_table_tables;0;db/battle_animations_table_tables/ovn_fimir_only	
-hu7d_fimir_axe_and_javelin	humanoid07d
-hu7d_fimir_2handed_staff_ranged	humanoid07d
-hu7d_fimir_shearl	humanoid07d
-hu7d_fimir_axe_and_shield	humanoid07d
+hu7d_ovn_fimir_axe_and_javelin	humanoid07d
+hu7d_ovn_fimir_2handed_staff_ranged	humanoid07d
+hu7d_ovn_fimir_dual_axes	humanoid07d
+hu7d_ovn_fimir_shearl	humanoid07d
+hu7d_ovn_fimir_2handed_axe	humanoid07d
+hu7d_ovn_fimir_axe_and_shield	humanoid07d
 hu8_swamp_daemon	humanoid08
 sn2_eye_tyrant_2h_halberd	snake02
 lz1_bogbeast	lizard01
