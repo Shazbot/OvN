@@ -1,3 +1,69 @@
+local rancor_hold_faction_key = "ovn_fim_rancor_hold"
+
+local function rancor_hold_ui_stuff()
+    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+    local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/hud_campaign_resource_bar_wh3"))
+    find_uicomponent(ovn_fimir_topbar_eye, "treasury_holder"):SetVisible(false)
+    find_uicomponent(ovn_fimir_topbar_eye, "eye_of_the_gods_holder"):SetVisible(true)
+    ovn_fimir_topbar_eye:SetCanResizeWidth(true)
+    ovn_fimir_topbar_eye:Resize(200, ovn_fimir_topbar_eye:Height())
+
+    local button_chaos_gifts = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_chaos_gifts")
+    if button_chaos_gifts then
+        button_chaos_gifts:SetVisible(true)
+        button_chaos_gifts:SetDisabled(true)
+
+        local ovn_fimir_chaos_gifts_button = find_uicomponent(button_chaos_gifts,"ovn_fimir_chaos_gifts_button")
+        if not ovn_fimir_chaos_gifts_button then
+            ovn_fimir_chaos_gifts_button = UIComponent(button_chaos_gifts:CreateComponent("ovn_fimir_chaos_gifts_button", "ui/templates/round_medium_button"))
+        end
+        ovn_fimir_chaos_gifts_button:SetDockingPoint(5)
+        ovn_fimir_chaos_gifts_button:SetDockOffset(0,0)
+        ovn_fimir_chaos_gifts_button:SetOpacity(0.1, true)
+        ovn_fimir_chaos_gifts_button:AddScriptEventReporter()
+        ovn_fimir_chaos_gifts_button:Resize(button_chaos_gifts:Width(), button_chaos_gifts:Height())
+    end
+
+    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+    if res_bar then
+        UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
+    end
+
+    --- when user clicks the button that closes the chaos gifts panel destroy our panel
+    core:remove_listener("ovn_fimir_chaos_gifts_panel_on_close")
+    core:add_listener(
+        "ovn_fimir_chaos_gifts_panel_on_close",
+        "ComponentLClickUp",
+        function(context)
+            return context.string == "button_ok" and UIComponent(UIComponent(context.component):Parent()):Id() == "ovn_fimir_chaos_gifts"
+        end,
+        function()
+            cm:callback(function()
+                local button = find_uicomponent(core:get_ui_root(), "ovn_fimir_chaos_gifts")
+                if button and button:Visible() then
+                    button:Destroy()
+                end
+            end, 0)
+        end,
+        true
+    )
+
+    --- test on every left click up if mouse is over the chaos gifts button and open the panel if it is
+    core:remove_listener("ovn_fimir_chaos_gifts_panel_open")
+    core:add_listener(
+        "ovn_fimir_chaos_gifts_panel_open",
+        "ComponentLClickUp",
+        true,
+        function()
+            local button = find_uicomponent(core:get_ui_root(), "hud_campaign","faction_buttons_docker","button_group_management","button_chaos_gifts")
+            if button:IsMouseOverChildren() then
+                core:get_ui_root():CreateComponent("ovn_fimir_chaos_gifts", "ui/campaign ui/ovn_fimir_chaos_gifts")
+            end
+        end,
+        true
+    )
+end
+
 local function on_every_first_tick()
     core:remove_listener("ovn_fimir_remove_fog_vanguard")
     core:add_listener(
@@ -112,67 +178,9 @@ local function on_every_first_tick()
     )
 
 if cm:get_local_faction(true):subculture() == "ovn_sc_fim_fimir" then
-    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/hud_campaign_resource_bar_wh3"))
-    find_uicomponent(ovn_fimir_topbar_eye, "treasury_holder"):SetVisible(false)
-    find_uicomponent(ovn_fimir_topbar_eye, "eye_of_the_gods_holder"):SetVisible(true)
-    ovn_fimir_topbar_eye:SetCanResizeWidth(true)
-    ovn_fimir_topbar_eye:Resize(200, ovn_fimir_topbar_eye:Height())
-
-    local button_chaos_gifts = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_chaos_gifts")
-    if button_chaos_gifts then
-        button_chaos_gifts:SetVisible(true)
-        button_chaos_gifts:SetDisabled(true)
-
-        local ovn_fimir_chaos_gifts_button = find_uicomponent(button_chaos_gifts,"ovn_fimir_chaos_gifts_button")
-        if not ovn_fimir_chaos_gifts_button then
-            ovn_fimir_chaos_gifts_button = UIComponent(button_chaos_gifts:CreateComponent("ovn_fimir_chaos_gifts_button", "ui/templates/round_medium_button"))
-        end
-        ovn_fimir_chaos_gifts_button:SetDockingPoint(5)
-        ovn_fimir_chaos_gifts_button:SetDockOffset(0,0)
-        ovn_fimir_chaos_gifts_button:SetOpacity(0.1, true)
-        ovn_fimir_chaos_gifts_button:AddScriptEventReporter()
-        ovn_fimir_chaos_gifts_button:Resize(button_chaos_gifts:Width(), button_chaos_gifts:Height())
+    if cm:get_local_faction(true):name() == rancor_hold_faction_key then
+        rancor_hold_ui_stuff()
     end
-
-    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    if res_bar then
-        UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
-    end
-
-    --- when user clicks the button that closes the chaos gifts panel destroy our panel
-    core:remove_listener("ovn_fimir_chaos_gifts_panel_on_close")
-    core:add_listener(
-        "ovn_fimir_chaos_gifts_panel_on_close",
-        "ComponentLClickUp",
-        function(context)
-            return context.string == "button_ok" and UIComponent(UIComponent(context.component):Parent()):Id() == "ovn_fimir_chaos_gifts"
-        end,
-        function()
-            cm:callback(function()
-                local button = find_uicomponent(core:get_ui_root(), "ovn_fimir_chaos_gifts")
-                if button and button:Visible() then
-                    button:Destroy()
-                end
-            end, 0)
-        end,
-        true
-    )
-
-    --- test on every left click up if mouse is over the chaos gifts button and open the panel if it is
-    core:remove_listener("ovn_fimir_chaos_gifts_panel_open")
-    core:add_listener(
-        "ovn_fimir_chaos_gifts_panel_open",
-        "ComponentLClickUp",
-        true,
-        function()
-            local button = find_uicomponent(core:get_ui_root(), "hud_campaign","faction_buttons_docker","button_group_management","button_chaos_gifts")
-            if button:IsMouseOverChildren() then
-                core:get_ui_root():CreateComponent("ovn_fimir_chaos_gifts", "ui/campaign ui/ovn_fimir_chaos_gifts")
-            end
-        end,
-        true
-    )
 
     core:remove_listener('ovn_fimir_on_opened_settlement_panel')
     core:add_listener(
