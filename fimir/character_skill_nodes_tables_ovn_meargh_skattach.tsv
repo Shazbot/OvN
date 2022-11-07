@@ -2,12 +2,13 @@ key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	in
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_meargh_skattach										
 fim_meargh_skattach_ancillary_01		fim_meargh_skattach_anc_staff_balor	wh_main_skill_node_fim_meargh_skattach		0.0000	0.0000		0	0	true
 fim_meargh_skattach_ancillary_02		fim_meargh_skattach_anc_hellmother_crown	wh_main_skill_node_fim_meargh_skattach		0.0000	1.0000		0	0	true
-fim_meargh_skattach_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_main_skill_node_fim_meargh_skattach		0.0000	2.0000		0	0	true
-fim_meargh_skattach_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_main_skill_node_fim_meargh_skattach		0.0000	3.0000		0	0	true
-fim_meargh_skattach_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_main_skill_node_fim_meargh_skattach		0.0000	4.0000		0	0	true
-fim_meargh_skattach_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_main_skill_node_fim_meargh_skattach		0.0000	5.0000		0	0	true
-fim_meargh_skattach_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_main_skill_node_fim_meargh_skattach		0.0000	6.0000		0	0	true
-fim_meargh_skattach_from_mists		elo_fimir_from_mists	wh_main_skill_node_fim_meargh_skattach		0.0000	7.0000		0	0	true
+fim_meargh_skattach_mount		fim_meargh_skattach_anc_throne_hellmother	wh_main_skill_node_fim_meargh_skattach		0.0000	2.0000		0	0	true
+fim_meargh_skattach_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_main_skill_node_fim_meargh_skattach		0.0000	4.0000		0	0	true
+fim_meargh_skattach_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_main_skill_node_fim_meargh_skattach		0.0000	5.0000		0	0	true
+fim_meargh_skattach_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_main_skill_node_fim_meargh_skattach		0.0000	6.0000		0	0	true
+fim_meargh_skattach_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_main_skill_node_fim_meargh_skattach		0.0000	7.0000		0	0	true
+fim_meargh_skattach_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_main_skill_node_fim_meargh_skattach		0.0000	8.0000		0	0	true
+fim_meargh_skattach_from_mists		elo_fimir_from_mists	wh_main_skill_node_fim_meargh_skattach		0.0000	9.0000		0	0	true
 fim_meargh_skattach_unique_0		fim_meargh_skattach_ancient_leadership	wh_main_skill_node_fim_meargh_skattach		1.0000	0.0000		0	0	true
 fim_meargh_skattach_unique_1_1		fim_meargh_skattach_death_quest	wh_main_skill_node_fim_meargh_skattach		1.0000	1.0000		0	0	true
 fim_meargh_skattach_unique_1_2		fim_meargh_skattach_poison_mist	wh_main_skill_node_fim_meargh_skattach		1.0000	2.0000		0	0	true

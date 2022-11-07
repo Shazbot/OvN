@@ -107,3 +107,4 @@ fim_kroll_temple_apotheosis_scale		0		campaign	true
 ovn_fim_kroll_apotheosis_dummy	weapon_damage_character.png	1	weapon_damage.png	battle	true
 ovn_chs_dark_god_blessing	general_ability.png	4	general_ability.png	battle	true
 ovn_fimir_slaves_capacity	slaves.png	105	slaves.png	campaign	true
+fim_skattach_enable_throne_mount	mount.png	50	mount.png	both	true

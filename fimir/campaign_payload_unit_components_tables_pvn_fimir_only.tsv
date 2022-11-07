@@ -1,0 +1,7 @@
+id	component_type	payload	unit	amount	xp
+#campaign_payload_unit_components_tables;0;db/campaign_payload_unit_components_tables/pvn_fimir_only					
+969642001	add_mercenaries_to_faction	ovn_fim_balorshrine_x1	fim_veh_eye_oculus	1	0
+969642004	add_mercenaries_to_faction	ovn_fim_nuckelavees_x1	fim_cav_nuckelavee	1	0
+969642002	add_mercenaries_to_faction	ovn_fim_daemonomaniac_x1	fim_mon_daemonomaniac	1	0
+969642005	add_mercenaries_to_faction	ovn_fim_swamp_daemons_x1	fim_inf_swamp_daemons	1	0
+969642003	add_mercenaries_to_faction	ovn_fim_moor_hounds_x1	fim_inf_moor_hounds	1	0

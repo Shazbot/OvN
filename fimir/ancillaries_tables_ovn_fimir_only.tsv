@@ -4,3 +4,4 @@ fim_meargh_skattach_staff_balor	wh_main_anc_weapon	.	false	false	false	1	0	9999	
 fim_meargh_skattach_hellmother_crown	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	ovn_fimir
 anc_boglar_shaman_hound	wh_main_anc_mount_giant_wolf	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	fim_cha_boglar_shaman_hound		1	1		false	false	false	ovn_fimir
 anc_fimirach_noble_mount	anc_fimirach_noble_mount	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	fim_cha_fimirach_noble_bog_beast		1	1		false	false	false	ovn_fimir
+fim_meargh_skattach_throne_hellmother	ovn_fim_skattach_throne	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	fim_cha_meargh_skattach_palanquin		1	1		false	false	false	ovn_fimir

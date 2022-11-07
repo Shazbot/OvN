@@ -36,8 +36,8 @@ id	names_group	type	gender	frequency
 999982382	ovn_names_fim_fimir	forename	m	1
 999982383	ovn_names_fim_fimir	forename	m	1
 999982384	ovn_names_fim_fimir	forename	m	1
-999982385	ovn_names_fim_fimir	forename	m	1
-999982386	ovn_names_fim_fimir	forename	m	1
+999982385	ovn_names_fim_fimir	forename	b	0
+999982386	ovn_names_fim_fimir	forename	b	0
 999982387	ovn_names_fim_fimir	forename	m	1
 999982388	ovn_names_fim_fimir	forename	m	1
 999982389	ovn_names_fim_fimir	forename	m	1
@@ -95,8 +95,8 @@ id	names_group	type	gender	frequency
 999982441	ovn_names_fim_fimir	forename	f	1
 999982442	ovn_names_fim_fimir	forename	f	1
 999982443	ovn_names_fim_fimir	forename	f	1
-999982444	ovn_names_fim_fimir	forename	f	1
-999982445	ovn_names_fim_fimir	forename	f	1
+999982444	ovn_names_fim_fimir	forename	b	0
+999982445	ovn_names_fim_fimir	forename	b	0
 999982446	ovn_names_fim_fimir	forename	f	1
 999982447	ovn_names_fim_fimir	forename	f	1
 999982448	ovn_names_fim_fimir	forename	f	1
