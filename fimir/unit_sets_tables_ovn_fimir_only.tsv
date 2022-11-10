@@ -3,6 +3,7 @@ key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inc
 mp_cap_ovn_killing_eye	false	-1	-1	
 mp_cap_ovn_gharnus_demon	false	-1	-1	
 first_wave	false	-1	-1	
+fimir_ranged	false	-1	-1	
 swamp_warriors	false	-1	-1	
 fimir_rushers	false	-1	-1	
 fimir_giants_fen	false	-1	-1	

@@ -13,10 +13,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_boglar	first_wave	false
 			fim_mon_fianna_fimm	swamp_warriors	false
 			fim_mon_fianna_fimm_great_weapons	swamp_warriors	false
-			fim_inf_fimm_warriors	swamp_warriors	false
-			fim_inf_fimm_warriors_great_weapons	swamp_warriors	false
+			fim_inf_fimm_warriors	first_wave	false
+			fim_inf_fimm_warriors_great_weapons	first_wave	false
 			fim_mon_mistmor	swamp_warriors	false
-			fim_inf_fimm_warriors_axe_throwers_ror	swamp_warriors	false
+			fim_inf_fimm_warriors_axe_throwers_ror	first_wave	false
 			fim_mon_gharnus_daemon_ror	swamp_warriors	false
 			fim_inf_moor_hounds	fimir_rushers	false
 			wh3_main_dae_inf_chaos_furies_0	all_units	false
@@ -37,11 +37,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_moor_hounds	fimir_r7_fast	false
 			fim_cav_nuckelavee	fimir_r7_fast	false
 			fim_cav_marsh_reavers	fimir_r7_fast	false
-			fim_mon_mistmor	fimir_r7_giants	false
+			fim_mon_mistmor	fimir_r7_auxillaries	false
 			fim_mon_daemonomaniac	fimir_r7_giants	false
 			fim_veh_eye_oculus	fimir_r7_giants	false
 			fim_mon_fenbeast	fimir_r7_auxillaries	false
-			wh3_main_dae_inf_chaos_furies_0	fimir_r7_auxillaries	false
+			wh3_main_dae_inf_chaos_furies_0	fimir_r7_fast	false
 			fim_inf_swamp_daemons	fimir_r7_auxillaries	false
 			fim_inf_shearl	fimir_slaves	false
 			fim_inf_boglar	fimir_slaves	false
@@ -87,9 +87,13 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_shearl	elo_fimir_shearl	false
 			fim_inf_shearl_javelineer	elo_fimir_shearl	false
 			fim_inf_death_quest	elo_fimir_shearl	false
+			fim_inf_shearl_javelineer	fimir_ranged	false
 			fim_inf_shearl_javelineer	elo_fimir_useful_shearls	false
+			fim_inf_shearl_javelineer	fimir_r7_auxillaries	false
 			fim_inf_death_quest	elo_fimir_useful_shearls	false
+			fim_mon_balefiend_apprentices	fimir_ranged	false
 			fim_mon_balefiend_apprentices	elo_fimir_apprentices	false
+			fim_mon_balefiend_apprentices	fimir_r7_giants	false
 			fim_inf_boglar	elo_low_level_swamp_dwellers	false
 			fim_inf_moor_hounds	elo_low_level_swamp_dwellers	false
 			fim_inf_swamp_daemons	elo_fimir_trolls	false
@@ -165,6 +169,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_swamp_daemons	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			fim_veh_eye_oculus	wh2_dlc11_nor_fimir_giant_mammoth	false
 			fim_veh_eye_oculus	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			fim_veh_eye_oculus	fimir_ranged	false
 			fim_veh_eye_oculus	elo_fen_big_dwellers	false
 			fim_mon_mistmor	elo_fimir_trolls	false
 			fim_mon_daemonomaniac_ror	fimir_giants_fen	false
@@ -214,6 +219,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_fim_mon_bog_octopus_0	wh2_dlc11_nor_fimir_giant_mammoth	false
 			ovn_fim_mon_bog_octopus_0	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
 			ovn_fim_mon_bog_octopus_0	mp_cap_group_rare_single_entities	false
+			ovn_fim_mon_bog_octopus_0	fimir_giants_fen	false
 			fim_cha_daemon_octopus_kroll	chs_lords	false
 			fim_cha_daemon_octopus_kroll	ovn_fim_kroll	false
 			ovn_fim_mon_bog_octopus_summon	all_units	false
@@ -223,6 +229,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_fim_mon_bog_octopus_summon	ovn_fim_bog_octopus_0	false
 			ovn_fim_mon_bog_octopus_summon	wh2_dlc11_nor_fimir_giant_mammoth	false
 			ovn_fim_mon_bog_octopus_summon	wh2_dlc11_nor_vets_trolls_frost_wyrm_giant_mammoth_fimir	false
+			ovn_fim_mon_bog_octopus_summon	fimir_giants_fen	false
 			fim_cha_boglar_shaman	fim_all_generic_characters	false
 			fim_cha_boglar_shaman_hound	fim_all_generic_characters	false
 			fim_cha_dirach_beast	fim_all_generic_characters	false

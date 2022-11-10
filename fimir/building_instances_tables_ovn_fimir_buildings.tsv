@@ -14,7 +14,11 @@ ovn_fimir_walls_major	1
 ovn_fimir_walls_minor	1
 ovn_fimir_allied_outpost	1
 ovn_fimir_foreign_slot_discovery	1
-ovn_fimir_agrul_migdhal_landmark	1
 ovn_fimir_settlement_major	1
 ovn_fimir_settlement_minor	1
 ovn_fimir_temple_kroll	1
+ovn_fimir_marienburg_waterland_landmark	1
+ovn_fimir_middenheim_schadensumpf_landmark	1
+ovn_fimir_agrul_migdhal_landmark	1
+ovn_fimir_wreckers_point_skattach_tower_landmark	1
+ovn_fimir_monument_blessed_swamp_landmark	1

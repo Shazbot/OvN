@@ -19,6 +19,13 @@ elo_fimir_bog_monsters_md	defence.png	100	defence.png	battle	true
 elo_fimir_swamp_warriors_ma	melee.png	100	melee.png	battle	true
 elo_fimir_swamp_warriors_md	defence.png	100	defence.png	battle	true
 elo_fimir_giants_fen_sp	battle_movement.png	100	battle_movement.png	battle	true
+elo_fimir_bog_monsters_ma	melee.png	431	melee.png	battle	true
+elo_fimir_bog_monsters_arm	armour.png	401	armour.png	battle	true
+elo_fimir_swamp_warriors_wps	weapon_damage.png	462	weapon_damage.png	battle	true
+elo_fimir_giants_fen_md	defence.png	451	defence.png	battle	true
+fim_effect_force_stat_missile_damage_fimir_ranged_units	ranged_damage.png	541	ranged_damage.png	battle	true
+fim_effect_force_stat_ammunition_fimir_ranged_units	ammo.png	511	ammo.png	battle	true
+elo_fimir_r7_auxillaries_wps	weapon_damage.png	462	weapon_damage.png	battle	true
 elo_fimir_giants_fen_ma	melee.png	100	melee.png	battle	true
 elo_fimir_r7_warriors_md	defence.png	100	defence.png	battle	true
 elo_fimir_r7_warriors_armour	armour.png	100	armour.png	battle	true
@@ -78,7 +85,7 @@ elo_demons_khoooorne	general_ability.png	600	general_ability.png	battle	true
 elo_champions_chaos_r7_wps	weapon_damage.png	100	weapon_damage.png	battle	true
 elo_champions_chaos_r7_md	defence.png	100	defence.png	battle	true
 elo_champions_chaos_r7_magicres	resistance_magic.png	100	resistance_magic.png	battle	true
-ovn_campaign_enable_name_dirach		0		campaign	true
+ovn_campaign_enable_name_dirach		0		both	true
 enable_fimirach_noble_mount	mount.png	50	mount.png	both	true
 albion_monsters_fen_mdef	defence.png	101	defence.png	battle	true
 albion_monsters_fen_mattk	melee.png	109	melee.png	battle	true
@@ -87,9 +94,9 @@ ovn_effect_enable_attribute_stalk_bog_octopus	attribute_stalk.png	600	attribute_
 ovn_fim_effect_agent_xp_increase_elo_boglar_shaman	wizard.png	104	wizard.png	campaign	true
 ovn_fim_effect_agent_enable_recruitment_elo_boglar_shaman	wizard.png	3	wizard.png	campaign	true
 ovn_fim_effect_agent_cap_increase_elo_boglar_shaman	wizard.png	3	wizard.png	campaign	true
-ovn_fim_effect_agent_xp_increase_finmor	agent.png	101	agent.png	campaign	true
-ovn_fim_effect_agent_enable_recruitment_finmor	agent.png	204	agent.png	campaign	true
-ovn_fim_effect_agent_cap_increase_champion_finmor	agent.png	302	agent.png	campaign	true
+ovn_fim_effect_agent_xp_increase_finmor	saurus_scar_veteran.png	101	agent.png	campaign	true
+ovn_fim_effect_agent_enable_recruitment_finmor	saurus_scar_veteran.png	204	agent.png	campaign	true
+ovn_fim_effect_agent_cap_increase_champion_finmor	saurus_scar_veteran.png	302	agent.png	campaign	true
 ovn_fim_effect_agent_recruitment_xp_dignitary_fimir_balefiend	fimir_balefiend.png	101	fimir_balefiend.png	campaign	true
 ovn_fim_effect_agent_enable_recruitment_dignitary_fimir_balefiend	fimir_balefiend.png	203	fimir_balefiend.png	campaign	true
 ovn_fim_effect_agent_cap_increase_dignitary_fimir_balefiend	fimir_balefiend.png	302	fimir_balefiend.png	campaign	true
@@ -108,3 +115,6 @@ ovn_fim_kroll_apotheosis_dummy	weapon_damage_character.png	1	weapon_damage.png	b
 ovn_chs_dark_god_blessing	general_ability.png	4	general_ability.png	battle	true
 ovn_fimir_slaves_capacity	slaves.png	105	slaves.png	campaign	true
 fim_skattach_enable_throne_mount	mount.png	50	mount.png	both	true
+fim_effect_recruitment_cost_fimm_warriors	treasury.png	106	treasury.png	campaign	false
+fim_effect_upkeep_fimm_warriors	military_spending.png	105	military_spending.png	campaign	false
+fim_effect_force_recruit_rank_fimm_warriors	experience.png	120	experience.png	campaign	true

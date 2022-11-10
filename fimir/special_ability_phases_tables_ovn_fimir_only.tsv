@@ -2,10 +2,9 @@ id	duration	effect_type	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 #special_ability_phases_tables;41;db/special_ability_phases_tables/ovn_fimir_only																													
 ovn_mystic_mist	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack_passive		false	true	true	0.0000			false	0.0000	0.0000
 ovn_unit_passive_aura_great_eye	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack_passive		false	true	true	0.0000			false	0.0000	0.0000
-elo_fimir_witness_me	31.0000	positive		true	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000
+elo_fimir_witness_me	35.0000	positive		true	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_attack	wh_ability_positive	false	true	true	0.0000			false	0.0000	0.0000
 fim_skattach_poison_mist	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	1.0000	3	4	false	0.0000	0.0000	false	0		wh_main_generic_hp_damage_passive		false	true	true	0.0000			false	0.0000	0.0000
 magic_siphon	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_buff_morale		false	true	true	0.0000			false	0.0000	0.0000
-embodiment_albion	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh_main_generic_debuff_defence_passive		false	true	true	0.0000			false	0.0000	0.0000
 ovn_fim_kroll_mother_young	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	1.0000	0	0	false	0.1000	0.0000	false	0		wh_main_generic_hp_regen_passive	wh_ability_positive_banner	false	true	true	0.0000			false	0.0010	0.0000
 ovn_fim_kroll_contact_constriction	15.0000	negative		false	false	false	0.0000	0.0000	0.0000	2.0000	44	4	false	0.0000	0.0000	false	0		wh2_dlc14_spell_stealth_brittle_bone		false	false	true	0.0000			false	0.0000	0.0000
 ovn_fim_kroll_broodmother	10.0000	negative		false	false	false	0.0000	0.0000	0.0000	1.0000	3971	100	false	0.0000	0.0000	false	0		wh3_main_nurgle_rancid_visitations		false	true	true	0.0000			false	0.0000	0.0000

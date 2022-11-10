@@ -1,0 +1,4 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/ovn_fimir_only				
+		mixer_ime_minor_secondary_wreckers_point	ovn_fimir_wreckers_point_skattach_tower_landmark	false
+		mixer_ime_minor_secondary_monument_of_the_moon	ovn_fimir_monument_blessed_swamp_landmark	false

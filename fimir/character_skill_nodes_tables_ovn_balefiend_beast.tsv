@@ -1,6 +1,5 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_balefiend_beast										
-bale_beasts_immortality		wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	5.0000		0	0	true
 bale_beasts_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	0.0000		0	0	true
 bale_beasts_campaign_02		wh2_main_skill_all_hero_passive_stimulate_growth	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	1.0000		0	0	true
 bale_beasts_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	2.0000		0	0	true
@@ -27,7 +26,6 @@ bale_beasts_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despa
 bale_beasts_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	4.0000		0	0	true
 bale_beasts_unique_06		wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	5.0000		0	0	true
 bale_beasts_innate_01		wh2_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	0.0000		0	0	false
-bale_beasts_innate_02		wh2_main_skill_innate_chs_dominance	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	1.0000		0	0	false
 bale_beasts_innate_03		wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	2.0000		0	0	false
 bale_beasts_innate_04		wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	3.0000		0	0	false
 bale_beasts_innate_05		wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	4.0000		0	0	false
@@ -47,3 +45,4 @@ bale_beasts_innate_20		wh_main_skill_innate_all_sneaky	wh_dlc08_nor_cha_fimir_ba
 bale_beasts_innate_21		wh_main_skill_innate_all_stupid	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	20.0000		0	0	false
 bale_beasts_innate_22		wh_main_skill_innate_all_uncompromising	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	21.0000		0	0	false
 bale_beasts_innate_23		wh_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	22.0000		0	0	false
+bale_beasts_mentor		wh3_main_skill_all_mentor_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	12.0000		0	0	true

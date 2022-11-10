@@ -1,13 +1,15 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/ovn_fimir_only_character_skills.loc		
-character_skills_localised_name_fimir_sacrifices	Deadly Fodder	true
-character_skills_localised_description_fimir_sacrifices	Little more is expected of these creatures than to die for their betters on the battlefield. However, many who have underestimated their ferocity have fallen prey to their crude weapons.	true
+character_skills_localised_name_fimir_ranged_units	Death from Afar	true
+character_skills_localised_description_fimir_ranged_units	It's hard to aim with only one eye, but the Fimir still use limited numbers of ranged troops.	true
+character_skills_localised_name_fimir_sacrifices	Born to Fight	true
+character_skills_localised_description_fimir_sacrifices	Crude they may be, the skill and might of the Fimir Warriors makes them terrifying opponents.	true
 character_skills_localised_name_fimir_riders_doggos	Swift Raiders	true
 character_skills_localised_description_fimir_riders_doggos	Fimir aren't the fastest creatures, but they know about the value of mobility on the battlefield. Therefore they tame the faster, corrupted and dangerous creatures of their swampland homes to gain a tactical advantage.	true
 character_skills_localised_name_fimir_bog_monsters	Creatures of the Dark Bogs	true
 character_skills_localised_description_fimir_bog_monsters	The Fimir aren't the only monsters inhabiting swamps. Weaker or small-minded monsters are subjugated and utilized to increase the numbers of the Fimir armies.	true
-character_skills_localised_name_fimir_swamp_warriors	Born to Fight	true
-character_skills_localised_description_fimir_swamp_warriors	Crude they may be, the skill and might of the Fimir Warriors makes them terrifying opponents.	true
+character_skills_localised_name_fimir_swamp_warriors	Pride of the Caste	true
+character_skills_localised_description_fimir_swamp_warriors	The larger and stronger Fimir are used as shock troops, with devastating effect on the enemy.	true
 character_skills_localised_name_fimir_fen_giants	Terrors from the Fens	true
 character_skills_localised_description_fimir_fen_giants	Fimir are often accompanied by bigger, more terrifying swamp dwellers. Make no mistake though, the Fimir are the masters of these creatures and will use them with ruthless cunning.	true
 character_skills_localised_name_fimir_r7_warriors	Masters of Battle	true

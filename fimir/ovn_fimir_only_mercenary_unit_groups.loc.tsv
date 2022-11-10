@@ -6,3 +6,9 @@ mercenary_unit_groups_replenishment_reason_fim_inf_killing_eye_ror		false
 mercenary_unit_groups_replenishment_reason_fim_inf_moor_hounds_ror		false
 mercenary_unit_groups_replenishment_reason_fim_mon_daemonomaniac_ror		false
 mercenary_unit_groups_replenishment_reason_fim_mon_gharnus_daemon_ror		false
+mercenary_unit_groups_replenishment_reason_fim_inf_death_quest	This unit will be replenished by special events.	false
+mercenary_unit_groups_replenishment_reason_fim_skattach_daemons_swamp_daemons	\\nReplenish this unit by activating the associated [[img:icon_chaos_gifts]][[/img]]Gift of Chaos.	false
+mercenary_unit_groups_replenishment_reason_fim_skattach_daemons_moor_hounds	\\nReplenish this unit by activating the associated [[img:icon_chaos_gifts]][[/img]]Gift of Chaos.	false
+mercenary_unit_groups_replenishment_reason_fim_skattach_daemons_daemonomaniac	\\nReplenish this unit by activating the associated [[img:icon_chaos_gifts]][[/img]]Gift of Chaos.	false
+mercenary_unit_groups_replenishment_reason_fim_skattach_daemons_nuckleavees	\\nReplenish this unit by activating the associated [[img:icon_chaos_gifts]][[/img]]Gift of Chaos.	false
+mercenary_unit_groups_replenishment_reason_fim_skattach_daemons_shrinebalor	\\nReplenish this unit by activating the associated [[img:icon_chaos_gifts]][[/img]]Gift of Chaos.	false

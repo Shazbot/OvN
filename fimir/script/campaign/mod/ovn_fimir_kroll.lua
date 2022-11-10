@@ -7,7 +7,7 @@ local function spawn_new_force()
 		451, -- y,
 		"general", -- type,
 		"fim_daemon_octopus_kroll", -- subtype,
-		"names_name_999982499", -- name1,
+		"names_name_999982440", -- name1,
 		"", -- name2,
 		"", -- name3,
 		"", -- name4,

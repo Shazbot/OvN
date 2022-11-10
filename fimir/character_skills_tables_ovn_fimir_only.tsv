@@ -1,12 +1,13 @@
 key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
 #character_skills_tables;5;db/character_skills_tables/ovn_fimir_only									
-fimir_sacrifices	battle_attack.png			0	false	false	false	0.0000	0
+fimir_sacrifices	battle_morale.png			0	false	false	false	0.0000	0
 fimir_riders_doggos	battle_speed.png			0	false	false	false	0.0000	0
 fimir_bog_monsters	battle_defence.png			0	false	false	false	0.0000	0
 fimir_swamp_warriors	battle_attack.png			0	false	false	false	0.0000	0
 fimir_fen_giants	battle_attack.png			0	false	false	false	0.0000	0
-fimir_r7_warriors	character_armour.png			0	false	false	false	0.0000	0
-fimir_r7_elite_monsters	battle_morale.png			0	false	false	false	0.0000	0
+fimir_ranged_units	battle_ranged_damage.png			0	false	false	false	0.0000	0
+fimir_r7_warriors	battle_armour.png			0	false	false	false	0.0000	0
+fimir_r7_elite_monsters	battle_damage.png			0	false	false	false	0.0000	0
 fimir_r7_fast_beasts	battle_charge.png			0	false	false	false	0.0000	0
 fimir_r7_elite_giants	battle_ward_save.png			0	false	false	false	0.0000	0
 fimir_worthless_slaves	campaign_military_spending.png			0	false	false	false	0.0000	0

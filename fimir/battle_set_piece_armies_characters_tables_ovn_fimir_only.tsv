@@ -1,5 +1,5 @@
 character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
 #battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/ovn_fimir_only												
-fim_fimirach_noble_0	1	164295142		100	1513022302	fim_cha_fimirach_noble	general	aky_chief_fimir_great_weapons	UI/Portraits/Portholes/no_culture/fim_fimirach_noble_0.png	1326263180		true
+fim_fimirach_noble_0	1	999982400		100	999982358	fim_cha_fimirach_noble	general	aky_chief_fimir_great_weapons	UI/Portraits/Portholes/no_culture/fim_fimirach_noble_0.png	1326263180		true
 fim_meargh_skattach	1	999982314	wh2_main_lore_dark_magic	100		fim_cha_meargh_skattach	general	fim_meargh_skattach	ui/portraits/portholes/no_culture/fim_meargh_skattach.png	798687835		true
-fim_daemon_octopus_kroll	1	999982499	fim_lore_kroll	100		fim_cha_daemon_octopus_kroll	general	fim_daemon_octopus_kroll	ui/portraits/portholes/no_culture/fim_daemon_octopus_kroll.png	1472622525		true
+fim_daemon_octopus_kroll	1	999982440	fim_lore_kroll	100		fim_cha_daemon_octopus_kroll	general	fim_daemon_octopus_kroll	ui/portraits/portholes/no_culture/fim_daemon_octopus_kroll.png	1472622525		true

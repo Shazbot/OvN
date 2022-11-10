@@ -17,5 +17,9 @@ ovn_fimir_order			money	false	wh2_main_sch_infrastructure3_order		3		true
 ovn_fimir_port			money	false	wh_main_sch_port		0		true
 ovn_fimir_walls_major			money	false	wh2_main_sch_defence_major_def		0		true
 ovn_fimir_walls_minor			money	false	wh2_main_sch_defence_minor		1		true
-ovn_fimir_agrul_migdhal_landmark			money	false	ovn_fimir_agrul_migdhal_landmark		0		true
 ovn_fimir_kroll_temple			military	false	ovn_fimir_kroll_temple		7		true
+ovn_fimir_marienburg_waterland_landmark			money	false	ovn_fimir_marienburg_waterland_landmark		1		true
+ovn_fimir_middenheim_schadensumpf_landmark			money	false	ovn_fimir_middenheim_schadensumpf_landmark		1		true
+ovn_fimir_agrul_migdhal_landmark			money	false	ovn_fimir_agrul_migdhal_landmark		1		true
+ovn_fimir_wreckers_point_skattach_tower_landmark			money	false	ovn_fimir_wreckers_point_skattach_tower_landmark		1		true
+ovn_fimir_monument_blessed_swamp_landmark			money	false	ovn_fimir_monument_blessed_swamp_landmark		1		true

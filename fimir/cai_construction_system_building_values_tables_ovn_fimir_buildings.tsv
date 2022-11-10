@@ -16,5 +16,9 @@ ovn_fimir_walls_major						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0
 ovn_fimir_walls_minor						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	250
 ovn_fimir_allied_outpost						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	250
 ovn_fimir_foreign_slot_discovery						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	5
-ovn_fimir_agrul_migdhal_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	5000
 ovn_fimir_kroll_temple						cai_support_group			ovn_fim_tendrils_of_doom		-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	450	450
+ovn_fimir_marienburg_waterland_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	5000
+ovn_fimir_middenheim_schadensumpf_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	5000
+ovn_fimir_agrul_migdhal_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	5000
+ovn_fimir_wreckers_point_skattach_tower_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	5000
+ovn_fimir_monument_blessed_swamp_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	5000
