@@ -10,3 +10,4 @@ special_ability_phases_onscreen_name_ovn_fim_kroll_mother_young		true
 special_ability_phases_onscreen_name_ovn_fim_kroll_contact_constriction	[[img:ui/skins/default/dlc16_modifier_icon_cursed.png]][[/img]][[col:red]]Constriction!\\n[[img:icon_hp]][[/img]]Damage over time[[/col]]	true
 special_ability_phases_onscreen_name_ovn_fim_kroll_broodmother		true
 special_ability_phases_onscreen_name_ovn_fim_kroll_fulcrum_of_worship		true
+special_ability_phases_onscreen_name_ovn_fimir_kroll_dmg_reflect	Bog Tendrils	false

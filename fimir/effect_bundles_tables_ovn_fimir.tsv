@@ -10,3 +10,11 @@ ovn_fimir_edict_4		Increase Slave Production	province	1	edict_def_increase_slave
 ovn_fimir_fog_diktat			region	1	sla_pleasure_hunt.png	true	false	true
 ovn_fimir_growth_diktat			region	1	sla_pleasure_party.png	true	false	true
 ovn_fimir_fog_diktat_empty			region	1	sla_pleasure_hunt.png	true	false	true
+ovn_fimir_kroll_bundle_1			faction	1	ovn_kroll_bundle1.png	true	false	true
+ovn_fimir_kroll_bundle_2			faction	1	ovn_kroll_bundle2.png	true	false	true
+ovn_fimir_kroll_bundle_3			faction	1	ovn_kroll_bundle3.png	true	false	true
+ovn_fimir_kroll_bundle_4			faction	1	ovn_kroll_bundle4.png	true	false	true
+ovn_fimir_kroll_bundle_faction_1			faction	1	ovn_kroll_bundle1.png	true	false	true
+ovn_fimir_kroll_bundle_faction_2			faction	1	ovn_kroll_bundle2.png	true	false	true
+ovn_fimir_kroll_bundle_faction_3			faction	1	ovn_kroll_bundle3.png	true	false	true
+ovn_fimir_kroll_bundle_faction_4			faction	1	ovn_kroll_bundle4.png	true	false	true

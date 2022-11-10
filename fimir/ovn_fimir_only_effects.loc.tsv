@@ -150,3 +150,10 @@ effects_description_elo_fimir_r7_auxillaries_wps	Weapon strength: %+n% for Shear
 effects_description_fim_effect_recruitment_cost_fimm_warriors	Recruitment cost: %+n% for Fimm Warriors, and Fianna Fimm units	true
 effects_description_fim_effect_upkeep_fimm_warriors	Upkeep: %+n% for Fimm Warriors and Fianna Fimm units	true
 effects_description_fim_effect_force_recruit_rank_fimm_warriors	Recruit rank: %+n for Fimm Warriors and Fianna Fimm units	true
+effects_description_ovn_fimir_diplomacy_bonus_all_fimir	Diplomatic relations: %+n with Fimir	false
+effects_description_ovn_fimir_kroll_dmg_reflect_enable	Passive ability: "Bog Tendrils"	false
+effects_description_ovn_fimir_kroll_army_bonuses_dummy	Bonuses to Kroll's personal army	true
+effects_description_ovn_fimir_kroll_god_dummy_1	Trifling God	true
+effects_description_ovn_fimir_kroll_god_dummy_2	Renegade God (more than 9 temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (more than 19 temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (more than 29 temples)	true

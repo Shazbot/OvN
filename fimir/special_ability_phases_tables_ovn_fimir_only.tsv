@@ -10,3 +10,4 @@ ovn_fim_kroll_contact_constriction	15.0000	negative		false	false	false	0.0000	0.
 ovn_fim_kroll_broodmother	10.0000	negative		false	false	false	0.0000	0.0000	0.0000	1.0000	3971	100	false	0.0000	0.0000	false	0		wh3_main_nurgle_rancid_visitations		false	true	true	0.0000			false	0.0000	0.0000
 ovn_fim_kroll_fulcrum_of_worship	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0		wh3_dlc20_abilities_giver_of_glory	wh3_dlc20_ability_giver_of_glory	false	true	true	0.0000			false	0.0000	0.0000
 ovn_chs_dark_god_blessing	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	1.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0004	0.0000
+ovn_fimir_kroll_dmg_reflect	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000

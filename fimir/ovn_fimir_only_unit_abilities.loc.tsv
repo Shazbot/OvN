@@ -24,3 +24,5 @@ unit_abilities_tooltip_text_ovn_fim_kroll_broodmother	Kroll has been known to fo
 unit_abilities_onscreen_name_ovn_fim_kroll_broodmother	Broodmother	true
 unit_abilities_tooltip_text_ovn_fim_kroll_fulcrum_of_worship	Empowered by the sacrifices of her children and the deaths on the battlefield, Kroll grows ever mightier, as do her devout followers.	true
 unit_abilities_onscreen_name_ovn_fim_kroll_fulcrum_of_worship	Fulcrum of Worship	true
+unit_abilities_onscreen_name_ovn_fimir_kroll_dmg_reflect	Bog Tendrils	false
+unit_abilities_tooltip_text_ovn_fimir_kroll_dmg_reflect	Mutated tendrils have sprouted out of this creature's flesh and lash out at enemies.	false

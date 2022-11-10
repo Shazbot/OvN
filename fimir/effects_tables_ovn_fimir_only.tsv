@@ -118,3 +118,10 @@ fim_skattach_enable_throne_mount	mount.png	50	mount.png	both	true
 fim_effect_recruitment_cost_fimm_warriors	treasury.png	106	treasury.png	campaign	false
 fim_effect_upkeep_fimm_warriors	military_spending.png	105	military_spending.png	campaign	false
 fim_effect_force_recruit_rank_fimm_warriors	experience.png	120	experience.png	campaign	true
+ovn_fimir_diplomacy_bonus_all_fimir	diplomacy.png	145	diplomacy.png	campaign	true
+ovn_fimir_kroll_dmg_reflect_enable	wh2_dlc11_item_passive_helm_of_the_kraken.png	310	wh2_dlc11_item_passive_helm_of_the_kraken.png	battle	true
+ovn_fimir_kroll_army_bonuses_dummy	army.png	310	army.png	battle	true
+ovn_fimir_kroll_god_dummy_1	ovn_kroll_bundle1.png	310	ovn_kroll_bundle1.png	campaign	true
+ovn_fimir_kroll_god_dummy_2	ovn_kroll_bundle2.png	310	ovn_kroll_bundle2.png	campaign	true
+ovn_fimir_kroll_god_dummy_3	ovn_kroll_bundle3.png	310	ovn_kroll_bundle3.png	campaign	true
+ovn_fimir_kroll_god_dummy_4	ovn_kroll_bundle4.png	310	ovn_kroll_bundle4.png	campaign	true
