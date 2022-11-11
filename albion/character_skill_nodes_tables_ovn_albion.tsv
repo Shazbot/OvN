@@ -42,6 +42,7 @@ dural_generic_03		wh_main_skill_all_lord_battle_brass-lunged	node_set_dural_dura
 dural_generic_04		elo_protective_charms	node_set_dural_durak		0.0000	5.0000		0	0	true
 dural_generic_05		dural_mount_horse	node_set_dural_durak		0.0000	3.0000		0	0	true
 dural_generic_06		dural_mount_chariot	node_set_dural_durak		0.0000	2.0000		0	0	true
+dural_generic_07		wh3_main_skill_all_mentor_lord	node_set_dural_durak		0.0000	12.0000		0	0	true
 dural_loremaster		dural_loremaster	node_set_dural_durak		0.0000	8.0000		0	0	true
 dural_item_01		elo_staff_of_dural_durak	node_set_dural_durak		0.0000	0.0000		0	0	true
 dural_item_02		elo_amulet_old_ones	node_set_dural_durak		0.0000	1.0000		0	0	true
@@ -97,6 +98,7 @@ morrigan_unique_04		elo_protective_charms	node_set_morrigan		0.0000	4.0000		0	0	
 morrigan_unique_05		morrigan_raven_skill	node_set_morrigan		0.0000	2.0000		0	0	true
 morrigan_unique_06		morrigan_legendary_staff	node_set_morrigan		0.0000	1.0000		0	0	true
 morrigan_unique_07		morrigan_wings_bound	node_set_morrigan		0.0000	7.0000		0	0	true
+morrigan_generic_08		wh3_main_skill_all_mentor_lord	node_set_morrigan		0.0000	12.0000		0	0	true
 morrigan_legend_02		morrigan_darkened_skies	node_set_morrigan		1.0000	2.0000		0	0	true
 morrigan_legend_03		morrigan_omen_of_victory	node_set_morrigan		1.0000	3.0000		0	0	true
 morrigan_legend_04		morrigan_mage	node_set_morrigan		1.0000	4.0000		0	0	true
@@ -123,6 +125,7 @@ albion_chief_combat_3_4		wh_dlc05_skill_wef_general_personal_buff_battle_speed	n
 albion_chief_combat_4		wh_main_skill_all_all_self_deadly_onslaught	node_set_albion_chief		2.0000	10.0000		0	4	true
 albion_chief_generic_2		elo_fast_reflexes	node_set_albion_chief		0.0000	4.0000		0	0	true
 albion_chief_generic_3		elo_protective_charms	node_set_albion_chief		0.0000	5.0000		0	0	true
+albion_chief_generic_4		wh3_main_skill_all_mentor_hero	node_set_albion_chief		0.0000	12.0000		0	0	true
 albion_chief_immortality		wh2_main_skill_all_immortality_hero	node_set_albion_chief		0.0000	6.0000		0	0	true
 albion_chief_mount_1		chief_mount_skill	node_set_albion_chief		0.0000	0.0000		0	0	true
 albion_chief_mount_2		chief_chariot_skill	node_set_albion_chief		0.0000	1.0000		0	0	true
@@ -182,6 +185,7 @@ elo_warleader_unique_03		wh_main_skill_all_lord_battle_brass-lunged	node_set_war
 elo_warleader_unique_04		elo_protective_charms	node_set_warleader		0.0000	4.0000		0	0	true
 elo_warleader_unique_05		warleader_mount_skill	node_set_warleader		0.0000	1.0000		0	0	true
 elo_warleader_unique_06		warleader_chariot_skill	node_set_warleader		0.0000	2.0000		0	0	true
+elo_warleader_unique_07		wh3_main_skill_all_mentor_lord	node_set_warleader		0.0000	12.0000		0	0	true
 elo_warleader_tribes_01		sessair_leader	node_set_warleader		1.0000	1.0000		0	0	true
 elo_warleader_tribes_02		sessair_troops	node_set_warleader		1.0000	2.0000		0	0	true
 elo_warleader_tribes_03		fir_leader	node_set_warleader		1.0000	3.0000		0	0	true
@@ -459,6 +463,10 @@ truthsayer_unique_06_truth		teachings_old_ones	node_set_truth_truth		1.0000	2.00
 truthsayer_unique_07_truth		oral_tradition	node_set_truth_truth		1.0000	3.0000		0	0	true
 truthsayer_unique_08_truth		swamp_monsters	node_set_truth_truth		1.0000	4.0000		0	0	true
 truthsayer_unique_09_truth		ancient_allies	node_set_truth_truth		1.0000	5.0000		0	0	true
+truthsayer_unique_10_truth		wh3_main_skill_all_mentor_lord	node_set_truth_truth		0.0000	12.0000		0	0	true
+truthsayer_unique_10_beasts		wh3_main_skill_all_mentor_lord	node_set_truth_beasts		0.0000	12.0000		0	0	true
+truthsayer_unique_10_life		wh3_main_skill_all_mentor_lord	node_set_truth_life		0.0000	12.0000		0	0	true
+truthsayer_unique_10__light		wh3_main_skill_all_mentor_lord	node_set_truth_light		0.0000	12.0000		0	0	true
 wyrd_campaign_01		wh2_main_skill_all_hero_assist_army_scouting	node_set_albion_wizard		5.0000	0.0000		0	0	true
 wyrd_campaign_02		wh2_main_skill_all_hero_passive_boost_income	node_set_albion_wizard		5.0000	1.0000		0	0	true
 wyrd_campaign_03		wh2_main_skill_all_hero_hinder_settlement_steal_technology	node_set_albion_wizard		5.0000	2.0000		0	0	true
@@ -495,6 +503,7 @@ wyrd_unique_03		elo_protective_charms	node_set_albion_wizard		0.0000	3.0000		0	0
 wyrd_unique_04		warrior_shaman	node_set_albion_wizard		1.0000	1.0000		0	0	true
 wyrd_unique_05		wyrd_spellbinder	node_set_albion_wizard		1.0000	2.0000		0	0	true
 wyrd_unique_06		wyrd_channeler	node_set_albion_wizard		1.0000	3.0000		0	0	true
+wyrd_unique_07		wh3_main_skill_all_mentor_hero	node_set_albion_wizard		0.0000	12.0000		0	0	true
 node_set_dural_durak_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_dural_durak		99.0000	0.0000		0	0	false
 node_set_morrigan_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_morrigan		99.0000	0.0000		0	0	false
 node_set_albion_chief_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	node_set_albion_chief		99.0000	0.0000		0	0	false

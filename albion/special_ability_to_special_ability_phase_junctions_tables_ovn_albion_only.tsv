@@ -16,7 +16,7 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	spell_truth_boon_courage	true	true	false	spell_truth_boon_courage
 1	spell_truth_boon_courage_upgraded	true	true	false	spell_truth_boon_courage_upgraded
 1	magic_siphon	false	false	true	magic_siphon
-1	embodiment_albion	false	false	true	embodiment_albion
+1	embodiment_albion	true	false	false	embodiment_albion
 1	albion_warcry	true	true	false	albion_warcry
 1	omen_of_doom	false	false	true	omen_of_doom
 1	omen_of_war	true	true	false	omen_of_war
