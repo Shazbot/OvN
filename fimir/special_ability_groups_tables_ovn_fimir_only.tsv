@@ -1,4 +1,5 @@
 ability_group	icon_path	special_edition_mask	sort_order	is_naval	button_name	sound_event	is_composite_group	unique_id	sound_switch	show_lore_icon	colour_hex
 #special_ability_groups_tables;11;db/special_ability_groups_tables/ovn_fimir_only											
-elo_lore_boglar	UI\Battle UI\ability_icons\wh_main_lore_passive_sneaky_stealin.png	0	0	false	lore_boglar	Play_WH_UI_Ability_Click_Generic_Lil_Waaagh	true	0		false	46003B
-fim_lore_kroll	UI\Battle UI\ability_icons\wh2_dlc11_lore_passive_kiss_of_the_deep.png	0	0	false	lore_kroll	Play_WH_UI_Ability_Click_Generic_Death	true	0		false	46003B
+elo_lore_boglar	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_boglar	Play_WH_UI_Ability_Click_Generic_Lil_Waaagh	true	9595987442		false	46003B
+fim_lore_kroll	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_kroll	Play_WH_UI_Ability_Click_Generic_Death	true	9595987443		false	46003B
+fim_lore_skattach	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_tzeentch	Play_WH_UI_Ability_Click_Generic_Death	true	9595987444	Tzeentch	true	46003B

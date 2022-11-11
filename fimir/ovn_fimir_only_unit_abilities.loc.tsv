@@ -24,5 +24,12 @@ unit_abilities_tooltip_text_ovn_fim_kroll_broodmother	Kroll has been known to fo
 unit_abilities_onscreen_name_ovn_fim_kroll_broodmother	Broodmother	true
 unit_abilities_tooltip_text_ovn_fim_kroll_fulcrum_of_worship	Empowered by the sacrifices of her children and the deaths on the battlefield, Kroll grows ever mightier, as do her devout followers.	true
 unit_abilities_onscreen_name_ovn_fim_kroll_fulcrum_of_worship	Fulcrum of Worship	true
+special_ability_phases_onscreen_name_fim_skattach_madness		true
+unit_abilities_tooltip_text_fim_skattach_madness	"YESSS, MAGIC, POWER, I SSSHAL HAVE IT ALL!"	true
+unit_abilities_onscreen_name_fim_skattach_madness	Megalomaniacal Spellcasting	true
 unit_abilities_onscreen_name_ovn_fimir_kroll_dmg_reflect	Bog Tendrils	false
 unit_abilities_tooltip_text_ovn_fimir_kroll_dmg_reflect	Mutated tendrils have sprouted out of this creature's flesh and lash out at enemies.	false
+unit_abilities_tooltip_text_ovn_fimir_skattach_throne_command_attack	"DESSSSTROY THEM MY CHILDREN! CRUSSSH ALL WHO OPOSSSSE THE GREAT HELLMOTHER!"	true
+unit_abilities_onscreen_name_ovn_fimir_skattach_throne_command_attack	Hellmother's Bidding: Crush our Foes	true
+unit_abilities_tooltip_text_ovn_fimir_skattach_throne_command_defend	"MY FIMM! I NEED ASSSSSITANCE! MOTHER SSSSKATACH CALLSSSS TO YOU! DEFEND ME!"	true
+unit_abilities_onscreen_name_ovn_fimir_skattach_throne_command_defend	Hellmother's Bidding: Protect the Throne	true

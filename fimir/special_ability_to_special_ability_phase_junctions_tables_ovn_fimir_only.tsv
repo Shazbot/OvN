@@ -9,4 +9,7 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	ovn_fim_kroll_broodmother	false	false	true	ovn_fim_kroll_broodmother
 1	ovn_fim_kroll_fulcrum_of_worship	true	true	false	ovn_fim_kroll_fulcrum_of_worship
 1	ovn_chs_dark_god_blessing	true	true	false	ovn_chs_dark_god_blessing
+1	fim_skattach_madness	true	false	false	fim_skattach_madness
 1	ovn_fimir_kroll_dmg_reflect	true	false	false	ovn_fimir_kroll_dmg_reflect
+1	ovn_fimir_skattach_throne_command_attack	false	true	false	ovn_fimir_skattach_throne_command_attack
+1	ovn_fimir_skattach_throne_command_defend	false	true	false	ovn_fimir_skattach_throne_command_defend
