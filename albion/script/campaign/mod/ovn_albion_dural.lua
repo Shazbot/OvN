@@ -143,7 +143,9 @@ cm:add_first_tick_callback(function() ovn_albion_weather() end);
 
 cm:add_first_tick_callback(
 	function()
-        mixer_set_faction_trait("ovn_alb_order_of_the_truthsayers", "ovn_lord_trait_alb_dural_durak", true)
+        pcall(function()
+            mixer_set_faction_trait("ovn_alb_order_of_the_truthsayers", "ovn_lord_trait_alb_dural_durak", true)
+        end)
 		if cm:is_new_game() then
 			if cm:get_campaign_name() == "main_warhammer" then
 				local ok, err =

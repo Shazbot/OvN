@@ -129,7 +129,9 @@ end
 
 cm:add_first_tick_callback(
 	function()
-        mixer_set_faction_trait("ovn_alb_host_ravenqueen", "ovn_lord_trait_alb_morrigan", true)
+        pcall(function()
+            mixer_set_faction_trait("ovn_alb_host_ravenqueen", "ovn_lord_trait_alb_morrigan", true)
+        end)
 		if cm:is_new_game() then
 			if cm:get_campaign_name() == "main_warhammer" then
 				local ok, err =
