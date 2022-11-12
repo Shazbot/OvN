@@ -2,8 +2,7 @@ local rancor_hold_faction_key = "ovn_fim_rancor_hold"
 
 local function rancor_hold_ui_stuff()
     local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/hud_campaign_resource_bar_wh3"))
-    find_uicomponent(ovn_fimir_topbar_eye, "treasury_holder"):SetVisible(false)
+    local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/ovn_fimir_resource_bar_wh3"))
     find_uicomponent(ovn_fimir_topbar_eye, "eye_of_the_gods_holder"):SetVisible(true)
     ovn_fimir_topbar_eye:SetCanResizeWidth(true)
     ovn_fimir_topbar_eye:Resize(200, ovn_fimir_topbar_eye:Height())
