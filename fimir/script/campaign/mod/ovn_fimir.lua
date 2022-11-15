@@ -77,14 +77,14 @@ local function on_every_first_tick()
             for i = 1, cm:pending_battle_cache_num_defenders() do
                 local this_char_cqi = cm:pending_battle_cache_get_defender(i);
                 local char = cm:get_character_by_cqi(this_char_cqi)
-                if char:faction():subculture()=="ovn_sc_fim_fimir" then
+                if char and char:faction():subculture()=="ovn_sc_fim_fimir" then
                     cm:remove_effect_bundle_from_characters_force("ovn_fimir_fog_diktat_empty", char:cqi())
                 end
             end
             for i = 1, cm:pending_battle_cache_num_attackers() do
                 local this_char_cqi = cm:pending_battle_cache_get_attacker(i);
                 local char = cm:get_character_by_cqi(this_char_cqi)
-                if char:faction():subculture()=="ovn_sc_fim_fimir" then
+                if char and char:faction():subculture()=="ovn_sc_fim_fimir" then
                     cm:remove_effect_bundle_from_characters_force("ovn_fimir_fog_diktat_empty", char:cqi())
                 end
             end
