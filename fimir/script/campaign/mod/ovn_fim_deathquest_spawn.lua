@@ -18,9 +18,9 @@ local function give_death_quest_after_faction_dies(died_faction_key)
             if cm:get_faction(fimir_faction_key):is_human() then
                 cm:show_message_event(
                     fimir_faction_key,
-                    "event_feed_fim_lost_rancor_hold_start_title",
-                    "event_feed_fim_lost_rancor_hold_primary_detail",
-                    "event_feed_fim_lost_rancor_hold_secondary_detail",
+                    "event_feed_fim_lost_"..tostring(died_faction_key).."_start_title",
+                    "event_feed_fim_lost_"..tostring(died_faction_key).."_primary_detail",
+                    "event_feed_fim_lost_"..tostring(died_faction_key).."_secondary_detail",
                     true,
                     2511
                 );
