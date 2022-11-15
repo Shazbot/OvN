@@ -1,7 +1,35 @@
-local function ovn_fim_deathquest_spawn()
-    local kroll_faction_key = "ovn_fim_tendrils_of_doom";
-    local rancor_faction_key = "ovn_fim_rancor_hold";
+local fimir_faction_keys = {
+    "ovn_fim_rancor_hold",
+    "ovn_fim_tendrils_of_doom",
+    "ovn_fim_marsh_hornets",
+    "ovn_fim_mist_dragons",
+}
 
+local kroll_faction_key = "ovn_fim_tendrils_of_doom";
+local rancor_faction_key = "ovn_fim_rancor_hold";
+
+local function give_death_quest_after_faction_dies(died_faction_key)
+    for _, fimir_faction_key in ipairs(fimir_faction_keys) do
+        if fimir_faction_key ~= died_faction_key then
+            local FimFaction = cm:get_faction(fimir_faction_key)
+
+            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 3, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
+            
+            if cm:get_faction(fimir_faction_key):is_human() then
+                cm:show_message_event(
+                    fimir_faction_key,
+                    "event_feed_fim_lost_rancor_hold_start_title",
+                    "event_feed_fim_lost_rancor_hold_primary_detail",
+                    "event_feed_fim_lost_rancor_hold_secondary_detail",
+                    true,
+                    2511
+                );
+            end
+        end
+    end
+end
+
+local function ovn_fim_deathquest_spawn()
     core:add_listener(
         "ovn_fim_spawn_deathquest_lost_battle",
         "CharacterCompletedBattle",
@@ -16,7 +44,7 @@ local function ovn_fim_deathquest_spawn()
 
             cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
 
-            if cm:get_faction(kroll_faction_key):is_human() or cm:get_faction(rancor_faction_key):is_human() then
+            if FimFaction:is_human() then
                 cm:show_message_event(
                     context:character():faction():name(),
                     "event_feed_fim_lost_battle_start_title",
@@ -34,14 +62,14 @@ local function ovn_fim_deathquest_spawn()
         "ovn_fim_spawn_deathquest_lost_char",
         "CharacterConvalescedOrKilled",
         function(context)
-                return context:character():faction():culture()  == "ovn_fimir" and (context:character():character_type_key() == "general" or context:character():character_type_key() == "colonel")
+                return context:character():faction():culture() == "ovn_fimir" and (context:character():character_type_key() == "general" or context:character():character_type_key() == "colonel")
         end,
         function(context)
             local FimFaction = context:character():faction()
 
             cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
 
-            if cm:get_faction(kroll_faction_key):is_human() or cm:get_faction(rancor_faction_key):is_human() then
+            if FimFaction:is_human() then
                 cm:show_message_event(
                     context:character():faction():name(),
                     "event_feed_fim_lost_battle_start_title",
@@ -59,24 +87,10 @@ local function ovn_fim_deathquest_spawn()
         core:add_listener(
             "ovn_fim_spawn_deathquest_lost_rancorhold",
             "FactionTurnStart",
-            function(context) return context:faction():culture()  == "ovn_fimir" and cm:get_faction("ovn_fim_rancor_hold"):is_dead()
+            function(context) return not cm:get_saved_value("ovn_fimir_rancorhold_dead") and context:faction():culture()  == "ovn_fimir" and cm:get_faction("ovn_fim_rancor_hold"):is_dead()
             end,
             function(context)
-                local FimFaction = cm:get_faction(kroll_faction_key)
-
-                cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 3, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
-                
-                if cm:get_faction(kroll_faction_key):is_human() then
-                    cm:show_message_event(
-                        kroll_faction_key,
-                        "event_feed_fim_lost_rancor_hold_start_title",
-                        "event_feed_fim_lost_rancor_hold_primary_detail",
-                        "event_feed_fim_lost_rancor_hold_secondary_detail",
-                        true,
-                        2511
-                    );
-                end
-
+                give_death_quest_after_faction_dies("ovn_fim_rancor_hold")
                 cm:set_saved_value("ovn_fimir_rancorhold_dead", true);
             end,
             false
@@ -87,23 +101,10 @@ local function ovn_fim_deathquest_spawn()
         core:add_listener(
             "ovn_fim_spawn_deathquest_lost_kroll",
             "FactionTurnStart",
-            function(context) return context:faction():culture() == "ovn_fimir" and cm:get_faction("ovn_fim_tendrils_of_doom"):is_dead()
+            function(context) return not cm:get_saved_value("ovn_fimir_kroll_dead") and context:faction():culture() == "ovn_fimir" and cm:get_faction("ovn_fim_tendrils_of_doom"):is_dead()
             end,
             function(context)
-                local FimFaction = cm:get_faction(rancor_faction_key)
-
-                cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 3, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
-
-                if cm:get_faction(rancor_faction_key):is_human() then
-                    cm:show_message_event(
-                        rancor_faction_key,
-                        "event_feed_fim_lost_kroll_start_title",
-                        "event_feed_fim_lost_kroll_primary_detail",
-                        "event_feed_fim_lost_kroll_secondary_detail",
-                        true,
-                        2511
-                    );
-                end
+                give_death_quest_after_faction_dies("ovn_fim_tendrils_of_doom")
                 cm:set_saved_value("ovn_fimir_kroll_dead", true);
             end,
             false
@@ -114,28 +115,11 @@ local function ovn_fim_deathquest_spawn()
         core:add_listener(
             "ovn_fim_spawn_deathquest_lost_mistdragons",
             "FactionTurnStart",
-            function(context) return context:faction():culture()  == "ovn_fimir" and cm:get_faction("ovn_fim_mist_dragons"):is_dead()
+            function(context) return not cm:get_saved_value("ovn_fimir_mist_dragons_dead") and context:faction():culture()  == "ovn_fimir" and cm:get_faction("ovn_fim_mist_dragons"):is_dead()
             end,
             function(context)
-                for _, human_fimir_faction_key in ipairs({kroll_faction_key, rancor_faction_key}) do
-                    local FimFaction = cm:get_faction(human_fimir_faction_key)
-
-                    cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 3, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
-        
-                    if FimFaction:is_human() then
-                        cm:show_message_event(
-                            human_fimir_faction_key,
-                            "event_feed_fim_lost_mist_dragons_start_title",
-                            "event_feed_fim_lost_mist_dragons_primary_detail",
-                            "event_feed__fim_lost_mist_dragons_secondary_detail",
-                            true,
-                            2511
-                        );
-                    end
-                end
-
+                give_death_quest_after_faction_dies("ovn_fim_mist_dragons")
                 cm:set_saved_value("ovn_fimir_mist_dragons_dead", true);
-
             end,
             false
         )
@@ -145,28 +129,11 @@ local function ovn_fim_deathquest_spawn()
         core:add_listener(
             "ovn_fim_spawn_deathquest_lost_marshhornets",
             "FactionTurnStart",
-            function(context) return context:faction():culture()  == "ovn_fimir" and cm:get_faction("ovn_fim_marsh_hornets"):is_dead()
+            function(context) return not cm:get_saved_value("ovn_fimir_marsh_hornets_dead") and context:faction():culture()  == "ovn_fimir" and cm:get_faction("ovn_fim_marsh_hornets"):is_dead()
             end,
             function(context)
-                for _, human_fimir_faction_key in ipairs({kroll_faction_key, rancor_faction_key}) do
-                    local FimFaction = cm:get_faction(human_fimir_faction_key)
-
-                    cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 3, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
-        
-                    if FimFaction:is_human() then
-                        cm:show_message_event(
-                            human_fimir_faction_key,
-                            "event_feed_fim_lost_marsh_hornets_start_title",
-                            "event_feed_fim_lost_marsh_hornets_primary_detail",
-                            "event_feed_fim_lost_marsh_hornets_secondary_detail",
-                            true,
-                            2511
-                        );
-                    end
-                end
-
+                give_death_quest_after_faction_dies("ovn_fim_marsh_hornets")
                 cm:set_saved_value("ovn_fimir_marsh_hornets_dead", true);
-
             end,
             false
         )
