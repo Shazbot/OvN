@@ -1,0 +1,17 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_fimir_death_quest_ef.loc		
+event_feed_fim_lost_battle_start_title	Death-Quest	true
+event_feed_fim_lost_battle_primary_detail	Exiles Returned	true
+event_feed_fim_lost_battle_secondary_detail	With the heavy losses in a recent battle, survivors singled out for displeasing the Clan have been exiled. Many have fragmented and formed Death Quests, one such group has returned to redeem themselves, and are available for recruitment if you so choose.	true
+event_feed_fim_lost_rancor_hold_start_title	Death-Quest	true
+event_feed_fim_lost_rancor_hold_primary_detail	The Fall of Rancor Hold	true
+event_feed_fim_lost_rancor_hold_secondary_detail	Meargh Skattach and her clan of Rancor Hold have fallen, the remanants fragmented have formed Death-Quests, with one band seeking out the mighty Kroll and are available for recruitment if you so choose.	true
+event_feed_fim_lost_kroll_start_title	Death-Quest	true
+event_feed_fim_lost_kroll_primary_detail	The Fall of the Tendrils of Doom 	true
+event_feed_fim_lost_kroll_secondary_detail	Kroll and her clan of the Tendrils of Doom have fallen, the remanants fragmented have formed Death-Quests, with one band seeking out the mighty Meargh Skattach and are available for recruitment if you so choose.	true
+event_feed_fim_lost_mist_dragons_start_title	Death-Quest	true
+event_feed_fim_lost_mist_dragons_primary_detail	Mist Dragon Death-Quest	true
+event_feed__fim_lost_mist_dragons_secondary_detail	The mysterious far eastern clan of Mist Dragon have fallen, the remanants fragmented have formed Death-Quests, with one band seeking out our mighty clan and are available for recruitment if you so choose.	true
+event_feed_fim_lost_marsh_hornets_start_title	Death-Quest	true
+event_feed_fim_lost_marsh_hornets_primary_detail	Marsh Hornets Death-Quest	true
+event_feed_fim_lost_marsh_hornets_secondary_detail	The clan of Marsh Hornets have fallen, the remanants fragmented have formed Death-Quests, scattering from the choking Darklands, one such band has sought out our mighty clan and are available for recruitment if you so choose.	true
