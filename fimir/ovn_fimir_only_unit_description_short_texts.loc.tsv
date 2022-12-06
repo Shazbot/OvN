@@ -12,7 +12,7 @@ unit_description_short_texts_text_fim_skattach_short_text	Skattach is one of the
 unit_description_short_texts_text_ovn_nuckelavee	These horrifying, fleshless amalgams of man and horse are among the cruellest and most monstrous of the daemons summoned by the Fimir. Once they emerge from their refuges beneath the waters, only destruction satifies their merciless crusade.	true
 unit_description_short_texts_text_ovn_daemonomaniac	The product of a powerful daemon being successfully bound within the body of a Fimir of the warrior caste. The possessed Fimir grows to an enormous size and may mutate to have one or both of its hands end in a long blade.	true
 unit_description_short_texts_text_ovn_swamp_daemons	Longtime servants and allies of the Fimir, Swamp Daemons stalk through the waters, barely seen until they strike.	true
-unit_description_short_texts_text_ovn_eye_oculus	A massive, mobile altar made from rotting wood, pulled forth by a Fenbeast. Atop the diamond-chamber floats a mighty Oculus, a daemonic servant of Balor, to oversee the Fimir and destroy their foes with its gaze.	true
+unit_description_short_texts_text_ovn_eye_oculus	A massive, mobile altar pulled forth by a pair of Bog Beasts. A mighty Oculus, a daemonic servant of Balor, sits atop to oversee the Fimir and destroy their foes with its gaze.	true
 unit_description_short_texts_text_ovn_marsh_hornets_ror	These veteran riders of the Fimir inflict a painful sting on the enemy's flanks.	true
 unit_description_short_texts_text_ovn_daemonomaniac_ror	The name of the Fimir warrior who provided the host body of the Daemonomaniac is long forgotten, but he became the most successful and powerful creation of the Dirach.	true
 unit_description_short_texts_text_ovn_moor_hounds_ror	These nightmarish creatures have haunted and terrorized the moors of Basker for centuries.	true
@@ -29,3 +29,4 @@ unit_description_short_texts_text_ovn_killing_eye	When Killing Eye clan was left
 unit_description_short_texts_text_elo_boglar_shaman	Some Boglars have a innate talent for magic. They often rise to positions of leadership within their tribe.	true
 unit_description_short_texts_text_ovn_unit_short_text_fim_bog_octopus_0	Once caught by a Bog Octopus's tentacle, it is very hard for all but the strongest creatures to escape!	true
 unit_description_short_texts_text_fim_cha_daemon_octopus_kroll	Mighty Daemon Prince and Mother of the Bog Octopuses, worshipped by all Fimir.	true
+unit_description_short_texts_text_fim_mon_bog_beasts	These abominable amphibians are bred for war by the Fimir.	true

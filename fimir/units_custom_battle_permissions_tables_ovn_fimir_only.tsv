@@ -41,3 +41,4 @@ ovn_fim_rancor_hold	false	fim_mon_daemonomaniac	true	true				false
 ovn_fim_rancor_hold	false	fim_mon_daemonomaniac_ror	true	true				false	
 ovn_fim_rancor_hold	false	fim_veh_eye_oculus	true	true				false	
 ovn_fim_rancor_hold	false	ovn_fim_mon_bog_octopus_0	true	true				false	
+ovn_fim_rancor_hold	false	fim_mon_bog_beasts	true	true				true	

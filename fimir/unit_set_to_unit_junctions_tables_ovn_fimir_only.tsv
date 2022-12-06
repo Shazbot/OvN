@@ -97,6 +97,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_boglar	elo_low_level_swamp_dwellers	false
 			fim_inf_moor_hounds	elo_low_level_swamp_dwellers	false
 			fim_inf_swamp_daemons	elo_fimir_trolls	false
+			fim_mon_bog_beasts_summon	elo_swamp_riders	false
+			fim_mon_bog_beasts	elo_swamp_riders	false
 			fim_cav_marsh_reavers	elo_swamp_riders	false
 			fim_cav_nuckelavee	elo_swamp_riders	false
 			fim_mon_daemonomaniac	elo_fen_big_dwellers	false
@@ -104,6 +106,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_inf_moor_hounds	elo_fen_monster_rulers	false
 			fim_inf_swamp_daemons	elo_fen_monster_rulers	false
 			fim_cav_nuckelavee	elo_fen_monster_rulers	false
+			fim_mon_bog_beasts_summon	elo_fen_monster_rulers	false
+			fim_mon_bog_beasts	elo_fen_monster_rulers	false
 			fim_cav_marsh_reavers	elo_fen_monster_rulers	false
 			wh_dlc08_nor_cha_fimir_balefiend_fire_0	elo_fen_lord_heroes	false
 			wh_dlc08_nor_cha_fimir_balefiend_shadow_0	elo_fen_lord_heroes	false
@@ -183,6 +187,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			fim_cav_marsh_hornets_ror	fimir_rushers	false
 			fim_cav_marsh_hornets_ror	fimir_r7_fast	false
 			fim_cav_marsh_hornets_ror	dlc08_nor_fimirs	false
+			fim_mon_bog_beasts	dlc08_nor_fimirs	false
+			fim_mon_bog_beasts_summon	dlc08_nor_fimirs	false
 			fim_cav_marsh_hornets_ror	all_units	false
 			fim_cav_marsh_hornets_ror	elo_swamp_riders	false
 			fim_cav_marsh_hornets_ror	elo_fen_monster_rulers	false
@@ -222,6 +228,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_fim_mon_bog_octopus_0	fimir_giants_fen	false
 			fim_cha_daemon_octopus_kroll	chs_lords	false
 			fim_cha_daemon_octopus_kroll	ovn_fim_kroll	false
+			fim_mon_bog_beasts	all_units	false
+			fim_mon_bog_beasts_summon	all_units	false
 			ovn_fim_mon_bog_octopus_summon	all_units	false
 			ovn_fim_mon_bog_octopus_summon	elo_fen_big_dwellers	false
 			ovn_fim_mon_bog_octopus_summon	fimir_r7_giants	false
