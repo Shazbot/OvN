@@ -67,9 +67,9 @@ effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Shearl S
 effects_description_elo_fimir_r7_fast_wps	Weapon strength: %+n% for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Raiders units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_ma	Melee attack: %+n for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Raiders units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_fast_ch	Charge bonus: %+n for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Raiders {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_ward	Ward save: %n% for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Eye Oculus of Balor units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_wps	Weapon strength: %+n% for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Eye Oculus of Balor units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Eye Oculus of Balor units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_ward	Ward save: %n% for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Fog-Shrine of Balor units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_wps	Weapon strength: %+n% for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Fog-Shrine of Balor units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Fog-Shrine of Balor units {{tr:rank7}}	true
 effects_description_fimir_slaves_upkeep	Upkeep: %+n% for Boglars, and Shearls units	true
 effects_description_fimir_slaves_cost	Recruitment cost: %+n% for Boglars, and Shearls units	true
 effects_description_fimir_warrior_elite_xp	Recruitment rank: %+n for Fimm Warriors, and Fianna Fimm units	true
@@ -102,9 +102,9 @@ effects_description_elo_fimir_trolls_armour	Armour: %+n for Swamp Daemons, and F
 effects_description_elo_swamp_riders_speed	Speed: %+n% for Nuckelavees, and Bog Raiders units	true
 effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Nuckelavees and Bog Raiders	true
 effects_description_elo_swamp_riders_charge	Charge bonus: %+n for Nuckelavees and Bog Raiders	true
-effects_description_elo_fen_big_dwellers_xp	Recruitment rank: %+n for Bog Octopus, Eye Oculus of Balor, and Daemonomaniacs units	true
-effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Bog Octopus, Eye Oculus of Balor, and Daemonomaniacs units	true
-effects_description_elo_fen_big_dwellers_ward	Ward save: %n% for Bog Octopus, Eye Oculus of Balor, and Daemonomaniacs units	true
+effects_description_elo_fen_big_dwellers_xp	Recruitment rank: %+n for Bog Octopus, Fog-Shrine of Balor, and Daemonomaniacs units	true
+effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Bog Octopus, Fog-Shrine of Balor, and Daemonomaniacs units	true
+effects_description_elo_fen_big_dwellers_ward	Ward save: %n% for Bog Octopus, Fog-Shrine of Balor, and Daemonomaniacs units	true
 effects_description_elo_fen_monster_rulers_matt	Melee attack: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders, and Bog Octopus units	true
 effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders and Bog Octopus units	true
 effects_description_elo_fen_monster_rulers_resmis	Missile resistance: %n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders, and Bog Octopus units	true
@@ -139,13 +139,14 @@ effects_description_fim_kroll_enable_fulcrum	Ability: "Fulcrum of Worship"	true
 effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon strength, Mass and Armour for each Temple of Kroll built in a major settlement	true
 effects_description_fim_kroll_temple_apotheosis_scale		false
 effects_description_ovn_fim_kroll_apotheosis_dummy	The Followers of Kroll can erect temples in her name at province capitals, increasing her Mass, Armour and Weapon strength by %+n% each time	true
+effects_description_ovn_fim_skattach_daemon_summoning_dummy	The Rancor Hold Fimir are closely aligned with the Forces of Chaos, and benefit from the Eye of the Gods and Gifts of Chaos mechanics, being able to sacrifice slaves to earn favour and rewards from the Chaos Gods.	true
 effects_description_ovn_fimir_slaves_capacity	Faction slave capacity: +%n	false
 effects_description_elo_fimir_bog_monsters_ma	Melee attack: %+n for Chaos Furies, Swamp Daemons, and Fen Beasts units	true
 effects_description_elo_fimir_bog_monsters_arm	Armour: %+n for Chaos Furies, Swamp Daemons, and Fen Beasts units	true
 effects_description_elo_fimir_swamp_warriors_wps	Weapon strength: %+n% for Fimm Mistmors, and Fianna Fimm units	true
 effects_description_elo_fimir_giants_fen_md	Melee defence: %+n for Bog Octopus, and Daemonomaniacs units	true
-effects_description_fim_effect_force_stat_missile_damage_fimir_ranged_units	Missile strength: %+n% for Shearl Scouts, Balefiend Apprentices, and Eye Oculus of Balor units	true
-effects_description_fim_effect_force_stat_ammunition_fimir_ranged_units	Ammunition: %+n% for Shearl Scouts, Balefiend Apprentices, and Eye Oculus of Balor units	true
+effects_description_fim_effect_force_stat_missile_damage_fimir_ranged_units	Missile strength: %+n% for Shearl Scouts, Balefiend Apprentices, and Fog-Shrine of Balor units	true
+effects_description_fim_effect_force_stat_ammunition_fimir_ranged_units	Ammunition: %+n% for Shearl Scouts, Balefiend Apprentices, and Fog-Shrine of Balor units	true
 effects_description_elo_fimir_r7_auxillaries_wps	Weapon strength: %+n% for Shearl Scouts, Swamp Daemons, Fimm Mistmors, and Fen Beasts units {{tr:rank7}}	true
 effects_description_fim_effect_recruitment_cost_fimm_warriors	Recruitment cost: %+n% for Fimm Warriors, and Fianna Fimm units	true
 effects_description_fim_effect_upkeep_fimm_warriors	Upkeep: %+n% for Fimm Warriors and Fianna Fimm units	true
@@ -159,3 +160,5 @@ effects_description_ovn_fimir_kroll_god_dummy_1	Trifling God	true
 effects_description_ovn_fimir_kroll_god_dummy_2	Renegade God (more than 9 temples)	true
 effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (more than 19 temples)	true
 effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (more than 29 temples)	true
+effects_description_ovn_fim_enable_army_ability_fog_fimul	Army ability: "Fog of Fimul"	false
+effects_description_ovn_fim_enable_army_ability_spawn_beasts	Army ability: "Creatures of the Bog"	false

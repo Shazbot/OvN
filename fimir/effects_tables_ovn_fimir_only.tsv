@@ -112,6 +112,7 @@ fim_kroll_enable_fulcrum	general_ability.png	600	general_ability.png	battle	true
 fim_kroll_temple_apotheosis	mass_character.png	600	general_ability.png	battle	true
 fim_kroll_temple_apotheosis_scale		0		campaign	true
 ovn_fim_kroll_apotheosis_dummy	weapon_damage_character.png	1	weapon_damage.png	battle	true
+ovn_fim_skattach_daemon_summoning_dummy	corruption_chaos.png	1	corruption_chaos.png	campaign	true
 ovn_chs_dark_god_blessing	general_ability.png	4	general_ability.png	battle	true
 ovn_fimir_slaves_capacity	slaves.png	105	slaves.png	campaign	true
 fim_skattach_enable_throne_mount	mount.png	50	mount.png	both	true
@@ -127,3 +128,9 @@ ovn_fimir_kroll_god_dummy_1	ovn_kroll_bundle1.png	310	ovn_kroll_bundle1.png	camp
 ovn_fimir_kroll_god_dummy_2	ovn_kroll_bundle2.png	310	ovn_kroll_bundle2.png	campaign	true
 ovn_fimir_kroll_god_dummy_3	ovn_kroll_bundle3.png	310	ovn_kroll_bundle3.png	campaign	true
 ovn_fimir_kroll_god_dummy_4	ovn_kroll_bundle4.png	310	ovn_kroll_bundle4.png	campaign	true
+ovn_fim_enable_army_ability_cursed_mist_HIDDEN	general_ability.png	600	general_ability.png	both	true
+ovn_fim_enable_army_ability_cursed_mist	general_ability.png	600	general_ability.png	both	true
+ovn_fim_enable_army_ability_fog_fimul_HIDDEN	general_ability.png	600	general_ability.png	both	true
+ovn_fim_enable_army_ability_fog_fimul	general_ability.png	600	general_ability.png	both	true
+ovn_fim_enable_army_ability_spawn_beastsy_HIDDEN	general_ability.png	600	general_ability.png	both	true
+ovn_fim_enable_army_ability_spawn_beasts	general_ability.png	600	general_ability.png	both	true

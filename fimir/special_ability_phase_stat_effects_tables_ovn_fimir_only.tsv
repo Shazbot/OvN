@@ -26,3 +26,4 @@ ovn_fimir_army_ability_cursed_mist	scalar_charge_speed	0.5500	mult
 ovn_fimir_army_ability_cursed_mist	scalar_speed	0.5500	mult
 ovn_fimir_army_ability_cursed_mist	scalar_missile_range	0.5000	mult
 ovn_fimir_army_ability_fog_of_fimul	scalar_speed	1.5500	mult
+ovn_fim_shrine_enshrouded_glory	stat_resistance_missile	15.0000	add

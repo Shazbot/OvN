@@ -15,3 +15,4 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	ovn_fimir_skattach_throne_command_defend	false	true	false	ovn_fimir_skattach_throne_command_defend
 1	ovn_fimir_army_ability_cursed_mist	false	false	true	ovn_fimir_army_ability_cursed_mist
 1	ovn_fimir_army_ability_fog_of_fimul	false	true	false	ovn_fimir_army_ability_fog_of_fimul
+1	ovn_fim_shrine_enshrouded_glory	true	true	false	ovn_fim_shrine_enshrouded_glory

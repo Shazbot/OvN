@@ -10,7 +10,7 @@ unit_abilities_tooltip_text_magic_siphon	These unnatural creatures require magic
 unit_abilities_onscreen_name_magic_siphon	Magic Dependant	false
 unit_abilities_tooltip_text_elo_fimir_witness_me	The Fimir will do anything for but a moment of attention from the Dark Gods. No act of bravery is too foolhardy, no act of cruelty too savage.	false
 unit_abilities_onscreen_name_elo_fimir_witness_me	Under the Eyes of the Gods	false
-unit_abilities_onscreen_name_ovn_unit_passive_aura_great_eye	The Great Eye is always watching	false
+unit_abilities_onscreen_name_ovn_unit_passive_aura_great_eye	Favour of Balor	false
 unit_abilities_tooltip_text_ovn_unit_passive_aura_great_eye	Under the stern gaze of Balor, the Fimir dare not waver in the face of the enemy.	false
 unit_abilities_onscreen_name_embodiment_albion	Embodiment of Albion	false
 unit_abilities_tooltip_text_embodiment_albion	Fen Hulks are embodiments of the corrupted lands of Albion. Wherever they go, the land is corrupted into muddy bogs which greatly hinder their enemies.	false
@@ -45,3 +45,6 @@ unit_abilities_onscreen_name_ovn_fimir_army_ability_fog_of_fimul	Fog of Fimul	tr
 unit_abilities_tooltip_text_ovn_fimir_army_ability_summon_mist_creatures	"They are coming from the mist!"	true
 unit_abilities_onscreen_name_ovn_fimir_army_ability_summon_mist_creatures	Creatures of the Bog	true
 unit_abilities_additional_ui_effects_localised_text_ovn_fim_kroll_summon_bogbeasts	Summons a pack of Feral Bog Beasts	true
+special_ability_phases_onscreen_name_ovn_fim_shrine_enshrouded_glory		true
+unit_abilities_tooltip_text_ovn_fim_shrine_enshrouded_glory	Balor is a generous master, he has watched over the Fimir ever since Fimul's absence, given enough sacirifices, he will manifest a protective mist that blurs the vision of enemy ranged units.	true
+unit_abilities_onscreen_name_ovn_fim_shrine_enshrouded_glory	Giver of Shrouded Glory	true

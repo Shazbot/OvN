@@ -91,6 +91,7 @@ stalk	fim_inf_swamp_daemons
 daemonic	fim_inf_swamp_daemons
 causes_fear	fim_veh_eye_oculus
 causes_terror	fim_veh_eye_oculus
+mounted_fire_move	fim_veh_eye_oculus
 causes_fear	fim_mon_daemonomaniac_ror
 causes_terror	fim_mon_daemonomaniac_ror
 daemonic	fim_mon_daemonomaniac_ror

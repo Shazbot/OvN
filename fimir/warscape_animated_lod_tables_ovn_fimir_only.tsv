@@ -1,4 +1,4 @@
 key	filename	range	animated
 #warscape_animated_lod_tables;1;db/warscape_animated_lod_tables/ovn_fimir_only			
 21466556927	warmachines\carriage\fim_shrine_balor\fim_balor_shrine_1.wsmodel	0.0000	fim_balor_shrine_1
-21466556928	warmachines\carriage\fim_shrine_balor\fim_shrine_balor_01_destruct.rigid_model_v2	0.0000	fim_balor_shrine_1_destruct
+21466556928	warmachines/carriage/fim_shrine_balor/fim_balor_shrine_destroyed_1.wsmodel	0.0000	fim_balor_shrine_1_destruct
