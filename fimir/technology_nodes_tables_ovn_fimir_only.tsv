@@ -36,3 +36,9 @@ elo_fimir_eco_military_new			15	elo_fimir_eco_military	ovn_fim_fimir_tech	2	100	
 elo_fimir_military_magic_new			15	elo_fimir_military_magic	ovn_fim_fimir_tech	3	100	10000	0			0	0	0
 elo_fimir_magic_loyalist_new			15	elo_fimir_magic_loyalist	ovn_fim_fimir_tech	4	100	10000	0			0	0	0
 elo_fimir_loyalist_creatures_new			15	elo_fimir_loyalist_creatures	ovn_fim_fimir_tech	5	100	10000	0			0	0	0
+elo_fimir_chaos_loyalist_1_new_kroll		ovn_fim_tendrils_of_doom	3	elo_fimir_chaos_loyalist_1_kroll	ovn_fim_fimir_tech	4	300	0	0			0	0	0
+elo_fimir_chaos_loyalist_2_new_kroll		ovn_fim_tendrils_of_doom	5	elo_fimir_chaos_loyalist_2_kroll	ovn_fim_fimir_tech	4	500	0	0			0	0	0
+elo_fimir_chaos_loyalist_3_new_kroll		ovn_fim_tendrils_of_doom	7	elo_fimir_chaos_loyalist_3_kroll	ovn_fim_fimir_tech	4	800	0	0			0	0	0
+elo_fimir_chaos_loyalist_4_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_4_kroll	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
+elo_fimir_chaos_loyalist_5_new_kroll		ovn_fim_tendrils_of_doom	11	elo_fimir_chaos_loyalist_5_kroll	ovn_fim_fimir_tech	4	1500	0	0			0	0	0
+elo_fimir_magic_loyalist_new_kroll		ovn_fim_tendrils_of_doom	15	elo_fimir_magic_loyalist_kroll	ovn_fim_fimir_tech	4	100	10000	0			0	0	0
