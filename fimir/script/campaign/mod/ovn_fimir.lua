@@ -23,11 +23,6 @@ local function rancor_hold_ui_stuff()
         ovn_fimir_chaos_gifts_button:Resize(button_chaos_gifts:Width(), button_chaos_gifts:Height())
     end
 
-    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    if res_bar then
-        UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
-    end
-
     --- when user clicks the button that closes the chaos gifts panel destroy our panel
     core:remove_listener("ovn_fimir_chaos_gifts_panel_on_close")
     core:add_listener(
@@ -179,6 +174,11 @@ local function on_every_first_tick()
 if cm:get_local_faction(true):subculture() == "ovn_sc_fim_fimir" then
     if cm:get_local_faction(true):name() == rancor_hold_faction_key then
         rancor_hold_ui_stuff()
+    end
+
+    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+    if res_bar then
+        UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
     end
 
     core:remove_listener('ovn_fimir_on_opened_settlement_panel')
