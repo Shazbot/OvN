@@ -2,15 +2,15 @@
 <layout version="137" comment="" precache_condition="">
     <hierarchy>
         <root this="d71040d5-fd87-40cb-892c-896b1c16fb3b">
-            <slave_holder this="7AEB686D-5637-49D0-B34E0146404DF560">
-                <slaves_list this="F49EA8F1-991E-4554-93493F24A51E4915">
-                    <slaves_icon this="7D1EB7CF-4EF9-4727-8E5FD7BD5A246CAA">
+            <slave_holder this="2977c8f9-6642-414d-a941-e306dda9e44c">
+                <slaves_list this="84187f07-0182-4bc3-ad77-0a9df6375673">
+                    <slaves_icon this="76dbbb63-c7c3-4b39-a247-0e0e019f6483">
                     </slaves_icon>
-                    <slaves_text this="64828078-844C-4011-AF013938D2C8A1E8"/>
+                    <slaves_text this="ccd2a8ba-86a1-4267-ba4a-0ac8ef742f2c"/>
                 </slaves_list>
-                <tx_ this="C0F6E80F-2647-4360-AD4568CED964DBC9"/>
-					<slave_income this="64A7B3BD-F684-40BB-84C3F74E3E2FBAD0"/>
-                <tx_ this="042E9E21-33D8-4687-B1BEDADE7BCFAE2D"/>
+                <tx_ this="f118d7a5-62b6-413a-b515-3ecc7658b94f"/>
+					<slave_income this="81e0fa90-7158-4592-8a38-03f5bbb4bd15"/>
+                <tx_ this="88d4b292-9ffb-4f0f-b58a-46b02bbf4559"/>
 
             </slave_holder>
         </root>
@@ -20,16 +20,16 @@
         </root>
         
         <slaves_list
-        this="F49EA8F1-991E-4554-93493F24A51E4915"
+        this="84187f07-0182-4bc3-ad77-0a9df6375673"
         id="slaves_list"
         allowverticalresize="false"
         priority="1"
         componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}"
         tooltiplabel="ComponentTooltip_4e9f6d75"
         soundcategory="UI_GBL_TMP_Round_Small_Button"
-        uniqueguid="F49EA8F1-991E-4554-93493F24A51E4915"
-        currentstate="894DBDB7-036D-4AA5-93727BC0ABB2AD8C"
-        defaultstate="894DBDB7-036D-4AA5-93727BC0ABB2AD8C">
+        uniqueguid="84187f07-0182-4bc3-ad77-0a9df6375673"
+        currentstate="7a5716ad-b9e4-4010-9e73-5c4188966e7b"
+        defaultstate="7a5716ad-b9e4-4010-9e73-5c4188966e7b">
         <callbackwithcontextlist>
             <callback_with_context
                 callback_id="ContextCustomTooltipStore"
@@ -51,7 +51,7 @@
         </callbackwithcontextlist>
         <states>
             <positive
-                this="894DBDB7-036D-4AA5-93727BC0ABB2AD8C"
+                this="7a5716ad-b9e4-4010-9e73-5c4188966e7b"
                 name="positive"
                 width="65"
                 height="37"
@@ -65,7 +65,7 @@
                 interactive="true"
                 text_shader_name="drop_shadow_t0"
                 textshadervars="0.00,-1.00,2.00,0.00"
-                uniqueguid="894DBDB7-036D-4AA5-93727BC0ABB2AD8C"/>
+                uniqueguid="7a5716ad-b9e4-4010-9e73-5c4188966e7b"/>
         </states>
         <animations>
             <flash_update
@@ -100,34 +100,34 @@
             secondary_margins="10.00,0.00"/>
     </slaves_list>
     <slaves_icon
-        this="7D1EB7CF-4EF9-4727-8E5FD7BD5A246CAA"
+        this="76dbbb63-c7c3-4b39-a247-0e0e019f6483"
         id="slaves_icon"
         offset="0.00,10.00"
         allowhorizontalresize="false"
         allowverticalresize="false"
         priority="1"
         tooltipslocalised="true"
-        uniqueguid="7D1EB7CF-4EF9-4727-8E5FD7BD5A246CAA"
-        currentstate="5E660AE1-BCA2-4D60-962E248757E9AA06"
-        defaultstate="5E660AE1-BCA2-4D60-962E248757E9AA06">
+        uniqueguid="76dbbb63-c7c3-4b39-a247-0e0e019f6483"
+        currentstate="1bcc69c9-5c0c-49a6-91f8-1b43842ca855"
+        defaultstate="1bcc69c9-5c0c-49a6-91f8-1b43842ca855">
         <componentimages>
             <component_image
-                this="E535EAD2-170D-46BB-ACC0FFC40E26D2E9"
-                uniqueguid="E535EAD2-170D-46BB-ACC0FFC40E26D2E9"
+                this="b71faf94-ab0c-4963-aa2e-74e1531d9f64"
+                uniqueguid="b71faf94-ab0c-4963-aa2e-74e1531d9f64"
                 imagepath="ui/skins/default/icon_slaves.png"/>
         </componentimages>
         <states>
             <positive
-                this="5E660AE1-BCA2-4D60-962E248757E9AA06"
+                this="1bcc69c9-5c0c-49a6-91f8-1b43842ca855"
                 name="positive"
                 width="26"
                 height="26"
-                uniqueguid="5E660AE1-BCA2-4D60-962E248757E9AA06">
+                uniqueguid="1bcc69c9-5c0c-49a6-91f8-1b43842ca855">
                 <imagemetrics>
                     <image
-                        this="6258D6AA-1932-4002-BC70C1EB0BA5E30A"
-                        uniqueguid="6258D6AA-1932-4002-BC70C1EB0BA5E30A"
-                        componentimage="E535EAD2-170D-46BB-ACC0FFC40E26D2E9"
+                        this="2ed721de-f783-4119-9f33-866be2a582ee"
+                        uniqueguid="2ed721de-f783-4119-9f33-866be2a582ee"
+                        componentimage="b71faf94-ab0c-4963-aa2e-74e1531d9f64"
                         width="26"
                         height="26"/>
                 </imagemetrics>
@@ -135,22 +135,21 @@
         </states>
     </slaves_icon>
     <slaves_text
-        this="64828078-844C-4011-AF013938D2C8A1E8"
+        this="ccd2a8ba-86a1-4267-ba4a-0ac8ef742f2c"
         id="slaves_text"
         offset="26.00,17.00"
         allowverticalresize="false"
         dock_offset="0.00,7.00"
         priority="1"
         tooltipslocalised="true"
-        uniqueguid="64828078-844C-4011-AF013938D2C8A1E8"
-        currentstate="D56AAB49-5CAF-4B88-B58E002CEF0FBA16"
-        defaultstate="D56AAB49-5CAF-4B88-B58E002CEF0FBA16">
+        uniqueguid="ccd2a8ba-86a1-4267-ba4a-0ac8ef742f2c"
+        currentstate="3523e549-b757-4c03-ad6b-592d60791552"
+        defaultstate="3523e549-b757-4c03-ad6b-592d60791552">
         <callbackwithcontextlist>
-            <callback_with_context>
-                callback_id="ContextTextLabel"
-                context_object_id="CcoCampaignPooledResource"
-                context_function_id="Total"
-                </callback_with_context>
+            <callback_with_context
+					callback_id="ContextTextLabel"
+					context_object_id="CcoCampaignPooledResource"
+					context_function_id="Total + &quot;/&quot; + Max"/>
         </callbackwithcontextlist>
         <userproperties>
             <property
@@ -159,7 +158,7 @@
         </userproperties>
         <states>
             <positive
-                this="D56AAB49-5CAF-4B88-B58E002CEF0FBA16"
+                this="3523e549-b757-4c03-ad6b-592d60791552"
                 name="positive"
                 width="39"
                 height="16"
@@ -173,7 +172,7 @@
                 fontcat_name="fe_default_text"
                 text_shader_name="drop_shadow_t0"
                 textshadervars="0.00,-1.00,2.00,0.00"
-                uniqueguid="D56AAB49-5CAF-4B88-B58E002CEF0FBA16"/>
+                uniqueguid="3523e549-b757-4c03-ad6b-592d60791552"/>
         </states>
         <animations>
             <flash_update
@@ -204,15 +203,15 @@
         </animations>
     </slaves_text>
     <slave_holder
-        this="7AEB686D-5637-49D0-B34E0146404DF560"
+        this="2977c8f9-6642-414d-a941-e306dda9e44c"
         id="slave_holder"
         offset="818.00,0.00"
         allowverticalresize="false"
         priority="1"
         tooltipslocalised="true"
-        uniqueguid="7AEB686D-5637-49D0-B34E0146404DF560"
-        currentstate="FA1CC990-6FF6-4BD8-889BE30FB0E1BD6D"
-        defaultstate="FA1CC990-6FF6-4BD8-889BE30FB0E1BD6D">
+        uniqueguid="2977c8f9-6642-414d-a941-e306dda9e44c"
+        currentstate="7d965ce2-c9f1-47f9-8fe1-9340ef3c9e3b"
+        defaultstate="7d965ce2-c9f1-47f9-8fe1-9340ef3c9e3b">
         <callbackwithcontextlist>
             <callback_with_context
                 callback_id="ContextVisibilitySetter"
@@ -231,7 +230,7 @@
         </callbackwithcontextlist>
         <states>
             <positive
-                this="FA1CC990-6FF6-4BD8-889BE30FB0E1BD6D"
+                this="7d965ce2-c9f1-47f9-8fe1-9340ef3c9e3b"
                 name="positive"
                 width="65"
                 height="37"
@@ -245,7 +244,7 @@
                 interactive="true"
                 text_shader_name="drop_shadow_t0"
                 textshadervars="0.00,-1.00,2.00,0.00"
-                uniqueguid="FA1CC990-6FF6-4BD8-889BE30FB0E1BD6D"/>
+                uniqueguid="7d965ce2-c9f1-47f9-8fe1-9340ef3c9e3b"/>
         </states>
         <animations>
             <flash_update
@@ -280,7 +279,7 @@
     </slave_holder>
 
     <slave_income
-			this="64A7B3BD-F684-40BB-84C3F74E3E2FBAD0"
+			this="81e0fa90-7158-4592-8a38-03f5bbb4bd15"
 			id="slave_income"
 			offset="85.00,0.00"
 			allowverticalresize="false"
@@ -288,9 +287,9 @@
 			tooltipslocalised="true"
 			componentleveltooltip="Total upkeep from Gifts of Chaos"
 			tooltiplabel="ComponentTooltip_76d5a384"
-			uniqueguid="64A7B3BD-F684-40BB-84C3F74E3E2FBAD0"
-			currentstate="E2BE33F5-1A8C-4FB5-94C396CB67ABDC78"
-			defaultstate="E2BE33F5-1A8C-4FB5-94C396CB67ABDC78">
+			uniqueguid="81e0fa90-7158-4592-8a38-03f5bbb4bd15"
+			currentstate="59a0f30e-203e-42a9-a995-929b86b15095"
+			defaultstate="59a0f30e-203e-42a9-a995-929b86b15095">
 			<callbackwithcontextlist>
 				<callback_with_context
 					callback_id="ContextTextLabel"
@@ -327,7 +326,7 @@
 			</callbackwithcontextlist>
 			<states>
 				<negative
-					this="6857E155-771E-40A4-A2548143893BA9C1"
+					this="08b72659-f9bd-4a98-b9d1-fd0e3d4b43ac"
 					name="negative"
 					width="36"
 					height="37"
@@ -343,9 +342,9 @@
 					disabled="true"
 					text_shader_name="drop_shadow_t0"
 					textshadervars="-1.00,-1.00,1.00,0.00"
-					uniqueguid="6857E155-771E-40A4-A2548143893BA9C1"/>
+					uniqueguid="08b72659-f9bd-4a98-b9d1-fd0e3d4b43ac"/>
 				<positive
-					this="E2BE33F5-1A8C-4FB5-94C396CB67ABDC78"
+					this="59a0f30e-203e-42a9-a995-929b86b15095"
 					name="positive"
 					width="36"
 					height="37"
@@ -361,23 +360,23 @@
 					disabled="true"
 					text_shader_name="drop_shadow_t0"
 					textshadervars="-1.00,-1.00,1.00,0.00"
-					uniqueguid="E2BE33F5-1A8C-4FB5-94C396CB67ABDC78"/>
+					uniqueguid="59a0f30e-203e-42a9-a995-929b86b15095"/>
 			</states>
 		</slave_income>
         <tx_
-			this="C0F6E80F-2647-4360-AD4568CED964DBC9"
+			this="f118d7a5-62b6-413a-b515-3ecc7658b94f"
 			id="tx_("
 			offset="80.00,0.00"
 			allowhorizontalresize="false"
 			allowverticalresize="false"
 			priority="1"
 			tooltipslocalised="true"
-			uniqueguid="C0F6E80F-2647-4360-AD4568CED964DBC9"
-			currentstate="BAD84B00-3551-4498-BEE837A09145C396"
-			defaultstate="BAD84B00-3551-4498-BEE837A09145C396">
+			uniqueguid="f118d7a5-62b6-413a-b515-3ecc7658b94f"
+			currentstate="834886ce-b319-4bc9-b678-eaa5f70269b1"
+			defaultstate="834886ce-b319-4bc9-b678-eaa5f70269b1">
 			<states>
 				<newstate
-					this="BAD84B00-3551-4498-BEE837A09145C396"
+					this="834886ce-b319-4bc9-b678-eaa5f70269b1"
 					name="NewState"
 					width="5"
 					height="37"
@@ -392,23 +391,23 @@
 					interactive="true"
 					text_shader_name="drop_shadow_t0"
 					textshadervars="0.00,1.00,2.00,0.00"
-					uniqueguid="BAD84B00-3551-4498-BEE837A09145C396"/>
+					uniqueguid="834886ce-b319-4bc9-b678-eaa5f70269b1"/>
 			</states>
 		</tx_>
 		<tx_
-			this="042E9E21-33D8-4687-B1BEDADE7BCFAE2D"
+			this="88d4b292-9ffb-4f0f-b58a-46b02bbf4559"
 			id="tx_)"
 			offset="121.00,0.00"
 			allowhorizontalresize="false"
 			allowverticalresize="false"
 			priority="1"
 			tooltipslocalised="true"
-			uniqueguid="042E9E21-33D8-4687-B1BEDADE7BCFAE2D"
-			currentstate="52D3819B-01C0-41D7-BAAB8407D30C15F2"
-			defaultstate="52D3819B-01C0-41D7-BAAB8407D30C15F2">
+			uniqueguid="88d4b292-9ffb-4f0f-b58a-46b02bbf4559"
+			currentstate="28564df9-87a0-4d61-8582-622f8ec61efe"
+			defaultstate="28564df9-87a0-4d61-8582-622f8ec61efe">
 			<states>
 				<newstate
-					this="52D3819B-01C0-41D7-BAAB8407D30C15F2"
+					this="28564df9-87a0-4d61-8582-622f8ec61efe"
 					name="NewState"
 					width="5"
 					height="37"
@@ -423,7 +422,7 @@
 					interactive="true"
 					text_shader_name="drop_shadow_t0"
 					textshadervars="0.00,1.00,2.00,0.00"
-					uniqueguid="52D3819B-01C0-41D7-BAAB8407D30C15F2"/>
+					uniqueguid="28564df9-87a0-4d61-8582-622f8ec61efe"/>
 			</states>
 		</tx_>
 
