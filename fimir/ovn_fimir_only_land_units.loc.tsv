@@ -8,7 +8,7 @@ land_units_onscreen_name_fim_mon_fianna_fimm	Fianna Fimm	true
 land_units_onscreen_name_fim_inf_killing_eye_ror	Killing Eye (Fimm Death-Quest)	true
 land_units_onscreen_name_fim_mon_gharnus_daemon_ror	Gharnu's Daemon-Friends (Fianna Fimm)	true
 land_units_onscreen_name_fim_inf_death_quest	Fimm Death-Quest	true
-land_units_onscreen_name_fim_cav_marsh_reavers	Bog Raiders	true
+land_units_onscreen_name_fim_cav_marsh_reavers	Bog Beast Raiders	true
 land_units_onscreen_name_fim_inf_shearl_javelineer	Shearl Scouts	true
 land_units_onscreen_name_fim_mon_balefiend_apprentices	Balefiend Apprentices	true
 land_units_onscreen_name_fim_cha_meargh_skattach	Meargh Skattach	true
@@ -31,7 +31,7 @@ land_units_onscreen_name_fim_cav_nuckelavee	Nuckelavees	true
 land_units_onscreen_name_fim_mon_daemonomaniac	Daemonomaniac	true
 land_units_onscreen_name_fim_inf_swamp_daemons	Swamp Daemons	true
 land_units_onscreen_name_fim_veh_eye_oculus	Fog-Shrine of Balor	true
-land_units_onscreen_name_fim_cav_marsh_hornets_ror	Skean's Swamp Scorpions (Bog Raiders)	true
+land_units_onscreen_name_fim_cav_marsh_hornets_ror	Skean's Swamp Scorpions (Bog Beast Raiders)	true
 land_units_onscreen_name_fim_mon_daemonomaniac_ror	Eye of Doom (Daemonomaniac)	true
 land_units_onscreen_name_fim_inf_moor_hounds_ror	Hellhounds of Basker Moor (Moor Hounds)	true
 land_units_onscreen_name_fim_inf_swamp_daemons_summon	Swamp Daemons	true

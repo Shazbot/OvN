@@ -134,3 +134,5 @@ ovn_fim_enable_army_ability_fog_fimul_HIDDEN	general_ability.png	600	general_abi
 ovn_fim_enable_army_ability_fog_fimul	general_ability.png	600	general_ability.png	both	true
 ovn_fim_enable_army_ability_spawn_beastsy_HIDDEN	general_ability.png	600	general_ability.png	both	true
 ovn_fim_enable_army_ability_spawn_beasts	general_ability.png	600	general_ability.png	both	true
+ovn_fimir_slaves_gain	slaves.png	105	slaves.png	campaign	true
+ovn_fimir_slaves_gain_battle	slaves.png	105	slaves.png	campaign	true

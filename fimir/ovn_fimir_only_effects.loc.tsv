@@ -48,8 +48,8 @@ effects_description_ovn_campaign_enable_name_dirach		true
 effects_description_elo_swamp_ain	Bonus vs Infantry: %+n for Fenbeasts units	true
 effects_description_elo_swamp_xp	Recruitment rank: %+n for Fenbeasts units	true
 effects_description_elo_swamp_ward	Ward save: %n% for Fenbeasts units	true
-effects_description_elo_fimir_rusher_sp	Speed: %+n% for Moor Hounds, Nuckelavees, and Bog Raiders units	true
-effects_description_elo_fimir_rusher_ch	Charge bonus: %+n for Moor Hounds, Nuckelavees, and Bog Raiders units	true
+effects_description_elo_fimir_rusher_sp	Speed: %+n% for Moor Hounds, Nuckelavees, and Bog Beast Raiders units	true
+effects_description_elo_fimir_rusher_ch	Charge bonus: %+n for Moor Hounds, Nuckelavees, and Bog Beast Raiders units	true
 effects_description_elo_fimir_first_wave_ma	Melee attack: %+n for Boglars, Shearls, Fimm Deathquests, and Fimm Warriors units	true
 effects_description_elo_fimir_first_wave_wps	Weapon strength: %+n% for Boglars, Shearls, Fimm Deathquests, and Fimm Warriors units	true
 effects_description_elo_fimir_bog_monsters_wps	Weapon strength: %+n% for Chaos Furies, Swamp Daemons, and Fen Beasts units	true
@@ -64,9 +64,9 @@ effects_description_elo_fimir_r7_warriors_phyres	Physical resistance: %n% for Bo
 effects_description_elo_fimir_r7_auxillaries_missres	Missile resistance: %n% for Shearl Scouts, Swamp Daemons, Fimm Mistmors, and Fen Beasts units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_auxillaries_md	Melee defence: %+n for Shearl Scouts, Swamp Daemons, Fimm Mistmors, and Fen Beasts units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_auxillaries_morale	Leadership: %+n for Shearl Scouts, Swamp Daemons, Fimm Mistmors, and Fen Beasts units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_wps	Weapon strength: %+n% for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Raiders units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_ma	Melee attack: %+n for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Raiders units {{tr:rank7}}	true
-effects_description_elo_fimir_r7_fast_ch	Charge bonus: %+n for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Raiders {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_wps	Weapon strength: %+n% for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Beast Raiders units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ma	Melee attack: %+n for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Beast Raiders units {{tr:rank7}}	true
+effects_description_elo_fimir_r7_fast_ch	Charge bonus: %+n for Moor Hounds, Chaos Furies, Nuckelavees, and Bog Beast Raiders {{tr:rank7}}	true
 effects_description_elo_fimir_r7_giants_ward	Ward save: %n% for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Fog-Shrine of Balor units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_giants_wps	Weapon strength: %+n% for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Fog-Shrine of Balor units {{tr:rank7}}	true
 effects_description_elo_fimir_r7_giants_armour	Armour: %+n for Balefiend Apprentices, Bog Octopus, Daemonomaniacs, and Fog-Shrine of Balor units {{tr:rank7}}	true
@@ -99,16 +99,16 @@ effects_description_elo_low_level_swamp_dwellers_vsinf	Bonus vs. Infantry: %+n f
 effects_description_elo_fimir_trolls_charge	Charge bonus: %+n for Swamp Daemons and Fimm Mistmors	true
 effects_description_elo_fimir_trolls_ma	Melee attack: %+n for Swamp Daemons, and Fimm Mistmors units	true
 effects_description_elo_fimir_trolls_armour	Armour: %+n for Swamp Daemons, and Fimm Mistmors units	true
-effects_description_elo_swamp_riders_speed	Speed: %+n% for Nuckelavees, and Bog Raiders units	true
-effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Nuckelavees and Bog Raiders	true
-effects_description_elo_swamp_riders_charge	Charge bonus: %+n for Nuckelavees and Bog Raiders	true
+effects_description_elo_swamp_riders_speed	Speed: %+n% for Nuckelavees, and Bog Beast Raiders units	true
+effects_description_elo_swamp_riders_vsinf	Bonus vs. Infantry: %+n for Nuckelavees and Bog Beast Raiders	true
+effects_description_elo_swamp_riders_charge	Charge bonus: %+n for Nuckelavees and Bog Beast Raiders	true
 effects_description_elo_fen_big_dwellers_xp	Recruitment rank: %+n for Bog Octopus, Fog-Shrine of Balor, and Daemonomaniacs units	true
 effects_description_elo_fen_big_dwellers_up	Upkeep: %+n% for Bog Octopus, Fog-Shrine of Balor, and Daemonomaniacs units	true
 effects_description_elo_fen_big_dwellers_ward	Ward save: %n% for Bog Octopus, Fog-Shrine of Balor, and Daemonomaniacs units	true
-effects_description_elo_fen_monster_rulers_matt	Melee attack: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders, and Bog Octopus units	true
-effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders and Bog Octopus units	true
-effects_description_elo_fen_monster_rulers_resmis	Missile resistance: %n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders, and Bog Octopus units	true
-effects_description_elo_fen_monster_rulers_cost	Recruitment cost: %+n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Raiders, and Bog Octopus units	true
+effects_description_elo_fen_monster_rulers_matt	Melee attack: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Beast Raiders, and Bog Octopus units	true
+effects_description_elo_fen_monster_rulers_morale	Leadership: %+n for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Beast Raiders and Bog Octopus units	true
+effects_description_elo_fen_monster_rulers_resmis	Missile resistance: %n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Beast Raiders, and Bog Octopus units	true
+effects_description_elo_fen_monster_rulers_cost	Recruitment cost: %+n% for Boglars, Moor Hounds, Swamp Daemons, Nuckelavees, Bog Beast Raiders, and Bog Octopus units	true
 effects_description_elo_fen_lord_heroes	Abilities: "Warpfireball" and "Windblast" for all Lords and Heroes	true
 effects_description_elo_fen_lord_heroes_ward	Ward save: %n% for all Lords and Heroes	true
 effects_description_elo_charge_trolls_fim	Charge bonus: %+n for all Troll and Fimir units	false
@@ -162,3 +162,5 @@ effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (more than 19 temples
 effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (more than 29 temples)	true
 effects_description_ovn_fim_enable_army_ability_fog_fimul	Army ability: "Fog of Fimul"	false
 effects_description_ovn_fim_enable_army_ability_spawn_beasts	Army ability: "Creatures of the Bog"	false
+effects_description_ovn_fimir_slaves_gain	Slaves: %n per turn	false
+effects_description_ovn_fimir_slaves_gain_battle	Slaves gained from battles: %+n%	false

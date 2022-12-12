@@ -18,3 +18,4 @@ ovn_fimir_kroll_bundle_faction_1			faction	1	ovn_kroll_bundle1.png	true	false	tr
 ovn_fimir_kroll_bundle_faction_2			faction	1	ovn_kroll_bundle2.png	true	false	true
 ovn_fimir_kroll_bundle_faction_3			faction	1	ovn_kroll_bundle3.png	true	false	true
 ovn_fimir_kroll_bundle_faction_4			faction	1	ovn_kroll_bundle4.png	true	false	true
+wh_main_bundle_stance_army_raiding_camp_fimir	Sets up a defensive camp, allowing for recruitment and replenishment, whilst raiding wealth from the local region.	Stance: Raiding Camp	force	1	icon_effects_fortify.png	true	false	true

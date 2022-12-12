@@ -41,7 +41,7 @@ fim_daemon_octopus_kroll_campaign_01		wh_main_skill_all_lord_campaign_route_marc
 fim_daemon_octopus_kroll_campaign_02		wh_dlc08_skill_nor_lord_campaign_despoilers	node_set_fimir_daemon_octopus_kroll		5.0000	1.0000		0	0	true
 fim_daemon_octopus_kroll_campaign_03		wh_main_skill_chs_lord_campaign_serve_or_die	node_set_fimir_daemon_octopus_kroll		5.0000	2.0000		0	0	true
 fim_daemon_octopus_kroll_campaign_04		wh_dlc08_skill_nor_lords_campaign_norse_resilience	node_set_fimir_daemon_octopus_kroll		5.0000	3.0000		0	0	true
-fim_daemon_octopus_kroll_campaign_05		wh_dlc08_skill_nor_lords_campaign_swelling_of_doom	node_set_fimir_daemon_octopus_kroll		5.0000	4.0000		0	4	true
+fim_daemon_octopus_kroll_campaign_05		fim_devoted_of_chaos	node_set_fimir_daemon_octopus_kroll		5.0000	4.0000		0	4	true
 fim_daemon_octopus_kroll_campaign_06		wh_main_skill_all_lord_campaign_lightning_strike	node_set_fimir_daemon_octopus_kroll		5.0000	5.0000		0	4	true
 fim_daemon_octopus_kroll_campaign_07		wh_main_skill_chs_lord_campaign_ruination	node_set_fimir_daemon_octopus_kroll		5.0000	6.0000		0	0	true
 fim_daemon_octopus_kroll_campaign_08		wh_main_skill_vmp_lord_campaign_ancient_cunning	node_set_fimir_daemon_octopus_kroll		5.0000	7.0000		0	0	true

@@ -1,0 +1,38 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_fimir_only_loading_quotes.loc		
+loading_screen_quotes_title_ovn_fim_skattach_loading	Meargh Skattach	true
+loading_screen_quotes_description_ovn_fim_skattach_loading	The maddened matriarch of the Rancor Hold Fimir, Skattach is a powerful sorceress. Having declared herself Hell-Mother - ruler of all Fimir - she's now out to bring about the revival of the Fimir race.	true
+loading_screen_quotes_description_ovn_fim_kroll_loading	A Daemon Princess of the Fimir, worshipped as a demi-goddess by the Fimir, Kroll is a cunning and dreadful creature, All-Mother to the Bog Octopii and - to the Fimir - rightful ruler of all the world's marshes.	true
+loading_screen_quotes_title_ovn_fim_kroll_loading	Kroll	true
+loading_screen_quotes_title_ovn_shrine_balor_loading	Fog-Shrine of Balor	true
+loading_screen_quotes_title_ovn_bog_octopus_loading	Bog Octopus	true
+loading_screen_quotes_description_ovn_shrine_balor_loading	Fog-Shrines are roving altars dedicated  to the Fimir demi-god Balor of the Killing Eye. Remains of ruins of the enemies of the FImir, now inhabited by evil entities known as Betentacled Eyes, who are able to shoot energy blasts of pure evil from their giant eye.	true
+loading_screen_quotes_description_ovn_bog_octopus_loading	Bog Octopii are giant and terrible octopuses that inhabit the marshes and swamps of the Old World. They are admired and feared by the Fimir, who placate the creatures with sacrifices, often hapless Boglars, but also with the ocassional stray Human. Sometimes they will be able to coax one of these beasts into the battlefield, where they are a terrible sight to behold.	true
+loading_screen_quotes_title_ovn_daemonomaniac_loading	Daemonomaniac	true
+loading_screen_quotes_description_ovn_daemonomaniac_loading	One of the most successful experiments of the Dirach Caste, the Daemonomaniac candidates are chosen from the Fimir of the Fimm Caste. Dirach Balefiends then perform a complex and horrifying ritual in which they bind the soul of a Daemon into the body of the Fimm Warrior, causing him to painfully mutate, growing to enormous sizes and acquiring great strength, speed, and other Daemonic abilities, which makes the Daemonomaniacs a horrible sight to behold on the battlefield.	true
+loading_screen_quotes_description_ovn_campaign_fim_fimir	The cruel and degenerate Fimir are a race of one-eyed amphibian marsh-dwellers who used to be the favourites of the Ruinous Powers, before Humanity appeared on the world. Having fallen from grace ever since, they now inhabit ruined strongholds in the marshes and bogs of the world, brooding and waiting for a chance to enact their revenge on Mankind and retaking their rightful place in the eyes of the Chaos Gods.	false
+loading_screen_quotes_title_ovn_fimir_lore_1		false
+loading_screen_quotes_description_ovn_fimir_lore_1	 "We are older than humankind, but closer to the gods. We are less numerous than humankind, but understand our place in the world more clearly. We may never be greater than humankind, but we will endure at least as long. You know virtually nothing about us, but we know all we need to know about you"\\n\\n- Unnamed FImir Matriarch	false
+loading_screen_quotes_bulletpoints_ovn_fimir_lore_1		false
+loading_screen_quotes_title_ovn_fimir_lore_2		false
+loading_screen_quotes_description_ovn_fimir_lore_2	"Them Fimir are just monsters, same as the Orcs, same as the Beastmen, same as the mutant scum. Ugly bastard monsters, that's all. King Marius and the Jutones sorted them once, and if they ever cause trouble again, then, by the Gods, we'll damn well sort them ourselves! Don't credit them with any special powers, that's all just peasant superstition. Come on, think about it, if they really did have any power worth having, would they really live out in sodden, stinking mudholes?"\\n\\n- Ruud Hiservook, Wastelander Trapper	false
+loading_screen_quotes_bulletpoints_ovn_fimir_lore_2		false
+loading_screen_quotes_title_ovn_fimir_lore_3		false
+loading_screen_quotes_description_ovn_fimir_lore_3	The Shearl represent the lowest caste in the Fimir hierarchy, but are most numerous of the Fimir. They are thralls, doing most of the labouring needed to keep Fimir society running. This ranges from collecting food to mining any available metals to fashioning armours and weapons for the Fimm warriors. The Shearl also do most of the building and maintenance work around the strongholds. In other words, the Shearl are the craftsmen and labourers of the Fimir.	false
+loading_screen_quotes_bulletpoints_ovn_fimir_lore_3		false
+loading_screen_quotes_title_ovn_fimir_lore_4		false
+loading_screen_quotes_description_ovn_fimir_lore_4	The Fimm are the true warriors of the Fimir race. Their duty is to fight to ensure the safety of their Meargh, their stronghold and their clan. They rank more highly than the Shearl, but are beneath the Dirach and the Meargh. The Fimm are not quite as numerous as the Shearl, but they still form a large percentage of a typical clan. It is actually a relatively complex caste, with divisions within it based on physical appearance and size.	false
+loading_screen_quotes_bulletpoints_ovn_fimir_lore_4		false
+loading_screen_quotes_title_ovn_fimir_lore_5		false
+loading_screen_quotes_description_ovn_fimir_lore_5	The Dirach, often called Daemonfriends or Balefiends for the close relationships they form with individual Daemons, are wizards controlling powerful instinctive magic. They act as a buffer between the Meargh and her clan, relaying messages between the two, allowing her to pursue her own magical activities and concerns. Dirach are very few in number compared to the lower Shearl and Fimm castes, but command great respect and power.	false
+loading_screen_quotes_bulletpoints_ovn_fimir_lore_5		false
+loading_screen_quotes_title_ovn_fimir_lore_6		false
+loading_screen_quotes_description_ovn_fimir_lore_6	The Meargh, also called  witch-queens, sometimes matriarchs, are the undisputed leaders of the FImir clans, and the only females in Fimir society. Few of them are born and they are immediately taken by another Meargh as an apprentice. Wielders of great magic, commanding both Daemons and the elements and able to scry what the future holds, The Meargh are terrifying beings capable of great cruelty (and occasionally generosity) when the need arises.	false
+loading_screen_quotes_bulletpoints_ovn_fimir_lore_6		false
+loading_screen_quotes_bulletpoints_ovn_fim_skattach_loading		true
+loading_screen_quotes_bulletpoints_ovn_fim_kroll_loading		true
+loading_screen_quotes_bulletpoints_ovn_shrine_balor_loading		true
+loading_screen_quotes_bulletpoints_ovn_bog_octopus_loading		true
+loading_screen_quotes_bulletpoints_ovn_daemonomaniac_loading		true
+loading_screen_quotes_title_ovn_campaign_fim_fimir	Fimir	true
+loading_screen_quotes_bulletpoints_ovn_campaign_fim_fimir		true

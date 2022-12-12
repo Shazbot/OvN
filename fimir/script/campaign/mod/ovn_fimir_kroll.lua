@@ -3,8 +3,8 @@ local function spawn_new_force()
 		"ovn_fim_tendrils_of_doom", -- faction_key,
 		"fim_mon_fianna_fimm,fim_mon_fenbeast,ovn_fim_mon_bog_octopus_0,fim_inf_shearl,fim_inf_shearl,fim_inf_shearl_javelineer", -- unit_list,
 		"wh3_main_combi_region_monument_of_the_moon", -- region_key,
-		142, -- x,
-		451, -- y,
+		137, -- x,
+		456, -- y,
 		"general", -- type,
 		"fim_daemon_octopus_kroll", -- subtype,
 		"names_name_999982440", -- name1,
@@ -16,6 +16,7 @@ local function spawn_new_force()
             local str = "character_cqi:" .. cqi
             cm:set_character_immortality(str, true);
             cm:set_character_unique(str, true);
+            cm:replenish_action_points(cm:char_lookup_str(cqi))
         end
 	)
 end
@@ -44,8 +45,8 @@ local function new_game_startup()
         "ovn_fim_tendrils_of_doom",
         "wizard",
         "elo_boglar_shaman",
-        142,
-		448,
+		132, -- x,
+		454, -- y,
         false,
         function(cqi)
             cm:replenish_action_points(cm:char_lookup_str(cqi))
