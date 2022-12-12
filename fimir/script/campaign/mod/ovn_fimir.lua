@@ -1,27 +1,45 @@
 local rancor_hold_faction_key = "ovn_fim_rancor_hold"
 
 local function rancor_hold_ui_stuff()
-    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/ovn_fimir_resource_bar_wh3"))
-    find_uicomponent(ovn_fimir_topbar_eye, "eye_of_the_gods_holder"):SetVisible(true)
-    ovn_fimir_topbar_eye:SetCanResizeWidth(true)
-    ovn_fimir_topbar_eye:Resize(200, ovn_fimir_topbar_eye:Height())
+    core:remove_listener("ovn_fimir_rancor_hold_add_resource_bar_stuff_trigger")
+	core:add_listener(
+		"ovn_fimir_rancor_hold_add_resource_bar_stuff_trigger",
+		"RealTimeTrigger",
+		function(context)
+				return context.string == "ovn_fimir_rancor_hold_add_resource_bar_stuff"
+		end,
+		function()
+            local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+            if not res_bar then return end -- topbar doesn't exist, we'll check again
 
-    local button_chaos_gifts = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_chaos_gifts")
-    if button_chaos_gifts then
-        button_chaos_gifts:SetVisible(true)
-        button_chaos_gifts:SetDisabled(true)
+            real_timer.unregister("ovn_fimir_rancor_hold_add_resource_bar_stuff") -- topbar exists, stop checking
 
-        local ovn_fimir_chaos_gifts_button = find_uicomponent(button_chaos_gifts,"ovn_fimir_chaos_gifts_button")
-        if not ovn_fimir_chaos_gifts_button then
-            ovn_fimir_chaos_gifts_button = UIComponent(button_chaos_gifts:CreateComponent("ovn_fimir_chaos_gifts_button", "ui/templates/round_medium_button"))
-        end
-        ovn_fimir_chaos_gifts_button:SetDockingPoint(5)
-        ovn_fimir_chaos_gifts_button:SetDockOffset(0,0)
-        ovn_fimir_chaos_gifts_button:SetOpacity(0.1, true)
-        ovn_fimir_chaos_gifts_button:AddScriptEventReporter()
-        ovn_fimir_chaos_gifts_button:Resize(button_chaos_gifts:Width(), button_chaos_gifts:Height())
-    end
+            local ovn_fimir_topbar_eye = UIComponent(res_bar:CreateComponent("ovn_fimir_topbar_eye", "ui/campaign ui/ovn_fimir_resource_bar_wh3"))
+            find_uicomponent(ovn_fimir_topbar_eye, "eye_of_the_gods_holder"):SetVisible(true)
+            ovn_fimir_topbar_eye:SetCanResizeWidth(true)
+            ovn_fimir_topbar_eye:Resize(200, ovn_fimir_topbar_eye:Height())
+        
+            local button_chaos_gifts = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_chaos_gifts")
+            if button_chaos_gifts then
+                button_chaos_gifts:SetVisible(true)
+                button_chaos_gifts:SetDisabled(true)
+        
+                local ovn_fimir_chaos_gifts_button = find_uicomponent(button_chaos_gifts,"ovn_fimir_chaos_gifts_button")
+                if not ovn_fimir_chaos_gifts_button then
+                    ovn_fimir_chaos_gifts_button = UIComponent(button_chaos_gifts:CreateComponent("ovn_fimir_chaos_gifts_button", "ui/templates/round_medium_button"))
+                end
+                ovn_fimir_chaos_gifts_button:SetDockingPoint(5)
+                ovn_fimir_chaos_gifts_button:SetDockOffset(0,0)
+                ovn_fimir_chaos_gifts_button:SetOpacity(0.1, true)
+                ovn_fimir_chaos_gifts_button:AddScriptEventReporter()
+                ovn_fimir_chaos_gifts_button:Resize(button_chaos_gifts:Width(), button_chaos_gifts:Height())
+            end
+		end,
+		true
+	)
+
+    real_timer.unregister("ovn_fimir_rancor_hold_add_resource_bar_stuff")
+    real_timer.register_repeating("ovn_fimir_rancor_hold_add_resource_bar_stuff", 0)
 
     --- when user clicks the button that closes the chaos gifts panel destroy our panel
     core:remove_listener("ovn_fimir_chaos_gifts_panel_on_close")
@@ -176,10 +194,28 @@ if cm:get_local_faction(true):subculture() == "ovn_sc_fim_fimir" then
         rancor_hold_ui_stuff()
     end
 
-    local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    if res_bar then
-        UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
-    end
+    core:remove_listener("ovn_fimir_create_slave_counter_ui_trigger")
+	core:add_listener(
+		"ovn_fimir_create_slave_counter_ui_trigger",
+		"RealTimeTrigger",
+		function(context)
+				return context.string == "ovn_fimir_create_slave_counter_ui"
+		end,
+		function()
+            local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+            if not res_bar then return end -- topbar doesn't exist, we'll check again
+
+            real_timer.unregister("ovn_fimir_create_slave_counter_ui") -- topbar exists, stop checking
+
+            local res_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+            if res_bar then
+                UIComponent(res_bar:CreateComponent("ovn_fimir_slaves", "ui/ovn_fimir_slaves"))
+            end
+		end,
+		true
+	)
+    real_timer.unregister("ovn_fimir_create_slave_counter_ui")
+    real_timer.register_repeating("ovn_fimir_create_slave_counter_ui", 0)
 
     core:remove_listener('ovn_fimir_on_opened_settlement_panel')
     core:add_listener(
