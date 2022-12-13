@@ -87,6 +87,27 @@ local function new_game_startup()
         )
     end
     
+        cm:create_force_with_general(
+				"wh2_main_bst_manblight",
+				"wh_dlc03_bst_inf_ungor_spearmen_0,wh_dlc03_bst_inf_ungor_spearmen_0,wh_dlc03_bst_inf_gor_herd_0,wh_dlc03_bst_inf_minotaurs_0",
+				"wh3_main_combi_region_monument_of_the_moon",
+                130, -- x,
+                451, -- y,
+				"general",
+				"wh2_dlc17_bst_doombull",
+				"",
+				"",
+				"",
+				"",
+				false,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
+					cm:disable_movement_for_character("character_cqi:" .. cqi)
+				end
+        )
+    
+		cm:force_declare_war("wh2_main_bst_manblight", "ovn_fim_tendrils_of_doom", false, false)
+    
     
     cm:callback(function()
         if to_kill_cqi then
