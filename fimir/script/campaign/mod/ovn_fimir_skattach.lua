@@ -86,6 +86,27 @@ local function new_game_startup()
         )
     end
     
+        cm:create_force_with_general(
+				"wh_main_emp_marienburg",
+				"wh_main_emp_inf_swordsmen,wh_main_emp_inf_swordsmen,wh_main_emp_inf_crossbowmen,wh_main_emp_cav_empire_knights",
+				"wh3_main_combi_region_wreckers_point",
+                475,
+                740,
+				"general",
+				"wh_main_emp_lord",
+				"",
+				"",
+				"",
+				"",
+				false,
+				function(cqi)
+					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
+					cm:disable_movement_for_character("character_cqi:" .. cqi)
+				end
+			)
+    
+		cm:force_declare_war("wh_main_emp_marienburg", "ovn_fim_rancor_hold", false, false)
+    
     
     cm:callback(function()
         if to_kill_cqi then
