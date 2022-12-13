@@ -36,7 +36,7 @@ elo_fimir_eco_military	wh_main_chs_port_ruin	1	tech_dlc08_nor_secrets_of_war_n_c
 elo_fimir_military_magic	wh_main_chs_port_ruin	1	wh_main_chs_the_path_to_ruination	false	false	"placeholder.tga"	777111232	false	false	true
 elo_fimir_magic_loyalist	wh_main_chs_port_ruin	1	wh_main_chs_pledges_to_the_dark_gods	false	false	"placeholder.tga"	777111233	false	false	true
 elo_fimir_loyalist_creatures	wh_main_chs_port_ruin	1	wh_main_chs_daemonic_pact	false	false	"placeholder.tga"	777111234	false	false	true
-elo_fimir_chaos_loyalist_1_kroll	wh_main_chs_port_ruin	1	wh_main_chs_unholy_communion	false	false	"placeholder.tga"	777111235	false	false	true
+elo_fimir_chaos_loyalist_1_kroll	wh_main_chs_port_ruin	1	ovn_fim_tech_kroll	false	false	"placeholder.tga"	777111235	false	false	true
 elo_fimir_chaos_loyalist_2_kroll	wh_main_chs_port_ruin	1	wh_main_chs_herald_of_doom	false	false	"placeholder.tga"	777111236	false	false	true
 elo_fimir_chaos_loyalist_3_kroll	wh_main_chs_port_ruin	1	wh_main_vmp_master_of_the_putrid_horde	false	false	"placeholder.tga"	777111237	false	false	true
 elo_fimir_chaos_loyalist_4_kroll	wh_main_chs_port_ruin	1	wh_main_chs_gaze_of_the_dark_gods	false	false	"placeholder.tga"	777111238	false	false	true

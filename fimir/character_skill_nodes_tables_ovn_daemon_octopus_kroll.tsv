@@ -30,8 +30,8 @@ fim_daemon_octopus_kroll_battle_03		fimir_riders_doggos	node_set_fimir_daemon_oc
 fim_daemon_octopus_kroll_battle_04		fimir_swamp_warriors	node_set_fimir_daemon_octopus_kroll		4.0000	3.0000		0	0	true
 fim_daemon_octopus_kroll_battle_05		fimir_bog_monsters	node_set_fimir_daemon_octopus_kroll		4.0000	4.0000		0	0	true
 fim_daemon_octopus_kroll_battle_06		fimir_ranged_units	node_set_fimir_daemon_octopus_kroll		4.0000	5.0000		0	0	true
-fim_daemon_octopus_kroll_battle_07		fimir_fen_giants	node_set_fimir_daemon_octopus_kroll		4.0000	6.0000		0	6	true
-fim_daemon_octopus_kroll_battle_08		wh_main_skill_all_lord_battle_rally	node_set_fimir_daemon_octopus_kroll		4.0000	7.0000		0	0	true
+fim_daemon_octopus_kroll_battle_07		fimir_fen_giants	node_set_fimir_daemon_octopus_kroll		4.0000	6.0000		0	0	true
+fim_daemon_octopus_kroll_battle_08		wh_main_skill_all_lord_battle_rally	node_set_fimir_daemon_octopus_kroll		4.0000	7.0000		0	6	true
 fim_daemon_octopus_kroll_battle_09		fimir_r7_warriors	node_set_fimir_daemon_octopus_kroll		4.0000	8.0000		0	0	true
 fim_daemon_octopus_kroll_battle_10		fimir_r7_elite_monsters	node_set_fimir_daemon_octopus_kroll		4.0000	9.0000		0	0	true
 fim_daemon_octopus_kroll_battle_11		fimir_r7_fast_beasts	node_set_fimir_daemon_octopus_kroll		4.0000	10.0000		0	0	true

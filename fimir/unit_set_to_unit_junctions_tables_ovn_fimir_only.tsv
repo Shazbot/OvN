@@ -251,3 +251,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc08_nor_cha_fimir_balefiend_death	fim_all_generic_characters	false
 			wh_dlc08_nor_cha_fimir_balefiend_fire_0	fim_all_generic_characters	false
 			wh_dlc08_nor_cha_fimir_balefiend_shadow_0	fim_all_generic_characters	false
+			fim_inf_swamp_daemons	fim_swamp_daemons_unit_set	false

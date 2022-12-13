@@ -93,7 +93,8 @@ effects_description_elo_fimir_useful_shearls_mdmg	Missile strength: %+n% for She
 effects_description_elo_fimir_apprentices_mdmg	Missile strength: %+n% for Balefiend Apprentices units	true
 effects_description_elo_fimir_apprentices_reload	Reload time reduction: %+n% for Balefiend Apprentices units	true
 effects_description_elo_fimir_apprentices_range	Range: %+n% for Balefiend Apprentices units	true
-effects_description_elo_low_level_swamp_dwellers_rep	Replenishment: %+n% for Boglars and Hound units	true
+effects_description_elo_low_level_swamp_dwellers_rep	Replenishment: %+n% for Shearls, Shearl Scouts, and Fimm Deathquests units	true
+effects_description_elo_fimir_shearl_replenish	Replenishment: %+n% for Boglars and Hound units	true
 effects_description_elo_low_level_swamp_dwellers_speed	Speed: %+n% for Boglars, and Moor Hound units	true
 effects_description_elo_low_level_swamp_dwellers_vsinf	Bonus vs. Infantry: %+n for Boglars and Hound units	true
 effects_description_elo_fimir_trolls_charge	Charge bonus: %+n for Swamp Daemons and Fimm Mistmors	true
@@ -157,9 +158,9 @@ effects_description_ovn_fimir_diplomacy_bonus_all_fimir	Diplomatic relations: %+
 effects_description_ovn_fimir_kroll_dmg_reflect_enable	Passive ability: "Bog Tendrils"	false
 effects_description_ovn_fimir_kroll_army_bonuses_dummy	Bonuses to Kroll's personal army	true
 effects_description_ovn_fimir_kroll_god_dummy_1	Trifling God	true
-effects_description_ovn_fimir_kroll_god_dummy_2	Renegade God (more than 9 temples)	true
-effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (more than 19 temples)	true
-effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (more than 29 temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_2	Renegade God (Erect 5 or more Temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (Erect 15 or more Temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (Erect 25 or more Temples)	true
 effects_description_ovn_fim_enable_army_ability_fog_fimul	Army ability: "Fog of Fimul"	false
 effects_description_ovn_fim_enable_army_ability_spawn_beasts	Army ability: "Creatures of the Bog"	false
 effects_description_ovn_fimir_slaves_gain	Slaves: %n per turn	false

@@ -1,44 +1,44 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/ovn_fimir_only														
-elo_fimir_slave_eco_1_new			3	elo_fimir_slave_eco_1	ovn_fim_fimir_tech	1	300	0	0			0	0	0
-elo_fimir_slave_eco_2_new			5	elo_fimir_slave_eco_2	ovn_fim_fimir_tech	1	500	0	0			0	0	0
-elo_fimir_slave_eco_3_new			7	elo_fimir_slave_eco_3	ovn_fim_fimir_tech	1	800	0	0			0	0	0
-elo_fimir_slave_eco_4_new			9	elo_fimir_slave_eco_4	ovn_fim_fimir_tech	1	1200	0	0			0	0	0
-elo_fimir_slave_eco_5_new			11	elo_fimir_slave_eco_5	ovn_fim_fimir_tech	1	1500	0	0			0	0	0
-elo_fimir_culture_1_new			3	elo_fimir_culture_1	ovn_fim_fimir_tech	0	300	0	0			0	0	0
-elo_fimir_culture_2_new			5	elo_fimir_culture_2	ovn_fim_fimir_tech	0	500	0	0			0	0	0
-elo_fimir_culture_3_new			7	elo_fimir_culture_3	ovn_fim_fimir_tech	0	800	0	0			0	0	0
-elo_fimir_culture_4_new			9	elo_fimir_culture_4	ovn_fim_fimir_tech	0	1200	0	0			0	0	0
-elo_fimir_culture_5_new			11	elo_fimir_culture_5	ovn_fim_fimir_tech	0	1500	0	0			0	0	0
-elo_fimir_military_1_new			3	elo_fimir_military_1	ovn_fim_fimir_tech	2	300	0	0			0	0	0
-elo_fimir_military_2_new			5	elo_fimir_military_2	ovn_fim_fimir_tech	2	500	0	0			0	0	0
-elo_fimir_military_3_new			7	elo_fimir_military_3	ovn_fim_fimir_tech	2	800	0	0			0	0	0
-elo_fimir_military_4_new			9	elo_fimir_military_4	ovn_fim_fimir_tech	2	1200	0	0			0	0	0
-elo_fimir_military_5_new			11	elo_fimir_military_5	ovn_fim_fimir_tech	2	1500	0	0			0	0	0
-elo_fimir_magic_1_new			3	elo_fimir_magic_1	ovn_fim_fimir_tech	3	300	0	0			0	0	0
-elo_fimir_magic_2_new			5	elo_fimir_magic_2	ovn_fim_fimir_tech	3	500	0	0			0	0	0
+elo_fimir_slave_eco_1_new			5	elo_fimir_slave_eco_1	ovn_fim_fimir_tech	1	300	0	0			0	0	0
+elo_fimir_slave_eco_2_new			5	elo_fimir_slave_eco_2	ovn_fim_fimir_tech	2	500	0	0			0	0	0
+elo_fimir_slave_eco_3_new			5	elo_fimir_slave_eco_3	ovn_fim_fimir_tech	3	800	0	0			0	0	0
+elo_fimir_slave_eco_4_new			5	elo_fimir_slave_eco_4	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
+elo_fimir_slave_eco_5_new			5	elo_fimir_slave_eco_5	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
+elo_fimir_culture_1_new			4	elo_fimir_culture_1	ovn_fim_fimir_tech	1	300	0	0			0	0	0
+elo_fimir_culture_2_new			4	elo_fimir_culture_2	ovn_fim_fimir_tech	2	500	0	0			0	0	0
+elo_fimir_culture_3_new			4	elo_fimir_culture_3	ovn_fim_fimir_tech	3	800	0	0			0	0	0
+elo_fimir_culture_4_new			4	elo_fimir_culture_4	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
+elo_fimir_culture_5_new			4	elo_fimir_culture_5	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
+elo_fimir_military_1_new			6	elo_fimir_military_1	ovn_fim_fimir_tech	1	300	0	0			0	0	0
+elo_fimir_military_2_new			6	elo_fimir_military_2	ovn_fim_fimir_tech	2	500	0	0			0	0	0
+elo_fimir_military_3_new			6	elo_fimir_military_3	ovn_fim_fimir_tech	3	800	0	0			0	0	0
+elo_fimir_military_4_new			6	elo_fimir_military_4	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
+elo_fimir_military_5_new			6	elo_fimir_military_5	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
+elo_fimir_magic_1_new			7	elo_fimir_magic_1	ovn_fim_fimir_tech	1	300	0	0			0	0	0
+elo_fimir_magic_2_new			7	elo_fimir_magic_2	ovn_fim_fimir_tech	2	500	0	0			0	0	0
 elo_fimir_magic_3_new			7	elo_fimir_magic_3	ovn_fim_fimir_tech	3	800	0	0			0	0	0
-elo_fimir_magic_4_new			9	elo_fimir_magic_4	ovn_fim_fimir_tech	3	1200	0	0			0	0	0
-elo_fimir_magic_5_new			11	elo_fimir_magic_5	ovn_fim_fimir_tech	3	1500	0	0			0	0	0
-elo_fimir_chaos_loyalist_1_new			3	elo_fimir_chaos_loyalist_1	ovn_fim_fimir_tech	4	300	0	0			0	0	0
-elo_fimir_chaos_loyalist_2_new			5	elo_fimir_chaos_loyalist_2	ovn_fim_fimir_tech	4	500	0	0			0	0	0
-elo_fimir_chaos_loyalist_3_new			7	elo_fimir_chaos_loyalist_3	ovn_fim_fimir_tech	4	800	0	0			0	0	0
-elo_fimir_chaos_loyalist_4_new			9	elo_fimir_chaos_loyalist_4	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
-elo_fimir_chaos_loyalist_5_new			11	elo_fimir_chaos_loyalist_5	ovn_fim_fimir_tech	4	1500	0	0			0	0	0
-elo_fimir_swamp_creatures_1_new			3	elo_fimir_swamp_creatures_1	ovn_fim_fimir_tech	5	300	0	0			0	0	0
-elo_fimir_swamp_creatures_2_new			5	elo_fimir_swamp_creatures_2	ovn_fim_fimir_tech	5	500	0	0			0	0	0
-elo_fimir_swamp_creatures_3_new			7	elo_fimir_swamp_creatures_3	ovn_fim_fimir_tech	5	800	0	0			0	0	0
-elo_fimir_swamp_creatures_4_new			9	elo_fimir_swamp_creatures_4	ovn_fim_fimir_tech	5	1200	0	0			0	0	0
-elo_fimir_swamp_creatures_5_new			11	elo_fimir_swamp_creatures_5	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
-elo_fimir_swamp_creatures_6_new			13	elo_fimir_swamp_creatures_6	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
-elo_fimir_culture_eco_new			15	elo_fimir_culture_eco	ovn_fim_fimir_tech	1	100	10000	0			0	0	0
-elo_fimir_eco_military_new			15	elo_fimir_eco_military	ovn_fim_fimir_tech	2	100	10000	0			0	0	0
-elo_fimir_military_magic_new			15	elo_fimir_military_magic	ovn_fim_fimir_tech	3	100	10000	0			0	0	0
-elo_fimir_magic_loyalist_new			15	elo_fimir_magic_loyalist	ovn_fim_fimir_tech	4	100	10000	0			0	0	0
-elo_fimir_loyalist_creatures_new			15	elo_fimir_loyalist_creatures	ovn_fim_fimir_tech	5	100	10000	0			0	0	0
-elo_fimir_chaos_loyalist_1_new_kroll		ovn_fim_tendrils_of_doom	3	elo_fimir_chaos_loyalist_1_kroll	ovn_fim_fimir_tech	4	300	0	0			0	0	0
-elo_fimir_chaos_loyalist_2_new_kroll		ovn_fim_tendrils_of_doom	5	elo_fimir_chaos_loyalist_2_kroll	ovn_fim_fimir_tech	4	500	0	0			0	0	0
-elo_fimir_chaos_loyalist_3_new_kroll		ovn_fim_tendrils_of_doom	7	elo_fimir_chaos_loyalist_3_kroll	ovn_fim_fimir_tech	4	800	0	0			0	0	0
-elo_fimir_chaos_loyalist_4_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_4_kroll	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
-elo_fimir_chaos_loyalist_5_new_kroll		ovn_fim_tendrils_of_doom	11	elo_fimir_chaos_loyalist_5_kroll	ovn_fim_fimir_tech	4	1500	0	0			0	0	0
-elo_fimir_magic_loyalist_new_kroll		ovn_fim_tendrils_of_doom	15	elo_fimir_magic_loyalist_kroll	ovn_fim_fimir_tech	4	100	10000	0			0	0	0
+elo_fimir_magic_4_new			7	elo_fimir_magic_4	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
+elo_fimir_magic_5_new			7	elo_fimir_magic_5	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
+elo_fimir_chaos_loyalist_1_new		ovn_fim_rancor_hold	9	elo_fimir_chaos_loyalist_1	ovn_fim_fimir_tech	1	500	0	0			0	0	0
+elo_fimir_chaos_loyalist_2_new		ovn_fim_rancor_hold	9	elo_fimir_chaos_loyalist_2	ovn_fim_fimir_tech	2	700	0	0			0	0	0
+elo_fimir_chaos_loyalist_3_new		ovn_fim_rancor_hold	9	elo_fimir_chaos_loyalist_3	ovn_fim_fimir_tech	3	600	0	0			0	0	0
+elo_fimir_chaos_loyalist_4_new		ovn_fim_rancor_hold	9	elo_fimir_chaos_loyalist_4	ovn_fim_fimir_tech	4	800	0	0			0	0	0
+elo_fimir_chaos_loyalist_5_new		ovn_fim_rancor_hold	9	elo_fimir_chaos_loyalist_5	ovn_fim_fimir_tech	5	900	0	0			0	0	0
+elo_fimir_swamp_creatures_1_new			8	elo_fimir_swamp_creatures_1	ovn_fim_fimir_tech	1	300	0	0			0	0	0
+elo_fimir_swamp_creatures_2_new			8	elo_fimir_swamp_creatures_2	ovn_fim_fimir_tech	2	500	0	0			0	0	0
+elo_fimir_swamp_creatures_3_new			8	elo_fimir_swamp_creatures_3	ovn_fim_fimir_tech	3	800	0	0			0	0	0
+elo_fimir_swamp_creatures_4_new			8	elo_fimir_swamp_creatures_4	ovn_fim_fimir_tech	4	1200	0	0			0	0	0
+elo_fimir_swamp_creatures_5_new			8	elo_fimir_swamp_creatures_5	ovn_fim_fimir_tech	5	1500	0	0			0	0	0
+elo_fimir_swamp_creatures_6_new			8	elo_fimir_swamp_creatures_6	ovn_fim_fimir_tech	6	1500	0	0			0	0	0
+elo_fimir_culture_eco_new			4	elo_fimir_culture_eco	ovn_fim_fimir_tech	7	100	10000	0			0	0	0
+elo_fimir_eco_military_new			6	elo_fimir_eco_military	ovn_fim_fimir_tech	7	100	10000	0			0	0	0
+elo_fimir_military_magic_new			7	elo_fimir_military_magic	ovn_fim_fimir_tech	7	100	10000	0			0	0	0
+elo_fimir_magic_loyalist_new			11	elo_fimir_magic_loyalist	ovn_fim_fimir_tech	3	100	10000	0			0	0	0
+elo_fimir_loyalist_creatures_new			8	elo_fimir_loyalist_creatures	ovn_fim_fimir_tech	7	100	10000	0			0	0	0
+elo_fimir_chaos_loyalist_1_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_1_kroll	ovn_fim_fimir_tech	1	500	0	0			0	0	0
+elo_fimir_chaos_loyalist_2_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_2_kroll	ovn_fim_fimir_tech	2	700	0	0			0	0	0
+elo_fimir_chaos_loyalist_3_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_3_kroll	ovn_fim_fimir_tech	3	600	0	0			0	0	0
+elo_fimir_chaos_loyalist_4_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_4_kroll	ovn_fim_fimir_tech	4	800	0	0			0	0	0
+elo_fimir_chaos_loyalist_5_new_kroll		ovn_fim_tendrils_of_doom	9	elo_fimir_chaos_loyalist_5_kroll	ovn_fim_fimir_tech	5	900	0	0			0	0	0
+elo_fimir_magic_loyalist_new_kroll		ovn_fim_tendrils_of_doom	11	elo_fimir_magic_loyalist_kroll	ovn_fim_fimir_tech	3	100	10000	0			0	0	0

@@ -61,6 +61,7 @@ elo_fimir_useful_shearls_ammo	ammo.png	101	ammo.png	battle	true
 elo_fimir_useful_shearls_mdmg	ranged_damage.png	109	ranged_damage.png	battle	true
 elo_fimir_apprentices_mdmg	ranged_damage.png	109	ranged_damage.png	battle	true
 elo_fimir_apprentices_reload	icon_stat_reload_time_force.png	202	ranged_damage.png	battle	true
+elo_fimir_shearl_replenish	replenishment.png	101	replenishment.png	campaign	true
 elo_low_level_swamp_dwellers_rep	replenishment.png	101	replenishment.png	campaign	true
 elo_low_level_swamp_dwellers_speed	battle_movement.png	101	battle_movement.png	battle	true
 elo_low_level_swamp_dwellers_vsinf	bonus_vs_small.png	55	bonus_vs_small.png	battle	true
@@ -136,3 +137,5 @@ ovn_fim_enable_army_ability_spawn_beastsy_HIDDEN	general_ability.png	600	general
 ovn_fim_enable_army_ability_spawn_beasts	general_ability.png	600	general_ability.png	both	true
 ovn_fimir_slaves_gain	slaves.png	105	slaves.png	campaign	true
 ovn_fimir_slaves_gain_battle	slaves.png	105	slaves.png	campaign	true
+ovn_fim_swamp_daemons_regeneration	general_ability.png	4	general_ability.png	battle	true
+ovn_fim_swamp_daemons_ws	weapon_damage.png	461	weapon_damage.png	battle	true
