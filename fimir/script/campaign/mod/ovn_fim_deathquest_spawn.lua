@@ -67,7 +67,7 @@ local function ovn_fim_deathquest_spawn()
         function(context)
             local char = context:character()
             -- don't trigger it for default Mixer faction leaders we kill at game start
-            if char:is_faction_leader() and cm:model():turn_number() == 1 then
+            if char:character_subtype_key() == "wh_main_nor_marauder_chieftain" and cm:model():turn_number() == 1 then
                 return
             end
 

@@ -40,17 +40,16 @@ local function new_game_startup()
 	cm:instantly_set_settlement_primary_slot_level(wreckers_point:settlement(), 3)
 	cm:heal_garrison(wreckers_point:cqi());
 
-    cm:create_agent(
+    local champion_agent = cm:create_agent(
         "ovn_fim_rancor_hold",
         "champion",
         "fim_finmor",
         475,
-        744,
-        false,
-        function(cqi)
-            cm:replenish_action_points(cm:char_lookup_str(cqi))
-        end
+        744
     )
+    if champion_agent then
+        cm:replenish_action_points(cm:char_lookup_str(champion_agent))
+    end
 
     local unit_count = 1 -- card32 count
     local rcp = 20 -- float32 replenishment_chance_percentage

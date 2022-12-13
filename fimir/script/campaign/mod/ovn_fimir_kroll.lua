@@ -17,6 +17,19 @@ local function spawn_new_force()
             cm:set_character_immortality(str, true);
             cm:set_character_unique(str, true);
             cm:replenish_action_points(cm:char_lookup_str(cqi))
+
+            local shaman = cm:create_agent(
+                "ovn_fim_tendrils_of_doom",
+                "wizard",
+                "elo_boglar_shaman",
+                140,
+                452
+            )
+        
+            if shaman then
+                cm:replenish_action_points(cm:char_lookup_str(shaman))
+                cm:embed_agent_in_force(shaman, cm:get_character_by_cqi(cqi):military_force())
+            end
         end
 	)
 end
@@ -40,18 +53,6 @@ local function new_game_startup()
     cm:transfer_region_to_faction("wh3_main_combi_region_monument_of_the_moon", "ovn_fim_tendrils_of_doom")
 	cm:instantly_set_settlement_primary_slot_level(monument_of_the_moon:settlement(), 3)
 	cm:heal_garrison(monument_of_the_moon:cqi());
-
-    cm:create_agent(
-        "ovn_fim_tendrils_of_doom",
-        "wizard",
-        "elo_boglar_shaman",
-		132, -- x,
-		454, -- y,
-        false,
-        function(cqi)
-            cm:replenish_action_points(cm:char_lookup_str(cqi))
-        end
-    )
 
     local unit_count = 1 -- card32 count
     local rcp = 20 -- float32 replenishment_chance_percentage
