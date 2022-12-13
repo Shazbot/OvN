@@ -106,7 +106,7 @@ local get_num_temples = function(faction)
         for _, slot in model_pairs(region:slot_list()) do
             if slot and slot:has_building() then
                 local building_key = slot:building():name()
-                if building_key == "ovn_fimir_kroll_temple" then
+                if building_key == "ovn_fimir_temple_kroll_1" then
                     num_temples = num_temples + 1
                 end
             end
@@ -143,24 +143,24 @@ local give_kroll_god_bonuses = function(faction)
 
     faction_custom_bundle:add_effect("ovn_fimir_kroll_army_bonuses_dummy", "faction_to_faction_own_unseen", 1)
 
-    if num_temples > 29 then
+    if num_temples >= 25 then
         army_custom_bundle:add_effect("wh_main_effect_force_stat_leadership", "character_to_force_own", 8)
         army_custom_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "character_to_force_own", 15)
         army_custom_bundle:add_effect("ovn_fimir_kroll_dmg_reflect_enable", "character_to_force_own", 1)
 
         faction_custom_bundle:add_effect("ovn_fimir_diplomacy_bonus_all_fimir", "faction_to_faction_own_unseen", 40)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_4", "faction_to_faction_own_unseen", 1)
-    elseif num_temples > 19 then
+    elseif num_temples >= 15 then
         army_custom_bundle:add_effect("wh_main_effect_force_stat_leadership", "character_to_force_own", 6)
         army_custom_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "character_to_force_own", 10)
 
         faction_custom_bundle:add_effect("ovn_fimir_diplomacy_bonus_all_fimir", "faction_to_faction_own_unseen", 20)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_3", "faction_to_faction_own_unseen", 1)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_4", "faction_to_faction_own_unseen", -1)
-    elseif num_temples > 9 then
+    elseif num_temples >= 5 then
         army_custom_bundle:add_effect("wh_main_effect_force_stat_leadership", "character_to_force_own", 4)
         army_custom_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "character_to_force_own", 5)
-        
+
         faction_custom_bundle:add_effect("ovn_fimir_diplomacy_bonus_all_fimir", "faction_to_faction_own_unseen", 10)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_2", "faction_to_faction_own_unseen", 1)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_3", "faction_to_faction_own_unseen", -1)
@@ -229,26 +229,28 @@ end
 
 cm:add_first_tick_callback(
 	function()
-        cm:callback(function()
-            pcall(function()
-                mixer_set_faction_trait("ovn_fim_tendrils_of_doom", "ovn_tendrils_doom_faction_trait", true)
-            end)
+        if cm:get_campaign_name() == "main_warhammer" then
+            cm:callback(function()
+                pcall(function()
+                    mixer_set_faction_trait("ovn_fim_tendrils_of_doom", "ovn_tendrils_doom_faction_trait", true)
+                end)
 
-            on_every_first_tick()
+                on_every_first_tick()
 
-            if cm:is_new_game() then
-                if cm:get_campaign_name() == "main_warhammer" then
-                    local ok, err =
-                        pcall(
-                        function()
-                            new_game_startup()
+                if cm:is_new_game() then
+                    
+                        local ok, err =
+                            pcall(
+                            function()
+                                new_game_startup()
+                            end
+                        )
+                        if not ok then
+                            script_error(err)
                         end
-                    )
-                    if not ok then
-                        script_error(err)
                     end
-                end
-            end
-        end, 3)
+                
+            end, 3)
+        end
 	end
 )
