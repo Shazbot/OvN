@@ -65,7 +65,13 @@ local function ovn_fim_deathquest_spawn()
                 return context:character():faction():culture() == "ovn_fimir" and (context:character():character_type_key() == "general" or context:character():character_type_key() == "colonel")
         end,
         function(context)
-            local FimFaction = context:character():faction()
+            local char = context:character()
+            -- don't trigger it for default Mixer faction leaders we kill at game start
+            if char:is_faction_leader() and cm:model():turn_number() == 1 then
+                return
+            end
+
+            local FimFaction = char:faction()
 
             cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
 

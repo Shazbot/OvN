@@ -127,13 +127,13 @@ local give_kroll_god_bonuses = function(faction)
     cm:remove_effect_bundle("ovn_fimir_kroll_bundle_faction_3", faction:name())
     cm:remove_effect_bundle("ovn_fimir_kroll_bundle_faction_4", faction:name())
 
-    if num_temples > 29 then
+    if num_temples > 25 then
         army_bundle_name = "ovn_fimir_kroll_bundle_4"
         faction_bundle_name = "ovn_fimir_kroll_bundle_faction_4"
-    elseif num_temples > 19 then
+    elseif num_temples > 15 then
         army_bundle_name = "ovn_fimir_kroll_bundle_3"
         faction_bundle_name = "ovn_fimir_kroll_bundle_faction_3"
-    elseif num_temples > 9 then
+    elseif num_temples > 5 then
         army_bundle_name = "ovn_fimir_kroll_bundle_2"
         faction_bundle_name = "ovn_fimir_kroll_bundle_faction_2"
     end
