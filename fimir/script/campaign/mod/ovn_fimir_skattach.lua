@@ -84,7 +84,9 @@ local function new_game_startup()
             unit
         )
     end
-    
+
+    if rancor_hold:is_human() then
+
         cm:create_force_with_general(
 				"wh_main_emp_marienburg",
 				"wh_main_emp_inf_swordsmen,wh_main_emp_inf_swordsmen,wh_main_emp_inf_crossbowmen,wh_main_emp_cav_empire_knights",
@@ -105,6 +107,8 @@ local function new_game_startup()
 			)
     
 		cm:force_declare_war("wh_main_emp_marienburg", "ovn_fim_rancor_hold", false, false)
+
+        end
     
     
     cm:callback(function()

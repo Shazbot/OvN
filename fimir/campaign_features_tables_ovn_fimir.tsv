@@ -5,3 +5,4 @@ faction_mercenary_recruitment_outside_of_territory	ovn_fimir_skattach	true
 rituals	ovn_fimir_skattach	true
 factionwide_recruitment	ovn_fimir	true
 additional_army_upkeep	ovn_fimir	true
+hidden_settlements	ovn_fimir	true

@@ -87,6 +87,8 @@ local function new_game_startup()
             unit
         )
     end
+   
+    if tendrils_of_doom:is_human() then
     
         cm:create_force_with_general(
 				"wh2_main_bst_manblight",
@@ -108,6 +110,8 @@ local function new_game_startup()
         )
     
 		cm:force_declare_war("wh2_main_bst_manblight", "ovn_fim_tendrils_of_doom", false, false)
+
+    end
     
     
     cm:callback(function()
