@@ -136,11 +136,11 @@ bale_beasts_magic_06	bale_beasts_magic_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 bale_beasts_magic_06	bale_beasts_magic_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 bale_beasts_magic_06	bale_beasts_magic_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 bale_beasts_magic_06	bale_beasts_magic_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
-bale_beasts__magic_07	bale_beasts_magic_06	0	1	1	0.0000	0.0000	REQUIRED
+bale_beasts_magic_07	bale_beasts_magic_06	0	1	1	0.0000	0.0000	REQUIRED
 bale_beasts_magic_08	bale_beasts_magic_06	0	1	1	0.0000	0.0000	REQUIRED
 bale_beasts_magic_09	bale_beasts_magic_06	0	1	1	0.0000	0.0000	REQUIRED
 bale_beasts_magic_10	bale_beasts_magic_06	0	1	1	0.0000	0.0000	REQUIRED
-bale_beasts_magic_11	bale_beasts__magic_07	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+bale_beasts_magic_11	bale_beasts_magic_07	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 bale_beasts_magic_11	bale_beasts_magic_08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 bale_beasts_magic_11	bale_beasts_magic_09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 bale_beasts_magic_11	bale_beasts_magic_10	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

@@ -18,7 +18,7 @@ elo_fimir_witness_me	character_general_ability.png			0	false	false	false	0.0000	
 elo_champions_chaos_r7	battle_damage.png			0	false	false	false	0.0000	0
 ovn_fim_dirach_hidden_title	HIDDEN			0	false	false	false	0.0000	0
 anc_fimirach_noble_mount	mount_cold_one.png			15	false	false	false	0.0000	0
-fim_meargh_skattach_innate	trait_norsca.png			0	true	false	false	5.0000	0
+fim_meargh_skattach_innate	trait_fimir.png			0	true	false	false	5.0000	0
 fim_meargh_skattach_ancient_leadership	character_magic.png			6	false	false	false	0.0000	0
 fim_meargh_skattach_death_quest	character_damage.png			0	false	false	false	0.0000	0
 fim_meargh_skattach_poison_mist	fim_skattach_poison_mist.png			0	false	false	false	0.0000	0
@@ -29,7 +29,7 @@ fim_meargh_skattach_anc_staff_balor	item_weapon.png			11	false	false	false	0.000
 fim_meargh_skattach_anc_hellmother_crown	item_talisman.png			12	false	false	false	0.0000	0
 fim_meargh_skattach_anc_throne_hellmother	mount_nurgling_palanquin.png			10	false	false	false	0.0000	0
 anc_boglar_shaman_hound	mount_giant_wolf.png	meh		0	false	false	false	0.0000	0
-fim_daemon_octopus_kroll_innate	trait_norsca.png			0	true	false	false	5.0000	0
+fim_daemon_octopus_kroll_innate	trait_fimir.png			0	true	false	false	5.0000	0
 fim_kroll_unique_0	character_magic.png			6	false	false	false	0.0000	0
 fim_kroll_unique_1	character_damage.png			0	false	false	false	0.0000	0
 fim_kroll_unique_2	fim_skattach_poison_mist.png			0	false	false	false	0.0000	0
@@ -37,3 +37,13 @@ fim_kroll_unique_3	character_experience.png			0	false	false	false	0.0000	0
 fim_kroll_unique_4	character_magic.png			0	false	false	false	0.0000	0
 fim_kroll_unique_5	fim_skattach_summon_swampdaemons.png			0	false	false	false	0.0000	0
 fim_devoted_of_chaos	campaign_army.png			0	false	false	false	0.0000	0
+fim_lord_innate_1	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_2	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_3	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_4	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_5	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_6	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_7	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_8	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_9	trait_fimir.png			0	true	false	false	5.0000	0
+fim_lord_innate_10	trait_fimir.png			0	true	false	false	5.0000	0

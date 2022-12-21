@@ -25,7 +25,7 @@ bale_death_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swa
 bale_death_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_dlc08_nor_cha_fimir_balefiend_death		0.0000	3.0000		0	0	true
 bale_death_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_death		0.0000	4.0000		0	0	true
 bale_death_unique_06		wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_death		0.0000	5.0000		0	0	true
-bale_death_innate_01		wh2_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	0.0000		0	0	false
+bale_death_innate_01		fim_lord_innate_9	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	0.0000		0	0	false
 bale_death_innate_03		wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	2.0000		0	0	false
 bale_death_innate_04		wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	3.0000		0	0	false
 bale_death_innate_05		wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	4.0000		0	0	false
@@ -44,5 +44,5 @@ bale_death_innate_19		wh_main_skill_innate_all_scar_distinguishing	wh_dlc08_nor_
 bale_death_innate_20		wh_main_skill_innate_all_sneaky	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	19.0000		0	0	false
 bale_death_innate_21		wh_main_skill_innate_all_stupid	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	20.0000		0	0	false
 bale_death_innate_22		wh_main_skill_innate_all_uncompromising	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	21.0000		0	0	false
-bale_death_innate_23		wh_main_skill_innate_chs_diabolic_spendour	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	22.0000		0	0	false
+bale_death_innate_23		fim_lord_innate_8	wh_dlc08_nor_cha_fimir_balefiend_death		6.0000	22.0000		0	0	false
 bale_death_mentor		wh3_main_skill_all_mentor_hero	wh_dlc08_nor_cha_fimir_balefiend_death		0.0000	12.0000		0	0	true
