@@ -76,7 +76,91 @@ local function rancor_hold_ui_stuff()
     )
 end
 
+core:remove_listener("ovn_fimir_apply_fog_inside_fog_diktat_province_on_ritual_completed")
+core:add_listener(
+    "ovn_fimir_apply_fog_inside_fog_diktat_province_on_ritual_completed",
+    "RitualCompletedEvent",
+    function(context)
+        return context:ritual():ritual_key() == "ovn_fimir_fog_diktat"
+    end,
+    function(context)
+        local target_region = context:ritual():ritual_target():get_target_region()
+        for _, region in model_pairs(target_region:province():regions()) do
+            cm:create_storm_for_region(region:name(), 1, 1, "ovn_fimir_mist");
+        end
+    end,
+    true
+);
+
+core:remove_listener("ovn_fimir_apply_fog_inside_fog_diktat_province_every_turn")
+core:add_listener(
+    "ovn_fimir_apply_fog_inside_fog_diktat_province_every_turn",
+    "RegionTurnStart",
+    true,
+    function(context)
+        local region = context:region()
+        local province = region:province()
+
+        local any_region_has_fimir_fog = false
+        for _, region in model_pairs(province:regions()) do
+            if region:has_effect_bundle("ovn_fimir_fog_diktat") then
+                any_region_has_fimir_fog = true
+                break
+            end
+        end
+
+        if any_region_has_fimir_fog then
+            for _, region in model_pairs(province:regions()) do
+                cm:create_storm_for_region(region:name(), 1, 1, "ovn_fimir_mist");
+            end
+        end
+    end,
+    true
+)
+
+---@param faction CA_FACTION
+local function add_mist_to_faction_regions(faction)
+    local region_list = faction:region_list();
+
+    for i = 0, region_list:num_items() - 1 do
+        local region = region_list:item_at(i);
+        local current_region_name = region:name();
+
+        cm:create_storm_for_region(current_region_name, 1, 1, "ovn_fimir_mist");
+        cm:remove_effect_bundle_from_region("ovn_fimir_region_mist", current_region_name);
+        cm:apply_effect_bundle_to_region("ovn_fimir_region_mist", current_region_name, 2)
+    end
+end
+
+local function add_regions_mist()
+    -- make sure we do it on game load
+    local faction_list = cm:model():world():faction_list();
+	for i = 0, faction_list:num_items() - 1 do
+		local current_faction = faction_list:item_at(i);
+
+		if current_faction:subculture() == "ovn_sc_fim_fimir" then
+			add_mist_to_faction_regions(current_faction)
+		end
+	end
+
+    core:remove_listener("ovn_fimir_region_mist")
+    core:add_listener(
+        "ovn_fimir_region_mist",
+        "FactionTurnStart",
+        function(context)
+            return context:faction():subculture()=="ovn_sc_fim_fimir"
+        end,
+        function(context)
+            local faction = context:faction();
+            add_mist_to_faction_regions(faction)
+        end,
+        true
+    )
+end
+
 local function on_every_first_tick()
+    add_regions_mist()
+
     core:remove_listener("ovn_fimir_remove_fog_vanguard")
     core:add_listener(
         "ovn_fimir_remove_fog_vanguard",
