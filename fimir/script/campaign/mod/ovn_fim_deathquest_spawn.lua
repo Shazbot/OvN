@@ -13,7 +13,7 @@ local function give_death_quest_after_faction_dies(died_faction_key)
         if fimir_faction_key ~= died_faction_key then
             local FimFaction = cm:get_faction(fimir_faction_key)
 
-            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 3, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
+            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 1, 0.1, "", "", "", true, "fim_inf_death_quest");
             
             if cm:get_faction(fimir_faction_key):is_human() then
                 cm:show_message_event(
@@ -42,7 +42,7 @@ local function ovn_fim_deathquest_spawn()
         function(context)
             local FimFaction = context:character():faction()
 
-            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
+            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 1, 0.1, "", "", "", true, "fim_inf_death_quest");
 
             if FimFaction:is_human() then
                 cm:show_message_event(
@@ -62,7 +62,7 @@ local function ovn_fim_deathquest_spawn()
         "ovn_fim_spawn_deathquest_lost_char",
         "CharacterConvalescedOrKilled",
         function(context)
-                return context:character():faction():culture() == "ovn_fimir" and (context:character():character_type_key() == "general" or context:character():character_type_key() == "colonel")
+                return context:character():faction():culture() == "ovn_fimir" and (context:character():character_type_key() == "general"
         end,
         function(context)
             local char = context:character()
@@ -73,7 +73,7 @@ local function ovn_fim_deathquest_spawn()
 
             local FimFaction = char:faction()
 
-            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 12, 0.1, "", "", "", true, "fim_inf_death_quest");
+            cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 1, 0.1, "", "", "", true, "fim_inf_death_quest");
 
             if FimFaction:is_human() then
                 cm:show_message_event(

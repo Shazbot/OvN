@@ -153,13 +153,13 @@ local give_kroll_god_bonuses = function(faction)
     cm:remove_effect_bundle("ovn_fimir_kroll_bundle_faction_3", faction:name())
     cm:remove_effect_bundle("ovn_fimir_kroll_bundle_faction_4", faction:name())
 
-    if num_temples > 25 then
+    if num_temples >= 20 then
         army_bundle_name = "ovn_fimir_kroll_bundle_4"
         faction_bundle_name = "ovn_fimir_kroll_bundle_faction_4"
-    elseif num_temples > 15 then
+    elseif num_temples >= 10 then
         army_bundle_name = "ovn_fimir_kroll_bundle_3"
         faction_bundle_name = "ovn_fimir_kroll_bundle_faction_3"
-    elseif num_temples > 5 then
+    elseif num_temples >= 3 then
         army_bundle_name = "ovn_fimir_kroll_bundle_2"
         faction_bundle_name = "ovn_fimir_kroll_bundle_faction_2"
     end
@@ -168,22 +168,23 @@ local give_kroll_god_bonuses = function(faction)
     local faction_custom_bundle = cm:create_new_custom_effect_bundle(faction_bundle_name)
 
     faction_custom_bundle:add_effect("ovn_fimir_kroll_army_bonuses_dummy", "faction_to_faction_own_unseen", 1)
+    faction_custom_bundle:add_effect("ovn_fimir_kroll_num_temples", "faction_to_faction_own_unseen", num_temples)
 
-    if num_temples >= 25 then
+    if num_temples >= 20 then
         army_custom_bundle:add_effect("wh_main_effect_force_stat_leadership", "character_to_force_own", 8)
         army_custom_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "character_to_force_own", 15)
         army_custom_bundle:add_effect("ovn_fimir_kroll_dmg_reflect_enable", "character_to_force_own", 1)
 
         faction_custom_bundle:add_effect("ovn_fimir_diplomacy_bonus_all_fimir", "faction_to_faction_own_unseen", 40)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_4", "faction_to_faction_own_unseen", 1)
-    elseif num_temples >= 15 then
+    elseif num_temples >= 10 then
         army_custom_bundle:add_effect("wh_main_effect_force_stat_leadership", "character_to_force_own", 6)
         army_custom_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "character_to_force_own", 10)
 
         faction_custom_bundle:add_effect("ovn_fimir_diplomacy_bonus_all_fimir", "faction_to_faction_own_unseen", 20)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_3", "faction_to_faction_own_unseen", 1)
         faction_custom_bundle:add_effect("ovn_fimir_kroll_god_dummy_4", "faction_to_faction_own_unseen", -1)
-    elseif num_temples >= 5 then
+    elseif num_temples >= 3 then
         army_custom_bundle:add_effect("wh_main_effect_force_stat_leadership", "character_to_force_own", 4)
         army_custom_bundle:add_effect("wh_main_effect_force_stat_weapon_strength", "character_to_force_own", 5)
 
