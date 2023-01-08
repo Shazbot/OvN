@@ -31,7 +31,7 @@ local function ovn_fimir_victory_conditions()
 						{
 							type CONSTRUCT_N_OF_A_BUILDING;
 							faction ovn_fim_tendrils_of_doom;
-							total 13;
+							total 10;
 							building_level ovn_fimir_temple_kroll_1;
 						}
 						payload
