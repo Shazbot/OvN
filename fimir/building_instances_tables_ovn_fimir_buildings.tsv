@@ -7,6 +7,8 @@ ovn_fimir_fianna	1
 ovn_fimir_dirach	1
 ovn_fimir_daemons	1
 ovn_fimir_growth	1
+ovn_fimir_slave	1
+ovn_fimir_corruption	1
 ovn_fimir_income	1
 ovn_fimir_order	1
 ovn_fimir_port	1

@@ -11,4 +11,4 @@ fim_skattach_daemons_moor_hounds	0.0000	6	fim_inf_moor_hounds	false	0.0000
 fim_skattach_daemons_daemonomaniac	0.0000	1	fim_mon_daemonomaniac	false	0.0000
 fim_skattach_daemons_nuckleavees	0.0000	4	fim_cav_nuckelavee	false	0.0000
 fim_skattach_daemons_shrinebalor	0.0000	1	fim_veh_eye_oculus	false	0.0000
-fim_inf_death_quest	0.0000	10	fim_inf_death_quest	false	0.0000
+fim_inf_death_quest	80.0000	10	fim_inf_death_quest	true	0.0500

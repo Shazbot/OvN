@@ -8,7 +8,9 @@ ovn_fimir_cavalry						cai_military_group					-1	-1	0	0	0	0	0	0	0	0	510	510	510	
 ovn_fimir_fianna						cai_military_group					-1	-1	0	0	0	0	0	0	0	0	510	510	510	510	0	0	10	500
 ovn_fimir_dirach						cai_military_group					-1	-1	0	0	0	0	0	0	0	0	510	510	510	510	0	0	10	500
 ovn_fimir_daemons						cai_military_group					-1	-1	0	0	0	0	0	0	0	0	510	510	510	510	0	0	10	500
-ovn_fimir_growth						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+ovn_fimir_growth						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	5
+ovn_fimir_slave						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	5
+ovn_fimir_corruption						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	5
 ovn_fimir_income						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	1000
 ovn_fimir_order						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
 ovn_fimir_port						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	1000

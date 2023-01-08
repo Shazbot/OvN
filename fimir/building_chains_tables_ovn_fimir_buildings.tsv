@@ -11,9 +11,11 @@ ovn_fimir_cavalry			military	false	wh2_main_sch_military3_warmachines		3		true
 ovn_fimir_fianna			military	false	wh2_main_sch_support1_smith		1		true
 ovn_fimir_dirach			military	false	wh2_main_sch_support2_worship		2		true
 ovn_fimir_daemons			military	false	wh2_main_sch_support5_extra		3		true
-ovn_fimir_growth			money	false	wh2_main_sch_infrastructure1_farm		1		true
-ovn_fimir_income			money	false	wh2_main_sch_infrastructure2_industry		2		true
-ovn_fimir_order			money	false	wh2_main_sch_infrastructure3_order		3		true
+ovn_fimir_growth			money	false	wh2_main_sch_infrastructure1_farm		2		true
+ovn_fimir_slave			money	false	wh2_main_sch_infrastructure6_other		5		true
+ovn_fimir_corruption			money	false	wh2_main_sch_support4_other		1		true
+ovn_fimir_income			money	false	wh2_main_sch_infrastructure2_industry		3		true
+ovn_fimir_order			money	false	wh2_main_sch_infrastructure3_order		4		true
 ovn_fimir_port			money	false	wh_main_sch_port		0		true
 ovn_fimir_walls_major			money	false	wh2_main_sch_defence_major_def		0		true
 ovn_fimir_walls_minor			money	false	wh2_main_sch_defence_minor		1		true

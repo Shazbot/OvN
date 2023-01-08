@@ -9,6 +9,7 @@ ovn_fimir_fianna	ovn_fimir
 ovn_fimir_dirach	ovn_fimir
 ovn_fimir_daemons	ovn_fimir
 ovn_fimir_growth	ovn_fimir
+ovn_fimir_slave	ovn_fimir
 ovn_fimir_income	ovn_fimir
 ovn_fimir_order	ovn_fimir
 ovn_fimir_walls_major	ovn_fimir
@@ -53,3 +54,4 @@ wh3_main_special_the_great_desert_other	ovn_fimir
 wh_main_bretonnia_legendary_bordeleaux	ovn_fimir
 wh_main_special_erengrad_port	ovn_fimir
 wh_main_special_marienburg_port	ovn_fimir
+ovn_fimir_corruption	ovn_fimir

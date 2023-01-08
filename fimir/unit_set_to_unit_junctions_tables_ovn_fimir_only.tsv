@@ -252,3 +252,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc08_nor_cha_fimir_balefiend_fire_0	fim_all_generic_characters	false
 			wh_dlc08_nor_cha_fimir_balefiend_shadow_0	fim_all_generic_characters	false
 			fim_inf_swamp_daemons	fim_swamp_daemons_unit_set	false
+			fim_inf_moor_hounds	fim_inf_moor_hounds	false
+			fim_cav_marsh_reavers	fim_cav_marsh_reavers	false
+			fim_cav_marsh_hornets_ror	fim_cav_marsh_reavers	false

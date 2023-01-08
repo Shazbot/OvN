@@ -28,6 +28,7 @@ ovn_fimir_daemons_2	ovn_fimir_daemons	1	4	4000	0		false	false		true	ovn_fimir_da
 ovn_fimir_growth_1	ovn_fimir_growth	0	1	500	0		false	false		true	ovn_fimir_growth	false	0.0000	0	true	1		true	0	0		0
 ovn_fimir_growth_2	ovn_fimir_growth	1	2	1000	0		false	false		true	ovn_fimir_growth	false	0.0000	0	true	2		true	0	0		0
 ovn_fimir_growth_3	ovn_fimir_growth	2	3	1500	0		false	false		true	ovn_fimir_growth	false	0.0000	0	true	3		true	0	0		0
+ovn_fimir_slave	ovn_fimir_slave	0	2	1000	0		false	false		true	ovn_fimir_slave	false	0.0000	0	true	3		true	0	0		0
 ovn_fimir_income_1	ovn_fimir_income	0	1	500	0		false	false		true	ovn_fimir_income	false	0.0000	0	true	1		true	0	0		0
 ovn_fimir_income_2	ovn_fimir_income	1	2	1000	0		false	false		true	ovn_fimir_income	false	0.0000	0	true	2		true	0	0		0
 ovn_fimir_income_3	ovn_fimir_income	2	3	1500	0		false	false		true	ovn_fimir_income	false	0.0000	0	true	3		true	0	0		0
@@ -55,3 +56,6 @@ ovn_fimir_middenheim_schadensumpf_landmark	ovn_fimir_middenheim_schadensumpf_lan
 ovn_fimir_agrul_migdhal_landmark	ovn_fimir_agrul_migdhal_landmark	0	4	6000	0		false	false		true	ovn_fimir_agrul_migdhal_landmark	false	0.0000	0	true	3		true	0	0		0
 ovn_fimir_wreckers_point_skattach_tower_landmark	ovn_fimir_wreckers_point_skattach_tower_landmark	0	4	6000	0		false	false		true	ovn_fimir_wreckers_point_skattach_tower_landmark	false	0.0000	0	true	3		true	0	0		0
 ovn_fimir_monument_blessed_swamp_landmark	ovn_fimir_monument_blessed_swamp_landmark	0	3	6000	0		false	false		true	ovn_fimir_monument_blessed_swamp_landmark	false	0.0000	0	true	3		true	0	0		0
+ovn_fimir_corruption_1	ovn_fimir_corruption	0	1	500	0		false	false		true	ovn_fimir_corruption	false	0.0000	0	true	1		true	0	0		0
+ovn_fimir_corruption_2	ovn_fimir_corruption	1	2	1000	0		false	false		true	ovn_fimir_corruption	false	0.0000	0	true	2		true	0	0		0
+ovn_fimir_corruption_3	ovn_fimir_corruption	2	3	1500	0		false	false		true	ovn_fimir_corruption	false	0.0000	0	true	3		true	0	0		0

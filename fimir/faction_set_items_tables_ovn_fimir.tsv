@@ -3,3 +3,8 @@ id	culture	faction	remove	set	subculture
 632635257			false	FavouredCorruptionUndivided	ovn_sc_fim_fimir
 632635258	ovn_fimir		false	anc_set_multi_norsca_chaos	
 632635259	ovn_fimir		false	ovn_fimir	
+632635260	ovn_fimir		false	beastmen_diplomacy_permitted	
+632635261			false	slaanesh_seducible_factions	ovn_sc_fim_fimir
+632635262	ovn_fimir		false	anc_set_multi_beastmen_norsca_chaos	
+632635263	ovn_fimir		false	anc_set_multi_beastmen_chaos	
+632635264	ovn_fimir		false	anc_set_exclusive_norsca	
