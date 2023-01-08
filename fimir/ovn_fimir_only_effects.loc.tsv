@@ -137,7 +137,8 @@ effects_description_ovn_fim_skroll_bog_cotopus_charge	Charge bonus: %+n for Bog 
 effects_description_ovn_fim_skroll_monster_ma	Melee attack: %+n for Chaos Furies, Swamp Daemons, Bog Octopus, Fen Beasts, and Daemonomaniacs units	true
 effects_description_fim_kroll_enable_broodmother	Ability: "Broodmother"	true
 effects_description_fim_kroll_enable_fulcrum	Ability: "Fulcrum of Worship"	true
-effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon strength, Mass and Armour for each Temple of Kroll built in a major settlement	true
+effects_description_fim_kroll_temple_apotheosis_total_dummy	Apotheosis: %+n% Weapon strength, Mass and Armour for Kroll	true
+effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon strength, Mass and Armour for each Temple of Kroll	true
 effects_description_fim_kroll_temple_apotheosis_scale		false
 effects_description_ovn_fim_kroll_apotheosis_dummy	Erect temples in Kroll's name at province capitals, to increase her Mass, Armour and Weapon strength by %+n% each time along with powerful army bonuses and positive diplomatic relations with the Fimir.	true
 effects_description_ovn_fim_skattach_daemon_summoning_dummy	The Rancor Hold Fimir are closely aligned with the Forces of Chaos, and benefit from the Eye of the Gods and Gifts of Chaos mechanics, being able to sacrifice slaves to earn favour and rewards from the Chaos Gods.	true
@@ -154,13 +155,14 @@ effects_description_fim_effect_upkeep_fimm_warriors	Upkeep: %+n% for Fimm Warrio
 effects_description_fim_effect_force_recruit_rank_fimm_warriors	Recruit rank: %+n for Fimm Warriors and Fianna Fimm units	true
 effects_description_fim_skattach_fianna_guardian	Passive ability: "Guardian" for Fianna Fimm units in Skattach's army	false
 effects_description_fim_skattach_enable_madness	Ability: "Megalomaniacal Spellcasting"	true
-effects_description_ovn_fimir_diplomacy_bonus_all_fimir	Diplomatic relations: %+n with Fimir	false
+effects_description_ovn_fimir_diplomacy_bonus_all_fimir	Diplomatic relations: %+n with Chaos Worshipping factions, Dark Elves and Greenskins	false
 effects_description_ovn_fimir_kroll_dmg_reflect_enable	Passive ability: "Bog Tendrils"	false
+effects_description_ovn_fimir_kroll_num_temples	Number of Temples constructed: %n	true
 effects_description_ovn_fimir_kroll_army_bonuses_dummy	Bonuses to Kroll's personal army	true
 effects_description_ovn_fimir_kroll_god_dummy_1	Trifling God	true
-effects_description_ovn_fimir_kroll_god_dummy_2	Renegade God (Erect 5 or more Temples)	true
-effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (Erect 15 or more Temples)	true
-effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (Erect 25 or more Temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_2	Renegade God (Erect 3 or more Temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_3	Patron God (Erect 10 or more Temples)	true
+effects_description_ovn_fimir_kroll_god_dummy_4	God of the Depths (Erect 20 or more Temples)	true
 effects_description_ovn_fim_enable_army_ability_fog_fimul	Army ability: "Fog of Fimul"	false
 effects_description_ovn_fim_enable_army_ability_spawn_beasts	Army ability: "Creatures of the Bog"	false
 effects_description_ovn_fimir_slaves_gain	Slaves: %n per turn	false

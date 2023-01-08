@@ -23,3 +23,10 @@ fim_payload_eye_gods_shearl	Inspired by the Gods' omens, the Norscan tribesmen r
 fim_payload_eye_gods_swampdaemons	Your Chaos Spawn glow with dark power, warping them even further beyond their hideously mutated forms.	Spawn of War	faction	1	military_spending.png	true	false	true
 wh_main_bundle_stance_army_channelling_fimir	Increases the favourability of the Winds of Magic when fighting battles.	Stance: Channel Mists	force	1	wizard.png	true	false	true
 ovn_fimir_region_mist			region	1	wizard.png	false	false	true
+ovn_rancor_hold_faction_trait			faction	1	trait_fimir.png	true	false	true
+ovn_tendrils_doom_faction_trait			faction	1	trait_fimir.png	true	false	true
+ovn_fimir_spell_mastery_1			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_2			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_3			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_4			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_5			force	1	magic_character.png	true	false	true

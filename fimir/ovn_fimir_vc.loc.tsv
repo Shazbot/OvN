@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_fimir_vc.loc		
+victory_types_display_name_ovn_victory_type_long	Long Campaign Victory	true
+victory_types_display_name_ovn_victory_type_short	Short Campaign Victory	true
+victory_types_display_name_ovn_victory_type_domination	Domination Campaign Victory	true
+victory_types_display_name_ovn_victory_type_ultimate	Ultimate Campaign Victory	true
+victory_types_display_name_ovn_victory_type_military	Long Campaign Victory	true
+victory_types_display_name_ovn_victory_type_economic	Long Campaign Victory	true
+victory_types_display_name_ovn_victory_type_cultural	Long Campaign Victory	true
+victory_types_display_name_ovn_type_multiplayer	Multiplayer Campaign Victory	true

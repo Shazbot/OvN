@@ -20,6 +20,7 @@ building_short_description_texts_short_description_ovn_fimir_dirach_2	Here the D
 building_short_description_texts_short_description_ovn_fimir_dirach_3	The eldest Dirachs have mastered the art of binding the mightiest of the swamp dwellers to their will.	true
 building_short_description_texts_short_description_ovn_fimir_daemons_1	Daemons are an integral part of the Fimir war parties and are summoned in great numbers.	true
 building_short_description_texts_short_description_ovn_fimir_daemons_2	By binding a Daemon into the body of a Fimm Warrior, the Dirachs create terrifying living weapons. After the ritual, however, there is nothing left of the warrior's mind.	true
+building_short_description_texts_short_description_ovn_fimir_slave	While not entirely welcoming to other nomadic Fimir, they are open to the trading of trinkets and slaves.	true
 building_short_description_texts_short_description_ovn_fimir_growth_1	The presence of prisoners is a normal part of Fimir existence. The unfortunate souls caught in raids are locked up in crude pens.	true
 building_short_description_texts_short_description_ovn_fimir_growth_2	Prisoners are guarded by enough Shearl or Fimm to prevent escape. The conditions of captivity are tolerable, as the Shearl regularly clean up and feed their prisoners - females in particular are well looked after, though heavily guarded.	true
 building_short_description_texts_short_description_ovn_fimir_growth_3	The largest settlements have deep dungeons housing countless prisoners, who are vital to the preservation of the Fimir.	true
@@ -50,3 +51,7 @@ building_short_description_texts_short_description_ovn_fimir_middenheim_schadens
 building_short_description_texts_short_description_ovn_fimir_agrul_migdhal_landmark	The Marshes of Maddness stretch over huge swathes of the Badlands. Here the Fimir set their traps, capturing slaves and looting those fortunate enough to die.	true
 building_short_description_texts_short_description_ovn_fimir_wreckers_point_skattach_tower_landmark	Like any Meargh, Skattach has a grimlooking tower to rule from, echoing Fimir legends of a capital with a vast obsidian castle at the heart of the mysterious Wandering Island.	true
 building_short_description_texts_short_description_ovn_fimir_monument_blessed_swamp_landmark	From this land, Kroll will turn the whole world into a huge bog and rise to godhood.	true
+building_short_description_texts_short_description_ovn_fimir_corruption_1	A small gathering place by bogs, rivers or the sea to carry out the Fimir's gruesome sacrifices.	true
+building_short_description_texts_short_description_ovn_fimir_corruption_2	Debris is removed and the brush cut back, to allow for larger sacrificial spectacles.	true
+building_short_description_texts_short_description_ovn_fimir_corruption_3	There are no sacrificial slabs or altars but larger settlements construct platforms for convenience.	true
+	or altars to be found in or even near Fimir settlements	true
