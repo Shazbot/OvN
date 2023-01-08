@@ -1,6 +1,6 @@
 unique_id	factor	resource	minimum	maximum	specific_faction_set
 #pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/ovn_fimir					
-ovn_fimir_slaves_battles	battles	ovn_fimir_slaves	0	2147483647	
+ovn_fimir_slaves_battles	battles	ovn_fimir_slaves	-2147483647	2147483647	
 ovn_fimir_slaves_buildings	buildings	ovn_fimir_slaves	0	2147483647	
 ovn_fimir_slaves_buildings_negative	camp_buildings	ovn_fimir_slaves	-2147483647	0	
 ovn_fimir_slaves_characters	characters	ovn_fimir_slaves	0	2147483647	

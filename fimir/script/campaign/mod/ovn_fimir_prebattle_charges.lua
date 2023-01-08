@@ -13,7 +13,7 @@ core:add_listener(
 		local stringified_data = context:trigger():gsub("ovn_fimir_change_slaves|", "")
 		local data = json.decode(stringified_data)
 
-        local factor = data.val < 0 and "camp_buildings" or "battles"
+        local factor = "battles"
 
         cm:faction_add_pooled_resource(data.f_key, "ovn_fimir_slaves", factor, data.val)
 	end,
