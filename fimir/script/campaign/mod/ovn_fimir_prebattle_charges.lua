@@ -250,6 +250,8 @@ core:add_listener(
         local char = cm:get_character_by_cqi(char_cqi)
 
         chars = {}
+        current_charges = 0
+        
         if char:faction() ~= cm:get_local_faction(true) then
             return
         end
