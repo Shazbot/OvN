@@ -1,5 +1,6 @@
 local chars = {}
 
+math.huge = 2^1024 -- json needs this and it's not defined in CA Lua environment
 local json = require("ovn_fimir/json")
 
 core:remove_listener("ovn_fimir_change_slaves")
