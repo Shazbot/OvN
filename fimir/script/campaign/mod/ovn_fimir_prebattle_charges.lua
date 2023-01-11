@@ -67,9 +67,24 @@ local function remove_bundles_from_char(char)
     CampaignUI.TriggerCampaignScriptEvent(cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(), "ovn_fimir_remove_bundles|"..json.encode(data))
 end
 
+local function get_tier_cost()
+    local turn_number = cm:turn_number()-1;
+    return 50+(turn_number*2)
+end
+
 local function handle_ui()
 local purchasable_effects = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel", "army", "units_and_banners_parent", "purchasable_effects")
 if not purchasable_effects then return end
+
+local allies_combatants_panel = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel")
+local char_cqi = allies_combatants_panel:GetContextObjectId("CcoCampaignCharacter")
+local char = cm:get_character_by_cqi(char_cqi)
+if not char then return end
+
+if char:faction() ~= cm:get_local_faction(true) then
+    return
+end
+if char:faction():subculture() ~= "ovn_sc_fim_fimir" then return end
 
 if not find_uicomponent(purchasable_effects, "ovn_fimir_charges") then
     purchasable_effects:CreateComponent('ovn_fimir_charges', "ui/ovn_fimir_prebattle_charges")
@@ -105,7 +120,7 @@ local tx_header = find_uicomponent(ovn_fimir_charges, "tx_header")
 tx_header:SetStateText("Pre-battle sacrifices")
 tx_header:SetTooltipText("Pre-battle sacrifices||Fimir can sacrifice slaves to empower their spell.",true)
 
-if faction:pooled_resource_manager():resource("ovn_fimir_slaves"):value() < 50 then
+if faction:pooled_resource_manager():resource("ovn_fimir_slaves"):value() < get_tier_cost() then
     local add_charges = find_uicomponent(ovn_fimir_charges, "dy_charges", "ovn_fimir_button_add_charges")
     add_charges:SetState("inactive")
 end
@@ -121,14 +136,14 @@ core:add_listener(
         local ovn_fimir_charges = find_uicomponent(core:get_ui_root(), "popup_pre_battle", "allies_combatants_panel", "army", "units_and_banners_parent", "purchasable_effects", "ovn_fimir_charges")
         if not ovn_fimir_charges then return end
 
-        if faction:pooled_resource_manager():resource("ovn_fimir_slaves"):value() < 100 then
+        if faction:pooled_resource_manager():resource("ovn_fimir_slaves"):value() < get_tier_cost()*2 then
             local add_charges = find_uicomponent(ovn_fimir_charges,"dy_charges", "ovn_fimir_button_add_charges")
             add_charges:SetState("inactive")
         end
-        if faction:pooled_resource_manager():resource("ovn_fimir_slaves"):value() > 50 then
+        if faction:pooled_resource_manager():resource("ovn_fimir_slaves"):value() > get_tier_cost() then
             local data = {
                 f_key = faction_key,
-                val = -50
+                val = -get_tier_cost()
             }
             CampaignUI.TriggerCampaignScriptEvent(cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(), "ovn_fimir_change_slaves|"..json.encode(data))
             current_charges = current_charges + 1
@@ -137,7 +152,7 @@ core:add_listener(
             remove_charges:SetState("active")
 
             local dy_charges = find_uicomponent(ovn_fimir_charges,"dy_charges")
-            dy_charges:SetStateText((current_charges==0 and "" or"+ ")..tostring(current_charges*50))
+            dy_charges:SetStateText((current_charges==0 and "" or"+ ")..tostring(current_charges*get_tier_cost()))
 
             if current_charges == 5 then
                 local add_charges = find_uicomponent(ovn_fimir_charges,"dy_charges", "ovn_fimir_button_add_charges")
@@ -148,7 +163,6 @@ core:add_listener(
             charge_icon:SetVisible(true)
 
             charge_icon:SetContextObject(cco("CcoEffectBundle", "ovn_fimir_spell_mastery_"..tostring(current_charges)));
-            -- charge_icon:SetContextObject(cco("CcoEffectBundle", "wh3_main_bundle_populace_happiness_unhappy"));
 
             for _, char in ipairs(chars) do
                 remove_bundles_from_char(char)
@@ -191,7 +205,7 @@ core:add_listener(
         if current_charges > 0 then
             local data = {
                 f_key = faction_key,
-                val = 50
+                val = get_tier_cost()
             }
             CampaignUI.TriggerCampaignScriptEvent(cm:get_faction(cm:get_local_faction_name(true)):command_queue_index(), "ovn_fimir_change_slaves|"..json.encode(data))
             current_charges = current_charges - 1
@@ -200,7 +214,7 @@ core:add_listener(
             add_charges:SetState("active")
 
             local dy_charges = find_uicomponent(ovn_fimir_charges,"dy_charges")
-            dy_charges:SetStateText((current_charges==0 and "" or"+ ")..tostring(current_charges*50))
+            dy_charges:SetStateText((current_charges==0 and "" or"+ ")..tostring(current_charges*get_tier_cost()))
 
             charge_icon:SetContextObject(cco("CcoEffectBundle", "ovn_fimir_spell_mastery_"..tostring(current_charges)));
 
