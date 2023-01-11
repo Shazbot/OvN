@@ -95,8 +95,8 @@ if not find_uicomponent(purchasable_effects, "ovn_fimir_charges") then
     end
 end
 
-local faction_key = cm:get_local_faction():name()
-local faction = cm:get_local_faction()
+local faction = cm:get_local_faction(true)
+local faction_key = faction:name()
 local current_charges = 0
 
 if faction:subculture() ~= "ovn_sc_fim_fimir" then return end
