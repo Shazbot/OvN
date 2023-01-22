@@ -1,0 +1,4 @@
+unit_set	subculture	cap
+#unit_set_to_mp_unit_caps_tables;1;db/unit_set_to_mp_unit_caps_tables/ovn_cod_only		
+mp_cap_unit_hef_veh_lothern_skycutter		2
+mp_cap_unit_hef_veh_lothern_skycutter_ror		1

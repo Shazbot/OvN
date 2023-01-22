@@ -1,0 +1,3 @@
+key	uniform	x_offset	y_offset	character_image	prelude_battle	video	loading_screen_image	loading_screen_intro_video	override_force_location_x	override_force_location_y	voiceover	show_full_intro_option	difficulty	startpos_map	agent_subtype_record	faction
+#frontend_faction_leaders_tables;1;db/frontend_faction_leaders_tables/ovn_cod_only																
+mixer_ime_hef_citadel_of_dusk	composite_scene\lord_selection\kislev\katarin.csc	0.0000	0.0000	ui/portraits/faction_leaders/cod_as.png		todbringer_defeated	ui/loading_ui/load_images/campaign_high_elves1.png		-1.0000	-1.0000	wh_main_vo_actor_Dwarf_Thane1	false		default	ovn_stormrider	wh2_main_hef_citadel_of_dusk

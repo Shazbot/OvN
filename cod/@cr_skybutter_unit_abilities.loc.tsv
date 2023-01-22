@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/@cr_skybutter_unit_abilities.loc		
+unit_abilities_onscreen_name_ovn_cr_unit_abilities_emulation_of_kalagan	Emulation of Kalagan	true
+unit_abilities_tooltip_text_ovn_cr_unit_abilities_emulation_of_kalagan	Many a high elf had been saved from a grisly death by the Sons' skycutters scattering the foe before whisking their wounded ally to safety.	true
+special_ability_phases_onscreen_name_ovn_cr_unit_abilities_emulation_of_kalagan	Emulation of Kalagan	true

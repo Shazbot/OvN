@@ -1,0 +1,3 @@
+key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_cod_only						
+999999312	wh2_main_hef_smith_2	ovn_cr_hef_veh_lothern_skycutter	0	0	wh2_main_hef_citadel_of_dusk	false

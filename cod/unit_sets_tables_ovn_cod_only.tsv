@@ -1,0 +1,4 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/ovn_cod_only				
+mp_cap_unit_hef_veh_lothern_skycutter	false	-1	-1	
+mp_cap_unit_hef_veh_lothern_skycutter_ror	false	-1	-1	

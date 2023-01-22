@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/ovn_cod_only				
+ovn_cr_hef_longbow_arrow_lothern_skycutter	false	wh2_main_hef_reaver_bow_arrow_tiranoc_chariot	bow	true
+ovn_cr_hef_skycutter_bolt_thrower_bolt	false	ovn_cr_hef_skycutter_bolt_thrower_bolt	bolt_launcher_eagle_claw	false
