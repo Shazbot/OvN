@@ -24,7 +24,7 @@ local power_of_authority_vfx = {full = "scripted_effect7", half = "scripted_effe
 local cod_naval_defender_faction_key = "wh2_main_hef_citadel_of_dusk";
 local cod_naval_defender_effect = "";
 mod.cod_naval_defender_level = mod.cod_naval_defender_level == nil and 1 or mod.cod_naval_defender_level;
-local cod_naval_action_level = 0;
+mod.cod_naval_action_level = mod.cod_naval_action_level or 0;
 
 mod.cod_regions = {
 	["main_warhammer"] = {
@@ -51,7 +51,6 @@ mod.cod_regions = {
 			["wh3_main_combi_region_the_high_sentinel"] = true,
 			["wh3_main_combi_region_shrine_of_sotek"] = true,
 			["wh3_main_combi_region_kaiax"] = true
-
 		},
 		["outer_lost"] = 0,
 		["inner_lost"] = 0
@@ -187,32 +186,29 @@ function add_cod_naval_listeners()
 			local garrison_residence = region:garrison_residence();
 			local garrison_residence_CQI = garrison_residence:command_queue_index();
 
-			if region:is_abandoned() == true or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full);
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half);
-				cm:remove_effect_bundle_from_region("ovn_cod_power_of_authority", region_key);
-			end
-
 			local turns_remaining = cod_ll_popularity_regions[region_key];
 			turns_remaining = turns_remaining - 1;
 
+			if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+				turns_remaining = 0
+			end
+
+			-- remove old vfx from the region
+			cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full);
+			cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half);
+
 			if turns_remaining > 5 then
 				-- Display full VFX
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full);
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half);
 				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full, false);
 				cod_ll_popularity_regions[region_key] = turns_remaining;
 			elseif turns_remaining > 0 then
 				-- Switch to half strength VFX
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full);
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half);
 				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half, false);
 				cod_ll_popularity_regions[region_key] = turns_remaining;
 			else
 				-- Remove all VFX
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full);
-				cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half);
 				cod_ll_popularity_regions[region_key] = nil;
+				cm:remove_effect_bundle_from_region("ovn_cod_power_of_authority", region_key);
 			end
 		end,
 		true
@@ -223,13 +219,16 @@ function add_cod_naval_listeners()
 		"cod_naval_action_region_update",
 		"CharacterPerformsSettlementOccupationDecision",
 		function(context)
+            dout("CHECK UPDATED 1")
 			return context:character():faction():is_human() and context:character():faction():name() == cod_naval_defender_faction_key
 		end,
 		function(context)
+            dout("UPDATED 1")
 			if cod_regions["all"] then
 				local region_key = context:garrison_residence():region():name();
 				if cod_regions["all"][region_key] then
-					cod_naval_action_level = cod_naval_action_level + 4;
+                    dout("UPDATED 11")
+					mod.cod_naval_action_level = mod.cod_naval_action_level + 4;
 					cm:apply_effect_bundle("cod_influence", "wh2_main_hef_citadel_of_dusk", 2);
 					cm:apply_dilemma_diplomatic_bonus("wh2_main_hef_citadel_of_dusk", "wh2_main_hef_eataine", 4)
 					cm:apply_dilemma_diplomatic_bonus("wh2_main_hef_citadel_of_dusk", "wh2_main_hef_order_of_loremasters", 4)
@@ -245,6 +244,7 @@ function add_cod_naval_listeners()
 			"cod_naval_defender_region_update",
 			"CharacterPerformsSettlementOccupationDecision",
 			function(context)
+                dout("CHECK UPDATED 2")
 				if cod_regions["all"] then
 					local region_key = context:garrison_residence():region():name();
 					return cod_regions["all"][region_key] == true;
@@ -253,6 +253,7 @@ function add_cod_naval_listeners()
 				end
 			end,
 			function(context)
+                dout("UPDATED 2")
 				local region = context:garrison_residence():region();
 				cod_naval_defender_update(region);
 			end,
@@ -270,22 +271,23 @@ function add_cod_naval_listeners()
 				local campaign_key = "main_warhammer";
 
 				if cod_regions[campaign_key]["inner_lost"] > 0 then
-				mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - cod_naval_action_level;
-				if mod.cod_naval_defender_level < 1 then
-				mod.cod_naval_defender_level = 1
-				elseif mod.cod_naval_defender_level > 10 then
-				mod.cod_naval_defender_level = 10
-				end
-				if cod_naval_action_level > 0 then
-					cod_naval_action_level = cod_naval_action_level - 1;
-				end
+					mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level;
+					if mod.cod_naval_defender_level < 1 then
+						mod.cod_naval_defender_level = 1
+					elseif mod.cod_naval_defender_level > 10 then
+						mod.cod_naval_defender_level = 10
+					end
+					if mod.cod_naval_action_level > 0 then
+						mod.cod_naval_action_level = mod.cod_naval_action_level - 1;
+					end
 				elseif mod.cod_naval_defender_level < 10 then
-				mod.cod_naval_defender_level = mod.cod_naval_defender_level + 1;
+					mod.cod_naval_defender_level = mod.cod_naval_defender_level + 1;
 				end
+
 				local turn = cm:model():turn_number();
                 local cooldown = 4
                 if turn % cooldown == 0 then
-				cod_naval_defender_initialize_invasion_and_supply()
+					cod_naval_defender_initialize_invasion_and_supply()
 				end
 				cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 				cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
@@ -296,7 +298,7 @@ function add_cod_naval_listeners()
 		if cm:is_new_game() == true then
 			cod_naval_defender_initialize(true);
 			cod_naval_intro_listeners();
-			cod_naval_action_level = 28
+			mod.cod_naval_action_level = 28
 		else
 			cod_naval_defender_initialize(false);
 		end
@@ -307,8 +309,7 @@ function cod_naval_defender_initialize(new_game)
 	local campaign_key = "main_warhammer";
 	local naval_route_types = {"inner", "outer"};
 
-
-		cod_regions["wh2_main_great_vortex"] = nil;
+	cod_regions["wh2_main_great_vortex"] = nil;
 
 	-- Populate a lookup table of all relevant regions
 	cod_regions["all"] = {};
@@ -318,8 +319,8 @@ function cod_naval_defender_initialize(new_game)
 			cod_regions["all"][region_key] = true;
 			local region = cm:model():world():region_manager():region_by_key(region_key);
 
-			if region:is_null_interface() == false then
-				if region:is_abandoned() == true or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+			if not region:is_null_interface() then
+				if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
 					cod_regions[campaign_key][naval_route_types[i]][region_key] = false;
 					cod_regions[campaign_key][naval_route_types[i].."_lost"] = cod_regions[campaign_key][naval_route_types[i].."_lost"] + 1;
 				end
@@ -329,22 +330,17 @@ function cod_naval_defender_initialize(new_game)
 
 	cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 
+	if new_game then
+		mod.cod_naval_defender_level = 1;
+	end
+
 	if cod_regions[campaign_key]["inner_lost"] > 0 then
-		if new_game == true then
-			mod.cod_naval_defender_level = 1;
-		end
 		cod_naval_defender_effect = "ovn_cod_naval_defender_inner";
 		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 	elseif cod_regions[campaign_key]["outer_lost"] > 0 then
-		if new_game == true then
-			mod.cod_naval_defender_level = 1;
-		end
 		cod_naval_defender_effect = "ovn_cod_naval_defender_outer";
 		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 	else
-		if new_game == true then
-			mod.cod_naval_defender_level = 1;
-		end
 		cod_naval_defender_effect = "ovn_cod_naval_defender_all";
 		cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 	end
@@ -473,7 +469,6 @@ function cod_naval_defender_update(region)
 		local naval_route_type = nil;
 		local campaign_key = "main_warhammer";
 
-
 		if cod_regions[campaign_key]["outer"][region_key] ~= nil then
 			naval_route_type = "outer";
 		elseif cod_regions[campaign_key]["inner"][region_key] ~= nil then
@@ -482,17 +477,17 @@ function cod_naval_defender_update(region)
 
 		if naval_route_type ~= nil then
 			if cod_regions[campaign_key][naval_route_type][region_key] == true then
-				if region:is_abandoned() == true or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+				if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
 					cod_regions[campaign_key][naval_route_type][region_key] = false;
 					cod_regions[campaign_key][naval_route_type.."_lost"] = cod_regions[campaign_key][naval_route_type.."_lost"] + 1;
-					cod_naval_action_level = cod_naval_action_level - 2;
+					mod.cod_naval_action_level = mod.cod_naval_action_level - 2;
 					out("\tRegion was true and is now false - Value "..naval_route_type.."_lost count is "..tostring(cod_regions[campaign_key][naval_route_type.."_lost"]).." (+1)");
 				end
 			elseif cod_regions[campaign_key][naval_route_type][region_key] == false then
 				if region:owning_faction():culture() == "wh2_main_hef_high_elves" then
-				cod_regions[campaign_key][naval_route_type][region_key] = true;
-				cod_regions[campaign_key][naval_route_type.."_lost"] = cod_regions[campaign_key][naval_route_type.."_lost"] - 1;
-				out("\tRegion was false and is now true - Value "..naval_route_type.."_lost count is "..tostring(cod_regions[campaign_key][naval_route_type.."_lost"]).." (-1)");
+					cod_regions[campaign_key][naval_route_type][region_key] = true;
+					cod_regions[campaign_key][naval_route_type.."_lost"] = cod_regions[campaign_key][naval_route_type.."_lost"] - 1;
+					out("\tRegion was false and is now true - Value "..naval_route_type.."_lost count is "..tostring(cod_regions[campaign_key][naval_route_type.."_lost"]).." (-1)");
 				end
 			else
 				out("\tNo changes made");
@@ -505,7 +500,7 @@ function cod_naval_defender_update(region)
 					cod_naval_defender_show_event(region, "inner_lost");
 					core:trigger_event("ScriptEventCodNavalDefenderInnerLost");
 				end
-				mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - cod_naval_action_level;
+				mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level;
 				if mod.cod_naval_defender_level < 1 then
 					mod.cod_naval_defender_level = 1
 				end
@@ -870,7 +865,7 @@ function cod_reinforce_start()
 
 	cm:add_unit_to_faction_mercenary_pool(faction_name, unit_key, 1, 0, 5, 0, 0, "", "", "", false);
 	cod_unit_gained_mess()
-	cod_naval_action_level = cod_naval_action_level + 2;
+	mod.cod_naval_action_level = mod.cod_naval_action_level + 2;
 end
 
 function cod_unit_gained_mess()
@@ -935,7 +930,7 @@ cm:add_first_tick_callback(function() add_cod_naval_listeners() end)
 cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("cod_naval_defender_level", mod.cod_naval_defender_level, context);
-		cm:save_named_value("cod_naval_action_level", cod_naval_action_level, context);
+		cm:save_named_value("cod_naval_action_level", mod.cod_naval_action_level, context);
 		cm:save_named_value("cod_ll_popularity_regions", cod_ll_popularity_regions, context);
 	end
 );
@@ -943,7 +938,7 @@ cm:add_saving_game_callback(
 cm:add_loading_game_callback(
 	function(context)
 		mod.cod_naval_defender_level = cm:load_named_value("cod_naval_defender_level", 1, context);
-		cod_naval_action_level = cm:load_named_value("cod_naval_action_level", 1, context);
+		mod.cod_naval_action_level = cm:load_named_value("cod_naval_action_level", 1, context);
 		cod_ll_popularity_regions = cm:load_named_value("cod_ll_popularity_regions", {}, context);
 	end
 );
