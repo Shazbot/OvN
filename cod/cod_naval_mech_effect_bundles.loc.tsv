@@ -73,3 +73,33 @@ effect_bundles_localised_description_cod_supply_lines_status	Status of the Naval
 cod_supply_lines_status_script_text	Naval Supply Lines Status	false
 cod_supply_lines_status_dangerous_script_text	Dangerous	false
 cod_supply_lines_status_safe_script_text	Safe	false
+cod_inner_sorted	Coast of Lustria:	true
+cod_outer_sorted	Harbours of Eataine:	true
+effect_bundles_localised_title_ovn_cod_supply_lines_outer	Harbours of Eataine	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer	Having secured the coast of Lustria we must also make sure the harbours of Eataine are safe as well!	true
+effect_bundles_localised_title_cod_naval_defender_vok	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_vok	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_cod_naval_defender_bad	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_bad	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_cod_naval_defender_block	Naval Supply Line: [[col:red]]Blockaded[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_block	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_cod_naval_defender_good	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_good	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_cod_naval_defender_ok	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_ok	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_cod_naval_defender_vbad	Naval Supply Line: [[col:red]]Mutinous[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_vbad	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_cod_naval_defender_vgood	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_description_cod_naval_defender_vgood	[[col:red]]The Eastern Coast of Lustria is not secure[[/col]]	true
+effect_bundles_localised_title_ovn_cod_supply_lines_outer_1	Naval Supply Line: [[col:red]]Blockaded[[/col]]	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_1	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_title_ovn_cod_supply_lines_outer_2	Naval Supply Line: [[col:red]]Mutinous[[/col]]	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_2	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_title_ovn_cod_supply_lines_outer_3	Naval Supply Line: [[col:yellow]]Dangerous Waters[[/col]]	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_3	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_title_ovn_cod_supply_lines_outer_4	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_4	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_title_ovn_cod_supply_lines_predicted	Predicted naval supply line changes	true
+effect_bundles_localised_description_ovn_cod_supply_lines_predicted	Until the east coast of Lustria is secure our supply lines will keep deteriorating rapidly. The supply lines will never be safe until you secure all the Lustria ports!	true
+effect_bundles_localised_title_ovn_cod_supply_lines_safe	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
+effect_bundles_localised_description_ovn_cod_supply_lines_safe	Supplies flow freely from Eataine to our outposts.	true

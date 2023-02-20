@@ -415,16 +415,12 @@ function add_cod_naval_listeners()
 		"cod_naval_action_region_update",
 		"CharacterPerformsSettlementOccupationDecision",
 		function(context)
-			dout("CHECK UPDATED 1")
 			return context:character():faction():is_human() and context:character():faction():name() == cod_naval_defender_faction_key
 		end,
 		function(context)
-			dout("UPDATED 1")
 			if cod_regions["all"] then
-				dout("UPDATED 11")
 				local region_key = context:garrison_residence():region():name();
 				if cod_regions["all"][region_key] then
-					dout("UPDATED 111")
 					mod.cod_naval_action_level = mod.cod_naval_action_level + 4;
 					cm:apply_effect_bundle("cod_influence", "wh2_main_hef_citadel_of_dusk", 2);
 					cm:apply_dilemma_diplomatic_bonus("wh2_main_hef_citadel_of_dusk", "wh2_main_hef_eataine", 4)
@@ -441,7 +437,6 @@ function add_cod_naval_listeners()
 			"cod_naval_defender_region_update",
 			"CharacterPerformsSettlementOccupationDecision",
 			function(context)
-				dout("CHECK UPDATED 2")
 				if cod_regions["all"] then
 					local region_key = context:garrison_residence():region():name();
 					return cod_regions["all"][region_key] == true;
@@ -450,7 +445,6 @@ function add_cod_naval_listeners()
 				end
 			end,
 			function(context)
-				dout(" UPDATED 2")
 				local region = context:garrison_residence():region();
 				cod_naval_defender_update(region);
 			end,
@@ -465,8 +459,8 @@ function add_cod_naval_listeners()
 				return context:faction():name() == cod_naval_defender_faction_key;
 			end,
 			function(context)
-				dout("def level is ",mod.cod_naval_defender_level)
-				dout("cod_naval_action_level is ",mod.cod_naval_action_level)
+				-- dout("def level is ",mod.cod_naval_defender_level)
+				-- dout("cod_naval_action_level is ",mod.cod_naval_action_level)
 
 				if cod_regions[campaign_key]["inner_lost"] > 0 then
 					mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level;
@@ -478,9 +472,9 @@ function add_cod_naval_listeners()
 					mod.cod_naval_defender_level = mod.cod_naval_defender_level + 1;
 				end
 
-				dout("AFTER")
-				dout("def level is ",mod.cod_naval_defender_level)
-				dout("cod_naval_action_level is ",mod.cod_naval_action_level)
+				-- dout("AFTER")
+				-- dout("def level is ",mod.cod_naval_defender_level)
+				-- dout("cod_naval_action_level is ",mod.cod_naval_action_level)
 
 				local turn = cm:model():turn_number();
                 local cooldown = 4
@@ -490,10 +484,9 @@ function add_cod_naval_listeners()
 				cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 				mod.apply_naval_effect_bundles()
 
-				dout("AFTER2")
-				dout("def level is ",mod.cod_naval_defender_level)
-				dout("cod_naval_action_level is ",mod.cod_naval_action_level)
-				-- cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
+				-- dout("AFTER2")
+				-- dout("def level is ",mod.cod_naval_defender_level)
+				-- dout("cod_naval_action_level is ",mod.cod_naval_action_level)
 			end,
 			true
 		);

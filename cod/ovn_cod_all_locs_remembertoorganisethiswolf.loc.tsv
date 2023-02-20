@@ -63,3 +63,5 @@ effects_description_ovn_cod_ll_visit_dummy	All High Elf Legendary Lords leave te
 effects_description_ovn_cod_mech_diplo_improve	Improved diplomatic relations with Lothern and Order of Loremasters, for a little while at least.	false
 effect_bundles_localised_title_wh2_main_lord_trait_hef_citadel_of_dusk	Of Booty and Cargo	true
 effect_bundles_localised_description_wh2_main_lord_trait_hef_citadel_of_dusk	The Citadel of Dusk is a site of tremendous strategic importance as it allows the Asuryan navy to patrol, protect and ultimately control the western sea trade routes to Cathay and Nippon whilst suppressing the threat of Druchii corsairs & undead pirates to Ulthuan.	true
+effects_description_ovn_cod_naval_defender_change_turns	Predicted change will happen in %n turns	true
+effects_description_ovn_cod_naval_defender_change_list	[[col:yellow]]Effects after the change:[[/col]]	true
