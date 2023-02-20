@@ -198,7 +198,7 @@ mod.apply_naval_effect_bundles = function()
 
 	local cod_naval_effect_bundle = cm:create_new_custom_effect_bundle(cod_naval_effect_bundle_key)
 
-	local malus_per_ten = is_inner and malus_per_ten_inner or is_outer or is_inner and malus_per_ten_outer or malus_per_ten_safe
+	local malus_per_ten = is_inner and malus_per_ten_inner or is_outer and malus_per_ten_outer or malus_per_ten_safe
 	local maluses = is_inner and maluses_inner or is_outer and maluses_outer or maluses_safe
 
 	for malus, current_malus_per_ten in pairs(malus_per_ten) do
@@ -225,13 +225,16 @@ mod.apply_naval_effect_bundles = function()
 
 	cm:apply_custom_effect_bundle_to_faction(cod_naval_effect_bundle, cm:get_faction(cod_naval_defender_faction_key))
 
+	local was_prediction_made = false
 	local prediction_bundle = cm:create_new_custom_effect_bundle("ovn_cod_supply_lines_predicted")
 	if mod.cod_naval_defender_level > 0 and mod.cod_naval_defender_level < 10 then
 		for i=1, 300 do
 			local predicted_cod_naval_defender_level = math.clamp(cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level + i, 1, 10)
+			if predicted_cod_naval_defender_level > 10 then break end
 			if predicted_cod_naval_defender_level ~= mod.cod_naval_defender_level then
 				-- dout(predicted_cod_naval_defender_level, mod.cod_naval_defender_level, i)
 				-- dout("next is",i)
+				was_prediction_made = true
 				prediction_bundle:add_effect("ovn_cod_naval_defender_change_turns", "building_to_force_own_in_adjacent_province_unseen", i)
 				prediction_bundle:add_effect("ovn_cod_naval_defender_change_list", "building_to_force_own_in_adjacent_province_unseen", 1)
 
@@ -248,7 +251,9 @@ mod.apply_naval_effect_bundles = function()
 		end
 	end
 	cm:remove_effect_bundle("ovn_cod_supply_lines_predicted", cod_naval_defender_faction_key)
-	cm:apply_custom_effect_bundle_to_faction(prediction_bundle, cm:get_faction(cod_naval_defender_faction_key))
+	if was_prediction_made then
+		cm:apply_custom_effect_bundle_to_faction(prediction_bundle, cm:get_faction(cod_naval_defender_faction_key))
+	end
 end
 
 function add_cod_naval_listeners()
@@ -460,8 +465,11 @@ function add_cod_naval_listeners()
 				return context:faction():name() == cod_naval_defender_faction_key;
 			end,
 			function(context)
+				dout("def level is ",mod.cod_naval_defender_level)
+				dout("cod_naval_action_level is ",mod.cod_naval_action_level)
+
 				if cod_regions[campaign_key]["inner_lost"] > 0 then
-					mod.cod_naval_defender_level = (cod_regions[campaign_key]["inner_lost"] or 14) - mod.cod_naval_action_level;
+					mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level;
 					mod.cod_naval_defender_level = math.clamp(mod.cod_naval_defender_level, 1, 10)
 					if mod.cod_naval_action_level > 0 then
 						mod.cod_naval_action_level = mod.cod_naval_action_level - 1;
@@ -470,6 +478,10 @@ function add_cod_naval_listeners()
 					mod.cod_naval_defender_level = mod.cod_naval_defender_level + 1;
 				end
 
+				dout("AFTER")
+				dout("def level is ",mod.cod_naval_defender_level)
+				dout("cod_naval_action_level is ",mod.cod_naval_action_level)
+
 				local turn = cm:model():turn_number();
                 local cooldown = 4
                 if turn % cooldown == 0 then
@@ -477,6 +489,10 @@ function add_cod_naval_listeners()
 				end
 				cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 				mod.apply_naval_effect_bundles()
+
+				dout("AFTER2")
+				dout("def level is ",mod.cod_naval_defender_level)
+				dout("cod_naval_action_level is ",mod.cod_naval_action_level)
 				-- cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 			end,
 			true
@@ -499,6 +515,10 @@ function cod_naval_defender_initialize(new_game)
 
 	-- Populate a lookup table of all relevant regions
 	cod_regions["all"] = {};
+
+	for i = 1, #naval_route_types do
+		cod_regions[campaign_key][naval_route_types[i].."_lost"] = 0
+	end
 
 	for i = 1, #naval_route_types do
 		for region_key, value in pairs(cod_regions[campaign_key][naval_route_types[i]]) do
@@ -647,7 +667,6 @@ function cod_naval_defender_initialize(new_game)
 	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_mon_chaos_spawn", 2);
 	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc01_chs_inf_forsaken_0", 2);
 	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_inf_chaos_warriors_0", 4);
-
 end
 
 function cod_naval_defender_update(region)
@@ -710,7 +729,8 @@ function cod_naval_defender_update(region)
 				cod_naval_defender_effect = "ovn_cod_naval_defender_all";
 			end
 
-			cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
+			-- cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
+			mod.apply_naval_effect_bundles()
 		end
 	end
 end
