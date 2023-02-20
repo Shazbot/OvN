@@ -100,6 +100,6 @@ effect_bundles_localised_description_ovn_cod_supply_lines_outer_3	Harbours of Ea
 effect_bundles_localised_title_ovn_cod_supply_lines_outer_4	Naval Supply Line: [[col:green]]Capricious Seas[[/col]]	true
 effect_bundles_localised_description_ovn_cod_supply_lines_outer_4	Harbours of Eataine have fallen to our enemies!	true
 effect_bundles_localised_title_ovn_cod_supply_lines_predicted	Predicted naval supply line changes	true
-effect_bundles_localised_description_ovn_cod_supply_lines_predicted	Until the east coast of Lustria is secure our supply lines will keep deteriorating rapidly. The supply lines will never be safe until you secure all the Lustria ports!	true
+effect_bundles_localised_description_ovn_cod_supply_lines_predicted	Until the east coast of Lustria is secure our supply lines will keep deteriorating rapidly.\\nSecure regions to delay the deterioration!\\nThe predicted change is as follows:	true
 effect_bundles_localised_title_ovn_cod_supply_lines_safe	Naval Supply Line: [[col:green]]Clear Oceans[[/col]]	true
 effect_bundles_localised_description_ovn_cod_supply_lines_safe	Supplies flow freely from Eataine to our outposts.	true
