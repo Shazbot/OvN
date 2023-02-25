@@ -7,11 +7,5 @@ ovn_hef_inf_archers_wind		cod_hef_inf_archers_wind		1.0000	1.0000	0.0500
 ovn_hef_inf_spearmen_falcon		cod_hef_inf_spearmen_falcon		1.0000	1.0000	0.0500	
 ovn_hef_inf_spearmen_sapphire		cod_hef_inf_spearmen_sapphire		1.0000	1.0000	0.0500	
 ovn_stormrider_mount		ovn_stormrider_mount		1.0900	1.1500	0.0000	
-ovn_stormrider_mount_sharpclaw	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	ovn_stormrider_mount_sharpclaw		1.5000	1.1500	0.0000	
+ovn_stormrider_mount_sharpclaw	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	hef_sharpclaw_griffon		1.5000	1.1500	0.0000	
 ovn_stormrider		ovn_stormrider		1.0900	1.0900	0.0000	
-ovn_cr_hef_lothern_skycutter	variantmeshes/wh_variantmodels/bi1sc/hef/hef_lothern_skycutter/tech	hef_lothern_skycutter		0.8000	1.0000	0.0000	
-ovn_cr_hef_lothern_skycutter_rider		hef_sea_guard	hu1d/hef/hef_lothern_sea_guard/imposter/hef_sea_guard_crew_imposter	1.0000	0.9300	0.0000	
-ovn_cr_hef_lothern_skycutter_rider_empty		hef_skycutter_rider_empty	hu1d/hef/hef_lothern_sea_guard/imposter/hef_sea_guard_crew_imposter	1.0000	0.9300	0.0000	
-ovn_cr_hef_lothern_skycutter_rider_spear		hef_skycutter_rider_spear	hu1d/hef/hef_lothern_sea_guard/imposter/hef_sea_guard_crew_imposter	1.0000	0.9300	0.0000	
-ovn_cr_hef_lothern_skycutter_bolt_thrower		hef_skycutter_bolt_thrower		1.0000	0.6000	0.0000	
-ovn_cr_hef_lothern_skycutter_ror	variantmeshes/wh_variantmodels/bi1sc/hef/hef_lothern_skycutter/tech	hef_lothern_skycutter_ror		0.8000	1.0000	0.0000	

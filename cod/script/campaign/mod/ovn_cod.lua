@@ -46,9 +46,10 @@ local function new_game_startup()
             cm:replenish_action_points(cm:char_lookup_str(cqi))
         end
     )
+    
+    cm:make_region_visible_in_shroud("wh2_main_hef_citadel_of_dusk", "wh3_main_combi_region_li_zhu")
+    cm:make_region_visible_in_shroud("wh2_main_hef_citadel_of_dusk", "wh3_main_combi_region_hanyu_port")
 
-    
-    
     cm:callback(function()
         if to_kill_cqi then
             local str = "character_cqi:" .. to_kill_cqi

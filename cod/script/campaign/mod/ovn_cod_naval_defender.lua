@@ -29,7 +29,7 @@ mod.cod_naval_action_level = mod.cod_naval_action_level or 0;
 
 local maluses_inner = {
 	["wh_main_effect_economy_trade_tariff_mod"] = {-55, -100},
-	["wh2_main_faction_political_diplomacy_mod_high_elves"] = {-5, -50},
+	["wh2_main_faction_political_diplomacy_mod_high_elves"] = {-5, -30},
 	["wh_main_effect_force_all_campaign_upkeep"] = {16, 30},
 	["wh_dlc05_effect_global_recruitment_duration_all"] = {0, 8},
 	["wh_main_effect_public_order_base"] = {-3, -5},
@@ -41,7 +41,7 @@ local maluses_outer = {
 	["wh_main_effect_force_all_campaign_upkeep"] = {1,15},
 	["wh_main_effect_public_order_base"] = {-1,-3},
 	["wh_main_effect_force_all_campaign_recruitment_cost_all"] = {1,15},
-	["landmark_effect_produce_res_cathay"] = {5,3},
+	["wh3_main_faction_political_diplomacy_mod_cathay"] = {5,3},
 }
 
 local maluses_safe = {
@@ -51,12 +51,12 @@ local maluses_safe = {
 	["wh_dlc05_effect_global_recruitment_duration_all"] = {-1.0000, -1.0000},
 	["wh_main_effect_force_all_campaign_upkeep"] = {-3.0000, -30.0000},
 	["wh_main_effect_force_all_campaign_recruitment_cost_all"] = {-3.0000, -30.0000},
-	["landmark_effect_produce_res_cathay"] = {5.0000, 5.0000},
+	["wh3_main_faction_political_diplomacy_mod_cathay"] = {5.0000, 10.0000},
 }
 
 local specific_maluses_inner = {
 	[1] = {
-		["landmark_effect_produce_res_cathay"] = 3
+		["wh3_main_faction_political_diplomacy_mod_cathay"] = 3
 	}
 }
 
@@ -85,7 +85,7 @@ local malus_effect_to_scope = {
 	["wh_dlc05_effect_global_recruitment_duration_all"] = "faction_to_faction_own_unseen",
 	["wh_main_effect_force_all_campaign_upkeep"] = "faction_to_force_own",
 	["wh_main_effect_force_all_campaign_recruitment_cost_all"] = "faction_to_force_own",
-	["landmark_effect_produce_res_cathay"] = "faction_to_region_own",
+	["wh3_main_faction_political_diplomacy_mod_cathay"] = "faction_to_faction_own_unseen",
 }
 
 mod.cod_regions = {

@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/!!!!_ovn_cod_vc.loc		
+victory_types_display_name_ovn_victory_type_long	Long Campaign Victory	true
+victory_types_display_name_ovn_victory_type_short	Short Campaign Victory	true
+effect_bundles_localised_title_albion_roleplay_vc	Guardians of the World	true
+effect_bundles_localised_description_albion_roleplay_vc	Chaos is weakened irreparably due to your stalwart actions, a true bastion against evil, the forces of order bow to you.	true
+victory_types_display_name_ovn_victory_type_domination	Domination Campaign Victory	true
+victory_types_display_name_ovn_victory_type_ultimate	Ultimate Campaign Victory	true
+victory_types_display_name_ovn_victory_type_military	Long Campaign Victory	true
+victory_types_display_name_ovn_victory_type_economic	Long Campaign Victory	true
+victory_types_display_name_ovn_victory_type_cultural	Long Campaign Victory	true
+victory_types_display_name_ovn_type_multiplayer	Multiplayer Campaign Victory	true
