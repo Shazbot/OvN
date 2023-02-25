@@ -280,59 +280,84 @@ function add_cod_naval_listeners()
 	local cod_naval = cm:model():world():faction_by_key(cod_naval_defender_faction_key);
 	if cod_naval:is_human() and cm:get_campaign_name() == "main_warhammer" then
 
+	local cod_bundle_title_text = common.get_localised_string("cod_supply_lines_status_script_text")
+	
 	cm:apply_effect_bundle("cod_supply_lines_status", cod_naval_defender_faction_key, -1);
 	core:remove_listener("cod_supply_lines_status_listener")
 	core:add_listener(
-			"cod_supply_lines_status_listener",
-			"RealTimeTrigger",
-			function(context)
-					return context.string == "cod_supply_lines_status"
-			end,
-			function()
-				local tt = find_ui_component_str("root > TechTooltipPopup")
-				if not tt or not tt:Visible() then return end
+		"cod_supply_lines_status_listener",
+		"RealTimeTrigger",
+		function(context)
+				return context.string == "cod_supply_lines_status"
+		end,
+		function()
+			local map = find_uicomponent(core:get_ui_root(), "cod_supply_lines_map")
 
-				local tooltip_title = find_ui_component_str("root > TechTooltipPopup > dy_title")
-				if tooltip_title:GetStateText() ~= "Naval Supply Lines Status" then return end
+			local tt = find_ui_component_str("root > TechTooltipPopup")
+			if not tt or not tt:Visible() then
+				if map then map:SetVisible(false) end
+				return
+			end
 
-				tooltip_title:SetStateText(common.get_localised_string("cod_supply_lines_status_script_text"))
+			local tooltip_title = find_ui_component_str("root > TechTooltipPopup > dy_title")
+			local title_text = tooltip_title:GetStateText()
 
-				local tooltip_desc = find_ui_component_str("root > TechTooltipPopup > description_window")
+			if title_text == cod_bundle_title_text then
+				if not map then
+					map = UIComponent(core:get_ui_root():CreateComponent("cod_supply_lines_map", "ui/pj_tooltip_title_text_and_image2"))
+					map:SetCanResizeHeight(true)
+					map:SetCanResizeWidth(true)
+					map:Resize(tt:Height()+6,tt:Height()+6)
+					map:SetImagePath("ui/cod_frame.png",0)
+				end
+				
+				local px, py = tt:Position()
+				map:MoveTo(px-map:Width()+12, py-2)
+				map:SetVisible(true)
+			else
+				if map then map:SetVisible(false) end
+			end
 
-				local desc_text = ""
+			if title_text ~= "Naval Supply Lines Status" then return end
 
-				local campaign_regions = cod_regions[cm:get_campaign_name()]
-				if not campaign_regions then return end
+			tooltip_title:SetStateText(cod_bundle_title_text)
 
-				for regions_group, regions in pairs(campaign_regions) do
-					if (cod_regions[campaign_key]["inner_lost"] == 0 and regions_group == "outer_sorted") or regions_group == "inner_sorted" then
-						if desc_text ~= "" then desc_text = desc_text.."\n" end
-						desc_text = desc_text.."\n"..cod_regions.localized_region_name_to_region_key[regions_group]
-						for _, localized_region_name in ipairs(regions) do
-							desc_text = desc_text.."\n"..localized_region_name
+			local tooltip_desc = find_ui_component_str("root > TechTooltipPopup > description_window")
 
-							local region_key = cod_regions.localized_region_name_to_region_key[localized_region_name]
-							if region_key then
-								local region = cm:get_region(region_key)
-								if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
-									desc_text = desc_text
-										..": [[col:red]]"
-										..localized_text_region_is_dangerous
-										.."[[/col]]"
-								else
-									desc_text = desc_text
-										..": [[col:green]]"
-										..localized_text_region_is_safe
-										.."[[/col]]"
-								end
+			local desc_text = ""
+
+			local campaign_regions = cod_regions[cm:get_campaign_name()]
+			if not campaign_regions then return end
+
+			for regions_group, regions in pairs(campaign_regions) do
+				if (cod_regions[campaign_key]["inner_lost"] == 0 and regions_group == "outer_sorted") or regions_group == "inner_sorted" then
+					if desc_text ~= "" then desc_text = desc_text.."\n" end
+					desc_text = desc_text.."\n"..cod_regions.localized_region_name_to_region_key[regions_group]
+					for _, localized_region_name in ipairs(regions) do
+						desc_text = desc_text.."\n"..localized_region_name
+
+						local region_key = cod_regions.localized_region_name_to_region_key[localized_region_name]
+						if region_key then
+							local region = cm:get_region(region_key)
+							if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+								desc_text = desc_text
+									..": [[col:red]]"
+									..localized_text_region_is_dangerous
+									.."[[/col]]"
+							else
+								desc_text = desc_text
+									..": [[col:green]]"
+									..localized_text_region_is_safe
+									.."[[/col]]"
 							end
 						end
 					end
 				end
+			end
 
-				tooltip_desc:SetStateText(desc_text)
-			end,
-			true
+			tooltip_desc:SetStateText(desc_text)
+		end,
+		true
 	)
 
 	real_timer.unregister("cod_supply_lines_status")
