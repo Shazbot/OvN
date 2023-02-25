@@ -560,17 +560,6 @@ function cod_naval_defender_initialize(new_game)
 
 	mod.apply_naval_effect_bundles()
 
-	-- if cod_regions[campaign_key]["inner_lost"] > 0 then
-	-- 	cod_naval_defender_effect = "ovn_cod_naval_defender_inner";
-	-- 	cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
-	-- elseif cod_regions[campaign_key]["outer_lost"] > 0 then
-	-- 	cod_naval_defender_effect = "ovn_cod_naval_defender_outer";
-	-- 	cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
-	-- else
-	-- 	cod_naval_defender_effect = "ovn_cod_naval_defender_all";
-	-- 	cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
-	-- end
-
 	--- COD NAVAL DEFENDER INVASION RAM
 	random_army_manager:new_force("ovn_cod_vamp_coast_force");
     random_army_manager:add_mandatory_unit("ovn_cod_vamp_coast_force", "wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_0", 2);
