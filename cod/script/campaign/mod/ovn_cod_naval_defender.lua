@@ -304,11 +304,11 @@ function add_cod_naval_listeners()
 
 			if title_text == cod_bundle_title_text then
 				if not map then
-					map = UIComponent(core:get_ui_root():CreateComponent("cod_supply_lines_map", "ui/pj_tooltip_title_text_and_image2"))
+					map = UIComponent(core:get_ui_root():CreateComponent("cod_supply_lines_map", "ui/cod_naval_defender_map"))
 					map:SetCanResizeHeight(true)
 					map:SetCanResizeWidth(true)
 					map:Resize(tt:Height()+6,tt:Height()+6)
-					map:SetImagePath("ui/cod_frame.png",0)
+					map:SetImagePath("ui/cod_supply_lines_map.png",0)
 				end
 				
 				local px, py = tt:Position()
