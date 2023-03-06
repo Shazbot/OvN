@@ -1,72 +1,72 @@
 key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
 #character_skills_tables;5;db/character_skills_tables/ovn_araby_only									
-ovn_skill_arb_all_unique_ward_of_the_one	character_ward_save.png	The relentless drive and fury of the unnamed god, harnessed for the protection of this ward’s bearer.	Ward of the One	7	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_life_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_life_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_desert_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_fire_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0	0
-ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0	0
-ovn_skill_innate_arb_decadent	campaign_chaos_corruption.png	The Prince of Pleasure has gotten to this one...	Decadent	0	true	false	false	5.0	0
-ovn_skill_magic_desert_mirage	ovn_spell_desert_mirage.png	The caster summons a mirage to distract enemies.	Mirage	0	false	false	false	0.0	0
-ovn_skill_magic_desert_blessing_of_the_elements	ovn_lore_passive_blessing_of_the_elements.png	The caster imbues entire army with magic attack while casting.	Blessing of the Elements	0	false	false	false	0.0	0
-ovn_skill_magic_desert_sunstrike	ovn_spell_desert_sunstrike.png	The caster shoots sun beams at the enemy.	Sunstrike	0	false	false	false	0.0	0
-ovn_skill_magic_desert_sandstorm	wh2_dlc09_lord_abilities_sand_storm.png	The caster summons a sandstorm to damage and debuff enemies.	Sandstorm	0	false	false	false	0.0	0
-ovn_skill_magic_desert_quicksand	ovn_spell_desert_quicksand.png	The caster turns the ground to quicksand, immobalizing enemies.	Quicksand	0	false	false	false	0.0	0
-ovn_skill_magic_desert_burning_hands	ovn_spell_desert_burning_hands.png	The caster blasts enemies with fire.	Burning Hands	0	false	false	false	0.0	0
-ovn_skill_magic_desert_curse_of_the_djinn	ovn_spell_desert_curse_of_the_djinn.png	The caster debuffs enemies.	Curse of the Djinn	0	false	false	false	0.0	0
-ovn_skill_magic_desert_mirage_dummy	ovn_spell_desert_mirage.png	The caster summons a mirage to distract enemies.	Mirage [HIDDEN]	0	false	false	false	0.0	0
-ovn_skill_magic_desert_sandstorm_lord	wh2_dlc09_lord_abilities_sand_storm.png	The caster summons a sandstorm to damage and debuff enemies.	Sandstorm	0	false	false	false	0.0	0
-roy_skill_nomad_mount_warhorse	mount_arb_camel.png			6	false	false	false	0.0	0
-roy_skill_nomad_mount_assassin	item_weapon.png			0	false	false	false	0.0	0
-roy_skill_nomad_jezzail	item_weapon.png			0	false	false	false	0.0	0
-roy_skill_champion_mount_horse	mount_warhorse.png			6	false	false	false	0.0	0
-roy_skill_champion_mount_warhorse	mount_barded_warhorse.png			10	false	false	false	0.0	0
-roy_skill_champion_mount_elephant	mount_mammoth.png			17	false	false	false	0.0	0
-ovn_skill_arb_lord_mount_horse	mount_warhorse.png			1	false	false	false	0.0	0
-roy_skill_champion_arb_guard	character_defence.png			0	false	false	false	0.0	0
-roy_skill_champion_arb_warrior	character_attack.png			0	false	false	false	0.0	0
-roy_skill_champion_arb_sergeant	character_army.png			0	false	false	false	0.0	0
-roy_skill_arb_hero_innate_01	trait_araby.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_02	trait_araby.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_03	trait_araby.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_04	campaign_military_spending.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_05	character_attack.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_06	campaign_technology.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_07	causes_fear.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_08	campaign_ambush.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_09	campaign_disaster.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_10	campaign_siege_defence.png			0	true	false	false	100.0	0
-roy_skill_arb_hero_innate_11	character_slaves.png			0	true	false	false	100.0	0
-roy_skill_arb_nomad_agent_actions_dummy	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0	0
-roy_skill_arb_nomad_strike_from_the_shadows	wh2_main_unit_abilities_concealment_bombs.png			0	false	false	false	0.0	0
-roy_skill_arb_nomad_self_missile_damage	character_ranged_damage.png			0	false	false	false	0.0	0
-roy_skill_arb_agent_missile_res	character_ward_save.png			7	false	false	false	0.0	0
-Talisman	item_talisman.png	Talisman	Talisman	1	false	false	false	0.0	0
-Mount	mount_deathclaw.png	Mount	Mount	1	false	false	false	0.0	0
-sword	item_weapon.png	sword	sword	1	false	false	false	0.0	0
-Helm	item_armour.png	Helm	Helm	1	false	false	false	0.0	0
-Order_Buff	character_diplomacy.png	ORC HATE	Campaign Buff	0	false	false	false	0.0	0
-Chaos_Buff	campaign_chaos_corruption.png		Public Order Buff	0	false	false	false	0.0	0
-Araby_Lord_Buff	character_diplomacy.png		Ambush Master	0	true	false	false	5.0	0
-Djinn	campaign_canopic_jars.png		Public Order Buff	0	false	false	false	0.0	0
-Mount_Elephant	mount_mammoth.png	Mount	Mount	0	false	false	false	0.0	0
-ovn_araby_ll_innate_02	character_attack.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_03	campaign_pirate_cove.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_04	campaign_slaves.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_05	character_magic.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_06	trait_araby.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_07	wh2_main_unit_abilities_concealment_bombs.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_08	mount_mammoth.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_09	character_ranged_damage.png		Ambush Master	0	true	false	false	5.0	0
-ovn_araby_ll_innate_10	trait_araby.png		Ambush Master	0	true	false	false	5.0	0
-rattlesnake_staff	item_arcane_item.png			0	false	false	false	0.0	0
-ovn_araby_tank_01	wh2_dlc09_lord_abilities_sand_storm.png			0	false	false	false	0.0	0
-ovn_araby_tank_02	character_armour.png			0	false	false	false	0.0	0
-ovn_araby_tank_03	character_morale.png			0	false	false	false	0.0	0
-ovn_araby_duel_01	wh2_main_lord_abilities_feint_and_reposte.png			0	false	false	false	0.0	0
-ovn_araby_duel_02	character_subterfuge.png			0	false	false	false	0.0	0
-ovn_araby_duel_03	wh2_main_unit_abilities_concealment_bombs.png			0	false	false	false	0.0	0
-ovn_buff_araby_vamp_coast	campaign_item.png			0	false	false	false	0.0	0
+ovn_skill_arb_all_unique_ward_of_the_one	character_ward_save.png	The relentless drive and fury of the unnamed god, harnessed for the protection of this ward’s bearer.	Ward of the One	7	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_life_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_life_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_desert_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_fire_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	mount_magic_carpet.png	An Air Djinn bound to a piece of furniture.	Flying Carpet	6	false	false	false	0.0000	0
+ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	mount_djinn_vessel.png	Servants carrying a large Djinn Vessel.	Djinn Vessel	10	false	false	false	0.0000	0
+ovn_skill_innate_arb_decadent	campaign_chaos_corruption.png	The Prince of Pleasure has gotten to this one...	Decadent	0	true	false	false	5.0000	0
+ovn_skill_magic_desert_mirage	ovn_spell_desert_mirage.png	The caster summons a mirage to distract enemies.	Mirage	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_blessing_of_the_elements	ovn_lore_passive_blessing_of_the_elements.png	The caster imbues entire army with magic attack while casting.	Blessing of the Elements	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_sunstrike	ovn_spell_desert_sunstrike.png	The caster shoots sun beams at the enemy.	Sunstrike	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_sandstorm	wh2_dlc09_lord_abilities_sand_storm.png	The caster summons a sandstorm to damage and debuff enemies.	Sandstorm	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_quicksand	ovn_spell_desert_quicksand.png	The caster turns the ground to quicksand, immobalizing enemies.	Quicksand	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_burning_hands	ovn_spell_desert_burning_hands.png	The caster blasts enemies with fire.	Burning Hands	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_curse_of_the_djinn	ovn_spell_desert_curse_of_the_djinn.png	The caster debuffs enemies.	Curse of the Djinn	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_mirage_dummy	ovn_spell_desert_mirage.png	The caster summons a mirage to distract enemies.	Mirage [HIDDEN]	0	false	false	false	0.0000	0
+ovn_skill_magic_desert_sandstorm_lord	wh2_dlc09_lord_abilities_sand_storm.png	The caster summons a sandstorm to damage and debuff enemies.	Sandstorm	0	false	false	false	0.0000	0
+roy_skill_nomad_mount_warhorse	mount_arb_camel.png			6	false	false	false	0.0000	0
+roy_skill_nomad_mount_assassin	item_weapon.png			0	false	false	false	0.0000	0
+roy_skill_nomad_jezzail	item_weapon.png			0	false	false	false	0.0000	0
+roy_skill_champion_mount_horse	mount_warhorse.png			6	false	false	false	0.0000	0
+roy_skill_champion_mount_warhorse	mount_barded_warhorse.png			10	false	false	false	0.0000	0
+roy_skill_champion_mount_elephant	mount_mammoth.png			17	false	false	false	0.0000	0
+ovn_skill_arb_lord_mount_horse	mount_warhorse.png			1	false	false	false	0.0000	0
+roy_skill_champion_arb_guard	character_defence.png			0	false	false	false	0.0000	0
+roy_skill_champion_arb_warrior	character_attack.png			0	false	false	false	0.0000	0
+roy_skill_champion_arb_sergeant	character_army.png			0	false	false	false	0.0000	0
+roy_skill_arb_hero_innate_01	trait_araby.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_02	trait_araby.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_03	trait_araby.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_04	campaign_military_spending.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_05	character_attack.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_06	campaign_technology.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_07	causes_fear.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_08	campaign_ambush.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_09	campaign_disaster.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_10	campaign_siege_defence.png			0	true	false	false	100.0000	0
+roy_skill_arb_hero_innate_11	character_slaves.png			0	true	false	false	100.0000	0
+roy_skill_arb_nomad_agent_actions_dummy	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+roy_skill_arb_nomad_strike_from_the_shadows	wh2_main_unit_abilities_concealment_bombs.png			0	false	false	false	0.0000	0
+roy_skill_arb_nomad_self_missile_damage	character_ranged_damage.png			0	false	false	false	0.0000	0
+roy_skill_arb_agent_missile_res	character_ward_save.png			7	false	false	false	0.0000	0
+Talisman	item_talisman.png	Talisman	Talisman	1	false	false	false	0.0000	0
+Mount	mount_deathclaw.png	Mount	Mount	1	false	false	false	0.0000	0
+sword	item_weapon.png	sword	sword	1	false	false	false	0.0000	0
+Helm	item_armour.png	Helm	Helm	1	false	false	false	0.0000	0
+Order_Buff	character_diplomacy.png	ORC HATE	Campaign Buff	0	false	false	false	0.0000	0
+Chaos_Buff	campaign_chaos_corruption.png		Public Order Buff	0	false	false	false	0.0000	0
+Araby_Lord_Buff	character_diplomacy.png		Ambush Master	0	true	false	false	5.0000	0
+Djinn	campaign_canopic_jars.png		Public Order Buff	0	false	false	false	0.0000	0
+Mount_Elephant	mount_mammoth.png	Mount	Mount	0	false	false	false	0.0000	0
+ovn_araby_ll_innate_02	character_attack.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_03	campaign_pirate_cove.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_04	campaign_slaves.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_05	character_magic.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_06	trait_araby.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_07	wh2_main_unit_abilities_concealment_bombs.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_08	mount_mammoth.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_09	character_ranged_damage.png		Ambush Master	0	true	false	false	5.0000	0
+ovn_araby_ll_innate_10	trait_araby.png		Ambush Master	0	true	false	false	5.0000	0
+rattlesnake_staff	item_arcane_item.png			0	false	false	false	0.0000	0
+ovn_araby_tank_01	wh2_dlc09_lord_abilities_sand_storm.png			0	false	false	false	0.0000	0
+ovn_araby_tank_02	character_armour.png			0	false	false	false	0.0000	0
+ovn_araby_tank_03	character_morale.png			0	false	false	false	0.0000	0
+ovn_araby_duel_01	wh2_main_lord_abilities_feint_and_reposte.png			0	false	false	false	0.0000	0
+ovn_araby_duel_02	character_subterfuge.png			0	false	false	false	0.0000	0
+ovn_araby_duel_03	wh2_main_unit_abilities_concealment_bombs.png			0	false	false	false	0.0000	0
+ovn_buff_araby_vamp_coast	campaign_item.png			0	false	false	false	0.0000	0

@@ -182,3 +182,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_arb_mon_enchanted_rope_summoned	arb_mon_enchanted_rope	false
 			ovn_arb_djinn_carriage	arb_djinn_carriage	false
 			ovn_arb_djinn_carriage	mp_cap_arb_djinn_carriage	false
+			ovn_arb_mon_book_djinn	flying_units	false
+			ovn_arb_mon_book_djinn	monsters	false
+			ovn_arb_mon_book_djinn	mp_cap_group_flying_unit	false

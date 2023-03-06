@@ -3,8 +3,8 @@ local function spawn_new_force()
 		"ovn_arb_sultanate_of_all_araby", -- faction_key,
 		"ovn_arb_inf_arabyan_spearmen,ovn_arb_art_grand_bombard,ovn_arb_inf_arabyan_guard,ovn_arb_inf_arabyan_bowmen,ovn_arb_inf_arabyan_spearmen,ovn_arb_inf_arabyan_bowmen", -- unit_list,
 		"wh3_main_combi_region_al_haikk", -- region_key,
-		470, -- x,
-		337, -- y,
+		511, -- x,
+		332, -- y,
 		"general", -- type,
 		"arb_sultan_jaffar", -- subtype,
 		"names_name_999982322", -- name1,
@@ -44,8 +44,8 @@ local function new_game_startup()
         "ovn_arb_sultanate_of_all_araby",
         "champion",
         "arb_champion",
-		471,
-		339,
+		511, -- x,
+		326, -- y,
         false,
         function(cqi)
             cm:replenish_action_points(cm:char_lookup_str(cqi))

@@ -10,3 +10,5 @@ id	culture	faction	remove	set	subculture
 74556251	ovn_araby		false	anc_set_multi_high_elves_kislev_norsca_chaos_empire	
 74556252	ovn_araby		false	anc_set_multi_tomb_kings_vampire_coast_dark_elves_high_elves_kislev_empire_vampire_counts	
 74556253	ovn_araby		false	anc_set_multi_high_elves_kislev_wood_elves_bretonnia_empire	
+74556254	ovn_araby		false	human_factions	
+74556255	ovn_araby		false	factions_with_vassals	

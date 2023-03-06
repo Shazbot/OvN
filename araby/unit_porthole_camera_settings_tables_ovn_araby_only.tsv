@@ -1,4 +1,4 @@
 key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
 #unit_porthole_camera_settings_tables;2;db/unit_porthole_camera_settings_tables/ovn_araby_only								
-arb_flying_carpet	3.5	28.0	200.0	200.0	-0.45	1.25	0.0	Porthole/advisor/default_porthole.lighting
-arb_djinn	2.0	28.0	180.0	195.0	-0.05	1.8	0.0	Porthole/advisor/default_porthole.lighting
+arb_flying_carpet	3.5000	28.0000	200.0000	200.0000	-0.4500	1.2500	0.0000	Porthole/advisor/default_porthole.lighting
+arb_djinn	2.0000	28.0000	180.0000	195.0000	-0.0500	1.8000	0.0000	Porthole/advisor/default_porthole.lighting

@@ -12,5 +12,9 @@ core:add_ui_created_callback(
         mixer_enable_custom_faction("1124314978")
         mixer_add_starting_unit_list_for_faction("ovn_arb_aswad_scythans", {"ovn_arb_inf_alrahem_nomads", "ovn_arb_cav_bedouin_scouts","ovn_arb_mon_elephant"})
 		mixer_change_lord_name("1124314978", "ovn_arb_cha_fatandira_0")
+
+        mixer_add_faction_to_major_faction_list("ovn_arb_sultanate_of_all_araby")
+        mixer_add_faction_to_major_faction_list("ovn_arb_golden_fleet")
+        mixer_add_faction_to_major_faction_list("ovn_arb_aswad_scythans")
     end
 )
