@@ -24,8 +24,10 @@ local cod_ll_popularity_regions = {};
 local power_of_authority_vfx = "settlement_produces_ritual_currency"
 local cod_naval_defender_faction_key = "wh2_main_hef_citadel_of_dusk";
 local cod_naval_defender_effect = "";
-mod.cod_naval_defender_level = mod.cod_naval_defender_level == nil and 1 or mod.cod_naval_defender_level;
-mod.cod_naval_action_level = mod.cod_naval_action_level or 0;
+mod.cod_naval_defender_level_inner = mod.cod_naval_defender_level_inner == nil and 1 or mod.cod_naval_defender_level_inner;
+mod.cod_naval_defender_level_outer = mod.cod_naval_defender_level_outer == nil and 1 or mod.cod_naval_defender_level_outer;
+mod.cod_naval_defender_level_all = mod.cod_naval_defender_level_all == nil and 1 or mod.cod_naval_defender_level_all;
+mod.cod_naval_grace = mod.cod_naval_grace or 32;
 
 local maluses_inner = {
 	["wh_main_effect_economy_trade_tariff_mod"] = {-55, -100},
@@ -186,14 +188,28 @@ local localized_text_region_is_safe = ""
 
 local math_round = function(x) return math.floor(x+0.5) end
 
+mod.set_cod_naval_defender_level = function(new_level)
+	local is_inner = cod_regions[campaign_key]["inner_lost"] > 0
+	local is_outer = cod_regions[campaign_key]["outer_lost"] > 0
+
+	if is_inner then
+		mod.cod_naval_defender_level_inner = new_level
+	elseif is_outer then
+		mod.cod_naval_defender_level_outer = new_level
+	else
+		mod.cod_naval_defender_level_all = new_level
+	end
+end
+
 mod.apply_naval_effect_bundles = function()
 	local is_inner = cod_regions[campaign_key]["inner_lost"] > 0
 	local is_outer = cod_regions[campaign_key]["outer_lost"] > 0
 
 	local defender_level_to_bundle = is_inner and defender_level_to_bundle_inner or is_outer and defender_level_to_bundle_outer or defender_level_to_bundle_safe
+	local cod_naval_defender_level = is_inner and mod.cod_naval_defender_level_inner or is_outer and mod.cod_naval_defender_level_outer or mod.cod_naval_defender_level_all
 
 	-- TODO CHANGE
-	local cod_naval_effect_bundle_key = defender_level_to_bundle[mod.cod_naval_defender_level]
+	local cod_naval_effect_bundle_key = defender_level_to_bundle[cod_naval_defender_level]
 	if not cod_naval_effect_bundle_key then return end
 
 	local cod_naval_effect_bundle = cm:create_new_custom_effect_bundle(cod_naval_effect_bundle_key)
@@ -202,7 +218,7 @@ mod.apply_naval_effect_bundles = function()
 	local maluses = is_inner and maluses_inner or is_outer and maluses_outer or maluses_safe
 
 	for malus, current_malus_per_ten in pairs(malus_per_ten) do
-		local new_malus_value_float = (mod.cod_naval_defender_level-1)*current_malus_per_ten
+		local new_malus_value_float = (cod_naval_defender_level-1)*current_malus_per_ten
 		local new_malus_value =  math_round(new_malus_value_float)+maluses[malus][1]
 		local malus_scope = malus_effect_to_scope[malus]
 		-- dout(malus,new_malus_value,new_malus_value_float)
@@ -212,7 +228,7 @@ mod.apply_naval_effect_bundles = function()
 	end
 
 	if is_inner then
-		local specific = specific_maluses_inner[mod.cod_naval_defender_level]
+		local specific = specific_maluses_inner[cod_naval_defender_level]
 		if specific then
 			for malus_key, value in pairs(specific) do
 				local malus_scope = malus_effect_to_scope[malus_key]
@@ -227,26 +243,18 @@ mod.apply_naval_effect_bundles = function()
 
 	local was_prediction_made = false
 	local prediction_bundle = cm:create_new_custom_effect_bundle("ovn_cod_supply_lines_predicted")
-	if mod.cod_naval_defender_level > 0 and mod.cod_naval_defender_level < 10 then
-		for i=1, 300 do
-			local predicted_cod_naval_defender_level = math.clamp(cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level + i, 1, 10)
-			if predicted_cod_naval_defender_level > 10 then break end
-			if predicted_cod_naval_defender_level ~= mod.cod_naval_defender_level then
-				-- dout(predicted_cod_naval_defender_level, mod.cod_naval_defender_level, i)
-				-- dout("next is",i)
-				was_prediction_made = true
-				prediction_bundle:add_effect("ovn_cod_naval_defender_change_turns", "building_to_force_own_in_adjacent_province_unseen", i)
-				prediction_bundle:add_effect("ovn_cod_naval_defender_change_list", "building_to_force_own_in_adjacent_province_unseen", 1)
+	if cod_naval_defender_level > 0 and cod_naval_defender_level < 10 then
+		local predicted_cod_naval_defender_level = cod_naval_defender_level + 1
+		was_prediction_made = true
+		prediction_bundle:add_effect("ovn_cod_naval_defender_change_turns", "building_to_force_own_in_adjacent_province_unseen", math.ceil(mod.cod_naval_grace/2))
+		prediction_bundle:add_effect("ovn_cod_naval_defender_change_list", "building_to_force_own_in_adjacent_province_unseen", 1)
 
-				for malus, current_malus_per_ten in pairs(malus_per_ten) do
-					local new_malus_value_float = (predicted_cod_naval_defender_level-1)*current_malus_per_ten
-					local new_malus_value =  math_round(new_malus_value_float)+maluses[malus][1]
-					local malus_scope = malus_effect_to_scope[malus]
-					if new_malus_value ~= 0 and malus_scope then
-						prediction_bundle:add_effect(malus, "building_to_force_own_in_adjacent_province_unseen", new_malus_value)
-					end
-				end
-				break
+		for malus, current_malus_per_ten in pairs(malus_per_ten) do
+			local new_malus_value_float = (predicted_cod_naval_defender_level-1)*current_malus_per_ten
+			local new_malus_value =  math_round(new_malus_value_float)+maluses[malus][1]
+			local malus_scope = malus_effect_to_scope[malus]
+			if new_malus_value ~= 0 and malus_scope then
+				prediction_bundle:add_effect(malus, "building_to_force_own_in_adjacent_province_unseen", new_malus_value)
 			end
 		end
 	end
@@ -462,10 +470,22 @@ function add_cod_naval_listeners()
 			if cod_regions["all"] then
 				local region_key = context:garrison_residence():region():name();
 				if cod_regions["all"][region_key] then
-					mod.cod_naval_action_level = mod.cod_naval_action_level + 4;
+					mod.cod_naval_grace = mod.cod_naval_grace + 4;
+					
 					cm:apply_effect_bundle("cod_influence", "wh2_main_hef_citadel_of_dusk", 2);
 					cm:apply_dilemma_diplomatic_bonus("wh2_main_hef_citadel_of_dusk", "wh2_main_hef_eataine", 4)
 					cm:apply_dilemma_diplomatic_bonus("wh2_main_hef_citadel_of_dusk", "wh2_main_hef_order_of_loremasters", 4)
+
+					-- check if we can lower cod_naval_defender_level
+					local is_inner = cod_regions[campaign_key]["inner_lost"] > 0
+					local is_outer = cod_regions[campaign_key]["outer_lost"] > 0
+					local cod_naval_defender_level = is_inner and mod.cod_naval_defender_level_inner or is_outer and mod.cod_naval_defender_level_outer or mod.cod_naval_defender_level_all
+					if cod_naval_defender_level > 1 and mod.cod_naval_grace > 10 then
+						mod.set_cod_naval_defender_level(math.clamp(cod_naval_defender_level-1, 1, 10))
+						mod.cod_naval_grace = 10
+					end
+					
+					mod.apply_naval_effect_bundles()
 				end
 			end
 		end,
@@ -500,22 +520,16 @@ function add_cod_naval_listeners()
 				return context:faction():name() == cod_naval_defender_faction_key;
 			end,
 			function(context)
-				-- dout("def level is ",mod.cod_naval_defender_level)
-				-- dout("cod_naval_action_level is ",mod.cod_naval_action_level)
-
-				if cod_regions[campaign_key]["inner_lost"] > 0 then
-					mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level;
-					mod.cod_naval_defender_level = math.clamp(mod.cod_naval_defender_level, 1, 10)
-					if mod.cod_naval_action_level > 0 then
-						mod.cod_naval_action_level = mod.cod_naval_action_level - 1;
+				local is_inner = cod_regions[campaign_key]["inner_lost"] > 0
+				local is_outer = cod_regions[campaign_key]["outer_lost"] > 0
+				local cod_naval_defender_level = is_inner and mod.cod_naval_defender_level_inner or is_outer and mod.cod_naval_defender_level_outer or mod.cod_naval_defender_level_all
+				if cod_naval_defender_level < 10 then
+					mod.cod_naval_grace = math.max(mod.cod_naval_grace-2, 0)
+					if mod.cod_naval_grace <= 0 then
+						mod.set_cod_naval_defender_level(math.clamp(cod_naval_defender_level+1, 1, 10))
+						mod.cod_naval_grace = 10
 					end
-				elseif mod.cod_naval_defender_level < 10 then
-					mod.cod_naval_defender_level = mod.cod_naval_defender_level + 1;
 				end
-
-				-- dout("AFTER")
-				-- dout("def level is ",mod.cod_naval_defender_level)
-				-- dout("cod_naval_action_level is ",mod.cod_naval_action_level)
 
 				local turn = cm:model():turn_number();
                 local cooldown = 4
@@ -524,10 +538,6 @@ function add_cod_naval_listeners()
 				end
 				cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 				mod.apply_naval_effect_bundles()
-
-				-- dout("AFTER2")
-				-- dout("def level is ",mod.cod_naval_defender_level)
-				-- dout("cod_naval_action_level is ",mod.cod_naval_action_level)
 			end,
 			true
 		);
@@ -535,7 +545,7 @@ function add_cod_naval_listeners()
 		local is_new_game = cm:is_new_game()
 		if is_new_game then
 			cod_naval_intro_listeners();
-			mod.cod_naval_action_level = 28
+			mod.cod_naval_grace = 32
 		end
 
 		cod_naval_defender_initialize(is_new_game);
@@ -571,7 +581,7 @@ function cod_naval_defender_initialize(new_game)
 	cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
 
 	if new_game then
-		mod.cod_naval_defender_level = 1;
+		mod.cod_naval_defender_level_inner = 1
 	end
 
 	mod.apply_naval_effect_bundles()
@@ -712,7 +722,7 @@ function cod_naval_defender_update(region)
 				if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
 					cod_regions[campaign_key][naval_route_type][region_key] = false;
 					cod_regions[campaign_key][naval_route_type.."_lost"] = cod_regions[campaign_key][naval_route_type.."_lost"] + 1;
-					mod.cod_naval_action_level = mod.cod_naval_action_level - 2;
+					mod.cod_naval_grace = mod.cod_naval_grace - 2;
 					out("\tRegion was true and is now false - Value "..naval_route_type.."_lost count is "..tostring(cod_regions[campaign_key][naval_route_type.."_lost"]).." (+1)");
 				end
 			elseif cod_regions[campaign_key][naval_route_type][region_key] == false then
@@ -732,10 +742,6 @@ function cod_naval_defender_update(region)
 					cod_naval_defender_show_event(region, "inner_lost");
 					core:trigger_event("ScriptEventCodNavalDefenderInnerLost");
 				end
-				mod.cod_naval_defender_level = cod_regions[campaign_key]["inner_lost"] - mod.cod_naval_action_level;
-				if mod.cod_naval_defender_level < 1 then
-					mod.cod_naval_defender_level = 1
-				end
 				cod_naval_defender_effect = "ovn_cod_naval_defender_inner";
 			elseif cod_regions[campaign_key]["outer_lost"] > 0 then
 				if cod_naval_defender_effect == "ovn_cod_naval_defender_all" then
@@ -744,18 +750,15 @@ function cod_naval_defender_update(region)
 				elseif cod_naval_defender_effect == "ovn_cod_naval_defender_inner" then
 					core:trigger_event("ScriptEventCodNavalDefenderInnerRegained");
 				end
-				mod.cod_naval_defender_level = 1;
 				cod_naval_defender_effect = "ovn_cod_naval_defender_outer";
 			else
 				if cod_naval_defender_effect == "ovn_cod_naval_defender_outer" or cod_naval_defender_effect == "ovn_cod_naval_defender_inner" then
 					cod_naval_defender_show_event(region, "united");
 					core:trigger_event("ScriptEventCodNavalDefenderUnited");
 				end
-				mod.cod_naval_defender_level = 1;
 				cod_naval_defender_effect = "ovn_cod_naval_defender_all";
 			end
 
-			-- cm:apply_effect_bundle(cod_naval_defender_effect.."_"..mod.cod_naval_defender_level, cod_naval_defender_faction_key, 0);
 			mod.apply_naval_effect_bundles()
 		end
 	end
@@ -849,11 +852,13 @@ function cod_naval_defender_initialize_invasion_and_supply()
 	local very_low_roll = cm:random_number(16, 1) -- 6.25% Chance 16
 
 	local is_inner = cod_regions[campaign_key]["inner_lost"] > 0
+	local is_outer = cod_regions[campaign_key]["outer_lost"] > 0
+	local cod_naval_defender_level = is_inner and mod.cod_naval_defender_level_inner or is_outer and mod.cod_naval_defender_level_outer or mod.cod_naval_defender_level_all
 
 	if is_inner then
 		for i = 6, 10 do
 			-- threat_v_high
-			if mod.cod_naval_defender_level == i then
+			if cod_naval_defender_level == i then
 				if high_roll == 1 then
 				cod_invasion_start()
 				end
@@ -865,7 +870,7 @@ function cod_naval_defender_initialize_invasion_and_supply()
 
 		for i = 1, 5 do
 			-- threat_high
-			if mod.cod_naval_defender_level == i then
+			if cod_naval_defender_level == i then
 				if standard_roll == 1 then
 				cod_invasion_start()
 				end
@@ -879,7 +884,7 @@ function cod_naval_defender_initialize_invasion_and_supply()
 		end
 	else
 		for i = 1, 10 do
-			if cod_regions[campaign_key]["outer_lost"] > 0 and mod.cod_naval_defender_level == i then
+			if cod_regions[campaign_key]["outer_lost"] > 0 and cod_naval_defender_level == i then
 				if low_roll == 1 then
 				cod_invasion_start()
 				elseif low_roll == 5 then
@@ -888,7 +893,7 @@ function cod_naval_defender_initialize_invasion_and_supply()
 				if standard_roll == 2 then
 				cod_reinforce_start()
 				end
-			elseif cod_regions[campaign_key]["outer_lost"] == 0 and mod.cod_naval_defender_level == i then
+			elseif cod_regions[campaign_key]["outer_lost"] == 0 and cod_naval_defender_level == i then
 				if very_low_roll == 1 then
 				cod_invasion_start()
 				end
@@ -1087,7 +1092,7 @@ function cod_reinforce_start()
 
 	cm:add_unit_to_faction_mercenary_pool(faction_name, unit_key,"renown", 1, 0, 5, 0, "", "", "", false, unit_key);
 	cod_unit_gained_mess()
-	mod.cod_naval_action_level = mod.cod_naval_action_level + 2;
+	mod.cod_naval_grace = mod.cod_naval_grace + 2;
 end
 
 function cod_unit_gained_mess()
@@ -1149,7 +1154,7 @@ cm:add_first_tick_callback(function() add_cod_naval_listeners() end)
 --- If we're hot-reloading during dev execute some stuff explicitly.
 --- We're checking for presence of execute external lua file in the traceback.
 if debug.traceback():find('pj_loadfile') then
-	mod.cod_naval_action_level = 28
+	mod.cod_naval_grace = 32
 	add_cod_naval_listeners()
 end
 
@@ -1158,16 +1163,20 @@ end
 --------------------------------------------------------------
 cm:add_saving_game_callback(
 	function(context)
-		cm:save_named_value("cod_naval_defender_level", mod.cod_naval_defender_level, context);
-		cm:save_named_value("cod_naval_action_level", mod.cod_naval_action_level, context);
+		cm:save_named_value("cod_naval_defender_level_inner", mod.cod_naval_defender_level_inner, context);
+		cm:save_named_value("cod_naval_defender_level_outer", mod.cod_naval_defender_level_outer, context);
+		cm:save_named_value("cod_naval_defender_level_all", mod.cod_naval_defender_level_all, context);
+		cm:save_named_value("cod_naval_grace", mod.cod_naval_grace, context);
 		cm:save_named_value("cod_ll_popularity_regions", cod_ll_popularity_regions, context);
 	end
 );
 
 cm:add_loading_game_callback(
 	function(context)
-		mod.cod_naval_defender_level = cm:load_named_value("cod_naval_defender_level", 1, context);
-		mod.cod_naval_action_level = cm:load_named_value("cod_naval_action_level", 1, context);
+		mod.cod_naval_defender_level_inner = cm:load_named_value("cod_naval_defender_level_inner", 1, context);
+		mod.cod_naval_defender_level_outer = cm:load_named_value("cod_naval_defender_level_outer", 1, context);
+		mod.cod_naval_defender_level_all = cm:load_named_value("cod_naval_defender_level_all", 1, context);
+		mod.cod_naval_grace = cm:load_named_value("cod_naval_grace", 1, context);
 		cod_ll_popularity_regions = cm:load_named_value("cod_ll_popularity_regions", {}, context);
 	end
 );
