@@ -70,13 +70,13 @@ end
 
 local malus_per_ten_outer = {}
 for malus_effect, malus_range in pairs(maluses_outer) do
-	local per_ten = (malus_range[2]-malus_range[1])/4
+	local per_ten = (malus_range[2]-malus_range[1])/9
 	malus_per_ten_outer[malus_effect] = per_ten
 end
 
 local malus_per_ten_safe = {}
 for malus_effect, malus_range in pairs(maluses_safe) do
-	local per_ten = (malus_range[2]-malus_range[1])/10
+	local per_ten = (malus_range[2]-malus_range[1])/9
 	malus_per_ten_safe[malus_effect] = per_ten
 end
 
@@ -199,6 +199,16 @@ mod.set_cod_naval_defender_level = function(new_level)
 	else
 		mod.cod_naval_defender_level_all = new_level
 	end
+end
+
+---@param region CA_REGION
+mod.is_region_ownership_safe = function(region)
+	if region:is_abandoned() then return false end
+
+	if region:owning_faction():culture() == "wh2_main_hef_high_elves" then return true end
+
+	local cod_faction = cm:get_faction(cod_naval_defender_faction_key)
+	return cod_faction:military_allies_with(region:owning_faction())
 end
 
 mod.apply_naval_effect_bundles = function()
@@ -367,7 +377,7 @@ function add_cod_naval_listeners()
 						local region_key = cod_regions.localized_region_name_to_region_key[localized_region_name]
 						if region_key then
 							local region = cm:get_region(region_key)
-							if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+							if region:is_abandoned() or not mod.is_region_ownership_safe(region) then
 								desc_text = desc_text
 									..": [[col:red]]"
 									..localized_text_region_is_dangerous
@@ -440,7 +450,7 @@ function add_cod_naval_listeners()
 			local turns_remaining = cod_ll_popularity_regions[region_key];
 			turns_remaining = turns_remaining - 1;
 
-			if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+			if region:is_abandoned() or not mod.is_region_ownership_safe(region) then
 				turns_remaining = 0
 			end
 
@@ -455,6 +465,21 @@ function add_cod_naval_listeners()
 				cod_ll_popularity_regions[region_key] = nil;
 				cm:remove_effect_bundle_from_region("ovn_cod_power_of_authority", region_key);
 			end
+		end,
+		true
+	);
+
+	core:remove_listener("cod_check_region")
+	core:add_listener(
+		"cod_check_region",
+		"RegionTurnStart",
+		function(context)
+			local region = context:region();
+			return cod_regions["all"][region:name()] ~= nil;
+		end,
+		function(context)
+			local region = context:region();
+			cod_naval_defender_update(region)
 		end,
 		true
 	);
@@ -570,7 +595,7 @@ function cod_naval_defender_initialize(new_game)
 			local region = cm:model():world():region_manager():region_by_key(region_key);
 
 			if not region:is_null_interface() then
-				if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+				if region:is_abandoned() or not mod.is_region_ownership_safe(region) then
 					cod_regions[campaign_key][naval_route_types[i]][region_key] = false;
 					cod_regions[campaign_key][naval_route_types[i].."_lost"] = cod_regions[campaign_key][naval_route_types[i].."_lost"] + 1;
 				end
@@ -719,20 +744,21 @@ function cod_naval_defender_update(region)
 
 		if naval_route_type ~= nil then
 			if cod_regions[campaign_key][naval_route_type][region_key] == true then
-				if region:is_abandoned() or region:owning_faction():culture() ~= "wh2_main_hef_high_elves" then
+				if region:is_abandoned() or not mod.is_region_ownership_safe(region) then
 					cod_regions[campaign_key][naval_route_type][region_key] = false;
 					cod_regions[campaign_key][naval_route_type.."_lost"] = cod_regions[campaign_key][naval_route_type.."_lost"] + 1;
 					mod.cod_naval_grace = mod.cod_naval_grace - 2;
 					out("\tRegion was true and is now false - Value "..naval_route_type.."_lost count is "..tostring(cod_regions[campaign_key][naval_route_type.."_lost"]).." (+1)");
 				end
 			elseif cod_regions[campaign_key][naval_route_type][region_key] == false then
-				if region:owning_faction():culture() == "wh2_main_hef_high_elves" then
+				if mod.is_region_ownership_safe(region) then
 					cod_regions[campaign_key][naval_route_type][region_key] = true;
 					cod_regions[campaign_key][naval_route_type.."_lost"] = cod_regions[campaign_key][naval_route_type.."_lost"] - 1;
 					out("\tRegion was false and is now true - Value "..naval_route_type.."_lost count is "..tostring(cod_regions[campaign_key][naval_route_type.."_lost"]).." (-1)");
 				end
 			else
 				out("\tNo changes made");
+				return
 			end
 
 			cod_naval_defender_remove_effects(cod_naval_defender_faction_key);
@@ -741,20 +767,24 @@ function cod_naval_defender_update(region)
 				if cod_naval_defender_effect == "ovn_cod_naval_defender_all" or cod_naval_defender_effect == "ovn_cod_naval_defender_outer" then
 					cod_naval_defender_show_event(region, "inner_lost");
 					core:trigger_event("ScriptEventCodNavalDefenderInnerLost");
+					mod.cod_naval_grace = 10;
 				end
 				cod_naval_defender_effect = "ovn_cod_naval_defender_inner";
 			elseif cod_regions[campaign_key]["outer_lost"] > 0 then
 				if cod_naval_defender_effect == "ovn_cod_naval_defender_all" then
 					cod_naval_defender_show_event(region, "outer_lost");
 					core:trigger_event("ScriptEventCodNavalDefenderOuterLost");
+					mod.cod_naval_grace = 10;
 				elseif cod_naval_defender_effect == "ovn_cod_naval_defender_inner" then
 					core:trigger_event("ScriptEventCodNavalDefenderInnerRegained");
+					mod.cod_naval_grace = 10;
 				end
 				cod_naval_defender_effect = "ovn_cod_naval_defender_outer";
 			else
 				if cod_naval_defender_effect == "ovn_cod_naval_defender_outer" or cod_naval_defender_effect == "ovn_cod_naval_defender_inner" then
 					cod_naval_defender_show_event(region, "united");
 					core:trigger_event("ScriptEventCodNavalDefenderUnited");
+					mod.cod_naval_grace = 10;
 				end
 				cod_naval_defender_effect = "ovn_cod_naval_defender_all";
 			end
