@@ -61,6 +61,9 @@ end
 
 cm:add_first_tick_callback(
 	function()
+        pcall(function()
+            mixer_set_faction_trait("wh2_main_hef_citadel_of_dusk", "wh2_main_lord_trait_hef_citadel_of_dusk", true)
+        end)
 		if cm:is_new_game() then
 			if cm:get_campaign_name() == "main_warhammer" then
 				local ok, err =

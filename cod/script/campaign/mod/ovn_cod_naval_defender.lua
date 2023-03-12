@@ -21,7 +21,7 @@ end
 
 local campaign_key = "main_warhammer";
 local cod_ll_popularity_regions = {};
-local power_of_authority_vfx = {full = "scripted_effect7", half = "scripted_effect8"};
+local power_of_authority_vfx = "settlement_produces_ritual_currency"
 local cod_naval_defender_faction_key = "wh2_main_hef_citadel_of_dusk";
 local cod_naval_defender_effect = "";
 mod.cod_naval_defender_level = mod.cod_naval_defender_level == nil and 1 or mod.cod_naval_defender_level;
@@ -278,6 +278,26 @@ function add_cod_naval_listeners()
 
 	out("#### Adding cod_naval Listeners ####");
 	local cod_naval = cm:model():world():faction_by_key(cod_naval_defender_faction_key);
+
+	-- COD CAPITAL INVISIBILITY MECH
+	core:add_listener(
+		"cod_capital_invisibility_update_listener",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():name() == cod_naval_defender_faction_key and cm:get_campaign_name() == "main_warhammer";
+		end,
+		function(context)
+			local random_number = cm:random_number(3, 1)
+			if random_number == 1 then
+				cm:cai_disable_targeting_against_settlement("settlement:wh3_main_combi_region_citadel_of_dusk")
+			else
+				cm:cai_enable_targeting_against_settlement("settlement:wh3_main_combi_region_citadel_of_dusk")
+			end
+		end,
+		true
+	);
+	-- NAVAL TARGET REGIONS COMPONENTS
+
 	if cod_naval:is_human() and cm:get_campaign_name() == "main_warhammer" then
 
 	local cod_bundle_title_text = common.get_localised_string("cod_supply_lines_status_script_text")
@@ -310,7 +330,7 @@ function add_cod_naval_listeners()
 					map:Resize(tt:Height()+6,tt:Height()+6)
 					map:SetImagePath("ui/cod_supply_lines_map.png",0)
 				end
-				
+
 				local px, py = tt:Position()
 				map:MoveTo(px-map:Width()+12, py-2)
 				map:SetVisible(true)
@@ -374,6 +394,8 @@ function add_cod_naval_listeners()
 			 current_char:has_region() and current_char:is_at_sea() == false and current_char:character_subtype("wh2_dlc10_hef_alith_anar") or
 			 current_char:has_region() and current_char:is_at_sea() == false and current_char:character_subtype("wh2_main_hef_teclis") or
 			 current_char:has_region() and current_char:is_at_sea() == false and current_char:character_subtype("wh2_main_hef_tyrion") or
+			 current_char:has_region() and current_char:is_at_sea() == false and current_char:character_subtype("wh2_dlc15_hef_eltharion") or
+			 current_char:has_region() and current_char:is_at_sea() == false and current_char:character_subtype("wh2_dlc15_hef_imrik") or
 			 current_char:has_region() and current_char:is_at_sea() == false and current_char:character_subtype("ovn_stormrider")
 		end,
 		function(context)
@@ -383,11 +405,11 @@ function add_cod_naval_listeners()
 			if region:is_abandoned() == false and region:owning_faction():name() == cod_naval_defender_faction_key then
 				local region_key = region:name();
 				cm:remove_effect_bundle_from_region("ovn_cod_power_of_authority", region_key);
-				cm:apply_effect_bundle_to_region("ovn_cod_power_of_authority", region_key, 10);
+				cm:apply_effect_bundle_to_region("ovn_cod_power_of_authority", region_key, 6);
 				cod_ll_popularity_regions[region_key] = 10;
 				local garrison_residence = region:garrison_residence();
 				local garrison_residence_CQI = garrison_residence:command_queue_index();
-				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full, false);
+				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx, false);
 				core:trigger_event("ScriptEventPowerOfNatureTriggered");
 			end
 		end,
@@ -415,16 +437,10 @@ function add_cod_naval_listeners()
 			end
 
 			-- remove old vfx from the region
-			cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full);
-			cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half);
+			cm:remove_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx);
 
-			if turns_remaining > 5 then
-				-- Display full VFX
-				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.full, false);
-				cod_ll_popularity_regions[region_key] = turns_remaining;
-			elseif turns_remaining > 0 then
-				-- Switch to half strength VFX
-				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx.half, false);
+			if turns_remaining > 0 then
+				cm:add_garrison_residence_vfx(garrison_residence_CQI, power_of_authority_vfx, false);
 				cod_ll_popularity_regions[region_key] = turns_remaining;
 			else
 				-- Remove all VFX
@@ -658,22 +674,25 @@ function cod_naval_defender_initialize(new_game)
     random_army_manager:add_unit("ovn_cod_dark_elves_force", "wh2_dlc14_def_mon_bloodwrack_medusa_0", 1);
 
     random_army_manager:new_force("ovn_cod_chaos_force");
-    random_army_manager:add_mandatory_unit("ovn_cod_chaos_force", "wh_dlc01_chs_inf_chosen_2", 3);
+    random_army_manager:add_mandatory_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_inf_chosen_mnur", 3);
     random_army_manager:add_mandatory_unit("ovn_cod_chaos_force", "wh_dlc01_chs_mon_dragon_ogre", 2);
-    random_army_manager:add_mandatory_unit("ovn_cod_chaos_force", "wh_main_chs_inf_chosen_1", 2);
+    random_army_manager:add_mandatory_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_inf_chosen_mkho_dualweapons", 2);
     random_army_manager:add_mandatory_unit("ovn_cod_chaos_force", "wh_main_chs_art_hellcannon", 1);
     random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc01_chs_mon_dragon_ogre_shaggoth", 1);
     random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc01_chs_mon_trolls_1", 1);
     random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc01_chs_inf_chosen_0", 2);
     random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc06_chs_cav_marauder_horsemasters_0", 1);
-    random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_cav_chaos_chariot", 1);
-    random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc01_chs_cav_gorebeast_chariot", 1);
-    random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_cav_chaos_knights_1", 1);
-    random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_cav_chaos_knights_0", 1);
-    random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_mon_giant", 1);
-	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_mon_chaos_spawn", 2);
-	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_dlc01_chs_inf_forsaken_0", 2);
-	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_inf_chaos_warriors_0", 4);
+    random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_cav_chaos_chariot_msla", 1);
+    random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_main_kho_cav_gorebeast_chariot", 1);
+    random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_main_sla_cav_hellstriders_1", 1);
+    random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_main_tze_cav_doom_knights_0", 1);
+    random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_mon_giant_mnur_ror", 1);
+	random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_main_nur_mon_spawn_of_nurgle_0_warriors", 2);
+	random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_inf_forsaken_msla", 2);
+	random_army_manager:add_unit("ovn_cod_chaos_force", "wh_main_chs_inf_chaos_warriors_0", 2);
+	random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_main_kho_inf_chaos_warriors_0", 2);
+	random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_inf_chaos_warriors_msla_hellscourges", 2);
+	random_army_manager:add_unit("ovn_cod_chaos_force", "wh3_dlc20_chs_inf_chaos_warriors_mtze_halberds", 2);
 end
 
 function cod_naval_defender_update(region)
@@ -824,10 +843,10 @@ function cod_naval_defender_initialize_invasion_and_supply()
 
 	local faction_name_str = cod_naval_defender_faction_key
     local faction = cm:get_faction(faction_name_str);
-	local high_roll = cm:random_number(4, 1) -- 25% Chance
-	local standard_roll = cm:random_number(6, 1) -- 16.67% Chance
-	local low_roll = cm:random_number(8, 1) -- 12.5% Chance
-	local very_low_roll = cm:random_number(16, 1) -- 6.25% Chance
+	local high_roll = cm:random_number(4, 1) -- 25% Chance 4
+	local standard_roll = cm:random_number(6, 1) -- 16.67% Chance 6
+	local low_roll = cm:random_number(8, 1) -- 12.5% Chance 8
+	local very_low_roll = cm:random_number(16, 1) -- 6.25% Chance 16
 
 	local is_inner = cod_regions[campaign_key]["inner_lost"] > 0
 
@@ -885,7 +904,6 @@ function cod_naval_defender_initialize_invasion_and_supply()
 end
 
 function cod_invasion_start()
-
 local faction_name_str = cod_naval_defender_faction_key
 local faction_name = cm:get_faction(faction_name_str)
 local char_faction_leader = cm:get_faction(faction_name_str):faction_leader()
@@ -1067,7 +1085,7 @@ function cod_reinforce_start()
     local random_number = cm:random_number(#ovn_cod_reinforcement_unit_pool, 1)
     local unit_key = ovn_cod_reinforcement_unit_pool[random_number]
 
-	cm:add_unit_to_faction_mercenary_pool(faction_name, unit_key, 1, 0, 5, 0, 0, "", "", "", false);
+	cm:add_unit_to_faction_mercenary_pool(faction_name, unit_key,"renown", 1, 0, 5, 0, "", "", "", false, unit_key);
 	cod_unit_gained_mess()
 	mod.cod_naval_action_level = mod.cod_naval_action_level + 2;
 end
@@ -1084,7 +1102,7 @@ function cod_unit_gained_mess()
 					"",
 					"event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_unit_gained_secondary_detail",
 					true,
-					2502
+					2602
 					);
 		end;
 
@@ -1102,7 +1120,7 @@ function cod_invasion_mess()
 					"",
 					"event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_invasion_secondary_detail",
 					true,
-					2501
+					2601
 					);
 		end;
 
@@ -1120,7 +1138,7 @@ function cod_beast_invasion_mess()
 					"",
 					"event_feed_strings_text_ovn_event_feed_string_scripted_event_cod_beast_invasion_secondary_detail",
 					true,
-					2500
+					2600
 					);
 		end;
 
