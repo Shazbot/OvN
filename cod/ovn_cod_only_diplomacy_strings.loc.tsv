@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_cod_only_diplomacy_strings.loc		
+diplomacy_strings_string_CoD_Dip_Acceptance_Negative_01	May this not blemish my families honour.	false
+diplomacy_strings_string_CoD_Dip_Acceptance_Negative_02	You are lucky not to meet Sharpclaws talons.	false
+diplomacy_strings_string_CoD_Dip_Acceptance_Negative_03	I suppose even nobles must deal with undesirables like yourself.	false
+diplomacy_strings_string_CoD_Dip_Demand_Payments_Negative_01	Gold or be my latest conquest for glory!	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Negative_01	My family reigns back to the first Phoenix King and here I am dealing with the likes of you.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Negative_02	I do this for my people, not myself.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Negative_03	You’d be wise to accept, if not to end up like the prisoners from the Emerald Hills.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Negative_01	Sharpclaw makes more sense than your foolish drivel.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Negative_02	I have not fought so many battles, to fold to the likes of you in matters of diplomacy.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Negative_03	Leave my sight before I have Sharpclaw feed on your innards.	false
+diplomacy_strings_string_CoD_Dip_Greet_Neg_01	Speak, before I command Sharpclaw to scratch out your eyes.	false
+diplomacy_strings_string_CoD_Dip_Greet_Neg_02	Speak quickly and with purpose, I have little time for niceties.	false
+diplomacy_strings_string_CoD_Dip_Greet_Neg_03	I’d sooner meet you on the battlefield.	false
+diplomacy_strings_string_CoD_Dip_Acceptance_Positive_01	The Citadel of Dusk accepts with the warmest regards.	false
+diplomacy_strings_string_CoD_Dip_Acceptance_Positive_03	It would be our honour to accept these terms.	false
+diplomacy_strings_string_CoD_Dip_Demand_Payments_Positive_01	We rid the seas of all scourges for everyone’s betterment.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Positive_01	This will only further our glory.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Positive_02	The Citadel of Dusk looks after its friends.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Positive_03	Come friend, what say you to my fair offer?	false
+diplomacy_strings_string_CoD_Dip_Rejection_Positive_01	We graciously must refuse.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Positive_02	The Capes attentions lie elsewhere for now, but perhaps in time we can revisit this.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Positive_03	On my families honour, we would accept if we could.	false
+diplomacy_strings_string_CoD_Dip_Greet_Pos_01	Welcome friend, how can the Asur of the Dusk help you.	false
+diplomacy_strings_string_CoD_Dip_Greet_Pos_02	Come lets find some shade and we can discuss matters.	false
+diplomacy_strings_string_CoD_Dip_Greet_Pos_03	Caladris told me of your arrival, it is good to see such friends in dark times.	false
+diplomacy_strings_string_CoD_Dip_Acceptance_Neutral_01	The Capes accepts your proposal.	false
+diplomacy_strings_string_CoD_Dip_Acceptance_Neutral_02	As Governor General, I accept your offer.	false
+diplomacy_strings_string_CoD_Dip_Accept_State_Gift_01	May this forge our friendship ever closer.	false
+diplomacy_strings_string_CoD_Dip_Accept_State_Gift_02	The Citadel of Dusk will not forget your generosity this day.	false
+diplomacy_strings_string_CoD_Dip_Accept_State_Gift_03	You have my families thanks, we will ensure you are repaid in kind.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Accept_01	Let us break out the wine, I have a bottle of particularly good vintage.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Accept_02	It is good to see power brokered not only from battle.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Accept_03	The Citadel of Dusk rejoices!	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Cancel_Treaty_01	You have made a mistake, let’s hope it doesn’t lead to your demise.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Cancel_Treaty_02	Sharpclaw is out hunting, safe travels to your party.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Cancel_Treaty_03	The Citadel of Dusk see this for what it is, treachery.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Reject_01	Brave, to reject one who has so many victories as myself.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Reject_02	Would you really see the Citadel crumble?	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_Reject_03	This displease the court of the Citadel of Dusk.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_War_01	You and your kind will be burnt alive with no ceremony.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_War_02	Have you heard of Skreet Verminkin? No. That is because I slayed him and you will suffer the same inmagnanimous fate.	false
+diplomacy_strings_string_CoD_Dip_Acknowledge_War_03	You clearly do not know the Stormrider name, that will be remedied.	false
+diplomacy_strings_string_CoD_Dip_Cancel_Treaty_01	This treaty was a blight on my families name.	false
+diplomacy_strings_string_CoD_Dip_Cancel_Treaty_02	This no longer benefits the Citadel of Dusk.	false
+diplomacy_strings_string_CoD_Dip_Cancel_Treaty_03	I don’t want to be associated with the likes of you.	false
+diplomacy_strings_string_CoD_Dip_Demand_Join_War_01	The Citadel of Dusk asks for your aid in battle.	false
+diplomacy_strings_string_CoD_Dip_Demand_Join_War_02	My feats speak for themselves, Blood Island, Emerald Hills, Stormkeep, need I go on?	false
+diplomacy_strings_string_CoD_Dip_Demand_Join_War_03	We must secure the sea lanes, if we are all to prosper.	false
+diplomacy_strings_string_CoD_Dip_Demand_Payments_Neutral_01	Think of it as a fee, for the safe shipping lanes you use.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Neutral_01	What say you to Stormrider, Prince and Captain.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Neutral_02	The Capes hope you see the benefit of this offer.	false
+diplomacy_strings_string_CoD_Dip_Generic_Offer_Neutral_03	I make this offer, as ruler of the Citadel of Dusk.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Neutral_01	With respect the Citadel of Dusk declines.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Neutral_02	Caladris believes there is an ulterior motive in your proposal.	false
+diplomacy_strings_string_CoD_Dip_Rejection_Neutral_03	The Capes can not agree to these terms.	false
+diplomacy_strings_string_CoD_Dip_Offer_Cooperation_01	We must work together, should we gain glory.	false
+diplomacy_strings_string_CoD_Dip_Offer_Cooperation_02	Caladris has studied the ancient texts, they foretell of our doom, we must join forces now!	false
+diplomacy_strings_string_CoD_Dip_Offer_Cooperation_03	The Citadel of Dusk has long stood, will you help keep it so.	false
+diplomacy_strings_string_CoD_Dip_Offer_Peace_01	There is no glory in this.	false
+diplomacy_strings_string_CoD_Dip_Offer_Peace_02	The Citadel has stood for over a thousand years, would you really see it crumble?	false
+diplomacy_strings_string_CoD_Dip_Offer_Peace_03	Shame, Sharpclaw was developing a taste for your so called warriors.	false
+diplomacy_strings_string_CoD_Dip_Offer_Join_War_01	Sharpclaw hungers.	false
+diplomacy_strings_string_CoD_Dip_Offer_Join_War_02	Victory will be assured and we will revel in glory.	false
+diplomacy_strings_string_CoD_Dip_Offer_Join_War_03	I continue my families great tradition and uphold their name.	false
+diplomacy_strings_string_CoD_Dip_Offer_Gift_01	Accept and it will be sent in haste on the Dragonship Ingranion.	false
+diplomacy_strings_string_CoD_Dip_Offer_Gift_02	Caladris advocates that we support you.	false
+diplomacy_strings_string_CoD_Dip_Offer_Gift_03	The Citadel of Dusk prospers, and we will see you too.	false
+diplomacy_strings_string_CoD_Dip_Greet_Neu_01	Welcome to the mighty court of the Citadel of Dusk 	false
+diplomacy_strings_string_CoD_Dip_Greet_Neu_02	I am the Governor General of the Capes, welcome.	false
+diplomacy_strings_string_CoD_Dip_Greet_Neu_03	How can the Citadel of Dusk help?	false
+diplomacy_strings_string_CoD_Dip_Reject_Peace_01	Sharpclaw still hungers.	false
+diplomacy_strings_string_CoD_Dip_Reject_Peace_02	There is still glory to be had.	false
+diplomacy_strings_string_CoD_Dip_Reject_Peace_03	This would be a mere footnote and I mean to make it my greatest feat, ending in your demise.	false
+diplomacy_strings_string_CoD_Dip_Reject_Join_Confederation_01	The sea lanes would be rampant with piracy and the Citadel would crumble under your stewardship.	false
+diplomacy_strings_string_CoD_Dip_Reject_Join_Confederation_02	I did not emerge victor in Blood Island, Emerald Hills, Stormkeep and many more, to serve under you.	false
+diplomacy_strings_string_CoD_Dip_Reject_Join_Confederation_03	Now is not the time, the Citadel of Dusk has important work, and our attentions can not be divided.	false
+diplomacy_strings_string_CoD_Dip_War_01	Look to your skies, for in time you will see me atop Sharpclaw ahead of the glittering host.	false
+diplomacy_strings_string_CoD_Dip_War_02	For the glory of my people, for glory of my name I shall see you destroyed.	false
+diplomacy_strings_string_CoD_Dip_War_03	This will be greater than my campaign at the Island of Blood.	false

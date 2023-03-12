@@ -92,13 +92,13 @@ effect_bundles_localised_description_cod_naval_defender_vbad	[[col:red]]The shor
 effect_bundles_localised_title_cod_naval_defender_vgood	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:green]]Clear Oceans[[/col]]	true
 effect_bundles_localised_description_cod_naval_defender_vgood	[[col:red]]The shores of Lustria are not secure, expect invading forces and fewer reinforcements.[[/col]]\\n\\nControl all of the target strategic naval regions to improve Cathayan supply lines.	true
 effect_bundles_localised_title_ovn_cod_supply_lines_outer_1	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:red]]Blockaded[[/col]]	true
-effect_bundles_localised_description_ovn_cod_supply_lines_outer_1	Harbours of Eataine have fallen to our enemies!	true
-effect_bundles_localised_title_ovn_cod_supply_lines_outer_2	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:red]]Mutinous[[/col]]	true
-effect_bundles_localised_description_ovn_cod_supply_lines_outer_2	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_1	While the we hold the Key regions of Lustria our Harbours in Eataine have fallen to our enemies!	true
+effect_bundles_localised_title_ovn_cod_supply_lines_outer_2	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:red]]Mutinous[[/col]] TEST	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_2	While the we hold the Key regions of Lustria our Harbours in Eataine have fallen to our enemies!	true
 effect_bundles_localised_title_ovn_cod_supply_lines_outer_3	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:yellow]]Dangerous Waters[[/col]]	true
-effect_bundles_localised_description_ovn_cod_supply_lines_outer_3	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_3	While the we hold the Key regions of Lustria our Harbours in Eataine have fallen to our enemies!	true
 effect_bundles_localised_title_ovn_cod_supply_lines_outer_4	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:green]]Capricious Seas[[/col]]	true
-effect_bundles_localised_description_ovn_cod_supply_lines_outer_4	Harbours of Eataine have fallen to our enemies!	true
+effect_bundles_localised_description_ovn_cod_supply_lines_outer_4	While the we hold the Key regions of Lustria our Harbours in Eataine have fallen to our enemies!	true
 effect_bundles_localised_title_ovn_cod_supply_lines_predicted	[[img:bullet_cth_compass]][[/img]] [[col:yellow]]Predicted Supply Line[[/col]] [[img:bullet_cth_compass]][[/img]]	true
 effect_bundles_localised_description_ovn_cod_supply_lines_predicted	Until the strategic regions and key ports of Lustria are secure our supply lines with Cathay will continue to deteriorate rapidly.\\n\\nConquering target regions will delay the deterioration, until we can secure them all!\\n\\nPredicted changes to our supply lines:	true
 effect_bundles_localised_title_ovn_cod_supply_lines_safe	[[img:cod_cth_flag]][[/img]] Cathayan Supply Line [[img:cod_cth_flag]][[/img]]\\nStatus: [[col:green]]Clear Oceans[[/col]]	true
