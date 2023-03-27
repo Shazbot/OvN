@@ -115,9 +115,9 @@ effects_description_elo_fen_lord_heroes_ward	Ward save: %n% for all Lords and He
 effects_description_elo_charge_trolls_fim	Charge bonus: %+n for all Troll and Fimir units	false
 effects_description_elo_cost_trolls_fim	Recruitment cost: %+n% for all Troll, and Fimir units	false
 effects_description_elo_wps_trolls_fim	Weapon strength: %+n% for all Troll, and Fimir units	true
-effects_description_albion_monsters_fen_mdef	Melee defence: %+n for Fenbeasts units	true
-effects_description_albion_monsters_fen_mattk	Melee attack: %+n for Fenbeasts units	true
-effects_description_enable_wh_dlc08_unit_passive_from_the_mist	Ability: "From the Mists" for all units	true
+effects_description_fimir_monsters_fen_mdef	Melee defence: %+n for Fenbeasts units	true
+effects_description_fimir_monsters_fen_mattk	Melee attack: %+n for Fenbeasts units	true
+effects_description_enable_wh_dlc08_unit_passive_from_the_mist_FIM	Ability: "From the Mists" for all units	true
 effects_description_ovn_effect_enable_attribute_stalk_bog_octopus	Attribute: Stalk for Bog Octopus units	true
 effects_description_ovn_fim_effect_agent_cap_increase_elo_boglar_shaman	Hero capacity: %+n for Boglar Shamans	false
 effects_description_ovn_fim_effect_agent_enable_recruitment_elo_boglar_shaman	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Boglar Shaman	false
@@ -140,7 +140,7 @@ effects_description_fim_kroll_enable_fulcrum	Ability: "Fulcrum of Worship"	true
 effects_description_fim_kroll_temple_apotheosis_total_dummy	Apotheosis: %+n% Weapon strength, Mass and Armour for Kroll	true
 effects_description_fim_kroll_temple_apotheosis	Apotheosis: Kroll gains %+n% Weapon strength, Mass and Armour for each Temple of Kroll	true
 effects_description_fim_kroll_temple_apotheosis_scale		false
-effects_description_ovn_fim_kroll_apotheosis_dummy	Erect temples in Kroll's name at province capitals, to increase her Mass, Armour and Weapon strength by %+n% each time along with powerful army bonuses and positive diplomatic relations with the Fimir.	true
+effects_description_ovn_fim_kroll_apotheosis_dummy	Erect temples in Kroll's name at province capitals, to increase her Mass, Armour and Weapon strength by %+n% each time along with powerful army bonuses and positive diplomatic relations with Chaos Worshipping factions, Dark Elves and Greenskins.	true
 effects_description_ovn_fim_skattach_daemon_summoning_dummy	The Rancor Hold Fimir are closely aligned with the Forces of Chaos, and benefit from the Eye of the Gods and Gifts of Chaos mechanics, being able to sacrifice slaves to earn favour and rewards from the Chaos Gods.	true
 effects_description_ovn_fimir_slaves_capacity	Faction slave capacity: +%n	false
 effects_description_elo_fimir_bog_monsters_ma	Melee attack: %+n for Chaos Furies, Swamp Daemons, and Fen Beasts units	true

@@ -62,7 +62,7 @@ fimir_r7_elite_giants	elo_fimir_r7_giants_armour	1	general_to_force_own	12.0000
 fimir_r7_elite_giants	elo_fimir_r7_giants_ward	1	general_to_force_own	8.0000
 fimir_r7_elite_giants	elo_fimir_r7_giants_wps	1	general_to_force_own	12.0000
 fimir_worthless_slaves	fimir_slaves_upkeep	1	general_to_force_own	-70.0000
-fimir_worthless_slaves	fimir_slaves_cost	1	general_to_force_own	-90.0000
+fimir_worthless_slaves	fimir_slaves_cost	1	general_to_force_own	-70.0000
 fimir_warrior_elite	fimir_warrior_elite_xp	1	general_to_force_own	4.0000
 fimir_warrior_elite	fimir_warrior_elite_md	1	general_to_force_own	8.0000
 fimir_warrior_elite	fimir_warrior_elite_up	1	general_to_force_own	15.0000

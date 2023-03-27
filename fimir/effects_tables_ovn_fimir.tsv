@@ -88,9 +88,9 @@ elo_champions_chaos_r7_md	defence.png	100	defence.png	battle	true
 elo_champions_chaos_r7_magicres	resistance_magic.png	100	resistance_magic.png	battle	true
 ovn_campaign_enable_name_dirach		0		both	true
 enable_fimirach_noble_mount	mount.png	50	mount.png	both	true
-albion_monsters_fen_mdef	defence.png	101	defence.png	battle	true
-albion_monsters_fen_mattk	melee.png	109	melee.png	battle	true
-enable_wh_dlc08_unit_passive_from_the_mist	general_ability.png	111	general_ability.png	battle	true
+fimir_monsters_fen_mdef	defence.png	101	defence.png	battle	true
+fimir_monsters_fen_mattk	melee.png	109	melee.png	battle	true
+enable_wh_dlc08_unit_passive_from_the_mist_FIM	general_ability.png	111	general_ability.png	battle	true
 ovn_effect_enable_attribute_stalk_bog_octopus	attribute_stalk.png	600	attribute_stalk.png	battle	true
 ovn_fim_effect_agent_xp_increase_elo_boglar_shaman	wizard.png	104	wizard.png	campaign	true
 ovn_fim_effect_agent_enable_recruitment_elo_boglar_shaman	wizard.png	3	wizard.png	campaign	true
@@ -106,7 +106,7 @@ ovn_fim_skroll_innate_bog_upkeep_reduction	treasury.png	106	treasury.png	campaig
 fim_kroll_enable_mother_young	general_ability.png	600	general_ability.png	battle	true
 fim_kroll_enable_constrict_effect	phase_posion.png	1		battle	true
 ovn_fim_skroll_bog_cotopus_speed	battle_movement.png	106	battle_movement.png	battle	true
-ovn_fim_skroll_bog_cotopus_charge	battle_movement.png	106	battle_movement.png	battle	true
+ovn_fim_skroll_bog_cotopus_charge	battle_charge.png	106	battle_charge.png	battle	true
 ovn_fim_skroll_monster_ma	melee.png	106	melee.png	battle	true
 fim_kroll_enable_broodmother	general_ability.png	600	general_ability.png	battle	true
 fim_kroll_enable_fulcrum	general_ability.png	600	general_ability.png	battle	true

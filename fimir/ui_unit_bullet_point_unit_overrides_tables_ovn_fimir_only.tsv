@@ -6,6 +6,9 @@ scaly_skin	fim_cav_marsh_hornets_ror
 aquatic	fim_cav_marsh_reavers
 armoured	fim_cav_marsh_reavers
 scaly_skin	fim_cav_marsh_reavers
+aquatic	fim_cav_marsh_reavers_kroll
+armoured	fim_cav_marsh_reavers_kroll
+scaly_skin	fim_cav_marsh_reavers_kroll
 anti_infantry	fim_cav_nuckelavee
 armour_piercing	fim_cav_nuckelavee
 aquatic	fim_cav_nuckelavee
@@ -74,8 +77,8 @@ stalk	fim_inf_swamp_daemons_summon
 scaly_skin	fim_inf_swamp_daemons_summon
 damage_dealer	fim_inf_swamp_daemons_summon
 aquatic	fim_inf_swamp_daemons_summon
-anti_infantry	fim_mon_balefiend_apprentices
-weak_anti_armour	fim_mon_balefiend_apprentices
+spellcaster	fim_mon_balefiend_apprentices
+armour_piercing_ranged	fim_mon_balefiend_apprentices
 decent_melee	fim_mon_balefiend_apprentices
 anti_large	fim_mon_daemonomaniac
 armour_piercing	fim_mon_daemonomaniac
