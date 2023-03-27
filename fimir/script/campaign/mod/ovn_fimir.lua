@@ -1,5 +1,12 @@
 local rancor_hold_faction_key = "ovn_fim_rancor_hold"
 
+local fimir_faction_keys = {
+    "ovn_fim_rancor_hold",
+    "ovn_fim_tendrils_of_doom",
+    "ovn_fim_marsh_hornets",
+    "ovn_fim_mist_dragons",
+}
+
 local function rancor_hold_ui_stuff()
     core:remove_listener("ovn_fimir_rancor_hold_add_resource_bar_stuff_trigger")
 	core:add_listener(
@@ -159,6 +166,10 @@ local function add_regions_mist()
 end
 
 local function on_every_first_tick()
+    for _, fimir_faction_key in ipairs(fimir_faction_keys) do
+        cm:force_change_cai_faction_personality(fimir_faction_key, "wh3_combi_norsca_wulfrik")
+    end
+
     add_regions_mist()
 
     core:remove_listener("ovn_fimir_remove_fog_vanguard")
