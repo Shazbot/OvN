@@ -205,12 +205,16 @@ local function on_every_first_tick()
             local first_attacker_char = cm:get_character_by_cqi(first_attacker_cqi)
 
             local any_region_has_fimir_fog = false
-            for _, region in model_pairs(first_attacker_char:region():province():regions()) do
-                if region:has_effect_bundle("ovn_fimir_fog_diktat") then
-                    any_region_has_fimir_fog = true
-                    break
-                end
-            end
+			local first_attacker_region = first_attacker_char:region()
+			
+			if not first_attacker_region:is_null_interface() and not first_attacker_region:province():is_null_interface() then			
+				for _, region in model_pairs(first_attacker_region:province():regions()) do
+					if region:has_effect_bundle("ovn_fimir_fog_diktat") then
+						any_region_has_fimir_fog = true
+						break
+					end
+				end
+			end
 
             if not any_region_has_fimir_fog then return end
 
