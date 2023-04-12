@@ -1,0 +1,3 @@
+agent_subtype	attacking	battle_tag	battle_type_override
+#campaign_agent_subtype_battle_tags_tables;2;db/campaign_agent_subtype_battle_tags_tables/rhox_grudgebringer			
+ovn_grudge_camp_lord	false	wh3_main_ogr_camp	unfortified_settlement

@@ -1,0 +1,9 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/rhox_grudgebringer								
+ovn_grudge_art_set_emp_general_camp_01	general				false	true	ovn_grudge_camp_lord	0.8500
+ovn_grudge_art_set_emp_general_camp_02	general				false	true	ovn_grudge_camp_lord	0.8500
+ovn_grudge_art_set_emp_general_camp_03	general				false	true	ovn_grudge_camp_lord	0.8500
+ovn_grudge_art_set_emp_general_camp_04	general				false	true	ovn_grudge_camp_lord	0.8500
+ovn_grudge_art_set_emp_general_camp_05	general				false	true	ovn_grudge_camp_lord	0.8500
+wh_dlc08_art_set_giant_01	general				false	true	ovn_grudge_grn_mon_giant_boss	0.7000
+ovn_grudge_grn_river_troll_hag	general				false	true	ovn_grudge_grn_river_troll_hag	0.6500

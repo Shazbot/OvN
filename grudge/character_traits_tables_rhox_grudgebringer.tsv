@@ -1,0 +1,4 @@
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
+#character_traits_tables;2;db/character_traits_tables/rhox_grudgebringer						
+rhox_grudge_local_helper	1	false	1	rhox_grudge_local	1	
+rhox_grudge_settlement_helper	1	false	1	rhox_grudge_settlement	1	

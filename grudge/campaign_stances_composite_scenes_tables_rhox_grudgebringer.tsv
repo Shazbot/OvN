@@ -1,0 +1,3 @@
+group	stance	composite_scene	composite_movement_start	composite_movement_stop
+#campaign_stances_composite_scenes_tables;0;db/campaign_stances_composite_scenes_tables/rhox_grudgebringer				
+rhox_grudgebringer_stance	MILITARY_FORCE_ACTIVE_STANCE_TYPE_SETTLE	empire_camp		

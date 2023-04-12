@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_grudgebringers_only_agent_subtypes.loc		
+agent_subtypes_onscreen_name_override_morgan_bernhardt	Legendary Lord	true
+agent_subtypes_description_text_override_morgan_bernhardt	Legendary Lord	true
+agent_subtypes_onscreen_name_override_vladimir_stormbringer	Ice Mage	true
+agent_subtypes_description_text_override_vladimir_stormbringer	Ice Mage	true

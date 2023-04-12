@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/ovn_grudgebringers_only_cultures.loc		
+cultures_name_ovn_grudgebringers_CB_only	Grudgebringers	false
+cultures_frontend_description_ovn_grudgebringers_CB_only	Change in cultures.loc	false

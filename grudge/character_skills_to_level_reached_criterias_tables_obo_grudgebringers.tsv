@@ -1,0 +1,6 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/obo_grudgebringers		
+grudge_skill_enchanted_shield	9	1
+grudge_skill_grudgebringer_sword	4	1
+morgan_bernhardt_mount	1	1
+ludwig_uberdorf_steam_tank	15	1

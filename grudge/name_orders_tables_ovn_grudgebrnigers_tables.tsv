@@ -1,0 +1,6 @@
+order	type	name_group	optional_language
+#name_orders_tables;0;db/name_orders_tables/ovn_grudgebrnigers_tables			
+0	clan_name	ovn_emp_grudgebringers	
+2	family_name	ovn_emp_grudgebringers	
+1	forename	ovn_emp_grudgebringers	
+3	other	ovn_emp_grudgebringers	

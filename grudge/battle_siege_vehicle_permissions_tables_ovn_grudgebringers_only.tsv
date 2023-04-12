@@ -1,0 +1,4 @@
+faction	vehicle
+#battle_siege_vehicle_permissions_tables;0;db/battle_siege_vehicle_permissions_tables/ovn_grudgebringers_only	
+ovn_emp_grudgebringers	emp_battering_ram
+ovn_emp_grudgebringers	emp_siege_tower_15m

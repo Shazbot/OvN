@@ -1,0 +1,7 @@
+attrition	faction
+#campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/ovn_grudgebringers_only	
+horde_infighting	ovn_emp_grudgebringers
+non_vampire_territory	ovn_emp_grudgebringers
+regionless	ovn_emp_grudgebringers
+regionless	wh2_main_skv_skaven_qb1
+non_vampire_territory	wh2_main_skv_skaven_qb1

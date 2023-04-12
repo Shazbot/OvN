@@ -1,0 +1,3 @@
+agent_subtype	effect_bundle
+#faction_starting_general_effects_tables;0;db/faction_starting_general_effects_tables/ovn_grudgebringers_only	
+morgan_bernhardt	ovn_faction_trait_grudge

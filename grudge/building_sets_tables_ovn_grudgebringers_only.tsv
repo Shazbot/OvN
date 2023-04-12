@@ -1,0 +1,8 @@
+key	icon	sort_order	show_in_ui	audio_switch	colour_hex
+#building_sets_tables;5;db/building_sets_tables/ovn_grudgebringers_only					
+wh_main_emp_cha_grudge_newhorde	placeholder	0	true	255	000255
+wh_main_emp_cha_grudge_recruit	UI/Buildings/Icons/empire_cat_recruitment.png	2	true	20	781414
+wh_main_emp_cha_grudge_worship	UI/Buildings/Icons/empire_cat_support.png	3	true	88	4B4158
+wh_main_emp_cha_grudge_settlement	placeholder	0	true	56	000062
+wh_main_emp_cha_grudge_structure	UI/Buildings/Icons/skaven_cat_under_empire_food.png	4	true	57	3E4739
+wh_main_emp_cha_grudge_equipment	UI/Buildings/Icons/grudge_empire_money.png	5	true	60	D6B810

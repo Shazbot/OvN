@@ -1,0 +1,10 @@
+key	expression	display_only_active_effects
+#building_effect_context_expressions_tables;1;db/building_effect_context_expressions_tables/ovn_grudge		
+OvN_isRegionEmpire	Region.Owner.CultureKey == "wh_main_emp_empire"	false
+OvN_isRegionDwarfs	Region.Owner.CultureKey == "wh_main_dwf_dwarfs"	false
+OvN_isRegionOgre	Region.Owner.CultureKey == "wh3_main_ogr_ogre_kingdoms"	false
+OvN_isRegionKislev	Region.Owner.CultureKey == "wh3_main_ksl_kislev"	false
+OvN_isRegionBrets	Region.Owner.CultureKey == "wh_main_brt_bretonnia"	false
+OvN_isRegionWelfs	Region.Owner.CultureKey == "wh_dlc05_wef_wood_elves"	false
+OvNHasGruPaymasterTech	Owner.IsTechnologyResearched("rhox_grudge_tech_emp_academia_3")	false
+OvNHasGruBargainerTech	Owner.IsTechnologyResearched("rhox_grudge_tech_emp_academia_2_b")	false
