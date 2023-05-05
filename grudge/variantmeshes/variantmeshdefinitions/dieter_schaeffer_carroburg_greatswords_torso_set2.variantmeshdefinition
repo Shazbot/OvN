@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_31.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_32.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+        		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_33.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_34.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+        
+	</SLOT>
+</VARIANT_MESH>

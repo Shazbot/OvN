@@ -1,0 +1,8 @@
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/rhox_grudgebringer		
+rhox_grudgebringer_marker_spawn	rhox_grudgebringer_marker_spawn	0.0000
+rhox_grudgebringer_marker_disappear	rhox_grudgebringer_marker_disappear	0.0000
+rhox_grudgebringer_occupation	rhox_grudgebringer_occupation	2.0000
+rhox_grudgebringer_stance	rhox_grudgebringer_stance	0.0000
+rhox_grudgebringer_feature	rhox_grudgebringer_feature	0.0000
+ovn_grudge_basic_camp	wh3_main_ogre_camp	0.0000

@@ -1,5 +1,6 @@
 local grudgebringer_faction = "ovn_emp_grudgebringers"
 local grudgebringer_mission_key = "rhox_grudgebringer_piece_of_eight_"
+
 local grudgebringer_missions ={
    {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
@@ -60,8 +61,8 @@ local grudgebringer_missions ={
         reward = "black_avangers"
     },
     {
-        type = "ENGAGE_FORCE",
-        faction_key = "wh_main_sc_grn_greenskins",
+        type = "DEFEAT_N_ARMIES_OF_FACTION",
+        subculture_key = "wh_main_sc_grn_greenskins",
         count = 4,
         ancillary_key= "grudge_item_banner_of_arcane_warding",
         reward = "carlsson_guard"
@@ -78,7 +79,7 @@ local grudgebringer_missions ={
     },
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
-        faction_key = "wh_main_sc_vmp_vampire_counts",
+        subculture_key = "wh_main_sc_vmp_vampire_counts",
         count = 6,
         reward = "treeman_knarlroot"
     },
@@ -199,7 +200,10 @@ local grudgebringer_evil_ll_factions={
     "wh3_main_tze_oracles_of_tzeentch",
     "wh3_main_sla_seducers_of_slaanesh",
     "wh3_main_ogr_disciples_of_the_maw",
-    "wh3_main_ogr_goldtooth"
+    "wh3_main_ogr_goldtooth",
+    "wh3_dlc23_chd_astragoth",
+    "wh3_dlc23_chd_legion_of_azgorh",
+    "wh3_dlc23_chd_zhatan"
 }
 
 
@@ -238,17 +242,16 @@ local function rhox_trigger_grudgebringer_mission(i)
     mm:add_new_objective(grudgebringer_missions[i].type)
     if grudgebringer_missions[i].type == "ENGAGE_FORCE" then
         --out("Rhox Grudge: Inside the engage force")
-        local faction = cm:get_faction(grudgebringer_missions[i].faction_key)
-        out("faction key is "..tostring(grudgebringer_missions[i].faction_key))
-        out("faction is "..tostring(faction))
-        mm:add_condition("cqi "..faction:faction_leader():military_force():command_queue_index())
+        mm:add_condition("cqi "..cm:get_faction(grudgebringer_missions[i].faction_key):faction_leader():military_force():command_queue_index())
         mm:add_condition("requires_victory")
     elseif grudgebringer_missions[i].faction_key then --means it targets faction
         if grudgebringer_missions[i].faction_key == "random" then
             local target = cm:random_number(#grudgebringer_evil_ll_factions,1)
             --out("Rhox Grudge: target is: "..grudgebringer_evil_ll_factions[target])
-            mm:add_condition("faction "..grudgebringer_evil_ll_factions[target]);
+            local target_faction = grudgebringer_evil_ll_factions[target]
+            mm:add_condition("faction "..target_faction);
             table.remove(grudgebringer_evil_ll_factions, target)
+            grudgebringer_missions[i].rolled_target = target_faction
         else
             mm:add_condition("faction "..grudgebringer_missions[i].faction_key);
         end
@@ -262,8 +265,13 @@ local function rhox_trigger_grudgebringer_mission(i)
     elseif grudgebringer_missions[i].count then
         mm:add_condition("total "..grudgebringer_missions[i].count)
     else
-        mm:add_condition("total "..cm:random_number(3,1))
+        local rolled_total = cm:random_number(3,1)
+        mm:add_condition("total "..rolled_total)
+        grudgebringer_missions[i].rolled_total = rolled_total
     end
+
+    grudgebringer_missions[i].mission_key = mission_key
+    cm:set_saved_value("ovn_grudge_missions", grudgebringer_missions)
     
     cm:add_event_restricted_unit_record_for_faction(grudgebringer_missions[i].reward, grudgebringer_faction, "rhox_grudge_ror_lock")
     
@@ -282,8 +290,10 @@ end
 local rhox_gurdge_lh_regions={
     "wh3_main_combi_region_flensburg",
     "wh3_main_combi_region_karak_hirn",
-    "wh3_main_combi_region_kislev",
-    "wh3_main_combi_region_zhufbar"
+    "wh3_main_combi_region_vitevo",
+    "wh3_main_combi_region_zhufbar",
+    "wh3_main_combi_region_altdorf",
+    "wh3_main_combi_region_averheim"
 }
 
 local function rhox_trigger_grudgebringer_lh_mission(i)
@@ -306,7 +316,7 @@ function rhox_setup_starting_missions()
         for i=1,24 do
             rhox_trigger_grudgebringer_mission(i)
         end
-        for i=1,4 do
+        for i=1,6 do
             rhox_trigger_grudgebringer_lh_mission(i)
         end
         cm:disable_event_feed_events(false, "", "wh_event_subcategory_faction_missions_objectives", "")
@@ -322,7 +332,9 @@ local lh_missions={
     "rhox_grudgebringer_lh_1", --ludwig
     "rhox_grudgebringer_lh_2", --ceridan
     "rhox_grudgebringer_lh_3", --stormbringer
-    "rhox_grudgebringer_lh_4" --dwarf envoy
+    "rhox_grudgebringer_lh_4", --dwarf envoy
+    "rhox_grudgebringer_lh_5", --witch hunter
+    "rhox_grudgebringer_lh_6" --fire wizard
 }
 
 cm:add_first_tick_callback(
@@ -397,17 +409,32 @@ core:add_listener(
         out("Rhox Grudge: Inside the mission success listener!")
         local current_mission = context:mission():mission_record_key()
         
-
+        local agent = nil
         if current_mission == "rhox_grudgebringer_lh_1" then
             cm:spawn_unique_agent_at_character(context:faction():command_queue_index(), "ludwig_uberdorf_agent_subtype", context:faction():faction_leader():command_queue_index(), true)
+            agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","ludwig_uberdorf_agent_subtype")
         elseif current_mission == "rhox_grudgebringer_lh_2" then
             cm:spawn_unique_agent_at_character(context:faction():command_queue_index(), "ceridan", context:faction():faction_leader():command_queue_index(), true)
+            agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","ceridan")
         elseif current_mission == "rhox_grudgebringer_lh_3" then
             cm:spawn_unique_agent_at_character(context:faction():command_queue_index(), "ice_mage_vladimir_stormbringer", context:faction():faction_leader():command_queue_index(), true)
+            agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"wizard","ice_mage_vladimir_stormbringer")
         elseif current_mission == "rhox_grudgebringer_lh_4" then
             cm:spawn_unique_agent_at_character(context:faction():command_queue_index(), "dwarf_envoy", context:faction():faction_leader():command_queue_index(), true)
+            agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","dwarf_envoy")
+            cm:remove_event_restricted_unit_record_for_faction("dwarf_envoy_dwarf_warriors", grudgebringer_faction);
+        elseif current_mission == "rhox_grudgebringer_lh_5" then
+            cm:spawn_unique_agent_at_character(context:faction():command_queue_index(), "matthias", context:faction():faction_leader():command_queue_index(), true)
+            agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","matthias")
+        elseif current_mission == "rhox_grudgebringer_lh_6" then
+            cm:spawn_unique_agent_at_character(context:faction():command_queue_index(), "luther_flamenstrike", context:faction():faction_leader():command_queue_index(), true)
+            agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","luther_flamenstrike")
         end
-        
+        local faction_leader_force = context:faction():faction_leader():military_force()
+        if faction_leader_force:unit_list():num_items() < 20 and agent then --it means agent has bees generated and Morgan has a room in his army
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end
 	end,
 	true
 );

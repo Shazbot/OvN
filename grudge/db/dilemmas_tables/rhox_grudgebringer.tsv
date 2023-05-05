@@ -1,0 +1,23 @@
+key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
+#dilemmas_tables;3;db/dilemmas_tables/rhox_grudgebringer										
+rhox_grudge_return_settlement	false			emp/settlement_transfer	true	Event				false
+rhox_grudgebringer_battle_a	false			emp/rhox_grudgebringer_battle_a	true	Event				false
+rhox_grudgebringer_battle_b	false			emp/rhox_grudgebringer_battle_b	true	Event				false
+rhox_grudgebringer_battle_c	false			emp/rhox_grudgebringer_battle_c	true	Event				false
+rhox_grudgebringer_battle_d	false			emp/rhox_grudgebringer_battle_d	true	Event				false
+rhox_grudgebringer_battle_e	false			emp/rhox_grudgebringer_battle_e	true	Event				false
+rhox_grudgebringer_battle_f	false			emp/rhox_grudgebringer_battle_f	true	Event				false
+rhox_grudgebringer_battle_g	false			emp/rhox_grudgebringer_battle_g	true	Event				false
+rhox_grudgebringer_battle_h	false			emp/rhox_grudgebringer_battle_h	true	Event				false
+rhox_grudgebringer_battle_i	false			emp/rhox_grudgebringer_battle_i	true	Event				false
+rhox_grudgebringer_battle_j	false			emp/rhox_grudgebringer_battle_j	true	Event				false
+rhox_grudgebringer_battle_k	false			emp/rhox_grudgebringer_battle_k	true	Event				false
+rhox_grudgebringer_battle_l	false			emp/rhox_grudgebringer_battle_l	true	Event				false
+rhox_grudgebringer_market_a	false			emp/rhox_grudgebringer_market_a	true	Event				false
+rhox_grudgebringer_market_b	false			emp/rhox_grudgebringer_market_b	true	Event				false
+rhox_grudgebringer_market_c	false			emp/rhox_grudgebringer_market_c	true	Event				false
+rhox_grudgebringer_battle_m	false			emp/rhox_grudgebringer_battle_m	true	Event				false
+rhox_grudgebringer_battle_n	false			emp/rhox_grudgebringer_battle_n	true	Event				false
+rhox_grudgebringer_battle_o	false			emp/rhox_grudgebringer_battle_o	true	Event				false
+rhox_grudgebringer_debt_a	false			emp/rhox_grudgebringer_debt_a	true	Event				false
+rhox_grudgebringer_final_battle	false			emp/rhox_grudgebringer_final_battle	true	Event				false

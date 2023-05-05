@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+    	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\azguz_bloodfist_dwarf_warriors_dwarf_warriors.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\azguz_bloodfist_dwarf_warriors_longbeards.variantmeshdefinition" />
+	</SLOT>
+</VARIANT_MESH>

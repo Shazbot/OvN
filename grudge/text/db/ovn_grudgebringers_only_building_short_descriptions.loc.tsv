@@ -1,0 +1,36 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_building_short_descriptions.loc		
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_1	Round up every crook and drunk in sight and put a sword in their hand.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_2	We'll turn over every tavern and ply them with beer until they sign.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_3	It becomes easier to recruit men who know they are joining seasoned mercenaries.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_4	The Grudgebringers are of such renown that the troops come to us now. Some even want to pay us to join.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_wizard_1	The wandering wizard has many oddities and trinkets in the back of his cart, even a few fireworks.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_wizard_2	A place for wizards to make a little money on the side.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_worship	This horse-drawn altar includes a large griffon effigy at its centre, with fanatics often in tow.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_growth_1	It is wise to keep lookouts so you may choose the wisest paths and gain the greatest vantage points.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_growth_2	A central place for our scouts and hunters to rest and plan. It also includes a room to cure and hang the meat.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_growth_3	A network of small outposts means we are always one step ahead of our foes.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_paymaster	The Paymaster is nearly as important as the army's general, being responsible for the mercenaries pay.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_paymaster_2	With more space and an apprentice, the Paymaster is better able to do his work.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_blacksmith	Blacksmiths only ever join the largest of camps to ensure a steady stream of income.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_blacksmith_2	To acquire the aid of an expert blacksmith and his tools is invaluable, but also costly.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income	Traders ensure luxuries and other home comforts are available to the men, often at eye-watering prices.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_2	Merchants provide a wide variety of rare and expensive luxuries and goods, meaning our cut is even greater.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_1	A small basic camp with tents surrounding a roaring campfire.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_2	Just large enough to require a few sentries dotted around the camp.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_3	A large camp, where the clattering of steel and the many campfires can be heard and seen from afar.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_4	Small towers, palisades and wagons are strategically placed to defend the burgeoning inhabitants.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_5	Wagons arrange themselves into a circle along with any other defences thrown up in defence of the bustling camp.	true
+building_short_description_texts_short_description_ovn_grudge_outpost_small	Little more than a small dusty camp.	false
+building_short_description_texts_short_description_ovn_grudge_outpost	A well-sized outpost, good for protecting the borderlands.	false
+building_short_description_texts_short_description_ovn_grudge_outpost_large	This could double for a small town, if you replaced all the townsfolk for ruffians.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder	A place for men to enlist, train and be formed into regiments.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_race_other_1	As the mercenary army grows in size and reputation, it attracts warriors from all lands. Have you tried negotiating with an Ogre?	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_race_other_2	A permanent place in camp for our brothers in arms, for we are all Grudgebringers here.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_race_other_3	The camp is so large, it's actually made up of several smaller camps.	true
+building_short_description_texts_short_description_ovn_replenishment2	Disused plot turned into a makeshift place to treat the wounded and dying.	false
+building_short_description_texts_short_description_ovn_replenishment1	A glorified tent, still preferable to the open-air alternative.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_storehouse	The store wagon ensures we have all the supplies needed for long marches and plenty of room for loot.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder_1	A few kegs, enough to serve a few regiments needs.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder_2	A wagon brimful of black powder. Just don't park it too close to the living quarters.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder_3	A store that fufills all our explosive needs and even has spares for artillery and armaments.	false

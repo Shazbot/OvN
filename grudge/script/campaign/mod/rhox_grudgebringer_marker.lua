@@ -35,7 +35,8 @@ local force_to_faction_name ={
     ["ovn_gru_nurgle_force"]="wh3_main_nur_nurgle_qb1",
     ["ovn_gru_tzeentch_force"]="wh3_main_tze_tzeentch_qb1",
     ["ovn_gru_slaanesh_force"]="wh3_main_sla_slaanesh_qb1",
-    ["ovn_gru_undead_force"]="wh_main_vmp_vampire_counts_qb1"
+    ["ovn_gru_undead_force"]="wh_main_vmp_vampire_counts_qb1",
+    ["ovn_gru_chorf_force"]="wh3_dlc23_chd_chaos_dwarfs_qb1"
 }
 
 local rhox_grudgebringer_reinforcements_list ={
@@ -877,7 +878,7 @@ local event_table = {
 		if enemy_faction:name() == player_faction:name() then
 			probability = 0; --they don't have a city so, I think chance is null
 		end;
-		
+		--probability= 1000000000
 		return {probability,eventname}
 		
 	end,
@@ -2368,32 +2369,32 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
 	
 	--return force name so we can figure out who to declare war
 	if force_name == "battle_a" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --5000 gold battle, 10 should do it.  
     elseif force_name == "battle_b" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 8, false), enemy_force;  --4000 gold battle, 8 should do it.  
     elseif force_name == "battle_c" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 5, false), enemy_force;  --2000 gold battle, 5 should do it.  
     elseif force_name == "battle_d" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 6, false), enemy_force;  --3000 gold battle, 6 should do it.  
     elseif force_name == "battle_e" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 8, false), enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it.
     elseif force_name == "battle_f" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 12, false), enemy_force;  --4000 gold battle, random ancillary ally reinforcements. 12 should do it
@@ -2401,17 +2402,17 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
         local enemy_force = "ovn_gru_greenskin_force"
         return "wh2_twa03_grn_mon_wyvern_0,wh2_twa03_grn_mon_wyvern_0,wh2_twa03_grn_mon_wyvern_0", enemy_force;  
     elseif force_name == "battle_h" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --3000 gold battle, 2~3 ally reinforcements. 50% chance to go to battle 10 should do it.
     elseif force_name == "battle_i" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 8, false), enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it.
+        return random_army_manager:generate_force(enemy_force, 5, false)..",wh_main_emp_cha_captain_0,wh2_dlc17_emp_inf_prisoners_0,wh2_dlc17_emp_inf_prisoners_0", enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it. 5 random, 3 fixed
     elseif force_name == "battle_j" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --4000 gold battle, with 2~3 ally reinforcements. 10 should do it.
@@ -2433,12 +2434,12 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
         local enemy_force = "ovn_gru_greenskin_force"
         return "wh_main_grn_mon_giant,wh_main_grn_mon_giant,wh_main_grn_mon_giant,wh_main_grn_mon_giant,wh_main_grn_mon_giant", enemy_force;
     elseif force_name == "final_battle" then
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 19, false), enemy_force;  --final battle
     else --failsafe
-        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force"}
+        force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
         return random_army_manager:generate_force(enemy_force, 5, false), enemy_force;  
@@ -2604,6 +2605,17 @@ cm:add_first_tick_callback(
         if cm:get_faction("ovn_emp_grudgebringers"):is_human() then        
             rhox_grudge_bringer_start_marker_setup()
             --setup random armies
+            random_army_manager:new_force("ovn_gru_chorf_force");
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_orc_labourers", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_mon_kdaai_fireborn", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_hobgoblin_cutthroats", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_hobgoblin_archers", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_goblin_labourers", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_chaos_dwarf_warriors", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_chaos_dwarf_warriors_great_weapons", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses", 2);
+            random_army_manager:add_unit("ovn_gru_chorf_force", "wh3_dlc23_chd_cav_bull_centaurs_axe", 2);
+            
             random_army_manager:new_force("ovn_gru_vamp_coast_force");
             random_army_manager:add_unit("ovn_gru_vamp_coast_force", "wh2_dlc11_cst_mon_rotting_prometheans_gunnery_mob_0", 2);
             random_army_manager:add_unit("ovn_gru_vamp_coast_force", "wh2_dlc11_cst_inf_zombie_gunnery_mob_1", 3);

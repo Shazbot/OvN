@@ -1,0 +1,59 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudgebringer_skill.loc		
+character_skills_localised_name_rhox_grudge_ceridan_dedication_asuryan	Dedicated to Asuryan	false
+character_skills_localised_description_rhox_grudge_ceridan_dedication_asuryan	Asuryan's adherents believe they are part of the Creator's plan and will never be abandoned.	false
+character_skills_localised_name_ovn_grudge_skill_ksl_frost_maiden_unique_04	Right hand of the Ice Queen	false
+character_skills_localised_description_ovn_grudge_skill_ksl_frost_maiden_unique_04	Often the most dangerous assault comes from the enemy you least expect.	false
+character_skills_localised_name_ovn_grudge_vlad_innate	Stormbringer	false
+character_skills_localised_description_ovn_grudge_vlad_innate	Fear the might of the Storm!	false
+character_skills_localised_description_ceridan_innate	Only those who are adept at swordsmanship and stealth are permitted to be Rangers in Asrai society.	true
+character_skills_localised_name_ceridan_innate	Elven Ranger	true
+character_skills_localised_description_ceridan_skaven_scourge	Years of stalking the despised Ratmen has made Ceridan a feared individual amongst Skavendom. Ceridan often shares his experiences around campfires to any who would listen.	true
+character_skills_localised_name_ceridan_skaven_scourge	Scourge of Skaven	true
+character_skills_localised_description_ceridan_natural_hunter	Ceridan was born with natural affinity towards hunting and swordplay, a valuable trait for any aspiring Rangers.	true
+character_skills_localised_name_ceridan_natural_hunter	Natural Hunter	true
+character_skills_localised_description_ceridan_lone_wolf	Ceridan prefers to work alone as he believes himself to be most efficient when he doesn’t have to worry about others. Like the time he spent in the black Mountains, gathering information to use against the Skaven.	true
+character_skills_localised_name_ceridan_lone_wolf	Lone Wolf	true
+character_skills_localised_description_engrol_innate	Engrol Goldtongue is the official Dwarf Envoy from the fortress of Zhufbar to the Empire, relaying messages from the High King Grudgebearer to Emperor Franz.	true
+character_skills_localised_name_engrol_innate	Envoy of the High King	true
+character_skills_localised_description_engrol_gold_tongue	With his unnatural gift of persuasion, Engrol can twist any situation to be of benefit to his lords and allies.	true
+character_skills_localised_name_engrol_gold_tongue	Gold Tongue	true
+character_skills_localised_description_engrol_trademaster	Engrol is famous for striking lucrative trade deals where even the most experienced businessmen have failed.	true
+character_skills_localised_name_engrol_trademaster	Trademaster	true
+character_skills_localised_description_engrol_dwf_bodyguard	Engrol’s bodyguard are fierce warriors who are completely loyal and will protect him in battle to the very last.	true
+character_skills_localised_name_engrol_dwf_bodyguard	Dwarven Bodyguards	true
+character_skills_localised_description_engrol_persuasion_master	Engrol’s skills in diplomacy are unnaturally proficient for a Dwarf and he has resolved many quarrels with the Empire in his career spanning over two centuries.	true
+character_skills_localised_name_engrol_persuasion_master	Master of Persuasion	true
+ancillaries_onscreen_name_ludwig_uberdorf_steam_tank	Ignis Draconis Steam Tank	true
+ancillaries_colour_text_ludwig_uberdorf_steam_tank	The steam tank Ignis Draconis was the first tank built by Leonardo of Miragliano. 	true
+character_skills_localised_name_ludwig_uberdorf_steam_tank	Ignis Draconis Steam Tank	true
+character_skills_localised_description_ludwig_uberdorf_steam_tank	The steam tank Ignis Draconis was the first tank built by Leonardo of Miragliano. 	true
+character_skills_localised_name_rhox_grudge_skill_hef_noble_unique_1	Knowledge of High Elf Affairs	false
+character_skills_localised_description_rhox_grudge_skill_hef_noble_unique_1	This one is well-versed in the various court intrigues of the Asur, which is something of an advantage in matters of diplomacy.	false
+character_skills_localised_name_rhox_grudge_skill_hef_noble_unique_2	Knowledge of Man's Affairs	false
+character_skills_localised_description_rhox_grudge_skill_hef_noble_unique_2	"The Realms of Man must not fall."	false
+character_skills_localised_name_rhox_grudge_skill_hef_noble_unique_3	Knowledge of Lizardmen Affairs	false
+character_skills_localised_description_rhox_grudge_skill_hef_noble_unique_3	He is well known enough to them to gain access to certain high-caste individuals.	false
+special_ability_groups_name_rhox_grudge_stormbringer	Lore of the Stormbringer	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_01	Ice Sheet	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_01	This kind of spell is nothing to the Vladimir	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_02	Ice Tip	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_02	Deadliest tip arrow can ever have	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_03	Blizzard's Boon	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_03	Vladimir Stormbringer can harness the power of blizzards to enhance the speed of his troops. With a wave of his hand, he summons a freezing storm that swirls around his army, reducing the drag on their movements and allowing them to cover ground with ease. The biting winds of the blizzard invigorate the troops, filling them with an icy determination to reach their destination quickly. With this skill, Vladimir's troops can move at a rapid pace, cutting through snowdrifts and icy terrain to outflank their enemies and seize key positions.	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_04	Storm Shield	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_04	Vladimir creates a shield of wind and lightning that deflects blows and stuns foes who try to breach it. This skill allows Vladimir and his troops to weather savage attacks and regroup.	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_05	Tempestuous Casting	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_05	Vladimir channels the power of the storm to shorten his spell cooldown time, allowing him to cast his spells more frequently to harness the enemy	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_01	Fiery Temper	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_01	His stubborn anger will see nothing stop him.	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_02	Scorched Earth	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_02	Just with a mere thought, he can manipulate the flames to burn even hotter and longer, while requiring less of his own energy to sustain it.	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_03	Instability	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_03	The wind flows through me. It controls me!	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_04	Flame in the Dark	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_04	Against the undead, Luther's fills the mens hearts with fire and light!	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_05	The Dead Still Burn	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_05	Stand firm men, that which is dead may still burn.	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_06	Ashes to Ashes	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_06	His spells are like infernos, leaving nothing but ash and cinders in their wake. His enemies quickly learn to fear the searing heat of his magic.	false

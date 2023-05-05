@@ -1,0 +1,52 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/obo_grudgebringers_data									
+grudgebringers_campaign_quartermaster	morgan_innate.png		Paymaster Dietrich	0	true	false	false	1.0000	0
+grudge_skill_attack_main1	grudge_attack.png			0	false	false	false	0.0000	0
+grudge_skill_attack_main2	grudge_attack.png			0	false	false	false	0.0000	0
+grudge_skill_damage_main1	grudge_damage.png			0	false	false	false	0.0000	0
+grudge_skill_damage_main2	grudge_damage.png			0	false	false	false	0.0000	0
+grudge_skill_damage_starter	grudge_damage.png			0	false	false	false	0.0000	0
+grudge_skill_defence_main1	grudge_defence.png			0	false	false	false	0.0000	0
+grudge_skill_defence_main2	grudge_defence.png			0	false	false	false	0.0000	0
+grudge_skill_armour_main1	grudge_armour2.png			0	false	false	false	0.0000	0
+grudge_skill_armour_main2	grudge_armour3.png			0	false	false	false	0.0000	0
+grudge_skill_deadly_onslaught	wh_main_character_abilities_deadly_onslaught.png		Deadly Onslaught	0	false	false	false	0.0000	0
+grudge_skill_heroic_killing_blow	wh_main_character_abilities_heroic_killing_blow.png		Heroic Killing Blow	0	false	false	false	0.0000	0
+grudge_skill_missile_ward	grudge_missile_ward.png		Sigmar’s Ward	7	false	false	false	0.0000	0
+grudge_skill_mercenary	grudge_merc.png			0	false	false	false	0.0000	0
+morgan_bernhardt_per_skill_01	mercenary_commander.png			12	false	false	false	0.0000	0
+morgan_bernhardt_per_skill_02	klaus.png			0	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_undead	grudge_kill_undead.png			10	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_chaos	grudge_kill_chaos.png			10	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_beastmen	grudge_kill_beastmen.png			10	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_skaven	grudge_kill_skaven.png			10	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_greenskins	grudge_kill_greenskins.png			10	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_dark_elves	grudge_kill_dark_elves.png			10	false	false	false	0.0000	0
+grudge_skill_bernhardt_bonus_vs_lizardmen	grudge_kill_lizardmen.png			10	false	false	false	0.0000	0
+morgan_bernhardt_per_skill_04	dark_omen.png			0	false	false	false	0.0000	0
+morgan_bernhardt_per_skill_03	grudge_shadow_of_the_horned_rat.png			0	false	false	false	0.0000	0
+grudge_skill_grudgebringer_sword	grudge_grudgebringer_sword.png		Grudgebringer Sword	7	false	false	false	0.0000	0
+grudge_skill_enchanted_shield	grudge_enchanted_shield.png		Enchanted Shield	10	false	false	false	0.0000	0
+grudge_skill_shadow_of_the_horned_rat	sword_against_vermin.png		Shadow of the Horned Rat	10	false	false	false	0.0000	0
+grudge_skill_dark_omen	grudge_dark_omen.png		Dark Omen	14	false	false	false	0.0000	0
+ovn_grudge_soldiers_of_fortune	ovn_grudge_army_skill.png			0	false	false	false	0.0000	0
+ovn_grudge_gold	battle_military_spending.png			0	false	false	false	0.0000	0
+ovn_grudge_glory	battle_morale.png			0	false	false	false	0.0000	0
+morgan_bernhardt_mount	mount_warhorse.png	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	Warhorse	0	false	false	false	0.0000	0
+morgan_bernhardt_battle_skill_01	battle_attack.png			0	false	false	false	0.0000	0
+morgan_bernhardt_battle_skill_02	battle_ammo.png			0	false	false	false	0.0000	0
+morgan_bernhardt_battle_skill_03	battle_damage.png			0	false	false	false	0.0000	0
+morgan_bernhardt_campaign_skill_01	campaign_army.png			0	false	false	false	0.0000	0
+morgan_bernhardt_campaign_skill_02	campaign_item.png			0	false	false	false	0.0000	0
+morgan_bernhardt_campaign_skill_03	campaign_movement.png			0	false	false	false	0.0000	0
+luther_flamenstrike_mount	mount_barded_warhorse.png	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	Barded Warhorse	7	false	false	false	0.0000	0
+matthias_dummy_agent_actions	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+wh2_dlc13_skill_emp_matthias_unique_sigmars_will	character_untainted.png	In defence of the future, Hertwig is resolved to cleanse the world of its myriad impurities.	Sigmar's Will	9	false	false	false	0.0000	0
+wh2_dlc13_skill_innate_emp_matthias	trait_dlc13_matthias_driven_by_vengeance.png	The past refuses to stay in its place, and bothers Hertwig like a thorn buried in his side.	Driven by Vengeance	0	true	false	false	5.0000	0
+witch_hunter_general	witch_hunter_general.png			0	false	false	false	0.0000	0
+expert_marksman	expert_marksman.png			0	false	false	false	0.0000	0
+judge_jury_executioner	judge_jury_executioner.png			0	false	false	false	0.0000	0
+purifier_of_filth	purifier_of_filth.png			0	false	false	false	0.0000	0
+no_mercy_for_wicked	no_mercy_for_wicked.png			0	false	false	false	0.0000	0
+matthias_innate	matthias_innate.png			0	true	false	false	5.0000	0
+do_main_skill_all_dummy_agent_actions_emp_battle_wizard	battle_attack.png			0	false	false	false	0.0000	0

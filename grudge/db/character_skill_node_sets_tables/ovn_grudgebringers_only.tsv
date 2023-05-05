@@ -1,0 +1,9 @@
+key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
+#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/ovn_grudgebringers_only							
+morgan_bernhardt	general	false	false				morgan_bernhardt
+ovn_grudge_skill_node_set_ksl_ice_mage_ice	wizard	false	false				ice_mage_vladimir_stormbringer
+ovn_grudge_skill_node_set_hef_ceridan	champion	false	false				ceridan
+ovn_grudge_skill_node_set_dwf_envoy	champion	false	false				dwarf_envoy
+ovn_ludwig_uberdorf_skill_node	champion	false	false				ludwig_uberdorf_agent_subtype
+matthias	champion	false	false				matthias
+luther_flamenstrike	champion	false	false				luther_flamenstrike

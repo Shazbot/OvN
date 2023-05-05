@@ -58,20 +58,23 @@ local rhox_climate_faction_join_table ={
     },
     ["climate_wasteland"] ={
         ["wh2_main_hef_high_elves"] = true,--Eltharion
-        ["wh_main_dwf_dwarfs"] = true
+        ["wh_main_dwf_dwarfs"] = true,
+        ["mixer_teb_southern_realms"] = true --that vampire guy
     }
 }
 
 local supply_list={  --this is for the initial add
     "wh_main_emp_art_helstorm_rocket_battery",
-    "wh_main_emp_inf_greatswords",
+    "wh_dlc04_emp_cav_knights_blazing_sun_0",
     "wh_main_emp_cav_reiksguard",
+    "wh_main_emp_art_helblaster_volley_gun",
     "wh_main_dwf_inf_longbeards_1",
     "wh_main_dwf_art_organ_gun",
     "wh_main_dwf_inf_hammerers",
     "wh_main_dwf_inf_ironbreakers",
+    "wh_main_dwf_veh_gyrocopter_0",
     "wh_dlc05_wef_inf_waywatchers_0",
-    "wh_dlc05_wef_mon_treeman_0",
+    "wh_dlc05_wef_mon_treekin_0",
     "wh2_dlc16_wef_inf_bladesingers_0",
     "wh_main_brt_cav_grail_knights",
     "wh_main_brt_cav_knights_of_the_realm",
@@ -85,7 +88,19 @@ local supply_list={  --this is for the initial add
     "wh3_main_ksl_cav_war_bear_riders_1",
     "wh3_main_cth_art_fire_rain_rocket_battery_0",
     "wh3_main_cth_inf_dragon_guard_0",
-    "wh3_main_cth_inf_dragon_guard_crossbowmen_0"
+    "wh3_main_cth_inf_dragon_guard_crossbowmen_0",
+    "wh3_main_ogr_inf_maneaters_0",
+    "wh3_main_ogr_cav_mournfang_cavalry_0",
+    "wh_main_emp_inf_halberdiers",
+    "wh_main_emp_cav_outriders_0"
+}
+
+local cataph_supply_list={
+    "teb_pikemen",
+    "teb_conqui_adventurers",
+    "teb_pavisiers",
+    "teb_galloper",
+    "teb_encarmine"
 }
 
 local rhox_culture_unit_join_table ={
@@ -108,7 +123,7 @@ local rhox_culture_unit_join_table ={
     ["wh_dlc05_wef_wood_elves"] ={
         {name = "wh2_dlc16_wef_inf_bladesingers_0", min =1, max=2},
         {name = "wh_dlc05_wef_inf_waywatchers_0", min =1, max=2},
-        {name = "wh_dlc05_wef_mon_treeman_0", min =1, max=1}   
+        {name = "wh_dlc05_wef_mon_treekin_0", min =1, max=2}   
     },
     ["wh_main_brt_bretonnia"] ={
         {name = "wh_main_brt_cav_grail_knights", min =1, max=1},
@@ -119,18 +134,29 @@ local rhox_culture_unit_join_table ={
         {name = "wh_main_dwf_inf_ironbreakers", min =1, max=2},
         {name = "wh_main_dwf_inf_hammerers", min =1, max=2},
         {name = "wh_main_dwf_inf_longbeards_1", min =1, max=2},
+        {name = "wh_main_dwf_veh_gyrocopter_0", min =1, max=2},
         {name = "wh_main_dwf_art_organ_gun", min =1, max=1}   
     },
     ["wh_main_emp_empire"] ={
-        {name = "wh_main_emp_inf_greatswords", min =1, max=2},
+        {name = "wh_dlc04_emp_cav_knights_blazing_sun_0", min =1, max=1},
         {name = "wh_main_emp_cav_reiksguard", min =1, max=1},
+        {name = "wh_main_emp_art_helblaster_volley_gun", min =1, max=1},
         {name = "wh_main_emp_art_helstorm_rocket_battery", min =1, max=1}   
     },
     ["mixer_teb_southern_realms"] ={ --temp
-        {name = "wh2_dlc16_wef_inf_bladesingers_0", min =1, max=2},
-        {name = "wh_dlc05_wef_inf_waywatchers_0", min =1, max=2},
-        {name = "wh_dlc05_wef_mon_treeman_0", min =1, max=1}
+        {name = "teb_pikemen", min =2, max=3},
+        {name = "teb_conqui_adventurers", min =2, max=3},
+        {name = "teb_pavisiers", min =2, max=3},
+        {name = "teb_galloper", min =1, max=1},
+        {name = "teb_encarmine", min =1, max=1}
     }
+}
+
+local vanilla_teb_units ={
+    {name = "wh3_main_ogr_inf_maneaters_0", min =1, max=2},
+    {name = "wh3_main_ogr_cav_mournfang_cavalry_0", min =1, max=1},
+    {name = "wh_main_emp_inf_halberdiers", min =2, max=3},
+    {name = "wh_main_emp_cav_outriders_0", min =2, max=3}
 }
 
 
@@ -217,8 +243,8 @@ core:add_listener(
         end
         
         
-        if character:faction():is_human() ==false then --it's not human, so just give the item to the most closest guy and begone
-            out("Rhox Grudge climate: Grudge bringer was not human")
+        if character:faction():is_human() ==false or not cm:is_factions_turn_by_key(character:faction():name()) then --it's not human or it's enemy's turn so just give the item to the most closest guy and begone
+            out("Rhox Grudge climate: Grudge bringer was not human or it wasn't his turn")
             local target_faction =  cm:get_faction(rhox_faction_candidate_table[1].name)
             cm:transfer_region_to_faction(rhox_target_settlement_name, rhox_faction_candidate_table[1].name)--return the place to the most closest guy
             
@@ -234,18 +260,33 @@ core:add_listener(
         if #rhox_faction_candidate_table < 3 then
             dilemma_choice_count= #rhox_faction_candidate_table
         end
+        
+        if #rhox_faction_candidate_table == 0 then
+            out("Rhox Grudge: There wasn't enough faction to return the settlement. Closing it.")
+            return
+        end
         out("Rhox Grudge climate: Launching dilemma!")
         local dilemma_builder = cm:create_dilemma_builder("rhox_grudge_return_settlement");
 		local payload_builder = cm:create_payload();
         for i=1,dilemma_choice_count do
             local target_faction =  cm:get_faction(rhox_faction_candidate_table[i].name)
             local target_unit_table = rhox_culture_unit_join_table[target_faction:culture()]
+            if target_faction:subculture() == "wh_main_sc_teb_teb" then --special case for TEB subculture
+                target_unit_table = vanilla_teb_units
+            elseif target_faction:culture() == "mixer_teb_southern_realms" and not vfs.exists("script/frontend/mod/cataph_teb.lua") then --it's using mixer TEB culture but not Cataph's one, I don't know whether there is a case for that but just to be safe
+                target_unit_table = vanilla_teb_units
+            end
             local ti = cm:random_number(#target_unit_table, 1)
             
-            local treasury_mod = 1 + (character:faction():bonus_values():scripted_value("rhox_grudge_settlement_bonus_money_number_modifier", "value") / 100)
-            payload_builder:treasury_adjustment(300*treasury_mod);
             
-            local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
+            local treasury_mod = 1 + (character:faction():bonus_values():scripted_value("rhox_grudge_settlement_bonus_money_number_modifier", "value") / 100)
+            out("Rhox Grudge: Treasury mod: ".. treasury_mod)
+            local treasury_value = math.floor(cm:random_number(500, 250)*treasury_mod)
+            out("Rhox Grudge: Treasury value: ".. treasury_value)
+            payload_builder:treasury_adjustment(treasury_value);
+            
+            local diplo_mod = cm:random_number(2,1) + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
+            out("Rhox Grudge: diplo mod: ".. diplo_mod)
             payload_builder:diplomatic_attitude_adjustment(target_faction, diplo_mod)
             
             --out("Rhox Grudge: Before checking ifs for missing RoR")
@@ -261,7 +302,9 @@ core:add_listener(
                 end
                 
             else
-                local max_unit = target_unit_table[ti].max+character:faction():bonus_values():scripted_value("rhox_grudge_settlement_bonus_unit_number_modifier", "value")
+                local max_unit = target_unit_table[ti].max+math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_settlement_bonus_unit_number_modifier", "value"))
+                out("Rhox Grudge: Giving normal units, Max unit with modifier applied ".. max_unit)
+                out("Rhox Gurdge: Unit name: " ..target_unit_table[ti].name)
                 payload_builder:add_mercenary_to_faction_pool(target_unit_table[ti].name, cm:random_number(max_unit, target_unit_table[ti].min))
             end
             
@@ -288,6 +331,7 @@ core:add_listener(
         return context:dilemma() == "rhox_grudge_return_settlement"
     end,
     function(context)
+        out("Rhox Grudge: Dilemma issued")
         core:add_listener(
         "rhox_grudge_dilemma_panel_listener",
         "PanelOpenedCampaign",
@@ -298,8 +342,8 @@ core:add_listener(
         function(context)
 
             cm:callback(function()
-                local dilemma_choice_count=5
-                if #rhox_faction_candidate_table < 5 then
+                local dilemma_choice_count=3
+                if #rhox_faction_candidate_table < 3 then
                     dilemma_choice_count= #rhox_faction_candidate_table
                 end
                 
@@ -312,7 +356,9 @@ core:add_listener(
                     
 
                     local dilemma_location = find_uicomponent(core:get_ui_root(),"events", "event_layouts", "dilemma_active", "dilemma", "background","dilemma_list", "CcoCdirEventsDilemmaChoiceDetailRecordrhox_grudge_return_settlement"..choice_string[i], "choice_button", "button_txt")
-                    dilemma_location:SetText(faction_name_string)
+                    if dilemma_location then
+                        dilemma_location:SetText(faction_name_string)
+                    end
                 end
 
             end,
@@ -352,13 +398,29 @@ core:add_listener(
 
 cm:add_first_tick_callback_new(
     function()
-        if cm:get_local_faction_name(true) == "ovn_emp_grudgebringers" then
-            local faction = cm:get_local_faction(true)
-            for k, unit in pairs(supply_list) do
+        local faction = cm:get_faction("ovn_emp_grudgebringers")
+        for k, unit in pairs(supply_list) do
+            cm:add_unit_to_faction_mercenary_pool(
+                faction,
+                unit,
+                "rhox_grudge_return_recruit",
+                0,
+                100,
+                20,
+                0,
+                "",
+                "",
+                "",
+                true,
+                "rhox_grudge_"..unit
+            )
+        end
+        if vfs.exists("script/frontend/mod/cataph_teb.lua") then --you have TEB enabled
+            for k, unit in pairs(cataph_supply_list) do
                 cm:add_unit_to_faction_mercenary_pool(
                     faction,
                     unit,
-                    "imperial_supply",
+                    "rhox_grudge_return_recruit",
                     0,
                     100,
                     20,

@@ -1,0 +1,26 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/ovn-grudgebringers_only					
+grudgebringer_infantry	100.0000	1	grudgebringer_infantry	true	0.1000
+grudgebringer_cannon	100.0000	1	grudgebringer_cannon	true	0.1000
+grudgebringer_crossbow	100.0000	1	grudgebringer_crossbow	true	0.1000
+helmgart_bowmen	100.0000	1	helmgart_bowmen	true	0.1000
+keelers_longbows	100.0000	1	keelers_longbows	true	0.1000
+dargrimm_firebeard_dwarf_warriors	100.0000	1	dargrimm_firebeard_dwarf_warriors	true	0.1000
+azguz_bloodfist_dwarf_warriors	100.0000	1	azguz_bloodfist_dwarf_warriors	true	0.1000
+urblab_rotgut_mercenary_ogres	100.0000	1	urblab_rotgut_mercenary_ogres	true	0.1000
+treeman_knarlroot	100.0000	1	treeman_knarlroot	true	0.1000
+galed_elf_archers	100.0000	1	galed_elf_archers	true	0.1000
+elrod_wood_elf_glade_guards	100.0000	1	elrod_wood_elf_glade_guards	true	0.1000
+black_avangers	100.0000	1	black_avangers	true	0.1000
+carlsson_cavalry	100.0000	1	carlsson_cavalry	true	0.1000
+carlsson_guard	100.0000	1	carlsson_guard	true	0.1000
+countess_guard	100.0000	1	countess_guard	true	0.1000
+vannheim_75th	100.0000	1	vannheim_75th	true	0.1000
+treeman_gnarl_fist	100.0000	1	treeman_gnarl_fist	true	0.1000
+ragnar_wolves	100.0000	1	ragnar_wolves	true	0.1000
+ceridan	100.0000	1	ceridan	true	0.1000
+imperial_cannon_darius_flugenheim	100.0000	1	imperial_cannon_darius_flugenheim	true	0.1000
+flagellants_eusebio_the_bleak	100.0000	1	flagellants_eusebio_the_bleak	true	0.1000
+knights_of_the_realm_bertrand_le_grande	100.0000	1	knights_of_the_realm_bertrand_le_grande	true	0.1000
+grail_knights_tristan_de_la_tourtristan_de_la_tour	100.0000	1	grail_knights_tristan_de_la_tourtristan_de_la_tour	true	0.1000
+dwarf_envoy_dwarf_warriors	100.0000	1	dwarf_envoy_dwarf_warriors	true	0.1000

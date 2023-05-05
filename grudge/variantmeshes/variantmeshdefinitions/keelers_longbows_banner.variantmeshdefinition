@@ -1,0 +1,30 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_free_company/emp_free_company_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\emp_free_company_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\emp_huntsmarshal_head_04.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\emp_huntsmarshal_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_free_company/emp_free_company_head_05.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\emp\emp_state_troops\head\emp_state_troops_head_03.wsmodel" />
+	</SLOT>
+	<SLOT attach_point="be_prop_0" name="weapon_1" />
+	<SLOT attach_point="be_prop_1" name="weapon_2" />
+	<SLOT attach_point="be_prop_2" name="shield" />
+	<SLOT attach_point="be_prop_3" name="weapon_3" />
+	<SLOT attach_point="be_prop_4" name="weapon_4" />
+	<SLOT attach_point="be_prop_5" name="weapon_5" />
+	<SLOT name="body">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\keelers_longbows\keelers_longbows_body_01.rigid_model_v2">
+			<META_DATA>audio_armour_type:chainmail</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\keelers_longbows\keelers_longbows_body_02.rigid_model_v2">
+			<META_DATA>audio_armour_type:chainmail</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\keelers_longbows\keelers_longbows_body_03.rigid_model_v2">
+			<META_DATA>audio_armour_type:chainmail</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+			</SLOT>
+</VARIANT_MESH>

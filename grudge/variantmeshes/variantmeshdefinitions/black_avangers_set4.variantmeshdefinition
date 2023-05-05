@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_head_05.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_head_06.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_head_07.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="body" >
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_torso_05.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_torso_06.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_legs_11.rigid_model_v2"   />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_legs_12.rigid_model_v2"   />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_legs_13.rigid_model_v2"   />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_avangers\black_avangers_legs_14.rigid_model_v2"   />
+	</SLOT>
+</VARIANT_MESH>

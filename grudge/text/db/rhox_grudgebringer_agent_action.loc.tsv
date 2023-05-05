@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudgebringer_agent_action.loc		
+agent_actions_localised_action_name_do_main_agent_action_champion_hinder_settlement_steal_technology	[[col:yellow]]Reduces research time by %n% for 3 turns.[[/col]]	false
+agent_actions_localised_action_description_do_main_agent_action_champion_hinder_settlement_steal_technology	{{tr:agent_action_name_steal_technology}}	false
+agent_actions_localised_action_name_do_main_agent_action_champion_assist_army_increase_mobility	[[col:yellow]]Increases the campaign movement range of the parent army by %n%.[[/col]]	false
+agent_actions_localised_action_description_do_main_agent_action_champion_assist_army_increase_mobility	{{tr:agent_action_name_increase_mobility}}	false

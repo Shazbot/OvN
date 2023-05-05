@@ -41,7 +41,7 @@ local function new_game_startup()
 	local grudgebringers = cm:get_faction(grudgebringers_string)
 
     if not grudgebringers then return end
-
+    character_unlocking.character_data["ulrika"].factions_involved[grudgebringers_string] = true--to keep Ulrika event from happening to Grudgebringers
     local to_kill_cqi = nil
     local mixer_grudgebringers_leader = grudgebringers:faction_leader()
 
@@ -82,7 +82,13 @@ local function new_game_startup()
         "dieter_schaeffer_carroburg_greatswords",
         "imperial_cannon_darius_flugenheim",
         "knights_of_the_realm_bertrand_le_grande",
-        "grail_knights_tristan_de_la_tourtristan_de_la_tour"
+        "grail_knights_tristan_de_la_tourtristan_de_la_tour",
+        "dwarf_envoy_dwarf_warriors",
+        "jurgen_muntz_outlaw_infantry",
+        "stephan_weiss_outlaw_pistoliers",
+        "boris_von_raukov_4th_nuln_halberdiers",
+        "uter_blomkwist_imperial_mortar",
+        "dwarf_envoy_dwarf_warriors"
     }
 
     
@@ -104,16 +110,16 @@ local function new_game_startup()
             unit
         )
     end
+    cm:add_event_restricted_unit_record_for_faction("dwarf_envoy_dwarf_warriors", grudebringers_faction_key, "rhox_grudge_locked_by_envoy")
     
-    
-    cm:callback(function()
         if to_kill_cqi then
+            cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
             local str = "character_cqi:" .. to_kill_cqi
             cm:set_character_immortality(str, false)
             cm:kill_character_and_commanded_unit(str, true)
+            cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.5)
         end
-    end, 0)
-
+        
         -- prevent war with Order factions bar Lizardmen
         cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh_main_brt_bretonnia", "war", false, false, true);
         cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh_main_emp_empire", "war", false, false, true);
@@ -127,10 +133,10 @@ local function new_game_startup()
         --Spawn Starting Enemy Army
         
         if grudgebringers:is_human() then
-        out("OVN TEST")
+
         cm:create_force_with_general(
 				"wh2_main_skv_skaven_qb1",
-				"wh_main_emp_inf_swordsmen,wh_main_emp_inf_crossbowmen,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_1",
+				"wh_main_emp_inf_swordsmen,wh_main_emp_inf_swordsmen,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_1",
 				"wh3_main_combi_region_wreckers_point",
                 717,
                 534,

@@ -1,0 +1,12 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/ovn_grudge				
+grudgebringers	false	-1	-1	
+ovn_core_grudgebringers	false	-1	-1	
+morgan_bernhardt	false	-1	-1	
+ovn_gru_empire_unit	false	-1	-1	
+ovn_gru_dwarfs_unit	false	-1	-1	
+ovn_gru_ogre_unit	false	-1	-1	
+matthias	false	-1	-1	
+luther_flamenstrike	false	-1	-1	
+witch_hunters_warrior_priests	false	-1	-1	
+ovn_gru_dwarfs_unit_all	false	-1	-1	

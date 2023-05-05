@@ -1,0 +1,33 @@
+key	text	tooltip
+#Loc;1;text/db/emp_camp_effects.loc		
+effects_description_obo_effect_emp_camp_limit	Camp limit: %+n	false
+effects_description_obo_effect_emp_camp_glory_sphere_of_influence	Glory generated: %n	false
+effects_description_obo_effect_emp_camp_glory_building	Glory generated: %n	true
+effects_description_obo_effect_emp_camp_glory_character	Glory generated: %n	true
+effects_description_obo_effect_emp_camp_glory_local_sphere_of_influence_mod	Glory provided by camps %+n%	true
+effects_description_obo_effect_emp_glory_events	Glory generated: %n	true
+effects_description_obo_effect_emp_glory_technology	Glory generated: %n	true
+effects_description_obo_tech_emp_postbattle_glory	Glory gained from battles: %+n%	false
+effects_description_obo_emp_fieldcamp_growth	Army growth: %+n	true
+effects_description_obo_army_ability_enable_grapeshot	Army ability: "Grapeshot"	true
+effects_description_obo_army_ability_enable_42_pounders	Army ability: "42-pounders"	true
+effects_description_obo_army_ability_enable_bombardment	Army ability: "Mortar strike"	true
+effects_description_enable_guardian_inf_dwf	Passive avility: "Guardian" for all Dwarven infantry	true
+effects_description_leadership_dwf_all	Leadership: %+n for all Dwarven units	true
+effects_description_upkeep_reduction_all_dwf	Upkeep: %+n% for all Dwarven units	true
+effects_description_engrol_dip_men	Diplomacy: %+n with all nations of Men	true
+effects_description_engrol_unbreakable_inf_dwf	Attrtibute: "Unbreakable" for all Dwarven units	true
+effects_description_omen_diplo_order	Diplomacy: %+n with all Forces of Order	true
+effects_description_melee_attack_ror	Melee attack: %+n for all Regiments of Renown	true
+effects_description_melee_defence_ror	Melee defence: %+n for all Regiments of Renown	true
+effects_description_sacking_evil	Income from sacking settlements of the Forces of Evil: %+n% (Beastmen, All Chaos, Vampire Count, Vampire Coast & Greenskin settlements)	true
+effects_description_omen_witch_hunter_recruit_rank	Hero recruit rank: %+n for Witch Hunters	false
+effects_description_omen_matthias_accusation_recharge	Cooldown: %+n% to "Accusation"	false
+effects_description_omen_force_leadership_vs_evil	Leadership: %+n vs Forces of Destruction	false
+effects_description_omen_force_melee_attack_vs_evil	Melee attack: %+n vs Forces of Destruction	false
+effects_description_omen_charge_bonus_vs_evil	Charge bonus: %+n% vs Forces of Destruction	false
+effects_description_omen_chaos_attrition_damage	Attrition: %+n% casualties suffered from Chaos attrition	false
+effects_description_omen_vampiric_attrition_damage	Attrition: %+n% casualties suffered from Vampiric attrition	false
+effects_description_omen_upkeep_flagellants	Upkeep: %+n% for Flagellant units	false
+effects_description_omen_unbreakable_witch_hunter_warrior_priest	Attribute: Unbreakable for Witch Hunters and Warrior Priests	false
+effects_description_omen_recruit_rank_warrior_priest_witch_hunter	Hero recruit rank: %+n for Witch Hunters amd Warrior Priests	false

@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="weapon_2" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\morgan\grudgebringer.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>           
+	</SLOT>    
+</VARIANT_MESH>

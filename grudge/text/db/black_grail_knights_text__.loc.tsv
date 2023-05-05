@@ -1,0 +1,25 @@
+key	text	tooltip
+#Loc;1;text/db/black_grail_knights_text__.loc		
+missions_localised_title_black_grail_knights	Black Grail Knights	true
+missions_localised_description_black_grail_knights	Visit this area to hire Black Grail Knights	true
+effect_bundles_localised_description_black_grail_knights	Regiment of Renown	true
+effect_bundles_localised_title_black_grail_knights_join	Black Grail Knights joins your faction!	true
+unit_description_short_texts_text_black_grail_knights	Grail Knights are among the few beings who cannot be brought into undeath. Some, however, particularly those whose corpses lie in Mousillon, are vulnerable...	true
+ui_unit_groupings_onscreen_black_grail_knights	Renowned Cavalry	true
+ui_unit_groupings_tooltip_black_grail_knights	This highly distinguished regiment recruits exclusively from other Altdorf regiments, picking only the best and bravest men out of the many units that garrison the city in order to keep up with their fearsome reputation as an elite fighting force. \\nOther soldiers instantly recognise the regiment thanks to their distinctive appearance of yellow plumes and black steel armour, with their battlefield history soaked in tales of glory and victory. Traditionally led by the youngest son of one of the city's noble houses, the current Captain of this regiment is Otto Helstein, a valiant warrior eager to make his mark upon this world. Every Altdorf native knows the distinctive trumpet blast that announces when the regiment leaves the city gates for a distant campaign, and all of them offer praises to Sigmar to ensure the safe return of Altdorf's most favoured sons.\\n	true
+land_units_onscreen_name_black_grail_knights	Black Grail Knights	true
+ui_unit_bullet_point_enums_onscreen_name_gaston	Officer -  Gaston, Duke of Mortaine	true
+ui_unit_bullet_point_enums_tooltip_gaston	Duke Gaston of Mortaine - A great hero who fought during the Affair of the False Grail, and who later became one of the first Black Grail Knights.	true
+agent_subtypes_onscreen_name_override_gaston	Black Grail Duke	true
+agent_subtypes_description_text_override_gaston	Duke Gaston of Mortaine - A great hero who fought during the Affair of the False Grail, and who later became one of the first Black Grail Knights.	true
+ui_unit_groupings_onscreen_gaston	Black Grail Duke	true
+ui_unit_groupings_tooltip_gaston	Duke Gaston of Mortaine - A great hero who fought during the Affair of the False Grail, and who later became one of the first Black Grail Knights.	true
+names_name_210309007	Duke Gaston	true
+names_name_210309008	of Mortaine	true
+agent_culture_details_onscreen_name_210309007	Duke Gaston	false
+agent_culture_details_onscreen_name_210309008	of Mortaine	false
+unit_description_short_texts_text_gaston	Duke Gaston of Mortaine - A great hero who fought during the Affair of the False Grail, and who later became one of the first Black Grail Knights.	true
+land_units_onscreen_name_gaston	Duke Gaston of Mortaine	true
+character_skills_localised_name_do_skill_dump	Skill Dump	true
+character_skills_localised_description_do_skill_dump	Dump Skill	true
+land_units_onscreen_name_gaston_mount	Duke Gaston of Mortaine	true

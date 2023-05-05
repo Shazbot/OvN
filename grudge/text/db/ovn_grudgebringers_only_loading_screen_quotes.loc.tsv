@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_loading_screen_quotes.loc		
+custom_loading_screen_components_localised_text_ovn_emp_grudgebringerscustom_quote	After their victory over the Black Grail and the Hand of Nagash, the time has come for the Grudgebringers to face the Dread King. Volkmar the Grim has tracked the Dark Lord to the Black Pyramid, a place of great evil hidden within the Land of the Dead - an endless expanse of sand dunes and death. With the support of Emperor Karl Franz, Morgan Bernhardt's mercenary band march on to foil this dark omen or die trying!	false
+loading_screen_quotes_title_ovn_morgan_loading_quote	Commander Morgan Bernhardt	false
+loading_screen_quotes_description_ovn_morgan_loading_quote	Founder and commander of the mercenary company called the Grudgebringers, named after Morgan's magic sword Grudgebringer.	false
+loading_screen_quotes_bulletpoints_ovn_morgan_loading_quote	[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured & [[img:ui/skins/default/modifier_icon_shield.png]][[/img]]shielded	false

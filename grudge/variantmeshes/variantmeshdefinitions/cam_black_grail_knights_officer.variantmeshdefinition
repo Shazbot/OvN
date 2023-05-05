@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+								<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_grail_knights\gaston.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_grail_knights\vmp_lord_sword_1h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\black_grail_knights\vmp_isabella_von_carstein_chalice_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

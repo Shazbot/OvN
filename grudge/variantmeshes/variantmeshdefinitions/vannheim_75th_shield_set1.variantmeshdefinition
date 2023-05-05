@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="shield" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\vannheim_75th\vannheim_75th_shield_02.rigid_model_v2"  >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\vannheim_75th\vannheim_75th_shield_03.rigid_model_v2"  >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

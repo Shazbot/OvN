@@ -1,0 +1,9 @@
+campaign_group	unique_agent	base_charges
+#campaign_group_unique_agents_tables;0;db/campaign_group_unique_agents_tables/ovn_grudgebringers_only		
+wh_main_feature_empire	ceridan	1
+wh_main_feature_empire	ice_mage_vladimir_stormbringer	1
+wh_main_feature_empire	morgan_bernhardt	1
+wh_main_feature_empire	dwarf_envoy	1
+wh_main_feature_empire	ludwig_uberdorf_agent_subtype	1
+wh_main_feature_empire	matthias	1
+wh_main_feature_empire	luther_flamenstrike	1

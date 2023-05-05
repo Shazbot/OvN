@@ -1,0 +1,11 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\jurgen_muntz_outlaw_infantry\emp_free_company_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\jurgen_muntz_outlaw_infantry\emp_free_company_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\brt_questing_knights_head_02.wsmodel" />
+	</SLOT>
+				<SLOT name="torso">
+<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\jurgen_muntz_outlaw_infantry\grb_crossbow_body_03_copy.rigid_model_v2" />
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\jurgen_muntz_outlaw_infantry\grb_crossbow_body_01_copy.rigid_model_v2" />
+</SLOT>	
+</VARIANT_MESH>

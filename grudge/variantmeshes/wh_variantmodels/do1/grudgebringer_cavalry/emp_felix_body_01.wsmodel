@@ -1,0 +1,49 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\emp_felix_body_01.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_body_01_submesh_16_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\emp_witch_hunter\body\materials\emp_witch_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\do1\countess_guard\materials\brt_questing_knights_torso_03_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\ogr_greasus_platform_01_submesh__2_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_questing_knights_legs_01_sub_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_respanse_body_01_submesh_24__weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_felix_body_01_submesh_0_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_eye_bandage_01_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\misc_advisor_head_01_submesh_1_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\hu1\misc\misc_advisor\materials\misc_advisor_head_01_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_body_01_submesh_16_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\emp_witch_hunter\body\materials\emp_witch_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\do1\countess_guard\materials\brt_questing_knights_torso_03_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\ogr_greasus_platform_01_submesh__2_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_questing_knights_legs_01_sub_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_respanse_body_01_submesh_24__weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_felix_body_01_submesh_0_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_eye_bandage_01_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\misc_advisor_head_01_submesh_1_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\hu1\misc\misc_advisor\materials\misc_advisor_head_01_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_body_01_submesh_16_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\emp_witch_hunter\body\materials\emp_witch_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\do1\countess_guard\materials\brt_questing_knights_torso_03_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\ogr_greasus_platform_01_submesh__2_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_questing_knights_legs_01_sub_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_respanse_body_01_submesh_24__weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_felix_body_01_submesh_0_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_eye_bandage_01_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\misc_advisor_head_01_submesh_1_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\hu1\misc\misc_advisor\materials\misc_advisor_head_01_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_body_01_submesh_16_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\emp\emp_witch_hunter\body\materials\emp_witch_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\do1\countess_guard\materials\brt_questing_knights_torso_03_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\ogr_greasus_platform_01_submesh__2_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_questing_knights_legs_01_sub_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\brt_respanse_body_01_submesh_24__weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_felix_body_01_submesh_0_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\emp_captains_eye_bandage_01_subm_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\do1\grudgebringer_cavalry\materials\misc_advisor_head_01_submesh_1_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\hu1\misc\misc_advisor\materials\misc_advisor_head_01_weighted4_alpha_on.xml.material</material>
+
+	</materials>
+</model>

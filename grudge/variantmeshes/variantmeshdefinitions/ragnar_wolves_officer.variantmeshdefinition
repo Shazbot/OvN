@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="torso" >
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\ragnars_wolves\wolves_officer_01.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\ragnars_wolves\wolves_axe_02.wsmodel" />
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

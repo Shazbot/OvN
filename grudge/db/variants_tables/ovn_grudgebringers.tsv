@@ -1,0 +1,135 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_grudgebringers							
+eric_ragnar		eric_ragnar		1.0000	0.8200	0.0500	
+carlssons_cavalry		carlsson_cavalry		1.0000	1.0000	0.0500	
+morgan_bernhardt		morgan_bernhardt	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+emp_grudge_cav		grudgebringer_cavalry		1.0000	1.0000	0.0500	
+grudgebringer_cannon_officer		grudgebringer_cannon_officer		1.0000	1.0200	0.0200	
+wh_gru_warhorse		wh_gru_warhorse		1.0000	1.0200	0.0200	
+wh_rag_warhorse_armoured	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	wh_rag_warhorse_armoured		1.0000	1.0200	0.0200	
+sr_ogre_gru		ogr_gru_ogres		1.0000	1.0000	0.0500	
+ovn_grudge_flagellants_eusebio		ovn_grudge_flagellants_eusebio		1.0000	1.0200	0.0000	
+banner_cth_hr1_grb_bannerman_01		banner_cth_hr1_grb_bannerman_01		1.0000	1.0000	0.0000	
+gunther		gunther		1.0000	1.1000	0.0000	
+gru_warhorse		gru_warhorse		1.0000	1.1500	0.0000	
+skeleton_archers		skeleton_archers		1.0000	1.0000	0.0500	
+black_grail_knights_horse		black_grail_knights_horse		1.0000	1.0000	0.0500	
+gaston_mount		gaston_mount		1.0000	1.1500	0.0000	
+gaston		gaston		1.0000	1.1500	0.0000	
+dargrimm_firebeard_dwarf_warriors_banner_officer		dargrimm_firebeard_dwarf_warriors_banner_officer	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0000	hu3/dwf/dwf_warriors/low_poly/super_imposter
+urblab_rotgut_mercenary_ogres_banner_officer		urblab_rotgut_mercenary_ogres_banner_officer		1.0000	1.0000	0.0000	
+grudgebringer_cavalry_klaus		grudgebringer_cavalry_klaus	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grudgebringer_cavalry_banner_officer		grudgebringer_cavalry_banner_officer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grudgebringer_infantry_banner_officer		grudgebringer_infantry_banner_officer	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ice_mage_vladimir_stormbringer		ice_mage_vladimir_stormbringer		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+morgan_bernhardt_mount		morgan_bernhardt	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+morgan_bernhardt_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	morgan_bernhardt_horse	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.1500	0.0000	
+grudgebringer_crossbow_banner		grudgebringer_crossbow_banner	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+helmgart_bowmen_officer		helmgart_bowmen_officer	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+helmgart_bowmen_banner		helmgart_bowmen_banner	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+keelers_longbows_banner		keelers_longbows_banner	hu1\emp\emp_huntsman\imposter\emp_huntsman_white_wolf_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+keelers_longbows_officer		keelers_longbows_officer	hu1\emp\emp_huntsman\imposter\emp_huntsman_white_wolf_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+gaston_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	gaston_mount		1.0000	1.1500	0.0000	
+black_avangers_banner_officer		black_avangers_banner_officer	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+carlsson_guard_officer2		carlsson_guard_officer2	hu1\emp\low_poly\empire_state_troops_sword_shield_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+carlsson_cavalry_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ragnars_wolves_horse	hr1\chs\chs_warhorse\low_poly\chs_warhorse_lowlod	1.0850	1.0850	0.0500	
+carlsson_cavalry_officer2		carlsson_cavalry_officer2	hu1/brt/brt_questing_knights/imposter/brt_questing_knights_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+carlsson_guard_officer		carlsson_guard_officer	hu1\emp\low_poly\empire_state_troops_sword_shield_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+countess_guard_banner_officer		countess_guard_banner_officer	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+outlaw_infantry_banner_officer		jurgen_muntz_outlaw_infantry_banner_officer	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+jurgen_muntz		jurgen_muntz	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+boris_von_raukov_4th_nuln_halberdiers_banner_officer		boris_von_raukov_4th_nuln_halberdiers_banner_officer	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+stephan_weiss_outlaw_pistoliers_officer		stephan_weiss_outlaw_pistoliers_officer	hu1\emp\low_poly\emp_young_nobles_lowlod	1.0000	1.0000	0.0500	
+stephan_weiss_outlaw_pistoliers_banner		stephan_weiss_outlaw_pistoliers_banner	hu1\emp\low_poly\emp_young_nobles_lowlod	1.0000	1.0000	0.0500	
+boris_von_raukov		boris_von_raukov	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+knights_of_the_realm_bertrand_le_grande		knights_of_the_realm_bertrand_le_grande	hu1\brt\brt_grail_knights\low_poly\brt_grail_knights_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grail_knights_tristan_de_la_tourtristan_de_la_tour		grail_knights_tristan_de_la_tourtristan_de_la_tour	hu1\brt\brt_grail_knights\low_poly\brt_grail_knights_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grail_knights_tristan_de_la_tourtristan_de_la_tour_horse		grail_knights_tristan_de_la_tourtristan_de_la_tour_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0000	
+ragnar_wolves		ragnar_wolves	hu1c\chs\chs_marauders\low_poly\chs_marauder_horsemen_lowlod	1.0000	0.9500	0.0500	hu1\imposter\humanoid_imposter
+ragnar_wolves_banner_officer		ragnar_wolves_banner_officer	hu1c\chs\chs_marauders\low_poly\chs_marauder_horsemen_lowlod	1.0000	0.9500	0.0500	hu1\imposter\humanoid_imposter
+ragnar_wolves_officer		ragnar_wolves_officer	hu1c\chs\chs_marauders\low_poly\chs_marauder_horsemen_lowlod	1.0000	0.9500	0.0500	hu1\imposter\humanoid_imposter
+ragnars_wolves_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ragnars_wolves_horse	hr1\chs\chs_warhorse\low_poly\chs_warhorse_lowlod	1.0850	1.0850	0.0500	
+imperial_cannon_darius_flugenheim		emp_artillery_crew	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+flagellants_eusebio_the_bleak		flagellants_eusebio_the_bleak	hu1\emp\emp_flagellants\low_poly\emp_flagellants_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+knights_of_the_realm_bertrand_le_grande_horse		knights_of_the_realm_bertrand_le_grande_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0000	
+dieter_schaeffer		emp_dieter	hu1\emp\low_poly\emp_greatswords_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+dieter_schaeffer_carroburg_greatswords_banner_officer		dieter_schaeffer_carroburg_greatswords_banner_officer	hu1\emp\low_poly\emp_greatswords_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+vannheim_75th_banner		vannheim_75th_banner		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+grail_knights_tristan_de_la_tourtristan_de_la_tour_banner		grail_knights_tristan_de_la_tourtristan_de_la_tour_banner		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+knights_of_the_realm_bertrand_le_grande_banner		knights_of_the_realm_bertrand_le_grande_banner		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+elrod_wood_elf_glade_guards_banner		elrod_wood_elf_glade_guards_banner		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+elrod_wood_elf_glade_guards_officer		elrod_wood_elf_glade_guards_officer		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+galed_elf_archers_banner		galed_elf_archers_banner		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+galed_elf_archers_officer		galed_elf_archers_officer		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+flagellants_eusebio_the_bleak_banner		flagellants_eusebio_the_bleak_banner		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+flagellants_eusebio_the_bleak_officer		flagellants_eusebio_the_bleak_officer		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+black_grail_knights		black_grail_knights		1.0000	1.0000	0.0500	
+azguz_bloodfist_dwarf_warriors_banner_officer		azguz_bloodfist_dwarf_warriors_banner_officer	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0000	hu3/dwf/dwf_warriors/low_poly/super_imposter
+ludwig_uberdorf_variant_name		ludwig_uberdorf		1.0000	1.1500	0.0000	
+ludwig_uberdorf_mount_variant_name		ludwig_uberdorf_mount		1.0000	1.1500	0.0000	
+ludwig_uberdorf_gyrobomber_variant_name		ludwig_uberdorf_gyrobomber		1.0000	1.1500	0.0000	
+ludwig_uberdorf_steam_tank_variant_name		ludwig_uberdorf_steam_tank		1.0000	1.1500	0.0000	
+cam_ludwig_uberdorf_mount_variant_name		cam_ludwig_uberdorf_mount		1.0000	1.1500	0.0000	
+cam_ludwig_uberdorf_steam_tank	warmachines/engines/imperial_steam_tank_ludwig_von_uberdorf/techcam	cam_ludwig_uberdorf_steam_tank		1.0000	1.1500	0.0000	
+dwarf_envoy_dwarf_warriors		dwarf_envoy_dwarf_warriors	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
+ceridan		ceridan		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+dwarf_envoy		dwarf_envoy		1.0000	1.0000	0.0000	
+dargrimm_firebeard_dwarf_warriors_officer		dargrimm_firebeard_dwarf_warriors_officer	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0000	hu3/dwf/dwf_warriors/low_poly/super_imposter
+urblab_rotgut_mercenary_ogres_officer		urblab_rotgut_mercenary_ogres_officer		1.0000	1.0000	0.0000	
+grudgebringer_infantry_officer		grudgebringer_infantry_officer	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+grudgebringer_crossbow_officer		grudgebringer_crossbow_officer	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+black_avangers_officer		black_avangers_officer	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+carlsson_cavalry_officer		carlsson_cavalry_officer	hu1/brt/brt_questing_knights/imposter/brt_questing_knights_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+countess_guard_officer		countess_guard_officer	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	0.9000	0.0000	hu1\imposter\humanoid_imposter
+countess_guard_officer1		countess_guard_officer1	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+vannheim_75th_officer		vannheim_75th_officer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0000	
+azguz_bloodfist_dwarf_warriors_officer		azguz_bloodfist_dwarf_warriors_officer	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0000	hu3/dwf/dwf_warriors/low_poly/super_imposter
+dwarf_envoy_dwarf_warriors_banner_officer		dwarf_envoy_dwarf_warriors_banner_officer	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0000	hu3/dwf/dwf_warriors/low_poly/super_imposter
+wh_van_warhorse_armoured		wh_van_warhorse_armoured	hr1\emp\emp_warhorse_armoured\low_poly\emp_horse_armoured_lowlod	1.0000	1.0000	0.0500	
+dargrimm_firebeard_dwarf_warriors		dargrimm_firebeard_dwarf_warriors	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
+urblab_rotgut_mercenary_ogres		urblab_rotgut_mercenary_ogres		1.0000	1.0000	0.0500	
+grudgebringer_cavalry		grudgebringer_cavalry	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grudgebringer_infantry		grudgebringer_infantry	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grudgebringer_crossbow		grudgebringer_crossbow	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+elrod_wood_elf_glade_guards		elrod_wood_elf_glade_guards	hu1d\wef\wef_glade_guard\imposter\wef_glade_guard_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+grudgebringer_cannon		grudgebringer_cannon	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+galed_elf_archers		galed_elf_archers	hu1d\wef\wef_waystalkers\imposter\wef_waystalkers_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+helmgart_bowmen		helmgart_bowmen	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+keelers_longbows		keelers_longbows	hu1\emp\emp_huntsman\imposter\emp_huntsman_white_wolf_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+treeman_knarlroot		wef_treeman		1.0000	1.0000	0.0500	
+black_avangers		black_avangers	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+carlsson_cavalry		carlsson_cavalry	hu1/brt/brt_questing_knights/imposter/brt_questing_knights_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+carlsson_guard		carlsson_guard	hu1\emp\low_poly\empire_state_troops_sword_shield_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+vannheim_75th		vannheim_75th	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	
+treeman_gnarl_fist		wef_ancient_treeman		1.0000	1.0000	0.0500	
+uter_blomkwist_imperial_mortar		emp_artillery_crew	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+countess_guard		countess_guard	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+dieter_schaeffer_carroburg_greatswords		dieter_schaeffer_carroburg_greatswords	hu1\emp\low_poly\emp_greatswords_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+jurgen_muntz_outlaw_infantry		jurgen_muntz_outlaw_infantry	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+boris_von_raukov_4th_nuln_halberdiers		boris_von_raukov_4th_nuln_halberdiers	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+stephan_weiss_outlaw_pistoliers		stephan_weiss_outlaw_pistoliers	hu1\emp\low_poly\emp_young_nobles_lowlod	1.0000	1.0000	0.0500	
+azguz_bloodfist_dwarf_warriors		azguz_bloodfist_dwarf_warriors	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
+emp_state_troops_swordsmen_gru		emp_state_troops_swordsmen_gru	hu1\emp\low_poly\empire_state_troops_sword_shield_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+matthias		matthias		1.0000	1.1500	0.0000	
+luther_flamenstrike		luther_flamenstrike		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+luther_flamenstrike_mount		luther_flamenstrike		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+luther_flamenstrike_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	luther_flamenstrike_horse		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+grudgebringers_wagon		grudgebringers_wagon		1.0000	1.1500	0.0000	
+grudgebringer_crossbow_heavy		grudgebringer_crossbow_heavy		1.0000	1.0000	0.0000	
+grudgebringers_wagon_charioteer		grudgebringer_infantry_charioteer		0.9000	0.9000	0.0000	hu1\imposter\humanoid_imposter
+wh_main_emp_inf_halberdiers_gru		emp_state_troops_halberdiers_gru	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_main_emp_inf_spearmen_0_gru		emp_state_troops_spearmen_gru	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_main_emp_inf_crossbowmen_gru		emp_state_troops_crossbowmen_gru	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh2_dlc13_emp_inf_archers_0_gru		emp_state_troops_archer_gru	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_main_emp_inf_handgunners_gru		emp_state_troops_handgunners_gru	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_main_emp_inf_greatswords_gru		emp_state_troops_greatswords_gru	hu1\emp\low_poly\emp_greatswords_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_main_emp_cav_empire_knights_gru		emp_state_troops_knights_gru	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_main_emp_cav_pistoliers_1_gru		emp_state_troops_pistoliers_gru	hu1\emp\low_poly\emp_young_nobles_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_dlc04_emp_inf_free_company_militia_0_gru		emp_state_troops_militia_gru	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+wh_emp_artillery_crew_gru		emp_artillery_crew_gru	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+sr_ogre_gru_maneaters_00		ogr_gru_maneater	hu13/ogr/ogr_maneater/ogr_maneater_01_imposter	1.0000	1.0500	0.0500	
+sr_ogre_gru_maneaters_01		ogr_gru_maneater_ironfists	hu13/ogr/ogr_maneater/ogr_maneater_01_imposter	1.0000	1.0500	0.0500	
+sr_ogre_gru_maneaters_02		ogr_gru_maneater_great_weapon	hu13/ogr/ogr_maneater/ogr_maneater_01_imposter	1.0000	1.0500	0.0500	
+sr_ogre_gru_maneaters_03		ogr_gru_maneater_pistol	hu13/ogr/ogr_maneater/ogr_maneater_01_imposter	1.0000	1.0500	0.0500	
+wh_main_dwf_inf_dwarf_warrior_0_gru		emp_dwarf_war_gru	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	0.9500	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
+wh_main_dwf_inf_dwarf_warrior_1_gru		emp_dwarf_grt_war_gru	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_great_lowlod	1.0000	0.9500	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter

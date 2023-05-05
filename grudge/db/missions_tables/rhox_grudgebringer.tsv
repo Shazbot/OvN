@@ -1,0 +1,32 @@
+key	mission_type	localised_title	localised_description	ui_image	ui_icon	generate	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	quest_mission_final	trigger_radius	quest_character	sticky_by_default	localised_mission_completed_text	can_be_manually_cancelled
+#missions_tables;0;db/missions_tables/rhox_grudgebringer																		
+rhox_grudgebringer_piece_of_eight_1	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_2	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_3	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_4	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_5	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_6	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_7	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_8	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_9	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_10	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_11	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_12	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_13	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_14	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_15	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_16	SCRIPTED			generic	rom_event_mission.png	false	false	Military		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_17	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_18	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_19	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_20	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_21	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_22	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_23	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_piece_of_eight_24	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_lh_1	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_lh_2	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_lh_3	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_lh_4	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_lh_5	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false
+rhox_grudgebringer_lh_6	SCRIPTED			generic	rom_event_mission.png	false	false	piece_of_eight		0	0	false	false	0.0000		true		false

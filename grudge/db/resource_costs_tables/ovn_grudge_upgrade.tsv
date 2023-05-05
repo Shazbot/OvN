@@ -1,0 +1,6 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/ovn_grudge_upgrade					
+ovn_grudge_armour_cost	-1000	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME
+ovn_grudge_inf_cost	-900	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME
+ovn_grudge_cross_cost	-900	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME
+ovn_grudge_can_cost	-900	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME

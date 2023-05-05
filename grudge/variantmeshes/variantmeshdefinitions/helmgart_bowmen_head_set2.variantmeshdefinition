@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\helmgart_bowmen\emp_huntsmarshal_head_04.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\helmgart_bowmen\emp_free_company_head_05.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\helmgart_bowmen\emp_state_troops_head_03.wsmodel" />
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\helmgart_bowmen\emp_huntsman_head_03.wsmodel" />
+	</SLOT>
+	</VARIANT_MESH>

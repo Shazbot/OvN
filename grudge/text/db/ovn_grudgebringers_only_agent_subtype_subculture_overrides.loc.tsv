@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_agent_subtype_subculture_overrides.loc		
+agent_subtype_subculture_overrides_onscreen_name_roy_arb_championovn_sc_arb_arabychampion	Askar	true
+agent_subtype_subculture_overrides_description_roy_arb_championovn_sc_arb_arabychampion	The Askar are warriors without equal, who are promoted for their worth, serving as bodyguards for most important leaders of Araby.	true
+agent_subtype_subculture_overrides_description_roy_arb_nomadovn_sc_arb_arabyspy	The arabyan cities hide all kinds of dangers in their shadows. The assassins of this land are renowned for their skill, wiping out their targets in swift, stealthy attacks.	true
+agent_subtype_subculture_overrides_onscreen_name_roy_arb_nomadovn_sc_arb_arabyspy	Hashishin	true

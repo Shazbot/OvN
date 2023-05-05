@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/do_unit_set_to_mp_unit_caps.loc		
+unit_set_to_mp_unit_caps_localised_name_ceridan	Ceridan	true
+unit_set_to_mp_unit_caps_localised_name_ice_mage_vladimir_stormbringer	Vladimir Stormbringer	true

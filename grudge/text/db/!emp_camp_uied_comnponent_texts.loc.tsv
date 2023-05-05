@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!emp_camp_uied_comnponent_texts.loc		
+uied_component_texts_localised_string_dy_decr_default_Text_a565734612	Spend part of your [[img:emp_prestige]][[/img]] Glory boasting about your victories to receive a temporary bonus for this army.	false
+campaign_localised_strings_string_emp_boasting	Bravado	false
+uied_component_texts_localised_string_dy_meat_Tooltip_d27a2a2a12	Glory cost	false
+uied_component_texts_localised_string_tx_type_NewState_Text_1955f469	Renown Gained!	false

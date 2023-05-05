@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\luther_flamenstrike\brt_horse_armoured_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

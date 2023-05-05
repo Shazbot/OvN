@@ -1,0 +1,49 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\do1\galed_elf_archers\hef_shadow_warrior_torso_04.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_03_subm_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_submesh_0_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_spearmen_torso_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_eternal_guard_cape_01_submes_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_03_subm_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_submesh_0_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_spearmen_torso_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_eternal_guard_cape_01_submes_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_03_subm_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_submesh_0_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_spearmen_torso_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_eternal_guard_cape_01_submes_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_legs_01_subme_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_03_subm_submesh_12_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_shadow_warrior_torso_02_subm_submesh_0_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\hef_spearmen_torso_02_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_waywatchers_quiver_01_submes_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\emp_huntsman_body_01_submesh_14__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\do1\galed_elf_archers\materials\wef_eternal_guard_cape_01_submes_weighted4_alpha_off.xml.material</material>
+
+	</materials>
+</model>

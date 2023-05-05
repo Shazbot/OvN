@@ -1,0 +1,4 @@
+category	icon_path
+#trait_categories_tables;0;db/trait_categories_tables/rhox_grudgebringer	
+rhox_grudge_local	ui/campaign ui/effect_bundles/trait_climate_all.png
+rhox_grudge_settlement	ui/campaign ui/effect_bundles/variable_upkeep.png

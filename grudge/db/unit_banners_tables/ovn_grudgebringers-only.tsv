@@ -1,0 +1,4 @@
+key	faction_offset_x	faction_offset_y	faction_scale_x	faction_scale_y	unitcat_offset_x	unitcat_offset_y	unitcat_scale_x	unitcat_scale_y	command_star_offset_x	command_star_offset_y	army_id_offset_y	animation_name	unit_id_offset_y
+#unit_banners_tables;3;db/unit_banners_tables/ovn_grudgebringers-only													
+ovn_grudgebringers	0.0000	0.0000	1.0000	1.0000	0.1200	0.4000	0.3000	0.3000	-1.0000	0.0000	4.3000	banner_ver_01	6.6000
+ovn_emp_grudgebringers	0.1800	0.1500	0.4500	0.4500	0.2200	0.2200	0.3500	0.3000	-0.8000	0.0000	4.3000	banner_hor_01	6.6000

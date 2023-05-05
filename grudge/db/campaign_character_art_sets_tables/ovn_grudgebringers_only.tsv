@@ -1,0 +1,10 @@
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
+#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_grudgebringers_only								
+morgan_bernhardt	general				false	true	morgan_bernhardt	1.0000
+ice_mage_vladimir_stormbringer	wizard				false	true	ice_mage_vladimir_stormbringer	1.0000
+ceridan	champion				false	true	ceridan	1.0000
+dwarf_envoy	champion				false	true	dwarf_envoy	1.0000
+gaston	champion				false	true	gaston	1.0000
+ludwig_uberdorf_art_set	champion				false	true	ludwig_uberdorf_agent_subtype	1.0000
+matthias	champion				false	true	matthias	1.0000
+luther_flamenstrike	champion				false	true	luther_flamenstrike	1.0000

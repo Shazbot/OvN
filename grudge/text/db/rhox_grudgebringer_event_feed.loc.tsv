@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudgebringer_event_feed.loc		
+campaign_interactable_marker_infos_name_grudgebringer_mark	Available Local Contract	false
+campaign_interactable_marker_infos_tooltip_grudgebringer_mark	Move to this position to view the contract and see if you wish to accept it	false
+event_feed_strings_text_rhox_grudgebringer_marker_spawn_title	Mercenaries Requested!	false
+event_feed_strings_text_rhox_grudgebringer_marker_spawn_primary_detail	Local Contract Posted	false
+event_feed_strings_text_rhox_grudgebringer_marker_spawn_secondary_detail	We have heard that a contract has been posted by the locals. We will need to visit them to dicuss terms and see if we will take on the job.	false
+event_feed_strings_text_rhox_grudgebringer_marker_disappear_title	Mercenary Request Rescinded!	false
+event_feed_strings_text_rhox_grudgebringer_marker_disappear_primary_detail	Local Contract Expired	false
+event_feed_strings_text_rhox_grudgebringer_marker_disappear_secondary_detail	The local contract is no longer available, we're unsure if the worst has occured or if another mercenary band has picked up the job.	false

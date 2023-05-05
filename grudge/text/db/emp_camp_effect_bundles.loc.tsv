@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/emp_camp_effect_bundles.loc		
+effect_bundles_localised_title_obo_bundle_stance_army_settlement_horde_emp_camp	Empire Encampment	false
+effect_bundles_localised_description_obo_bundle_stance_army_settlement_horde_emp_camp	Imperials have set up camp here, providing help for their armies in the area.	false

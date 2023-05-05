@@ -1,0 +1,57 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_only_land_units.loc		
+land_units_onscreen_name_azguz_bloodfist_dwarf_warriors	Azguz Bloodfist's Dwarf Warriors	true
+land_units_onscreen_name_black_avangers	Black Avengers	true
+land_units_onscreen_name_carlsson_cavalry	Carlsson's Cavalry	true
+land_units_onscreen_name_carlsson_guard	Carlsson's Guard	true
+land_units_onscreen_name_countess_guard	Countess Guard	true
+land_units_onscreen_name_dargrimm_firebeard_dwarf_warriors	Dargrimm Firebeard's Dwarf Warriors	true
+land_units_onscreen_name_elrod_wood_elf_glade_guards	Elrod's Wood Elf Glade Guards	true
+land_units_onscreen_name_galed_elf_archers	Galed's Elf Archers	true
+land_units_onscreen_name_grudgebringer_cannon	Grudgebringer Cannon	true
+land_units_onscreen_name_grudgebringer_cavalry	Grudgebringer Cavalry	true
+land_units_onscreen_name_grudgebringer_crossbow	Grudgebringer Crossbows	true
+land_units_onscreen_name_grudgebringer_infantry	Grudgebringer Infantry	true
+land_units_onscreen_name_helmgart_bowmen	Helmgart Bowmen	true
+land_units_onscreen_name_keelers_longbows	Keeler's Longbows	true
+land_units_onscreen_name_treeman_knarlroot	Treeman Knarlroot	true
+land_units_onscreen_name_urblab_rotgut_mercenary_ogres	Urblab Rotgut's Mercenary Ogres	true
+land_units_onscreen_name_vannheim_75th	Vannheim's 75th	true
+land_units_onscreen_name_treeman_gnarl_fist	Treeman Gnarl Fist	true
+land_units_onscreen_name_ceridan	Ceridan the Lone Ranger	true
+land_units_onscreen_name_ragnar_wolves	Ragnar's Wolves	true
+land_units_onscreen_name_gunther_schepke	Sgt Gunther Schepke (Grudgebringer Infantry)	true
+land_units_onscreen_name_heinz_klemper	Cpt Heinz Klemper (Countess Guard)	true
+land_units_onscreen_name_eusebio_bleak	Eusebio The Bleak (Flagellants)	true
+land_units_onscreen_name_dieter_schaeffer	Dieter Schaeffer  (Imperial Greatswords)	true
+land_units_onscreen_name_azguz_bloodfist	Azguz Bloodfist (Dwarf Infantry)	true
+land_units_onscreen_name_emp_elrod	Elrod (Wood Elf Glade Guards)	true
+land_units_onscreen_name_jurgen_muntz	Jurgen Muntz (Outlaw Infantry)	true
+land_units_onscreen_name_willem_fletcher	Willem Fletcher (Grudgebringer Crossbows)	true
+land_units_onscreen_name_franz_erikson	Franz Erikson (Helmgart Bowmen)	true
+land_units_onscreen_name_emp_galed	Galed (Elf Archers)	true
+land_units_onscreen_name_stephan_weiss	Stephan Weiss (Outlaw Pistoliers)	true
+land_units_onscreen_name_eric_ragnar	Eric Ragnar (Ragnar's Wolves)	true
+land_units_onscreen_name_sven_carlsson	Sven Carlsson (Carlsson's Cavalry)	true
+land_units_onscreen_name_bertrand_le_grande	Bertrand le Grande (Knights of the Realm)	true
+land_units_onscreen_name_tristan_de_la_tour	Tristan de la Tour (Grail Knights)	true
+land_units_onscreen_name_morgan_bernhardt	Commander Bernhardt	true
+land_units_onscreen_name_wolfgang_schwartzkopf	Wolfgang Schwartzkopf (Grudgebringer Cannon)	true
+land_units_onscreen_name_darius_flugenheim	Darius Flugenheim (Imperial Cannon)	true
+land_units_onscreen_name_uter_blomkwist	Uter Blomkwist (Imperial Mortar)	true
+land_units_onscreen_name_vladimir_stormbringer	Vladimir Stormbringer (Ice Mage)	true
+land_units_onscreen_name_uter_blomkwist_imperial_mortar	Uter Blomkwist's Imperial Mortar	true
+land_units_onscreen_name_dwarf_envoy	Engrol Goldtongue	true
+land_units_onscreen_name_dieter_schaeffer_carroburg_greatswords	Dieter Schaeffer Carroburg Greatswords	true
+land_units_onscreen_name_jurgen_muntz_outlaw_infantry	Jurgen Muntz Outlaw Infantry	true
+land_units_onscreen_name_boris_von_raukov_4th_nuln_halberdiers	Boris von Raukov 4th Nuln Halberdiers	true
+land_units_onscreen_name_stephan_weiss_outlaw_pistoliers	Stephan Weiss Outlaw Pistoliers	true
+land_units_onscreen_name_flagellants_eusebio_the_bleak	Eusebio's Flagellants	true
+land_units_onscreen_name_ice_mage_vladimir_stormbringer	Vladimir Stormbringer	true
+land_units_onscreen_name_grudgebringers_wagon	Paymaster Wagon	true
+ui_unit_groupings_onscreen_grudgebringers_wagon	Combat Wagon	true
+ui_unit_groupings_tooltip_grudgebringers_wagon	My precious-s-s-s-s	true
+unit_description_short_texts_text_grudgebringers_wagon	This wagon carries the treasury of the Grudgebringers, and few things in the world are more valuable to mercenaries than a chest of gold. The treasure is guarded by a detachment of crossbow snipers and Klaus.	false
+unit_abilities_tooltip_text_grudgebringers_wagon	This wagon carries the treasury of the Grudgebringers, and few things in the world are more valuable to mercenaries than a chest of gold. 	true
+unit_abilities_onscreen_name_grudgebringers_wagon	Paymaster Wagon	true
+special_ability_phases_onscreen_name_grudgebringers_wagon		false

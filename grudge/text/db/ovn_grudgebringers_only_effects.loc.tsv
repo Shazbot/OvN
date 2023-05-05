@@ -1,0 +1,177 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_effects.loc		
+effects_description_grudge_summon_wagons	Adds Paymaster Wagon at the start of any defensive battle	true
+effects_description_grudge_effect_ability_enable_arrow_of_kurnous	Ability: Rage of the Forest	true
+effects_description_grudge_effect_ability_enable_pepperpot	Ability: Pepperpot	true
+effects_description_grudge_effect_ability_enable_shrapnel_shot	Ability: Shrapnel Shot	true
+effects_description_grudge_skill_ability_volley_of_arrows	Ability: Hail of Arrows	true
+effects_description_grudge_skill_ability_volley_of_dark_arrows	Ability: Hellrain	true
+effects_description_grudge_effect_upkeep_for_grudge	Upkeep: %+n% for all Grudgebringers	true
+effects_description_grudge_effect_ability_enable_ballistics_calibration1	Passive ability: True Born Sniper	true
+effects_description_grudge_effect_ability_enable_ballistics_calibration2	Passive ability: True Born Sniper	true
+effects_description_grudge_effect_ability_enable_ballistics_calibration3	Passive ability: True Born Sniper	true
+effects_description_grudge_effect_ability_enable_explosion1	Passive ability: Highly Explosive Shells	true
+effects_description_grudge_effect_ability_enable_apexplosion1	Passive ability: Shrapnel Shells	true
+effects_description_grudge_effect_ability_enable_explosion2	Passive ability: Highly Explosive Shells	true
+effects_description_grudge_effect_ability_enable_apexplosion2	Passive ability: Shrapnel Shells	true
+effects_description_grudge_effect_ability_enable_explosion3	Passive ability: Highly Explosive Shells	true
+effects_description_grudge_effect_ability_enable_apexplosion3	Passive ability: Shrapnel Shells	true
+effects_description_grudge_effect_ability_enable_the_reikland_runefang	Ability: Grudgebringers' Runefang	true
+effects_description_grudge_effect_ability_enable_grudgebringer_sword	Ability: Grudgebringer Sword	true
+effects_description_grudge_effect_ability_enable_hellfire_sword	Ability: Hellfire Sword	true
+effects_description_grudge_effect_ability_enable_storm_sword	Ability: Storm Sword	true
+effects_description_grudge_effect_ability_enable_horn_of_urgok	Ability: Horn of Urgok	true
+effects_description_grudge_effect_ability_enable_banner_of_wrath	Ability: Banner of Wrath	true
+effects_description_grudge_effect_ability_enable_spelleater_shield	Ability: Spelleater Shield	true
+effects_description_grudge_effect_ability_enable_banner_of_arcane_warding	Ability: Banner of Arcane Warding	true
+effects_description_grudge_skill_ability_swiftness_of_itzl	Ability: Unstoppable Charge	true
+effects_description_grudge_skill_ability_skv_verminous_valour	Ability: Decisive Battle	true
+effects_description_ovn_grudge_diplo_bonus	Diplomatic relations: %+n with Men, Dwarfs and Wood Elves	false
+effects_description_ovn_grudge_horde	Alongside Bernhardt's personal Camp, deploy additional Camps as forward bases though you are limited to only one army.	true
+effects_description_ovn_grudge_mercenary_dummy	Complete Contracts, Missions and return Settlements for RoR, Reinforcements, Gold and more	true
+effects_description_ovn_grudge_good_dummy	Cannot declare war on Empire, Bretonnian, Kislev, High Elf, Wood Elf, Cathayan and Dwarf factions	false
+effects_description_ovn_grudge_ror_xp_dummy	Regiments of Renown can gain XP, but if the unit perishes you lose them permanently barring Grudgebringer units	false
+effects_description_ovn_grudgebringer_ward	Ward save: %+n% for Grudgebringer Cavalry, Grudgebringer Infantry, Grudgebringer Crossbowmen & Grudgebringer Cannon.	true
+effects_description_ovn_grudge_replenish_dummy	Replenish units in full for gold when near to settlements, not including ruins, owned by the factions of Order.	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike_upgraded	Overcast spell: "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sunstrike_upgraded	Miscast base chance: %+n% for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike	Winds of Magic cost: %n for "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike_upgraded	Winds of Magic cost: %n for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm	Spell: "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_cooldown_sandstorm	Cooldown: %+n% to "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm_upgraded	Overcast spell: "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sandstorm_upgraded	Miscast base chance: %+n% for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm	Winds of Magic cost: %n for "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm_upgraded	Winds of Magic cost: %n for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand	Spell: "Quicksand"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand_upgraded	Overcast spell: "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_quicksand	Cooldown: %+n% to "Quicksand"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_quicksand_upgraded	Miscast base chance: %+n% for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand	Winds of Magic cost: %n for "Quicksand"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand_upgraded	Winds of Magic cost: %n for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands	Spell: "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands_upgraded	Overcast spell: "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_burning_hands	Cooldown: %+n% to "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_burning_hands_upgraded	Miscast base chance: %+n% for "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands	Winds of Magic cost: %n for "Burning Hands"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands_upgraded	Winds of Magic cost: %n for "Burning Hands Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn	Spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn_upgraded	Overcast spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_cooldown_curse_of_the_djinn	Cooldown: %+n% to "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_curse_of_the_djinn_upgraded	Miscast base chance: %+n% for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn	Winds of Magic cost: %n for "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn_upgraded	Winds of Magic cost: %n for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_force_stat_speed_arb_beasts	Speed: %+n% for all beast units	true
+effects_description_ovn_effect_force_stat_charge_bonus_pct_arb_beasts	Charge bonus: %+n for all beast units	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_djinns	Melee attack: %+n for all djinn units	true
+effects_description_ovn_effect_force_stat_leadership_arb_djinns	Leadership: %+n for all djinn units	true
+effects_description_ovn_effect_force_stat_weapon_strength_arb_melee_infantry	Weapon strength: %+n% for all melee infantry units	true
+effects_description_ovn_effect_force_stat_magic_resistance_arb_melee_infantry	Spell resistance: %n% for all melee infantry units	true
+effects_description_ovn_effect_force_stat_armour_arb_melee_cavalry	Armour: %+n for all melee cavalry units	true
+effects_description_ovn_effect_force_stat_leadership_arb_melee_cavalry	Leadership: %+n for all melee cavalry units	true
+effects_description_ovn_effect_force_stat_missile_strength_arb_ranged_nongunpowder	Missile strength: %+n% for all non-gunpowder ranged units	true
+effects_description_ovn_effect_force_stat_reload_time_reduction_arb_ranged_nongunpowder	Reload time reduction: %+n% for all non-gunpowder ranged units	true
+effects_description_ovn_effect_force_stat_ammunition_arb_ranged_gunpowder_naphtha	Ammunition: %+n% for all gunpowder and naphtha ranged units	true
+effects_description_ovn_effect_force_stat_range_arb_ranged_gunpowder_naphtha	Range: %+n% for all gunpowder and naphtha ranged units	true
+effects_description_ovn_effect_force_stat_missile_resistance_arb_beasts_rank7	Missile resistance: %+n% for all beast units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_beasts_rank7	Melee attack: %+n for all beast units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_ward_save_arb_magic_rank7	Ward save: %+n% for all djinn and Dervisher units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_weapon_strength_arb_magic_rank7	Weapon strength: %+n% for all djinn and Dervisher units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_physical_resistance_arb_nomads_rank7	Physical resistance: %+n% for all nomad infantry and cavalry units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_charge_bonus_pct_arb_nomads_rank7	Charge: %+n for all nomad infantry and cavalry units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_melee_defence_arb_settled_rank7	Melee defence: %+n for all non-nomad infantry and cavalry units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_speed_arb_settled_rank7	Speed: %+n% for all non-Nomad infantry and cavalry units {{tr:rank7}}	true
+effects_description_ovn_effect_upkeep_arb_sea_units	Upkeep: %+n% for all Vampire Coast, Sea Nymphs, and Corsair units	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_sea_units	Melee attack: %+n for all Vampire Coast, Sea Nymphs, and Corsair units	true
+effects_description_ovn_effect_force_stat_melee_defence_arb_sea_units	Melee defence: %+n for all Vampire Coast, Sea Nymphs, and Corsair units	true
+effects_description_ovn_effect_force_stat_flame_resistance_arb_tomb_king_units	Fire resistance: %+n% for all Tomb King units	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_tomb_king_units	Melee attack: %+n for all Tomb King units	true
+effects_description_ovn_effect_force_stat_armour_arb_tomb_king_units	Armour: %+n for all Tomb King units	true
+effects_description_ovn_effect_enable_mount_djinn_vessel	Follower: Djinn Vessel	true
+effects_description_ovn_effect_enable_mount_magic_carpet	Mount: Flying Carpet	true
+effects_description_ovn_effect_enable_mount_camel	Mount: Camel	true
+effects_description_ovn_effect_enable_mount_elephant	Mount: Royal War Elephant	true
+effects_description_ovn_effect_enable_mount_roc	Mount: Roc	true
+effects_description_ovn_effect_enable_mount_golden_magus_skiff	Mount: Desert Skiff	true
+effects_description_ovn_effect_tech_armour_arb_camels	Armour: %+n for all Camel units	true
+effects_description_ovn_effect_tech_missile_strength_arb_gunpowder	Missile strength: %+n% for Grand Bombards, Jezzails, Camel Jezzails, and Gajnal Juggernaut units	true
+effects_description_ovn_effect_tech_reload_time_reduction_arb_gunpowder	Reload time reduction: %+n% for Grand Bombards, Jezzails, Camel Jezzails, and Gajnal Juggernaut units	true
+effects_description_ovn_effect_tech_melee_defence_arb_basic_infantry	Melee defence: %+n for Arabyan Warriors, Arabyan Spearmen, and Arabyan Archer units	true
+effects_description_ovn_effect_tech_armour_arb_basic_infantry	Armour: %+n for Arabyan Warriors, Arabyan Spearmen, and Arabyan Archer units	true
+effects_description_ovn_effect_tech_melee_attack_arb_nomads	Melee attack: %+n for all Arabyan Nomad units	true
+effects_description_ovn_effect_tech_speed_arb_nomads	Speed: %+n% for all Arabyan Nomad units	true
+effects_description_ovn_effect_tech_missile_strength_arb_bow_units	Missile strength: %+n% for Arabyan Archer, Camel Archer and Al-Raheem Nomad units	true
+effects_description_ovn_effect_tech_melee_attack_arb_corsairs	Melee Attack: %+n for Corsair units	false
+effects_description_ovn_araby_tech_corasir_units_upkeep	Upkeep: %+n% for Corsair units	false
+effects_description_ovn_effect_tech_melee_attack_arb_sharkas_slaves_pit_fighters	Melee attack: %+n for Sharkas Slave and Pit-Fighter units	false
+effects_description_ovn_effect_tech_upkeep_reduction_arb_sharkas_slaves_pit_fighters	Recruitment cost: %+n% for Sharkas Slave and Pit-Fighter units	false
+effects_description_ovn_effect_tech_unit_xp_arb_arabyan_guard	Recruit rank: %+n for Arabyan Guard units	true
+effects_description_ovn_effect_tech_unit_xp_arb_arabyan_guard_global	Recruit rank: %+n for Arabyan Guard units	true
+effects_description_ovn_effect_tech_weapon_strength_arb_sea_units	Weapon strength: %+n% for all Vampire Coast, Sea Nymphs, and Corsair units	true
+effects_description_ovn_effect_tech_speed_arb_sea_units	Speed: %+n% for all Vampire Coast, Sea Nymphs, and Corsair units	true
+effects_description_ovn_effect_tech_armour_arb_sea_units	Armour: %+n for all Vampire Coast, Sea Nymphs, and Corsair units	true
+effects_description_ovn_effect_tech_weapon_strength_arb_tomb_king_units	Weapon strength: %+n% for all Tomb King units	true
+effects_description_ovn_effect_tech_melee_defense_arb_tomb_king_units	Melee defence: %+n for all Tomb King units	true
+effects_description_ovn_effect_tech_upkeep_arb_tomb_king_units	Upkeep: %+n% for all Tomb King units	true
+effects_description_Black_Book_Of_Ibn_Naggazar	Improved Power Recharge Rate	true
+effects_description_summon_djinn_fighter	Ability: Summon Unchained Ifreet	true
+effects_description_wh2_dlc12_army_abilities_great_invocation_of_djinn	Ability: Summon Serpent Djinn	true
+effects_description_ovn_jaffar_innate_dummy	Summon a Fire Djinn	false
+effects_description_arb_jaffar_serpent_djinn_enable	Ability: Serpent Staff	true
+effects_description_arb_jaffar_serpent_guard_upkeep	Upkeep: %+n% for Arabyan Guard and Sipahi	true
+effects_description_arb_jaffar_serpent_guard_melee	Melee Attack: %+n for Arabyan Guard and Sipahi	true
+effects_description_arb_jaffar_serpent_guard_defence	Melee Defense: %+n for Arabyan Guard and Sipahi	true
+effects_description_arb_jaffar_enable_aura_will	Ability: Will of Jaffar	true
+effects_description_ovn_araby_slave_production	Around %+n Slaves procured	false
+effects_description_ovn_scythan_numas_diplo	Diplomatic relations: %+n with the Scythan god Tutankhanut and the faction of [[img:ovn_numas]][[/img]]Numas.	true
+effects_description_ovn_araby_elephant_scor_mor	Leadership: %+n for all Elephant and Scorpion units	true
+effects_description_ovn_arb_iron_resource_res_cost	Recruitment cost: %+n% for Arabyan Knights, Sipahis, Elephants, Scorpions, Jaguar Champions and Arabyan Guard recruits	true
+effects_description_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	Ability: "Twilight Mirror Shard"	true
+effects_description_ovn_arb_baz_wep_10_vengeful_sword_heal	Passive ability: "Vengeful God Sword" (Feeding)	true
+effects_description_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Passive ability: "Vengeful God Sword" (Hungers)	true
+effects_description_ovn_arb_baz_wep_08_matyr_shard_ability	Passive ability: "Martyr’s Stand"	true
+effects_description_ovn_arb_baz_heal	Passive ability: "Divine Healing"	true
+effects_description_ovn_arb_baz_arm_09_faith_shield_ability	Passive ability: "Divine Faith"	true
+effects_description_ovn_arb_baz_arm_08_gorgon_shield_ability	Ability: "Gorgon's Glare"	true
+effects_description_smokeleaf_smokescreen	Ability: "Tobacco Smokescreen"	true
+effects_description_ovn_arb_baz_escape	Ability: "Enveloped by the Dune"	true
+effects_description_ovn_resource_production_coffee	Coffee beans production: %n sacks per turn	true
+effects_description_arb_fatandira_innate_nomad_discount	Upkeep: %+n% for all Arabyan Nomad units	true
+effects_description_arb_fatandira_innate_nomad_ammo	Ammunition: %n% for all ranged Arabyan Nomad units	true
+effects_description_arb_fatandira_enable_aimed_shot	Ability: "Aimed Shot"	true
+effects_description_arb_fatandira_enable_aimed_shot_cooldown	Cooldown: %+n% to "Aimed Shot"	true
+effects_description_arb_fatandira_nomad_ranged_damage	Missile strength: %+n% for all ranged Arabyan Nomad units	true
+effects_description_arb_fatandira_nomad_speed	Speed: %+n% for all Arabyan Nomad units	true
+effects_description_arb_fatandira_enable_sand_feint	Ability: "Sand Feint"	true
+effects_description_arb_fatandira_enable_blades_demise	Ability: "Blades of Honourable Demise"	true
+effects_description_arb_golden_magus_enable_master_djinn	Ability: "Master of the Djinn"	true
+effects_description_arb_golden_magus_wishmaster_djinn_exp	Recruit rank: %+n for Arabyan Flying Carpets, Genies & Khimar al-Nar	true
+effects_description_arb_golden_magus_enable_burning_scimitar	Ability: "The Flaming Scimitar"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_enable	Army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_hurricane_blades_enable	Army ability: "Hurricane of Blades"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_disable	Remove army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_royal_djinn_enable	Army ability: "Summon the Sultan of Flame"	true
+effects_description_arb_golden_magus_innate_djinn_upkeep	Upkeep: %+n% for Arabyan Flying Carpets, Genies & Khimar al-Nar	true
+effects_description_arb_golden_magus_diplomatic_relations_sartosa	Diplomatic relations: %+n with the faction of [[img:cst_pirates_of_sartosa]][[/img]]Pirates of Sartosa	true
+effects_description_arb_golden_magus_ship_growth	Flagship growth: %+n	true
+effects_description_wh2_main_effect_building_recruitment_cost_reduction_arb_OtF_khemri_elite_guard	Recruitment cost: %+n% for Arabyan Guard units	true
+effects_description_wh2_main_effect_building_unit_recruitment_duration_arb_OtF_khemri_elite_guard	Recruitment duration: %+n turn for Arabyan Guard units (minimum 1) in this province	true
+effects_description_wh2_main_effect_building_upkeep_reduction_arb_OtF_khemri_elite_guard	Upkeep: %+n% for Arabyan Guard units	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_arb_1	Hero capacity: %+n for Sorcerers	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_arb_2	Hero capacity: %+n for Sorcerers	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_1	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_2	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Sorcerers	true
+effects_description_wh2_main_diplomatic_relations_crusaders_bad	Diplomatic relations: %+n with the factions of [[img:ovn_scythans]][[/img]]Aswad Scythans, [[img:ovn_araby]][[/img]]Caliphate of Araby & [[img:ovn_scimitar]][[/img]]the Flaming Scimitar.	true
+effects_description_ovn_desert_att_immune_dummy	Immune to Desert Attrition	true
+effects_description_ovn_scythans_recruit_tmbking_dummy	Enables recruitment of certain Tomb King units	true
+effects_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Missile Strength: %+n% for Grand Bombard units	true
+effects_description_wh_main_effect_ovn_Nehekharan_dummy	A chance of great wealth but at what cost...	true
+effects_description_landmark_effect_produce_res_ivory	Ivory resource production: %n sacks.	true
+ancillaries_explanation_text_morgan_bernhardt_mount	Bernhardt's battle-tested warhorse	false
+effects_description_morgan_bernhardt_mount	Mount: 'Warhorse'	false
+effects_description_ovn_recruitment_cost_reduction_gru_empire	Recruitment cost: %+n% for Empire units recruited from buildings	false
+effects_description_ovn_recruitment_cost_reduction_gru_dwarf	Recruitment cost: %+n% for Dwarf units recruited from buildings	false
+effects_description_ovn_recruitment_cost_reduction_gru_ogre	Recruitment cost: %+n% for Ogre units recruited from buildings	false
+effects_description_ovn_recruitment_cost_upkeep_gru_empire	Upkeep: %+n% for Empire units recruited from buildings	false
+effects_description_ovn_recruitment_cost_upkeep_gru_dwarf	Upkeep: %+n% for Dwarf units recruited from buildings	false
+effects_description_ovn_recruitment_cost_upkeep_gru_ogre	Upkeep: %+n% for Ogre units recruited from buildings	false

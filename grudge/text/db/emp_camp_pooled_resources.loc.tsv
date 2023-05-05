@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/emp_camp_pooled_resources.loc		
+pooled_resources_description_obo_glory	If an army lacks military glory then it is doomed to fail.	false
+pooled_resources_display_name_obo_glory	Glory	false
+pooled_resources_negative_factors_display_name_obo_glory	Lost	false
+pooled_resources_positive_factors_display_name_obo_glory	Gained	false
+pooled_resource_factors_display_name_negative_offered_glory	Glory rituals	false
+pooled_resource_factors_display_name_negative_pre_battle_glory	Pre-battle boasting	false
+pooled_resource_factors_display_name_positive_pre_battle_glory	Pre-battle boasting	false

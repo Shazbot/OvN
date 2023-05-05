@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_free_company_head_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_free_company_head_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_free_company_head_05.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\tex\emp_free_company_head_07.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,33 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\dieter_schaeffer_carroburg_greatswords_head_set1.variantmeshdefinition"  />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\dieter_schaeffer_carroburg_greatswords_head_set2.variantmeshdefinition"  />
+	</SLOT>
+
+        <SLOT name="torso">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_01.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_11.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_21.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\emp_greatswords_body_22.wsmodel">
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+					<SLOT name="acces">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\dieter_schaeffer_carroburg_greatswords\perevaz.wsmodel" />
+	</SLOT>
+	<SLOT attach_point="be_prop_1" name="weapon_2"/>
+	<SLOT attach_point="be_prop_2" name="shield"/>
+	<SLOT attach_point="be_prop_3" name="weapon_3"/>
+	<SLOT attach_point="be_prop_4" name="weapon_4"/>
+	<SLOT attach_point="be_prop_5" name="weapon_5"/>
+</VARIANT_MESH>

@@ -1,0 +1,45 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudge_recruit_text.loc		
+ui_mercenary_recruitment_infos_hire_button_title_rhox_grudge_return_recruit	{{tr:recruitment_confirmation_renown}}	false
+ui_mercenary_recruitment_infos_hire_button_tooltip_rhox_grudge_return_recruit	Recruit units||Any units in the queue will instantly be recruited to your army.	false
+ui_mercenary_recruitment_infos_initial_tooltip_rhox_grudge_return_recruit	Recruit Reinforcements||Instantly recruit reinforcements gained from returning settlements to Order factions.	false
+ui_mercenary_recruitment_infos_tooltip_default_avaliable_rhox_grudge_return_recruit	Recruit Reinforcements||Instantly recruit reinforcements gained from returning settlements to Order factions.	false
+ui_mercenary_recruitment_infos_tooltip_default_inactive_rhox_grudge_return_recruit	Reinforcements||[[col:red]]You cannot currently recruit from Reinforcements.[[/col]]	false
+ui_mercenary_recruitment_infos_tooltip_inactive_not_players_turn_rhox_grudge_return_recruit	Reinforcements||[[col:red]]You cannot currently recruit from Reinforcements.[[/col]]	false
+ui_mercenary_recruitment_infos_tooltip_inactive_on_sea_rhox_grudge_return_recruit	Reinforcements||[[col:red]]You cannot currently recruit from Reinforcements.[[/col]]	false
+ui_mercenary_recruitment_infos_tooltip_inactive_unavailable_rhox_grudge_return_recruit	Reinforcements||[[col:red]]You cannot currently recruit from Reinforcements.[[/col]]	false
+ui_mercenary_recruitment_infos_hire_state_rhox_grudge_return_recruit	Reinforcements	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_emp_art_helstorm_rocket_battery	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_dlc04_emp_cav_knights_blazing_sun_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_emp_cav_reiksguard	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_dwf_inf_longbeards_1	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_dwf_art_organ_gun	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_dwf_inf_hammerers	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_dwf_inf_ironbreakers	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_dwf_veh_gyrocopter_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_dlc05_wef_inf_waywatchers_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_dlc05_wef_mon_treekin_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh2_dlc16_wef_inf_bladesingers_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_brt_cav_grail_knights	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_brt_cav_knights_of_the_realm	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_dlc07_brt_inf_battle_pilgrims_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh2_dlc10_hef_inf_sisters_of_avelorn_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh2_main_hef_cav_dragon_princes	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh2_main_hef_inf_phoenix_guard	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh2_main_hef_inf_swordmasters_of_hoeth_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_ksl_inf_tzar_guard_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_ksl_cav_gryphon_legion_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_ksl_cav_war_bear_riders_1	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_cth_art_fire_rain_rocket_battery_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_cth_inf_dragon_guard_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_cth_inf_dragon_guard_crossbowmen_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_emp_art_helblaster_volley_gun	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_teb_pikemen	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_teb_conqui_adventurers	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_teb_pavisiers	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_teb_galloper	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_teb_encarmine	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_ogr_inf_maneaters_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh3_main_ogr_cav_mournfang_cavalry_0	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_emp_inf_halberdiers	You'll gain access to this unit by returning the settlement to the order factions.	false
+mercenary_unit_groups_replenishment_reason_rhox_grudge_wh_main_emp_cav_outriders_0	You'll gain access to this unit by returning the settlement to the order factions.	false

@@ -1,0 +1,7 @@
+<VARIANT_MESH>
+	<SLOT name="hair" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\ovn_grudge_flagellants_head_base_black_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\ovn_grudge_flagellants_head_base_black_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\ovn_grudge_flagellants_head_base_black_03.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

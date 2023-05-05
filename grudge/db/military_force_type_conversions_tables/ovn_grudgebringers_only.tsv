@@ -1,0 +1,5 @@
+from	to	automatic
+#military_force_type_conversions_tables;0;db/military_force_type_conversions_tables/ovn_grudgebringers_only		
+HORDE	wh_main_emp_cha_grudge	false
+wh_main_emp_cha_grudge	ARMY	true
+wh_main_emp_cha_grudge	HORDE	false
