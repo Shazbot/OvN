@@ -699,19 +699,6 @@ mod.on_book_navigation = function(context)
 	mod.on_book_of_grudges_panel_opening()
 end
 
-core:remove_listener("pj_grudge_book_ui_click_handlers")
-core:add_listener(
-	"pj_grudge_book_ui_click_handlers",
-	"ComponentLClickUp",
-	function(context)
-		return mod.comp_id_to_handler[context.string]
-	end,
-	function(context)
-		mod[mod.comp_id_to_handler[context.string]](context)
-	end,
-	true
-)
-
 core:remove_listener("pj_grudge_book_on_row_click")
 core:add_listener(
 	"pj_grudge_book_on_row_click",
@@ -1022,9 +1009,26 @@ mod.create_unlock_string = function(unit_key)
 end
 
 local function init()
+	if cm:get_local_faction_name(true) ~= "ovn_emp_grudgebringers" then
+		return
+	end
+
 	mod.grudge_missions = cm:get_saved_value("ovn_grudge_missions")
 
 	mod.create_main_button()
+
+	core:remove_listener("pj_grudge_book_ui_click_handlers")
+	core:add_listener(
+		"pj_grudge_book_ui_click_handlers",
+		"ComponentLClickUp",
+		function(context)
+			return mod.comp_id_to_handler[context.string]
+		end,
+		function(context)
+			mod[mod.comp_id_to_handler[context.string]](context)
+		end,
+		true
+	)
 
 	for unit_key, page_data in pairs(mod.bog_pages) do
 		if page_data.unlock then
