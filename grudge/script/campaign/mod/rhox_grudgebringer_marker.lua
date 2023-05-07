@@ -1,7 +1,7 @@
 local marker_spawn_chance = 75
 local camp_spawn_distance = 15
-local marker_available_duration = 1
-local marker_cooldown = 3
+local marker_available_duration = 3;
+local marker_cooldown = 4
 
 local marker_cooldown_count = 0
 
@@ -49,6 +49,54 @@ local rhox_grudgebringer_reinforcements_list ={
     ["wh_main_emp_empire"] = "ovn_gru_emp_force",
     ["mixer_teb_southern_realms"] = "ovn_gru_teb_force",
 }    
+
+local faction_key_to_random_faction_name={
+    wh2_dlc13_skv_skaven_invasion = {
+        "Thanquol's Pawns","Hellpaw's Raiders","Skreektak's Tinkerers", "Siskritt's Robbers", "Sleaquit's Stabberz"
+    },
+    wh2_dlc13_grn_greenskins_invasion = {
+        "Urgat Rip-Eye's Boyz","Gorgrhum Snot's Ladz","Oruk Gutspiller's Boyz"
+    },
+    wh2_dlc11_cst_vampire_coast_encounters = {
+        "Greatship Boarders","Landlubber Pirates","Shipwrecked Pirates"
+    },
+    wh2_dlc13_nor_norsca_invasion = {
+        "Pack Ice Bay Raiders","Crimson Harvest Cult","Wolfship Sinkers"
+    },
+    wh_main_emp_empire_qb1 = {
+        "Hiln's Guard","Gourard's Bandits","Carstein Brigands", "Weiss' Highwaymen", "Muntz Outlaws"
+    },
+    wh_main_chs_chaos_qb1 = {
+        "Spell-Eaters","Unholy Razers","Advent of Chaos"
+    },
+    wh2_dlc13_bst_beastmen_invasion = {
+        "Moon Defilers","Deamon-Hoofed","Cloven Dread"
+    },
+    wh2_main_def_dark_elves_qb1 = {
+        "Corsairs of the Storm","Raiders of Greed","Moon Raiders"
+    },
+    wh3_main_ogr_ogre_kingdoms_qb1 = {
+        "Never-Ending Hunger","Mad Stew Tribe","Rotgut Tribe"
+    },
+    wh3_main_kho_khorne_qb1 = {
+        "Blood Eagles","Blood Defilers","Limb-Takers"
+    },
+    wh3_main_nur_nurgle_qb1 = {
+        "Pox Bursters","Swollen Pustules","The Many Mouths"
+    },
+    wh3_main_tze_tzeentch_qb1 = {
+        "The Oracle","The All-Seeing"
+    },
+    wh3_main_sla_slaanesh_qb1 = {
+        "Tendrils of Seduction","Crimson Serpent Cult"
+    },
+    wh_main_vmp_vampire_counts_qb1 = {
+        "Black Grail Legion","Hand's Awakened","Carstein's Risen", "Dread King's Horde", "Skabskrath Holders"
+    },
+    wh3_dlc23_chd_chaos_dwarfs_qb1 = {
+        "Bull Raiders","Hashut Slavers","Thunder Skull-Splitter"
+    }
+}
 
 --Events
 
@@ -2154,6 +2202,11 @@ function rhox_grudgebringer_spawn_marker_battle_force(character, attacking_force
 	
 	local reinforcements =false
 	local reinforcements_num =2
+
+    local random_pool = faction_key_to_random_faction_name[enemy_faction]
+    local random_number_fn = cm:random_number(#random_pool, 1)
+    local ovn_gru_enemy_faction_name = random_pool[random_number_fn]
+    cm:change_custom_faction_name(enemy_faction, ovn_gru_enemy_faction_name)
 	
 	if dilemma_name == "rhox_grudgebringer_battle_e" then 
         reinforcements = true
@@ -2164,6 +2217,7 @@ function rhox_grudgebringer_spawn_marker_battle_force(character, attacking_force
     elseif dilemma_name == "rhox_grudgebringer_battle_g" then
         reinforcements = true
         reinforcements_num = cm:random_number(3,2)
+        cm:change_custom_faction_name("wh2_dlc13_grn_greenskins_invasion", "Khaz Drakk")
     elseif dilemma_name == "rhox_grudgebringer_battle_h" then
         reinforcements = true
         reinforcements_num = cm:random_number(3,2)
@@ -2271,6 +2325,7 @@ function rhox_grudgebringer_spawn_marker_battle_force(character, attacking_force
                 cm:callback(function() cm:disable_event_feed_events(false, "", "", "diplomacy_war_declared") end, 0.2);
                 cm:disable_movement_for_character(cm:char_lookup_str(char_cqi));
                 cm:set_force_has_retreated_this_turn(cm:get_military_force_by_cqi(force_cqi));
+                cm:change_custom_faction_name("wh2_dlc13_grn_greenskins_invasion", "Bugman's Bane")
             end
         );
 	else
