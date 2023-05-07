@@ -439,6 +439,11 @@ mod.first_tick_cb = function()
 			---@type CA_CHAR
 			local char = context:character()
 
+			local faction = char:faction()
+			if faction:name() ~= "ovn_emp_grudgebringers" then
+				return
+			end
+
 			local is_player_turn = false
 			for faction in binding_iter(cm:whose_turn_is_it()) do
 				if faction == cm:get_local_faction(true) then
@@ -455,8 +460,6 @@ mod.first_tick_cb = function()
 			end
 
 			mod.commander_cqi = char:cqi()
-
-			local faction = char:faction()
 
 			cm:callback(function()
 				local ui_root = core:get_ui_root()
