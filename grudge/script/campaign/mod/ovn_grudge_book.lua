@@ -295,13 +295,13 @@ mod.create_toc = function()
 	-- dout("CREATE TOC")
 	local book_of_grudges = digForComponent(core:get_ui_root(), "pj_grudge_book")
 	local book_frame = find_uicomponent(book_of_grudges, "book_frame")
-	book_frame:SetImagePath("ui/grudge_book/book_bg.png", 1)
+	book_frame:SetImagePath("ui/ovn_grudge_book/book_bg.png", 1)
 	local pages = digForComponent(book_of_grudges, "pages")
 	local dy_objective = digForComponent(book_of_grudges, "dy_objective")
 	local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses")
 	local current_x = 140
 	local current_y = 30
-	for i=0, #mod.bog_pages_list do
+	for i=0, #mod.bog_pages_list-1 do
 		if i == 18 then
 			current_y = 30
 			current_x = 720
