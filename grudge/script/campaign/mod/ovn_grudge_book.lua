@@ -589,6 +589,23 @@ mod.draw_bog_page = function(page_num)
 	if unit_key then
 		unit_info:SetContextObject(cco("CcoMainUnitRecord",unit_key))
 		unit_info:SetContextObject(cco("CcoUnitDetails","UnitRecord_"..unit_key.."_ovn_emp_grudgebringers_0_0.8"))
+		
+		---@type CA_CHAR
+		for _,char in model_pairs(cm:get_faction(cm:get_local_faction_name(true)):character_list()) do
+			if char:character_subtype_key() == unit_key then
+				unit_info:SetContextObject(cco("CcoCampaignCharacter",char:cqi()))
+				break
+			end
+			if char:has_military_force() and not char:military_force():is_armed_citizenry() then
+				---@type CA_UNIT
+				for _,unit in model_pairs(char:military_force():unit_list()) do
+					if unit:unit_key() == unit_key then
+						unit_info:SetContextObject(cco("CcoCampaignUnit",unit:command_queue_index()))
+						break
+					end
+				end
+			end
+		end
 	end
 
 	if not unit_desc or not unit then
