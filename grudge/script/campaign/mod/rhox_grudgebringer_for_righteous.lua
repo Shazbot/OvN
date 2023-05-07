@@ -31,7 +31,7 @@ local grudgebringer_missions ={
     },
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
-        subculture_key = " wh_main_sc_vmp_vampire_counts",
+        subculture_key = "wh_main_sc_vmp_vampire_counts",
         count = 5,
         ancillary_key= "grudge_item_hellfire_sword",
         reward = "elrod_wood_elf_glade_guards"
@@ -455,6 +455,11 @@ core:add_listener(
         local id = tonumber(string.sub(current_mission, string.len(mission_key) + 1, string.len(current_mission)))
         out("Rhox Grudge: ID: "..id)
         cm:remove_event_restricted_unit_record_for_faction(grudgebringer_missions[id].reward, grudgebringer_faction);
+        
+        local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses") or {}
+        mission_statuses.success = mission_statuses.success or {}
+        mission_statuses.success[current_mission] = true
+        cm:set_saved_value("ovn_grudge_missions_statuses", mission_statuses)
 	end,
 	true
 );
@@ -477,6 +482,11 @@ core:add_listener(
         to_put.index=id
         table.insert(rhox_failed_mission_rewards, to_put)
         out("Rhox Grudge: finished inserting the table! "..to_put.index)
+
+        local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses") or {}
+        mission_statuses.failed = mission_statuses.failed or {}
+        mission_statuses.failed[current_mission] = true
+        cm:set_saved_value("ovn_grudge_missions_statuses", mission_statuses)
 	end,
 	true
 );
