@@ -1,0 +1,10 @@
+key	level	trait	threshold_points
+#character_trait_levels_tables;0;db/character_trait_levels_tables/rhox_grudgebringer			
+rhox_grudge_local_1	1	rhox_grudge_local_helper	1
+rhox_grudge_local_2	2	rhox_grudge_local_helper	6
+rhox_grudge_local_3	3	rhox_grudge_local_helper	11
+rhox_grudge_local_4	4	rhox_grudge_local_helper	16
+rhox_grudge_settlement_1	1	rhox_grudge_settlement_helper	1
+rhox_grudge_settlement_2	2	rhox_grudge_settlement_helper	6
+rhox_grudge_settlement_3	3	rhox_grudge_settlement_helper	11
+rhox_grudge_settlement_4	4	rhox_grudge_settlement_helper	16

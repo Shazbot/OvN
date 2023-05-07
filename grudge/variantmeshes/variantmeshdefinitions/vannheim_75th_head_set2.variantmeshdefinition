@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\vannheim_75th\vannheim_75th_head_01.rigid_model_v2"  />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\vannheim_75th\vannheim_75th_head_05.rigid_model_v2"  />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\vannheim_75th\vannheim_75th_head_06.rigid_model_v2"  />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\vannheim_75th\vannheim_75th_head_07.rigid_model_v2"  />
+	</SLOT>
+</VARIANT_MESH>

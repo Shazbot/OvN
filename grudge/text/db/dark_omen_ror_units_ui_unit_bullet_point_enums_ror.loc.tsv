@@ -1,0 +1,36 @@
+key	text	tooltip
+#Loc;1;text/db/dark_omen_ror_units_ui_unit_bullet_point_enums_ror.loc		
+ui_unit_bullet_point_enums_onscreen_name_gunther_schepke	Hero - Gunther Schepke	true
+ui_unit_bullet_point_enums_tooltip_gunther_schepke	These warriors are highly experienced and proficient fighters led by Sergeant Gunther Schepke, Bernhardt's second in command	true
+ui_unit_bullet_point_enums_onscreen_name_stormsword	Weapon - Stormsword	false
+ui_unit_bullet_point_enums_tooltip_stormsword	This mighty sword channels the energy of Celestial magic through its blade. The wielder can summon multiple lightning bolts from the sky which strike the enemy regiment.	false
+ui_unit_bullet_point_enums_onscreen_name_shield_of_ptolos	Artifact - Shield of Ptolos	false
+ui_unit_bullet_point_enums_tooltip_shield_of_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs. The patterns magically distract arrows and bolts, sending them spinning off course. The bearer's regiment will be protected against missiles from bows, crossbows and so on. 	false
+ui_unit_bullet_point_enums_onscreen_name_grudgebringer_sword	Weapon - Grudgebringer Sword	true
+ui_unit_bullet_point_enums_tooltip_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. Fireball may be cast from the sword once per Magic Cycle.	true
+ui_unit_bullet_point_enums_onscreen_name_enchanted_shield	Artifact - Enchanted Shield	true
+ui_unit_bullet_point_enums_tooltip_enchanted_shield	The Enchanted Shield provides the bearer's regiment with an extra level of armour	true
+ui_unit_bullet_point_enums_onscreen_name_morgan_bernhardt	Hero - Morgan Bernhardt 	true
+ui_unit_bullet_point_enums_tooltip_morgan_bernhardt	Taking their name from their Commander's powerful sword 'Grudgebringer' these mercenaries form the core of the army known as the Grudgebringers. They are skilled in combat and ride into battle on mighty warhorses. 	true
+ui_unit_bullet_point_enums_onscreen_name_azguz_bloodfist	Hero - Azguz Bloodfist	true
+ui_unit_bullet_point_enums_tooltip_azguz_bloodfist	Powerful dwarf hero from Zhufbar	true
+ui_unit_bullet_point_enums_onscreen_name_dargrimm_firebeard	Hero - Dargrimm Firebeard	true
+ui_unit_bullet_point_enums_tooltip_dargrimm_firebeard	Powerful dwarf hero from Zhufbar	true
+ui_unit_bullet_point_enums_onscreen_name_banner_of_wrath	Artifact - Banner of Wrath	false
+ui_unit_bullet_point_enums_tooltip_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	false
+ui_unit_bullet_point_enums_onscreen_name_countess_isabel	Hero - Isabella Von Liberhurtz	true
+ui_unit_bullet_point_enums_tooltip_countess_isabel	Emperor Karl Franz' cousin	true
+ui_unit_bullet_point_enums_onscreen_name_heinz_klemper	Hero - Heinz Klemper	true
+ui_unit_bullet_point_enums_tooltip_heinz_klemper	Captain Heinz Klemper is obliged to protect the countess Isabella Von Liberhurtz at the cost of his life	true
+ui_unit_bullet_point_enums_onscreen_name_ramon_black	Hero - Ramon Black	true
+ui_unit_bullet_point_enums_tooltip_ramon_black	Leader of the Avengers	true
+ui_unit_bullet_point_enums_onscreen_name_potion_of_strength	Item - Potion of Strength	false
+ui_unit_bullet_point_enums_tooltip_potion_of_strength	When drunk, this magic potion increases the strength of the bearer's regiment for a short period of time, allowing them to inflict far more damage on enemy troops in melee	false
+ui_unit_bullet_point_enums_onscreen_name_sven_carlsson	Hero - Sven Carlsson	true
+ui_unit_bullet_point_enums_tooltip_sven_carlsson	Border Prince and former mercenary Sven Carlsson, a personal friend of Bernhardt	true
+ui_unit_bullet_point_enums_onscreen_name_eric_ragnar	Hero - Eric Ragnar	true
+ui_unit_bullet_point_enums_tooltip_eric_ragnar	Leader of the Wolves	true
+ui_unit_bullet_point_enums_onscreen_name_siegfried_vannheim	Hero - Siegfried Vannheim	true
+ui_unit_bullet_point_enums_tooltip_siegfried_vannheim	Captain of the 75th	true
+ui_unit_bullet_point_enums_onscreen_name_horn_of_urgok	Artifact - Horn of Urgok	false
+ui_unit_bullet_point_enums_tooltip_horn_of_urgok	The sound of this horn strikes fear into the hearts of enemies and reduces their ability to resist.	false

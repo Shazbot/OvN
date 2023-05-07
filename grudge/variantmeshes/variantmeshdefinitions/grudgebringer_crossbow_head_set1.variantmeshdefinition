@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\emp_free_company_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\emp_free_company_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\brt_questing_knights_head_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\emp_huntsman_head_03.wsmodel" />
+	</SLOT>
+	</VARIANT_MESH>

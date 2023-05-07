@@ -1,0 +1,4 @@
+key	unit_ability	unit_set
+#unit_set_unit_ability_junctions_tables;0;db/unit_set_unit_ability_junctions_tables/ovn_grudgebringers		
+grudgebringer_sword	grudge_weapon_abilities_grudgebringer_sword	morgan_bernhardt
+rhox_grudge_enable_guardian_inf_dwf	wh2_dlc09_unit_passive_guardian	ovn_gru_dwarfs_unit_all

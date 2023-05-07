@@ -1,0 +1,33 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_grudgebringer								
+rhox_grudgebringer_piece_of_eight_1			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_2			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_3			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_4			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_5			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_6			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_7			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_8			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_9			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_10			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_11			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_12			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_13			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_14			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_15			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_16			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_17			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_18			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_19			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_20			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_21			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_22			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_23			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_piece_of_eight_24			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_1			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_2			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_3			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_4			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_5			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_6			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudge_debt_money			faction	1	treasury.png	true	false	true

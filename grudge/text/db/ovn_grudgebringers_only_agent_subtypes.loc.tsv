@@ -1,0 +1,72 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_agent_subtypes.loc		
+agent_subtypes_onscreen_name_override_morgan_bernhardt	Legendary Lord	true
+agent_subtypes_description_text_override_morgan_bernhardt	Legendary Lord	true
+agent_subtypes_onscreen_name_override_vladimir_stormbringer	Ice Mage	true
+agent_subtypes_description_text_override_vladimir_stormbringer	Ice Mage	true
+quotes_quote_onscreen_2103090001	I am the surgeon of sin. I cut it out wherever I find it. Where there are witches I seek them out and burn them. Any Sorcerers I find, I prolong thier torture until death. [...] No sinner escapes my righteous WrathI am the surgeon of sin. I cut it out wherever I find it. Where there are witches I seek them out I am the surgeon of sin. I cut it out wherever I find it. Where there are witches I seek them out and burn them. Any Sorcerers I find, I prolong thier torture until death. [...] No sinner escapes my righteous Wrathand burn them. Any Sorcerers I find, I prolong thier torture until death. [...] No sinner escapes my righteous Wrath	false
+quotes_quote_onscreen_2103090002	Urblab Rotgut: "My name's Urblab Rotgut." \\nMorgan Bernhardt: "That's your problem"\\nUrblab Rotgut: "It's an honorable name among ogres, my name is."	false
+quotes_quote_onscreen_2103090003	Give no quarter, no pity, no mercy. Slay and slay again and you might live. Ready now. READY	false
+quotes_quote_onscreen_2103090004	Spit out the fear, drive out the dread with bloodlust	false
+quotes_quote_onscreen_2103090005	Matthias: "Another failure, the hand of nagash is unharmed and beyond our reach. Can't you do anything right ?" \\nMorgan Bernhardt: "I can chop off a witch hunters head and have my sword back in its scabbard within a single second."	false
+quotes_quote_onscreen_2103090006	I don't have your advantage: I can't fly here on my own hot air	false
+quotes_quote_onscreen_2103090007	Ogers make good fighters. Tell them, they're welcome, so long as they don't drink to much blood during battles	false
+quotes_quote_onscreen_2103090008	Ahh Matthias, fancing meeting you here. Have you taking time off from burning innocent women as witches?	false
+quotes_quote_onscreen_2103090009	How can you repay us? I give you a clue: they're round, they glitter and they fill bourses	false
+quotes_quote_onscreen_2103090010	Listen to the silence	false
+quotes_quote_onscreen_2103090011	Eusebio The Bleak: "They're to the north" \\nMorgan Bernhardt: "No, to the east" \\nEusebio The Bleak: "They're all arround us"	false
+quotes_quote_onscreen_2103090012	By Kislev, my axe will taste troll blood before this day is gone!	false
+quotes_quote_onscreen_2103090013	You smell of death - more than usual that is	false
+quotes_quote_onscreen_2103090014	Stand firm men - that which is dead may still burn	false
+quotes_quote_onscreen_2103090015	Hold the high ground men. Purge the evil with steel, arrows and fire! Protect the Helmgart!	false
+quotes_quote_onscreen_2103090016	These Blighted Towers are plagued by a pestilence that I'm here to cure - With steel and fire!	false
+quotes_quote_onscreen_2103090017	I live to cheat death	false
+quotes_quote_onscreen_2103090018	We'll part cold flesh with cold steel - PREPARE TO ENGAGE!	false
+quotes_quote_onscreen_2103090019	Matthias: "You're going into hell Bernhardt!" \\nMorgan: "I was born there; and call me Commander!"	false
+quotes_quote_onscreen_2103090020	Your souls will join our dark crusade!	false
+quotes_people_quote_person_onscreen_matthias	Matthias, Witch Hunter General	false
+quotes_people_quote_person_onscreen_morgan_bernhardt	Morgan Bernhardt, Grudgebringers Commader	false
+quotes_people_quote_person_onscreen_morgan_bernhardt2matthias	Morgan Bernhardt, Grudgebringers Commader and Matthias, Witch Hunter General	false
+quotes_people_quote_person_onscreen_morgan_bernhardt2urblab_rotgut	Morgan Bernhardt, Grudgebringers Commader and Urblab Rotgut, Mercenary Ogres Leader	false
+quotes_people_quote_person_onscreen_eusebio_the_bleak	Eusebio The Bleak, Flagellants Leader	false
+quotes_people_quote_person_onscreen_eric_ragnar	Eric Ragnar, Wolves Leader	false
+quotes_people_quote_person_onscreen_luther_flamestrike	Luther Flamestrike, Bright Wizard	false
+quotes_people_quote_person_onscreen_klaus	Klaus, Grudgebringers Mentor to the mayor of Bogenhafen	false
+quotes_people_quote_person_onscreen_gaston	Duke Gaston of Mortaine, Black Grail Leader	false
+quotes_people_quote_person_onscreen_bernhardt2emperor	Emperor Karl Franz to Morgan Bernhardt, Grudgebringers Commader	false
+quotes_people_quote_person_onscreen_morgan_bernhardt2eusebio_the_bleak	Morgan Bernhardt, Grudgebringers Commader and Eusebio The Bleak, Flagellants Leader	false
+names_name_210309011	Matthias	true
+missions_localised_title_matthias	Matthias, Witch Hunter General	true
+missions_localised_description_matthias	Day and night, Matthias is working to eradicate heresy in the Empire, not everyone approves of his actions, including Morgan Bernhardt, but everyone is definitely afraid.	true
+effect_bundles_localised_description_matthias_join	Day and night, Matthias is working to eradicate heresy in the Empire, not everyone approves of his actions, including Morgan Bernhardt, but everyone is definitely afraid.	true
+effect_bundles_localised_title_matthias_join	Matthias joins your faction!	true
+land_units_onscreen_name_matthias	Matthias	true
+unit_description_short_texts_text_matthias	Day and night, Matthias is working to eradicate heresy in the Empire, not everyone approves of his actions, including Morgan Bernhardt, but everyone is definitely afraid.	true
+unit_set_to_mp_unit_caps_localised_name_matthias	Matthias	true
+agent_subtypes_onscreen_name_override_matthias	Witch Hunter General	true
+agent_subtypes_description_text_override_matthias	Day and night, Matthias is working to eradicate heresy in the Empire, not everyone approves of his actions, including Morgan Bernhardt, but everyone is definitely afraid.	true
+ui_unit_groupings_onscreen_matthias	Witch Hunter General	true
+ui_unit_groupings_tooltip_matthias	Day and night, Matthias is working to eradicate heresy in the Empire, not everyone approves of his actions, including Morgan Bernhardt, but everyone is definitely afraid.	true
+missions_localised_title_luther_flamenstrike	Bright Wizard Luther Flamestrike	true
+missions_localised_description_luther_flamenstrike	Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to instability	true
+effect_bundles_localised_description_luther_flamenstrike_join	Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to instability	true
+effect_bundles_localised_title_luther_flamenstrike_join	Luther Flamestrike joins your faction!	true
+unit_description_short_texts_text_luther_flamenstrike	Stubborn and egotistical, also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern	true
+agent_subtypes_description_text_override_luther_flamenstrike	Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to instability	true
+ui_unit_groupings_tooltip_luther_flamenstrike	Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to instability	true
+agent_subtypes_onscreen_name_override_luther_flamenstrike	Bright Wizard	true
+ui_unit_groupings_onscreen_luther_flamenstrike	Bright Wizard	true
+names_name_210309012	Luther	true
+names_name_210309013	Flamestrike	true
+land_units_onscreen_name_luther_flamenstrike	Luther Flamestrike	true
+unit_set_to_mp_unit_caps_localised_name_luther_flamenstrike	Luther Flamestrike	true
+land_units_onscreen_name_luther_flamenstrike_mount	Luther Flamestrike	true
+ancillaries_onscreen_name_luther_flamenstrike_mount	Warhorse	true
+ancillaries_colour_text_luther_flamenstrike_mount	Luther Flamestrike's battle-tested warhorse	true
+character_skills_localised_name_luther_flamenstrike_mount	Warhorse	true
+character_skills_localised_description_luther_flamenstrike_mount	Luther Flamestrike's battle-tested warhorse	true
+units_custom_battle_mounts_mount_name_luther_flamenstrikeluther_flamenstrike_mount	Warhorse	true
+units_custom_battle_mounts_localised_description_luther_flamenstrikeluther_flamenstrike_mount	Luther Flamestrike's battle-tested warhorse	true
+ui_unit_groupings_tooltip_luther_flamenstrike_mount	Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to instability	true
+agent_subtypes_onscreen_name_override_luther_flamenstrike_mount	Bright Wizard	true
+ui_unit_groupings_onscreen_luther_flamenstrike_mount	Bright Wizard	true

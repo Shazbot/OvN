@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudgebringer_agent_subtype.loc		
+agent_subtypes_onscreen_name_override_ovn_grudge_camp_lord	Mercenary Camp Master	false
+agent_subtypes_description_text_override_ovn_grudge_camp_lord	Maintains the mercenary camp is weel run and doesn't decend into barbarity.	false

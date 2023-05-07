@@ -1,0 +1,16 @@
+
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/black_avangers_set1.variantmeshdefinition" />
+        <VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/black_avangers_set2.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/black_avangers_set3.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/black_avangers_set4.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/black_avangers_set4.variantmeshdefinition" />
+	</SLOT>
+		<SLOT attach_point="be_prop_0" name="weapon_1" />
+	<SLOT attach_point="be_prop_1" name="weapon_2"/>
+	<SLOT attach_point="be_prop_2" name="shield" />
+	<SLOT attach_point="be_prop_3" name="weapon_3" />
+	<SLOT attach_point="be_prop_4" name="weapon_4" />
+	<SLOT attach_point="be_prop_5" name="weapon_5"/>
+	</VARIANT_MESH>
