@@ -1,0 +1,10 @@
+id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_uniform	land_animation	sea_animation	navy_animation	land_animation_vfx_filter	sea_animation_vfx_filter	navy_animation_vfx_filter
+#campaign_character_arts_tables;0;db/campaign_character_arts_tables/ovn_grudgebringers																
+21030901	ceridan	0	0		none	ceridan			wh2_main_campaign_hef_ship_agent	wh2_main_campaign_hef_ship_agent	cam_hu1d_elf_sword	cam_medium_ship_05	cam_medium_ship_05	0	0	0
+21030902	ice_mage_vladimir_stormbringer	0	0		none	ice_mage_vladimir_stormbringer			wh3_uniform_ksl_ship_lord	wh3_uniform_ksl_ship_lord	cam_lord_hu1_wh3_katarin_staff_and_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0
+21030904	dwarf_envoy	0	0		none	dwarf_envoy			wh_main_campaign_dwf_ship_light	wh_main_campaign_emp_ship_heavy	cam_hero_hu3_pr7_gotrex_axe	cam_medium_ship_05	cam_medium_ship_05	0	0	0
+21030903	morgan_bernhardt	0	0		none	morgan_bernhardt			wh_main_campaign_dwf_ship_light	wh_main_campaign_dwf_ship_heavy	cam_hu1_morgan_sword_and_shield	cam_medium_ship_05	cam_medium_ship_05	0	0	0
+210309051	gaston	0	0		none	gaston			wh_main_campaign_vmp_ship_light	wh_main_campaign_vmp_ship_heavy	cam_hu1_grail_leoncoeur_sword_and_shield	cam_medium_ship_05	cam_medium_ship_05	0	0	0
+210309061	ludwig_uberdorf_art_set	0	0		none	ludwig_uberdorf_agent_uniforms			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_sword_and_shield	cam_light_ship_03	cam_heavy_ship_03	0	0	0
+21030907	matthias	0	0		none	matthias			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_empire_sword_and_shield	cam_light_ship_03	cam_heavy_ship_03	0	0	0
+21030908	luther_flamenstrike	0	0		none	luther_flamenstrike			wh_main_campaign_emp_ship_light	wh_main_campaign_emp_ship_heavy	cam_hu1_morgan_sword_and_shield	cam_light_ship_03	cam_heavy_ship_03	0	0	0

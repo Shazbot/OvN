@@ -1,0 +1,66 @@
+key	text	tooltip
+#Loc;1;text/db/dark_omen_ror_ui_unit_groupings__core.loc		
+ui_unit_groupings_onscreen_grudgebringer_infantry	Heavy Sword Infantry	true
+ui_unit_groupings_tooltip_grudgebringer_infantry	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_grudgebringer_cannon	Cannons	true
+ui_unit_groupings_onscreen_imperial_cannon_darius_flugenheim	Cannons	true
+ui_unit_groupings_tooltip_grudgebringer_cannon	Top of their marksmanship class at the Nuln Artillery College.	true
+ui_unit_groupings_tooltip_imperial_cannon_darius_flugenheim	This machine fires heavy cannonballs which can tear through enemy regiments and light buildings with ease, but is progressively more inaccurate the further it fires.	true
+ui_unit_groupings_onscreen_grudgebringer_crossbow	Heavy Crossbow Infantry	true
+ui_unit_groupings_tooltip_grudgebringer_crossbow	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_grudgebringer_cavalry	Heavy Sword & Shield Cavalry	true
+ui_unit_groupings_tooltip_grudgebringer_cavalry	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_keelers_longbows	Experienced Archers	true
+ui_unit_groupings_tooltip_keelers_longbows	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_helmgart_bowmen	Experienced Archers	true
+ui_unit_groupings_tooltip_helmgart_bowmen	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_dargrimm_firebeard_dwarf_warriors	Dwarf Axe Warriors	true
+ui_unit_groupings_tooltip_dargrimm_firebeard_dwarf_warriors	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_azguz_bloodfist_dwarf_warriors	Dwarf Axe Warriors	true
+ui_unit_groupings_tooltip_azguz_bloodfist_dwarf_warriors	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_urblab_rotgut_mercenary_ogres	Monstrous Infantry - Ogres	true
+ui_unit_groupings_tooltip_urblab_rotgut_mercenary_ogres	These massive creatures stand twice as tall as a man 	true
+ui_unit_groupings_onscreen_galed_elf_archers	Experienced Archers	true
+ui_unit_groupings_tooltip_galed_elf_archers	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_elrod_wood_elf_glade_guards	Spear Infantry	true
+ui_unit_groupings_tooltip_elrod_wood_elf_glade_guards	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_treeman_knarlroot	Monster - Treeman	true
+ui_unit_groupings_tooltip_treeman_knarlroot	These extremely large creatures are incredibly strong and tough.	true
+ui_unit_groupings_onscreen_black_avangers	Sword Infantry	true
+ui_unit_groupings_tooltip_black_avangers	Sword Infantry	true
+ui_unit_groupings_onscreen_carlsson_guard	Sword Infantry	true
+ui_unit_groupings_tooltip_carlsson_guard	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_carlsson_cavalry	Longsword Cavalry	true
+ui_unit_groupings_tooltip_carlsson_cavalry	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_countess_guard	Halberd Infantry	true
+ui_unit_groupings_tooltip_countess_guard	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_vannheim_75th	Heavy Sword & Shield Cavalry	true
+ui_unit_groupings_tooltip_vannheim_75th	Siegfried Vannheim is a well renowned mercenary captain.	true
+ui_unit_groupings_onscreen_treeman_gnarl_fist	Monster - Treeman	true
+ui_unit_groupings_tooltip_treeman_gnarl_fist	These extremely large creatures are incredibly strong and tough.	true
+ui_unit_groupings_onscreen_ragnar_wolves	Heavy Axe Cavalry	true
+ui_unit_groupings_tooltip_ragnar_wolves	Eric Ragnar, a personal friend of Bernhardt.	true
+ui_unit_groupings_onscreen_skeleton_archers	Skeleton Archers	true
+ui_unit_groupings_tooltip_skeleton_archers	Skeleton Archers are armed with standard bows. Their skill as archers is relatively poor, but they are equally as good hand-to-hand fighters as Skeleton Warriors and will never flee from hand-to-hand combat.	true
+ui_unit_groupings_onscreen_uter_blomkwist_imperial_mortar	Mortars	true
+ui_unit_groupings_tooltip_uter_blomkwist_imperial_mortar	This machine fires explosive shells high into the air, sending them crashing into enemy ranks. It has an extremely long range and can shoot over obstacles and terrain as the shell is fired in an arc, but it is progressively more inaccurate the further it fires.	true
+ui_unit_groupings_onscreen_morgan_bernhardt	Morgan Bernhardt	true
+ui_unit_groupings_tooltip_morgan_bernhardt	Morgan was born and raised in the imperial city of Nuln, famed for its Gunnery School, Master Engineers and all things gunpowder. The city was a paradise for many, but for Morgan it was a banal and unchanging city, mired in conduct and blinded by its own decadence. Being the eldest son in his family, he was sent away to the officers academy, as was the custom for the City.\\n\\nHe spent four long years learning the intricacies of battle, swordsmanship and of course, artillery. The long studying of formations and artillery bored him senseless and he gained a reputation as an exceptional, yet troublesome student, as he failed to show up for most classes, feeling that his skills were outpacing the curriculum.\\n\\nFor Bernheardt, it was the Cavalry where his true passions lay, he was said to be able to outride even the Reiksguard knights whenever they passed the great city and was well known for goading his fellow nobles into races and other such events where horses and wagers were involved.\\n\\nHis disregard for the rules, reckless behaviour and lust for adventure eventually got him expelled from the academy, much to Bernhardt’s relief, though this would haunt him for years to come, as he was denied entry from every knightly order in the Empire he attempted to join, even the Pistoliers would have nothing to do with his insubordination (much to the delight of his former peers and teachers).\\n\\nThis is how Morgan Bernhardt got the Grudgebringer. A young Morgan Bernhardt had failed several times to become part of the Empire's knightly orders and went to drown his sorrows in a inn. After some drunken back and forth with the patrons of the bar, Morgan gave a inspiring speech about forming an army better than knightly order.\\n\\nThis impressed the patrons that they offered to be the first soldiers of the Grudgebringers company. A eccenric old Bright wizard (a wizard skilled in the Lore of Fire) then comes and declares his admiration, since he's too old to join and fight he gives Bernhard his magical sword, the Grudgebringer and tells him to make good use of it.\\n\\nMorgan's mercenaries have enjoyed a properous first year of operation, commanding an unsullied respect on their home turf in the Imperial probvince of the Reikland. The Grudgebringers have since marched to the troubled Border Princes where they hope to join a major campaign to prove themselves worthy of greater fortunes. The Grudgebringers are composed primarily of both cavalry, led by Morgan, and heavy infantry led by Lieutenant Schepke.	true
+ui_unit_groupings_onscreen_dwarf_envoy	Engrol Goldtongue	true
+ui_unit_groupings_tooltip_dwarf_envoy	Engrol Goldtongue is the official Dwarf Envoy from the fortress of Zhufbar. His skills in diplomacy are unnaturally proficient for a Dwarf and he has resolved many quarrels with the Empire in his career which spans over two centuries.	true
+ui_unit_groupings_onscreen_stephan_weiss_outlaw_pistoliers	Missile Cavalry	true
+ui_unit_groupings_tooltip_stephan_weiss_outlaw_pistoliers	These young mercenaries are fairly inexperienced, but make an exceptional rapid response force. Under the guidance of their disillusioned leader they have abandoned the Empire to fight outside the law. In combat their skills are average but they carry pistols, which only have a very short range yet are powerful enough to penetrate most armour.	true
+ui_unit_groupings_onscreen_boris_von_raukov_4th_nuln_halberdiers	Halberdiers	true
+ui_unit_groupings_tooltip_boris_von_raukov_4th_nuln_halberdiers	Boris von Raukov is Valmir's eighth son. He left Ostland to pursue a military career. He is currently the captain of the 4th Nuln Halberdiers, a mercenary regiment based in the city of Nuln, who fought alongside the Grudgebringers.	true
+ui_unit_groupings_onscreen_jurgen_muntz_outlaw_infantry	Close-Quarters Infantry	true
+ui_unit_groupings_tooltip_jurgen_muntz_outlaw_infantry	These highly trained warriors were once swordsmen of the Empire. However, under the influence of their leader Jurgen Muntz, they have abandoned the Empire to fight outside the law for greater material gain.	true
+ui_unit_groupings_onscreen_dieter_schaeffer_carroburg_greatswords	Greatsword Infantry	true
+ui_unit_groupings_tooltip_dieter_schaeffer_carroburg_greatswords	Imperial Greatswords, like all swordsmen of the Empire, are highly trained and proficient fighters. The swords they wield are so large they must be swung with both hands and therefore strike with great force. Due to this fact these troops are limited in the amount of armour they can utilise.	true
+ui_unit_groupings_onscreen_knights_of_the_realm_bertrand_le_grande	Heavy Sword & Shield Cavalry	true
+ui_unit_groupings_tooltip_knights_of_the_realm_bertrand_le_grande	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_grail_knights_tristan_de_la_tourtristan_de_la_tour	Heavy Sword & Shield Cavalry	true
+ui_unit_groupings_tooltip_grail_knights_tristan_de_la_tourtristan_de_la_tour	These mercenaries are highly experienced and proficient fighters.	true
+ui_unit_groupings_onscreen_flagellants_eusebio_the_bleak	Mace Infantry	true
+ui_unit_groupings_tooltip_flagellants_eusebio_the_bleak	Flagellants are men who have been driven over the edge of sanity by some personal disaster or catastrophe, causing them to travel the Empire preaching their nightmare visions of doom. Their madness gives them superhuman strength and resilience and they fight with outstanding fury. Flagellants wear only tattered robes and will not wear armour.	true
+ui_unit_groupings_onscreen_dwarf_envoy_dwarf_warriors	Dwarf Axe Warriors	true
+ui_unit_groupings_tooltip_dwarf_envoy_dwarf_warriors	Dwarf Envoy's bodyguard of fierce dwarf warriors are completely loyal and will protect him in battle to the last	true

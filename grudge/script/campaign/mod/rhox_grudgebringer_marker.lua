@@ -36,7 +36,9 @@ local force_to_faction_name ={
     ["ovn_gru_tzeentch_force"]="wh3_main_tze_tzeentch_qb1",
     ["ovn_gru_slaanesh_force"]="wh3_main_sla_slaanesh_qb1",
     ["ovn_gru_undead_force"]="wh_main_vmp_vampire_counts_qb1",
-    ["ovn_gru_chorf_force"]="wh3_dlc23_chd_chaos_dwarfs_qb1"
+    ["ovn_gru_troll_force"]="ovn_troll_gobblers",
+    ["ovn_gru_chorf_force"]="wh3_dlc23_chd_chaos_dwarfs_qb1",
+    ["ovn_gru_slayer_force"]="wh_main_dwf_dwarfs_qb1"
 }
 
 local rhox_grudgebringer_reinforcements_list ={
@@ -93,8 +95,14 @@ local faction_key_to_random_faction_name={
     wh_main_vmp_vampire_counts_qb1 = {
         "Black Grail Legion","Hand's Awakened","Carstein's Risen", "Dread King's Horde", "Skabskrath Holders"
     },
+    ovn_troll_gobblers = {
+        "Gobbler Tribe"
+    },
     wh3_dlc23_chd_chaos_dwarfs_qb1 = {
         "Bull Raiders","Hashut Slavers","Thunder Skull-Splitter"
+    },
+    wh_main_dwf_dwarfs_qb1 = {
+        "Slayers"
     }
 }
 
@@ -125,9 +133,7 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -225,10 +231,7 @@ local event_table = {
             probability = probability-3
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -324,10 +327,7 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
-		
+
 		return {probability,eventname}
 		
 	end,
@@ -421,10 +421,7 @@ local event_table = {
             probability = probability+3
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -520,11 +517,7 @@ local event_table = {
             probability = probability+3
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
-		
+
 		return {probability,eventname}
 		
 	end,
@@ -621,9 +614,7 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -722,10 +713,7 @@ local event_table = {
             probability = probability+3
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -823,9 +811,6 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
 		
 		return {probability,eventname}
 		
@@ -923,9 +908,6 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
 		--probability= 1000000000
 		return {probability,eventname}
 		
@@ -1023,9 +1005,7 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -1125,11 +1105,7 @@ local event_table = {
             probability = probability+4
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
-		
+
 		return {probability,eventname}
 		
 	end,
@@ -1230,10 +1206,7 @@ local event_table = {
             probability = probability+4
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		return {probability,eventname}
 		
@@ -1333,10 +1306,6 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
-		
 		--probability = 900;
 		return {probability,eventname}
 		
@@ -1435,10 +1404,6 @@ local event_table = {
 		end
 		
 		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
-		
 		return {probability,eventname}
 		
 	end,
@@ -1535,10 +1500,7 @@ local event_table = {
             probability = probability+3
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		--probability = 900;
 		return {probability,eventname}
 		
@@ -1612,6 +1574,455 @@ local event_table = {
 	end,
 	true},
 	
+	["MarkerBattleP"] = 
+	--slayers
+	{function(world_conditions)
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		local enemy_faction_name = "nobody"  --default, will cover if there is a region owner
+        if enemy_faction then
+            enemy_faction_name = event_region:owning_faction():name()
+        end
+		
+        local eventname = "MarkerBattleP".."?"
+			..event_region:name().."*"
+			..enemy_faction_name.."*";
+		out("Rhox Grudge: eventname string: "..eventname)
+		local probability = 3;
+		
+		
+		local player_faction = world_conditions["faction"];
+		if enemy_faction and enemy_faction:culture()=="wh_main_dwf_dwarfs" then --Increased probability in Dwarf holding region
+            out("Rhox Grudge: This region is owned by Dwarf, adding probability")
+            probability = probability+3
+		end
+		
+		
+
+		--probability = 900;
+		return {probability,eventname}
+		
+	end,
+	--enacts everything for the event: creates battle, fires dilemma etc. [2]
+	function(event_conditions,character)
+		
+		out.design("MarkerBattleP action called")
+		local dilemma_name = "rhox_grudgebringer_battle_p";
+		
+		--Decode the string into arguments-- Need to specify the argument encoding
+		local decoded_args = rhox_grudgebringer_read_out_event_params(event_conditions,3);
+		
+		local target_faction = decoded_args[2];
+		local enemy_faction;
+		local target_region = decoded_args[1];
+		local custom_option;
+		
+		local attacking_force, target_force_name = rhox_grudgebringer_generate_attackers("battle_p", character:military_force())  --we're not going to use bandit threat
+		enemy_faction = force_to_faction_name[target_force_name]
+		out("Rhox Grudge: force name: "..target_force_name)
+		out("Rhox Grudge: Enemy faction name: "..enemy_faction)
+		
+
+        local enemy_cqi = rhox_grudgebringer_attach_battle_to_dilemma(
+                                                dilemma_name,
+                                                character,
+                                                attacking_force,
+                                                true,
+                                                target_faction,
+                                                enemy_faction,
+                                                target_region,
+                                                custom_option
+                                                );
+        
+        --Trigger dilemma to be handled by aboove function
+        local faction_cqi = character:faction():command_queue_index();
+        local settlement_target = cm:get_region(target_region):settlement();
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+            
+        --Trigger dilemma to be handled by above function
+        local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
+        local payload_builder = cm:create_payload();
+        
+        
+        
+        
+        local mod = 1 + (character:faction():bonus_values():scripted_value("contracts_treasury_payload_modifier", "value") / 100);
+        local money = 2000 * mod;
+        
+        payload_builder:treasury_adjustment(money);
+        payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
+        dilemma_builder:add_choice_payload("FIRST", payload_builder);
+        payload_builder:clear();
+        
+        
+        dilemma_builder:add_target("default", cm:get_military_force_by_cqi(enemy_cqi));
+        dilemma_builder:add_target("target_military_1", character:military_force());
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+        cm:launch_custom_dilemma_from_builder(dilemma_builder, character:faction());
+	end,
+	true},
+	
+	["MarkerBattleQ"] = 
+	--Human ambush
+	{function(world_conditions)
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		local enemy_faction_name = "nobody"  --default, will cover if there is a region owner
+        if enemy_faction then
+            enemy_faction_name = event_region:owning_faction():name()
+        end
+		
+        local eventname = "MarkerBattleQ".."?"
+			..event_region:name().."*"
+			..enemy_faction_name.."*";
+		out("Rhox Grudge: eventname string: "..eventname)
+		local probability = 3;
+		
+		
+		local player_faction = world_conditions["faction"];
+
+		
+		
+
+		--probability = 900;
+		return {probability,eventname}
+		
+	end,
+	--enacts everything for the event: creates battle, fires dilemma etc. [2]
+	function(event_conditions,character)
+		
+		out.design("MarkerBattleQ action called")
+		local dilemma_name = "rhox_grudgebringer_battle_q";
+		
+		--Decode the string into arguments-- Need to specify the argument encoding
+		local decoded_args = rhox_grudgebringer_read_out_event_params(event_conditions,3);
+		
+		local target_faction = decoded_args[2];
+		local enemy_faction;
+		local target_region = decoded_args[1];
+		local custom_option;
+		
+		local attacking_force, target_force_name = rhox_grudgebringer_generate_attackers("battle_q", character:military_force())  --we're not going to use bandit threat
+		enemy_faction = force_to_faction_name[target_force_name]
+		out("Rhox Grudge: force name: "..target_force_name)
+		out("Rhox Grudge: Enemy faction name: "..enemy_faction)
+		
+
+        local enemy_cqi = rhox_grudgebringer_attach_battle_to_dilemma(
+                                                dilemma_name,
+                                                character,
+                                                attacking_force,
+                                                true,
+                                                target_faction,
+                                                enemy_faction,
+                                                target_region,
+                                                custom_option
+                                                );
+        
+        --Trigger dilemma to be handled by aboove function
+        local faction_cqi = character:faction():command_queue_index();
+        local settlement_target = cm:get_region(target_region):settlement();
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+            
+        --Trigger dilemma to be handled by above function
+        local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
+        local payload_builder = cm:create_payload();
+        
+        
+        
+        
+        local mod = 1 + (character:faction():bonus_values():scripted_value("contracts_treasury_payload_modifier", "value") / 100);
+        local money = 2000 * mod;
+        
+        payload_builder:treasury_adjustment(money);
+        payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
+        dilemma_builder:add_choice_payload("FIRST", payload_builder);
+        payload_builder:clear();
+        
+        
+        dilemma_builder:add_target("default", cm:get_military_force_by_cqi(enemy_cqi));
+        dilemma_builder:add_target("target_military_1", character:military_force());
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+        cm:launch_custom_dilemma_from_builder(dilemma_builder, character:faction());
+	end,
+	true},
+	
+	["MarkerBattleR"] = 
+	--Greenskin Ambush
+	{function(world_conditions)
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		local enemy_faction_name = "nobody"  --default, will cover if there is a region owner
+        if enemy_faction then
+            enemy_faction_name = event_region:owning_faction():name()
+        end
+		
+        local eventname = "MarkerBattleR".."?"
+			..event_region:name().."*"
+			..enemy_faction_name.."*";
+		out("Rhox Grudge: eventname string: "..eventname)
+		local probability = 3;
+		
+		
+		local player_faction = world_conditions["faction"];
+		if enemy_faction and enemy_faction:culture()=="wh_main_grn_greenskins" then --increased probabiolity in Greenskin's lands
+            out("Rhox Grudge: This region is owned by Greenskins, adding probability")
+            probability = probability+3
+		end
+		
+		
+
+		--probability = 900;
+		return {probability,eventname}
+		
+	end,
+	--enacts everything for the event: creates battle, fires dilemma etc. [2]
+	function(event_conditions,character)
+		
+		out.design("MarkerBattleR action called")
+		local dilemma_name = "rhox_grudgebringer_battle_r";
+		
+		--Decode the string into arguments-- Need to specify the argument encoding
+		local decoded_args = rhox_grudgebringer_read_out_event_params(event_conditions,3);
+		
+		local target_faction = decoded_args[2];
+		local enemy_faction;
+		local target_region = decoded_args[1];
+		local custom_option;
+		
+		local attacking_force, target_force_name = rhox_grudgebringer_generate_attackers("battle_r", character:military_force())  --we're not going to use bandit threat
+		enemy_faction = force_to_faction_name[target_force_name]
+		out("Rhox Grudge: force name: "..target_force_name)
+		out("Rhox Grudge: Enemy faction name: "..enemy_faction)
+		
+
+        local enemy_cqi = rhox_grudgebringer_attach_battle_to_dilemma(
+                                                dilemma_name,
+                                                character,
+                                                attacking_force,
+                                                true,
+                                                target_faction,
+                                                enemy_faction,
+                                                target_region,
+                                                custom_option
+                                                );
+        
+        --Trigger dilemma to be handled by aboove function
+        local faction_cqi = character:faction():command_queue_index();
+        local settlement_target = cm:get_region(target_region):settlement();
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+            
+        --Trigger dilemma to be handled by above function
+        local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
+        local payload_builder = cm:create_payload();
+        
+        
+        
+        
+        local mod = 1 + (character:faction():bonus_values():scripted_value("contracts_treasury_payload_modifier", "value") / 100);
+        local money = 2500 * mod;
+        
+        payload_builder:treasury_adjustment(money);
+        payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
+        dilemma_builder:add_choice_payload("FIRST", payload_builder);
+        payload_builder:clear();
+        
+        
+        dilemma_builder:add_target("default", cm:get_military_force_by_cqi(enemy_cqi));
+        dilemma_builder:add_target("target_military_1", character:military_force());
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+        cm:launch_custom_dilemma_from_builder(dilemma_builder, character:faction());
+	end,
+	true},
+	
+	["MarkerBattleS"] = 
+	--Vampire Count ambush
+	{function(world_conditions)
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		local enemy_faction_name = "nobody"  --default, will cover if there is a region owner
+        if enemy_faction then
+            enemy_faction_name = event_region:owning_faction():name()
+        end
+		
+        local eventname = "MarkerBattleS".."?"
+			..event_region:name().."*"
+			..enemy_faction_name.."*";
+		out("Rhox Grudge: eventname string: "..eventname)
+		local probability = 3;
+		
+		
+		local player_faction = world_conditions["faction"];
+		if enemy_faction and enemy_faction:culture()=="wh_main_vmp_vampire_counts" then --increased probabiolity in Undead lands
+            out("Rhox Grudge: This region is owned by Vampire Counts, adding probability")
+            probability = probability+3
+		end
+		
+		
+
+		--probability = 900;
+		return {probability,eventname}
+		
+	end,
+	--enacts everything for the event: creates battle, fires dilemma etc. [2]
+	function(event_conditions,character)
+		
+		out.design("MarkerBattleS action called")
+		local dilemma_name = "rhox_grudgebringer_battle_s";
+		
+		--Decode the string into arguments-- Need to specify the argument encoding
+		local decoded_args = rhox_grudgebringer_read_out_event_params(event_conditions,3);
+		
+		local target_faction = decoded_args[2];
+		local enemy_faction;
+		local target_region = decoded_args[1];
+		local custom_option;
+		
+		local attacking_force, target_force_name = rhox_grudgebringer_generate_attackers("battle_s", character:military_force())  --we're not going to use bandit threat
+		enemy_faction = force_to_faction_name[target_force_name]
+		out("Rhox Grudge: force name: "..target_force_name)
+		out("Rhox Grudge: Enemy faction name: "..enemy_faction)
+		
+
+        local enemy_cqi = rhox_grudgebringer_attach_battle_to_dilemma(
+                                                dilemma_name,
+                                                character,
+                                                attacking_force,
+                                                true,
+                                                target_faction,
+                                                enemy_faction,
+                                                target_region,
+                                                custom_option
+                                                );
+        
+        --Trigger dilemma to be handled by aboove function
+        local faction_cqi = character:faction():command_queue_index();
+        local settlement_target = cm:get_region(target_region):settlement();
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+            
+        --Trigger dilemma to be handled by above function
+        local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
+        local payload_builder = cm:create_payload();
+        
+        
+        
+        
+        local mod = 1 + (character:faction():bonus_values():scripted_value("contracts_treasury_payload_modifier", "value") / 100);
+        local money = 2000 * mod;
+        
+        payload_builder:treasury_adjustment(money);
+        payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
+        dilemma_builder:add_choice_payload("FIRST", payload_builder);
+        payload_builder:clear();
+        
+        
+        dilemma_builder:add_target("default", cm:get_military_force_by_cqi(enemy_cqi));
+        dilemma_builder:add_target("target_military_1", character:military_force());
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+        cm:launch_custom_dilemma_from_builder(dilemma_builder, character:faction());
+	end,
+	true},
+	
+	["MarkerBattleT"] = 
+	--Skaven ambush
+	{function(world_conditions)
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		local enemy_faction_name = "nobody"  --default, will cover if there is a region owner
+        if enemy_faction then
+            enemy_faction_name = event_region:owning_faction():name()
+        end
+		
+        local eventname = "MarkerBattleT".."?"
+			..event_region:name().."*"
+			..enemy_faction_name.."*";
+		out("Rhox Grudge: eventname string: "..eventname)
+		local probability = 3;
+		
+		
+		local player_faction = world_conditions["faction"];
+		if enemy_faction and enemy_faction:culture()=="wh2_main_skv_skaven" then --increased probabiolity in Skaven's lands
+            out("Rhox Grudge: This region is owned by Skavens, adding probability")
+            probability = probability+3
+		end
+		
+		
+
+		--probability = 900;
+		return {probability,eventname}
+		
+	end,
+	--enacts everything for the event: creates battle, fires dilemma etc. [2]
+	function(event_conditions,character)
+		
+		out.design("MarkerBattleT action called")
+		local dilemma_name = "rhox_grudgebringer_battle_t";
+		
+		--Decode the string into arguments-- Need to specify the argument encoding
+		local decoded_args = rhox_grudgebringer_read_out_event_params(event_conditions,3);
+		
+		local target_faction = decoded_args[2];
+		local enemy_faction;
+		local target_region = decoded_args[1];
+		local custom_option;
+		
+		local attacking_force, target_force_name = rhox_grudgebringer_generate_attackers("battle_t", character:military_force())  --we're not going to use bandit threat
+		enemy_faction = force_to_faction_name[target_force_name]
+		out("Rhox Grudge: force name: "..target_force_name)
+		out("Rhox Grudge: Enemy faction name: "..enemy_faction)
+		
+
+        local enemy_cqi = rhox_grudgebringer_attach_battle_to_dilemma(
+                                                dilemma_name,
+                                                character,
+                                                attacking_force,
+                                                true,
+                                                target_faction,
+                                                enemy_faction,
+                                                target_region,
+                                                custom_option
+                                                );
+        
+        --Trigger dilemma to be handled by aboove function
+        local faction_cqi = character:faction():command_queue_index();
+        local settlement_target = cm:get_region(target_region):settlement();
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+            
+        --Trigger dilemma to be handled by above function
+        local dilemma_builder = cm:create_dilemma_builder(dilemma_name);
+        local payload_builder = cm:create_payload();
+        
+        
+        
+        
+        local mod = 1 + (character:faction():bonus_values():scripted_value("contracts_treasury_payload_modifier", "value") / 100);
+        local money = 2000 * mod;
+        
+        payload_builder:treasury_adjustment(money);
+        payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
+        dilemma_builder:add_choice_payload("FIRST", payload_builder);
+        payload_builder:clear();
+        
+        
+        dilemma_builder:add_target("default", cm:get_military_force_by_cqi(enemy_cqi));
+        dilemma_builder:add_target("target_military_1", character:military_force());
+        
+        out.design("Triggering dilemma:"..dilemma_name)
+        cm:launch_custom_dilemma_from_builder(dilemma_builder, character:faction());
+	end,
+	true},
+	
+	
+	
 	["MarkerFinalBattle"] = 
 	--final battle
 	{function(world_conditions)
@@ -1638,10 +2049,7 @@ local event_table = {
             probability = 0 --don't trigger this before turn 50 or do not trigger this again
 		end
 		
-		
-		if enemy_faction:name() == player_faction:name() then
-			probability = 0; --they don't have a city so, I think chance is null
-		end;
+
 		
 		--probability = 900;--temp
 		
@@ -2390,11 +2798,22 @@ function rhox_grudgebringer_create_marker_battle(character, enemy_force_cqi, x, 
 	cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed");
 	cm:disable_event_feed_events(true, "", "", "character_dies_battle");
 	
-	cm:force_attack_of_opportunity(
-        character:military_force():command_queue_index(),
-		enemy_force_cqi, 
-		is_ambush
-	);
+	
+	if is_ambush then --if it's ambush, enemy has to attack the player
+        cm:force_attack_of_opportunity(
+            enemy_force_cqi, 
+            character:military_force():command_queue_index(),
+            is_ambush
+        );
+	else
+        cm:force_attack_of_opportunity(
+            character:military_force():command_queue_index(),
+            enemy_force_cqi, 
+            is_ambush
+        );
+	end
+	
+	
 	
 	core:add_listener(
         "rhox_grudgebringer_unlock_retreat_button",
@@ -2415,79 +2834,102 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
 	
 	local difficulty = cm:get_difficulty(false);
 	local turn_number = cm:turn_number();
-	
+	local upa
+
+    if turn_number > 70 then
+        upa = 8
+    elseif turn_number  > 45 then
+        upa = 6
+    elseif turn_number > 20 then
+        upa = 4
+    else
+        upa = 1
+    end
 	
 	out("Rhox grudge: Current diffuiculty: "..tostring(difficulty))
 	out("Rhox grudge: Force name: "..force_name)
-	
-
 	
 	--return force name so we can figure out who to declare war
 	if force_name == "battle_a" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --5000 gold battle, 10 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --5000 gold battle, 10 should do it.  
     elseif force_name == "battle_b" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 8, false), enemy_force;  --4000 gold battle, 8 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --4000 gold battle, 8 should do it.  
     elseif force_name == "battle_c" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 5, false), enemy_force;  --2000 gold battle, 5 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+3, false), enemy_force;  --2000 gold battle, 5 should do it.  
     elseif force_name == "battle_d" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 6, false), enemy_force;  --3000 gold battle, 6 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+4, false), enemy_force;  --3000 gold battle, 6 should do it.  
     elseif force_name == "battle_e" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 8, false), enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it.
     elseif force_name == "battle_f" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 12, false), enemy_force;  --4000 gold battle, random ancillary ally reinforcements. 12 should do it
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --4000 gold battle, random ancillary ally reinforcements. 12 should do it
     elseif force_name == "battle_g" then
-        local enemy_force = "ovn_gru_greenskin_force"
-        return "wh2_twa03_grn_mon_wyvern_0,wh2_twa03_grn_mon_wyvern_0,wh2_twa03_grn_mon_wyvern_0", enemy_force;  
+        local enemy_force = "ovn_gru_dragon_force"
+        return random_army_manager:generate_force(enemy_force, upa, false), enemy_force;
     elseif force_name == "battle_h" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --3000 gold battle, 2~3 ally reinforcements. 50% chance to go to battle 10 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+7, false), enemy_force;  --3000 gold battle, 2~3 ally reinforcements. 50% chance to go to battle 10 should do it.
     elseif force_name == "battle_i" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 5, false)..",wh_main_emp_cha_captain_0,wh2_dlc17_emp_inf_prisoners_0,wh2_dlc17_emp_inf_prisoners_0", enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it. 5 random, 3 fixed
+        return random_army_manager:generate_force(enemy_force, upa+5, false)..",wh_main_emp_cha_captain_0,wh2_dlc17_emp_inf_prisoners_0,wh2_dlc17_emp_inf_prisoners_0", enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it. 5 random, 3 fixed
     elseif force_name == "battle_j" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --4000 gold battle, with 2~3 ally reinforcements. 10 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --4000 gold battle, with 2~3 ally reinforcements. 10 should do it.
     elseif force_name == "battle_k" then
         local enemy_force = "ovn_gru_skaven_force"
-        return random_army_manager:generate_force(enemy_force, 10, false), enemy_force;  --3500 gold battle+ancillary 10 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --3500 gold battle+ancillary 10 should do it.
     elseif force_name == "battle_l" then
         force_name = {"ovn_gru_vamp_coast_force", "ovn_gru_undead_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, 9, false), enemy_force;  --3000 gold battl+ancillary 9 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+7, false), enemy_force;  --3000 gold battl+ancillary 9 should do it.
     elseif force_name == "battle_m" then
-        local enemy_force = "ovn_gru_greenskin_force"
-        return "wh2_dlc15_grn_cha_river_troll_hag_0,wh2_dlc15_grn_mon_river_trolls_0,wh2_dlc15_grn_mon_stone_trolls_0,wh_main_grn_mon_trolls,wh_main_grn_mon_trolls,wh_main_grn_mon_trolls,wh_main_grn_mon_trolls", enemy_force;  
+        local enemy_force = "ovn_gru_troll_force"
+        return random_army_manager:generate_force(enemy_force, upa+4, false).."wh2_dlc15_grn_cha_river_troll_hag_0", enemy_force;
     elseif force_name == "battle_n" then
         local enemy_force = "ovn_gru_greenskin_force"
-        return random_army_manager:generate_force(enemy_force, 8, false), enemy_force;  --2500 gold battl+ancillary 8 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --2500 gold battl+ancillary 8 should do it.
     elseif force_name == "battle_o" then
+        local enemy_force = "ovn_gru_giant_force"
+        return random_army_manager:generate_force(enemy_force, upa+2, false), enemy_force;
+    elseif force_name == "battle_p" then
+        local enemy_force = "ovn_gru_slayer_force"
+        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;
+    elseif force_name == "battle_q" then
+        local enemy_force = "ovn_gru_human_force"
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+    elseif force_name == "battle_r" then
         local enemy_force = "ovn_gru_greenskin_force"
-        return "wh_main_grn_mon_giant,wh_main_grn_mon_giant,wh_main_grn_mon_giant,wh_main_grn_mon_giant,wh_main_grn_mon_giant", enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+    elseif force_name == "battle_s" then
+        local enemy_force = "ovn_gru_undead_force"
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+    elseif force_name == "battle_t" then
+        local enemy_force = "ovn_gru_skaven_force"
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
     elseif force_name == "final_battle" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
@@ -2908,9 +3350,19 @@ cm:add_first_tick_callback(
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_main_vmp_mon_varghulf", 1);
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_main_vmp_mon_dire_wolves", 1);
             
-            
-            
+            random_army_manager:new_force("ovn_gru_troll_force");
+            random_army_manager:add_unit("ovn_gru_troll_force", "wh2_dlc15_grn_mon_river_trolls_0", 1);
+            random_army_manager:add_unit("ovn_gru_troll_force", "wh2_dlc15_grn_mon_stone_trolls_0", 1);
+            random_army_manager:add_unit("ovn_gru_troll_force", "wh_main_grn_mon_trolls", 3);
 
+            random_army_manager:new_force("ovn_gru_dragon_force");
+            random_army_manager:add_unit("ovn_gru_dragon_force", "wh2_twa03_grn_mon_wyvern_0", 1);
+
+            random_army_manager:new_force("ovn_gru_giant_force");
+            random_army_manager:add_unit("ovn_gru_giant_force", "wh_main_grn_mon_giant", 1);
+
+            -- ALLIED REINFORCEMENT ARMIES
+            
             random_army_manager:new_force("ovn_gru_hef_force");
             random_army_manager:add_unit("ovn_gru_hef_force", "wh2_main_hef_inf_lothern_sea_guard_1", 1);
             
@@ -2938,6 +3390,11 @@ cm:add_first_tick_callback(
             random_army_manager:new_force("ovn_gru_teb_force");
             random_army_manager:add_unit("ovn_gru_teb_force", "wh_main_emp_inf_halberdiers", 2);
             random_army_manager:add_unit("ovn_gru_teb_force", "wh_main_emp_inf_crossbowmen", 1);
+            
+            random_army_manager:new_force("ovn_gru_slayer_force");
+            random_army_manager:add_unit("ovn_gru_slayer_force", "wh2_dlc10_dwf_inf_giant_slayers", 1);
+            random_army_manager:add_unit("ovn_gru_slayer_force", "wh_dlc06_dwf_inf_dragonback_slayers_0", 1);
+            random_army_manager:add_unit("ovn_gru_slayer_force", "wh_main_dwf_inf_slayers", 4);
         end
 	end
 )

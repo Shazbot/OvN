@@ -1,0 +1,7 @@
+key	texture_filename_base	category
+#warscape_animated_tables;2;db/warscape_animated_tables/@cr_grudgebringer_cannon		
+grb_grudgebringer_cannon	warmachines\tex	animation
+grudgebringer_cannon	warmachines\tex	animation
+uter_blomkwist_imperial_mortar	warmachines\tex	animation
+imperial_steam_tank_ludwig_uberdorf	warmachines/engines/imperial_steam_tank_ludwig_von_uberdorf/tex	animation
+grudgebringers_wagon	warmachines\tex	animation

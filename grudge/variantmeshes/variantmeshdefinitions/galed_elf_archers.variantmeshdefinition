@@ -1,0 +1,26 @@
+<VARIANT_MESH>
+	<SLOT name="torso">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\hef_gate_guard_torso_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\hef_shadow_warrior_torso_03.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\hef_shadow_warrior_torso_04.wsmodel" />
+	</SLOT>
+	<SLOT name="head">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\wef_wildwood_rangers_head_01_copy.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\wef_wildwood_rangers_head_02_copy.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\wef_wildwood_rangers_head_03_copy.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\wef_wildwood_rangers_head_04_copy.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\wef_wildwood_rangers_head_05_copy.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/wef_glade_guard_swords_set1.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\galed_elf_archers\wef_glade_guard_bow_01_rigid.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="weapon_4" attach_point="be_prop_4" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_guard_arrow_01.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

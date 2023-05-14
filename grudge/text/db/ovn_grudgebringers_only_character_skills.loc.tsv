@@ -1,0 +1,128 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_only_character_skills.loc		
+character_skills_localised_name_grudgebringers_campaign_quartermaster	Commander of the Grudgebringers	false
+character_skills_localised_description_grudgebringers_campaign_quartermaster	The eldest son of a minor Altdorf noble, Morgan decided to try out his luck as a mercenary captain after being expelled from he army for his fiery temper. As it happens, this temper is what would make him an outstanding sellsword commander...	false
+character_skills_localised_name_grudge_skill_attack_main1	Cavalry Assault	false
+character_skills_localised_name_grudge_skill_attack_main2	Saddle-Born	false
+character_skills_localised_name_grudge_skill_attack_side1	Constant Training	false
+character_skills_localised_name_grudge_skill_attack_side2	Regular Training	false
+character_skills_localised_name_grudge_skill_attack_side3	Stable Training	false
+character_skills_localised_name_grudge_skill_damage_main1	Forged Blades	false
+character_skills_localised_name_grudge_skill_damage_main2	Exotic Blades	false
+character_skills_localised_name_grudge_skill_damage_starter	Mercenary Training	false
+character_skills_localised_name_grudge_skill_defence_main1	Mounted Defense	false
+character_skills_localised_name_grudge_skill_defence_main2	Cavalry Bulwark	false
+character_skills_localised_name_grudge_skill_armour_main1	Crafted Heavy Armour	false
+character_skills_localised_name_grudge_skill_armour_main2	Masterpiece Armour	false
+character_skills_localised_name_grudge_skill_armour_side1	Fine Armour	false
+character_skills_localised_name_grudge_skill_armour_side2	Armour Enhancements	false
+character_skills_localised_name_grudge_skill_armour_side3	Good Armour	false
+character_skills_localised_name_grudge_skill_armour_starter	Simple Armour	false
+character_skills_localised_name_grudge_skill_deadly_onslaught	Deadly Onslaught	false
+character_skills_localised_name_grudge_skill_heroic_killing_blow	Killing Blow	false
+character_skills_localised_name_grudge_skill_missile_ward	Missile Warding	false
+character_skills_localised_description_grudge_skill_attack_main1	Only through training and experience do these men find mastery of mounted combat.	false
+character_skills_localised_description_grudge_skill_attack_main2	It's as if they were born in the saddle and have never left its embrace.	false
+character_skills_localised_description_grudge_skill_attack_side1	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_attack_side2	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_attack_side3	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_attack_starter	A good mercenary trains always.	false
+character_skills_localised_description_grudge_skill_damage_main1	These weapons are far superior to the mass-produced imperial steel.	false
+character_skills_localised_description_grudge_skill_damage_main2	After many campaigns in faraway lands, all manner of strange blades are wielded, forged by men, dwarfs and elves.	false
+character_skills_localised_description_grudge_skill_defence_main1	It's a truly difficult art to wield a sword and shield from horseback.	false
+character_skills_localised_description_grudge_skill_defence_main2	These men have no fear, they charge into the thick of battle and doggedly keep on fighting.	false
+character_skills_localised_description_grudge_skill_armour_main1	Specially crafted to allow for the best protection and manoeuvrability.	false
+character_skills_localised_description_grudge_skill_armour_main2	Forged by the greatest dwarfen smiths.	false
+character_skills_localised_description_grudge_skill_armour_starter	Worn, but still good armour.	false
+character_skills_localised_description_grudge_skill_deadly_onslaught	The war is endless. The cycle of charging, clashing, and bloody hand-to-hand fighting is without end. It will never stop.	false
+character_skills_localised_description_grudge_skill_heroic_killing_blow	There are powerful beings who can decapitate a dragon or plunge a sword into the heart of a gryphon in one mighty strike.	false
+character_skills_localised_description_grudge_skill_missile_ward	The relentless drive and fury of the Hammer, harnessed for the protection of this ward�s bearer.	false
+character_skills_localised_name_grudge_skill_mercenary	Fight or no Gold	false
+character_skills_localised_description_grudge_skill_mercenary	A mercenary army with honour such as the Grudgebringers know that bravery on the field keeps the coffers full and jobs a plenty	false
+character_skills_localised_name_grudge_skill_regiment_size	Hardened Regimental Commander	false
+character_skills_localised_description_grudge_skill_regiment_size	Increases the unit size of Bernhardt's personal cavalry unit.	false
+character_skills_localised_name_morgan_bernhardt_per_skill_01	Mercenary Commander	false
+character_skills_localised_name_morgan_bernhardt_per_skill_02	Paymaster Dietrich	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_undead	Masterful Tactics vs Undead	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_chaos	Masterful Tactics vs Chaos	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_beastmen	Masterful Tactics vs Beastmen	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_skaven	Masterful Tactics vs Skaven	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_greenskins	Masterful Tactics vs Greenskins	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_dark_elves	Masterful Tactics vs Dark Elves	false
+character_skills_localised_name_grudge_skill_bernhardt_bonus_vs_lizardmen	Masterful Tactics vs Lizardmen	false
+character_skills_localised_name_morgan_bernhardt_per_skill_04	To The Death!	false
+character_skills_localised_name_morgan_bernhardt_per_skill_03	Greenskin Slayer	false
+character_skills_localised_description_morgan_bernhardt_per_skill_01	Leader of the reknowned Grudgebringer mercenary army	false
+character_skills_localised_description_morgan_bernhardt_per_skill_02	The wily Paymaster to the Grudgebringers, prompt with the mens payment and haggling the best pay.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_undead	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_chaos	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_beastmen	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_skaven	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_greenskins	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_dark_elves	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_grudge_skill_bernhardt_bonus_vs_lizardmen	Countless battles teach mercenaries to fight with different kinds of enemies.	false
+character_skills_localised_description_morgan_bernhardt_per_skill_04	It's unclear as time goes by what drives Bernhardt, Glory, Gold or Bloodlust but either way he will see it through to the end.	false
+character_skills_localised_description_morgan_bernhardt_per_skill_03	Bernhardt and his men are no stranger to cutting down Greenskins and have done so over much of the Old World.	false
+character_skills_localised_name_grudge_skill_horn_of_urgok	Horn of Urgok	false
+character_skills_localised_description_grudge_skill_horn_of_urgok	This enchanted horn has the power to panic enemies and calm friendly troops with a single blast. When sounded, all enemy regiments within earshot may flee and all fleeing friendly regiments within range will rally themselves.	false
+character_skills_localised_name_grudge_skill_grudgebringer_sword	Grudgebringer Sword	false
+character_skills_localised_name_grudge_skill_hellfire_sword	Hellfire Sword	false
+character_skills_localised_name_grudge_skill_storm_sword	Storm Sword	false
+character_skills_localised_name_grudge_skill_runefang	Runefang	false
+character_skills_localised_name_grudge_skill_enchanted_shield	Enchanted Shield	false
+character_skills_localised_name_grudge_skill_shield_of_ptolos	Shield of Ptolos	false
+character_skills_localised_name_grudge_skill_spelleater_shield	Spelleater Shield	false
+character_skills_localised_name_grudge_skill_dragonhelm	Dragonhelm	false
+character_skills_localised_name_grudge_skill_wand_of_jet	Wand of Jet	false
+character_skills_localised_name_grudge_skill_banner_of_arcane_warding	Banner of Arcane Warding	false
+character_skills_localised_name_grudge_skill_banner_of_wrath	Banner of Wrath	false
+character_skills_localised_name_grudge_skill_banner_of_defiance	Banner of Defiance	false
+character_skills_localised_description_grudge_skill_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright magic Wizard Lord. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. Also, a fireball may be cast from the sword.	false
+character_skills_localised_description_grudge_skill_hellfire_sword	This sword is enchanted with the energy of Bright magic. Its magical power may be cast when the wielder is in melee, unleashing a fiery blast which wounds any troops in the vicinity.	false
+character_skills_localised_description_grudge_skill_storm_sword	This mighty sword channels the energy of Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast, summoning multiple lightning bolts from the sky which strike the enemy regiment.	false
+character_skills_localised_description_grudge_skill_runefang	Forged by a great Dwarf runesmith as a gift to the Empire, this sword has powerful Dwarf runes carved upon its blade. The sword strikes with such force it penetrates all armour, and any undead troops hit by the sword suffer twice the normal damage.	false
+character_skills_localised_description_grudge_skill_enchanted_shield	The Enchanted Shield provides the bearer's regiment with an extra level of armour. This item can only be utilised by troops who are normally able to use a shield.	false
+character_skills_localised_description_grudge_skill_shield_of_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs. The patterns magically distract arrows and bolts, sending them spinning off course. The bearer's regiment will be protected against missiles from bows, crossbows, war engines and so on. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
+character_skills_localised_description_grudge_skill_spelleater_shield	The Spelleater Shield is inscribed with symbols which have the power to absorb enemy magic. Whenever the bearer's regiment is the target of an enemy spell the shield has a good chance of absorbing the magic and channelling its power to any friendly mages. The shield can also negate the effects of enemy magic items. Additionally, the shield provides the bearer's regiment with a basic level of armour.	false
+character_skills_localised_description_grudge_skill_dragonhelm	This magic helmet protects the bearer's regiment from the effects of fire or flame attacks. The magical powers are so effective that almost all such attacks will be ineffective.	false
+character_skills_localised_description_grudge_skill_wand_of_jet	This powerful wand channels the energy of the winds of magic, providing the bearer with extra magical powers. Any spell in the bearer's repertoire can be cast for fewer magic points than it would normally cost, to a minimum of one point.	false
+character_skills_localised_description_grudge_skill_banner_of_arcane_warding	The banner of Arcane Warding is inscribed with sigils to twist magic aside and deflect it in unpredictable paths. When a hostile spell is cast against a regiment bearing this banner the spell is likely to be either negated or deflected towards the closest enemy regiment.	false
+character_skills_localised_description_grudge_skill_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	false
+character_skills_localised_description_grudge_skill_banner_of_defiance	This powerful banner infuses the bearer's regiment with extra courage, making them braver and more determined. A regiment bearing this banner will never break from hand-to-hand combat and is immune to fear.	false
+character_skills_localised_name_grudge_skill_shadow_of_the_horned_rat	Shadow of the Horned Rat	false
+character_skills_localised_name_grudge_skill_dark_omen	Dark Omen	false
+character_skills_localised_description_grudge_skill_shadow_of_the_horned_rat	These warriors are veterans of the "Shadow of the Horned Rat" campaign. They learned the hard way how to stop the Vermintide.	false
+character_skills_localised_description_grudge_skill_dark_omen	These warriors are veterans of the "Dark Omen" campaign. They know all to well, that the dead should not disturb the living and ensure they a put back to rest.	false
+character_skills_localised_name_ovn_grudge_soldiers_of_fortune	The Bonds of War	false
+character_skills_localised_description_ovn_grudge_soldiers_of_fortune	Many regiments have come and gone but those few that bear the Grudgebringer name have developed a brotherhood like no other.	false
+character_skills_localised_name_ovn_grudge_gold	For Gold	false
+character_skills_localised_description_ovn_grudge_gold	If death is a reward, I'll take it in gold coin, old friend. The glory we'll leave for others.	false
+character_skills_localised_name_ovn_grudge_glory	Greater than Glory	false
+character_skills_localised_description_ovn_grudge_glory	I don't give a damn about glory, I do what I must.	false
+character_skills_localised_description_morgan_bernhardt_battle_skill_01	Hack, hack and hack again, such is the bloody work of the mercenary.	false
+character_skills_localised_description_morgan_bernhardt_battle_skill_02	Bernhardt knows it's easier to hack down his enemies after softening them up with a few volleys.	false
+character_skills_localised_description_morgan_bernhardt_battle_skill_03	These mercenaries are legends of the battlefield, with few to call their equals.	false
+character_skills_localised_name_morgan_bernhardt_battle_skill_01	Hack them to Pieces!	false
+character_skills_localised_name_morgan_bernhardt_battle_skill_02	Shock and Awe	false
+character_skills_localised_name_morgan_bernhardt_battle_skill_03	Legendary Mercenary	false
+character_skills_localised_description_morgan_bernhardt_campaign_skill_01	New troops are always needed for a Mercenaries work is the most dangerous.	false
+character_skills_localised_description_morgan_bernhardt_campaign_skill_02	Like any skill the more you do it the better you get and Looting is no exception.	false
+character_skills_localised_description_morgan_bernhardt_campaign_skill_03	Mercenaries have no qualms hitching a ride with trade caravans, saves them walking and the merchants get protection.	false
+character_skills_localised_name_morgan_bernhardt_campaign_skill_01	Mercenary Recruiter	false
+character_skills_localised_name_morgan_bernhardt_campaign_skill_02	Skilled Looter	false
+character_skills_localised_name_morgan_bernhardt_campaign_skill_03	Caravan Hitch	false
+character_trait_levels_onscreen_name_ovn_morgan_bernhardt_defeat_trait	A Coin For Morr	true
+character_trait_levels_colour_text_ovn_morgan_bernhardt_defeat_trait	After so risking his life on so many adventures for gold and glory, Commander Bernhardt's luck has finally dried out. Rumours abound though, about an inkeeper in Ubersreik who looks an awful lot like him...	true
+character_trait_levels_explanation_text_ovn_morgan_bernhardt_defeat_trait	Defeated Morgan Bernhardt	true
+character_skills_localised_description_witch_hunter_general	Witch Hunter Generals is a title given to only the most devout and most accomplished Witch Hunters, taking orders only from the Lord Protector or the Supreme Council.	false
+character_skills_localised_name_witch_hunter_general	Witch Hunter General	false
+character_skills_localised_description_expert_marksman	Matthias’ training in melee combat is nothing to scoff at but his skilled marksmanship is what truly elevates him above other Witch Hunters. He is capable of expertly delivering holy justice with his silver flintlock.	false
+character_skills_localised_name_expert_marksman	Master of the Gun	false
+character_skills_localised_description_judge_jury_executioner	Witch Hunters who spend a majority of their lives hunting evil sometimes begin to see the marks of Chaos everywhere. Officially, men who go to these extremes are stipped of their rank and branded “Renegade Witch Hunters”. However, many within the Order, like Matthias, have gone too far in their pursuit of vanquishing evil.	false
+character_skills_localised_name_judge_jury_executioner	Judge, Jury and Executioner	false
+character_skills_localised_description_purifier_of_filth	"I am the surgeon of sin. I cut it out wherever I find it. Where there are witches I seek them out and burn them. Any Sorcerers I find, I prolong thier torture until death. No sinner escapes my righteous Wrath"\\n– Matthias	false
+character_skills_localised_name_purifier_of_filth	Purifier of Filth	false
+character_skills_localised_description_no_mercy_for_wicked	Once he is convinced of something, Matthias cannot be swayed to think otherwise. Even when the accused plead their innocence to Sigmar and Matthias himself as they are burned alive.	false
+character_skills_localised_name_no_mercy_for_wicked	No Mercy for the Wicked	false
+character_skills_localised_description_matthias_innate	Though most Witch Hunters are either considered to be heroes or scum who are no different to the ones they burn alive, Matthias is widely distructed and feared by those outside of the Holy Order of the Templars of Sigmar for his methods of delivering justice. 	false
+character_skills_localised_name_matthias_innate	Holy Templar of Sigmar	false

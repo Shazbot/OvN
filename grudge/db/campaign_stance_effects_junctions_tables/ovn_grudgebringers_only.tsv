@@ -1,0 +1,4 @@
+stance	culture	subculture	faction	force_type	effect_bundle	resource_cost
+#campaign_stance_effects_junctions_tables;1;db/campaign_stance_effects_junctions_tables/ovn_grudgebringers_only						
+MILITARY_FORCE_ACTIVE_STANCE_TYPE_SETTLE			ovn_emp_grudgebringers	CHARACTER_BOUND_HORDE	wh_main_bundle_stance_army_settlement_horde	
+MILITARY_FORCE_ACTIVE_STANCE_TYPE_FIXED_CAMP			ovn_emp_grudgebringers	OGRE_CAMP	ovn_gru_camp	

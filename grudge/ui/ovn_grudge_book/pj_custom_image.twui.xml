@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<layout version="138" comment="" precache_condition="">
+    <hierarchy>
+        <root this="D7DEAB2C-3DE6-487D-8E23-EBE5F710309E">
+            <icon_unit this="20C0F1C8-D008-4DD3-95F9-7E8F78AB5CDD"/>
+        </root>
+    </hierarchy>
+    <components>
+        <root this="D7DEAB2C-3DE6-487D-8E23-EBE5F710309E" id="root" tooltipslocalised="true" uniqueguid="D7DEAB2C-3DE6-487D-8E23-EBE5F710309E" currentstate="19463903-6996-420A-8EB1-4F1F9C0BC095" defaultstate="19463903-6996-420A-8EB1-4F1F9C0BC095">
+            <componentimages>
+                <component_image this="648494AC-3752-4987-99DC-9697CAE328DE" uniqueguid="648494AC-3752-4987-99DC-9697CAE328DE"/>
+            </componentimages>
+            <states>
+                <newstate this="19463903-6996-420A-8EB1-4F1F9C0BC095" name="NewState" width="1600" height="900" texthbehaviour="Never split" interactive="true" uniqueguid="19463903-6996-420A-8EB1-4F1F9C0BC095">
+                    <imagemetrics>
+                        <image this="659BD5C6-9D8C-4C71-A8DB-BDD494DC04B5" uniqueguid="659BD5C6-9D8C-4C71-A8DB-BDD494DC04B5" componentimage="93DE615F-78D8-45B2-8F3D2BCD703A69E6" width="1600" height="900" colour="#F0F0F0FF"/>
+                    </imagemetrics>
+                </newstate>
+            </states>
+        </root>
+        <icon_unit this="20C0F1C8-D008-4DD3-95F9-7E8F78AB5CDD" id="icon_unit" offset="0.00,0.00" allowhorizontalresize="false" allowverticalresize="false" visible="false" docking="Center Left" dock_offset="0.00,0.00" component_anchor_point="0.00,0.50" priority="12" tooltipslocalised="true" uniqueguid="20C0F1C8-D008-4DD3-95F9-7E8F78AB5CDD" currentstate="0A98D430-54DB-49B0-8F1E-65F86D35DE10" defaultstate="0A98D430-54DB-49B0-8F1E-65F86D35DE10">
+            <componentimages>
+                <component_image this="7F442E8A-416A-4290-A421-192077882010" uniqueguid="7F442E8A-416A-4290-A421-192077882010" imagepath="ui/units/icons/wh_main_grn_goblins_bow.png"/>
+            </componentimages>
+            <states>
+                <newstate this="0A98D430-54DB-49B0-8F1E-65F86D35DE10" name="NewState" width="100" height="100" texthbehaviour="Never split" interactive="true" uniqueguid="0A98D430-54DB-49B0-8F1E-65F86D35DE10">
+                    <imagemetrics>
+                        <image this="89E10DDD-1345-4F3A-855F-A5A77AE8361B" uniqueguid="89E10DDD-1345-4F3A-855F-A5A77AE8361B" componentimage="7F442E8A-416A-4290-A421-192077882010" width="100" height="100"/>
+                    </imagemetrics>
+                </newstate>
+            </states>
+        </icon_unit>
+    </components>
+</layout>

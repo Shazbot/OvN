@@ -1,0 +1,50 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudgebringer_effect.loc		
+effects_description_rhox_grudgebringer_piece_of_eight_1	Unlocks Regiment of Renown: Ragnar's Wolves	false
+effects_description_rhox_grudgebringer_piece_of_eight_2	Unlocks Regiment of Renown: Eusebio's Flagellants	false
+effects_description_rhox_grudgebringer_piece_of_eight_3	Unlocks Regiment of Renown: Azguz Bloodfist's Dwarf Warriors	false
+effects_description_rhox_grudgebringer_piece_of_eight_4	Unlocks Regiment of Renown: Dargrimm Firebeard's Dwarf Warriors	false
+effects_description_rhox_grudgebringer_piece_of_eight_5	Unlocks Regiment of Renown: Urblab Rotgut's Mercenary Ogres	false
+effects_description_rhox_grudgebringer_piece_of_eight_6	Unlocks Regiment of Renown: Elrod's Wood Elf Glade Guards	false
+effects_description_rhox_grudgebringer_piece_of_eight_7	Unlocks Regiment of Renown: Galed's Elf Archers	false
+effects_description_rhox_grudgebringer_piece_of_eight_8	Unlocks Regiment of Renown: Helmgart Bowmen	false
+effects_description_rhox_grudgebringer_piece_of_eight_9	Unlocks Regiment of Renown: Keeler's Longbows	false
+effects_description_rhox_grudgebringer_piece_of_eight_10	Unlocks Regiment of Renown: Black Avengers	false
+effects_description_rhox_grudgebringer_piece_of_eight_11	Unlocks Regiment of Renown: Carlsson's Guard	false
+effects_description_rhox_grudgebringer_piece_of_eight_12	Unlocks Regiment of Renown: Carlsson's Cavalry	false
+effects_description_rhox_grudgebringer_piece_of_eight_13	Unlocks Regiment of Renown: Vannheim's 75th	false
+effects_description_rhox_grudgebringer_piece_of_eight_14	Unlocks Regiment of Renown: Treeman Knarlroot	false
+effects_description_rhox_grudgebringer_piece_of_eight_15	Unlocks Regiment of Renown: Treeman Gnarl Fist	false
+effects_description_rhox_grudgebringer_piece_of_eight_16	Unlocks Regiment of Renown: Uter Blomkwist's Imperial Mortar	false
+effects_description_rhox_grudgebringer_piece_of_eight_17	Unlocks Regiment of Renown: Countess Guard	false
+effects_description_rhox_grudgebringer_piece_of_eight_18	Unlocks Regiment of Renown: Dieter Schaeffer Carroburg Greatswords	false
+effects_description_rhox_grudgebringer_piece_of_eight_19	Unlocks Regiment of Renown: Jurgen Muntz Outlaw Infantry	false
+effects_description_rhox_grudgebringer_piece_of_eight_20	Unlocks Regiment of Renown: Boris von Raukov 4th Nuln Halberdiers	false
+effects_description_rhox_grudgebringer_piece_of_eight_21	Unlocks Regiment of Renown: Stephan Weiss Outlaw Pistoliers	false
+effects_description_rhox_grudgebringer_piece_of_eight_22	Unlocks Regiment of Renown: Darius Flugenheim's Imperial Cannons 	false
+effects_description_rhox_grudgebringer_piece_of_eight_23	Unlocks Regiment of Renown: Tristan de la Tour's Grail Knights	false
+effects_description_rhox_grudgebringer_piece_of_eight_24	Unlocks Regiment of Renown: Bertrand le Grande's Knights of the Realm	false
+effects_description_ovn_grudge_effect_emp_camp_limit	Camp limit: %+n	false
+effects_description_rhox_grudge_every_turn_money_dummy	Treasury income per turn: %+n	false
+effects_description_rhox_grudge_diplo_reward_bonus	Diplomatic relationship bonus from contracts and settlement return: %+n%	false
+effects_description_rhox_grudge_market_price	Reduce Ancillary costs from all Traders by %+n%	false
+effects_description_rhox_grudge_bonus_unit_from_settlement	Increase maximum number of units from returning settlements by %+n	false
+effects_description_rhox_grudge_bonus_money_from_settlement	Treasury income from settlement return: %+n%	false
+effects_description_rhox_grudgebringer_lh_reward_bundle_1	Ludwig von Uberdorf will join your forces	false
+effects_description_rhox_grudgebringer_lh_reward_bundle_2	Ceridan will join your forces	false
+effects_description_rhox_grudgebringer_lh_reward_bundle_3	Vladimir Stormbringer will join your forces	false
+effects_description_rhox_grudgebringer_lh_reward_bundle_4	Engrol Goldtongue will join your forces	false
+effects_description_rhox_grudge_debt	Treasury income per turn: %+n	false
+effects_description_rhox_grudge_enable_martial_mastery	Passive ability: "Martial Mastery"	false
+effects_description_ludwig_uberdorf_steam_tank	Mount: Steam Tank	false
+effects_description_rhox_grudge_enable_stormbringer	Passive ability: "Stormbringer"	false
+effects_description_rhox_grudge_upkeep_reduction_all_dwf	Upkeep: %+n% for all Dwarven units	false
+effects_description_rhox_grudge_enable_guardian_inf_dwf	Passive ability: "Guardian" for all Dwarven infantry	false
+effects_description_rhox_grudge_leadership_dwf_all	Leadership: %+n for Dwarf units	false
+effects_description_rhox_grudge_engrol_unbreakable_all_dwf	Attrtibute: "Unbreakable" for Dwarf units	false
+effects_description_rhox_grudge_engrol_dip_men	Diplomacy: %+n with all nations of Men	false
+effects_description_rhox_grudge_contract_reward_money	Treasury income from contracts: %+n%	false
+effects_description_rhox_grudge_effect_force_stat_speed_ksl	Speed: %+n% for Kislev units	false
+effects_description_rhox_grudge_effect_force_stat_melee_defence_ksl	Melee defence: %+n for Kislev units	false
+effects_description_rhox_grudgebringer_lh_reward_bundle_5	Matthias will join your forces	false
+effects_description_rhox_grudgebringer_lh_reward_bundle_6	Luther Flamestrike will join your forces	false

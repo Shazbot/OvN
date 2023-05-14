@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="helmet" >
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\carlsson_cavalry\carlsson_cavalry_head_01.wsmodel" />
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\carlsson_cavalry\carlsson_cavalry_head_02.wsmodel" />
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\carlsson_cavalry\carlsson_cavalry_head_03.wsmodel" />
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\carlsson_cavalry\carlsson_cavalry_head_04.wsmodel" />
+            <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\carlsson_cavalry\carlsson_cavalry_head_05.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

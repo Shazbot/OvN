@@ -1,0 +1,6 @@
+<model version="1">
+  <geometry>warmachines/aircraft/dwf_gyrocopter/dwf_gyrocopter_pilot/dwf_gyrocopter_pilot_body_01.rigid_model_v2</geometry>
+  <materials>
+    <material part_index="0" lod_index="0">VariantMeshes/wh_variantmodels/hu3/dwf/dwf_artillerymen/materials/dwf_artillery_crew_torso_01_weighted2_alpha_off.xml.material</material>
+  </materials>
+</model>

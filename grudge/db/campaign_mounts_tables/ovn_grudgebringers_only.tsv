@@ -1,0 +1,8 @@
+model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
+#campaign_mounts_tables;8;db/campaign_mounts_tables/ovn_grudgebringers_only							
+gru_warhorse	cam_hr1_warhorse	wh_emp_warhorse_campaign	1.0000	wh_main_vo_culture_Horse	true	0	false
+morgan_bernhardt_mount	cam_hr1_warhorse	morgan_bernhardt_horse	1.0000	wh_main_vo_culture_Horse	true	0	false
+gaston_mount	cam_hr1_warhorse_grail	gaston_horse	1.0000	wh_main_vo_culture_Horse	true	0	false
+cam_ludwig_uberdorf_gyrobomber	cam_ludwig_gyrobomber	ludwig_uberdorf_gyrobomber_variant_name	0.4500	wh_main_vo_culture_Empire	false	0	false
+cam_ludwig_uberdorf_steam_tank	cam_steamtank_ludwig	cam_ludwig_uberdorf_steam_tank	0.4500	wh_main_vo_culture_Empire	false	0	false
+luther_flamenstrike_mount	cam_hr1_warhorse	luther_flamenstrike_horse	1.0000	wh_main_vo_culture_Horse	true	0	false

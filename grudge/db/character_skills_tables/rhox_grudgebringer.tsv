@@ -1,0 +1,31 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/rhox_grudgebringer									
+dwarf_envoy	character_diplomacy.png			0	false	false	false	0.0000	0
+ceridan_innate	trait_wood_elves.png			0	true	false	false	5.0000	0
+ceridan_skaven_scourge	wh2_liz_kill_skaven.png			0	false	false	false	0.0000	0
+ceridan_natural_hunter	character_range.png			0	false	false	false	0.0000	0
+ceridan_lone_wolf	wh_dlc05_call_of_the_woods.png			0	false	false	false	0.0000	0
+engrol_innate	campaign_diplomacy.png			0	true	false	false	5.0000	0
+engrol_gold_tongue	engrol_gold_tongue.png			0	false	false	false	0.0000	0
+engrol_trademaster	campaign_trade.png			0	false	false	false	0.0000	0
+engrol_dwf_bodyguard	trait_dwarf.png			0	false	false	false	0.0000	0
+engrol_persuasion_master	campaign_military_spending.png			0	false	false	false	0.0000	0
+ludwig_uberdorf_steam_tank	mount_tank.png	A Steam Tank is a monstrous, smoke-belching war machine.	Steam Tank	15	false	false	false	0.0000	0
+do_skill_all_dummy_agent_actions_emp_master_engineer	battle_attack.png			0	false	false	false	0.0000	0
+rhox_grudge_ceridan_dedication_asuryan	wh2_hef_asuryan.png			9	false	false	false	0.0000	0
+ovn_grudge_skill_ksl_frost_maiden_unique_04	character_disaster.png	Often the most dangerous assault comes from the enemy you least expect.	Handmaiden of the Ice Queen	0	false	false	false	0.0000	0
+ovn_grudge_vlad_innate	wh3_main_lore_passive_freezing_winds.png			0	true	false	false	5.0000	0
+rhox_grudge_skill_hef_noble_unique_1	character_diplomacy.png	This one is well-versed in the various court intrigues of the Asur, which is something of an advantage in matters of diplomacy.	Knowledge of High Elf Affairs	9	false	false	false	0.0000	0
+rhox_grudge_skill_hef_noble_unique_2	character_diplomacy.png	"The Realms of Man must not fall. Our fate is intertwined with theirs, and if they fall, so too do we."	Knowledge of Man's Affairs	9	false	false	false	0.0000	0
+rhox_grudge_skill_hef_noble_unique_3	character_diplomacy.png	Of all the 'younger races', the ultra-secretive Lizardmen respect the Asur the most - enough to grant access to certain high-caste individuals.	Knowledge of Lizardmen Affairs	9	false	false	false	0.0000	0
+ovn_grudge_skill_ice_mage_unique_2_01	character_diplomacy.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_ice_mage_unique_2_02	character_damage.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_ice_mage_unique_2_03	battle_speed.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_ice_mage_unique_2_04	battle_defence.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_ice_mage_unique_2_05	character_cooldown.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_node_luther_flamenstrike_unique_01	battle_speed.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_node_luther_flamenstrike_unique_02	character_magic.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_node_luther_flamenstrike_unique_03	character_general_ability.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_node_luther_flamenstrike_unique_04	character_morale.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_node_luther_flamenstrike_unique_05	character_magic.png			0	false	false	false	0.0000	0
+ovn_grudge_skill_node_luther_flamenstrike_unique_06	character_magic.png			0	false	false	false	0.0000	0

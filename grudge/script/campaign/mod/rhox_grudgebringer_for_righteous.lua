@@ -1,5 +1,8 @@
 local grudgebringer_faction = "ovn_emp_grudgebringers"
 local grudgebringer_mission_key = "rhox_grudgebringer_piece_of_eight_"
+local skip_mission_sampling_num = 5
+local skip_mission_table={}
+local skip_mission_candidate={3,4,5,7,8,10,13,14,15,16,20,21,23}
 
 local grudgebringer_missions ={
    {
@@ -24,7 +27,7 @@ local grudgebringer_missions ={
         faction_key = "random",
         reward = "dargrimm_firebeard_dwarf_warriors"
     },
-    {
+    {--5
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
         reward = "urblab_rotgut_mercenary_ogres"
@@ -54,7 +57,7 @@ local grudgebringer_missions ={
         ancillary_key= "grudge_item_horn_of_urgok",
         reward = "keelers_longbows"
     },
-    {
+    {--10
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         subculture_key = "wh2_main_sc_skv_skaven",
         count = 3,
@@ -83,7 +86,7 @@ local grudgebringer_missions ={
         count = 6,
         reward = "treeman_knarlroot"
     },
-    {
+    {--15
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         subculture_key = "wh2_main_sc_skv_skaven",
         count = 5,
@@ -112,7 +115,7 @@ local grudgebringer_missions ={
         ancillary_key= "grudge_item_spelleater_shield",
         reward = "jurgen_muntz_outlaw_infantry"
     },
-    {
+    {--20
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
         reward = "boris_von_raukov_4th_nuln_halberdiers"
@@ -134,7 +137,7 @@ local grudgebringer_missions ={
         count = 2,
         reward = "grail_knights_tristan_de_la_tourtristan_de_la_tour"
     },
-    {
+    {--24
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "wh2_dlc15_grn_broken_axe",
         count = 2,
@@ -289,7 +292,7 @@ end
 
 local rhox_gurdge_lh_regions={
     "wh3_main_combi_region_flensburg",
-    "wh3_main_combi_region_karak_hirn",
+    "wh3_main_combi_region_kings_glade",
     "wh3_main_combi_region_vitevo",
     "wh3_main_combi_region_zhufbar",
     "wh3_main_combi_region_altdorf",
@@ -309,25 +312,105 @@ local function rhox_trigger_grudgebringer_lh_mission(i)
 end
 
 
+local ai_ror_list={}
+
 
 function rhox_setup_starting_missions()
-    if cm:get_local_faction_name(true) == grudgebringer_faction then
-        cm:disable_event_feed_events(true, "", "wh_event_subcategory_faction_missions_objectives", "")
-        for i=1,24 do
-            rhox_trigger_grudgebringer_mission(i)
+    if cm:get_faction(grudgebringer_faction):is_human() then
+        for i=1,skip_mission_sampling_num do
+            local target = cm:random_number(#skip_mission_candidate, 1)
+            skip_mission_table[skip_mission_candidate[target]]=true
         end
-        for i=1,6 do
+    
+    
+    
+        cm:disable_event_feed_events(true, "", "wh_event_subcategory_faction_missions_objectives", "")
+        for i=1,#grudgebringer_missions do
+            if skip_mission_table[i] ~= true then
+                rhox_trigger_grudgebringer_mission(i)
+            else
+                out("Rhox Grudge: Skipping mission: "..i)
+                cm:add_unit_to_faction_mercenary_pool(cm:get_faction("ovn_emp_grudgebringers"),grudgebringer_missions[i].reward, "renown", 0,0,0,0,"","","", true,grudgebringer_missions[i].reward) --you're not getting them, let's remove them from the reward
+            end
+        end
+        for i=1,#rhox_gurdge_lh_regions do
             rhox_trigger_grudgebringer_lh_mission(i)
         end
         cm:disable_event_feed_events(false, "", "wh_event_subcategory_faction_missions_objectives", "")
+    else --for ai just put them inside the table we will use them later
+        for i=1,#grudgebringer_missions do
+            table.insert(ai_ror_list, grudgebringer_missions[i].reward)
+            cm:add_event_restricted_unit_record_for_faction(grudgebringer_missions[i].reward, grudgebringer_faction, "rhox_grudge_ror_lock") --lock it.
+            if grudgebringer_missions[i].ancillary_key then
+                cm:add_ancillary_to_faction(cm:get_faction(grudgebringer_faction), grudgebringer_missions[i].ancillary_key, false) --just give ancillary to the AI
+            end
+        end
+        
+        ----and summon legendary heroes. It will make less reports about missing LHs when Grudgebringer is the AI
+        local faction = cm:get_faction(grudgebringer_faction)
+        local faction_leader_force = faction:faction_leader():military_force()
+        cm:spawn_unique_agent_at_character(faction:command_queue_index(), "ludwig_uberdorf_agent_subtype", faction:faction_leader():command_queue_index(), true)
+        agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","ludwig_uberdorf_agent_subtype")
+        if agent then
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end        
+        cm:spawn_unique_agent_at_character(faction:command_queue_index(), "ceridan", faction:faction_leader():command_queue_index(), true)
+        agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","ceridan")
+        if agent then
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end
+    
+        cm:spawn_unique_agent_at_character(faction:command_queue_index(), "ice_mage_vladimir_stormbringer", faction:faction_leader():command_queue_index(), true)
+        agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"wizard","ice_mage_vladimir_stormbringer")
+        if agent then
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end
+    
+        cm:spawn_unique_agent_at_character(faction:command_queue_index(), "dwarf_envoy", faction:faction_leader():command_queue_index(), true)
+        agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","dwarf_envoy")
+        cm:remove_event_restricted_unit_record_for_faction("dwarf_envoy_dwarf_warriors", grudgebringer_faction);
+        if agent then
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end
+        
+        cm:spawn_unique_agent_at_character(faction:command_queue_index(), "matthias", faction:faction_leader():command_queue_index(), true)
+        agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","matthias")
+        if agent then
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end
+        
+        cm:spawn_unique_agent_at_character(faction:command_queue_index(), "luther_flamenstrike", faction:faction_leader():command_queue_index(), true)
+        agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","luther_flamenstrike")
+        if agent then
+            cm:replenish_action_points(cm:char_lookup_str(agent))
+            cm:embed_agent_in_force(agent ,faction_leader_force)
+        end
+        
+        
     end
+end
+
+
+local function rhox_grudge_ai_ror_unlocker()
+    if #ai_ror_list ==0 then
+        out("Rhox Grudge: There is no unit in the function, returning")
+        return --there is no unit left to give, return
+    end
+    local target = cm:random_number(#ai_ror_list, 1)
+    cm:remove_event_restricted_unit_record_for_faction(ai_ror_list[target], grudgebringer_faction);
+    out("Rhox Grudge: Unlocked unit " .. ai_ror_list[target] .. "for the AI")
+    table.remove(ai_ror_list, target)
 end
 
 
 
 
-
-
+--[[ --since we have bnook, we're not using it
 local lh_missions={
     "rhox_grudgebringer_lh_1", --ludwig
     "rhox_grudgebringer_lh_2", --ceridan
@@ -336,6 +419,8 @@ local lh_missions={
     "rhox_grudgebringer_lh_5", --witch hunter
     "rhox_grudgebringer_lh_6" --fire wizard
 }
+
+
 
 cm:add_first_tick_callback(
 	function()
@@ -358,7 +443,6 @@ cm:add_first_tick_callback(
                     pieces_tab:SimulateLClick();
                     --pieces_tab:MoveTo(885, 919)  --doesn't work
                     --local x, y = pieces_tab:Position()
-                    --out("Rhox mar: "..x..", "..y)  --1285, 919 is the original location
                     local pieces_text = find_uicomponent(pieces_tab, "tx");
                     pieces_text:SetText(common.get_localised_string("campaign_localised_strings_string_rhox_grudgebringer_piece_tab"))
                     
@@ -388,15 +472,13 @@ cm:add_first_tick_callback(
                         end,
                         0.2
                     )
-                    
-                    
                 end,
                 true
             )
-            
         end
 	end
 );
+--]]
 
 
 core:add_listener(
@@ -516,6 +598,11 @@ core:add_listener(
     end,
     function(context)
         rhox_check_ror_rewards(context:faction())
+        local turn = cm:model():turn_number();
+        if context:faction():is_human() ==false and turn%5 ==1 then
+            rhox_grudge_ai_ror_unlocker()
+        end
+        
     end,
     true
 )
@@ -538,13 +625,15 @@ core:add_listener(
 --------------------------------------------------------------
 cm:add_saving_game_callback(
 	function(context)
-		cm:save_named_value("rhox_failed_mission_rewards", rhox_failed_mission_rewards, context)
+		cm:save_named_value("rhox_grudge_failed_mission_rewards", rhox_failed_mission_rewards, context)
+		cm:save_named_value("rhox_grudge_ai_ror_list", ai_ror_list, context)
 	end
 )
 cm:add_loading_game_callback(
 	function(context)
 		if cm:is_new_game() == false then
-			rhox_failed_mission_rewards = cm:load_named_value("rhox_failed_mission_rewards", rhox_failed_mission_rewards, context)
+			rhox_failed_mission_rewards = cm:load_named_value("rhox_grudge_failed_mission_rewards", rhox_failed_mission_rewards, context)
+			ai_ror_list = cm:load_named_value("rhox_grudge_ai_ror_list", ai_ror_list, context)
 		end
 	end
 )

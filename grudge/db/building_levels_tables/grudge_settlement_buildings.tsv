@@ -1,0 +1,6 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/grudge_settlement_buildings																						
+wh_main_emp_cha_grudge_gunpowder_1	wh_main_emp_cha_grudge_gunpowder	0	1	800	0		false	false		true	wh_main_emp_cha_grudge_gunpowder	false	0.0000	1	true	2		true	0	0		0
+wh_main_emp_cha_grudge_gunpowder_2	wh_main_emp_cha_grudge_gunpowder	1	2	1600	0		false	false		true	wh_main_emp_cha_grudge_gunpowder	false	0.0000	2	true	3		true	0	0		0
+wh_main_emp_cha_grudge_gunpowder_3	wh_main_emp_cha_grudge_gunpowder	2	3	2400	0		false	false		true	wh_main_emp_cha_grudge_gunpowder	false	0.0000	3	true	4		true	0	0		0
+ovn_grudge_settlement_smith	ovn_grudge_settlement_smith	0	4	4400	0		false	false		true	ovn_grudge_settlement_smith	false	0.0000	0	true	4		true	0	0		0

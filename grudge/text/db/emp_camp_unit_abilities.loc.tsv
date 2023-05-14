@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/emp_camp_unit_abilities.loc		
+unit_abilities_onscreen_name_obo_army_abilities_grapeshot	Artillery Barrage	false
+unit_abilities_onscreen_name_obo_army_abilities_42_pounders	42-Pounders	false
+unit_abilities_onscreen_name_obo_army_abilities_bombardment	Rocket Strike	false

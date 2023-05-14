@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="banner_on_back" >
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\azguz_bloodfist_dwarf_warriors\azguz_bloodfist_dwarf_warriors_banner.wsmodel" >
+			<META_DATA>equipment</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+
+    	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\azguz_bloodfist_dwarf_warriors_dwarf_warriors.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\azguz_bloodfist_dwarf_warriors_longbeards.variantmeshdefinition" />
+	</SLOT>
+
+</VARIANT_MESH>

@@ -1,0 +1,25 @@
+<VARIANT_MESH>
+	<SLOT name="body">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\grb_crossbow_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:chainmail</META_DATA></VARIANT_MESH> 
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\grb_crossbow_body_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:chainmail</META_DATA></VARIANT_MESH>   
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_crossbow\grb_crossbow_body_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:chainmail</META_DATA></VARIANT_MESH>   			
+	</SLOT>
+	<SLOT name="head">
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\grudgebringer_crossbow_head_set1.variantmeshdefinition"  />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\grudgebringer_crossbow_head_set2.variantmeshdefinition"  />
+	</SLOT>
+	<SLOT attach_point="be_prop_0" name="weapon_1">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_props\emp_state_troops_crossbow_2h_rigid_01.rigid_model_v2" />
+	</SLOT>
+	<SLOT attach_point="be_prop_1" name="weapon_2">
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/emp_state_troops_swords_set1.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT attach_point="be_prop_2" name="shield" />
+	<SLOT attach_point="be_prop_3" name="weapon_3" />
+	<SLOT attach_point="be_prop_4" name="weapon_4">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\emp\emp_props\emp_crossbow_bolt_01.rigid_model_v2" />
+	</SLOT>
+</VARIANT_MESH>

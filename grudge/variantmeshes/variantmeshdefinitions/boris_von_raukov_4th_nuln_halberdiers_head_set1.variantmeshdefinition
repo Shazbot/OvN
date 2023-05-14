@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\boris_von_raukov_4th_nuln_halberdiers\4th_nuln_head_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\boris_von_raukov_4th_nuln_halberdiers\4th_nuln_head_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\boris_von_raukov_4th_nuln_halberdiers\4th_nuln_head_03.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\boris_von_raukov_4th_nuln_halberdiers\4th_nuln_head_04.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\boris_von_raukov_4th_nuln_halberdiers\4th_nuln_head_05.wsmodel" />
+	</SLOT>
+	</VARIANT_MESH>

@@ -5,13 +5,13 @@ missions_localised_description_ludwig_uberdorf	Visit this area to hire ludwig vo
 effect_bundles_localised_description_ludwig_uberdorf	Steam Tank Commander	true
 effect_bundles_localised_title_ludwig_uberdorf_join	Ludwig von Uberdorf joins your faction!	true
 ui_unit_groupings_onscreen_ludwig_uberdorf_ui_unit_group_land	Steam Tank Commander	true
-ui_unit_groupings_tooltip_ludwig_uberdorf_ui_unit_group_land	The steam tank Ignis Draconis was the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true
+ui_unit_groupings_tooltip_ludwig_uberdorf_ui_unit_group_land	The steam tank The Emperor's Wrath was one of the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_land_units	Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_steam_tank_land_units	Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_mount_land_units	Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_gyrobomber_land_units	Ludwig von Uberdorf	true
 agent_subtypes_onscreen_name_override_ludwig_uberdorf_agent_subtype	Steam Tank Commander	true
-agent_subtypes_description_text_override_ludwig_uberdorf_agent_subtype	The steam tank Ignis Draconis was the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true
+agent_subtypes_description_text_override_ludwig_uberdorf_agent_subtype	The steam tank The Emperor's Wrath was one of the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true
 names_name_210309009	Ludwig	true
 names_name_210309010	von Uberdorf	true
 agent_culture_details_onscreen_name_210309009	Ludwig	false
@@ -51,4 +51,4 @@ ui_unit_groupings_tooltip_ludwig_uberdorf_mount_ui_unit_group_land	While Ludwig'
 ui_unit_groupings_onscreen_ludwig_uberdorf_gyrobomber_ui_unit_group_land	Steam Tank Commander	true
 ui_unit_groupings_tooltip_ludwig_uberdorf_gyrobomber_ui_unit_group_land	The repair of the tank will soon be completed, but some more time is needed. To great luck, the dwarves from Ludwig's team managed to get a working gyrobomber and fasten a volley gun to it	true
 ui_unit_groupings_onscreen_ludwig_uberdorf_steam_tank_ui_unit_group_land	Steam Tank Commander	true
-ui_unit_groupings_tooltip_ludwig_uberdorf_steam_tank_ui_unit_group_land	The steam tank Ignis Draconis was the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true
+ui_unit_groupings_tooltip_ludwig_uberdorf_steam_tank_ui_unit_group_land	The steam tank The Emperor's Wrath was one of the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true

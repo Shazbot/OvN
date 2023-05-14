@@ -1,0 +1,21 @@
+key	text	tooltip
+#Loc;1;text/db/newloc230123.loc		
+ui_unit_bullet_point_enums_onscreen_name_boris_von_raukov_4th_nuln_halberdiers	Hero - Boris von Raukov	true
+ui_unit_bullet_point_enums_tooltip_boris_von_raukov_4th_nuln_halberdiers	Boris von Raukov is Valmir's eighth son. He left Ostland to pursue a military career. He is currently the captain of the 4th Nuln Halberdiers, a mercenary regiment based in the city of Nuln, who fought alongside the Grudgebringers.	true
+ui_unit_bullet_point_enums_onscreen_name_dieter_schaeffer_carroburg_greatswords	Hero - Dieter Schaeffer	true
+ui_unit_bullet_point_enums_tooltip_dieter_schaeffer_carroburg_greatswords	Renowned Captain of the Carroburg Greatswords Regiment	true
+ui_unit_bullet_point_enums_onscreen_name_helmgart_bowmen	Hero - Franz Erikson	true
+ui_unit_bullet_point_enums_tooltip_helmgart_bowmen	Renowned Captain of the Helmgart Bowmen from Helmgart Fortress	true
+land_units_onscreen_name_morgan_bernhardt_mount	Morgan Bernhardt	true
+ancillaries_onscreen_name_morgan_bernhardt_mount	Warhorse	true
+ancillaries_colour_text_morgan_bernhardt_mount	Bernhardt's battle-tested warhorse	true
+character_skills_localised_name_morgan_bernhardt_mount	Warhorse	true
+character_skills_localised_description_morgan_bernhardt_mount	Bernhardt's battle-tested warhorse	true
+units_custom_battle_mounts_mount_name_morgan_bernhardtmorgan_bernhardt_mount	Warhorse	true
+units_custom_battle_mounts_localised_description_morgan_bernhardtmorgan_bernhardt_mount	Bernhardt's battle-tested warhorse	true
+loading_screen_quotes_description_morgan_bernhardt	Founder and commander of the mercenary company called the Grudgebringers, named after Morgan's magic sword Grudgebringer.	false
+loading_screen_quotes_bulletpoints_morgan_bernhardt	[[img:ui/skins/default/icon_stat_armour.png]][[/img]]Armoured||Melee expert	false
+loading_screen_quotes_title_morgan_bernhardt	Morgan Bernhardt	false
+character_skills_localised_name_gaston_mount	Warhorse	true
+ancillaries_onscreen_name_gaston_mount	Warhorse	true
+units_custom_battle_mounts_mount_name_gastongaston_mount	Warhorse	true

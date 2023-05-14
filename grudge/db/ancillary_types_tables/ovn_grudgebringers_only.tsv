@@ -1,0 +1,18 @@
+type	ui_icon
+#ancillary_types_tables;0;db/ancillary_types_tables/ovn_grudgebringers_only	
+grudge_item_horn_of_urgok	ui/campaign ui/ancillaries/grudge_horn_of_urgok.png
+grudge_item_grudgebringer_sword	ui/campaign ui/ancillaries/grudge_grudgebringer_sword.png
+grudge_item_hellfire_sword	ui/campaign ui/ancillaries/grudge_hellsword.png
+grudge_item_storm_sword	ui/campaign ui/ancillaries/grudge_storm_sword.png
+grudge_item_runefang	ui/campaign ui/ancillaries/grudge_runefang.png
+grudge_item_enchanted_shield	ui/campaign ui/ancillaries/grudge_enchanted_shield.png
+grudge_item_shield_of_ptolos	ui/campaign ui/ancillaries/grudge_shield_of_ptolos.png
+grudge_item_spelleater_shield	ui/campaign ui/ancillaries/grudge_spelleater_shield.png
+grudge_item_dragonhelm	ui/campaign ui/ancillaries/grudge_dragonhelm.png
+grudge_item_wand_of_jet	ui/campaign ui/ancillaries/grudge_wand_of_jet.png
+grudge_item_banner_of_arcane_warding	ui/campaign ui/ancillaries/grudge_banner_of_arcane.png
+grudge_item_banner_of_wrath	ui/campaign ui/ancillaries/grudge_banner_of_wrath.png
+grudge_item_banner_of_defiance	ui/campaign ui/ancillaries/grudge_banner_of_defiance.png
+ludwig_uberdorf_mount	ui/campaign ui/mounts/mount_barded_warhorse.png
+ludwig_uberdorf_steam_tank	ui/campaign ui/mounts/mount_tank.png
+luther_flamenstrike_mount	ui/campaign ui/mounts/mount_barded_warhorse.png

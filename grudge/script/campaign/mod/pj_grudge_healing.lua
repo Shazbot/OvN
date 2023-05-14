@@ -84,6 +84,8 @@ mod.friendly_cultures = {
 	wh2_main_hef_high_elves = true,
 	wh3_main_cth_cathay = true,
 	wh3_main_ksl_kislev = true,
+	wh_main_brt_bretonnia = true,
+	mixer_teb_southern_realms = true,
 }
 
 mod.add_new_unit = function(unit_cqi)

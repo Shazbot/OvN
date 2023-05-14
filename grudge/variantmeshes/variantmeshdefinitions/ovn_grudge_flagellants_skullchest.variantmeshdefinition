@@ -1,0 +1,19 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_head_21.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_head_22.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\ovn_grudge_flagellants_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\ovn_grudge_flagellants_head_02.rigid_model_v2" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/emp/emp_flagellants/head/emp_flagellants_head_04.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="hair" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_black_beard.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_brown_beard.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_grey_beard.rigid_model_v2" />
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_body_04.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\flagellants_eusebio_the_bleak\flagellants_body_05.rigid_model_v2" />
+	</SLOT>
+
+</VARIANT_MESH>

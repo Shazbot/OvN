@@ -1,0 +1,89 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\do1\urblab_rotgut\urblab_rotgut.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_blazing_sun_head_02_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu13\ogr\ogr_irongut\materials\ogr_irongut_head_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_demigryph_knight_crest_02_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_head_03_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\hu13\ogr\ogr_warrior\materials\ogr_warrior_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_skrag_01_submesh_80_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu13\ogr\ogr_maneater\materials\ogr_maneater_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_tyrant_body_03_submesh_61_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_02_submesh_2_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\hu13d\ogr\ogr_skrag\materials\ogr_skrag_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_hunter_head_04_submesh_30_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="11">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_0_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="12">variantmeshes\wh_variantmodels\hu13\ogr\ogr_tyrant\materials\ogr_tyrant_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="13">variantmeshes\wh_variantmodels\hu13\ogr\ogr_hunter\materials\ogr_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="14">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\piece01_destruct01_lod01_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="15">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_2_s_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="16">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="17">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_submesh_11_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="18">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_02_submesh_0_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="19">variantmeshes\wh_variantmodels\do1\ceridan\materials\hef_handmaiden_everqueen_cape_su_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_blazing_sun_head_02_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu13\ogr\ogr_irongut\materials\ogr_irongut_head_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_demigryph_knight_crest_02_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_head_03_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\hu13\ogr\ogr_warrior\materials\ogr_warrior_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_skrag_01_submesh_80_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu13\ogr\ogr_maneater\materials\ogr_maneater_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_tyrant_body_03_submesh_61_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_02_submesh_2_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\hu13d\ogr\ogr_skrag\materials\ogr_skrag_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_hunter_head_04_submesh_30_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="11">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_0_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="12">variantmeshes\wh_variantmodels\hu13\ogr\ogr_tyrant\materials\ogr_tyrant_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="13">variantmeshes\wh_variantmodels\hu13\ogr\ogr_hunter\materials\ogr_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="14">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\piece01_destruct01_lod01_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="15">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_2_s_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="16">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="17">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_submesh_11_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="18">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_02_submesh_0_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="19">variantmeshes\wh_variantmodels\do1\ceridan\materials\hef_handmaiden_everqueen_cape_su_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_blazing_sun_head_02_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu13\ogr\ogr_irongut\materials\ogr_irongut_head_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_demigryph_knight_crest_02_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_head_03_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\hu13\ogr\ogr_warrior\materials\ogr_warrior_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_skrag_01_submesh_80_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu13\ogr\ogr_maneater\materials\ogr_maneater_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_tyrant_body_03_submesh_61_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_02_submesh_2_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\hu13d\ogr\ogr_skrag\materials\ogr_skrag_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_hunter_head_04_submesh_30_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="11">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_0_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="12">variantmeshes\wh_variantmodels\hu13\ogr\ogr_tyrant\materials\ogr_tyrant_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="13">variantmeshes\wh_variantmodels\hu13\ogr\ogr_hunter\materials\ogr_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="14">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\piece01_destruct01_lod01_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="15">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_2_s_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="16">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="17">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_submesh_11_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="18">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_02_submesh_0_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="19">variantmeshes\wh_variantmodels\do1\ceridan\materials\hef_handmaiden_everqueen_cape_su_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_blazing_sun_head_02_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu13\ogr\ogr_irongut\materials\ogr_irongut_head_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\emp_demigryph_knight_crest_02_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_head_03_submesh_1_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\hu13\ogr\ogr_warrior\materials\ogr_warrior_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_skrag_01_submesh_80_submesh__weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu13\ogr\ogr_maneater\materials\ogr_maneater_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_tyrant_body_03_submesh_61_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_02_submesh_2_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\hu13d\ogr\ogr_skrag\materials\ogr_skrag_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_hunter_head_04_submesh_30_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="11">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_0_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="12">variantmeshes\wh_variantmodels\hu13\ogr\ogr_tyrant\materials\ogr_tyrant_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="13">variantmeshes\wh_variantmodels\hu13\ogr\ogr_hunter\materials\ogr_hunter_body_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="14">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\piece01_destruct01_lod01_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="15">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_maneater_body_01_submesh_2_s_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="16">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="17">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_01_submesh_22_s_submesh_11_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="18">variantmeshes\wh_variantmodels\do1\urblab_rotgut\materials\ogr_warrior_body_02_submesh_0_su_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="19">variantmeshes\wh_variantmodels\do1\ceridan\materials\hef_handmaiden_everqueen_cape_su_weighted4_alpha_off.xml.material</material>
+
+	</materials>
+</model>

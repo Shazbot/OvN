@@ -1,0 +1,9 @@
+agent_subtype	clan_name	forename	other_name	surname	agent_type	spawn_behaviour	spawn_via_ui
+#unique_agents_tables;3;db/unique_agents_tables/ovn_grudgebringers_only							
+ceridan		2103090111		2103090112	champion	FACTION_LEADER	false
+ice_mage_vladimir_stormbringer		210309002		210309001	wizard	FACTION_LEADER	false
+morgan_bernhardt		210309006		210309005	general	FACTION_LEADER	false
+dwarf_envoy		210309004		210309003	champion	FACTION_LEADER	false
+ludwig_uberdorf_agent_subtype		210309009		210309010	champion	FACTION_LEADER	false
+matthias		210309011		2103090112	champion	FACTION_LEADER	false
+luther_flamenstrike		210309012		210309013	champion	FACTION_LEADER	false

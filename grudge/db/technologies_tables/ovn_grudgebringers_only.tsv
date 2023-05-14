@@ -1,0 +1,24 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
+#technologies_tables;7;db/technologies_tables/ovn_grudgebringers_only											
+grudge_tech_1	wh_main_chs_port_ruin	1	tech_dlc09_ancient_battle_sites	false	false	"placeholder.tga"	250519922	false	false	true	false
+grudge_tech_2	wh_main_chs_port_ruin	1	tech_dlc08_nor_one_with_beasts	false	false	"placeholder.tga"	250519923	false	false	true	false
+grudge_tech_3	wh_main_chs_port_ruin	1	wh_main_dwf_ancestral_tombs	false	false	"placeholder.tga"	250519924	false	false	true	false
+grudge_tech_4	wh_main_chs_port_ruin	1	wh2_dlc13_emp_ordnance_canisters	false	false	"placeholder.tga"	250519925	false	false	true	false
+rhox_grudge_tech_emp_academia_1	wh_main_chs_port_ruin	1	tech_dlc07_brt_economy_start	false	false	"placeholder.tga"	250519926	false	false	true	false
+rhox_grudge_tech_emp_academia_1_a	wh_main_chs_port_ruin	1	wh_main_dwf_dwarf_resolve	false	false	"placeholder.tga"	250519927	false	false	true	false
+rhox_grudge_tech_emp_academia_1_b	wh_main_chs_port_ruin	1	tech_dlc07_brt_heraldry_errantry	false	false	"placeholder.tga"	250519928	false	false	true	false
+rhox_grudge_tech_emp_academia_2	wh_main_chs_port_ruin	1	tech_gru_renown	false	false	"placeholder.tga"	250519929	false	false	true	false
+rhox_grudge_tech_emp_academia_2_a	wh_main_chs_port_ruin	1	tech_cst_admirals_00	false	false	"placeholder.tga"	250519930	false	false	true	false
+rhox_grudge_tech_emp_academia_2_b	wh_main_chs_port_ruin	1	wh_main_emp_merchantile_fleet	false	false	"placeholder.tga"	250519931	false	false	true	false
+rhox_grudge_tech_emp_academia_3	wh_main_chs_port_ruin	1	tech_cst_piracy_11	false	false	"placeholder.tga"	250519932	false	false	true	false
+rhox_grudge_tech_emp_academia_3_a	wh_main_chs_port_ruin	1	wh_main_emp_rally_lesser_nobles	false	false	"placeholder.tga"	250519933	false	false	true	false
+rhox_grudge_tech_emp_academia_3_b	wh_main_chs_port_ruin	1	tech_dlc07_brt_economy_other_tithes	false	false	"placeholder.tga"	250519934	false	false	true	false
+rhox_grudge_tech_emp_economy_1	wh_main_chs_port_ruin	1	tech_dlc14_brt_rally_the_peasants	false	false	"placeholder.tga"	250519935	false	false	true	false
+rhox_grudge_tech_emp_economy_1_a	wh_main_chs_port_ruin	1	wh3_main_tech_ogr_0_0_0	false	false	"placeholder.tga"	250519936	false	false	true	false
+rhox_grudge_tech_emp_economy_1_b	wh_main_chs_port_ruin	1	wh_main_emp_divine_sanction	false	false	"placeholder.tga"	250519937	false	false	true	false
+rhox_grudge_tech_emp_economy_2	wh_main_chs_port_ruin	1	wh3_main_tech_ogr_0_2_0	false	false	"placeholder.tga"	250519938	false	false	true	false
+rhox_grudge_tech_emp_economy_2_a	wh_main_chs_port_ruin	1	wh3_main_tech_ogr_0_3_0	false	false	"placeholder.tga"	250519939	false	false	true	false
+rhox_grudge_tech_emp_economy_2_b	wh_main_chs_port_ruin	1	tech_cst_piracy_03	false	false	"placeholder.tga"	250519940	false	false	true	false
+rhox_grudge_tech_emp_economy_3	wh_main_chs_port_ruin	1	wh_main_emp_supply_wagons	false	false	"placeholder.tga"	250519941	false	false	true	false
+rhox_grudge_tech_emp_economy_3_a	wh_main_chs_port_ruin	1	wh_main_emp_state_troop_sergeants	false	false	"placeholder.tga"	250519942	false	false	true	false
+rhox_grudge_tech_emp_economy_3_b	wh_main_chs_port_ruin	1	tech_dlc07_brt_economy_industry_start	false	false	"placeholder.tga"	250519943	false	false	true	false

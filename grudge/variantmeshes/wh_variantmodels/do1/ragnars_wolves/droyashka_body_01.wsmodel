@@ -1,0 +1,49 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\do1\ragnars_wolves\droyashka_body_01.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1c\ksl\ksl_kossar\materials\ksl_kossar_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\dae_cultist_of_khorne_body_03_su_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_chieftain\materials\chs_marauder_chieftain_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_shaman_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\emp_huntsmarshal_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_4_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1c\ksl\ksl_kossar\materials\ksl_kossar_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\dae_cultist_of_khorne_body_03_su_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_chieftain\materials\chs_marauder_chieftain_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_shaman_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\emp_huntsmarshal_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_4_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1c\ksl\ksl_kossar\materials\ksl_kossar_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\dae_cultist_of_khorne_body_03_su_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_chieftain\materials\chs_marauder_chieftain_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_shaman_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\emp_huntsmarshal_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_4_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1c\ksl\ksl_kossar\materials\ksl_kossar_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\dae_cultist_of_khorne_body_03_su_submesh_0_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_torso_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_chieftain\materials\chs_marauder_chieftain_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_shaman_cape_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\hu1c\chs\chs_marauder_berserkers\materials\chs_marauder_berserkers_legs_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\emp_huntsmarshal_body_01_submesh_weighted4_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\do1\ragnars_wolves\materials\chs_marauder_champions_legs_03_s_4_weighted4_alpha_on.xml.material</material>
+
+	</materials>
+</model>

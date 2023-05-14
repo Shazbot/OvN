@@ -146,3 +146,23 @@ cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_fin
 cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_final_battleSECOND	Important it may be, but time is precious and while these lands may fall we ensure that order remains steadfast.	false
 dilemmas_localised_title_rhox_grudgebringer_final_battle	Last Stand	false
 dilemmas_localised_description_rhox_grudgebringer_final_battle	A huge swarm of enemies floods across the borders, hellbent on the destruction of everything in their wake. The combined armies of the surrounding regions have been sent to repel them, but even still, they find themselves severely outnumbered. They have asked for our assistance in this desperate hour.\\n\\nIf we refuse, the enemy will surely bring ruin to these lands. Be under no illusion: This is no mere raid. This is an invasion that may well be the last stand for many of these people.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_battle_pFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_battle_pFIRST	To the Death!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_battle_qFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_battle_qFIRST	To the Death!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_battle_rFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_battle_rFIRST	To the Death!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_battle_sFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_battle_sFIRST	To the Death!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_battle_tFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_battle_tFIRST	To the Death!	false
+dilemmas_localised_title_rhox_grudgebringer_battle_p	Slayers Oath	false
+dilemmas_localised_description_rhox_grudgebringer_battle_p	The Grudgebringer sword was originally a family heirloom to the dwarf clan Urgolsson. This rune blade was lost to a bright wizard in a game of Ranald’s finger, who perhaps not wanting a dwarfs grudge hanging over him gifted it to a young Bernhardt. It is not clear if Thikad Urgolsson was beaten again at Ranald’s fingers or if Bernhardt refused altogether. Either way Thikad feels cheated and has taken the Slayers Oath vowing not to stop until the Commander is dead and his family heirloom restored.	false
+dilemmas_localised_title_rhox_grudgebringer_battle_q	Brigands Ambush	false
+dilemmas_localised_description_rhox_grudgebringer_battle_q	Lured under false pretense we are faced with rabble of Brigands, it is unclear if they planned this of their own volition or something more underhanded is at play. The Grudgebringers have countless enemies from Carmello’s Crew working under Marchesa Generosa Caramanici, Thikad Urgolsson reclaiming the stolen ‘Grudgebringer’ to Sylvanian counts and Skaven Warlords. Whatever the truth we will have to fight our way out of this.    	false
+dilemmas_localised_title_rhox_grudgebringer_battle_r	Greenskin Ambush	false
+dilemmas_localised_description_rhox_grudgebringer_battle_r	We find ourselves surrounded by greenskins, the very raiders we’re tasked to slay, how nice of them to come to us. They might have the upper hand but we’d have to fight them sooner or later. We can collect bounty after we’ve spilled their greenskin blood.	false
+dilemmas_localised_title_rhox_grudgebringer_battle_s	The Dead Have Risen	false
+dilemmas_localised_description_rhox_grudgebringer_battle_s	We arrive only to find a shambling horde of corpses, it’s not clear if the contract was only a lure or we were merely too late. Whatever the case we will make the living dead just plain dead, attack!	false
+dilemmas_localised_title_rhox_grudgebringer_battle_t	From The Burrows They Come	false
+dilemmas_localised_description_rhox_grudgebringer_battle_t	At the behest of Thanquol, the skaven assassin Shrinq Shaderipper has been sent to destroy the Grudgebringers or at the very least Commander Bernhardt. We should have known something was up by all the muck, rat hair and repeating words on the contract sent to us.	false

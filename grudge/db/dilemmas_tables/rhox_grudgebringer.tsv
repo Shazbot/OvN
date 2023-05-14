@@ -21,3 +21,8 @@ rhox_grudgebringer_battle_n	false			emp/rhox_grudgebringer_battle_n	true	Event		
 rhox_grudgebringer_battle_o	false			emp/rhox_grudgebringer_battle_o	true	Event				false
 rhox_grudgebringer_debt_a	false			emp/rhox_grudgebringer_debt_a	true	Event				false
 rhox_grudgebringer_final_battle	false			emp/rhox_grudgebringer_final_battle	true	Event				false
+rhox_grudgebringer_battle_p	false			emp/rhox_grudgebringer_battle_a	true	Event				false
+rhox_grudgebringer_battle_q	false			emp/rhox_grudgebringer_battle_a	true	Event				false
+rhox_grudgebringer_battle_r	false			emp/rhox_grudgebringer_battle_a	true	Event				false
+rhox_grudgebringer_battle_s	false			emp/rhox_grudgebringer_battle_a	true	Event				false
+rhox_grudgebringer_battle_t	false			emp/rhox_grudgebringer_battle_a	true	Event				false

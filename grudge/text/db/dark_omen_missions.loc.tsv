@@ -1,0 +1,102 @@
+key	text	tooltip
+#Loc;1;text/db/dark_omen_missions.loc		
+missions_localised_title_ceridan	The Lone Ranger Ceridan	true
+missions_localised_description_ceridan	Border Prince Sven Carlson, the owner of the city of Wissenheim, asks you to find his advisor Ilmarin in the Dark Mountains, who has been kidnapped by the Skaven.	true
+effect_bundles_localised_description_ceridan_join	It turned out that the advisor you saved is the elf Ceridan, who is on a mission of extreme importance, under the assumed name of Ilmarin. He joins your cause, convinced that your path will lead him to success regarding his task.	true
+effect_bundles_localised_title_ceridan_join	Ceridan joins your faction!	true
+missions_localised_title_ice_mage_vladimir_stormbringer	The Ice Mage	true
+missions_localised_description_ice_mage_vladimir_stormbringer	The Ice Mage, Vladimir Stormbringer, resides in Kislev at the Tzarina's side. Pay him a visit and see if he can perhaps be persuaded to join your adventures.	true
+effect_bundles_localised_description_ice_mage_vladimir_stormbringer_join	The Ice Mage has heard your case and has decided that the best way to aid Kislev and the Tzarina is to join your cause.	true
+effect_bundles_localised_title_ice_mage_vladimir_stormbringer_join	Vladimir Stormbringer joins your faction!	true
+missions_localised_title_dwarf_envoy	The Dwarf Envoy from Zhufbar	true
+missions_localised_description_dwarf_envoy	Meet the Dwarven Ambassador Engrol Goldtongue in the Zhufbar citadel and he might be convinced to join you.	true
+effect_bundles_localised_description_dwarf_envoy_join	Engrol Goldtongue is the official Dwarf Envoy from the fortress of Zhufbar. His skills in diplomacy are unusually proficient for a Dwarf and he has resolved many quarrels with the Empire in his career which spans over two centuries.	true
+effect_bundles_localised_title_dwarf_envoy_join	Engrol Goldtongue joins your faction!	true
+missions_localised_title_morgan_bernhardt	Commander Morgan Bernhardt	true
+missions_localised_description_morgan_bernhardt	Find Grudgebringer Commander Morgan Bernhardt, who is currently running the Red Moon Inn within Ubersreik.	true
+effect_bundles_localised_description_morgan_bernhardt_join	Once, a young soldier, Morgan Bernhardt, had bitterly declared he could form an army better than any of the Empire's Knightly Orders, after having been rejected by each and every one.  An eccentric old Bright Wizard heard his impassioned speech and gifted him with his enchanted sword, Grudgebringer. Morgan would go on to earn quite a name for himself, assembling a nigh unstoppable mercenary warband that would make contributions to many major campaigns. This renown commander has now joined your cause.	true
+effect_bundles_localised_title_morgan_bernhardt_join	Morgan Bernhardt joins your faction!	true
+missions_localised_title_azguz_bloodfist_dwarf_warriors	Azguz Bloodfist's Dwarf Warriors	true
+missions_localised_description_azguz_bloodfist_dwarf_warriors	Visit this area to hire Azguz Bloodfist's Dwarf Warriors.	true
+effect_bundles_localised_description_azguz_bloodfist_dwarf_warriors_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_azguz_bloodfist_dwarf_warriors_join	Azguz Bloodfist's Dwarf Warriors join your faction!	true
+missions_localised_title_dargrimm_firebeard_dwarf_warriors	Dargrimm Firebeard's Dwarf Warriors	true
+missions_localised_description_dargrimm_firebeard_dwarf_warriors	Visit this area to hire Dargrimm Firebeard's Dwarf Warriors.	true
+effect_bundles_localised_description_dargrimm_firebeard_dwarf_warriors_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_dargrimm_firebeard_dwarf_warriors_join	Dargrimm Firebeard's Dwarf Warriors join your faction!	true
+missions_localised_title_elrod_wood_elf_glade_guards	Elrod's Wood Elf Glade Guards	true
+missions_localised_description_elrod_wood_elf_glade_guards	Visit this area to hire Elrod's Wood Elf Glade Guards.	true
+effect_bundles_localised_description_elrod_wood_elf_glade_guards_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_elrod_wood_elf_glade_guards_join	Elrod's Wood Elf Glade Guards join your faction!	true
+missions_localised_title_galed_elf_archers	Galed's Elf Archers	true
+missions_localised_description_galed_elf_archers	Visit this area to hire Galed's Elf Archers.	true
+effect_bundles_localised_description_galed_elf_archers_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_galed_elf_archers_join	Galed's Elf Archers join your faction!	true
+missions_localised_title_helmgart_bowmen	Helmgart Bowmen	true
+missions_localised_description_helmgart_bowmen	Visit this area to hire the Helmgart Bowmen.	true
+effect_bundles_localised_description_helmgart_bowmen_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_helmgart_bowmen_join	The Helmgart Bowmen join your faction!	true
+missions_localised_title_keelers_longbows	Keeler's Longbows	true
+missions_localised_description_keelers_longbows	Visit this area to hire Keeler's Longbows.	true
+effect_bundles_localised_description_keelers_longbows_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_keelers_longbows_join	Keeler's Longbows join your faction!	true
+missions_localised_title_black_avangers	Black Avengers	true
+missions_localised_description_black_avangers	Visit this area to hire the Black Avengers.	true
+effect_bundles_localised_description_black_avangers_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_black_avangers_join	The Black Avengers join your faction!	true
+missions_localised_title_carlsson_cavalry	Carlsson's Cavalry	true
+missions_localised_description_carlsson_cavalry	Visit this area to hire Carlsson's Cavalry.	true
+effect_bundles_localised_description_carlsson_cavalry_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_carlsson_cavalry_join	Carlsson's Cavalry joins your faction.	true
+missions_localised_title_vannheim_75th	Vannheim's 75th	true
+missions_localised_description_vannheim_75th	Visit this area to hire Vannheim's 75th.	true
+effect_bundles_localised_description_vannheim_75th_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_vannheim_75th_join	Vannheim's 75th joins your faction!	true
+missions_localised_title_treeman_knarlroot	Treeman Knarlroot	true
+missions_localised_description_treeman_knarlroot	Visit this area to hire Treeman Knarlroot.	true
+effect_bundles_localised_description_treeman_knarlroot_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_treeman_knarlroot_join	Treeman Knarlroot joins your faction!	true
+missions_localised_title_treeman_gnarl_fist	Treeman Gnarl Fist	true
+missions_localised_description_treeman_gnarl_fist	Visit this area to hire Treeman Gnarl Fist.	true
+effect_bundles_localised_description_treeman_gnarl_fist_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_treeman_gnarl_fist_join	Treeman Gnarl Fist joins your faction!	true
+missions_localised_title_uter_blomkwist_imperial_mortar	Uter Blomkwist's Imperial Mortars	true
+missions_localised_description_uter_blomkwist_imperial_mortar	Visit this area to hire Uter Blomkwist's Imperial Mortars.	true
+effect_bundles_localised_description_uter_blomkwist_imperial_mortar_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_uter_blomkwist_imperial_mortar_join	Uter Blomkwist's Imperial Mortars join your faction.	true
+missions_localised_title_urblab_rotgut_mercenary_ogres	Urblab Rotgut's Mercenary Ogres	true
+missions_localised_description_urblab_rotgut_mercenary_ogres	Visit this area to hire Urblab Rotgut's Mercenary Ogres.	true
+effect_bundles_localised_description_urblab_rotgut_mercenary_ogres_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_urblab_rotgut_mercenary_ogres_join	Urblab Rotgut's Mercenary Ogres join your faction!	true
+missions_localised_title_countess_guard	Countess Isabella von Liberhurtz's Guard	true
+missions_localised_description_countess_guard	Visit this area to hire Countess Isabella von Liberhurtz's Guard.	true
+effect_bundles_localised_description_countess_guard_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_countess_guard_join	Countess Isabella von Liberhurtz's Guard joins your faction!	true
+missions_localised_title_dieter_schaeffer_carroburg_greatswords	Dieter Schaeffer's Carroburg Greatswords	true
+missions_localised_description_dieter_schaeffer_carroburg_greatswords	Visit this area to hire Dieter Schaeffer's Carroburg Greatswords.	true
+effect_bundles_localised_description_dieter_schaeffer_carroburg_greatswords_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_dieter_schaeffer_carroburg_greatswords_join	Dieter Schaeffer's Carroburg Greatswords join your faction!	true
+missions_localised_title_jurgen_muntz_outlaw_infantry	Jurgen Muntz's Outlaw Infantry	true
+missions_localised_description_jurgen_muntz_outlaw_infantry	Visit this area to hire Jurgen Muntz's Outlaw Infantry.	true
+effect_bundles_localised_description_jurgen_muntz_outlaw_infantry_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_jurgen_muntz_outlaw_infantry_join	Jurgen Muntz's Outlaw Infantry joins your faction!	true
+missions_localised_title_boris_von_raukov_4th_nuln_halberdiers	Boris von Raukov's 4th Nuln Halberdiers	true
+missions_localised_description_boris_von_raukov_4th_nuln_halberdiers	Visit this area to hire Boris von Raukov's 4th Nuln Halberdiers.	true
+effect_bundles_localised_description_boris_von_raukov_4th_nuln_halberdiers_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_boris_von_raukov_4th_nuln_halberdiers_join	Boris von Raukov's 4th Nuln Halberdiers join your faction.	true
+missions_localised_title_stephan_weiss_outlaw_pistoliers	Stephan Weiss' Outlaw Pistoliers	true
+missions_localised_description_stephan_weiss_outlaw_pistoliers	Visit this area to hire Stephan Weiss' Outlaw Pistoliers.	true
+effect_bundles_localised_description_stephan_weiss_outlaw_pistoliers_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_stephan_weiss_outlaw_pistoliers_join	Stephan Weiss' Outlaw Pistoliers join your faction.	true
+effect_bundles_localised_description_knights_of_the_realm_bertrand_le_grande_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_knights_of_the_realm_bertrand_le_grande_join	Вertrand le Grande's Knights of the Realm join your faction.	true
+missions_localised_title_knights_of_the_realm_bertrand_le_grande	Вertrand le Grande's Knights of the Realm	true
+missions_localised_description_knights_of_the_realm_bertrand_le_grande	Visit this area to hire Вertrand le Grande's Knights of the Realm	true
+effect_bundles_localised_description_grail_knights_tristan_de_la_tourtristan_de_la_tour_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_grail_knights_tristan_de_la_tourtristan_de_la_tour_join	Tristan de la Tour's Grail Knights join your faction.	true
+missions_localised_title_grail_knights_tristan_de_la_tourtristan_de_la_tour	Tristan de la Tour's Grail Knights	true
+missions_localised_description_grail_knights_tristan_de_la_tourtristan_de_la_tour	Visit this area to hire Tristan de la Tour's Grail Knights	true
+effect_bundles_localised_description_flagellants_eusebio_the_bleak_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_flagellants_eusebio_the_bleak_join	Eusebio the Bleak's Flagellants joins your faction!	true
+missions_localised_description_flagellants_eusebio_the_bleak	Visit this area to hire Eusebio the Bleak's Flagellants.	true
+missions_localised_title_flagellants_eusebio_the_bleak	Eusebio the Bleak's Flagellants	true

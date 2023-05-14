@@ -1,0 +1,4 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/obo_grudgebringers				
+morgan_bernhardt	grudge_item_enchanted_shield	10	true	false
+morgan_bernhardt	grudge_item_grudgebringer_sword	5	true	false

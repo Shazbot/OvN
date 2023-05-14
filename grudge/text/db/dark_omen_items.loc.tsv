@@ -1,0 +1,40 @@
+key	text	tooltip
+#Loc;1;text/db/dark_omen_items.loc		
+unit_abilities_onscreen_name_enchanted_shield	Enchanted Shield	true
+unit_abilities_tooltip_text_enchanted_shield	The Enchanted Shield is imbued with powerful magic that bestows a bevy of protective boons to the wielder's entire army.	true
+unit_abilities_onscreen_name_shield_of_ptolos	Shield of Ptolos	true
+unit_abilities_tooltip_text_shield_of_ptolos	The Shield of Ptolos is magically inscribed with a myriad of distracting patterns and designs. The patterns magically deflect arrows and bolts, sending them spinning off of their intended course.	true
+unit_abilities_tooltip_text_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright Mage. A fireball may be cast from the sword once per Magic Cycle.	true
+unit_abilities_tooltip_text_potion_of_strength	When ingested, this magic potion increases the strength of the bearer's regiment for a short period of time, allowing them to inflict far more damage on enemy troops in melee	true
+unit_abilities_onscreen_name_potion_of_strength	Potion of Strength	true
+unit_abilities_tooltip_text_horn_of_urgok	The sound of this horn strikes fear into the hearts of enemies, yet calm the hearts of your allies..	true
+unit_abilities_onscreen_name_horn_of_urgok	Horn of Urgok	true
+character_skills_localised_description_paymaster_dietrich	Paymaster of the Grudgebringers	true
+character_skills_localised_description_dwarf_envoy	Engrol Goldtongue is the official Dwarf Envoy from the fortress of Zhufbar. His skills in diplomacy are unusually proficient for a Dwarf and he has resolved many quarrels with the Empire in his career which spans over two centuries.	true
+character_skills_localised_name_dwarf_envoy	Dwarf Envoy	true
+character_skills_localised_name_paymaster_dietrich	Paymaster Dietrich	true
+character_skills_localised_name_klaus	Klaus Zimmermann	true
+effects_description_paymaster_dietrich_upkeep_reduction_merc	Upkeep reduction: %+n% for mercenaries	false
+effects_description_paymaster_dietrich_cost_reduction_merc	Cost reduction: %+n% for mercenaries	false
+effects_description_paymaster_dietrich_upkeep_increase_non_ror	Upkeep incraise: %+n% for non regiments of renown and mercenaries	false
+effects_description_paymaster_dietrich_cost_increase_non_ror	Cost incraise: %+n% for non regiments of renown and mercenaries	false
+ancillaries_colour_text_grudgebringer_sword	This mighty sword has runes inscribed along the blade by a Bright Mage. In hand-to-hand combat the wielder strikes more accurately and ferociously against his enemies. In addition, a devastating fireball may be cast from the sword. Morgan Bernhardt has named his entire mercenary army after this great artifact.	true
+ancillaries_onscreen_name_grudgebringer_sword	Grudgebringer Sword	true
+effects_description_grudgebringer_sword	Ability: Grudgebringer Sword	true
+unit_abilities_onscreen_name_grudgebringer_sword	Grudgebringer Sword	true
+ancillaries_colour_text_enchanted_shield	The Enchanted Shield is imbued with powerful magic that bestows a bevy of protective boons to the wielder's entire army.	true
+ancillaries_onscreen_name_enchanted_shield	Enchanted Shield	true
+unit_abilities_onscreen_name_banner_of_wrath	Banner of Wrath	true
+unit_abilities_tooltip_text_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	true
+ancillaries_colour_text_banner_of_wrath	This hallowed banner has been infused with power and can lash the enemy with bolts of pure energy. It may be cast, unleashing up to six mighty lightning bolts upon enemy troops within range	true
+ancillaries_onscreen_name_banner_of_wrath	Banner of Wrath	true
+effects_description_banner_of_wrath	Ability: Banner of Wrath	true
+effect_bundles_localised_title_banner_of_wrath	Banner of Wrath	false
+unit_abilities_onscreen_name_stormsword	Stormsword 	true
+unit_abilities_tooltip_text_stormsword	This mighty sword channels Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast once per magic cycle, summoning multiple lightning bolts from the sky which strike the enemy regiment.	true
+ancillaries_colour_text_stormsword	This mighty sword channels Celestial magic through its blade. In hand-to-hand combat a successful strike wounds the enemy automatically, regardless of any armour he may be wearing. When the wielder is in melee it may be cast once per magic cycle, summoning multiple lightning bolts from the sky which strike the enemy regiment.	true
+ancillaries_onscreen_name_stormsword	Stormsword 	true
+effects_description_stormsword	Ability: Stormsword 	true
+effect_bundles_localised_title_stormsword	Stormsword 	false
+character_skills_localised_name_do_skill_dump	Skill Dump	true
+character_skills_localised_description_do_skill_dump	Dump Skill	true

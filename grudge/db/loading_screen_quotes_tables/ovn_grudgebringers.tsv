@@ -1,0 +1,3 @@
+key	image	max_displays	weighting	first_shown_weighting	category
+#loading_screen_quotes_tables;5;db/loading_screen_quotes_tables/ovn_grudgebringers					
+ovn_morgan_loading_quote	ui/portraits/portholes/no_culture/morgan_bernhardt.png	-1	1	2	generic

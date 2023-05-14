@@ -1,0 +1,25 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_grudge_upgrade								
+ovn_grudge_armour_effect			none	1		true	false	true
+ovn_grudge_inf_effect			none	1		true	false	true
+ovn_grudge_cross_effect			none	1		true	false	true
+ovn_grudge_can_effect			none	1		true	false	true
+grudge_transfer_region	grudge_transfer_region	grudge_transfer_region	faction	1	diplomacy.png	false	false	true
+grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	force	1	growth.png	true	false	true
+grudge_supply_dummy	grudge_supply_dummy	grudge_supply_dummy	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true
+grudge_retain_dummy	grudge_retain_dummy	grudge_retain_dummy	faction	0	siege_defence.png	false	false	true
+grudge_liberate	grudge_liberate	grudge_liberate	faction	1	confederation.png	false	false	true
+grudge_upkeep_malus	grudge_upkeep_malus	grudge_upkeep_malus	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true
+grudge_camp_followers	grudge_upkeep_malus	grudge_upkeep_malus	faction	1	campaign_movement.png	true	false	true
+grudge_replacements	grudge_upkeep_malus	grudge_upkeep_malus	faction	1	replenishment.png	true	false	true
+grudge_hire_dummy	grudge_upkeep_malus	grudge_upkeep_malus	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true
+ovn_grudgebringers_garrison_replenishment	 		faction	0	trade_agreement.png	true	false	true
+grudge_bundle_banner_of_arcane_warding			character	1	public_order.png	false	false	true
+grudge_bundle_banner_of_wrath			character	1	public_order.png	false	false	true
+grudge_bundle_banner_of_defiance			character	1	public_order.png	false	false	true
+wh2_main_lord_trait_emp_grudgebringers			faction	1	character.png	false	false	true
+ovn_faction_trait_grudge			faction	1	food.png	false	false	true
+ovn_anc_magic_standard_ptolos			character	1	public_order.png	false	false	true
+ovn_gru_camp			force	1	ogre_camp.png	true	false	true
+ovn_vc_gru_sothr	 		faction	1	corruption_skaven.png	true	false	true
+ovn_vc_gru_do	 		faction	1	corruption_vampiric.png	true	false	true
