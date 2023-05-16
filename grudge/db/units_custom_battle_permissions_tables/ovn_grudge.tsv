@@ -66,7 +66,7 @@ ovn_emp_grudgebringers_CB	false	grail_knights_tristan_de_la_tourtristan_de_la_to
 ovn_emp_grudgebringers_CB	false	knights_of_the_realm_bertrand_le_grande	true	true				false		false
 ovn_emp_grudgebringers_CB	false	ragnar_wolves	true	true				false		false
 ovn_emp_grudgebringers_CB	false	imperial_cannon_darius_flugenheim	true	true				false		false
-ovn_emp_grudgebringers_CB	false	ludwig_uberdorf_main_units	true	true	ui/portraits/portholes/no_culture/ludwig_uberdorf.png	ludwig_uberdorf_agent_uniforms		false		false
+ovn_emp_grudgebringers_CB	false	ludwig_uberdorf	true	true	ui/portraits/portholes/no_culture/ludwig_uberdorf.png	ludwig_uberdorf_agent_uniforms		false		false
 ovn_emp_grudgebringers_CB	false	ludwig_uberdorf_mount_main_units	true	true	ui/portraits/portholes/no_culture/ludwig_uberdorf_mount.png	ludwig_uberdorf_mount_agent_uniforms		false		false
 ovn_emp_grudgebringers_CB	false	ludwig_uberdorf_steam_tank_main_units	true	true	ui/portraits/portholes/no_culture/ludwig_uberdorf_steam_tank.png	ludwig_uberdorf_steam_tank_agent_uniforms		false		false
 ovn_emp_grudgebringers_CB	true	morgan_bernhardt_mount	true	true	ui/portraits/portholes/no_culture/morgan_bernhardt.png	morgan_bernhardt	morgan_bernhardt	false		false

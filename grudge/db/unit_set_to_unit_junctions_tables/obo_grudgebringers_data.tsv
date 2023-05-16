@@ -332,8 +332,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			luther_flamenstrike_mount	wh2_main_lzd_blessed_units	false
 			luther_flamenstrike_mount	emp_all	false
 			luther_flamenstrike_mount	emp_characters	false
-			ludwig_uberdorf_main_units	emp_all	false
-			ludwig_uberdorf_main_units	emp_characters	false
+			ludwig_uberdorf	emp_all	false
+			ludwig_uberdorf	emp_characters	false
 			ludwig_uberdorf_steam_tank_main_units	emp_all	false
 			ludwig_uberdorf_steam_tank_main_units	emp_characters	false
 			ludwig_uberdorf_steam_tank_main_units	emp_steam_tank	false

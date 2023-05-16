@@ -6,7 +6,7 @@ effect_bundles_localised_description_ludwig_uberdorf	Steam Tank Commander	true
 effect_bundles_localised_title_ludwig_uberdorf_join	Ludwig von Uberdorf joins your faction!	true
 ui_unit_groupings_onscreen_ludwig_uberdorf_ui_unit_group_land	Steam Tank Commander	true
 ui_unit_groupings_tooltip_ludwig_uberdorf_ui_unit_group_land	The steam tank The Emperor's Wrath was one of the first tank built by Leonardo of Miragliano. To this day, he strikes terror into the hearts of the enemy. The current tank commander is Ludwig von Uberdorf	true
-land_units_onscreen_name_ludwig_uberdorf_land_units	Ludwig von Uberdorf	true
+land_units_onscreen_name_ludwig_uberdorf	Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_steam_tank_land_units	Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_mount_land_units	Ludwig von Uberdorf	true
 land_units_onscreen_name_ludwig_uberdorf_gyrobomber_land_units	Ludwig von Uberdorf	true

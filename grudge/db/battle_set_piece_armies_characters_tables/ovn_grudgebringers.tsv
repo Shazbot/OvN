@@ -7,7 +7,7 @@ morgan_bernhardt	1	210309005		100	210309006	morgan_bernhardt	general	morgan_bern
 morgan_bernhardt_mount	1	210309005		100	210309006	morgan_bernhardt_mount	general	morgan_bernhardt	ui/portraits/portholes/no_culture/morgan_bernhardt.png	21030903		true
 gaston	1	210309007		100	210309008	gaston	champion	gaston	ui/portraits/portholes/no_culture/gaston.png	210309051		true
 gaston_mount	1	210309007		100	210309008	gaston_mount	champion	gaston	ui/portraits/portholes/no_culture/gaston.png	210309051		true
-ludwig_uberdorf	1	210309009		100	210309010	ludwig_uberdorf_main_units	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_main_units.png	210309061		true
+ludwig_uberdorf	1	210309009		100	210309010	ludwig_uberdorf	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_main_units.png	210309061		true
 ludwig_uberdorf_mount	1	210309009		100	210309010	ludwig_uberdorf_mount_main_units	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_mount_main_units.png	210309061		true
 ludwig_uberdorf_gyrobomber	1	210309009		100	210309010	ludwig_uberdorf_gyrobomber_main_units	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_gyrobomber_main_units.png	210309061		true
 ludwig_uberdorf_steam_tank	1	210309009		100	210309010	ludwig_uberdorf_steam_tank_main_units	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_steam_tank_main_units.png	210309061		true
