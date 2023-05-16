@@ -315,6 +315,11 @@ mod.bog_pages = {
 	},
 }
 
+mod.grudge_map_component_ids = {}
+for mission_key in pairs(mod.mission_key_to_unit_key) do
+	mod.grudge_map_component_ids["pj_grudge_book_map_"..mission_key] = true
+end
+
 mod.get_num_valid_bog_pages = function()
 	local num_pages = 0
 	for _, page_data in pairs(mod.bog_pages) do
@@ -322,7 +327,7 @@ mod.get_num_valid_bog_pages = function()
 			num_pages = num_pages + 1
 		end
 	end
-	return num_pages+1
+	return num_pages+2
 end
 
 mod.get_bog_page = function(page_num)
@@ -330,7 +335,7 @@ mod.get_bog_page = function(page_num)
 	for _, page_data in pairs(mod.bog_pages) do
 		if not page_data.predicate or page_data.predicate() then
 			page_index = page_index + 1
-			if page_index == page_num-1 then
+			if page_index == page_num-2 then
 				return mod.bog_pages[mod.bog_pages_list[page_index]]
 			end
 		end
@@ -361,12 +366,30 @@ mod.close_book_of_grudges = function()
 	button_ok:SimulateLClick()
 end
 
+mod.create_map = function()
+	local book_of_grudges = digForComponent(core:get_ui_root(), "pj_grudge_book")
+	local book_frame = find_uicomponent(book_of_grudges, "book_frame")
+	book_frame:SetImagePath("ui/ovn_grudge_book/book_bg.png", 1)
+	local pages = digForComponent(book_of_grudges, "pages")
+
+	local map = core:get_or_create_component("pj_grudge_book_map", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
+	map:SetImagePath("ui/wh3_map.jpg", 0)
+	map:SetCanResizeWidth(true)
+	map:SetCanResizeHeight(true)
+	map:Resize(1090,700)
+	map:SetVisible(true)
+	map:SetDockingPoint(1)
+	map:SetDockOffset(120,50)
+
+	mod.add_missions_to_map()
+end
+
 mod.create_toc = function()
 	-- dout("CREATE TOC")
 	local book_of_grudges = digForComponent(core:get_ui_root(), "pj_grudge_book")
 	local book_frame = find_uicomponent(book_of_grudges, "book_frame")
 	book_frame:SetImagePath("ui/ovn_grudge_book/book_bg.png", 1)
-	local pages = digForComponent(book_of_grudges, "pages")
+	local pages = find_uicomponent(book_frame, "pages")
 	local dy_objective = digForComponent(book_of_grudges, "dy_objective")
 	local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses")
 	local current_x = 140
@@ -440,6 +463,20 @@ mod.create_toc = function()
 				req:SetInteractive(false)
 			end,0)
 		end
+
+		local banner_id = "banner_"..unit_key
+		cm:callback(function()
+			local banner = core:get_or_create_component(banner_id, "ui/ovn_grudge_book/pj_custom_image.twui.xml", obj)
+			banner:SetImagePath('ui/ovn_grudge_book/banners/'..unit_key..'.png', 0)
+			banner:SetCanResizeWidth(true)
+			banner:SetCanResizeHeight(true)
+			banner:Resize(40,40)
+			banner:SetDockingPoint(4)
+			banner:SetDockOffset(-35,4)
+			banner:SetVisible(true)
+			banner:SetInteractive(false)
+		end,0)
+
 		local localized_unit_key = common.get_localised_string("land_units_onscreen_name_"..unit_key)
 		local loc_w = obj:TextDimensionsForText(localized_unit_key)
 		local dot_w = obj:TextDimensionsForText(".")
@@ -450,7 +487,7 @@ mod.create_toc = function()
 		for i=1, num_dots do
 			line = line.."."
 		end
-		line = line..(i+2).."[[/col]]"
+		line = line..(i+3).."[[/col]]"
 		obj:SetStateText(line)
 	end
 end
@@ -477,24 +514,37 @@ mod.draw_bog_page = function(page_num)
 		"pj_grudge_book_head_bg",
 		"pj_grudge_book_unit_card_bg",
 		"pj_grudge_book_head3",
+		"pj_grudge_book_map",
 	}) do
 		local comp = find_uicomponent(pages, comp_id)
-		if comp then comp:SetVisible(page_num ~= 1) end
+		if comp then comp:SetVisible(page_num ~= 1 and page_num ~= 2) end
+	end
+	for _, comp_id in ipairs({
+		"pj_grudge_book_map",
+	}) do
+		local comp = find_uicomponent(pages, comp_id)
+		if comp then comp:SetVisible(page_num == 2) end
 	end
 
 	local toc_button = core:get_or_create_component("pj_grudge_book_toc_button", "ui/templates/round_small_button.twui.xml", book_of_grudges)
 	toc_button:SetImagePath("ui/skins/default/icon_menu.png", 0)
-	-- toc_button:SetCanResizeWidth(true)
-	-- toc_button:SetCanResizeHeight(true)
-	-- toc_button:Resize(32.32)
 	toc_button:SetVisible(true)
 	toc_button:SetDockingPoint(2)
 	toc_button:SetDockOffset(-137,14)
 	toc_button:SetTooltipText("Table of Contents", true)
-	-- toc_button:SetImageRotation(0, 3.141592)
+
+	local map_button = core:get_or_create_component("pj_grudge_book_map_button", "ui/templates/round_small_button.twui.xml", book_of_grudges)
+	map_button:SetImagePath("ui/skins/default/icon_small_tactical_map.png", 0)
+	map_button:SetVisible(true)
+	map_button:SetDockingPoint(2)
+	map_button:SetDockOffset(137,14)
+	map_button:SetTooltipText("Map", true)
 
 	if page_num == 1 then
 		return mod.create_toc()
+	end
+	if page_num == 2 then
+		return mod.create_map()
 	end
 
 	local page_data = mod.get_bog_page(page_num)
@@ -504,7 +554,7 @@ mod.draw_bog_page = function(page_num)
 	local is_left_page = true
 	local list = left_list
 
-	local pages = digForComponent(book_of_grudges, "pages")
+	local pages = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages")
 	local dy_objective = digForComponent(book_of_grudges, "dy_objective")
 	---@type CA_UIC
 	local unit_desc_id = "pj_grudge_book_unit_description"
@@ -521,7 +571,7 @@ mod.draw_bog_page = function(page_num)
 		unit_desc:MoveTo(x+580, y+555)
 	end
 
-	local unit_key = mod.bog_pages_list[page_num-1]
+	local unit_key = mod.bog_pages_list[page_num-2]
 
 	local banner = core:get_or_create_component("pj_grudge_book_banner", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
 	banner:SetImagePath(page_data.unit_banner or ('ui/ovn_grudge_book/banners/'..unit_key..'.png'), 0)
@@ -733,6 +783,7 @@ mod.comp_id_to_handler = {
 	button_L = "on_book_navigation",
 	pj_grudge_book_toc_button = "on_toc_button_clicked",
 	ovn_grudge_main_button = "on_open_book",
+	pj_grudge_book_map_button = "on_map_button_clicked",
 }
 
 mod.on_open_book = function(context)
@@ -749,6 +800,10 @@ end
 
 mod.on_toc_button_clicked = function(context)
 	mod.go_to_page(1)
+end
+
+mod.on_map_button_clicked = function(context)
+	mod.go_to_page(2)
 end
 
 mod.go_to_page = function(page_num)
@@ -794,7 +849,26 @@ core:add_listener(
 		return context.string:starts_with("pj_grudge_book_row_")
 	end,
 	function(context)
-		mod.go_to_page(tonumber(string.sub(context.string,20,#context.string))+2)
+		mod.go_to_page(tonumber(string.sub(context.string,20,#context.string))+3)
+	end,
+	true
+)
+
+core:remove_listener("pj_grudge_book_on_map_banner_click")
+core:add_listener(
+	"pj_grudge_book_on_map_banner_click",
+	"ComponentLClickUp",
+	function(context)
+		return mod.grudge_map_component_ids[context.string]
+	end,
+	function(context)
+		local mission_key = string.sub(context.string,20,#context.string)
+		for i, unit_key in ipairs(mod.bog_pages_list) do
+			local current_mission_key = mod.unit_key_to_mission_key[unit_key]
+			if current_mission_key and current_mission_key == mission_key then
+				return mod.go_to_page(i+2)
+			end
+		end
 	end,
 	true
 )
@@ -819,7 +893,7 @@ mod.redraw_bog = function(page_num)
 
 	mod.current_bog_comps = {}
 
-	if page_num == 1 or mod.get_bog_page(page_num) then
+	if page_num == 1 or page_num == 2 or mod.get_bog_page(page_num) then
 		mod.draw_bog_page(page_num)
 	end
 end
@@ -921,6 +995,137 @@ mod.get_mission_by_key = function(mission_key)
 	end
 end
 
+mod.clone_reqs = function(mission_key)
+	local root = core:get_ui_root()
+	local rq = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "info_panel", "listview", "list_clip", "list_box", "requirements_list")
+	if not rq then return end
+	local details = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "info_panel", "listview", "list_clip", "list_box", "dy_details_text")
+	if not details then return end
+	local pages = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages")
+	if not pages then return end
+	pages:Adopt(rq:Address())
+	rq:Adopt(details:Address())
+
+	local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
+	if not treasure_hunts_button then
+		treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
+	end
+	if treasure_hunts_button then treasure_hunts_button:SimulateLClick() end
+
+	cm:callback(function()
+		-- treasure_hunts_button:SetVisible(false)
+
+		local pages = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages")
+		local rq = pages and find_uicomponent(pages, "requirements_list")
+		if not rq then return end
+		rq:SetDockingPoint(5)
+		rq:SetDockOffset(290,230)
+		local rq_buttons = find_uicomponent(rq, "dy_requirement_text", "button_holder")
+		if rq_buttons then
+			rq_buttons:SetVisible(false)
+		end
+
+		local rq_x, rq_y = rq:Position()
+
+		local is_completed = false
+		local is_failed = false
+		local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses")
+		if mission_statuses then
+			is_completed = mission_statuses.success and mission_statuses.success[mission_key]
+			is_failed = mission_statuses.failed and mission_statuses.failed[mission_key]
+		end
+		if is_completed or is_failed then
+			local old_seal = find_uicomponent(pages, "pj_grudge_book_seal")
+			if old_seal then old_seal:Destroy() end
+
+			local seal = core:get_or_create_component("pj_grudge_book_seal", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
+			seal:SetImagePath(is_completed and "ui/ovn_grudge_book/grudge_seal.png" or "ui/ovn_grudge_book/stamp_mission_failed.png", 0)
+			seal:SetCanResizeWidth(true)
+			seal:SetCanResizeHeight(true)
+			if is_completed then
+				seal:Resize(127*1.3,194*1.3)
+			else
+				seal:Resize(170,159)
+			end
+
+			seal:SetVisible(true)
+			-- seal:SetDockingPoint(8)
+			-- seal:SetDockOffset(260,-10)
+			seal:MoveTo(rq_x+40+cm:random_number(90,0), rq_y+10+cm:random_number(50,0))
+		end
+
+		local details = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages", "dy_details_text")
+		if details then
+			details:SetDockingPoint(2)
+			details:SetDockOffset(0,0)
+		end
+	end,0)
+end
+
+mod.add_missions_to_map = function()
+	-- pieces of 8 map dimensions are 402,313 so offsets are relative to that
+	local po8w = 402
+	local po8h = 313
+
+	-- dout("ADD REQS")
+	local root = core:get_ui_root()
+	local book_of_grudges = find_uicomponent(root, "pj_grudge_book")
+	local pages = find_uicomponent(book_of_grudges, "pages")
+	local map = find_uicomponent(pages, "pj_grudge_book_map")
+
+	local treasure_hunts = find_uicomponent(root, "treasure_hunts")
+	if not treasure_hunts then
+		local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
+		if treasure_hunts_button then		
+			root:Adopt(treasure_hunts_button:Address())
+			treasure_hunts_button:MoveTo(-100,-100)
+		end
+		if not treasure_hunts_button then
+			treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
+		end
+		if not treasure_hunts_button then return end
+		treasure_hunts_button:SetVisible(true)
+		treasure_hunts_button:SimulateLClick()
+		-- treasure_hunts_button:Resize(1,1)
+	end
+	
+	local map_w, map_h = 1090,700
+
+	cm:callback(function()
+		local pieces_tab = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces")
+		pieces_tab:SimulateLClick()
+
+		cm:callback(function()
+			for i, unit_key in ipairs(mod.bog_pages_list) do
+				local mission_key = mod.unit_key_to_mission_key[unit_key]
+
+				if mission_key then
+					local btn = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "map", "pieces_holder", mission_key)
+					if btn then
+						local orig_offset_x, orig_offset_y = btn:GetDockOffset()
+						local normalized_offset_x, normalized_offset_y = orig_offset_x/po8w, orig_offset_y/po8h
+
+
+						local head = core:get_or_create_component("pj_grudge_book_map_"..mission_key, "ui/ovn_grudge_book/pj_custom_image.twui.xml", map)
+						head:SetImagePath('ui/ovn_grudge_book/banners/'..unit_key..'.png', 0)
+						head:SetCanResizeWidth(true)
+						head:SetCanResizeHeight(true)
+						head:Resize(190*0.35,200*0.35)
+						head:SetVisible(true)
+						head:SetDockingPoint(1)
+						head:SetDockOffset(map_w*normalized_offset_x, map_h*normalized_offset_y)
+						head:SetTooltipText(common.get_localised_string("land_units_onscreen_name_"..unit_key), true)
+					end
+				end
+			end
+
+			local treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
+			if not treasure_hunts_button then return end
+			treasure_hunts_button:SimulateLClick()
+		end,0)
+	end,0)
+end
+
 mod.add_reqs = function(page_num)
 	-- dout("ADD REQS")
 	local unit_key = mod.bog_pages_list[page_num-1]
@@ -940,88 +1145,49 @@ mod.add_reqs = function(page_num)
 	local treasure_hunts = find_uicomponent(root, "treasure_hunts")
 	if not treasure_hunts then
 		local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
+		if treasure_hunts_button then		
+			root:Adopt(treasure_hunts_button:Address())
+			treasure_hunts_button:MoveTo(-100,-100)
+		end
+		if not treasure_hunts_button then
+			treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
+		end
+		if not treasure_hunts_button then return end
 		treasure_hunts_button:SetVisible(true)
 		treasure_hunts_button:SimulateLClick()
 	end
-
+	
 	cm:callback(function()
-		local btn = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "tx_acquired", "acquired_list", mission_key)
-		if not btn then
-			btn = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "map", "pieces_holder", mission_key)
-		end
-		if not btn then
-			local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-			if treasure_hunts_button then treasure_hunts_button:SimulateLClick() end
-			return
-		end
+		local pieces_tab = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces")
+		pieces_tab:SimulateLClick()
 
-		btn:SimulateLClick()
-
-		cm:callback(
-			function()
-				local rq = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "info_panel", "listview", "list_clip", "list_box", "requirements_list")
-				if not rq then return end
-				local details = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "info_panel", "listview", "list_clip", "list_box", "dy_details_text")
-				if not details then return end
-				local pages = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages")
-				if not pages then return end
-				pages:Adopt(rq:Address())
-				rq:Adopt(details:Address())
-
+		cm:callback(function()
+			local btn = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "tx_acquired", "acquired_list", mission_key)
+			if not btn then
+				btn = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces", "tab_child", "map", "pieces_holder", mission_key)
+			end
+			if not btn then
 				local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
+				if not treasure_hunts_button then
+					treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
+				end
 				if treasure_hunts_button then treasure_hunts_button:SimulateLClick() end
+				-- cm:callback(function()
+				-- 	dout("TRY")
+				-- 	mod.add_reqs(page_num)
+				-- end, 0)
+				return
+			end
 
-				cm:callback(function()
-					treasure_hunts_button:SetVisible(false)
+			btn:SimulateLClick()
 
-					local pages = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages")
-					local rq = pages and find_uicomponent(pages, "requirements_list")
-					if not rq then return end
-					rq:SetDockingPoint(5)
-					rq:SetDockOffset(290,230)
-					local rq_buttons = find_uicomponent(rq, "dy_requirement_text", "button_holder")
-					if rq_buttons then
-						rq_buttons:SetVisible(false)
-					end
-
-					local rq_x, rq_y = rq:Position()
-
-					local is_completed = false
-					local is_failed = false
-					local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses")
-					if mission_statuses then
-						is_completed = mission_statuses.success and mission_statuses.success[mission_key]
-						is_failed = mission_statuses.failed and mission_statuses.failed[mission_key]
-					end
-					if is_completed or is_failed then
-						local old_seal = find_uicomponent(pages, "pj_grudge_book_seal")
-						if old_seal then old_seal:Destroy() end
-
-						local seal = core:get_or_create_component("pj_grudge_book_seal", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
-						seal:SetImagePath(is_completed and "ui/ovn_grudge_book/grudge_seal.png" or "ui/ovn_grudge_book/stamp_mission_failed.png", 0)
-						seal:SetCanResizeWidth(true)
-						seal:SetCanResizeHeight(true)
-						if is_completed then
-							seal:Resize(127*1.3,194*1.3)
-						else
-							seal:Resize(170,159)
-						end
-
-						seal:SetVisible(true)
-						-- seal:SetDockingPoint(8)
-						-- seal:SetDockOffset(260,-10)
-						seal:MoveTo(rq_x+40+cm:random_number(90,0), rq_y+10+cm:random_number(50,0))
-					end
-
-					local details = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages", "dy_details_text")
-					if details then
-						details:SetDockingPoint(2)
-						details:SetDockOffset(0,0)
-					end
-				end,0)
-			end,
-			0
-		)
+			cm:callback(
+				function()
+					mod.clone_reqs(mission_key)
+				end,
+				0
+			)
+		end,0)
 	end,0)
 end
 
@@ -1142,9 +1308,15 @@ local function init()
 	end
 
 	local root = core:get_ui_root()
+
 	local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-	if treasure_hunts_button then treasure_hunts_button:SetVisible(false) end
-	-- if treasure_hunts_button then treasure_hunts_button:SetVisible(true) end
+	if treasure_hunts_button then		
+		root:Adopt(treasure_hunts_button:Address())
+		treasure_hunts_button:MoveTo(-100,-100)
+	end
+	if not treasure_hunts_button then
+		treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
+	end
 end
 
 mod.refresh_toc_row = function(pages, i)
@@ -1212,10 +1384,6 @@ mod.destroy_book = function()
 		mod.current_bog_page = nil
 		book:Destroy()
 	end
-
-	-- should already be set invisible in another place but just to be sure
-	local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-	if treasure_hunts_button then treasure_hunts_button:SetVisible(false) end
 end
 
 core:remove_listener("pj_grudge_book_destroy")
@@ -1243,13 +1411,3 @@ if debug.traceback():find('pj_loadfile') then
 	init()
 	local success, ret = pcall(mod.on_book_of_grudges_panel_opening)
 end
-
--- to enable recuruitment of RANGERS_3:
--- cm:set_saved_value("ovn_grudge_book_RANGER_3_RECRUITMENT", true)
-
--- local a = find_uicomponent(test, "info_parent", "info_panel")
--- a:SetImagePath("ui/trans.png", 0)
--- test:SetCanResizeHeight(true)
--- test:SetCanResizeWidth(true)
--- test:Resize(333,300)
--- test:SetContextObject(cco("CcoCampaignUnit","454"))
