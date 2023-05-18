@@ -1,0 +1,4 @@
+key	algorithm	algorithm_variable_set	action_category_budget
+#cai_decision_policies_tables;1;db/cai_decision_policies_tables/rhox_grudgebringer			
+deploy_grudgebringer_camp_policy_default	pick_best	pick_probabilistically	
+undeploy_grudgebringer_camp_policy_default	pick_best	pick_probabilistically	

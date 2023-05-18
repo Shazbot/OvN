@@ -1,0 +1,4 @@
+decision_item	decision_policy	source_domain	target_domain	third_party_domain
+#cai_decision_policy_domain_junctions_tables;0;db/cai_decision_policy_domain_junctions_tables/rhox_grudgebringer				
+	deploy_grudgebringer_camp_policy_default	our_armies		
+	undeploy_grudgebringer_camp_policy_default	our_ogre_camps		

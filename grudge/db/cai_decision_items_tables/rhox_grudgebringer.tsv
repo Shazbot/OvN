@@ -1,0 +1,4 @@
+key	unbound_decision_item_type	conditionally_spawnable_force	plague	ritual	decision_interface	province_initiative	compass_direction	plague_component	plague_recipe	occupation_decision	teleportation_node_template	FIXME	culture_occupation_decision	compass_action	initiative	initiative_set
+#cai_decision_items_tables;13;db/cai_decision_items_tables/rhox_grudgebringer																
+deploy_grudgebringer_camp		ovn_grudge_basic_camp			summon_spawnable_force_at_force							true	0			
+undeploy_grudgebringer_camp	disband_military_force				disband_military_forces							true	0			
