@@ -1,6 +1,7 @@
 OVN_GRUDGE_BOOK = OVN_GRUDGE_BOOK or {}
 local mod = OVN_GRUDGE_BOOK
 
+-- note that find_uicomponent already does a recursive search, should probably get rid of this
 ---@return CA_UIC
 local digForComponent = function(startingComponent, componentName, max_depth)
 	local function digForComponent_iter(startingComponent, componentName, max_depth, current_depth)
@@ -358,7 +359,7 @@ mod.create_map = function()
 	local pages = digForComponent(book_of_grudges, "pages")
 
 	local map = core:get_or_create_component("pj_grudge_book_map", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
-	map:SetImagePath("ui/ovn_grudge_book/wh3_map.jpg", 0)
+	map:SetImagePath("ui/ovn_grudge_book/wh3_map.png", 0)
 	map:SetCanResizeWidth(true)
 	map:SetCanResizeHeight(true)
 	map:Resize(1093,725)
@@ -1250,16 +1251,16 @@ mod.create_unlock_string = function(unit_key)
 
 	if mission.subculture_key then
 		if count == 1 then
-			return string.format("[[col:black]]Win 1 battle against %s.[[/col]]", common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
+			return string.format("Win 1 battle against %s.", common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
 		else
-			return string.format("[[col:black]]Win %d battles against %s.[[/col]]", count, common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
+			return string.format("Win %d battles against %s.", count, common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
 		end
 	end
 
 	if count == 1 then
-		return string.format("[[col:black]]Win 1 battle against %s.[[/col]]", common.get_localised_string("factions_screen_name_"..faction_key))
+		return string.format("Win 1 battle against %s.", common.get_localised_string("factions_screen_name_"..faction_key))
 	else
-		return string.format("[[col:black]]Win %d battles against %s.[[/col]]", count, common.get_localised_string("factions_screen_name_"..faction_key))
+		return string.format("Win %d battles against %s.", count, common.get_localised_string("factions_screen_name_"..faction_key))
 	end
 end
 
@@ -1342,7 +1343,7 @@ mod.refresh_toc_row = function(pages, i)
 		end
 	end
 	if unit_data and unit_data.localized_unlock and not (is_completed or is_failed) then
-		local unlock_req_str = "[[col:black]]"..unit_data.localized_unlock.."[[/col]]"
+		local unlock_req_str = "[[col:black]]To Unlock: [[//col]][[col:ancillary_unique]]"..unit_data.localized_unlock.."[[/col]]"
 		local req_id = "unit_req_"..unit_key
 		local unit_req = find_uicomponent(unit_row, req_id)
 		unit_req:SetStateText(unlock_req_str)
