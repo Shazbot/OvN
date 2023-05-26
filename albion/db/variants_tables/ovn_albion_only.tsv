@@ -1,0 +1,63 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_albion_only							
+ovn_alb_order_of_the_truthsayers_swordmaiden		albion_swordmaiden		1.0700	1.0000	0.0500	
+elo_albion_gryphon		elo_albion_gryphon		1.0000	1.0000	0.1000	
+alb_cav_noble		alb_cav_noble		1.0000	0.9500	0.0500	
+alb_cav_noble_spear		alb_cav_noble_spear		1.0000	0.9500	0.0500	
+alb_viridian_champ		alb_viridian_champ		1.2000	1.2000	0.0500	
+albion_riders_spear		albion_riders_spear		1.0000	0.9500	0.0500	
+elo_fenbeast		elo_fenbeast		1.1000	1.1000	0.1500	
+elo_albion_cha_queen		elo_albion_cha_queen		1.1500	1.1500	0.0000	
+elo_albion_warriors		elo_albion_warriors		0.9500	0.9500	0.0500	
+elo_youngbloods		elo_youngbloods		0.9000	0.9000	0.1000	
+elo_woadraider		elo_woadraider		1.0500	0.9500	0.0500	
+druid_neophytes		druid_neophytes		1.0000	1.0000	0.0500	
+elo_bloodhounds		elo_bloodhounds		1.0000	1.0000	0.0500	
+albion_stonethrower		albion_stonethrower		1.0000	1.1000	0.0500	
+albion_giant		albion_giant		1.0000	1.0000	0.1500	
+albion_huntresses		alb_huntress		1.1000	1.1000	0.1000	
+elo_albion_warriors_spears		elo_albion_warriors_spears		0.9500	0.9500	0.0500	
+elo_albion_warriors_2h		elo_albion_warriors_2h		0.9500	0.9500	0.0500	
+albion_warhorse_hu1		albion_warhorse		1.0000	1.0000	0.0500	
+albion_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	albion_warhorse		1.0850	1.0850	0.0500	
+albion_warhorse_lord	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	albion_warhorse		1.1500	1.1500	0.0500	
+albion_riders		albion_riders		1.0000	0.9500	0.0000	
+albion_riders_javelins		albion_riders_javelins		1.0000	0.9500	0.0000	
+albion_hearthguard		albion_hearthguard		1.0000	0.9500	0.1000	
+albion_hearthguard_halberd		albion_hearthguard_halberd		1.0000	0.9500	0.1000	
+albion_hearthguard_2h		albion_hearthguard_2h		1.0000	1.0500	0.1000	
+albion_chariot_fighter		albion_chariot_fighter		1.0000	1.0000	0.1000	
+albion_chariot_driver		albion_chariot_driver		1.0000	1.0000	0.1000	
+albion_chariot		albion_chariot		1.0000	1.0000	0.1000	
+albion_chariot_cam	art\campaign\chariots\cam_cch1\chs_marauder_chariot\tech	campaign_alb_chariot		1.0000	1.0000	0.1000	
+albion_warhorse_chariot		albion_warhorse		1.0000	1.0000	0.1000	
+albion_truthsayer		albion_truthsayer		1.1000	1.1000	0.1000	
+albion_centaurs		albion_centaurs		1.0000	1.0000	0.1000	
+albion_fenhulk		elo_fenhulk		1.7500	1.7500	0.5000	
+albion_warleader		albion_warleader		1.0000	1.1000	0.0500	
+albion_chief		albion_chief		1.0000	1.0000	0.0500	
+albion_morrigan		albion_morrigan		1.0000	1.0000	0.0000	
+morrigan_midnight	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	morrigan_midnight		1.0000	1.0000	0.0000	
+albion_morrigan_bird		albion_morrigan		1.0000	1.0000	0.0000	
+albion_half_giants		albion_half_giants		1.1000	1.1000	0.2000	
+albion_wyrd_druid		albion_wyrd_druid		1.0500	1.0500	0.0000	
+albion_truthsayer_beast		albion_truthsayer_beast		1.1000	1.1000	0.1000	
+albion_truthsayer_life		albion_truthsayer_life		1.1000	1.1000	0.1000	
+albion_truthsayer_light		albion_truthsayer_light		1.1000	1.1000	0.1000	
+albion_truthsayer_truth		albion_truthsayer_truth		1.1000	1.1000	0.1000	
+albion_chief_campaign		albion_chief_campaign		1.0000	1.1000	0.0500	
+ovn_alb_stone_throw_giant		alb_stone_giant		1.0000	1.0500	0.0000	
+bl_elo_dural_durak		bl_elo_dural_durak		1.1000	1.1000	0.0000	
+ovn_barrow_wight		ovn_barrow_wight		1.0000	1.0200	0.0500	
+albion_shieldmaiden_ror		albion_shieldmaiden_ror		1.0000	1.1000	0.1000	
+albion_bologs_giant_ror		albion_giant_ror		1.0000	1.2000	0.0000	
+elo_fly_infested_rotwood		alb_horned_man_ror		1.0000	1.0000	0.0000	
+albion_woadraider_sworn_ror		elo_woadraider_ror		1.0000	1.1000	0.1000	
+alb_cav_noble_first_ror		albion_hearthguard_cav_ror		1.0000	0.9500	0.0500	
+albion_warriors_lugh		elo_albion_warriors_ror		1.0000	1.0000	0.0500	
+albion_huntresses_warden_ror		albion_huntresses_warden_ror		1.0000	1.1000	0.1000	
+albion_centaur_hunter_ror		albion_centaur_hunter_ror		1.0000	1.0000	0.1000	
+albion_cachtorr_stonethrower		alb_stone_giant_ror		1.0000	1.0000	0.0000	
+albion_highlander_ror		albion_highlander_ror		1.0000	1.1500	0.1000	
+campaign_alb_ship_agent		campaign_alb_ship_agent		1.0000	0.5000	0.0000	
+campaign_alb_ship_transport		campaign_alb_ship_transport		1.0000	0.5000	0.0000	

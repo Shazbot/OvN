@@ -1,0 +1,27 @@
+building_chain	id
+#building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/ovn_albion_buildings	
+ovn_Waystone	ovn_albion
+ovn_Waystone_marker	ovn_albion
+ovn_albion_military	ovn_albion
+ovn_albion_stables	ovn_albion
+elo_ogham_stone	ovn_albion
+elo_temple_danu	ovn_albion
+albion_hunters	ovn_albion
+albion_order	ovn_albion
+albion_smith	ovn_albion
+albion_hall_heroes	ovn_albion
+albion_gryphon_eyrie	ovn_albion
+elo_great_ogham	ovn_albion
+elo_forge_old_ones	ovn_albion
+elo_citadel_lead	ovn_albion
+albion_oracle_hall	ovn_albion
+ovn_albion_foreign_slot_discovery	ovn_albion
+ovn_albion_walls	ovn_albion
+alb_resource_marble	ovn_albion
+alb_resource_wood	ovn_albion
+alb_resource_gold	ovn_albion
+alb_resource_iron	ovn_albion
+alb_resource_pottery	ovn_albion
+alb_resource_medicine	ovn_albion
+ovn_albion_settlement_minor	ovn_albion
+ovn_albion_settlement_major	ovn_albion

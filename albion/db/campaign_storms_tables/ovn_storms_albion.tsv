@@ -1,0 +1,4 @@
+strength	type	attrition	key	tiling_composite_scene	composite_scene	priority	battle_tag	battle_lighting_environment
+#campaign_storms_tables;0;db/campaign_storms_tables/ovn_storms_albion								
+1	ovn_albion_mist	ovn_albion_mist	ovn_albion_mist	storm_base	cst_fog	0		weather\battle\wh_spell_mist_01.environment_group
+1	ovn_albion_storm	ovn_albion_storm	ovn_albion_storm	storm_base	storm_level_5	0		

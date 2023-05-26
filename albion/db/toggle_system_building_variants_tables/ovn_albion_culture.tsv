@@ -1,0 +1,10 @@
+base_battlefield_building	culture	prefab_path	settlement_gun_type	survival_gun_type	settlement_construction_delay	settlement_dismantle_delay	survival_construction_delay	survival_dismantle_delay
+#toggle_system_building_variants_tables;2;db/toggle_system_building_variants_tables/ovn_albion_culture								
+blk_ksl_tower_30m_01	ovn_albion	prefabs\nor_toggle_tower_01.bmd	wh3_settlement_tower_nor_javelin	wh3_survival_tower_nor_javelin	90.0000	45.0000	30.0000	30.0000
+blk_ksl_tower_30m_02	ovn_albion	prefabs\nor_toggle_tower_02.bmd	wh3_settlement_tower_nor_javelin_improved	wh3_survival_tower_nor_javelin_improved	90.0000	45.0000	30.0000	30.0000
+blk_ksl_tower_30m_03	ovn_albion	prefabs\nor_toggle_tower_03.bmd	wh3_settlement_tower_nor_heavy_javelin	wh3_survival_tower_nor_heavy_javelin	90.0000	45.0000	30.0000	30.0000
+blk_ksl_tower_30m_04	ovn_albion	prefabs\nor_toggle_tower_04.bmd	wh3_settlement_tower_nor_heavy_javelin_improved	wh3_survival_tower_nor_heavy_javelin_improved	90.0000	45.0000	30.0000	30.0000
+glb_barricade_01	ovn_albion	prefabs\nor_barricade_01.bmd			30.0000	15.0000	30.0000	15.0000
+glb_barricade_ice_block_01	ovn_albion	prefabs\nor_blocker_01.bmd			30.0000	15.0000	30.0000	15.0000
+glb_barricade_monument_01	ovn_albion	prefabs\nor_monument_shrine.bmd			30.0000	15.0000	30.0000	15.0000
+glb_barricade_traps_01	ovn_albion	prefabs\nor_trap_01.bmd			30.0000	15.0000	30.0000	15.0000

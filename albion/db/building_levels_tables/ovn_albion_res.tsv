@@ -1,0 +1,12 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/ovn_albion_res																						
+ovn_albion_resource_dyes	ovn_albion_resource_dyes	0	1	300	0		false	false		true	ovn_albion_resource_dyes	true	0.0000	0	true	2	wh_cam_resource_worshop	true	0	0		0
+ovn_albion_resource_exotic_animals	ovn_albion_resource_exotic_animals	0	1	300	0		false	false		true	ovn_albion_resource_exotic_animals	true	0.0000	0	true	2	wh_cam_resource_worshop	true	0	0		0
+ovn_albion_resource_furs	ovn_albion_resource_furs	0	1	300	0		false	false		true	ovn_albion_resource_furs	true	0.0000	0	true	2	wh_cam_resource_worshop	true	0	0		0
+ovn_albion_resource_gemstones	ovn_albion_resource_gemstones	0	1	300	0		false	false		true	ovn_albion_resource_gemstones	true	0.0000	0	true	2	wh_cam_resource_quarry	true	0	0		0
+ovn_albion_resource_ivory	ovn_albion_resource_ivory	0	1	300	0		false	false		true	ovn_albion_resource_ivory	true	0.0000	0	true	2	wh_cam_resource_worshop	true	0	0		0
+ovn_albion_resource_pastures	ovn_albion_resource_pastures	0	1	300	0		false	false		true	ovn_albion_resource_pastures	true	0.0000	0	true	2	wh_cam_resource_farming	true	0	0		0
+ovn_albion_resource_salt	ovn_albion_resource_salt	0	1	300	0		false	false		true	ovn_albion_resource_salt	true	0.0000	0	true	2	wh_cam_resource_mining	true	0	0		0
+ovn_albion_resource_spices	ovn_albion_resource_spices	0	1	300	0		false	false		true	ovn_albion_resource_spices	true	0.0000	0	true	2	wh_cam_resource_quarry	true	0	0		0
+ovn_albion_resource_wine	ovn_albion_resource_wine	0	1	300	0		false	false		true	ovn_albion_resource_wine	true	0.0000	0	true	2	wh_cam_resource_vineyard	true	0	0		0
+ovn_albion_resource_obsidian	ovn_albion_resource_obsidian	0	1	300	0		false	false		true	ovn_albion_resource_obsidian	true	0.0000	0	true	2	wh_cam_resource_quarry	true	0	0		0

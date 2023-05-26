@@ -1,0 +1,3 @@
+key	index	fallback_ui_culture	ui_background_image	audio_state	ui_group_by_culture	audio_rtpc	audio_corruption_state
+#cultures_tables;11;db/cultures_tables/ovn_albion_only_custom_battles							
+ovn_albion	895387167		UI/skins/default/panorama_norsca.png	Wood_Elves	false		

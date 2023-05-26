@@ -1,0 +1,4 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/ovn_albion_only												
+albion_morrigan	1	77777001	elo_lore_morrigan	100	77777002	albion_morrigan	general	albion_morrigan	ui/portraits/portholes/no_culture/wh_main_dwf_cha_greybeard.png	120211		false
+bl_elo_dural_durak	1	882007	elo_lore_truthsayer	100		bl_elo_dural_durak	general	bl_elo_dural_durak	ui/portraits/portholes/no_culture/wh_main_dwf_cha_greybeard.png	120212		true

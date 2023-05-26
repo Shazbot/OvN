@@ -1,0 +1,6 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_albion_port								
+ovn_albion_port_1		ovn_sc_alb_albion		wh_main_PLACEHOLDER	empire_port	false	ovn_alb_port1	true
+ovn_albion_port_2		ovn_sc_alb_albion		wh_main_PLACEHOLDER	empire_port	false	ovn_alb_port2	true
+ovn_albion_port_3		ovn_sc_alb_albion		wh_main_PLACEHOLDER	empire_port	false	ovn_alb_port3	true
+ovn_albion_port_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	wh_main_settlement_major_ruin	true

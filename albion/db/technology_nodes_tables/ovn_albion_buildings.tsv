@@ -1,0 +1,26 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/ovn_albion_buildings														
+albion_tech_war_1			5	albion_tech_war_1	ovn_alb_albion_tech	1	100	0	0			0	0	0
+albion_tech_war_2			5	albion_tech_war_2	ovn_alb_albion_tech	2	400	0	0			0	0	0
+albion_tech_war_3			5	albion_tech_war_3	ovn_alb_albion_tech	3	700	0	0			0	0	0
+albion_tech_war_4			5	albion_tech_war_4	ovn_alb_albion_tech	4	1000	0	0			0	0	0
+albion_tech_war_5			5	albion_tech_war_5	ovn_alb_albion_tech	5	1500	0	0			0	0	0
+albion_tech_war_truth_1			7	albion_tech_war_truth_1	ovn_alb_albion_tech	2	800	0	0			0	0	0
+albion_tech_war_truth_2			7	albion_tech_war_truth_2	ovn_alb_albion_tech	3	1200	0	0			0	0	0
+albion_tech_war_truth_3			7	albion_tech_war_truth_3	ovn_alb_albion_tech	4	1600	0	0			0	0	0
+albion_tech_war_truth_4			7	albion_tech_war_truth_4	ovn_alb_albion_tech	5	2000	0	0			0	0	0
+albion_tech_truth_1			9	albion_tech_truth_1	ovn_alb_albion_tech	1	100	0	0			0	0	0
+albion_tech_truth_2			9	albion_tech_truth_2	ovn_alb_albion_tech	2	400	0	0			0	0	0
+albion_tech_truth_3			9	albion_tech_truth_3	ovn_alb_albion_tech	3	700	0	0			0	0	0
+albion_tech_truth_4			9	albion_tech_truth_4	ovn_alb_albion_tech	4	1000	0	0			0	0	0
+albion_tech_truth_5			9	albion_tech_truth_5	ovn_alb_albion_tech	5	1500	0	0			0	0	0
+albion_tech_truth_peace_1			11	albion_tech_truth_peace_1	ovn_alb_albion_tech	2	800	0	0			0	0	0
+albion_tech_truth_peace_2			11	albion_tech_truth_peace_2	ovn_alb_albion_tech	3	1200	0	0			0	0	0
+albion_tech_truth_peace_3			11	albion_tech_truth_peace_3	ovn_alb_albion_tech	4	1600	0	0			0	0	0
+albion_tech_truth_peace_4			11	albion_tech_truth_peace_4	ovn_alb_albion_tech	5	2000	0	0			0	0	0
+albion_tech_peace_1			13	albion_tech_peace_1	ovn_alb_albion_tech	1	100	0	0			0	0	0
+albion_tech_peace_2			13	albion_tech_peace_2	ovn_alb_albion_tech	2	400	0	0			0	0	0
+albion_tech_peace_3			13	albion_tech_peace_3	ovn_alb_albion_tech	3	700	0	0			0	0	0
+albion_tech_peace_4			13	albion_tech_peace_4	ovn_alb_albion_tech	4	1000	0	0			0	0	0
+albion_tech_peace_5			13	albion_tech_peace_5	ovn_alb_albion_tech	5	1500	0	0			0	0	0
+albion_tech_ultimate			9	albion_tech_ultimate	ovn_alb_albion_tech	6	2500	0	0			0	0	0

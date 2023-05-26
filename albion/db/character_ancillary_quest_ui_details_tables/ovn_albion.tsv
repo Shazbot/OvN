@@ -1,0 +1,5 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/ovn_albion				
+bl_elo_dural_durak	elo_staff_of_dural_durak	11	true	false
+bl_elo_dural_durak	elo_amulet_old_ones	19	true	false
+albion_morrigan	anc_morrigan_staff	11	true	false

@@ -1,0 +1,12 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/ovn_albion					
+albion_shieldmaiden_ror	100.0000	1	albion_shieldmaiden_ror	true	0.1000
+albion_bologs_giant_ror	100.0000	1	albion_bologs_giant_ror	true	0.1000
+elo_fly_infested_rotwood	100.0000	1	elo_fly_infested_rotwood	true	0.1000
+albion_woadraider_sworn_ror	100.0000	1	albion_woadraider_sworn_ror	true	0.1000
+alb_cav_noble_first_ror	100.0000	1	alb_cav_noble_first_ror	true	0.1000
+albion_warriors_lugh	100.0000	1	albion_warriors_lugh	true	0.1000
+albion_huntresses_warden_ror	100.0000	1	albion_huntresses_warden_ror	true	0.1000
+albion_centaur_hunter_ror	100.0000	1	albion_centaur_hunter_ror	true	0.1000
+albion_cachtorr_stonethrower	100.0000	1	albion_cachtorr_stonethrower	true	0.1000
+albion_highlander_ror	100.0000	1	albion_highlander_ror	true	0.1000

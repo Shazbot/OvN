@@ -1,0 +1,14 @@
+key	image	max_displays	weighting	first_shown_weighting	category
+#loading_screen_quotes_tables;5;db/loading_screen_quotes_tables/ovn_albion_only					
+ovn_alb_duraldurak_loading	ui/portraits/portholes/no_culture/dural_durak.png	-1	1	2	generic
+ovn_alb_mhorrinion_loading	ui/portraits/portholes/no_culture/albion_morrigan.png	-1	1	2	generic
+ovn_alb_centaur_loading	ui/units/infopics/centaur.png	-1	1	3	unit
+ovn_alb_chariot_loading	ui/units/infopics/albion_chariot.png	-1	1	3	unit
+ovn_campaign_alb_albion	ui/flags/ovn_albion/mon_rotated.png	-1	1	4	campaign
+ovn_albion_lore_1		-1	1	0	quote
+ovn_albion_lore_2		-1	1	0	quote
+ovn_albion_lore_3		-1	1	0	quote
+ovn_albion_lore_4		-1	1	0	quote
+ovn_albion_lore_5		-1	1	0	quote
+ovn_albion_lore_6		-1	1	0	quote
+ovn_game_hint_lore_of_truthsayers_unit	ui/skins/default/pre_battle_lore_truth.png	-1	1	2	battle

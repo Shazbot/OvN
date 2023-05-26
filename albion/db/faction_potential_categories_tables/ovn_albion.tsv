@@ -1,0 +1,4 @@
+campaign_potential	base_value	random_roll_mean	random_roll_lower_bound	random_roll_upper_bound
+#faction_potential_categories_tables;0;db/faction_potential_categories_tables/ovn_albion				
+ovn_alb_host_ravenqueen_ie	160	0	0	30
+ovn_alb_order_of_the_truthsayers_ie	160	0	0	30

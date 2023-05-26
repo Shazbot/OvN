@@ -40,6 +40,12 @@ local function new_game_startup()
     cm:transfer_region_to_faction("wh3_main_combi_region_the_folly_of_malofex", "ovn_alb_host_ravenqueen")
 	cm:instantly_set_settlement_primary_slot_level(folly_of_malofex:settlement(), 3)
 	cm:heal_garrison(folly_of_malofex:cqi());
+    
+      if not ravenqueen_host:is_human() then
+        local twisted_towers = cm:get_region("wh3_main_combi_region_the_twisted_towers")
+        cm:transfer_region_to_faction("wh3_main_combi_region_the_twisted_towers", "ovn_alb_host_ravenqueen")
+        cm:heal_garrison(twisted_towers:cqi());
+      end
 
     cm:create_agent(
         "ovn_alb_host_ravenqueen",

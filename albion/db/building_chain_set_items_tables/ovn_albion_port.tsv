@@ -1,0 +1,3 @@
+chain	set	super_chain	remove
+#building_chain_set_items_tables;0;db/building_chain_set_items_tables/ovn_albion_port			
+ovn_albion_port	wh3_main_port_core_generic		false

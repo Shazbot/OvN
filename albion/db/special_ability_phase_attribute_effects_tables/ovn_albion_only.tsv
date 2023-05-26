@@ -1,0 +1,7 @@
+attribute	phase	attribute_type
+#special_ability_phase_attribute_effects_tables;1;db/special_ability_phase_attribute_effects_tables/ovn_albion_only		
+fatigue_immune	elo_albion_something_prove	positive
+unbreakable	elo_albion_holy_warriors_unbreakable	positive
+causes_fear	elo_albion_holy_warriors_unbreakable	positive
+fatigue_immune	elo_albion_protectors_world	positive
+stalk	alb_horned_man_power_trees	positive

@@ -1,0 +1,27 @@
+key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn_albion_buildings	
+elo_ogham_stone	1
+elo_temple_danu	1
+albion_hunters	1
+albion_order	1
+albion_smith	1
+albion_hall_heroes	1
+albion_gryphon_eyrie	1
+albion_oracle_hall	1
+elo_great_ogham	1
+elo_forge_old_ones	1
+elo_citadel_lead	1
+ovn_albion_military	1
+ovn_albion_stables	1
+ovn_Waystone	1
+ovn_Waystone_marker	1
+ovn_albion_walls	1
+ovn_albion_foreign_slot_discovery	1
+alb_resource_marble	1
+alb_resource_gold	1
+alb_resource_iron	1
+alb_resource_pottery	1
+alb_resource_wood	1
+alb_resource_medicine	1
+ovn_albion_settlement_minor	1
+ovn_albion_settlement_major	1

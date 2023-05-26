@@ -1,0 +1,4 @@
+subculture	subtype	agent	associated_unit_override	icon
+#agent_subtype_subculture_overrides_tables;5;db/agent_subtype_subculture_overrides_tables/ovn_albion_only				
+ovn_sc_alb_albion	albion_wyrd_druid	wizard	albion_wyrd_druid	ui/campaign ui/agents/wh_main_wizard.png
+ovn_sc_alb_albion	albion_chief	champion	albion_chief	ui/campaign ui/agents/wh_main_chs_champion.png

@@ -1,0 +1,5 @@
+key	unit_attribute	unit_set
+#unit_set_unit_attribute_junctions_tables;0;db/unit_set_unit_attribute_junctions_tables/ovn_albion_only		
+enable_stalk_falian	stalk	elo_albion_humans
+enable_vanguard_falian	guerrilla_deploy	elo_albion_humans
+enable_immpsy_finian	immune_to_psychology	elo_albion_humans

@@ -1,0 +1,14 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/ovn_albion		
+warleader_mount_skill	4	1
+mount_horse_truthsayer_beasts_skill	4	1
+mount_horse_truthsayer_light_skill	4	1
+mount_horse_truthsayer_life_skill	4	1
+mount_horse_truthsayer_truth_skill	4	1
+chief_mount_skill	4	1
+wyrd_mount_skill	4	1
+dural_mount_horse	4	1
+dural_mount_chariot	9	1
+warleader_chariot_skill	9	1
+chief_chariot_skill	9	1
+morrigan_raven_skill	9	1
