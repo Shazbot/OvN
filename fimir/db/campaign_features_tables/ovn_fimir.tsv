@@ -1,0 +1,8 @@
+feature	group	available
+#campaign_features_tables;0;db/campaign_features_tables/ovn_fimir		
+slaves	ovn_fimir	false
+faction_mercenary_recruitment_outside_of_territory	ovn_fimir_skattach	true
+rituals	ovn_fimir_skattach	true
+factionwide_recruitment	ovn_fimir	true
+additional_army_upkeep	ovn_fimir	true
+hidden_settlements	ovn_fimir	true

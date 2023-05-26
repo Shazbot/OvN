@@ -1,0 +1,18 @@
+key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn_fimir_res	
+ovn_fimir_resource_obsidian	1
+ovn_fimir_resource_dyes	1
+ovn_fimir_resource_exotic_animals	1
+ovn_fimir_resource_furs	1
+ovn_fimir_resource_gemstones	1
+ovn_fimir_resource_ivory	1
+ovn_fimir_resource_pastures	1
+ovn_fimir_resource_salt	1
+ovn_fimir_resource_spices	1
+ovn_fimir_resource_wine	1
+ovn_fimir_resource_marble	1
+ovn_fimir_resource_timber	1
+ovn_fimir_resource_gold	1
+ovn_fimir_resource_iron	1
+ovn_fimir_resource_pottery	1
+ovn_fimir_resource_medicine	1

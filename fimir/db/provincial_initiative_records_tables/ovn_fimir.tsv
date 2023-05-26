@@ -1,0 +1,6 @@
+key	effect_bundle	order	icon_path	campaign_vfx_id
+#provincial_initiative_records_tables;0;db/provincial_initiative_records_tables/ovn_fimir				
+ovn_fimir_edict_1	ovn_fimir_edict_1	1	UI/Campaign UI/edicts/def_read_dark_portents.png	
+ovn_fimir_edict_2	ovn_fimir_edict_2	2	UI/Campaign UI/edicts/def_sacrifices_for_khaine.png	
+ovn_fimir_edict_3	ovn_fimir_edict_3	3	UI/Campaign UI/edicts/skv_efficient_scheming.png	
+ovn_fimir_edict_4	ovn_fimir_edict_4	4	UI/Campaign UI/edicts/def_increase_slave_production_quota.png	

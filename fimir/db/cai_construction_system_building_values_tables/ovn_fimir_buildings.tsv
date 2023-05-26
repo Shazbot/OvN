@@ -1,0 +1,26 @@
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+#cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/ovn_fimir_buildings																												
+ovn_fimir_settlement_major						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	125
+ovn_fimir_settlement_minor						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	125
+ovn_fimir_infantry						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_marsh						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_cavalry						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_fianna						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_dirach						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_daemons						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_growth						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125
+ovn_fimir_slave						cai_military_group					0	0	50	50	50	50	0	0	0	0	260	510	260	510	0	0	100	500
+ovn_fimir_corruption						cai_military_group					0	0	50	50	50	50	0	0	0	0	510	510	510	510	0	0	100	500
+ovn_fimir_income						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	1000
+ovn_fimir_order						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_fimir_port						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	1000
+ovn_fimir_walls_major						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125
+ovn_fimir_walls_minor						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125
+ovn_fimir_allied_outpost						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	250
+ovn_fimir_foreign_slot_discovery						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	5	5
+ovn_fimir_kroll_temple						cai_support_group			ovn_fim_tendrils_of_doom		-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	125
+ovn_fimir_marienburg_waterland_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+ovn_fimir_middenheim_schadensumpf_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+ovn_fimir_agrul_migdhal_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	1000
+ovn_fimir_wreckers_point_skattach_tower_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	1000
+ovn_fimir_monument_blessed_swamp_landmark						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	1000

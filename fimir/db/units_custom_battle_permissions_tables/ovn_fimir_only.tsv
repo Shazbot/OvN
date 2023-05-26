@@ -1,0 +1,44 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/ovn_fimir_only										
+ovn_fim_rancor_hold	true	fim_cha_meargh_skattach	true	true	ui/portraits/portholes/no_culture/fim_meargh_skattach.png	ovn_uniform_fim_meargh_skattach	fim_meargh_skattach	false		false
+ovn_fim_rancor_hold	true	fim_cha_meargh_skattach_palanquin	true	true	ui/portraits/portholes/no_culture/fim_meargh_skattach.png	ovn_uniform_fim_meargh_skattach	fim_meargh_skattach	false		false
+ovn_fim_rancor_hold	true	fim_cha_daemon_octopus_kroll	true	true	ui/portraits/portholes/no_culture/fim_daemon_octopus_kroll.png	ovn_uniform_fim_daemon_octopus_kroll	fim_daemon_octopus_kroll	false		false
+ovn_fim_rancor_hold	true	fim_cha_dirach_fire	true	true	ui/portraits/portholes/no_culture/fim_dirach_01.png	ovn_uniform_fim_dirach_1	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false		false
+ovn_fim_rancor_hold	true	fim_cha_dirach_shadow	true	true	ui/portraits/portholes/no_culture/fim_dirach_02.png	ovn_uniform_fim_dirach_2	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false		false
+ovn_fim_rancor_hold	true	fim_cha_dirach_beast	true	true	ui/portraits/portholes/no_culture/fim_dirach_03.png	ovn_uniform_fim_dirach_3	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false		false
+ovn_fim_rancor_hold	true	fim_cha_dirach_death	true	true	ui/portraits/portholes/no_culture/fim_dirach_02.png	ovn_uniform_fim_dirach_2	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false		false
+ovn_fim_rancor_hold	true	fim_cha_fimirach_noble	true	true	ui/portraits/portholes/no_culture/fim_fimirach_noble_0.png	ovn_uniform_fim_fimirach_noble_0	fim_fimirach_noble_0	false		false
+ovn_fim_rancor_hold	true	fim_cha_fimirach_noble_bog_beast	true	true	ui/portraits/portholes/no_culture/fim_fimirach_noble_0.png	ovn_uniform_fim_fimirach_noble_0	fim_fimirach_noble_0	false		false
+ovn_fim_rancor_hold	false	fim_cha_boglar_shaman	true	true	ui/portraits/portholes/no_culture/fim_boglar_shaman_1.png	ovn_uniform_fim_boglar_shaman_1	wh_main_grn_cha_night_goblin_shaman	false		false
+ovn_fim_rancor_hold	false	fim_cha_boglar_shaman_hound	true	true	ui/portraits/portholes/no_culture/fim_boglar_shaman_1.png	ovn_uniform_fim_boglar_shaman_1	wh_main_grn_cha_night_goblin_shaman	false		false
+ovn_fim_rancor_hold	false	fim_cha_finmor	true	true	ui/portraits/portholes/no_culture/fim_finmor_01.png	ovn_uniform_fim_finmor_1	wh_dlc08_nor_cha_skin_wolf_werekin_0	false		false
+ovn_fim_rancor_hold	false	wh_dlc08_nor_cha_fimir_balefiend_fire_0	true	true	UI/Portraits/portholes/no_culture/nor_cha_fimir_balefiend_campaign_02_0.png	wh_dlc08_uniform_nor_fimir_balefiend_02	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false		false
+ovn_fim_rancor_hold	false	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	true	true	UI/Portraits/portholes/no_culture/nor_cha_fimir_balefiend_campaign_01_0.png	wh_dlc08_uniform_nor_fimir_balefiend_01	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false		false
+ovn_fim_rancor_hold	false	wh_dlc08_nor_cha_fimir_balefiend_beast	true	true	UI/Portraits/portholes/no_culture/nor_cha_fimir_balefiend_campaign_03_0.png	wh_dlc08_uniform_nor_fimir_balefiend_03	wh_dlc08_nor_cha_fimir_balefiend_fire_0	false		false
+ovn_fim_rancor_hold	false	wh_dlc08_nor_cha_fimir_balefiend_death	true	true	UI/Portraits/portholes/no_culture/nor_cha_fimir_balefiend_campaign_02_0.png	wh_dlc08_uniform_nor_fimir_balefiend_02	wh_dlc08_nor_cha_fimir_balefiend_shadow_0	false		false
+ovn_fim_rancor_hold	false	fim_inf_boglar	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_shearl	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_shearl_javelineer	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_death_quest	true	true				true		false
+ovn_fim_rancor_hold	false	fim_inf_killing_eye_ror	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_swamp_daemons	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_fimm_warriors	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_fimm_warriors_great_weapons	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_fimm_warriors_axe_throwers_ror	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_moor_hounds	true	true				false		false
+ovn_fim_rancor_hold	false	fim_inf_moor_hounds_ror	true	true				false		false
+ovn_fim_rancor_hold	false	wh3_main_dae_inf_chaos_furies_0	true	true				false		false
+ovn_fim_rancor_hold	false	fim_cav_nuckelavee	true	true				false		false
+ovn_fim_rancor_hold	false	fim_cav_marsh_reavers	true	true				false		false
+ovn_fim_rancor_hold	false	fim_cav_marsh_hornets_ror	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_balefiend_apprentices	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_fianna_fimm	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_fianna_fimm_great_weapons	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_gharnus_daemon_ror	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_mistmor	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_fenbeast	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_daemonomaniac	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_daemonomaniac_ror	true	true				false		false
+ovn_fim_rancor_hold	false	fim_veh_eye_oculus	true	true				false		false
+ovn_fim_rancor_hold	false	ovn_fim_mon_bog_octopus_0	true	true				false		false
+ovn_fim_rancor_hold	false	fim_mon_bog_beasts	true	true				true		false

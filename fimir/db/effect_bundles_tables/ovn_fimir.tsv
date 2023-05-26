@@ -1,0 +1,32 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_fimir								
+ovn_annoy_chaos_gods	annoy	annoy	force	1	annoy_chaos.png	false	false	true
+ovn_annoy_chaos_gods_2	annoy	annoy	force	1	annoy_chaos.png	false	false	true
+ovn_favour_chaos_gods	favour	favour	force	1	favour_chaos.png	false	false	true
+ovn_fimir_edict_1		Miasma	province	1	edict_def_read_dark_portents.png	false	false	true
+ovn_fimir_edict_2		Prepare For War	province	1	edict_def_sacrifices_for_khaine.png	false	false	true
+ovn_fimir_edict_3		Corruption	province	1	edict_skv_efficient_scheming.png	false	false	true
+ovn_fimir_edict_4		Increase Slave Production	province	1	edict_def_increase_slave_production_quota.png	false	false	true
+ovn_fimir_fog_diktat			region	1	sla_pleasure_hunt.png	true	false	true
+ovn_fimir_growth_diktat			region	1	sla_pleasure_party.png	true	false	true
+ovn_fimir_fog_diktat_empty			region	1	sla_pleasure_hunt.png	true	false	true
+ovn_fimir_kroll_bundle_1			faction	1	ovn_kroll_bundle1.png	true	false	true
+ovn_fimir_kroll_bundle_2			faction	1	ovn_kroll_bundle2.png	true	false	true
+ovn_fimir_kroll_bundle_3			faction	1	ovn_kroll_bundle3.png	true	false	true
+ovn_fimir_kroll_bundle_4			faction	1	ovn_kroll_bundle4.png	true	false	true
+ovn_fimir_kroll_bundle_faction_1			faction	1	ovn_kroll_bundle1.png	true	false	true
+ovn_fimir_kroll_bundle_faction_2			faction	1	ovn_kroll_bundle2.png	true	false	true
+ovn_fimir_kroll_bundle_faction_3			faction	1	ovn_kroll_bundle3.png	true	false	true
+ovn_fimir_kroll_bundle_faction_4			faction	1	ovn_kroll_bundle4.png	true	false	true
+wh_main_bundle_stance_army_raiding_camp_fimir	Sets up a defensive camp, allowing for recruitment and replenishment, whilst raiding wealth from the local region.	Stance: Raiding Camp	force	1	icon_effects_fortify.png	true	false	true
+fim_payload_eye_gods_shearl	Inspired by the Gods' omens, the Norscan tribesmen rally to your Ruinous cause.	Marauders Amass	faction	1	replenishment.png	true	false	true
+fim_payload_eye_gods_swampdaemons	Your Chaos Spawn glow with dark power, warping them even further beyond their hideously mutated forms.	Spawn of War	faction	1	military_spending.png	true	false	true
+wh_main_bundle_stance_army_channelling_fimir	Increases the favourability of the Winds of Magic when fighting battles.	Stance: Channel Mists	force	1	wizard.png	true	false	true
+ovn_fimir_region_mist			region	1	wizard.png	false	false	true
+ovn_rancor_hold_faction_trait			faction	1	trait_fimir.png	false	false	true
+ovn_tendrils_doom_faction_trait			faction	1	trait_fimir.png	false	false	true
+ovn_fimir_spell_mastery_1			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_2			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_3			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_4			force	1	magic_character.png	true	false	true
+ovn_fimir_spell_mastery_5			force	1	magic_character.png	true	false	true

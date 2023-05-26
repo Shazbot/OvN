@@ -1,0 +1,3 @@
+currency_type	faction	faction_group	source_type	battle_type	excluded_battle_type	battle_set_pieces	battles	source_unitary_value	attacker	defender
+#battle_secondary_currency_sources_links_tables;3;db/battle_secondary_currency_sources_links_tables/ovn_fimir_only										
+army_ability_bar_fill		ovn_fact_group_fimir	kills					0.5000	true	true

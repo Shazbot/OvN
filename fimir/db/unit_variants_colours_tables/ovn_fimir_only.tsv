@@ -1,0 +1,18 @@
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;3;db/unit_variants_colours_tables/ovn_fimir_only							
+97001912		soldier	fim_inf_death_quest		E1E1E1	E1E1E1	E1E1E1
+97001913		officer	fim_inf_death_quest		E1E1E1	E1E1E1	E1E1E1
+97001914		soldier	fim_inf_killing_eye_ror		000000	000000	000000
+97001915		officer	fim_inf_killing_eye_ror		000000	000000	000000
+97001916	ovn_fim_rancor_hold	soldier	fim_mon_mistmor		191919	0A0AC8	000000
+97001918		soldier	fim_mon_gharnus_daemon_ror		DBC100	006ECE	000000
+97001921		soldier	fim_inf_fimm_warriors_axe_throwers_ror		0A0A0A	C80505	000000
+97001922		soldier	fim_cha_dirach_beast		264700	000000	000000
+97001923		soldier	fim_cha_dirach_death		000000	000000	000000
+97001924		soldier	fim_cha_dirach_fire		CC6600	000000	000000
+97001925		soldier	fim_cha_dirach_shadow		B17EE5	000000	000000
+97001926		soldier	fim_mon_daemonomaniac		A91708	A91708	A91708
+97001927		soldier	fim_mon_daemonomaniac_ror		121214	121214	121214
+97001929		autonomous_rider	fim_cav_marsh_hornets_ror		EFDB00	EFDB00	EFDB00
+97001930		soldier	fim_cha_boglar_shaman		010101	010101	010101
+97001931		soldier	fim_cha_boglar_shaman_hound		010101	010101	010101

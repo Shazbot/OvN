@@ -1,0 +1,14 @@
+faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/ovn_fimir_only						
+		1	fim_meargh_skattach_ancient_leadership		x	7
+		1	fim_meargh_skattach_anc_staff_balor		x	10
+		1	fim_meargh_skattach_anc_hellmother_crown		x	12
+		1	fim_meargh_skattach_anc_throne_hellmother		x	11
+		1	wh_dlc08_skill_nor_throgg_battle_cyclopean_fiends	ovn_sc_fim_fimir	x	14
+		1	fimir_worthless_slaves		x	9
+		1	fimir_warrior_elite		x	9
+		1	fimir_untamed_monsters		x	9
+		1	elo_fimir_from_mists		x	14
+		1	anc_fimirach_noble_mount		x	15
+		1	anc_boglar_shaman_hound		x	9
+		1	fim_kroll_unique_0		x	7

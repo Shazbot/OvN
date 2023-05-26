@@ -1,0 +1,3 @@
+key	campaign_key	faction_key	culture	subculture	technology_category	colour_hex
+#technology_node_sets_tables;2;db/technology_node_sets_tables/ovn_fimir_only						
+ovn_fim_fimir_tech			ovn_fimir	ovn_sc_fim_fimir	rom_roman_mil_top	FFB62F

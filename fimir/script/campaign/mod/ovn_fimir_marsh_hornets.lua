@@ -2,9 +2,9 @@ local function spawn_new_force()
 	cm:create_force_with_general(
 		"ovn_fim_marsh_hornets", -- faction_key,
 		"fim_inf_fimm_warriors,fim_cav_marsh_hornets_ror,fim_inf_fimm_warriors,fim_inf_moor_hounds,fim_inf_shearl,fim_inf_shearl_javelineer", -- unit_list,
-		"wh3_main_combi_region_desolation_of_drakenmoor", -- region_key,
-		842, -- x,
-		612, -- y,
+		"wh3_main_combi_region_floating_village", -- region_key,
+		680, -- x,
+		366, -- y,
 		"general", -- type,
 		"aky_chief_fimir_great_weapons", -- subtype,
 		"names_name_999982385", -- name1,
@@ -35,10 +35,10 @@ local function new_game_startup()
 
     spawn_new_force()
 
-    local desolation_of_drakenmoor = cm:get_region("wh3_main_combi_region_desolation_of_drakenmoor")
-    cm:transfer_region_to_faction("wh3_main_combi_region_desolation_of_drakenmoor", "ovn_fim_marsh_hornets")
-	cm:instantly_set_settlement_primary_slot_level(desolation_of_drakenmoor:settlement(), 3)
-	cm:heal_garrison(desolation_of_drakenmoor:cqi());
+    local floating_village = cm:get_region("wh3_main_combi_region_floating_village")
+    cm:transfer_region_to_faction("wh3_main_combi_region_floating_village", "ovn_fim_marsh_hornets")
+	cm:instantly_set_settlement_primary_slot_level(floating_village:settlement(), 3)
+	cm:heal_garrison(floating_village:cqi());
 	
 
     local unit_count = 1 -- card32 count

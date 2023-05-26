@@ -1,0 +1,18 @@
+tree_id	tree_type	tree_rigid	tree_audio	receive_decals
+#campaign_tree_variants_tables;3;db/campaign_tree_variants_tables/ovn_fimir_corruption				
+grass_01	FIMIR	RigidModels/campaign/vegetation/grass/tmb_grass_01.wsmodel		false
+grass_02	FIMIR	RigidModels/campaign/vegetation/grass/tmb_grass_02.wsmodel		false
+grass_03	FIMIR	RigidModels/campaign/vegetation/grass/tmb_grass_03.wsmodel		false
+grass_04	FIMIR	RigidModels/campaign/vegetation/grass/tmb_grass_04.wsmodel		false
+shrubs_01	FIMIR	RigidModels/campaign/vegetation/shrubs/swamp_shrubs_01.wsmodel		false
+shrubs_02	FIMIR	RigidModels/campaign/vegetation/shrubs/swamp_shrubs_02.wsmodel		false
+shrubs_03	FIMIR	RigidModels/campaign/vegetation/shrubs/swamp_shrubs_03.wsmodel		false
+shrubs_04	FIMIR	RigidModels/campaign/vegetation/shrubs/swamp_shrubs_04.wsmodel		false
+tree_large_01	FIMIR	RigidModels/campaign/vegetation/trees/mangrove_tree_evil_05.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_large_02	FIMIR	RigidModels/campaign/vegetation/trees/mangrove_tree_evil_05.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_large_03	FIMIR	RigidModels/campaign/vegetation/trees/mangrove_tree_evil_05.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_large_04	FIMIR	RigidModels/campaign/vegetation/trees/mangrove_tree_evil_05.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_small_01	FIMIR	Rigidmodels/campaign/vegetation/trees/mangrove_tree_01.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_small_02	FIMIR	Rigidmodels/campaign/vegetation/trees/mangrove_tree_02.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_small_03	FIMIR	Rigidmodels/campaign/vegetation/trees/mangrove_tree_03.wsmodel	Tree_Type_Audio_Nurgle	false
+tree_small_04	FIMIR	Rigidmodels/campaign/vegetation/trees/mangrove_tree_04.wsmodel	Tree_Type_Audio_Nurgle	false

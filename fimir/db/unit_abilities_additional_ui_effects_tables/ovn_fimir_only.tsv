@@ -1,0 +1,6 @@
+key	sort_order	effect_state
+#unit_abilities_additional_ui_effects_tables;3;db/unit_abilities_additional_ui_effects_tables/ovn_fimir_only		
+fim_skattach_summon_swampdaemons	103	positive
+ovn_fim_kroll_summon_hatchling	103	positive
+ovn_fim_kroll_inoculate	104	positive
+ovn_fim_kroll_summon_bogbeasts	103	positive
