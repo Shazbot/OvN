@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+
+<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/head/hef_archers_head_01.rigid_model_v2" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1d\hef\hef_cod_misc\hef_cod_hair_head-01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1d\hef\hef_cod_misc\hef_cod_hair_head-02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1d\wef\wef_glade_guard\head\ovn_glade_guard_head_51.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

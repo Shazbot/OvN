@@ -1,0 +1,6 @@
+ancillary	required_skill	required_skill_level
+#ancillaries_required_skills_tables;0;db/ancillaries_required_skills_tables/ovn_cod_only		
+ovn_as_starblade	ovn_as_starblade	1
+ovn_as_armour	ovn_as_armour	1
+ovn_as_Hoeth_Talisman	ovn_as_Hoeth_Talisman	1
+anc_sharpclaw	skill_sharpclaw	1

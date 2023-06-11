@@ -1,0 +1,6 @@
+character_skill	character_level	upgrade_to_skill_level
+#character_skills_to_level_reached_criterias_tables;0;db/character_skills_to_level_reached_criterias_tables/ovn_cod_only		
+skill_sharpclaw	11	1
+ovn_as_starblade	9	1
+ovn_as_armour	7	1
+ovn_as_Hoeth_Talisman	4	1
