@@ -157,7 +157,7 @@
 					this="df981a34-a62f-bfc6-00155d2c9b350ca62EAB"
 					name="NewState"
 					width="1600"
-					height="900"
+					height="1000"
 					focustype="Active"
 					interactive="true"
 					uniqueguid="df981a34-a62f-bfc6-00155d2c9b350ca62EAB"/>
@@ -800,7 +800,7 @@
 							componentimage="fc43e0be-3d86-cf48-00155d2c9b351bca2A16"
 							offset="9.00,5.00"
 							width="1317"
-							height="810"
+							height="910"
 							tile="true"
 							dockpoint="Center"
 							margin="5.00,5.00,5.00,5.00"/>
@@ -810,7 +810,7 @@
 							componentimage="f25bc917-ff42-53ce-00155d2c9b35b544035B"
 							offset="-28.00,-21.00"
 							width="1447"
-							height="863"
+							height="963"
 							dockpoint="Center"
 							dock_offset="27.00,0.00"
 							canresizeheight="false"

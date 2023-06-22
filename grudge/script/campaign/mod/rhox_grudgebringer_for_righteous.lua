@@ -2,19 +2,16 @@ local grudgebringer_faction = "ovn_emp_grudgebringers"
 local grudgebringer_mission_key = "rhox_grudgebringer_piece_of_eight_"
 local skip_mission_sampling_num = 5
 local skip_mission_table={}
-local skip_mission_candidate={3,4,5,7,8,10,13,14,15,16,20,21,23}
 
 local grudgebringer_missions ={
    {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_storm_sword",
         reward = "ragnar_wolves"
     },
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_banner_of_wrath",
         reward = "flagellants_eusebio_the_bleak"
     },
     {
@@ -36,7 +33,6 @@ local grudgebringer_missions ={
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         subculture_key = "wh_main_sc_vmp_vampire_counts",
         count = 5,
-        ancillary_key= "grudge_item_hellfire_sword",
         reward = "elrod_wood_elf_glade_guards"
     },
     {
@@ -54,7 +50,6 @@ local grudgebringer_missions ={
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_horn_of_urgok",
         reward = "keelers_longbows"
     },
     {--10
@@ -67,7 +62,6 @@ local grudgebringer_missions ={
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         subculture_key = "wh_main_sc_grn_greenskins",
         count = 4,
-        ancillary_key= "grudge_item_banner_of_arcane_warding",
         reward = "carlsson_guard"
     },
     {
@@ -100,19 +94,16 @@ local grudgebringer_missions ={
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_wand_of_jet",
         reward = "countess_guard"
     },
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_runefang",
         reward = "dieter_schaeffer_carroburg_greatswords"
     },
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_spelleater_shield",
         reward = "jurgen_muntz_outlaw_infantry"
     },
     {--20
@@ -128,7 +119,6 @@ local grudgebringer_missions ={
     {
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "random",
-        ancillary_key= "grudge_item_shield_of_ptolos",
         reward = "imperial_cannon_darius_flugenheim"
     },
     {
@@ -141,7 +131,6 @@ local grudgebringer_missions ={
         type = "DEFEAT_N_ARMIES_OF_FACTION",
         faction_key = "wh2_dlc15_grn_broken_axe",
         count = 2,
-        ancillary_key= "grudge_item_dragonhelm",
         reward = "knights_of_the_realm_bertrand_le_grande"
     }
 }
@@ -316,12 +305,40 @@ local ai_ror_list={}
 
 
 function rhox_setup_starting_missions()
+
+
+    local ancillaries={
+        "grudge_item_storm_sword",
+        "grudge_item_banner_of_wrath",
+        "grudge_item_hellfire_sword",
+        "grudge_item_horn_of_urgok",
+        "grudge_item_banner_of_arcane_warding",
+        "grudge_item_wand_of_jet",
+        "grudge_item_runefang",
+        "grudge_item_shield_of_ptolos",
+        "grudge_item_dragonhelm",
+        "grudge_item_spelleater_shield"
+    }
+        
     if cm:get_faction(grudgebringer_faction):is_human() then
         for i=1,skip_mission_sampling_num do
-            local target = cm:random_number(#skip_mission_candidate, 1)
-            skip_mission_table[skip_mission_candidate[target]]=true
+            local target = cm:random_number(#grudgebringer_missions, 1)
+            if target ~= 12 then --it's the starting mission and shouldn't be skipped
+                skip_mission_table[target]=true
+            end
         end
-    
+        
+        local ancillary_candidate={}
+        for i=1,#grudgebringer_missions do
+            if skip_mission_table[i]~=true then
+                table.insert(ancillary_candidate, i)
+            end
+        end
+        ancillary_candidate= cm:random_sort(ancillary_candidate)
+        for i=1,#ancillaries do
+            grudgebringer_missions[ancillary_candidate[i]].ancillary_key = ancillaries[i]
+            out("Rhox Grudge: Giving ancillary " .. ancillaries[i] .. " to mission number ".. ancillary_candidate[i])
+        end
     
     
         cm:disable_event_feed_events(true, "", "wh_event_subcategory_faction_missions_objectives", "")
@@ -341,9 +358,11 @@ function rhox_setup_starting_missions()
         for i=1,#grudgebringer_missions do
             table.insert(ai_ror_list, grudgebringer_missions[i].reward)
             cm:add_event_restricted_unit_record_for_faction(grudgebringer_missions[i].reward, grudgebringer_faction, "rhox_grudge_ror_lock") --lock it.
-            if grudgebringer_missions[i].ancillary_key then
-                cm:add_ancillary_to_faction(cm:get_faction(grudgebringer_faction), grudgebringer_missions[i].ancillary_key, false) --just give ancillary to the AI
-            end
+            
+        end
+        
+        for i=1,#ancillaries do
+            cm:add_ancillary_to_faction(cm:get_faction(grudgebringer_faction), ancillaries[i], false) --just give ancillary to the AI
         end
         
         ----and summon legendary heroes. It will make less reports about missing LHs when Grudgebringer is the AI
@@ -408,77 +427,6 @@ local function rhox_grudge_ai_ror_unlocker()
 end
 
 
-
-
---[[ --since we have bnook, we're not using it
-local lh_missions={
-    "rhox_grudgebringer_lh_1", --ludwig
-    "rhox_grudgebringer_lh_2", --ceridan
-    "rhox_grudgebringer_lh_3", --stormbringer
-    "rhox_grudgebringer_lh_4", --dwarf envoy
-    "rhox_grudgebringer_lh_5", --witch hunter
-    "rhox_grudgebringer_lh_6" --fire wizard
-}
-
-
-
-cm:add_first_tick_callback(
-	function()
-        if cm:get_local_faction_name(true) == grudgebringer_faction then
-            local pieces_of_eight_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts");
-            pieces_of_eight_button:SetVisible(true)
-            pieces_of_eight_button:SetTooltipText(common.get_localised_string("campaign_localised_strings_string_rhox_grudgebringer_panel_open_button"),true)
-            local treasure_hunt_count_ui = find_uicomponent(pieces_of_eight_button, "label_hunts_count"); --treasure hunt count. We don't need this
-            treasure_hunt_count_ui:SetVisible(false)
-            
-            
-            core:add_listener(
-                "rhox_grudgebringer_treasure_panel_open_listener",
-                "PanelOpenedCampaign",
-                function(context)
-                    return context.string == "treasure_hunts";
-                end,
-                function()
-                    local pieces_tab = find_uicomponent(core:get_ui_root(), "treasure_hunts", "TabGroup", "pieces");
-                    pieces_tab:SimulateLClick();
-                    --pieces_tab:MoveTo(885, 919)  --doesn't work
-                    --local x, y = pieces_tab:Position()
-                    local pieces_text = find_uicomponent(pieces_tab, "tx");
-                    pieces_text:SetText(common.get_localised_string("campaign_localised_strings_string_rhox_grudgebringer_piece_tab"))
-                    
-                    
-                    
-                    
-                    local treasure_tab = find_uicomponent(core:get_ui_root(), "treasure_hunts", "TabGroup", "hunts");
-                    treasure_tab:SetVisible(false) --we're not using this button and should disable it. 
-                    treasure_tab:Destroy() --Will this change the position?
-                    
-                    cm:callback(
-                        function()
-                            local pieces_holder = find_uicomponent(core:get_ui_root(), "treasure_hunts", "TabGroup", "pieces", "tab_child", "map", "pieces_holder")
-                            out("Rhox Grudge: Inside the panel")
-                            if not pieces_holder then
-                                out("Rhox Grudge: There isn't one I'm ending here")
-                                return
-                            end
-                            for i=1,#lh_missions do
-                                local lh_piece = find_uicomponent(pieces_holder, lh_missions[i])
-                                if lh_piece then 
-                                    out("Rhox Grudge: Changing the image")
-                                    lh_piece:SetImagePath("ui/skins/ovn_grudge/LH_piece_active.png")
-                                    lh_piece:SetImagePath("ui/skins/ovn_grudge/LH_piece_active.png", 3) --this is for the clicked
-                                end
-                            end
-                        end,
-                        0.2
-                    )
-                end,
-                true
-            )
-        end
-	end
-);
---]]
 
 
 core:add_listener(
@@ -627,6 +575,7 @@ cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("rhox_grudge_failed_mission_rewards", rhox_failed_mission_rewards, context)
 		cm:save_named_value("rhox_grudge_ai_ror_list", ai_ror_list, context)
+		cm:save_named_value("rhox_grudge_grudgebringer_missions", grudgebringer_missions, context)
 	end
 )
 cm:add_loading_game_callback(
@@ -634,6 +583,7 @@ cm:add_loading_game_callback(
 		if cm:is_new_game() == false then
 			rhox_failed_mission_rewards = cm:load_named_value("rhox_grudge_failed_mission_rewards", rhox_failed_mission_rewards, context)
 			ai_ror_list = cm:load_named_value("rhox_grudge_ai_ror_list", ai_ror_list, context)
+			grudgebringer_missions = cm:load_named_value("rhox_grudge_grudgebringer_missions", grudgebringer_missions, context)
 		end
 	end
 )

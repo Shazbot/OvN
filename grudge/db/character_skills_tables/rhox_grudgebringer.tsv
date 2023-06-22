@@ -29,3 +29,4 @@ ovn_grudge_skill_node_luther_flamenstrike_unique_03	character_general_ability.pn
 ovn_grudge_skill_node_luther_flamenstrike_unique_04	character_morale.png			0	false	false	false	0.0000	0
 ovn_grudge_skill_node_luther_flamenstrike_unique_05	character_magic.png			0	false	false	false	0.0000	0
 ovn_grudge_skill_node_luther_flamenstrike_unique_06	character_magic.png			0	false	false	false	0.0000	0
+rhox_ovn_grudgebringer_ludwig_innate	wh_main_hero_passive_extra_powder.png			0	true	false	false	5.0000	0

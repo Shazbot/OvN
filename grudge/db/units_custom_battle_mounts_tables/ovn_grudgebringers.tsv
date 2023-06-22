@@ -3,6 +3,5 @@ base_unit	mounted_unit	icon_name
 morgan_bernhardt	morgan_bernhardt_mount	ui/campaign ui/mounts/mount_warhorse.png
 gaston	gaston_mount	ui/campaign ui/mounts/mount_barded_warhorse.png
 ludwig_uberdorf	ludwig_uberdorf_mount_main_units	ui/campaign ui/mounts/mount_barded_warhorse.png
-ludwig_uberdorf	ludwig_uberdorf_gyrobomber_main_units	ui/campaign ui/mounts/mount_gyro.png
 ludwig_uberdorf	ludwig_uberdorf_steam_tank_main_units	ui/campaign ui/mounts/mount_tank.png
 luther_flamenstrike	luther_flamenstrike_mount	ui/campaign ui/mounts/mount_warhorse.png

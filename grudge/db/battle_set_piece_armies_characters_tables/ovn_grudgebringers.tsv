@@ -1,7 +1,7 @@
 character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
 #battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/ovn_grudgebringers												
 ceridan	1	2103090111		100		ceridan	champion	ceridan	ui/portraits/portholes/no_culture/ceridan.png	21030901		true
-ice_mage_vladimir_stormbringer	1	210309001		100	210309002	ice_mage_vladimir_stormbringer	champion	ice_mage_vladimir_stormbringer	ui/portraits/portholes/no_culture/ice_mage_vladimir_stormbringer.png	21030902		true
+ice_mage_vladimir_stormbringer	1	210309001		100	210309002	ice_mage_vladimir_stormbringer	champion	ice_mage_vladimir_stormbringer	ui/portraits/portholes/no_culture/ice_mage_vladimir_stormbringer.png	21030902	ice_mage_vladimir_stormbringer	true
 dwarf_envoy	1	210309003		100	210309004	dwarf_envoy	champion	dwarf_envoy	ui/portraits/portholes/no_culture/dwarf_envoy.png	21030904		true
 morgan_bernhardt	1	210309005		100	210309006	morgan_bernhardt	general	morgan_bernhardt	ui/portraits/portholes/no_culture/morgan_bernhardt.png	21030903		true
 morgan_bernhardt_mount	1	210309005		100	210309006	morgan_bernhardt_mount	general	morgan_bernhardt	ui/portraits/portholes/no_culture/morgan_bernhardt.png	21030903		true
@@ -12,5 +12,5 @@ ludwig_uberdorf_mount	1	210309009		100	210309010	ludwig_uberdorf_mount_main_unit
 ludwig_uberdorf_gyrobomber	1	210309009		100	210309010	ludwig_uberdorf_gyrobomber_main_units	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_gyrobomber_main_units.png	210309061		true
 ludwig_uberdorf_steam_tank	1	210309009		100	210309010	ludwig_uberdorf_steam_tank_main_units	champion	ludwig_uberdorf_agent_subtype	ui/portraits/portholes/no_culture/ludwig_uberdorf_steam_tank_main_units.png	210309061		true
 matthias	1	210309011		100	210309014	matthias	champion	matthias	ui/portraits/portholes/no_culture/matthias.png	21030907	wh_main_skill_node_set_all_spy	true
-luther_flamenstrike	1	210309012	wh_main_lore_fire	100	210309013	luther_flamenstrike	champion	luther_flamenstrike	ui/portraits/portholes/no_culture/luther_flamenstrike.png	21030908	luther_flamenstrike	true
-luther_flamenstrike_mount	1	210309012	wh_main_lore_fire	100	210309013	luther_flamenstrike_mount	champion	luther_flamenstrike	ui/portraits/portholes/no_culture/luther_flamenstrike.png	21030908	luther_flamenstrike	true
+luther_flamenstrike	1	210309012		100	210309013	luther_flamenstrike	champion	luther_flamenstrike	ui/portraits/portholes/no_culture/luther_flamenstrike.png	21030908	luther_flamenstrike	true
+luther_flamenstrike_mount	1	210309012		100	210309013	luther_flamenstrike_mount	champion	luther_flamenstrike	ui/portraits/portholes/no_culture/luther_flamenstrike.png	21030908	luther_flamenstrike	true

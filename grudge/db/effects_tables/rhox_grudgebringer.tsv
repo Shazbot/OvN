@@ -24,6 +24,9 @@ rhox_grudgebringer_piece_of_eight_21	cst_piece_of_eight.png	1	cst_piece_of_eight
 rhox_grudgebringer_piece_of_eight_22	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
 rhox_grudgebringer_piece_of_eight_23	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
 rhox_grudgebringer_piece_of_eight_24	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_grudgebringer_piece_of_eight_25	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_grudgebringer_piece_of_eight_26	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_grudgebringer_piece_of_eight_27	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
 ovn_grudge_effect_emp_camp_limit	ogre_camp.png	25	ogre_camp.png	campaign	true
 rhox_grudge_every_turn_money_dummy	treasury.png	3	treasury.png	campaign	true
 rhox_grudge_diplo_reward_bonus	diplomacy.png	2	diplomacy.png	campaign	true
@@ -46,7 +49,10 @@ ludwig_uberdorf_steam_tank	mount.png	50	mount.png	both	true
 rhox_grudge_engrol_unbreakable_all_dwf	attribute_unbreakable.png	620	attribute_unbreakable.png	battle	true
 rhox_grudge_engrol_dip_men	diplomacy.png	5	diplomacy.png	campaign	true
 rhox_grudge_contract_reward_money	treasury.png	66	treasury.png	campaign	true
-rhox_grudge_effect_force_stat_speed_ksl	battle_movement.png	421	battle_movement.png	battle	true
-rhox_grudge_effect_force_stat_melee_defence_ksl	defence.png	451	defence.png	battle	true
 rhox_grudgebringer_lh_reward_bundle_5	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
 rhox_grudgebringer_lh_reward_bundle_6	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_grudge_enable_extra_reload	general_ability.png	310	general_ability.png	battle	true
+rhox_grudge_enable_endless_drum	general_ability.png	310	general_ability.png	battle	true
+rhox_grudge_effect_force_stat_speed_ksl	battle_movement.png	421	battle_movement.png	battle	true
+rhox_grudge_effect_force_stat_melee_defence_ksl	defence.png	451	defence.png	battle	true
+rhox_grudge_effect_force_stat_ap_damage_ksl_all	armour_piercing.png	471	armour_piercing.png	battle	true

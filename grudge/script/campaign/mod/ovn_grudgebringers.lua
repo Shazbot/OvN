@@ -128,7 +128,7 @@ local function new_game_startup()
         cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh2_main_hef_high_elves", "war", false, false, true);
         cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh3_main_cth_cathay", "war", false, false, true);
         cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh3_main_ksl_kislev", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh3_main_ksl_kislev", "war", false, false, true);
+        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:mixer_teb_southern_realms", "war", false, false, true);
         
         --Spawn Starting Enemy Army
         

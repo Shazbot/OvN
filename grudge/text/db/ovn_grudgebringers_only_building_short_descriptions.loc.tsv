@@ -28,9 +28,14 @@ building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpow
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_race_other_1	As the mercenary army grows in size and reputation, it attracts warriors from all lands. Have you tried negotiating with an Ogre?	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_race_other_2	A permanent place in camp for our brothers in arms, for we are all Grudgebringers here.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_recruit_race_other_3	The camp is so large, it's actually made up of several smaller camps.	true
-building_short_description_texts_short_description_ovn_replenishment2	Disused plot turned into a makeshift place to treat the wounded and dying.	false
-building_short_description_texts_short_description_ovn_replenishment1	A glorified tent, still preferable to the open-air alternative.	false
+building_short_description_texts_short_description_ovn_replenishment3	Disused plot turned into a makeshift place to treat the wounded and dying. Vital when deep in hostile lands with few friendly settlements.	false
+building_short_description_texts_short_description_ovn_replenishment2	A glorified tent, still preferable to the open-air alternative.	false
+building_short_description_texts_short_description_ovn_replenishment1	Their wriggling leeches are here to heal you. 	false
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_storehouse	The store wagon ensures we have all the supplies needed for long marches and plenty of room for loot.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_storehouse_2	A semi-permanent structure for holding all the supplies an army might need for a long campaign in hostile lands.	false
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder_1	A few kegs, enough to serve a few regiments needs.	false
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder_2	A wagon brimful of black powder. Just don't park it too close to the living quarters.	false
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpowder_3	A store that fufills all our explosive needs and even has spares for artillery and armaments.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_camp_pot	Every camp, no matter how small, will have a pot where whatever can be scrounged is tossed into a bubbling stew.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_camp_pot_2	Essentially a big cooking pot, large enough to feed several units watched over by the camp cook.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_camp_pot_3	A full kitchen, with a small army of cooks capable of feeding an entire army.	false

@@ -1,0 +1,7 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\reiksguard_knights_todbringer\emp_reiksguard_head_03.wsmodel"  />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\reiksguard_knights_todbringer\emp_reiksguard_head_04.wsmodel"  />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\reiksguard_knights_todbringer\emp_reiksguard_zintler_head_02.wsmodel"  />
+	</SLOT>
+</VARIANT_MESH>

@@ -40,3 +40,4 @@ grudgebringer_infantry	0	0	18	18	1.0000	sword	sword		1	1.0000	1.0000	0.0000	fals
 carlsson_cavalry	0	0	17	22	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.7000		false
 carlsson_guard_officer	0	0	210	70	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 grudgebringers_wagon	0	0	80	24	3.0000	axe	unarmed	very_large	4	1.0000	1.2500	0.0000	false		3	2	4.0000		false
+grudgebringer_infantry_musician	0	0	1	0	1.0000	sword	axe		1	1.0000	1.0000	0.0000	false		0	10	4.4000		false

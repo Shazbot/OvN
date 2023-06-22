@@ -4,6 +4,19 @@ ovn_grudge_armour_effect			none	1		true	false	true
 ovn_grudge_inf_effect			none	1		true	false	true
 ovn_grudge_cross_effect			none	1		true	false	true
 ovn_grudge_can_effect			none	1		true	false	true
+ovn_grudge_wep			none	1		true	false	true
+ovn_grudge_ran			none	1		true	false	true
+ovn_grudge_hel			none	1		true	false	true
+ovn_grudge_cav			none	1		true	false	true
+ovn_grudge_horse			none	1		true	false	true
+ovn_grudge_welf			none	1		true	false	true
+ovn_grudge_nuln_hal			none	1		true	false	true
+ovn_grudge_ragnar			none	1		true	false	true
+ovn_grudge_flagellants			none	1		true	false	true
+ovn_grudge_carlsson			none	1		true	false	true
+ovn_grudge_innercircle			none	1		true	false	true
+ovn_grudge_skaven			none	1		true	false	true
+ovn_grudge_cavarmour			none	1		true	false	true
 grudge_transfer_region	grudge_transfer_region	grudge_transfer_region	faction	1	diplomacy.png	false	false	true
 grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	grudge_transfer_region_horde_growth	force	1	growth.png	true	false	true
 grudge_supply_dummy	grudge_supply_dummy	grudge_supply_dummy	faction	0	hunter_effect_icons_imperial_supplies.png	false	false	true

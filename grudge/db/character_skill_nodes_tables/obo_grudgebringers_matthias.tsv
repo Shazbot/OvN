@@ -1,0 +1,34 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/obo_grudgebringers_matthias										
+wh2_dlc13_skill_node_matthias_campaign_01		wh2_main_skill_all_hero_assist_army_scavenge	matthias		5.0000	0.0000		0	0	true
+wh2_dlc13_skill_node_matthias_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption	matthias		5.0000	1.0000		0	0	true
+wh2_dlc13_skill_node_matthias_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_walls	matthias		5.0000	2.0000		0	0	true
+wh2_dlc13_skill_node_matthias_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate	matthias		5.0000	3.0000		0	0	true
+wh2_dlc13_skill_node_matthias_campaign_05		wh2_main_skill_all_hero_hinder_army_block_army	matthias		5.0000	4.0000		0	0	true
+wh2_dlc13_skill_node_matthias_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	matthias		5.0000	5.0000		0	0	true
+wh2_dlc13_skill_node_matthias_innate_15		wh2_main_skill_innate_all_weapon_master	matthias		6.0000	14.0000		0	0	false
+wh2_dlc13_skill_node_matthias_self_01		wh_main_skill_all_spy_self_bloody_blade	matthias		2.0000	0.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_02		wh_main_skill_all_spy_self_gutter_fighter_2	matthias		2.0000	1.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_03		wh_main_skill_all_spy_self_elusive	matthias		2.0000	2.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_04		wh_main_skill_emp_spy_self_silver_bullets	matthias		2.0000	3.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_05		wh_main_skill_all_spy_self_fleet-footed	matthias		2.0000	4.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_06		wh_main_skill_all_spy_self_stalker	matthias		2.0000	5.0000		0	4	true
+wh2_dlc13_skill_node_matthias_self_07		wh_main_skill_all_spy_self_opportunist	matthias		2.0000	6.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_08		wh_main_skill_all_spy_self_counter-striker_2	matthias		2.0000	7.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_09		wh_main_skill_all_spy_self_survivalist_2	matthias		2.0000	8.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_10		wh_main_skill_all_spy_self_cornered_rat	matthias		2.0000	9.0000		0	0	true
+wh2_dlc13_skill_node_matthias_self_11		wh_main_skill_all_spy_self_slippery	matthias		2.0000	10.0000		0	4	true
+wh2_dlc13_skill_node_matthias_unique_01		wh_main_skill_emp_spy_unique_witch_hunter_accusation	matthias		0.0000	0.0000		0	0	true
+wh2_dlc13_skill_node_matthias_unique_02		wh2_dlc13_skill_emp_hertwig_unique_sigmars_will	matthias		0.0000	3.0000		0	0	true
+wh2_dlc13_skill_node_matthias_unique_03		wh_main_skill_emp_spy_unique_witch_hunter_magic_resistance	matthias		0.0000	2.0000		0	0	true
+wh2_dlc13_skill_node_matthias_unique_04		wh_main_skill_emp_spy_unique_witch_hunter_tools_of_judgement	matthias		0.0000	4.0000		0	0	true
+wh2_dlc13_skill_node_matthias_unique_05		wh_main_skill_emp_all_unique_sigmars_ward	matthias		0.0000	1.0000		0	0	true
+wh2_dlc13_skill_node_set_matthias_mentor		wh3_main_skill_all_mentor_hero	matthias		0.0000	12.0000		0	0	true
+matthias_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_emp_captain	matthias		8.0000	0.0000		1	0	false
+matthias_agent_scaling		wh3_main_skill_agent_action_success_scaling	matthias		99.0000	0.0000		0	0	false
+matthias_unique_01		witch_hunter_general	matthias		1.0000	0.0000		0	0	true
+matthias_unique_02		expert_marksman	matthias		1.0000	1.0000		0	0	true
+matthias_unique_03		judge_jury_executioner	matthias		1.0000	2.0000		0	0	true
+matthias_unique_04		purifier_of_filth	matthias		1.0000	3.0000		0	0	true
+matthias_unique_05		no_mercy_for_wicked	matthias		1.0000	4.0000		0	4	true
+matthias_innate		matthias_innate	matthias		6.0000	0.0000		1	0	false

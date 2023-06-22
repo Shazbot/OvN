@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringer_mount.loc		
+units_custom_battle_mounts_mount_name_ludwig_uberdorfludwig_uberdorf_mount_main_units	Warhorse	false
+units_custom_battle_mounts_localised_description_ludwig_uberdorfludwig_uberdorf_mount_main_units	While Ludwig's steam tank is being repaired, his loyal dwarfs have built a steam weapon that can be comfortably used on horseback.	false
+units_custom_battle_mounts_mount_name_ludwig_uberdorfludwig_uberdorf_steam_tank_main_units	The Emperor's Wrath Steam Tank	false
+units_custom_battle_mounts_localised_description_ludwig_uberdorfludwig_uberdorf_steam_tank_main_units	The steam tank The Emperor's Wrath was the first tank built by Leonardo of Miragliano. 	false

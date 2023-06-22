@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\ludwig_von_uberdorf\emp_mechanical_steed_01.wsmodel"/>
+    </SLOT>
+</VARIANT_MESH>

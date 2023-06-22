@@ -1,3 +1,11 @@
 key	image	max_displays	weighting	first_shown_weighting	category
 #loading_screen_quotes_tables;5;db/loading_screen_quotes_tables/ovn_grudgebringers					
 ovn_morgan_loading_quote	ui/portraits/portholes/no_culture/morgan_bernhardt.png	-1	1	2	generic
+ovn_ceridan_loading_quote	ui/portraits/portholes/no_culture/ceridan.png	-1	1	2	generic
+ovn_luther_loading_quote	ui/portraits/portholes/no_culture/luther_flamenstrike.png	-1	1	2	generic
+ovn_grudgebringers_lore_1		-1	1	0	quote
+ovn_grudgebringers_lore_2		-1	1	0	quote
+ovn_grudgebringers_lore_3		-1	1	0	quote
+ovn_grudgebringers_lore_4		-1	1	0	quote
+ovn_grudgebringers_lore_5		-1	1	0	quote
+ovn_grudgebringers_lore_6		-1	1	0	quote

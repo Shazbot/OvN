@@ -3,11 +3,11 @@ key	text	tooltip
 missions_localised_title_rhox_grudgebringer_piece_of_eight_1	Howls of the Wolves	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_1	Benhardt's personal friend Eric Ragnar has requested aid, he has been tasked with defeating a fearsome foe but is light on troops. Ragnar will gladfully join Bernhardt should he help finish this contract. 	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_2	Bleak Times	false
-missions_localised_description_rhox_grudgebringer_piece_of_eight_2	Eusebio's Flagellants have served the Grudgebringers well before, but find themselves stalked by some twisted evil. If we can save them they will gladly end their pilgrimage of self-flagellation and join us, safety in numbers after all.	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_2	Eusebio's Flagellants find themselves stalked by some twisted evil. If we can save them they will gladly end their pilgrimage of self-flagellation and join us, safety in numbers after all.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_3	Breakout Bloodfist	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_3	An old friend Azguz Bloodfist's finds his path back to the Dwarven Holds blocked, if we help him he will join our cause once he has reported back to his liege.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_4	Under Siege	false
-missions_localised_description_rhox_grudgebringer_piece_of_eight_4	Dargrimm Firebeard's warriors are under siege in a nearby Dawi hold. He has asked that while your forces are not great enough to relieve them if you can weaken the enemy. This would force the besiegers to divert their forces allowing the Dawi forces to sally out.	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_4	Dargrimm Firebeard's warriors are under siege in a nearby Dawi hold. He has asked that while your forces may not be great enough to relieve them, if you can weaken the enemy, this would force the besiegers to divert their forces allowing the Dawi forces to sally out.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_5	Rotgut's Rotten Deal	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_5	Urblab Rotgut has found himself and his band of Mercenary Ogres tricked with a burdensome contract and find themselves indentured for the foreseeable future. If we help them finish their contract they will happily join us and let us deal with making the "Tough" contract negotiations.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_6	Orion's Support - I	false
@@ -15,9 +15,9 @@ missions_localised_description_rhox_grudgebringer_piece_of_eight_6	Orion will of
 missions_localised_title_rhox_grudgebringer_piece_of_eight_7	Orion's Support - II	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_7	As part of Orion's promised support, he has asked you to deal with the most pressing threat. Swarms of undead rolling in from the Grey Mountains flooding the forest. Thin them out and Orion will reward you with their finest archers who have served with you before and will do so again to the bitter end.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_8	Fort Helmgart	false
-missions_localised_description_rhox_grudgebringer_piece_of_eight_8	The old fort is under constant attack from the mountain undead, help them and the Garrison commander has promised you a regiment of the garrison, the Helmgart Bowmen.	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_8	The old fort is under constant attack from the mountain undead, help them and the Garrison commander has promised you a regiment from the garrison, the Helmgart Bowmen.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_9	A Longshot	false
-missions_localised_description_rhox_grudgebringer_piece_of_eight_9	Under the service of a local ruler, Johann Keeler's Longbows have said they will join you if you assist in finishing their current contract.	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_9	Under the service of a local ruler, Johann Keeler's Longbows find themselves garrisoned in a keep. They are under contract to defend it ramparts until the threat abates, but it shows no signs of doing so and the ruler seems content. Keeler has said they will join you if you weaken the enemy forces so they may honour their contract and leave.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_10	Vermin Revenge	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_10	With their families slain and their homes burnt, the survivors have banded together with only one mission, kill the Rat-men. Their leader Ramon Black has said if you bring them 300 Rat-heads they will join you knowing they will kill many more vermin under your command.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_11	Secure the Border Princes	false
@@ -25,7 +25,7 @@ missions_localised_description_rhox_grudgebringer_piece_of_eight_11	The Border P
 missions_localised_title_rhox_grudgebringer_piece_of_eight_12	Rogue Border Prince	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_12	Sven Carlsson wishes to gain your services in capturing a rogue Border Prince that conspires with inhuman creatures against us. His name is Otto Hiln, each month, for the last three, he has been meeting in the Worlds Edge Mountains with Skaven. Since that first meeting, he has sent out men searching for one called Ceridan, but as the months have passed with no word of Ceridan, Hiln has become increasingly frustrated to the point of executing those who report failure. A former bodyguard of Hiln's, sickened by his former master's collaborations with the Rat-Men hordes has provided the whereabouts of their next meeting	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_13	The Crows Always Win	false
-missions_localised_description_rhox_grudgebringer_piece_of_eight_13	Siegfried Vanhiem has found himself in a bloody and drawn-out conflict, if we can end this war he will offer his services to us.	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_13	Siegfried Vannheim has found himself in a bloody and drawn-out conflict, if we can end this war he will offer his services to us.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_14	Polluting Spirit	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_14	A treeman desires our aid in preventing undead forces from entering the forest and polluting the spirit of the trees. Help him and the Treeman will leave tend his tree no longer and will fight by your side.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_15	Gnawing Rats	false
@@ -48,8 +48,12 @@ missions_localised_title_rhox_grudgebringer_piece_of_eight_23	Unholy Secret	fals
 missions_localised_description_rhox_grudgebringer_piece_of_eight_23	King Leoncoeur will only suggest we search the city of Mousillion, the city of the Decayed and Damned, a place the Bretonnian armies even avoid like the plague. If we cleanse this evil the King will support us with a regiment of Grail Knights, on the condition they are only used against the enemies of Bretonnia.	false
 missions_localised_title_rhox_grudgebringer_piece_of_eight_24	Broken Axe	false
 missions_localised_description_rhox_grudgebringer_piece_of_eight_24	The lands of Bretonnia are no stranger to Orc incursions, but some are too much even for their knights. As such a local King has requested aid against a vicious tribe that resides in the Massif Orcal Mountains, our reward a regiment of Knights of the Realm to be used only against Bretonnia's foes.	false
-missions_localised_title_rhox_grudgebringer_piece_of_eight_25	25	false
-missions_localised_description_rhox_grudgebringer_piece_of_eight_25	25	false
+missions_localised_title_rhox_grudgebringer_piece_of_eight_25	Musings of a Madman	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_25	The mad count of Averland, Maruis Leitdorf is convinced this faction moves against him, though those in his court privately think otherwise. Though a job is a job and upon completion we have been promised a regiment of Averland's finest crossbowmen.	false
+missions_localised_title_rhox_grudgebringer_piece_of_eight_26	Imperial Aid - IV	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_26	The Empire requests aid against a vicious foe, defeat them and you will be rewarded with one of the Empire's finest Hellblaster Volley guns.	false
+missions_localised_title_rhox_grudgebringer_piece_of_eight_27	Imperial Aid - V	false
+missions_localised_description_rhox_grudgebringer_piece_of_eight_27	The Empire requests aid against a cunning enemy, defeat them and you will be rewarded with one of the Empire's finest regiment of Reiksguard Knights..	false
 missions_localised_title_rhox_grudgebringer_lh_1	Ludwig von Uberdorf	false
 missions_localised_description_rhox_grudgebringer_lh_1	A Steam Tank has been damaged, broken down en-route to exterminate a rabble of Greenskins who have taken over some Imperial Towers. They find themselves isolated, with their escort Halberdiers killed by Orc patrols, we must protect them while they make their repairs. The Tank Commander will be at your service until the repairs are finished at which point the Steam Tank will be placed under your command.	false
 missions_localised_title_rhox_grudgebringer_lh_2	Ceridan	false

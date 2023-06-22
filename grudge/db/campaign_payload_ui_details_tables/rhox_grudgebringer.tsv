@@ -2,3 +2,4 @@ component	icon	state	sort_order
 #campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/rhox_grudgebringer			
 rhox_grudgebringer_declare_war_payload	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	negative	0
 rhox_grudgebringer_50_chance_declare_war_payload	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	default	0
+rhox_grudgebringer_settlement_returned	ui/campaign ui/effect_bundles/settlement.png	positive	0

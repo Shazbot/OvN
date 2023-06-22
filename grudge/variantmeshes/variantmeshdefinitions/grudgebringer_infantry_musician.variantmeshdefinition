@@ -1,0 +1,27 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\grudgebringer_infantry_head_set1.variantmeshdefinition"  />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\grudgebringer_infantry_head_set2.variantmeshdefinition"  />
+	</SLOT>
+	<SLOT name="torso">
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_infantry\grb_torso_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_infantry\grb_torso_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH> 
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_infantry\grb_torso_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>        
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_infantry\grb_torso_04.wsmodel" >
+			<META_DATA>audio_entity_type:wh_human_male</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>        
+	</SLOT>
+	<SLOT name="horn" >
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\do1\grudgebringer_infantry\horn.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT attach_point="be_prop_1" name="weapon_2">
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/emp_state_troops_swords_set1.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+	</VARIANT_MESH>

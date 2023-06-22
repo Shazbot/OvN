@@ -152,168 +152,167 @@ mod.bog_pages_list = {
 
 mod.bog_pages = {
 	morgan_bernhardt = {
-	unit_commander_name = "Morgan Bernhardt",
-		unit_description = "Bernhardt is the eldest son of Graf Bernhardt of Nuln. His father is a wealthy and influential merchant, who controls the traffic over five bridges, including the Great Drawbridge over the Reik. As per tradition in Nuln, wealthy families send their eldest sons to the Officer Academy of the great Gunnery School. Bernhardt spent four years learning and gained a reputation as a gifted but troublesome student, graduating at the top of every class he bothered to attend. He was attracted to the glamour of the Cavalry and was known to outride the Reikguard Knights who visited at times. However, he was eventually expelled from the academy for gross insubordination, duelling, and misappropriation of college funds. Bernhardt attempted to join the Knightly orders, but all refused him due to his checkered history. He was even denied a place in the Empire Pistoliers. Despite this setback, Bernhardt now leads the famed mercenary army, the Grudgebringers, named after the magical sword wielded by Bernhardt himself. This mighty blade was forged by the Dwarfs and inscribed with magic runes by a Bright Wizard. The sword was gifted to a young Bernhardt in a supposed chance meeting at the alehouse, the Kippered Herring. An ageing Arch Wizard, Darius Redhand III of the Bright College in Altdorf, saw potential in this upstart and knowing his sword's unquenchable thirst for battle bequeathed it to Morgan.When asked what he might do after his mercenary days, Bernhardt speaks of opening a little inn somewhere.",
-
+        unit_commander_name = "",--now you don't need this part. All you need to do is make sure the commander name is under UNIT_KEY_unit_commander_name and description is UNIT_KEY_unit_description in the loc file
+		unit_description = "",
 	},
 	grudgebringer_cavalry = {
-		unit_commander_name = "Klaus Zimmerman",
-		unit_description = "So named after their captain's powerful sword 'Grudgebringer' these mercenaries already command an unsullied respect on their home turf in Reikland. The Grudgebringers have since marched to the troubled Border Princes where they quest for a major campaign to prove themselves worthy of greater fortunes. These mercenary cavalry form the core of the army known as the Grudgebringers. Klaus Zimmerman serves as mentor to Bernhardt and the two men have known each other for some time. When he speaks to Bernhardt of what he might do after his mercenary days Morgan speaks of opening a little inn somewhere.",
+		unit_commander_name = "",
+		unit_description = "",
 
 	},
 	grudgebringer_infantry = {
-		unit_commander_name = "Gunther Schepke",
-		unit_description = "These highly experienced warriors are led by Sergeant Gunther Schepke, Bernhardt's second-in-command. They are part of the respected mercenary army known as the Grudgebringers and are completely loyal to their Commander. Originally, Schepke was a hard-bitten mercenary commanding a small but extremely tough group known as 'Schepke's Sixteen.' The name came from a now-famous battle at Black Fire Pass when they held off two hundred orcs for hours while the baggage train they guarded retreated into the safety of the Empire. Only sixteen of the initial fifty survived, but every goblin was slain to the last. The mercenaries explained their suicidal defense of the convoy simply by the fact that theirs was a fixed-sum contract, and the money due for fifty now went to a mere sixteen. Not only that, but the gold to pay the mercenaries rested in the rearmost wagons of the convoy - a shrewd move by the convoy's paymaster.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	grudgebringer_crossbow = {
-		unit_commander_name = "Willem Fletcher",
-		unit_description = "These expert crossbowmen, who are now mercenaries, have a disreputable past. They originally formed part of a bandit army working in the forests of Talabecland. After a crackdown aided by elite Imperial forces, they fled south to evade capture. They are still on the Empire's wanted list and sought anonymity by joining a legitimate mercenary army. They found themselves a part of the respected Grudgebringers' army.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	grudgebringer_cannon = {
-		unit_commander_name = "Wolfgang Schwartzkopf",
-		unit_description = "Top of his marksmanship class at the Nuln Artillery College for a record three years running, Wolgang 'Sureshot' Schwartzkopf instils a winning confidence in the rest of his crew. After proving himself in the field he had a short stint as a lecturer in ballistics before being offered service with an imperial Great Cannon regiment. Headhunted by the Grudgebringers he now leads command of the armies mercenary cannons.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	ragnar_wolves = {
-		unit_commander_name = "Eric Ragnar",
-		unit_description = "These warriors originate from the cold and inhospitable lands of Norsca. Frustrated by the lack of opportunity in their homeland, Ragnar and his 'Wolves' have traveled south seeking to offer their services in return for fat Empire purses. Their leader, Eric Ragnar, is a personal friend of Bernhardt. All of Ragnar's men are expert horsemen, skilled in combat, and merciless killers who prefer to run down their enemies to the last man.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	flagellants_eusebio_the_bleak = {
-		unit_commander_name = "Eusebio The Bleak",
-		unit_description = "Flagellants are men who have been driven over the edge of sanity by some personal disaster or catastrophe, causing them to travel the Empire and preach their visions of doom and destruction. Their madness endows them with superhuman strength and resilience, and they fight with an outstanding fury that is almost impossible to match. Clad only in tattered robes, flagellants are a fearsome sight to behold.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	azguz_bloodfist_dwarf_warriors = {
-		unit_commander_name = "Azguz Bloodfist",
-		unit_description = "Dwarfs are known for their determination and confidence, and they possess immense strength and resilience. However, they are often slower on their feet compared to other races. They will only flee when the situation is dire, and their hatred for Orcs and Goblins makes them even less likely to retreat when facing them in battle.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	dargrimm_firebeard_dwarf_warriors = {
-		unit_commander_name = "Dargrimm Firebeard",
-		unit_description = "A regiment of Dwarf Warriors is composed of fierce and relentless fighters, making up the backbone of Dwarf armies. Known for their legendary stubbornness, they are reluctant to flee even in the direst of circumstances. This unwavering determination commands great admiration and respect throughout the Old World.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	urblab_rotgut_mercenary_ogres = {
-		unit_commander_name = "Urblab Rotgut",
-		unit_description = "These colossal creatures tower twice the height of an average man and possess a significantly more robust physique. While they may lack intelligence, they compensate with tremendous strength and resilience, engaging in battles with ferocious intensity. Notably, Ogres are notorious for their indifference towards loyalties, fighting for whomever provides them with suitable rewards. Their imposing and intimidating presence instills fear in those who encounter them.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	elrod_wood_elf_glade_guards = {
-		unit_commander_name = "Elrod",
-		unit_description = "These warriors are known as Wood Elves and are the protectors of the ancient forest of Loren. They are swift and skilled in combat, using hit-and-run tactics to take down their enemies. They are experts in archery and their skill with a bow is unmatched. Wood Elves are also skilled in magic, often using it to enhance their abilities or to hinder their foes. They are fiercely independent and tend to keep to themselves, but will ally with other races if it serves their purpose.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	galed_elf_archers = {
-		unit_commander_name = "Galed",
-		unit_description = "Wood Elf archers are highly skilled in both ranged and melee combat, making them versatile warriors. They are also experts in ambush tactics, using their agility and knowledge of the forest to surprise and overwhelm their enemies. They prefer to wear light armor, allowing them to move quickly and quietly through the forest.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	helmgart_bowmen = {
-		unit_commander_name = "Franz Erikson",
-		unit_description = "Helmgart archers are a well-trained and disciplined regiment, who are responsible for the defense of Helmgart Keep. They are known for their proficiency with the standard bow, which has a medium range, and are highly effective at ranged combat. However, due to their focus on archery, they are not as proficient in hand-to-hand combat as other units.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	keelers_longbows = {
-		unit_commander_name = "Johann Keeler",
-		unit_description = "Johann Keeler's longbowmen are highly regarded in Averland for their exceptional skills with the longbow. They have honed their craft through participation in numerous provincial archery tournaments and have also gained valuable experience from previous mercenary campaigns. Their longbows have a greater range and accuracy compared to standard bows, making them a deadly force on the battlefield. They are also trained in basic melee combat, but their true strength lies in their ranged capabilities.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	black_avangers = {
-		unit_commander_name = "Ramon Black",
-		unit_description = "Ramon Black formed the Avengers after a Skaven raiding party burned their homes and killed their families during an attack on their town of Wissenheim. They are sworn to hunt down and kill Skaven wherever they can find them. Made up from little more than untrained peasants, his band display a gritty determination deserving of any mercenary army.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	carlsson_guard = {
-		unit_commander_name = "Captain Bernard",
-		unit_description = "Captain Bernard commands the Carlsson Guard who form the regional police of Carlsson's land. Although not intensely trained or particularly well equipped they are very loyal and proud to serve their respected patron Sven Carlsson.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	carlsson_cavalry = {
-		unit_commander_name = "Sven Carlsson",
-		unit_description = "These warriors form part of the militia commanded by the Border Prince and former mercenary Sven Carlsson, a personal friend of Bernhardt. They ride into battle on mighty warhorses and are proficient in combat.",
+		unit_commander_name = "",
+		unit_description = "",
 		unlock = function()
-			return string.format("Foil the known Skaven collaborator Otto Hiln.")
+			return common.get_localised_string("carlsson_cavalry_unlock_condition")
 		end
 	},
 	vannheim_75th = {
-		unit_commander_name = "Siegfried Vannheim",
-		unit_description = "Siegfried Vannheim is a well-renowned mercenary captain who has worked all through the Old World and beyond while leading the 75th. Reputably a staunch disciplinarian, Vannheim is followed by his troops with faithful loyalty and respect for his veteran experience in the trade.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	treeman_knarlroot = {
-		unit_commander_name = "Knarlfoot",
-		unit_description = "These extremely large creatures are incredibly strong and tough, fighting with great skill and ferocity. However, their dry woody skin suffers great damage if burned, so fire is their greatest enemy. Knarlfoot is among the mightiest of Loren's denizens, his gnarled form is almost impervious to harm, and his strength a near match for even a Jabberslythe.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	treeman_gnarl_fist = {
-		unit_commander_name = "Gnarl Fist",
-		unit_description = "Treemen are very large and powerful creatures as old as the forests themselves. Completely intolerant of anyone who threatens their beloved forests, they are firm allies of the Wood Elves. These 'Guardians of the Forest' are said to communicate with the trees through the whispering of the leaves and the creaking of branches.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	uter_blomkwist_imperial_mortar = {
-		unit_commander_name = "Uter Blomkwist",
-		unit_description = "This machine fires explosive shells high into the air, sending them crashing into enemy ranks. It has an extremely long range and can shoot over obstacles and terrain as the shell is fired in an arc, but it is progressively more inaccurate the further it fires. Armour provides no protection against hits from a Mortar. ",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	countess_guard = {
-		unit_commander_name = "Heinz Klemper",
-		unit_description = "Halberdiers, like all the Empire's infantry, are highly trained and proficient fighters. The halberds they wield are heavy weapons which hit with great force. These Halberdiers are tasked with the personal protection of Countess Isabella Von Liberhurtz, cousin to Emperor Karl Franz and as such are veterans of many campaigns.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	dieter_schaeffer_carroburg_greatswords = {
-		unit_commander_name = "Dieter Schaeffer",
-		unit_description = "The fame of the Carroburg Greatswords dates back to the Age of Three Emperors. In 1865 IC, they successfully defended the city of Carroburg, then under the control of Reikland, from the count of Middenland. Throughout the course of the battle, their white uniforms were stained red with blood. Since then, they have worn crimson uniforms.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	jurgen_muntz_outlaw_infantry = {
-		unit_commander_name = "Jurgen Muntz",
-		unit_description = "Under the influence of their leader, Jurgen Muntz, these highly trained warriors abandoned the Empire to fight outside the law for greater material gain.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	boris_von_raukov_4th_nuln_halberdiers = {
-		unit_commander_name = "Boris Von Raukov", 
-		unit_description = "The eight son of Valmir von Raukov the elector count of Ostland, Boris left his homeland for Nuln seeking glory and distinction as an officer in the forces of the Empire. No doubt assisted by his noble bloodline, his youthful enthusiasm has secured him a position of command over this regiment of Halberdiers.",
+		unit_commander_name = "", 
+		unit_description = "",
 	},
 	stephan_weiss_outlaw_pistoliers = {
-		unit_commander_name = "Stephen Weiss",
-		unit_description = "These young mercenaries are fairly inexperienced, but make an exceptional rapid response force. Under the guidance of their disillusioned leader they have abandoned the Empire to fight outside the law. In combat their skills are average but they carry pistols, which only have a very short range yet are powerful enough to penetrate most armour.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	imperial_cannon_darius_flugenheim = {
-		unit_commander_name = "Darius Flugenheim",
-		unit_description = "This machine fires heavy cannonballs which can tear through enemy regiments and light buildings with ease, but is progressively more inaccurate the further it fires. Its enormously long range is only equalled by Orc Rock Lobbers.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	grail_knights_tristan_de_la_tourtristan_de_la_tour = {
-		unit_commander_name = "Tristan De La Tour",
-		unit_description = "Having sipped from the grail itself, these Knights are the most powerful of all the Knights of Bretonnia. Their skill in combat is extraordinary and they fight determinedly. Grail Knights know no fear and are immune to such types of psychology. ",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	knights_of_the_realm_bertrand_le_grande = {
-		unit_commander_name = "Bertrand Le Grande",
-		unit_description = "These Knights belong to the most numerous of the Bretonnian orders of chivalry. They ride into battle on powerful Bretonnian warhorses and are highly skilled in combat.",
+		unit_commander_name = "",
+		unit_description = "",
 	},
 	ludwig_uberdorf = {
-		unit_commander_name = "Ludwig Uberdorf",
-		unit_description = "This machine is in effect a mobile cannon and is very heavily armoured. This steam tank, The Emperor's Wrath has recently been to the Engineer's College in Altdorf for overhauling. It has been repaired and refitted back to a Conqueror Class configuration. Now returned to active duty, the Emperor's Wrath has been instrumental in aiding Graf Boris Todbringer's ongoing battles in the Drakwald forest but has now been sent to retake the Blighted Towers in Stirland. To this day, it strikes terror into the hearts of the enemy. The current tank commander is the combat engineer Ludwig von Uberdorf",
+		unit_commander_name = "",
+		unit_description = "",
 		unlock = function()
-			return string.format("Enter Flensburg.")
+			return common.get_localised_string("ludwig_uberdorf_unlock_condition")
 		end
 	},
 	ceridan = {
-		unit_commander_name = "Ceridan",
-		unit_description = "After many years in the Black Mountains Ceridan, a lone Elf Ranger has learned of valuable information which has fallen into Skaven possession. Troubled by recent Skaven efforts to capture him he now seeks assistance on a quest handed down through generations of his family.",
+		unit_commander_name = "",
+		unit_description = "",
 		unlock = function()
-			return string.format("Enter Kings Glade, Loren.")
+			return common.get_localised_string("ceridan_unlock_condition")
 		end
 	},
 	ice_mage_vladimir_stormbringer = {
-		unit_commander_name = "Vladimir Stormbringer",
-		unit_description ="Vladimir is an Ice Mage to Tzarina Katarin Bokha, the Ice Queen of Kislev. He wields Ice Magic, a form of Magic native to Kislev that centres around deadly spells of ice and cold. Since the days of Tzarina Shoika men have been banned from wielding magic in Kislev for claims a male Ice Witch will one day taint the flow of Ice Magic, changing it forever. It is most unusual not only for Vladimir to be allowed to wield this magic but to actually serve the Tzarina. While his notoriety as an Ice Mage is not publicly spoken of his reputation is well known, even throughout the Empire. It is a badly kept secret that would see him killed by the Ice Witches if not for Tzarina's protection. But why does Katarin break with tradition? Has she scried into the depths of her crystals and foreseen something unspeakable?",
+		unit_commander_name = "",
+		unit_description ="",
 			unlock = function()
-			return string.format("Enter Vitevo, Kislev.")
+			return common.get_localised_string("ice_mage_vladimir_stormbringer_unlock_condition")
 		end,
 		unlock_delta = {0,45}
 	},
 	dwarf_envoy = {
-		unit_commander_name = "Engrol Goldtongue",
-		unit_description = "Engrol Goldtongue is the official Dwarf Envoy from the fortress of Zhufbar. His skills in diplomacy are unnaturally proficient for a Dwarf and he has resolved many quarrels with the Empire in his career which spans over two centuries.",
+		unit_commander_name = "",
+		unit_description = "",
 		unlock = function()
-			return string.format("Enter Zhufbar.")
+			return common.get_localised_string("dwarf_envoy_unlock_condition")
 		end
 	},
 	matthias = {
-		unit_commander_name = "Matthias",
-		unit_description = "Matthias, a Witch Hunter General, works tirelessly to eradicate heresy in the Empire, be it men, women or children. Not everyone approves of his 'zeal', including Morgan Bernhardt, but most accept his firebrand fanaticism is more than necessary.",
+		unit_commander_name = "",
+		unit_description = "",
 		unlock = function()
-			return string.format("Enter Altdorf, Reikland.")
+			return common.get_localised_string("matthias_unlock_condition")
 		end,
 		unlock_delta = {0,-20}
 	},
 	luther_flamenstrike = {
-		unit_commander_name = "Luther Flamestrike",
-		unit_description = "Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to. Flamestrike now wanders the lands gladly offering his services as a master of the magic arts... for a 'reasonable price'.",
+		unit_commander_name = "",
+		unit_description = "",
 		unlock = function()
-			return string.format("Enter Averheim.")
+			return common.get_localised_string("luther_flamenstrike_unlock_condition")
 		end
 	},
 }
@@ -534,7 +533,10 @@ mod.draw_bog_page = function(page_num)
 
 	local page_data = mod.get_bog_page(page_num)
 	if not page_data then return end
-	local desc = page_data.unit_description or mod.page_defaults.unit_description
+	
+	local unit_key = mod.bog_pages_list[page_num-2]
+	
+	local desc = common.get_localised_string(unit_key.. "_unit_description") or mod.page_defaults.unit_description
 
 	local is_left_page = true
 	local list = left_list
@@ -556,7 +558,7 @@ mod.draw_bog_page = function(page_num)
 		unit_desc:MoveTo(x+580, y+555)
 	end
 
-	local unit_key = mod.bog_pages_list[page_num-2]
+	
 
 	local banner = core:get_or_create_component("pj_grudge_book_banner", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
 	banner:SetImagePath(page_data.unit_banner or ('ui/ovn_grudge_book/banners/'..unit_key..'.png'), 0)
@@ -576,7 +578,7 @@ mod.draw_bog_page = function(page_num)
 		end
 	end
 	if req_header then
-		req_header:SetStateText("[[col:black]]".."Unlock requirement".."[[/col]]")
+		req_header:SetStateText("[[col:black]]"..common.get_localised_string("ovn_book_unlock_text").."[[/col]]")
 		req_header:SetDockingPoint(8)
 		req_header:SetDockOffset(310,-250)
 	end
@@ -735,7 +737,7 @@ mod.draw_bog_page = function(page_num)
 	end
 	if unit_commander then
 		unit_commander:SetVisible(true)
-		unit_commander:SetStateText("[[col:white]]"..(page_data.unit_commander_name or mod.page_defaults.unit_commander_name).."[[/col]]")
+		unit_commander:SetStateText("[[col:white]]"..(common.get_localised_string(unit_key.. "_unit_commander_name") or mod.page_defaults.unit_commander_name).."[[/col]]")
 		-- unit_commander:SetDockingPoint(1)
 		-- unit_commander:SetDockOffset(starting_x+200, starting_y)
 		unit_commander:SetDockingPoint(2)
@@ -867,7 +869,7 @@ mod.redraw_bog = function(page_num)
 	grudge_bar:SetVisible(false)
 
 	local tx_header = digForComponent(book_of_grudges, "tx_header")
-	tx_header:SetStateText("Recruitment Ledger")
+	tx_header:SetStateText(common.get_localised_string("ovn_book_recruitment_ledger"))
 
 	local l = digForComponent(book_of_grudges, "list_left")
 	local r = digForComponent(book_of_grudges, "list_right")
@@ -962,9 +964,9 @@ mod.add_subculture_reqs = function(mission)
 
 		local count = mission.count or mission.rolled_total
 		if count == 1 then
-			req_text_text:SetStateText(string.format("[[col:black]]Win 1 battle against %s.[[/col]]", common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key)))
+			req_text_text:SetStateText(string.format("[[col:black]]%s %s.[[/col]]",common.get_localised_string("ovn_book_1win_text"), common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key)))
 		else
-			req_text_text:SetStateText(string.format("[[col:black]]Win %d battles against %s.[[/col]]", count, common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key)))
+			req_text_text:SetStateText(string.format("[[col:black]]%s %d %s %s.[[/col]]", common.get_localised_string("ovn_book_win_word_text"), count, common.get_localised_string("ovn_book_battles_against_text"), common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key)))
 		end
 	end
 end
@@ -1217,7 +1219,7 @@ mod.create_main_button = function()
 	end
 	if not main_hlf_cooking_button then return end
 	main_hlf_cooking_button:SetVisible(true)
-	main_hlf_cooking_button:SetTooltipText("Grudgebringer Ledger||Grudgebinger Units", true)
+	main_hlf_cooking_button:SetTooltipText("Grudgebringer Troop Roster||Shows unlock requirements and unit details for available Regiments of Renown and Heroes", true)
 	main_hlf_cooking_button:SetImagePath("ui/skins/default/icon_book_grudges.png", 0)
 end
 
@@ -1242,7 +1244,13 @@ end
 mod.create_unlock_string = function(unit_key)
 	local mission_key = mod.unit_key_to_mission_key[unit_key]
 	local mission = mission_key and mod.get_mission_by_key(mission_key)
-	if not mission then return end
+	if not mission then 
+        if mission_key then --it means there is a mission key but it's not fired, so let's put it in the not fired section
+            return common.get_localised_string("ovn_book_not_available_text")
+        end
+        return
+    end
+    
 
 	if mission.type ~= "DEFEAT_N_ARMIES_OF_FACTION" then return end
 
@@ -1251,16 +1259,16 @@ mod.create_unlock_string = function(unit_key)
 
 	if mission.subculture_key then
 		if count == 1 then
-			return string.format("Win 1 battle against %s.", common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
+			return string.format("%s %s.", common.get_localised_string("ovn_book_1win_text"), common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
 		else
-			return string.format("Win %d battles against %s.", count, common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
+			return string.format("%s %d %s %s.", common.get_localised_string("ovn_book_win_word_text"), count, common.get_localised_string("ovn_book_battles_against_text"), common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key))
 		end
 	end
 
 	if count == 1 then
-		return string.format("Win 1 battle against %s.", common.get_localised_string("factions_screen_name_"..faction_key))
+		return string.format("%s %s.", common.get_localised_string("ovn_book_1win_text"), common.get_localised_string("factions_screen_name_"..faction_key))
 	else
-		return string.format("Win %d battles against %s.", count, common.get_localised_string("factions_screen_name_"..faction_key))
+		return string.format("%s %d %s %s.", common.get_localised_string("ovn_book_win_word_text"), count, common.get_localised_string("ovn_book_battles_against_text"), common.get_localised_string("factions_screen_name_"..faction_key))
 	end
 end
 
@@ -1343,7 +1351,7 @@ mod.refresh_toc_row = function(pages, i)
 		end
 	end
 	if unit_data and unit_data.localized_unlock and not (is_completed or is_failed) then
-		local unlock_req_str = "[[col:black]]To Unlock: [[//col]][[col:ancillary_unique]]"..unit_data.localized_unlock.."[[/col]]"
+		local unlock_req_str = "[[col:black]]"..common.get_localised_string("ovn_book_to_unlock_text").." [[//col]][[col:ancillary_unique]]"..unit_data.localized_unlock.."[[/col]]"
 		local req_id = "unit_req_"..unit_key
 		local unit_req = find_uicomponent(unit_row, req_id)
 		unit_req:SetStateText(unlock_req_str)

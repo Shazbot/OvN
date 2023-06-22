@@ -6,3 +6,4 @@ campaign_localised_strings_string_rhox_grudgebringer_panel_open_button	Long Cont
 campaign_payload_ui_details_description_rhox_grudgebringer_declare_war_payload	To Battle!	false
 campaign_payload_ui_details_description_rhox_grudgebringer_50_chance_declare_war_payload	There is a 50% chance a battle will occur	false
 campaign_localised_strings_string_rhox_grudge_locked_by_envoy	[[col:red]]This unit will become available after you have been in contact with the Dwarf Envoy [[/col]]	false
+campaign_payload_ui_details_description_rhox_grudgebringer_settlement_returned	You recieved settlement from the Grudgebringers	false

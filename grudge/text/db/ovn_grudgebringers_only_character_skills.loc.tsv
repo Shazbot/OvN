@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/ovn_grudgebringers_only_character_skills.loc		
-character_skills_localised_name_grudgebringers_campaign_quartermaster	Commander of the Grudgebringers	false
-character_skills_localised_description_grudgebringers_campaign_quartermaster	The eldest son of a minor Altdorf noble, Morgan decided to try out his luck as a mercenary captain after being expelled from he army for his fiery temper. As it happens, this temper is what would make him an outstanding sellsword commander...	false
+character_skills_localised_name_grudgebringers_campaign_quartermaster	Grudgebringer Commander	false
+character_skills_localised_description_grudgebringers_campaign_quartermaster	The eldest son of a Nuln noble, Morgan found his calling as a mercenary captain, gaining a fearsome reputation as a sellsword.	false
 character_skills_localised_name_grudge_skill_attack_main1	Cavalry Assault	false
 character_skills_localised_name_grudge_skill_attack_main2	Saddle-Born	false
 character_skills_localised_name_grudge_skill_attack_side1	Constant Training	false
@@ -126,3 +126,5 @@ character_skills_localised_description_no_mercy_for_wicked	Once he is convinced 
 character_skills_localised_name_no_mercy_for_wicked	No Mercy for the Wicked	false
 character_skills_localised_description_matthias_innate	Though most Witch Hunters are either considered to be heroes or scum who are no different to the ones they burn alive, Matthias is widely distructed and feared by those outside of the Holy Order of the Templars of Sigmar for his methods of delivering justice. 	false
 character_skills_localised_name_matthias_innate	Holy Templar of Sigmar	false
+character_skills_localised_description_ludwig_greenskin_grudge	Ludwig's bodyguard detachment of Imperial Halberdiers were cut down by Greenskin filith and now he seeks revenge for his fallen brothers.	false
+character_skills_localised_name_ludwig_greenskin_grudge	Greenskin Hatred	false

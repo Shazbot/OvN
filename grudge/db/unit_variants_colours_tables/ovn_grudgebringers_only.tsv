@@ -71,3 +71,12 @@ key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_co
 210309002781		soldier	wh_main_emp_art_great_cannon_crew_gru		FFFFE1	8D8A73	FFFFFF
 210309002782		soldier	wh_main_emp_art_mortar_crew_gru		FFFFE1	8D8A73	FFFFFF
 210309002783		soldier	wh_main_dwf_inf_dwarf_warrior_gru		FFFFE1	8D8A73	FFFFFF
+2117853284		soldier	leitdorf_9th_crossbows		FFD70E	000000	6A0000
+2117853285		officer	leitdorf_9th_crossbows		FFD70E	000000	6A0000
+2117853286		soldier	emperors_hellblaster_volley_gun		002955	8D0000	002955
+2117853287		officer	emperors_hellblaster_volley_gun		002955	8D0000	002955
+2117853288		officer	grudgebringer_cannon		221829	4B0312	221829
+2117853289		officer	imperial_cannon_darius_flugenheim		FFFFFF	8D0000	FFFFFF
+2117853290		officer	uter_blomkwist_imperial_mortar		002955	002955	002955
+2117853291		officer	reiksguard_knights_todbringer		6A0000	FFFFFF	6A0000
+2117853292		soldier	reiksguard_knights_todbringer		6A0000	FFFFFF	6A0000

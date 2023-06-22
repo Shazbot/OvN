@@ -6,9 +6,7 @@ hide_forest	urblab_rotgut_mercenary_ogres
 immune_to_psychology	urblab_rotgut_mercenary_ogres
 ogre_charge	urblab_rotgut_mercenary_ogres
 wallbreaker	urblab_rotgut_mercenary_ogres
-expendable	black_avangers
 hide_forest	black_avangers
-expendable	flagellants_eusebio_the_bleak
 hide_forest	flagellants_eusebio_the_bleak
 unbreakable	flagellants_eusebio_the_bleak
 formed_attack	azguz_bloodfist_dwarf_warriors
@@ -16,7 +14,6 @@ formed_attack	dargrimm_firebeard_dwarf_warriors
 formed_attack	grudgebringer_infantry
 hide_forest	grudgebringer_infantry
 formed_attack	elrod_wood_elf_glade_guards
-formed_attack	carlsson_guard
 formed_attack	countess_guard
 formed_attack	boris_von_raukov_4th_nuln_halberdiers
 ignore_trees	ceridan
@@ -62,3 +59,4 @@ formed_attack	dwarf_envoy_dwarf_warriors
 charge_defense_vs_large	dwarf_envoy_dwarf_warriors
 encourages	dwarf_envoy_dwarf_warriors
 hide_forest	dwarf_envoy_dwarf_warriors
+unbreakable	reiksguard_knights_todbringer

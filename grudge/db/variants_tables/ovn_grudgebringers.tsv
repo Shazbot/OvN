@@ -133,3 +133,16 @@ sr_ogre_gru_maneaters_02		ogr_gru_maneater_great_weapon	hu13/ogr/ogr_maneater/og
 sr_ogre_gru_maneaters_03		ogr_gru_maneater_pistol	hu13/ogr/ogr_maneater/ogr_maneater_01_imposter	1.0000	1.0500	0.0500	
 wh_main_dwf_inf_dwarf_warrior_0_gru		emp_dwarf_war_gru	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	0.9500	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
 wh_main_dwf_inf_dwarf_warrior_1_gru		emp_dwarf_grt_war_gru	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_great_lowlod	1.0000	0.9500	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
+leitdorf_9th_crossbows		leitdorf_9th_crossbows	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+leitdorf_9th_crossbows_officer		leitdorf_9th_crossbows_officer	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+leitdorf_9th_crossbows_banner		leitdorf_9th_crossbows_banner	hu1\emp\emp_archer\emp_archer_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+emperors_hellblaster_volley_gun		emp_artillery_crew	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+emperors_hellblaster_volley_gun_banner		emperors_hellblaster_volley_gun_banner	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+dieter_schaeffer_carroburg_greatswords_drammer		dieter_schaeffer_carroburg_greatswords_drammer	hu1\emp\low_poly\emp_greatswords_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+uter_blomkwist_imperial_mortar_banner		uter_blomkwist_imperial_mortar_banner	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+imperial_cannon_darius_flugenheim_banner		imperial_cannon_darius_flugenheim_banner	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+grudgebringer_cannon_banner		grudgebringer_cannon_banner	hu1/emp/low_poly/emp_artillery_crew	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+reiksguard_knights_todbringer		reiksguard_knights_todbringer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+reiksguard_knights_todbringer_officer		reiksguard_knights_todbringer_officer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+reiksguard_knights_todbringer_banner		reiksguard_knights_todbringer_banner	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+grudgebringer_infantry_musician		grudgebringer_infantry_musician	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter

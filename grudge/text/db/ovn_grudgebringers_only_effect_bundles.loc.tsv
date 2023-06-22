@@ -5,9 +5,9 @@ effect_bundles_localised_description_ovn_grudge_armour_effect	Mercenaries often 
 effect_bundles_localised_title_ovn_grudge_inf_effect	XVI Battle Standard	true
 effect_bundles_localised_description_ovn_grudge_inf_effect	A testament not only to the thirty-four that fell but to the sixteen men that survived the onslaught of over two hundred Greenskins. It took over five hours but the greenskins were slain to the last goblin and the convoy, they were protecting, managed to retreat back to the safety of the Empire in the infamous battle at Black Fire Pass.	true
 effect_bundles_localised_title_ovn_grudge_cross_effect	Brigands Way	true
-effect_bundles_localised_description_ovn_grudge_cross_effect	Former brigands and once on the Empire's most wanted list, enough time has passed for them to make use of some their former talents.	true
+effect_bundles_localised_description_ovn_grudge_cross_effect	Brigands are known for ambushes and what better way than with the use of smoke bombs.	true
 effect_bundles_localised_title_ovn_grudge_can_effect	Earthworks	false
-effect_bundles_localised_description_ovn_grudge_can_effect	Hiring an imperial engineer and a few sappers will allow us to defend our cannon from enemy fire at the cost of manoeuvrability and a large sum of gold.	false
+effect_bundles_localised_description_ovn_grudge_can_effect	Hiring an imperial engineer and a few sappers will allow us to defend our artillery from enemy fire at the cost of manoeuvrability and a large sum of gold.	false
 effect_bundles_localised_title_grudge_transfer_region	Glory to the Empire	true
 effect_bundles_localised_title_grudge_transfer_region_horde_growth	Camp Grows	true
 effect_bundles_localised_description_grudge_transfer_region	You have conquered in the name of the Empire - glory to you - glory to the Empire!	true
@@ -43,3 +43,29 @@ effect_bundles_localised_title_ovn_faction_trait_grudge	Mercenary Legends	false
 effect_bundles_localised_description_ovn_faction_trait_grudge	"I have the knowledge, I have the skill, and you can follow me if you will! How many years have you been scraping for a living-five, ten, fifteen? Well, show me the men and I'll put together a fighting force to shame the Reiksguard and the Panthers and the whining White Wolves of Middenheim to boot! Are you with me, Grudgebringers?" 	false
 effect_bundles_localised_title_ovn_gru_camp	Mercenary Camp	false
 effect_bundles_localised_description_ovn_gru_camp	Mercenaries have set up camp here. Any army within its circle of influence will be able to recruit units from the camp.	false
+effect_bundles_localised_title_ovn_grudge_wep	Artisan Blades	true
+effect_bundles_localised_description_ovn_grudge_wep	Each weapon is hand crafted and perfectly balanced, making its wielder a dangerous prospect.	true
+effect_bundles_localised_title_ovn_grudge_cav	Outcast Knights	true
+effect_bundles_localised_description_ovn_grudge_cav	As their leader was, by only hiring exiled or rejected cavalrymen we gain hardy men with something to prove.	true
+effect_bundles_localised_title_ovn_grudge_horse	Arabyan Steed	true
+effect_bundles_localised_description_ovn_grudge_horse	There are no better horses to be bought than the Arabyan steeds, that move with a swiftful grace.	true
+effect_bundles_localised_title_ovn_grudge_hel	Blessed Brass Balls	true
+effect_bundles_localised_description_ovn_grudge_hel	Andrey has a contact in Kislev who can supply brass cannon balls metled down from church bells blessed by Ursun priests.	true
+effect_bundles_localised_title_ovn_grudge_ran	Nuln Weaponry	true
+effect_bundles_localised_description_ovn_grudge_ran	Bernhardt has many contacts in Nuln and is able to procure the finest weapons, ammunition and parts for his men.	true
+effect_bundles_localised_title_ovn_grudge_welf	Moonstone of the Hidden Ways	true
+effect_bundles_localised_description_ovn_grudge_welf	Able to use the many pathways of the Worldroots to gain an advantage over their foes in battle.	true
+effect_bundles_localised_title_ovn_grudge_nuln_hal	Grand Prince of Ostland Patronage	true
+effect_bundles_localised_description_ovn_grudge_nuln_hal	With his father being the Elector Count Valmir von Raukov along with a suitable donation, will see the Prince become this units patron bestowing much prestige and attracting many stubborn Ostlanders.	true
+effect_bundles_localised_title_ovn_grudge_ragnar	Troll Hides	false
+effect_bundles_localised_title_ovn_grudge_flagellants	Sigmar's Scriptures	false
+effect_bundles_localised_title_ovn_grudge_carlsson	Order of the Prince	false
+effect_bundles_localised_title_ovn_grudge_innercircle	Knights of the Inner Circle	false
+effect_bundles_localised_title_ovn_grudge_skaven	Skaven Slayer	false
+effect_bundles_localised_title_ovn_grudge_cavarmour	Cavalry Barding	false
+effect_bundles_localised_description_ovn_grudge_ragnar	Ragnar's Wolves are no stranger to the tough hides of Trolls but to fashion them into armour requires expensive Dawi tools.	false
+effect_bundles_localised_description_ovn_grudge_flagellants	While the scriptures are expensive they imbue it's wearer with a zealous desire to cleanse all evil.	false
+effect_bundles_localised_description_ovn_grudge_carlsson	Only the finest regiments of the Carlsson army are awarded the Order of the Prince as such attracting only true warriors or those worthy of promotion.	false
+effect_bundles_localised_description_ovn_grudge_innercircle	Inner Circle Knights, make up the deadliest, highest-ranking and most experienced warriors within any knightly order.	false
+effect_bundles_localised_description_ovn_grudge_skaven	They exist only to kill skaven and do so gladly, they adorn their banners and persons with rat skulls, bones, viscera and fur.	false
+effect_bundles_localised_description_ovn_grudge_cavarmour	The finest hand crafted cavarly barding, the true mark of worthy cavalrymen.	false

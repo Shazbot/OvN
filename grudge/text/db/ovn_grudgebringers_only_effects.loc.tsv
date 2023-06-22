@@ -27,12 +27,12 @@ effects_description_grudge_effect_ability_enable_banner_of_arcane_warding	Abilit
 effects_description_grudge_skill_ability_swiftness_of_itzl	Ability: Unstoppable Charge	true
 effects_description_grudge_skill_ability_skv_verminous_valour	Ability: Decisive Battle	true
 effects_description_ovn_grudge_diplo_bonus	Diplomatic relations: %+n with Men, Dwarfs and Wood Elves	false
-effects_description_ovn_grudge_horde	Alongside Bernhardt's personal Camp, deploy additional Camps as forward bases though you are limited to only one army.	true
+effects_description_ovn_grudge_horde	Alongside Bernhardt's personal Camp, deploy additional Camps as forward bases though you are limited to only one army. Permanent camps incur a trespass penalty unless you are military allies 	true
 effects_description_ovn_grudge_mercenary_dummy	Complete Contracts, Missions and return Settlements for RoR, Reinforcements, Gold and more	true
-effects_description_ovn_grudge_good_dummy	Cannot declare war on Empire, Bretonnian, Kislev, High Elf, Wood Elf, Cathayan and Dwarf factions	false
-effects_description_ovn_grudge_ror_xp_dummy	Regiments of Renown can gain XP, but if the unit perishes you lose them permanently barring Grudgebringer units	false
+effects_description_ovn_grudge_good_dummy	Cannot declare war on Empire, Bretonnian, Kislev, High Elf, Wood Elf (Barring Wargrove of Woe), Cathayan and Dwarf factions	false
+effects_description_ovn_grudge_ror_xp_dummy	Regiments of Renown can gain XP, but if the unit perishes you lose them permanently barring Grudgebringer units. Each campaign a random selection will be recruitable	false
 effects_description_ovn_grudgebringer_ward	Ward save: %+n% for Grudgebringer Cavalry, Grudgebringer Infantry, Grudgebringer Crossbowmen & Grudgebringer Cannon.	true
-effects_description_ovn_grudge_replenish_dummy	Replenish units in full for gold when near to settlements, not including ruins, owned by the factions of Order.	true
+effects_description_ovn_grudge_replenish_dummy	Replenish units in full for gold when near to settlements, not including ruins, owned by the factions of Order	true
 effects_description_ovn_effect_magic_desert_enable_sunstrike_upgraded	Overcast spell: "Sunstrike Upgraded"	true
 effects_description_ovn_effect_magic_desert_miscast_reduction_sunstrike_upgraded	Miscast base chance: %+n% for "Sunstrike Upgraded"	true
 effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike	Winds of Magic cost: %n for "Sunstrike"	true

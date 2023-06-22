@@ -6,10 +6,13 @@ wh_main_emp_cha_grudge_recruit_race_other			military	false	wh_main_emp_cha_grudg
 wh_main_emp_cha_grudge_wizard			military	false	wh_main_emp_cha_grudge_wizard		2		true
 wh_main_emp_cha_grudge_worship			military	false	wh_main_emp_cha_grudge_worship		3		true
 wh_main_emp_cha_grudge_growth			military	false	wh_main_emp_cha_grudge_growth		4		true
-wh_main_emp_cha_grudge_paymaster			military	false	wh_main_emp_cha_grudge_paymaster		5		true
+wh_main_emp_cha_grudge_paymaster			military	false	wh_main_emp_cha_grudge_paymaster		5	morgan_bernhardt	true
 wh_main_emp_cha_grudge_blacksmith			military	false	wh_main_emp_cha_grudge_blacksmith		6		true
 wh_main_emp_cha_grudge_income			money	false	wh_main_emp_cha_grudge_income		7		true
 ovn_grudge_settlement_smith			military	false	wh2_main_sch_support1_smith		0		true
-wh_main_emp_cha_grudge_storehouse			military	false	wh_main_emp_cha_grudge_storehouse		0		true
-wh_main_emp_cha_grudge_replen			military	false	wh_main_emp_cha_grudge_replen		0		true
+wh_main_emp_cha_grudge_storehouse			military	false	wh_main_emp_cha_grudge_storehouse		0	morgan_bernhardt	true
+wh_main_emp_cha_grudge_replen			military	false	wh_main_emp_cha_grudge_replen		0	morgan_bernhardt	true
+wh_main_emp_cha_grudge_replen_camp			military	false	wh_main_emp_cha_grudge_replen_camp		0	ovn_grudge_camp_lord	true
 wh_main_emp_cha_grudge_gunpowder			military	false	wh_main_emp_cha_grudge_gunpowder		3		true
+wh_main_emp_cha_grudge_paymaster_camp			military	false	wh_main_emp_cha_grudge_paymaster_camp		5	ovn_grudge_camp_lord	true
+wh_main_emp_cha_grudge_storehouse_camp			military	false	wh_main_emp_cha_grudge_storehouse_camp		0	ovn_grudge_camp_lord	true

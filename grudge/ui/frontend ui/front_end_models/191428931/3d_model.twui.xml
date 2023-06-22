@@ -92,7 +92,7 @@
 				num_models="1">
                 <model_list>
                     <ComponentModel
-                        filepath="VariantMeshes/VariantMeshDefinitions/grudgebringer_cavalry_officer.VariantMeshDefinition"
+                        filepath="VariantMeshes/VariantMeshDefinitions/morgan_bernhardt.VariantMeshDefinition"
                         id="model_0"
                         num_anims="1"
                         skeleton_type="humanoid01">

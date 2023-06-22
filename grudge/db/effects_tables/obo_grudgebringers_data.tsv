@@ -168,6 +168,3 @@ do_main_effect_agent_action_enable_wizard_passive_boost_income		0		campaign	true
 do_main_effect_agent_action_passive_boost_income_effect_negative		0		campaign	true
 do_main_effect_agent_action_passive_boost_income_effect_positive		0		campaign	true
 do_main_effect_agent_action_wizard_hinder_settlement_steal_technology		0		campaign	true
-rhox_grudge_enable_stormbringer	general_ability.png	2	general_ability.png	campaign	true
-rhox_grudge_effect_force_stat_speed_ksl	battle_movement.png	421	battle_movement.png	battle	true
-rhox_grudge_effect_force_stat_melee_defence_ksl	defence.png	451	defence.png	battle	true
