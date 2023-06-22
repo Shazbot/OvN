@@ -102,13 +102,13 @@ mod.add_new_unit = function(unit_cqi)
 end
 
 --- Show, creating if needed, the upgrade icon on unit cards.
-mod.show_upgrade_icon = function(unit_index, button_state, button_tooltip)
+mod.show_upgrade_icon = function(unit_index, button_state, button_tooltip, are_agents_done)
 	local campaign = find_uicomponent(
 		core:get_ui_root(),
 		"units_panel",
 		"main_units_panel",
 		"units",
-		"LandUnit "..tostring(unit_index),
+		(not are_agents_done and "AgentUnit " or "LandUnit ")..tostring(unit_index),
 		"card_image_holder",
 		"campaign"
 	)
@@ -210,8 +210,23 @@ mod.update_upgrade_icons = function()
 		return
 	end
 
+	local are_agents_done = false
+
 	while(true) do
-		local land_unit_card = find_uicomponent(
+		local land_unit_card = not are_agents_done and find_uicomponent(
+			core:get_ui_root(),
+			"units_panel",
+			"main_units_panel",
+			"units",
+			"AgentUnit "..tostring(unit_index)
+		)
+
+		if not are_agents_done and not land_unit_card then
+			unit_index = 0
+			are_agents_done = true
+		end
+
+		local land_unit_card = land_unit_card or find_uicomponent(
 			core:get_ui_root(),
 			"units_panel",
 			"main_units_panel",
@@ -238,8 +253,25 @@ mod.update_upgrade_icons = function()
 			break
 		end
 
-		if army_size > unit_index+num_agents then
-			local unit_to_upgrade = unit_list:item_at(unit_index+num_agents)
+		if army_size > unit_index then
+			local army_unit_index = unit_index
+			if army_unit_index > 0 then
+				army_unit_index = are_agents_done and (num_agents+unit_index) or unit_index+1
+			else
+				army_unit_index = not are_agents_done and army_unit_index+1 or army_unit_index
+			end
+			local unit_to_upgrade = unit_list:item_at(army_unit_index)
+			if not are_agents_done then
+				-- agents cards aren't actually in the same order as the units in the army unit list
+				-- so for example the first agent card in the UI could be the second agent in the army unit list
+				local cqi = land_unit_card:GetContextObjectId("CcoCampaignUnit")
+				for _, unit in model_pairs(unit_list) do
+					if tostring(unit:command_queue_index()) == cqi then
+						unit_to_upgrade = unit
+						break
+					end
+				end
+			end
 			if unit_to_upgrade and not unit_to_upgrade:is_null_interface() then
 
 				local unit_cost = unit_to_upgrade:get_unit_custom_battle_cost()
@@ -259,14 +291,13 @@ mod.update_upgrade_icons = function()
 					new_tooltip_text = new_tooltip_text.."\n[[col:red]]Not enough [[img:icon_money]][[/img]].[[/col]]"
 				end
 
-
 				if unit_to_upgrade:percentage_proportion_of_full_strength() == 100
 					or local_faction:treasury() < replenish_cost
 					or not is_near_settlement
 				then
-					mod.show_upgrade_icon(unit_index, "inactive", new_tooltip_text)
+					mod.show_upgrade_icon(unit_index, "inactive", new_tooltip_text, are_agents_done)
 				else
-					mod.show_upgrade_icon(unit_index, "active", new_tooltip_text)
+					mod.show_upgrade_icon(unit_index, "active", new_tooltip_text, are_agents_done)
 				end
 
 			end
