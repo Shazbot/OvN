@@ -261,7 +261,7 @@ mod.bog_pages = {
 		unit_description = "",
 	},
 	boris_von_raukov_4th_nuln_halberdiers = {
-		unit_commander_name = "", 
+		unit_commander_name = "",
 		unit_description = "",
 	},
 	stephan_weiss_outlaw_pistoliers = {
@@ -489,10 +489,15 @@ mod.create_toc = function()
 		local without_dots_w = 450 - loc_w - page_num_w
 		local num_dots = math.floor(without_dots_w/dot_w)
 		local line = "[[col:black]]"..localized_unit_key
-		for i=1, num_dots do
-			line = line.."."
+
+		-- if UI is scaled the ones place in width won't be 0
+		if core:get_ui_root():Width()%10 == 0 then
+			for i=1, num_dots do
+				line = line.."."
+			end
+			line = line..(i+3)
 		end
-		line = line..(i+3).."[[/col]]"
+		line = line.."[[/col]]"
 		obj:SetStateText(line)
 	end
 end
@@ -554,9 +559,9 @@ mod.draw_bog_page = function(page_num)
 
 	local page_data = mod.get_bog_page(page_num)
 	if not page_data then return end
-	
+
 	local unit_key = mod.bog_pages_list[page_num-2]
-	
+
 	local desc = common.get_localised_string(unit_key.. "_unit_description") or mod.page_defaults.unit_description
 
 	local is_left_page = true
@@ -579,7 +584,7 @@ mod.draw_bog_page = function(page_num)
 		unit_desc:MoveTo(x+580, y+555)
 	end
 
-	
+
 
 	local banner = core:get_or_create_component("pj_grudge_book_banner", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
 	banner:SetImagePath(page_data.unit_banner or ('ui/ovn_grudge_book/banners/'..unit_key..'.png'), 0)
@@ -716,7 +721,7 @@ mod.draw_bog_page = function(page_num)
 	if unit_key then
 		unit_info:SetContextObject(cco("CcoMainUnitRecord",unit_key))
 		unit_info:SetContextObject(cco("CcoUnitDetails","UnitRecord_"..unit_key.."_ovn_emp_grudgebringers_0_0.8"))
-		
+
 		---@type CA_CHAR
 		for _,char in model_pairs(cm:get_faction(cm:get_local_faction_name(true)):character_list()) do
 			if char:character_subtype_key() == unit_key then
@@ -990,9 +995,9 @@ mod.add_subculture_reqs = function(mission, mission_key)
 			req_text_text:SetStateText(string.format("[[col:black]]%s %d %s %s.[[/col]]", common.get_localised_string("ovn_book_win_word_text"), count, common.get_localised_string("ovn_book_battles_against_text"), common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key)))
 		end
 	end
-	
+
 	local rq_x, rq_y = req_text_text:Position()
-	
+
 	local is_completed = false
     local is_failed = false
     local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses")
@@ -1119,7 +1124,7 @@ mod.add_missions_to_map = function()
 	local treasure_hunts = find_uicomponent(root, "treasure_hunts")
 	if not treasure_hunts then
 		local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-		if treasure_hunts_button then		
+		if treasure_hunts_button then
 			root:Adopt(treasure_hunts_button:Address())
 			treasure_hunts_button:MoveTo(-100,-100)
 		end
@@ -1131,7 +1136,7 @@ mod.add_missions_to_map = function()
 		treasure_hunts_button:SimulateLClick()
 		-- treasure_hunts_button:Resize(1,1)
 	end
-	
+
 	local map_w, map_h = 1090,700
 
 	cm:callback(function()
@@ -1192,7 +1197,7 @@ mod.add_reqs = function(page_num)
 	local treasure_hunts = find_uicomponent(root, "treasure_hunts")
 	if not treasure_hunts then
 		local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-		if treasure_hunts_button then		
+		if treasure_hunts_button then
 			root:Adopt(treasure_hunts_button:Address())
 			treasure_hunts_button:MoveTo(-100,-100)
 		end
@@ -1203,7 +1208,7 @@ mod.add_reqs = function(page_num)
 		treasure_hunts_button:SetVisible(true)
 		treasure_hunts_button:SimulateLClick()
 	end
-	
+
 	cm:callback(function()
 		local pieces_tab = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces")
 		pieces_tab:SimulateLClick()
@@ -1294,13 +1299,13 @@ end
 mod.create_unlock_string = function(unit_key)
 	local mission_key = mod.unit_key_to_mission_key[unit_key]
 	local mission = mission_key and mod.get_mission_by_key(mission_key)
-	if not mission then 
+	if not mission then
         if mission_key then --it means there is a mission key but it's not fired, so let's put it in the not fired section
             return common.get_localised_string("ovn_book_not_available_text")
         end
         return
     end
-    
+
 
 	if mission.type ~= "DEFEAT_N_ARMIES_OF_FACTION" then return end
 
@@ -1365,7 +1370,7 @@ local function init()
 	local root = core:get_ui_root()
 
 	local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-	if treasure_hunts_button then		
+	if treasure_hunts_button then
 		root:Adopt(treasure_hunts_button:Address())
 		treasure_hunts_button:MoveTo(-100,-100)
 	end
