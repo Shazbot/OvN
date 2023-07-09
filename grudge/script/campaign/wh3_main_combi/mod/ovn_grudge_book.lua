@@ -1132,6 +1132,7 @@ mod.add_missions_to_map = function()
 			treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
 		end
 		if not treasure_hunts_button then return end
+		treasure_hunts_button:SetState("active")
 		treasure_hunts_button:SetVisible(true)
 		treasure_hunts_button:SimulateLClick()
 		-- treasure_hunts_button:Resize(1,1)
@@ -1205,6 +1206,7 @@ mod.add_reqs = function(page_num)
 			treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
 		end
 		if not treasure_hunts_button then return end
+		treasure_hunts_button:SetState("active")
 		treasure_hunts_button:SetVisible(true)
 		treasure_hunts_button:SimulateLClick()
 	end
