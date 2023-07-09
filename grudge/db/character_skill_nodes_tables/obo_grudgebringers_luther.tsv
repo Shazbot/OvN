@@ -7,7 +7,7 @@ wh_main_skill_node_emp_luther_flamenstrike_campaign_03		wh2_main_skill_all_hero_
 wh_main_skill_node_emp_luther_flamenstrike_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	luther_flamenstrike		5.0000	3.0000		0	0	true
 wh_main_skill_node_emp_luther_flamenstrike_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_units	luther_flamenstrike		5.0000	4.0000		0	0	true
 wh_main_skill_node_emp_luther_flamenstrike_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	luther_flamenstrike		5.0000	5.0000		0	0	true
-wh_main_skill_node_emp_luther_flamenstrike_immortality		wh2_main_skill_all_immortality_hero	luther_flamenstrike		0.0000	4.0000		1	0	true
+wh_main_skill_node_emp_luther_flamenstrike_immortality		wh2_main_skill_all_immortality_hero	luther_flamenstrike		0.0000	4.0000		0	0	true
 wh_main_skill_node_emp_luther_flamenstrike_innate_01		wh2_dlc15_skill_innate_hef_archmage_army_7_incendiary	luther_flamenstrike		6.0000	0.0000		0	0	false
 wh_main_skill_node_emp_luther_flamenstrike_magic1_01		wh_main_skill_all_magic_fire_01_fireball	luther_flamenstrike		2.0000	0.0000		0	0	true
 wh_main_skill_node_emp_luther_flamenstrike_magic1_02		wh_main_skill_all_magic_fire_04_kindleflame	luther_flamenstrike		2.0000	1.0000		0	0	true
@@ -30,3 +30,4 @@ ovn_grudge_skill_node_luther_flamenstrike_unique_03		ovn_grudge_skill_node_luthe
 ovn_grudge_skill_node_luther_flamenstrike_unique_04		ovn_grudge_skill_node_luther_flamenstrike_unique_04	luther_flamenstrike		1.0000	3.0000		0	1	true
 ovn_grudge_skill_node_luther_flamenstrike_unique_05		ovn_grudge_skill_node_luther_flamenstrike_unique_05	luther_flamenstrike		1.0000	4.0000		0	1	true
 ovn_grudge_skill_node_luther_flamenstrike_unique_06		ovn_grudge_skill_node_luther_flamenstrike_unique_06	luther_flamenstrike		1.0000	5.0000		0	4	true
+ovn_grudge_ai_immortality_luther		rhox_ovn_grudgebringer_immortal_for_ai	luther_flamenstrike		90.0000	0.0000		0	0	false

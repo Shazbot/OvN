@@ -30,3 +30,5 @@ ovn_grudge_skill_hef_ceridan_dedication_hoeth		rhox_grudge_ceridan_dedication_as
 ceridan_innate		ceridan_innate	ovn_grudge_skill_node_set_hef_ceridan		6.0000	0.0000		1	0	false
 ovn_grudge_skill_hef_loremaster_unique_0_ceridan		wh2_main_skill_hef_loremaster_unique_0	ovn_grudge_skill_node_set_hef_ceridan		0.0000	2.0000		0	0	true
 ceridan_mentor		wh3_main_skill_all_mentor_hero	ovn_grudge_skill_node_set_hef_ceridan		0.0000	11.0000		0	0	true
+ovn_grudge_skill_node_all_immortality_ceridan		wh2_main_skill_all_immortality_hero	ovn_grudge_skill_node_set_hef_ceridan		0.0000	7.0000		0	0	true
+ovn_grudge_ai_immortality_ceridan		rhox_ovn_grudgebringer_immortal_for_ai	ovn_grudge_skill_node_set_hef_ceridan		90.0000	0.0000		0	0	false

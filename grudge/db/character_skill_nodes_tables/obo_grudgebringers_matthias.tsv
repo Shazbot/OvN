@@ -32,3 +32,5 @@ matthias_unique_03		judge_jury_executioner	matthias		1.0000	2.0000		0	0	true
 matthias_unique_04		purifier_of_filth	matthias		1.0000	3.0000		0	0	true
 matthias_unique_05		no_mercy_for_wicked	matthias		1.0000	4.0000		0	4	true
 matthias_innate		matthias_innate	matthias		6.0000	0.0000		1	0	false
+ovn_grudge_skill_node_all_immortality_matthias		wh2_main_skill_all_immortality_hero	matthias		0.0000	7.0000		0	0	true
+ovn_grudge_ai_immortality_matthias		rhox_ovn_grudgebringer_immortal_for_ai	matthias		90.0000	0.0000		0	0	false

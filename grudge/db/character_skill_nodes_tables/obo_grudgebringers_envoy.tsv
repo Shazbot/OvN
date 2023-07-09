@@ -35,3 +35,5 @@ engrol_unique_3		engrol_dwf_bodyguard	ovn_grudge_skill_node_set_dwf_envoy		1.000
 engrol_unique_4		engrol_persuasion_master	ovn_grudge_skill_node_set_dwf_envoy		1.0000	3.0000		0	3	true
 engrol_innate		engrol_innate	ovn_grudge_skill_node_set_dwf_envoy		6.0000	0.0000		1	0	false
 engrol_mentor		wh3_main_skill_all_mentor_hero	ovn_grudge_skill_node_set_dwf_envoy		0.0000	11.0000		0	0	true
+ovn_grudge_skill_node_all_immortality_engrol		wh2_main_skill_all_immortality_hero	ovn_grudge_skill_node_set_dwf_envoy		0.0000	7.0000		0	0	true
+ovn_grudge_ai_immortality_envoy		rhox_ovn_grudgebringer_immortal_for_ai	ovn_grudge_skill_node_set_dwf_envoy		90.0000	0.0000		0	0	false

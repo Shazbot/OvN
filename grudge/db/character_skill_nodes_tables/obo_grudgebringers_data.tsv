@@ -14,7 +14,7 @@ morgan_bernhardt_army_10		wh_main_skill_brt_lord_battle_basic_training	morgan_be
 morgan_bernhardt_army_11		wh_main_skill_all_lord_battle_stand_your_ground	morgan_bernhardt		4.0000	10.0000		0	3	true
 morgan_bernhardt_campaign_01		morgan_bernhardt_campaign_skill_03	morgan_bernhardt		5.0000	0.0000		0	0	true
 morgan_bernhardt_campaign_02		morgan_bernhardt_campaign_skill_01	morgan_bernhardt		5.0000	1.0000		0	0	true
-morgan_bernhardt_campaign_03		wh2_main_skill_def_campaign_wary	morgan_bernhardt		5.0000	2.0000		0	0	true
+morgan_bernhardt_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown	morgan_bernhardt		5.0000	2.0000		0	0	true
 morgan_bernhardt_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence	morgan_bernhardt		5.0000	3.0000		0	0	true
 morgan_bernhardt_campaign_05		wh_main_skill_emp_lord_campaign_fervent	morgan_bernhardt		5.0000	4.0000		0	0	true
 morgan_bernhardt_campaign_06		wh2_main_skill_LL_self_defense	morgan_bernhardt		5.0000	5.0000		0	4	true

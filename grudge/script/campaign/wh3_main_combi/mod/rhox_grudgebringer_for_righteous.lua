@@ -1,6 +1,6 @@
 local grudgebringer_faction = "ovn_emp_grudgebringers"
 local grudgebringer_mission_key = "rhox_grudgebringer_piece_of_eight_"
-local skip_mission_sampling_num = 5
+local skip_mission_sampling_num = 8
 local skip_mission_table={}
 local real_mousillon
 
@@ -397,7 +397,9 @@ function rhox_setup_starting_missions()
         else
             cm:spawn_unique_agent_at_character(faction:command_queue_index(), "ludwig_uberdorf_agent_subtype", faction:faction_leader():command_queue_index(), true)
             agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","ludwig_uberdorf_agent_subtype")
+            
             if agent then
+                cm:add_skill(agent, "rhox_ovn_grudgebringer_immortal_for_ai", true, true)
                 cm:replenish_action_points(cm:char_lookup_str(agent))
                 cm:embed_agent_in_force(agent ,faction_leader_force)
             end 
@@ -406,6 +408,7 @@ function rhox_setup_starting_missions()
         cm:spawn_unique_agent_at_character(faction:command_queue_index(), "ceridan", faction:faction_leader():command_queue_index(), true)
         agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","ceridan")
         if agent then
+            cm:add_skill(agent, "rhox_ovn_grudgebringer_immortal_for_ai", true, true)
             cm:replenish_action_points(cm:char_lookup_str(agent))
             cm:embed_agent_in_force(agent ,faction_leader_force)
         end
@@ -418,6 +421,7 @@ function rhox_setup_starting_missions()
             cm:spawn_unique_agent_at_character(faction:command_queue_index(), "ice_mage_vladimir_stormbringer", faction:faction_leader():command_queue_index(), true)
             agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"wizard","ice_mage_vladimir_stormbringer")
             if agent then
+                cm:add_skill(agent, "rhox_ovn_grudgebringer_immortal_for_ai", true, true)
                 cm:replenish_action_points(cm:char_lookup_str(agent))
                 cm:embed_agent_in_force(agent ,faction_leader_force)
             end
@@ -427,6 +431,7 @@ function rhox_setup_starting_missions()
         agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","dwarf_envoy")
         cm:remove_event_restricted_unit_record_for_faction("dwarf_envoy_dwarf_warriors", grudgebringer_faction);
         if agent then
+            cm:add_skill(agent, "rhox_ovn_grudgebringer_immortal_for_ai", true, true)
             cm:replenish_action_points(cm:char_lookup_str(agent))
             cm:embed_agent_in_force(agent ,faction_leader_force)
         end
@@ -434,6 +439,7 @@ function rhox_setup_starting_missions()
         cm:spawn_unique_agent_at_character(faction:command_queue_index(), "matthias", faction:faction_leader():command_queue_index(), true)
         agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","matthias")
         if agent then
+            cm:add_skill(agent, "rhox_ovn_grudgebringer_immortal_for_ai", true, true)
             cm:replenish_action_points(cm:char_lookup_str(agent))
             cm:embed_agent_in_force(agent ,faction_leader_force)
         end
@@ -441,6 +447,7 @@ function rhox_setup_starting_missions()
         cm:spawn_unique_agent_at_character(faction:command_queue_index(), "luther_flamenstrike", faction:faction_leader():command_queue_index(), true)
         agent = cm:get_most_recently_created_character_of_type(grudgebringer_faction,"champion","luther_flamenstrike")
         if agent then
+            cm:add_skill(agent, "rhox_ovn_grudgebringer_immortal_for_ai", true, true)
             cm:replenish_action_points(cm:char_lookup_str(agent))
             cm:embed_agent_in_force(agent ,faction_leader_force)
         end
