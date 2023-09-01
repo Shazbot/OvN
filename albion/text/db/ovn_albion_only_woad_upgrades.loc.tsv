@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_albion_only_woad_upgrades.loc		
+effect_bundles_localised_title_ovn_albion_woad_upgrades_effect_redwoad	Woad of Cailledh	true
+effect_bundles_localised_description_ovn_albion_woad_upgrades_effect_redwoad	 Cailledh the Crimson, Goddess of Warriors, favours the boar. Her woad grants extra protection, but makes warriors lose themselves in battlerage.	true
+effect_bundles_localised_title_ovn_albion_woad_upgrades_effect_greenwoad	Woad of Carnuos	true
+effect_bundles_localised_description_ovn_albion_woad_upgrades_effect_greenwoad	Old Man Carnuos, the God of the Hunt favours the stag. His woad confers hunters the ability to meld with their surroundings, but makes them extremely vulnerable to fire.	true
+effect_bundles_localised_title_ovn_albion_woad_upgrades_effect_purplewoad	Woad of the Ravenqueen	true
+effect_bundles_localised_description_ovn_albion_woad_upgrades_effect_purplewoad	Mhorrinion the Ravenqueen, Daughter of Death, favours the crow. Her woad grants warriors great speed and the ability to cause terror on their foes. at the cost of their physical protection.	true
+effect_bundles_localised_title_ovn_albion_woad_upgrades_effect_yellowwoad	Woad of Choteich	true
+effect_bundles_localised_description_ovn_albion_woad_upgrades_effect_yellowwoad	Choteich of the Long Arm favours the sun. His woad grants flaming attacks and makes warriors bolder, but it also makes them proud and haughty, more demanding of riches and glory.	true
+effects_description_ovn_albion_woad_upgrades_buildings	+%n Woad gain per turn	false
+effects_description_ovn_albion_woad_upgrades_woad_multiplier	+%n% Woad gain	false
+pooled_resources_positive_factors_display_name_ovn_albion_woad_upgrade_woad	Woad gained	true
+pooled_resources_negative_factors_display_name_ovn_albion_woad_upgrade_woad	Woad used	true
+pooled_resources_display_name_ovn_albion_woad_upgrade_woad	Woad	false
+pooled_resources_description_ovn_albion_woad_upgrade_woad	The people of Albion cover their bodies in magical woad dye when they go to war. Some of their druids can even enchance this woad further, making it more poerfeul, but also more dangerous to those who use it. it is produced in the Temple of Ishernos and Dye Resource building lines and is used to grant upgrades to some Albion units.	true
+unit_purchasable_effects_categories_onscreen_name_alb_redwoad		false
+unit_purchasable_effects_categories_onscreen_description_alb_redwoad		false
+unit_purchasable_effects_categories_onscreen_name_alb_greenwoad		false
+unit_purchasable_effects_categories_onscreen_description_alb_greenwoad		false
+unit_purchasable_effects_categories_onscreen_name_alb_purplewoad		false
+unit_purchasable_effects_categories_onscreen_description_alb_purplewoad		false
+unit_purchasable_effects_categories_onscreen_name_alb_yellowwoad		false
+unit_purchasable_effects_categories_onscreen_description_alb_yellowwoad		false

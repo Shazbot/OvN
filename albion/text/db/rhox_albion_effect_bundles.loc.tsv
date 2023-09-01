@@ -1,0 +1,26 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_albion_effect_bundles.loc		
+effect_bundles_localised_title_rhox_albion_progress_level_0	Scouts of Albion	false
+effect_bundles_localised_description_rhox_albion_progress_level_0	The Ravenqueen Host is naturally supported by the Raven-Queen's own Household on Albion, who will help supply reinforcements.	false
+effect_bundles_localised_title_rhox_albion_progress_level_1	Albion Raiders (20)	false
+effect_bundles_localised_description_rhox_albion_progress_level_1	The Ravenqueen Host is supported by the Petty Cheiftains of Albion, who will do what they can to supply reinforcements.	false
+effect_bundles_localised_title_rhox_albion_progress_level_2	Albion Guardians (40)	false
+effect_bundles_localised_description_rhox_albion_progress_level_2	The Ravenqueen Host has the support of the Overkings of Albion, who will ensure you receive veteran warriors from the homeland.	false
+effect_bundles_localised_title_rhox_albion_progress_level_3	Vanquishers of Chaos (60)	false
+effect_bundles_localised_description_rhox_albion_progress_level_3	The Ravenqueen Host has the full backing of the Council of Truthsayers. The most elite warriors of the Albion clans will be sent to support you.	false
+effect_bundles_localised_title_rhox_albion_progress_level_4	Scourge of Chaos (80)	false
+effect_bundles_localised_description_rhox_albion_progress_level_4	The Ravenqueen Host's exploits are spoken of in every hut and across every campfire's in Albion - its warriors will be known as legendary folk-heroes!	false
+effect_bundles_localised_title_rhox_albion_progress_level_5	Champions of Order (100)	false
+effect_bundles_localised_description_rhox_albion_progress_level_5	The Ravenqueen Host has proven beyond doubt to be Albion's most elite force, carrying out Mhorrinion's will with unrelenting fortitude to vanquish Chaos – and it will continue to do so! 	false
+effect_bundles_localised_title_rhox_albion_wanted_level_0	Ignored	false
+effect_bundles_localised_description_rhox_albion_wanted_level_0	The Chaos gods have very little interest in the Ravenqueen's exploits.	false
+effect_bundles_localised_title_rhox_albion_wanted_level_1	Level 1 – Unworthy (10)	false
+effect_bundles_localised_description_rhox_albion_wanted_level_1	The eyes of Chaos give you but a fleeting glance.	false
+effect_bundles_localised_title_rhox_albion_wanted_level_2	Level 2 – Plaything (20)	false
+effect_bundles_localised_description_rhox_albion_wanted_level_2	The eyes of Chaos are starting to take notice of you.	false
+effect_bundles_localised_title_rhox_albion_wanted_level_3	Level 3 – Challenger (30)	false
+effect_bundles_localised_description_rhox_albion_wanted_level_3	Lowly Warlord's and Marauder Chieftain's seek you out to gain petty boons from the Dark Gods.	false
+effect_bundles_localised_title_rhox_albion_wanted_level_4	Level 4 – Worthy (40)	false
+effect_bundles_localised_description_rhox_albion_wanted_level_4	Lords of Chaos seeking glory and daemonhood come to hunt and flay you.	false
+effect_bundles_localised_title_rhox_albion_wanted_level_5	Level 5 – Marked! (50)	false
+effect_bundles_localised_description_rhox_albion_wanted_level_5	The eyes of chaos gaze upon you, they see a worthy challenge and set forth the Champions of Chaos!	false

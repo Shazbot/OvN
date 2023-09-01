@@ -1,0 +1,27 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_albion_only_agent_subtypes.loc		
+agent_subtypes_onscreen_name_override_albion_warleader	Overking	true
+agent_subtypes_onscreen_name_override_albion_truthsayer_beast	Truthsayer (Beasts)	true
+agent_subtypes_onscreen_name_override_albion_truthsayer_life	Truthsayer (Life)	true
+agent_subtypes_onscreen_name_override_albion_truthsayer_light	Truthsayer (Light)	true
+agent_subtypes_onscreen_name_override_albion_truthsayer_truth	Truthsayer (Truthsayers)	true
+agent_subtypes_onscreen_name_override_albion_chief	Petty Chieftain	true
+agent_subtypes_onscreen_name_override_albion_wyrd_druid	Druidic Priestess	true
+agent_subtypes_onscreen_name_override_albion_morrigan	Legendary Lord	true
+agent_subtypes_onscreen_name_override_bl_elo_dural_durak	Legendary Lord	true
+agent_subtype_subculture_overrides_onscreen_name_albion_chiefovn_sc_alb_albionchampion	Petty Chieftain	true
+agent_subtype_subculture_overrides_description_albion_chiefovn_sc_alb_albionchampion	A Chieftain is a mighty warrior who gained leadership of a whole clan or tribe. In war, they serve as officers of a Overking. New Overkings usually emerge from the ranks of the mightiest Petty Chieftains.	true
+agent_subtype_subculture_overrides_description_albion_wyrd_druidovn_sc_alb_albionwizard	Druidic Priests have walked the Path of the Truthsayers, but either failed or left this path on their own. Despite only being able to cast simpler spells, they are still highly valued and often employed by chieftains as their personal advisors.	true
+agent_subtype_subculture_overrides_onscreen_name_albion_wyrd_druidovn_sc_alb_albionwizard	Druidic Priestess	true
+agent_culture_details_description_text_9880203	A Chieftain is a mighty warrior who gained leadership of a whole clan or tribe. In war, they serve as officers of a Overking. New Overkings usually emerge from the ranks of the mightiest Petty Chieftains.	true
+agent_subtype_subculture_overrides_description_ovn_sc_alb_albionalbion_chiefchampion	A Chieftain is a mighty warrior who gained leadership of a whole clan or tribe. In war, they serve as officers of a Overking. New Overkings usually emerge from the ranks of the mightiest Petty Chieftains.	true
+agent_culture_details_onscreen_name_9880203	Clan Chief	true
+agent_recruitment_categories_onscreen_description_albion_warleader	Clan Chief	true
+agent_subtype_subculture_overrides_onscreen_name_ovn_sc_alb_albionalbion_chiefchampion	Clan Chief	true
+agent_culture_details_onscreen_name_9880211	Druidic Priestess	true
+agent_subtype_subculture_overrides_onscreen_name_ovn_sc_alb_albionalbion_wyrd_druidwizard	Druidic Priestess	true
+agent_culture_details_description_text_9880211	Druidic Priests have walked the Path of the Truthsayers, but either failed or left this path on their own. Despite only being able to cast simpler spells, they are still highly valued and often employed by chieftains as their personal advisors.	true
+agent_subtype_subculture_overrides_description_ovn_sc_alb_albionalbion_wyrd_druidwizard	Druidic Priests have walked the Path of the Truthsayers, but either failed or left this path on their own. Despite only being able to cast simpler spells, they are still highly valued and often employed by chieftains as their personal advisors.	true
+agent_recruitment_categories_onscreen_description_albion_legendary_lords	Legendary Lords	true
+agent_culture_details_onscreen_name_9880207	Overking	true
+agent_culture_details_description_text_9880207	Overkings are the strongest and fiercest warriors of Albion. They usually have command over the warbands of several tribes and clans and will be called upon whenever the people of Albion have to wage war on a larger scale.	true

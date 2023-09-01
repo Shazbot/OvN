@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_albion_port.loc		
+building_chains_chain_tooltip_ovn_albion_port	Port	false
+building_culture_variants_name_ovn_albion_port_1ovn_sc_alb_albion	Fishing Village	false
+building_culture_variants_name_ovn_albion_port_2ovn_sc_alb_albion	Middle Sea Fishery	false
+building_culture_variants_name_ovn_albion_port_3ovn_sc_alb_albion	Great Ocean Whalers	false
+building_culture_variants_name_ovn_albion_port_ruin	Ruined Docks	false
