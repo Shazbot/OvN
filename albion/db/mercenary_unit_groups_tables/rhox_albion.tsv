@@ -1,0 +1,14 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/rhox_albion					
+rhox_albion_druid_neophytes	0.0000	0	druid_neophytes	false	0.0000
+rhox_albion_elo_fenbeast	0.0000	0	elo_fenbeast	false	0.0000
+rhox_albion_albion_fenhulk	0.0000	0	albion_fenhulk	false	0.0000
+rhox_albion_albion_hearthguard_2h	0.0000	0	albion_hearthguard_2h	false	0.0000
+rhox_albion_elo_albion_gryphon	0.0000	0	elo_albion_gryphon	false	0.0000
+rhox_albion_albion_huntresses	0.0000	0	albion_huntresses	false	0.0000
+rhox_albion_albion_centaurs	0.0000	0	albion_centaurs	false	0.0000
+rhox_albion_alb_viridian_champ	0.0000	0	alb_viridian_champ	false	0.0000
+rhox_albion_elo_woadraider	0.0000	0	elo_woadraider	false	0.0000
+rhox_albion_elo_albion_warriors_2h	0.0000	0	elo_albion_warriors_2h	false	0.0000
+rhox_albion_albion_hearthguard	0.0000	0	albion_hearthguard	false	0.0000
+rhox_albion_albion_giant	0.0000	0	albion_giant	false	0.0000

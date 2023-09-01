@@ -1,0 +1,6 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/ovn_alb_woad						
+elo_temple_danu_1	ovn_albion_woad_upgrades_buildings		region_to_region_own	1.0000	0.0000	0.0000
+elo_temple_danu_2	ovn_albion_woad_upgrades_buildings		region_to_region_own	3.0000	0.0000	0.0000
+elo_temple_danu_3	ovn_albion_woad_upgrades_buildings		region_to_region_own	6.0000	0.0000	0.0000
+ovn_albion_resource_dyes	ovn_albion_woad_upgrades_buildings		region_to_region_own	5.0000	0.0000	0.0000

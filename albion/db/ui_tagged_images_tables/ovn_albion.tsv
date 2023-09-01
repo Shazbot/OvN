@@ -1,0 +1,4 @@
+key	image_path
+#ui_tagged_images_tables;0;db/ui_tagged_images_tables/ovn_albion	
+bullet_alb_woad	ui/campaign ui/effect_bundles/icon_alb_woad_res_bundle.png
+bullet_waystones	ui/campaign ui/effect_bundles/ovn_albion_geo_4.png

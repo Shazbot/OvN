@@ -35,7 +35,13 @@ albion_truthsayer		albion_truthsayer		1.1000	1.1000	0.1000
 albion_centaurs		albion_centaurs		1.0000	1.0000	0.1000	
 albion_fenhulk		elo_fenhulk		1.7500	1.7500	0.5000	
 albion_warleader		albion_warleader		1.0000	1.1000	0.0500	
+albion_warleader_01		albion_warleader_01		1.0000	1.1000	0.0500	
+albion_warleader_02		albion_warleader_02		1.0000	1.1000	0.0500	
+albion_warleader_03		albion_warleader_03		1.0000	1.1000	0.0500	
+albion_warleader_04		albion_warleader_04		1.0000	1.1000	0.0500	
 albion_chief		albion_chief		1.0000	1.0000	0.0500	
+albion_chief_01		albion_chief_01		1.0000	1.0000	0.0500	
+albion_chief_02		albion_chief_02		1.0000	1.0000	0.0500	
 albion_morrigan		albion_morrigan		1.0000	1.0000	0.0000	
 morrigan_midnight	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	morrigan_midnight		1.0000	1.0000	0.0000	
 albion_morrigan_bird		albion_morrigan		1.0000	1.0000	0.0000	

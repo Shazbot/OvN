@@ -1,11 +1,27 @@
 art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
 #campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_albion_only								
 albion_morrigan	general				false	true	albion_morrigan	1.0000
-albion_warleader	general				false	true	albion_warleader	1.0000
-albion_truthsayer_beast	general				false	true	albion_truthsayer_beast	1.0000
-albion_truthsayer_life	general				false	true	albion_truthsayer_life	1.0000
-albion_truthsayer_light	general				false	true	albion_truthsayer_light	1.0000
-albion_truthsayer_truth	general				false	true	albion_truthsayer_truth	1.0000
+albion_warleader_01	general				false	true	albion_warleader	1.0000
+albion_warleader_02	general				false	true	albion_warleader	1.0000
+albion_warleader_03	general				false	true	albion_warleader	1.0000
+albion_warleader_04	general				false	true	albion_warleader	1.0000
+albion_truthsayer_beast_01	general				false	true	albion_truthsayer_beast	1.0000
+albion_truthsayer_beast_02	general				false	true	albion_truthsayer_beast	1.0000
+albion_truthsayer_beast_03	general				false	true	albion_truthsayer_beast	1.0000
+albion_truthsayer_beast_04	general				false	true	albion_truthsayer_beast	1.0000
+albion_truthsayer_life_01	general				false	true	albion_truthsayer_life	1.0000
+albion_truthsayer_life_02	general				false	true	albion_truthsayer_life	1.0000
+albion_truthsayer_life_03	general				false	true	albion_truthsayer_life	1.0000
+albion_truthsayer_life_04	general				false	true	albion_truthsayer_life	1.0000
+albion_truthsayer_light_01	general				false	true	albion_truthsayer_light	1.0000
+albion_truthsayer_light_02	general				false	true	albion_truthsayer_light	1.0000
+albion_truthsayer_light_03	general				false	true	albion_truthsayer_light	1.0000
+albion_truthsayer_light_04	general				false	true	albion_truthsayer_light	1.0000
+albion_truthsayer_truth_01	general				false	true	albion_truthsayer_truth	1.0000
+albion_truthsayer_truth_02	general				false	true	albion_truthsayer_truth	1.0000
+albion_truthsayer_truth_03	general				false	true	albion_truthsayer_truth	1.0000
+albion_truthsayer_truth_04	general				false	true	albion_truthsayer_truth	1.0000
 albion_wyrd_druid	wizard				false	false	albion_wyrd_druid	1.0000
-albion_chief	champion				false	true	albion_chief	1.0000
+albion_chief_01	champion				false	true	albion_chief	1.0000
+albion_chief_02	champion				false	true	albion_chief	1.0000
 bl_elo_dural_durak	general				false	true	bl_elo_dural_durak	1.0000

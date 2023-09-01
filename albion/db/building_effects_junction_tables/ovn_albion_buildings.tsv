@@ -6,10 +6,9 @@ elo_great_ogham	wh3_main_effect_corruption_chaos_events_bad		region_to_region_ow
 elo_citadel_lead	wh_main_faction_political_diplomacy_mod_norsca		faction_to_faction_own_unseen	-15.0000	-8.0000	0.0000
 elo_great_ogham	wh3_main_effect_winds_of_magic_pooled_resource_change_positive_mod		region_to_force_own	30.0000	15.0000	0.0000
 elo_great_ogham	wh2_main_faction_political_diplomacy_mod_high_elves_lizardmen		faction_to_faction_own_unseen	10.0000	5.0000	0.0000
-elo_citadel_lead	wh_main_faction_xp_increase_generals		faction_to_force_own	4.0000	4.0000	0.0000
 elo_citadel_lead	wh_main_faction_political_diplomacy_mod_chaos		faction_to_faction_own_unseen	-40.0000	-20.0000	0.0000
 elo_citadel_lead	wh_main_effect_agent_action_success_chance		faction_to_character_own_unseen	15.0000	7.0000	0.0000
-elo_citadel_lead	wh_main_effect_agent_recruitment_xp_all_agents		province_to_province_own	4.0000	4.0000	0.0000
+elo_citadel_lead	wh_main_effect_agent_recruitment_xp_all_agents		province_to_province_own_factionwide	4.0000	4.0000	0.0000
 elo_forge_old_ones	wh_main_effect_region_resource_iron_production		building_to_building_own	20.0000	10.0000	0.0000
 elo_forge_old_ones	wh_main_effect_region_resource_marble_production		building_to_building_own	30.0000	15.0000	0.0000
 elo_forge_old_ones	wh2_main_effect_region_resource_gold_idols_production		building_to_building_own	8.0000	4.0000	0.0000
@@ -197,3 +196,5 @@ ovn_albion_settlement_minor_3	wh_main_effect_economy_gdp_subsistance		building_t
 ovn_albion_settlement_minor_3	wh_main_effect_province_growth_building		region_to_province_own	30.0000	15.0000	0.0000
 ovn_albion_settlement_minor_3	wh_main_effect_public_order_base		province_to_province_own_unseen	2.0000	1.0000	0.0000
 ovn_albion_settlement_minor_ruin	wh3_main_effect_corruption_reduction_buildings		region_to_region_own	-1.0000	-1.0000	0.0000
+elo_citadel_lead	wh_main_faction_xp_increase_generals_hidden		faction_to_force_own	4.0000	4.0000	0.0000
+elo_citadel_lead	wh_main_faction_xp_increase_generals		province_to_province_own_factionwide	4.0000	4.0000	0.0000

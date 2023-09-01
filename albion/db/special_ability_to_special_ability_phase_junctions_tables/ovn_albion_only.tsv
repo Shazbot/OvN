@@ -11,8 +11,8 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	spell_truth_valor_upgraded	true	true	false	spell_truth_valor_upgraded
 1	spell_truth_protection	true	true	false	spell_truth_protection
 1	spell_truth_protection_upgraded	true	true	false	spell_truth_protection_upgraded
-1	spell_truth_voice_command	true	true	false	spell_truth_voice_command
-1	spell_truth_voice_command_upgraded	true	true	false	spell_truth_voice_command_upgraded
+1	spell_truth_voice_command	false	false	true	spell_truth_voice_command
+1	spell_truth_voice_command_upgraded	false	false	true	spell_truth_voice_command_upgraded
 1	spell_truth_boon_courage	true	true	false	spell_truth_boon_courage
 1	spell_truth_boon_courage_upgraded	true	true	false	spell_truth_boon_courage_upgraded
 1	magic_siphon	false	false	true	magic_siphon

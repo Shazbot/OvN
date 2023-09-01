@@ -1,0 +1,4 @@
+member	context	faction
+#campaign_group_member_criteria_factions_tables;1;db/campaign_group_member_criteria_factions_tables/ovn_alb_woad		
+ovn_albion_woad_upgrade_group_dural	ACTOR	ovn_alb_order_of_the_truthsayers
+ovn_albion_woad_upgrade_group_ravenqueen	ACTOR	ovn_alb_host_ravenqueen

@@ -1,0 +1,4 @@
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors
+#pooled_resources_tables;1;db/pooled_resources_tables/rhox_albion													
+rhox_albion_wanted	60	0	false	other	wulfhart_wanted_skull_active.png	END_OF_ROUND	false	FACTION	false	0		false	true
+rhox_albion_progress	100	0	false	other	wulfhart_emperor_mandate_icon.png	END_OF_ROUND	false	FACTION	true	0		false	true

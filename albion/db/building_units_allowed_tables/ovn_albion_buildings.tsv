@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_albion_buildings						
 775045	albion_hunters_1	elo_youngbloods	0	0		false
 775046	albion_hunters_1	elo_bloodhounds	0	0		false

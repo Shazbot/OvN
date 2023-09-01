@@ -1,0 +1,4 @@
+technology	effect	effect_scope	value
+#technology_effects_junction_tables;0;db/technology_effects_junction_tables/ovn_alb_woad			
+albion_tech_truth_peace_3	ovn_albion_woad_upgrades_woad_multiplier	faction_to_faction_own_unseen	100.0000
+albion_tech_peace_4	ovn_albion_woad_upgrades_woad_multiplier	faction_to_faction_own_unseen	100.0000

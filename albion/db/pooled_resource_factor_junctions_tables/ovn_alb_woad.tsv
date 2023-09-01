@@ -1,0 +1,5 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/ovn_alb_woad					
+ovn_alb_woad_buildings	buildings	ovn_albion_woad_upgrade_woad	0	2147483647	
+ovn_alb_woad_upgrade	wh2_dlc15_resource_factor_unit_upgrade	ovn_albion_woad_upgrade_woad	-2147483647	0	
+ovn_alb_woad_other	other	ovn_albion_woad_upgrade_woad	-2147483647	2147483647	

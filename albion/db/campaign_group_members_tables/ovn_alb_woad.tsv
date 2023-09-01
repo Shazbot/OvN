@@ -1,0 +1,4 @@
+id	group	priority
+#campaign_group_members_tables;1;db/campaign_group_members_tables/ovn_alb_woad		
+ovn_albion_woad_upgrade_group_dural	ovn_albion_upgrade_group	1.0000
+ovn_albion_woad_upgrade_group_ravenqueen	ovn_albion_upgrade_group	2.0000

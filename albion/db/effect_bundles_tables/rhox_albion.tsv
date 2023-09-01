@@ -1,0 +1,14 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_albion								
+rhox_albion_progress_level_0			faction	1	hunter_effect_icons_campaign_progress.png	true	false	true
+rhox_albion_progress_level_1			faction	1	hunter_effect_icons_campaign_progress.png	true	false	true
+rhox_albion_progress_level_2			faction	1	hunter_effect_icons_campaign_progress.png	true	false	true
+rhox_albion_progress_level_3			faction	1	experience.png	true	false	true
+rhox_albion_progress_level_4			faction	1	experience.png	true	false	true
+rhox_albion_progress_level_5			faction	1	experience.png	true	false	true
+rhox_albion_wanted_level_0			faction	1	hunter_effect_icons_wanted_level.png	true	false	true
+rhox_albion_wanted_level_1			faction	1	hunter_effect_icons_wanted_level.png	true	false	true
+rhox_albion_wanted_level_2			faction	1	hunter_effect_icons_wanted_level.png	true	false	true
+rhox_albion_wanted_level_3			faction	1	hunter_effect_icons_wanted_level.png	true	false	true
+rhox_albion_wanted_level_4			faction	1	hunter_effect_icons_wanted_level.png	true	false	true
+rhox_albion_wanted_level_5			faction	1	hunter_effect_icons_wanted_level.png	true	false	true

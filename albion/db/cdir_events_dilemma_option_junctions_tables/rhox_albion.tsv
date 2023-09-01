@@ -1,0 +1,8 @@
+id	dilemma_key	option_key	value	target
+#cdir_events_dilemma_option_junctions_tables;1;db/cdir_events_dilemma_option_junctions_tables/rhox_albion				
+242635619	rhox_albion_guards_st_1	GEN_TARGET_NONE		default
+242635620	rhox_albion_guards_st_3	VAR_CHANCE	100	default
+242635621	rhox_albion_guards_st_2	GEN_TARGET_NONE		default
+242635622	rhox_albion_guards_st_3	GEN_TARGET_NONE		default
+242635623	rhox_albion_guards_st_2	VAR_CHANCE	100	default
+242635624	rhox_albion_guards_st_1	VAR_CHANCE	100	default

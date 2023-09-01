@@ -1,0 +1,14 @@
+choice_key	dilemma_key	associated_audio_trigger
+#cdir_events_dilemma_choice_details_tables;3;db/cdir_events_dilemma_choice_details_tables/rhox_albion		
+FIRST	rhox_albion_guards_st_1	
+FOURTH	rhox_albion_guards_st_1	
+SECOND	rhox_albion_guards_st_1	
+THIRD	rhox_albion_guards_st_1	
+FIRST	rhox_albion_guards_st_2	
+FOURTH	rhox_albion_guards_st_2	
+SECOND	rhox_albion_guards_st_2	
+THIRD	rhox_albion_guards_st_2	
+FIRST	rhox_albion_guards_st_3	
+FOURTH	rhox_albion_guards_st_3	
+SECOND	rhox_albion_guards_st_3	
+THIRD	rhox_albion_guards_st_3	

@@ -1,0 +1,6 @@
+key	icon_path
+#unit_purchasable_effects_categories_tables;0;db/unit_purchasable_effects_categories_tables/ovn_alb_woad	
+alb_redwoad	icon_redwoad.png
+alb_greenwoad	icon_greenwoad.png
+alb_purplewoad	icon_purplewoad.png
+alb_yellowwoad	icon_yellowwoad.png
