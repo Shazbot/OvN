@@ -24,10 +24,10 @@ fenbeast_follower	wh_dlc08_anc_wood_elves_forest_spirit	.	true	false	false	1	0	9
 hearthguard_follower	hearthguard_follower	.	true	false	false	1	0	9999			false	false	false	general	1	1	30	50	true			1	0	follower	true	true	true	ovn_albion
 druid_neophyte	druid_neophyte	.	true	false	false	1	0	9999			false	false	false	general	1	1	30	50	true			1	0	follower	true	true	true	ovn_albion
 albion_hardened_warrior	hearthguard_follower	.	true	false	false	1	0	9999			false	false	false	general	1	1	30	50	true			1	0	follower	true	true	true	ovn_albion
-albion_scary_banner	albion_scary_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		albion_scary_banner	15	0	banner	true	true	true	ovn_albion
-anc_albion_triskele_banner	anc_albion_triskele_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		anc_albion_triskele_banner	25	0	banner	true	true	true	ovn_albion
-anc_danu_banner	anc_danu_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		anc_danu_banner	35	0	banner	true	true	true	ovn_albion
-anc_albion_hunter_banner	anc_albion_hunter_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		anc_albion_hunter_banner	50	0	banner	true	true	true	ovn_albion
+albion_scary_banner	albion_scary_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			15	0	banner	true	true	true	ovn_albion
+anc_albion_triskele_banner	anc_albion_triskele_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			25	0	banner	true	true	true	ovn_albion
+anc_danu_banner	anc_danu_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			35	0	banner	true	true	true	ovn_albion
+anc_albion_hunter_banner	anc_albion_hunter_banner	.	true	false	false	1	0	9999			false	false	false	general	16	30	30	50	true			50	0	banner	true	true	true	ovn_albion
 anc_albion_staff_of_light	wh_main_anc_arcane_item	.	true	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			40	0		true	true	true	ovn_albion
 anc_albion_talisman_triskele	wh_main_anc_talisman	.	true	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			30	0		true	true	true	ovn_albion
 anc_albion_hammer_giant	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			35	0		true	true	true	ovn_albion

@@ -1,5 +1,2 @@
 bonus_value_id	effect	unit_set_attribute
 #effect_bonus_value_unit_set_unit_attribute_junctions_tables;0;db/effect_bonus_value_unit_set_unit_attribute_junctions_tables/ovn_albion		
-enable	enable_stalk_falian	enable_stalk_falian
-enable	enable_vanguard_falian	enable_vanguard_falian
-enable	enable_immpsy_finian	enable_immpsy_finian

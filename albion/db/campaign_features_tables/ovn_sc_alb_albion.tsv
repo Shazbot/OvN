@@ -1,5 +1,2 @@
 feature	group	available
 #campaign_features_tables;0;db/campaign_features_tables/ovn_sc_alb_albion		
-factionwide_recruitment	wh_feature_nor_albion	true
-additional_army_upkeep	wh_feature_nor_albion	true
-geomantic_web	wh_feature_nor_albion	true

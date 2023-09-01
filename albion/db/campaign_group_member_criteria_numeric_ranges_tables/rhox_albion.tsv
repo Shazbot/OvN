@@ -1,14 +1,2 @@
 member	context	max_range	min_range
 #campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/rhox_albion			
-rhox_albion_wanted_level_0	VALUE	9	0
-rhox_albion_wanted_level_1	VALUE	19	10
-rhox_albion_wanted_level_2	VALUE	29	20
-rhox_albion_wanted_level_3	VALUE	39	30
-rhox_albion_wanted_level_4	VALUE	49	40
-rhox_albion_wanted_level_5	VALUE	60	50
-rhox_albion_progress_level_0	VALUE	19	0
-rhox_albion_progress_level_1	VALUE	39	20
-rhox_albion_progress_level_2	VALUE	59	40
-rhox_albion_progress_level_3	VALUE	79	60
-rhox_albion_progress_level_4	VALUE	99	80
-rhox_albion_progress_level_5	VALUE	100	100

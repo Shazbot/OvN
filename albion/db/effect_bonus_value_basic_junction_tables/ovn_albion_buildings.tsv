@@ -1,4 +1,2 @@
 effect	bonus_value_id
 #effect_bonus_value_basic_junction_tables;0;db/effect_bonus_value_basic_junction_tables/ovn_albion_buildings	
-ovn_albion_waystone_geomancy	geomancy
-ovn_effect_merc_xp	mercenary_unit_exp_mod
