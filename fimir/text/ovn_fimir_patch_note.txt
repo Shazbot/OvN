@@ -1,3 +1,6 @@
+2026/JAN/1 Prop Joe
+- moved json.lua to ovn_requires/json.lua to avoid an error when loading mod scripts
+
 2025/DEC/14 Rhox
 - Added new 7.0 settlement types to allied outpost of Fimir (So that Fimir can build allied outpost in Norsca and Dechals's settlement)
 

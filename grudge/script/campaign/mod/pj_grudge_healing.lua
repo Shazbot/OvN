@@ -6,7 +6,7 @@ local function round(num)
 end
 
 math.huge = 2 ^ 1024 -- json needs this and it's not defined in CA Lua environment
-local json = require("pj_grudge_healing/json")
+local json = require("../../../ovn_requires/json")
 
 -- useful to have this during dev, safely ignore
 local dout = _G.dout or function(...) end

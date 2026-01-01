@@ -18,7 +18,7 @@ local function find_ui_component_str(starting_comp, str)
 end
 
 math.huge = 2^1024 -- json needs this and it's not defined in CA Lua environment
-local json = require("ovn/json")
+local json = require("../../../ovn_requires/json")
 
 local araby_factions = {
 	"ovn_arb_sultanate_of_all_araby",

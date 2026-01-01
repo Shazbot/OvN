@@ -1,7 +1,7 @@
 local chars = {}
 
 math.huge = 2 ^ 1024 -- json needs this and it's not defined in CA Lua environment
-local json = require("ovn_fimir/json")
+local json = require("../../../ovn_requires/json")
 
 local function get_tier_cost()
     local turn_number = cm:turn_number() - 1;
