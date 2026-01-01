@@ -1,0 +1,27 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value	resource_transaction_on_complete	split_chain_sort_order
+#building_levels_tables;2;db/building_levels_tables/ovn_araby_special																									
+ovn_special_tomb_of_the_death_scarab	ovn_special_tomb_of_the_death_scarab	0	10	6000	0		false	false			true	ovn_special_tomb_of_the_death_scarab	false	0.0000	1	true	3		true	0	0		0		-1
+ovn_special_palace_of_the_great_sultan	ovn_special_palace_of_the_great_sultan	0	6	10000	0		false	false			true	ovn_special_palace_of_the_great_sultan	false	0.0000	0	true	5		true	0	0		0		-1
+ovn_special_gardens_of_bel-aliad	ovn_special_gardens_of_bel-aliad	0	6	6000	0		false	false			true	ovn_special_gardens_of_bel-aliad	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_tomb_of_mullah_akland	ovn_special_tomb_of_mullah_akland	0	6	6000	0		false	false			true	ovn_special_tomb_of_mullah_akland	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_ivory_palace_of_ka-sabar	ovn_special_ivory_palace_of_ka-sabar	0	4	8000	0		false	false			true	ovn_special_ivory_palace_of_ka-sabar	false	0.0000	0	true	4		true	0	0		0		-1
+ovn_special_madrasat_el-sehr	ovn_special_madrasat_el-sehr	0	6	6000	0		false	false			true	ovn_special_madrasat_el-sehr	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_fortress_of_nafel_muq	ovn_special_fortress_of_nafel_muq	0	5	10000	0		false	false			true	ovn_special_fortress_of_nafel_muq	false	0.0000	0	true	5		true	0	0		0		-1
+ovn_special_the_black-gold_tower	ovn_special_the_black-gold_tower	0	3	6000	0		false	false			true	ovn_special_the_black-gold_tower	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_crypt_of_abdul_ben_rachid	ovn_special_crypt_of_abdul_ben_rachid	0	4	6000	0		false	false			true	ovn_special_crypt_of_abdul_ben_rachid	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_portal_of_twilight	ovn_special_portal_of_twilight	0	6	6000	0		false	false			true	ovn_special_gardens_of_bel-aliad	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_galleons_graveyard_wreck_1	ovn_special_galleons_graveyard_wreck	0	6	10000	0		false	false			true	ovn_special_galleons_graveyard_wreck	false	0.0000	0	true	5		true	0	0		0		-1
+ovn_special_golden_magus_paradise_1	ovn_special_golden_magus_paradise	1	1	1000	0		false	false			true	ovn_arb_settlement_major	false	0.0000	0	true	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0		0		-1
+ovn_special_golden_magus_paradise_2	ovn_special_golden_magus_paradise	2	2	2000	0		false	false			true	ovn_arb_settlement_major	false	0.0000	1	true	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0		0		-1
+ovn_special_golden_magus_paradise_3	ovn_special_golden_magus_paradise	3	3	4000	0		false	false			true	ovn_arb_settlement_major	false	0.0000	2	true	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0		0		-1
+ovn_special_golden_magus_paradise_4	ovn_special_golden_magus_paradise	4	4	8000	0		false	false			true	ovn_arb_settlement_major	false	0.0000	4	true	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0		0		-1
+ovn_special_golden_magus_paradise_5	ovn_special_golden_magus_paradise	5	5	16000	0		false	false			true	ovn_arb_settlement_major	false	0.0000	5	true	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0		0		-1
+ovn_special_golden_magus_paradise_ruin	ovn_special_golden_magus_paradise	0	1	0	0		false	false			true	ovn_arb_settlement_major	false	0.0000	0	false	0	wh2_dlc11_cam_settlement_galleons_graveyard_vampire_coast	true	0	0		0		-1
+ovn_special_copher_port_araby_1	ovn_special_copher_port_araby	1	2	2000	0		false	false			true	ovn_special_copher_port_araby	false	0.0000	0	true	1	wh3_cam_settlement_cathay_port	true	0	0		0		-1
+ovn_special_copher_port_araby_2	ovn_special_copher_port_araby	2	3	6000	0		false	false			true	ovn_special_copher_port_araby	false	0.0000	0	true	3	wh3_cam_settlement_cathay_port	true	0	0		0		-1
+ovn_special_copher_port_araby_ruin	ovn_special_copher_port_araby	0	1	0	0		false	false			true	ovn_special_copher_port_araby	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0		-1
+ovn_special_college_of_sorcerers	ovn_special_college_of_sorcerers	0	5	7500	0		false	false			true	ovn_special_college_of_sorcerers	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_great_slave_market	ovn_special_great_slave_market	0	3	8000	0		false	false			true	ovn_special_great_slave_market	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_atalan_mountain_peaks	ovn_special_atalan_mountain_peaks	0	2	4000	0		false	false			true	ovn_special_atalan_mountain_peaks	false	0.0000	0	true	3		true	0	0		0		-1
+ovn_special_galleons_graveyard_magus_djinn	ovn_special_galleons_graveyard_magus_djinn	0	6	10000	0		false	false			true	ovn_special_galleons_graveyard_magus	false	0.0000	0	true	5		true	0	0		0		-1
+ovn_special_galleons_graveyard_magus_tzeentch	ovn_special_galleons_graveyard_magus_tzeentch	0	6	10000	0		false	false			true	ovn_special_galleons_graveyard_magus	false	0.0000	0	true	5		true	0	0		0		-1

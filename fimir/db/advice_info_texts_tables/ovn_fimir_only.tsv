@@ -1,0 +1,12 @@
+key	persistant	show_instant	show_on_navigate	is_header	navigation_order
+#advice_info_texts_tables;3;db/advice_info_texts_tables/ovn_fimir_only					
+war.camp.hp.fimir_chaos_gifts_header	true	false	true	true	0
+war.camp.hp.fimir_chaos_gifts_text	true	false	true	false	1
+war.camp.hp.fimir_slaves_header	true	false	true	true	0
+war.camp.hp.fimir_slaves_text	true	false	true	false	1
+war.camp.hp.fimir_mists_header	true	false	true	true	0
+war.camp.hp.fimir_mists_text	true	false	true	false	1
+war.camp.hp.fimir_death_quest_header	true	false	true	true	0
+war.camp.hp.fimir_death_quest_text	true	false	true	false	1
+war.camp.hp.fimir_temples_kroll_header	true	false	true	true	0
+war.camp.hp.fimir_temples_kroll_text	true	false	true	false	1

@@ -1,0 +1,40 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/ovn_araby_only										
+ovn_arb_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false	false
+ovn_arb_djinn			military	false	wh2_main_sch_support2_worship		2		true	false
+ovn_arb_nomad_infantry			military	false	wh2_main_sch_military2_stables		2		true	false
+ovn_arb_elephants			military	false	wh2_main_sch_support1_smith		1		true	false
+ovn_arb_defence_major			money	false	ovn_sch_araby_walls		0		true	false
+ovn_arb_growth			money	false	wh2_main_sch_infrastructure1_farm		1		true	false
+ovn_arb_nomad_cavalry			military	false	wh2_main_sch_military3_warmachines		3		true	false
+ovn_arb_income			money	false	wh2_main_sch_infrastructure2_industry		2		true	false
+ovn_arb_city_barracks			military	false	wh2_main_sch_military1_barracks		1		true	false
+ovn_arb_artillery			military	false	wh2_main_sch_support3_wizards		3		true	false
+ovn_arb_order			money	false	wh2_main_sch_infrastructure3_order		3		true	false
+ovn_arb_port			money	false	wh_main_sch_port		0		true	false
+ovn_arb_settlement_major			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_cth_city.png	0		true	false
+ovn_arb_settlement_minor			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_cth_city.png	0		true	false
+ovn_arb_defence_minor			military	false	wh2_main_sch_defence_minor		0		true	false
+wh3_main_foreign_slot_discovery_arb			money	false	wh2_main_sch_foreign_slot_discovery		9		true	false
+ovn_arb_defence_norsca			military	false	wh2_main_sch_defence_norsca		0		true	false
+ovn_arb_slaves			money	false	wh2_main_sch_infrastructure4_energy		0		true	false
+ovn_arb_healing			money	false	wh2_main_sch_infrastructure5_tradingspying		4		true	false
+ovn_arb_flaming_scimitar_main			money	false	ovn_sch_arb_flaming_scimitar_main	data\UI\Buildings\tier_icons\tier_coast_ship.png	0		true	false
+ovn_arb_flaming_scimitar_unique_minaret			military	false	ovn_sch_arb_flaming_scimitar_unique_minaret		0		true	false
+ovn_arb_flaming_scimitar_barracks			military	false	ovn_sch_arb_flaming_scimitar_barracks		1		true	false
+ovn_arb_flaming_scimitar_nomad_infantry			military	false	ovn_sch_arb_flaming_scimitar_nomad_infantry		2		true	false
+ovn_arb_flaming_scimitar_support_monsters			military	false	ovn_sch_arb_flaming_scimitar_support_monsters		3		true	false
+ovn_arb_flaming_scimitar_support_mages			military	false	ovn_sch_arb_flaming_scimitar_support_mages		4		true	false
+ovn_arb_flaming_scimitar_structure_movement			military	false	ovn_sch_arb_flaming_scimitar_structure_movement		6		true	false
+ovn_arb_flaming_scimitar_structure_upkeep			military	false	ovn_sch_arb_flaming_scimitar_structure_upkeep		7		true	false
+ovn_arb_flaming_scimitar_structure_replenishment			military	false	ovn_sch_arb_flaming_scimitar_structure_replenishment		8		true	false
+ovn_arb_flaming_scimitar_structure_growth			military	false	ovn_sch_arb_flaming_scimitar_structure_growth		9		true	false
+ovn_arb_flaming_scimitar_defense_bombardment			military	false	ovn_sch_arb_flaming_scimitar_defense_bombardment		5		true	false
+ovn_special_tomb_king_crypt			military	false	ovn_sch_special_tomb_king_crypt		1		true	false
+ovn_arb_nehekharan_excavation			military	false	ovn_sch_arb_nehekharan_excavation		0		true	false
+ovn_arb_special_settlement_al_haikk			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_cth_city.png	0		true	false
+ovn_arb_defence_major_scythans			money	false	ovn_sch_araby_walls		0		true	false
+ovn_arb_defence_minor_scythans			military	false	wh2_main_sch_defence_minor		0		true	false
+ovn_arb_growth_scythans			money	false	wh2_main_sch_infrastructure1_farm		1		true	false
+ovn_arb_income_scythans			money	false	wh2_main_sch_infrastructure2_industry		2		true	false
+ovn_arb_order_scythans			money	false	wh2_main_sch_infrastructure3_order		3		true	false

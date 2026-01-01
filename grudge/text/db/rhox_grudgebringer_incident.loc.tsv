@@ -2,3 +2,6 @@ key	text	tooltip
 #Loc;1;text/db/rhox_grudgebringer_incident.loc		
 incidents_localised_title_rhox_grudgebringer_get_settlement_from_grudgebringer	Gift from the Grudgebringers	false
 incidents_localised_description_rhox_grudgebringer_get_settlement_from_grudgebringer	In a triumphant display of bravery, Grudgbringers, the indomitable Mercenary, reclaims the settlement from the clutches of foul creatures, restoring it to the rightful hands of the faction of order. The townsfolk cheer as hope reignites, and tales of Grudgbringers' valor spread far and wide, inspiring all who hear of this heroic feat.	false
+incidents_button_text_rhox_grudgebringer_ceridan_ilmarin	Continue	false
+incidents_localised_description_rhox_grudgebringer_ceridan_ilmarin	My true name is Ceridan of the Black Mountains. My identity as Ilmarin no longer serves a purpose. I require your help in a quest handed down through generations of my family to protect the Menhir and stop the Skaven menace.	false
+incidents_localised_title_rhox_grudgebringer_ceridan_ilmarin	True Identity Revealed	false

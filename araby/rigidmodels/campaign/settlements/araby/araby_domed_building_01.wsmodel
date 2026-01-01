@@ -1,0 +1,9 @@
+<model version="1">
+  <geometry>rigidmodels/campaign/settlements/araby/araby_domed_building_01.rigid_model_v2</geometry>
+  <materials>
+    <material lod_index="0" part_index="0">rigidmodels/campaign/settlements/materials/araby_domed_building_01.xml.material</material>
+    <material lod_index="0" part_index="0">rigidmodels/campaign/settlements/materials/araby_domed_building_01.xml.material</material>
+    <material lod_index="0" part_index="0">rigidmodels/campaign/settlements/materials/araby_domed_building_01.xml.material</material>
+    <material lod_index="0" part_index="0">rigidmodels/campaign/settlements/materials/araby_domed_building_01.xml.material</material>
+  </materials>
+</model>

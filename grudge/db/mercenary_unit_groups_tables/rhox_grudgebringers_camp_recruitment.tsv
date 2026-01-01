@@ -1,0 +1,12 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/rhox_grudgebringers_camp_recruitment					
+grudgebringer_cannon	100.0000	0	grudgebringer_cannon	true	0.2000
+grudgebringer_cavalry	100.0000	0	grudgebringer_cavalry	true	0.2000
+grudgebringer_crossbow	100.0000	0	grudgebringer_crossbow	true	0.2000
+grudgebringer_infantry	100.0000	0	grudgebringer_infantry	true	0.2000
+camp_recruitment_urblab_rotgut_mercenary_ogres	100.0000	0	urblab_rotgut_mercenary_ogres	true	0.2000
+camp_recruitment_jurgen_muntz_outlaw_infantry	100.0000	0	jurgen_muntz_outlaw_infantry	true	0.2000
+camp_recruitment_stephan_weiss_outlaw_pistoliers	100.0000	0	stephan_weiss_outlaw_pistoliers	true	0.2000
+camp_recruitment_vannheim_75th	100.0000	0	vannheim_75th	true	0.2000
+camp_recruitment_ragnar_wolves	100.0000	0	ragnar_wolves	true	0.2000
+camp_recruitment_keelers_longbows	100.0000	0	keelers_longbows	true	0.2000

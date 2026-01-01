@@ -1,0 +1,92 @@
+{
+    "Settings": {
+        "BnkName": "battle_vo_conversational__ovn_vo_actor_Empire_Morgan_Bernhardt",
+        "Language": "english(uk)"
+    },
+
+    "DialogueEvents": [
+        {
+            "DialogueEvent": "battle_vo_conversation_own_unit_fearful",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. They're slaughtering us.wav", 
+                        "D:\\2. We fear the enemy.wav", 
+                        "D:\\3. Help us.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\2. Yes M'lord.wav", 
+                        "D:\\3. Aye sir.wav", 
+                        "D:\\4. Move out.wav", 
+                        "D:\\5. We march.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_conversation_own_unit_routing",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. They're slaughtering us.wav", 
+                        "D:\\2. We fear the enemy.wav", 
+                        "D:\\3. Help us.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_conversation_clash",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Hack them to pieces.wav", 
+                        "D:\\2. Spill their blood.wav", 
+                        "D:\\3. To the death.wav", 
+                        "D:\\4. Crush them.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_conversation_dissapointment",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. They're slaughtering us.wav", 
+                        "D:\\2. We fear the enemy.wav", 
+                        "D:\\3. Help us.wav", 
+                        "D:\\1. Win or lose the crows never go hungry.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_conversation_encouragement",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Hack them to pieces.wav", 
+                        "D:\\2. Spill their blood.wav", 
+                        "D:\\3. To the death.wav", 
+                        "D:\\4. Crush them.wav"
+                    ]
+                }
+            ]
+        }
+    ]
+}

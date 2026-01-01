@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_ui_payload.loc		
+campaign_payload_ui_details_description_dummy_convoy_50_battle	[[col:yellow]]There is a 50% chance that a battle will occur[[/col]]	false
+campaign_payload_ui_details_description_dummy_convoy_fight_keep_slave	[[col:yellow]]Fight to keep the slaves[[/col]]	false
+campaign_payload_ui_details_description_dummy_convoy_fight_treasure_map	[[col:yellow]]Fight to claim the treasure map[[/col]]	false
+campaign_payload_ui_details_description_rhox_araby_fatandira_tk_unlock	You have gained access to the mightiest units of the Tomb Kings!	false
+campaign_payload_ui_details_description_rhox_araby_jaffar_djinn_unlock	One of the Royal Djinn is now under your command!	false
+campaign_payload_ui_details_description_rhox_araby_fatandira_djinn_unlock	You have gained access to the Royal Djinns!	false
+campaign_payload_ui_details_description_rhox_araby_jaffar_mehmed_unlock	Mehmed the Butcher has joined your cause!	false

@@ -1,0 +1,7 @@
+override_faction	override_subculture	source_resource	target_resource
+#resource_ui_overrides_tables;0;db/resource_ui_overrides_tables/ovn_fimir			
+	ovn_sc_fim_fimir	res_bile_trolls	
+	ovn_sc_fim_fimir	res_chaos_trolls	
+	ovn_sc_fim_fimir	res_river_trolls	
+	ovn_sc_fim_fimir	res_savage	
+	ovn_sc_fim_fimir	res_stone_trolls	

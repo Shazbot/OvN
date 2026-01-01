@@ -1,0 +1,12 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ovn_arb_sheikh_mehmed									
+arb_sheikh_mehmed_innate	trait_araby.png			0	true	false	false	5.0000	0
+arb_sheikh_mehmed_unique_0	campaign_movement.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_unique_1	battle_attack.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_unique_2	wh_main_unit_passive_frenzy.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_unique_3	character_health.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_unique_4	character_construction.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_unique_5	wh3_main_spell_great_maw_bullgorger.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_mount_horse	mount_warhorse.png			0	false	false	false	0.0000	0
+arb_sheikh_mehmed_mount_pegasus	mount_pegasus.png	Mount	Mount	0	false	false	false	0.0000	0
+arb_sheikh_mehmed_mount_elephant	mount_mammoth.png	Mount	Mount	0	false	false	false	0.0000	0

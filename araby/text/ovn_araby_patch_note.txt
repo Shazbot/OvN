@@ -1,0 +1,816 @@
+2025/DEC/14 Rhox
+- Added new 7.0 settlement types to allied outpost of Araby (So that Araby can build allied outpost in Norsca and Dechals's settlement)
+
+
+2025/DEC/8 Rhox-2
+- Added resource_ui_overrides_tables so that the Araby culture won't see the Throgg troll and savage orc mark in the citybar
+- Added other Mixer subcultures that were made after Hung to not see the coffee resource
+- Now Golden Magus can attack the city from the sea directly
+
+2025/DEC/08 Rhox
+- Fixed the issue of Golden Magus not getting access to the Tzeentch units due to new function update in 7.0 (You need a new campaign start)
+- Fixed the issue of Araby using old Mixer landmark slots that aren't supported anymore since vanilla started to support it, or due to a key update (Al-Haik, Tower of the Stars, Vulture Mountain)
+
+2025/NOV/20 Lingling
+- tweaked faction potentials
+
+2025/OCT/30 Lingling
+- complete polishing pass of the loc files (fixed typos, grammar, wording)
+- tweaked Sultanate of Chandrahara minor faction
+- added in Cult of the Djinn minor faction to Khuresh (with MCT option default off)
+- added MCT option (default off) to give Sultanate of El-Kalabad the province Sun's Anvil in IEE
+- fixed Akhaba und Sud not using the Araby settlement models in IEE
+
+2025/OCT/25 Rhox
+- Removed the carpet ones from the campaign_character_uniform_ancillary_junctions_tables since:
+-- It lead to a file that doesn't exist
+-- And only 4 out of 12 had this entry
+
+2025/OCT/24 Rhox
+- Fixed the issue of Wazar having same description with champion in the CB
+- Fixed the issue of Cult of the Djinn showing up when you click the Araby culture, and Araby culture not showing mechanic preview
+
+2025/OCT/23 Rhox
+- Added the Araby minor faction in IEE. You need to enable them in MCT in order for them to spawn
+- Fixed the issue of Rvager of El-Kalabad's description mentioning Ka-Sabar
+
+2025/OCT/05 Rhox
+- Fixed the broken script
+- fixed the issue of OvN mod using a faction key that they haven't requested. I'm sorry if it caused issue for anyone.
+
+2025/OCT/02 Lingling 2
+- tweaked faction potentials
+
+2025/OCT/02 Lingling
+- DB preparations for new factions
+- scripts have been prepared partly
+
+2025/SEP/29 Ubermorgen
+- added 2x Araby Warrior to Jaffar's starting army
+- moved Emir and Hashishin down to T2 of their building chain
+- Tech "Way of the Bow": added effect +10% ammo for Bow units
+- Tech "Camel Barding": added effect -10% upkeep for Camel units
+- Tech "Algoritmi": added effect -10% crafting costs in Grand Bazaar
+- lore of Djinn casters now start with a second spell "Burning Hand"
+
+2025/SEP/18 Rhox
+- Added campaign group members so that Bretonnia would get the proper raze and sack option against the Araby faction. (They only get the occupy option before)
+- Now Elspeth gains salvage gun interaction when fighting against Araby
+
+2025/SEP/3 Rhox
+- 6.3 update (Mazdamundi effect, spell intensity)
+- Gave Araby access to these minor cults
+    mc_assassins=true,
+    mc_black_ark=true,
+    mc_carnival_of_chaos=true,
+    mc_chaos_portal=true,
+    mc_crimson_plague=true,
+    mc_crimson_skull=true,
+    mc_cult_of_exquisite_cadaver=true,
+    mc_cult_of_painted_skin=true,
+    mc_cult_of_pleasure=true,
+    mc_cult_of_possessed=true,
+    mc_cult_of_shallya=true,
+    mc_cult_of_yellow_fang=true,
+    mc_dark_gift=true,
+    mc_doomsphere=true,
+    mc_dwarf_builders=true,
+    mc_dwarf_miners=true,
+    mc_dwarf_rangers=true,
+    mc_elven_enclave=true,
+    mc_forge_of_hashut=true,
+    mc_ogre_mercs=true,
+    mc_order_sacred_scythe=true,
+    mc_peg_street_pawnshop=true,
+    mc_purple_hand=true,
+    mc_sartosan_vault=true,
+    mc_silver_pinnacle=true,
+    mc_the_cabal=true,
+    mc_tilean_traders=true,
+    mc_warpstone_meteor=true,
+    mc_witch_hunters=true,
+
+2025/JUL/10 Lingling - 6.2.2 Update
+- Arabyan Guard now have the new elite infantry capture power
+- raised minimum knockback resistance of foot characters to 40%
+- raised leadership of all Djinn by 10
+- small buff to flying carpets: MA, MD, Charge and bow variant fires to arrows at once now
+- adjusted ability ranges according to the new patch
+
+2025/JUL/09 Rhox
+- Fixed the issue in the diplomacy string for Scythian. accept_ultimatum, generic_ultimatum, offer_peace_and_region, reject_ultimatum, ultimatum_and_demand_region
+- Fixed the issue of Allied outpost description having duplicate entries and using short one. 
+- Changed some of the file using wrong naming convention, namely, arb:_vizier_turban to arb__vizier_turban
+
+2025/JUN/22 Rhox
+- Changed Bazaar ancillaries' uniqueness score to meet that of vanilla's. (Those with 30 or 15 have become 35, as those numbers don't exist in vanilla.)
+
+2025/JUN/17 Wolfremio
+- 6.2 Update
+
+2025/APR/04 Rhox
+- Added compat tables
+
+2025/APR/03 Lingling
+- Added missing garrison in Realms of Chaos settlements (TOW)
+
+2025/Mar/28 Rhox
+- Recovered lost loading_screen_quotes_to_campaigns_tables folder which was lost during my update
+
+2025/MAR/27 Rhox
+- land unit schema update for the 6.1
+- If Wolfremio actually updated something for 6.1, then sorry, the packfile needs to be updated again
+
+2025/02/19 Rhox -2
+- And I forgot that they were there for a reason. Put the deleted entries in the low priority file
+
+2025/02/19 Rhox
+- Removed non-coffee resource slots from slot_templates_tables/!!ovn_araby_tow as it was creating priority fight between the mods for no reason
+
+2025/FEB/08 Partypus
+- Changed TOW Jafar revenge image to meet the TOW change
+
+2024/DEC/30 Lingling
+- fixed coffee resource icon not showing in TOW
+- added custom voice for Fatandira
+
+2024/OCT/31 Lingling
+- small adjustments to weapon stregth of djinn units
+
+2024/SEP/10 Lingling
+- added auto resolve values to land units as added in the latest patch
+- adjusted the AI building values for custom buildings according to the changes in the latest patch
+
+2024/AUG/29 Rhox
+- Changed the caravan overriding script to fit with the 5.2.2 patch
+
+2024/AUGUST/21 Rhox-2
+- Fixed the issue of special ability id overlapping (djinn instability, bound wind blast)
+
+2024/AUGUST/21 Rhox
+- (Hopefully) Fixed the caravan script
+- Fixed the caravan UI script too
+
+2024/AUGUST/20 Wolfremio
+- Applied the cdir military quality change
+
+2024/AUGUST/07 Lingling
+- Wazar the Cruels upkeep is set to 0 to fit with CA's change to LH's
+
+Changes by Wert:
+-fixed some djinn abilities not appearing in campaign due to needing activation
+-allowed Skiff to summon mini-vortexes of sand under it, smth like thunderbarge bombs. increased ammo of magus skiff a bit, Jezails on it use secondary ammo. skiff +6 speed
+-radiant discharge of zebra pegasus to 3 uses and 90 cooldown
+- +1 use of royla djinn abilites (with 120 cooldown between them). +2k hp to them. Cost to 2300
+- +10% spell-mastery and lore of tzeentchh passive for magus tzeentch-unique line
+- reduced number of book djinn summons from 10 to 6 per battle.
+- mirage skill level effect to increasing number of uses instead of decreasing alreadu non-existent cost, similar to zombos summon.
+- incarnate swiftwing to buff 10% range and 10 accuracy instead of speed and charge bonus to not be useless. 
+- incarnate blessing of khar mael to 20 armour and 25 mag ressist'.  Khar mael bound sandstorm swaped ap value.
+- incarnate curse of djinn to -15 armour and -10% magic res. genie +300 hp. +50 cost
+- incarnate regrowth to 0.08 heal and -1% fatigue per sec and limited to 4 units.
+- giant serpent army ability to cost 14 wom to use.
+
+2024/JULY/24 Rhox
+- Changed the scope of an ancillary drop to fit with vanilla's 5.1.2 change
+- Changed the tech required building to tier 5 port (ovn_arb_port_3) from main settlement tier 5 because it was hard to tell that Al-Haik special settlement isn't counted towards it
+- Removed 8 battle catchment area CA removed and added 4 new CA added catchment areas
+
+2024/JULY/14 Shaky
+- settlement skin updates
+
+2024/JULY/13 Shaky
+- settlement skin updates
+
+2024/JULY/09 Shaky
+- Compo scene updates
+
+2024/JULY/09 Lingling
+- Added/buffed collision and splash attacks for various units according to the 5.1 changes
+- Adjusted Elephant balance to the vanilla Mammoth changes
+- removed Mentor from Wazar as in the 5.1.1 changes
+
+2024/JULY/08 Shaky
+-Settlement skin and comp update
+
+2024/JUNE/30 Rhox
+- Added access to Fortress of Dawn Harbour
+
+2024/JUNE/25 Wolfremio:
+- Updated to 5.1
+
+2024/06/20 Rhox
+- Fixed the issue of wrong usage of global variable faction (Yes, again. Sorry)
+
+2024/06/18 Rhox
+- Fixed the issue of using global value faction instead of context:faction() in a listener
+
+2024/MAY/25 Wolfremio
+- New Battle Map: Copher, used for all minor Araby coast settlements, both in IE, IEE and Old World, made by @FSFRanger
+- Corsairs should have their pistol muzzle flash back
+
+2024/MAY/23 Wolfremio
+- Updated Jaffar's Caravan Routes to take into account the upcoming update of ChaosRobie's Old World campaign map
+
+2024/MAY/23 Lingling
+- fixed effect scopes for custom nemesis crown effects
+
+2024/MAY/23 Lingling
+- added Araby to some missing effects targeting humans in general
+- added missing loc entries for arabyan prisoners in eltharions dungeon mechanic
+
+2024/MAY/18 Rhox
+- Now Araby culture fully supports Eltharion dungeon feature
+- Added Nemesis Crown support
+
+2024/MAY/17 Lingling
+- added race specific nemesis crown effect bundles
+
+2024/MAY/15 Lingling
+- changed health increase effect to melee defence effect on healing ring since hp buffs were removed from vanilla items
+- removed fatigue immune from naphta thrower ror, gave flanking immune and moving fire instead
+
+2024/MAY/14 Rhox
+- Chganged the character skill node to the updated one
+
+2024/MAY/8 Rhox
+- Added the new Dwarf Grudge support for the culture
+
+2024/MAY/3 Rhox
+- Fixed the issue of tech node indent clapping
+
+2024/MAY/2 Rhox
+- Removed the mixer_nur_rotblood subculture mention as Mixer does not support this key anymore
+- Tried to fix the Al haik speed again.
+
+2024/APR/30 Wolfremio:
+- Updated to 5.0, there might be some unaccounted for bugs, so keep a lookout for them, report them and they'll get fixed eventually
+
+2024/APR/29 Lingling 
+- nerfed the unit caps of TK units provided by the TK recruitment building
+- nerfed the TK allegiance points provided by TK aligned building for Fatandiras allegiance mechanic 
+
+2024/APR/4 Rhox -2 
+- Returned Alhaik bonus to add again because. The method I thought would fix it broke it instead. I'm truly sorry for anybody who experienced bugs. 
+
+2024/APR/4 Rhox
+- Now Alhaikk battle map's "Fleet Harbour" ability's speed boost tooltip will show the correct value. (Just the display issue)
+- Now players won't see available tech notifications when they research all possible techs
+
+2024/MAR/15 Rhox
+- Fixed the issue of MCT causing frontend errors when used without a map replacer
+- Added MCT support for the Major settlement battle too
+
+2024/MAR/13 FSFRanger
+- Minor settlement battle map added
+
+2024/MAR/2 Rhox
+- Changed Emir and Wazar's Deadly Onslaught to Colossal Strike
+
+2024/FEB/27 Lingling
+- Added strider to flying carpet units (same as discs of tzeentch)
+- Applied little grom balance changes to grand bombard (+50 vs large, lowered reload time from 18 to 14) - grom was lowered from 16 to 12
+- lowered djinn units leadership from 100 to 35 for book djinn, 60 for normal djinn, 70 for elemental djinn (djinn carriage summons) and 80 for royal djinn
+- added customized disintegration abilities to djinn for flavor, same function and effects as vanilla abilities (kept the strong binding buff)
+- added disintegration abilities to jaffar in djinn form for balance reasons
+- added missing second feral abilities to vulture and elephant (only had one tier)
+- added entries for arb_tower_placement in battlefield_buildings so Dust can hopefully add his custom skins, no idea if it works through
+
+2024/FEB/23 Rhox
+- Changed the script to support Mixer's infamy change
+- Added formation support to Araby subculture
+- Added allied_buildings_profile & trespass_warning_accept_profile to the CAI
+- Changed Obsidian lodestone from Baazar to Talisman of Endurance
+- All Djinn guys now have elemental attributes rather than unbreakable (and some abilities too)
+- Now Feral Vulture and Elephant don't have rampage attributes but rampage abilities
+FSFRanger
+- Fixed the issue of the capture point ability not working in the Al-Haik map
+
+2024/JAN/27 Rhox
+- Added not just 5 but all TK units to the TK weapon strength buff effect
+- Changed UI scripts of GM to use get_local_faction instead of is_human()
+- Added script to set mixer_disable_starting_zoom = true when the setting is MP
+- The wh2_main_effect_building_unit_recruitment_duration_arb_OtF_khemri_elite_guard effect was removed from the building effect and character skill as it only takes one turn to recruit palace guards
+- Now Fatandira's Emir and Hashashin does not have access to Kind trait (innate skill) as she does not have access to slaves (wh2_main_skill_node_arb_champion_innate_01 & wh2_main_skill_node_arb_nomad_innate_01)
+
+2024/JAN/18 ChaosRobie
+- Some adjustment to make sound compatible to Albion's
+
+2024/JAN/18 Rhox
+- Adjusted sound so it should have compatibility with Albion voice acting (ChaosRobie)
+- Changed Aithopian prince's effect to wh_main_effect_economy_gdp_mod_all as previous effect wasn't working
+- Made coffee only visible to Araby
+
+2024/JAN/16 Lingling
+- Hashashin now use female voice on campaign map again and also use female names as intended
+- lowered accuracy of grand bombard a bit so it's less effective at sniping characters on foot
+- added grand bazaar mechanic to fatandiras how they play and campaign cheat sheet panels
+
+2024/JAN/16 Wolfremio
+- Reworked the uvmap and texture files of the horse barding for the Sheikh horse mounts and the Sipahi of Copher ROR horse mounts 
+
+2024/JAN/15 Rhox -2
+- Fixed the issue of Rebel having access to non-summonable Djinn
+- Removed the unnecessary override table as I forgot to remove it last time
+
+2024/JAN/15 ChaosRobie
+- Added campaign Voice
+
+2024/JAN/15 Rhox
+- Fixed the issue of script break in caravans when you're not using Marienburg together
+
+2024/JAN/13 Rhox
+- Made some exceptions in the TOW Jaffar script. Now it will correctly show the next level if you conquer all. I think
+- Now the script locks the invisible techs at the new game startup so it won't trigger tech available notify
+
+
+2024/JAN/13 ChaosRobie 
+- Added custom voice by Sundae
+
+2024/JAN/12 Rhox
+- Added infield buildings made by ChaosRobie
+- Made the Nomad VS Urban Elite context text more clear by saying it "Lost control"
+- Fixed the issue of wh2_main_effect_ability_cooldown_spells not working on Djinn spells
+
+
+2024/JAN/11 Lingling
+- fixed lod issue of hashashin 3's hair variant
+- fixed quadballista not showing the correct missile strength
+- fixed some loc issues
+- lowered camel cataphracts melee attack from 40 to 38
+- fixed ovn_arb_baz_tal_10_khandu_hookah not providing its ability, changed diplo with empire +35 to diplo with humans and ogres +10
+- lore of djinns is now correctly affected by every effect that target all magic lores (like cooldown reduction)
+- lowered income of tomb of mullah aklan'd and crypt of abdul ben raschid landmarks
+- added public order penalty to slave chain
+- Fatandiras allegiance values only show positive values now to improve readability
+- effect for tomb king influence is now properly hidden, only dummy remains as intended
+- added jellabas way to jaffars how they play notification
+- added campaign cheat sheets for all factions (the once shown when you press esc)
+- added jezzails unit to fatandiras starting army to make her start a little less tedious
+- fixed coffee only having a value of 1 gold and not showing up with the other trade resources
+- added al haikk special settlemet, some landmarks, coffee and tomb excavation buildings to Old World campaign
+
+2024/JAN/11 Rhox
+- Changed the Jaffar UI script so it should work with translation mods
+- Changed the wording of the Jaffar UI string. "Military allies"->"allies" as script only checks allies and not military allies
+- Changed the effect type of Heart of Ishmail for spell resistance so it should be shown as positive green
+- Added dummy effect for nomad control increase, and made the real effect hidden
+
+2024/JAN/10 Rhox -3
+- Slave Bazaar ancillaries
+-- Changed ovn_araby_anc_follower_def_beastmaster and ovn_araby_anc_follower_chaos_beast_tamer 's effect into another since it was using an effect Araby can't use
+-- Removed Chaos Spawn effect from Twilight mirror and changed Warriors of Chaos diplo bonus to Team Chaos (Daemon, WoC, Norsca, Beastmen) diplo bonus
+- For non-Slave Bazzar ancillaries
+-- Changed uniqueness score from 101 to 50 or 200 as 101 doesn't have proper color. If it's a randomly dropped one, it's a 50, 200 else
+-- Diversified trade resources required for the items
+
+2024/JAN/10 Rhox -2
+- Changed Caravan Master innate, Bedouin's effect to affect only his force instead of factionwide
+- Added base change for Fatandira once the meter reaches 100 or -100
+- Changed Mammoth Tamer effect so it would affect elephants also
+- Added Araby Rebels
+- Now Jaffar's effect bundle also gives a negative diplomatic mod effect to Repanse
+- Added Araby ancillary icons made by HKrul into the pack so we can make new ones easier
+
+2024/JAN/10 Rhox
+- Fixed the issue of Emir icon not appearing
+- Added name for Araby QB faction
+2024/JAN/09 -5 Rhox
+- Added ChaosRobie's Prefab update
+- Added Partypus' new skin
+- Now Araby gains slave via raid
+- Now Jaffar gains access to Twilight Portal; Shakyrivers
+- Added slave effect in the Jaffar and Goldne Magus' faction effect bundle
+
+2024/JAN/09 -4 Rhox
+- Emergency fix of same event occuring again and again in IE
+
+2024/JAN/09 -3 Rhox
+- Fixed the issue of 2 ram constructing per queue and 1 tower per queue instead of 1 ram and 2 tower
+- Removed the [] from the Djinn master's caravan event's description
+
+2024/JAN/09 -2 Rhox
+- (IE & IEE) Increased amount of demand reduction to triple when caravan completes the journey 
+- Applied PJ's fix and the Jaffar map won't be broken when players use a UI scale of 190%
+2024/JAN/09 Rhox
+- Changed ovn_araby_anc_follower_lzd_astronomer 's faction set to all from Lizardmen
+- Fixed the issue of 27 slave purchases using a wrong ancillary key
+
+2024/01/08 OvN Team
+- Release this mutha
+
+2024/01/08 Lingling 3
+- lowered naphta thrower detonation force
+
+2024/01/08 Lingling 2
+- readded elemental djinns to custom battle
+- made naphta thrower hit their targets a bit more consistently (maybe)
+
+2024/01/08 Lingling
+- moved Hashishin recruitment back to order chain, moved hashishin recruitment effect trough high nomad influence from order chain to nomad barracks
+- removed magical attack from Golden Magus base weapon (kept flaming) so the ancillary effect isn't redundant
+- increased range of camel archers (125 to 140) to compensate for lacking speed
+- small buff for southlanders (added blood howl ability, +4 ma)
+- added missile strength for bowmen to sheikhs city troop buff skill (one of the mutual exclusive ones), removed weapon strength to compensate
+- small buff to desert riders (+1 ma, +1 md)
+- fixed double hero xp effects
+- changed serpent crown anc to +5 ld, -5 enemy ld
+- naptha thrower is now t5, buffed accordingly
+- small nerf to ap damage and accuracy of grand bombard
+- removed normal djinns from custom battle permissions since testing phase is done (available through djinn carriage like in campaign)
+- lowered starting settlement tier of el-kalabad to tier 2 (consistent with every other race, has garrison building from the start so they are not  
+  wiped immediatly)
+
+2024/JAN/07 Rhox-3
+- Fixed the issue of all Bretonnian minor settlements turning into Araby city in TOW
+- Added Ogre Maneater Pistol as a starting army for Golden Magus
+- Added "magical attacks for the corsair"" loc for the Golden Magus' innate skill effect
+- Added dummy effets that explains what feature they have
+- Reenabled building changed script for Fatandira, so she now starts with the stable
+- Changed Golden Magus' sword's flaming effect to warpflame effect
+- Added PH unit card for Hashashin Doppelganger. 
+
+2024/JAN/07 Shaky
+- Nomad Barracks revamp
+- Added Magus skill that buffs Ogres
+- Fixed Emir UI grouping icon not showing
+
+2024/JAN/07 Rhox-2
+- Nerfed Dedicated Scholar's global level effect to 1 from 2
+- Changed the file names of the ui/portraits/portholes/no_culture/arb_sultan_jaffar.png and ui/portraits/units/no_culture/arb_sultan_jaffar.png to show Changeling correct portrait and to match the pattern (was Sultan_Jaffar before)
+
+2024/JAN/07 Rhox
+ - Added Dave's new event pics, 
+ - Changed the event feed to show the correct event pic for incidents and dilemma (It was just showing arb/faction regardless of event pic path before)
+ - TOW: Caravan script and region_to_region_group DB
+ - Fixed the issue of GM's verse effect bundle and incident missing loc
+ 
+2024/JAN/07 Wolfremio
+ - TOW: Ibn Jellaba's Way trade routes set in DB ( 6 destinations )
+ - TOW: Campaign map settlements models set to the custom Arabyan ones in certain settlements
+ - Added all of Partypus' new 2D assets
+
+2024/JAN/06 - Rhox -3
+- Jaffar conquest in TOW
+- Changed all ancillary and skill names that are too short and common
+
+2024/JAN/06 - Rhox -2
+- TOW support, except for Jaffar mechanics
+- Caravan CAI for Jaffar and minor
+
+2024/JAN/06 - Rhox
+- Added ChaosRobie and Woolsei's building prop
+- Changed Fantandira's Numas Restore occupation picture
+- Changed non-UI cm:get_local_faction from Slave script
+
+2024/01/05 - Wolfremio
+- Added long encyclopedia descriptions to all the araby units
+- Fixed ctd when using emir on radiant pegasus
+- Fixed flickering camels in lod4 ( they were using lowpoly horse models )
+- Fixed a bunch of custom bonus value effects in techs and skills using additive AP damage instead of percentile
+- Slaver innate for the emir now gives extra battle captives instead of amplifying an agent action it no longer has
+- Added heavy camelry unit grouping for the camel cataphracts
+- Added a newer version of the maps for the Jaffar's Revenge mechanic by Partypus
+
+2024/01/05 Rhox-3
+- Added return settlement to Numas occupation option in Numas
+- Now betrayal incidents can fire infinitely to block cheesing players
+
+2024/01/05 Rhox-2
+- Changed maps to Partypus touched ones. 
+- Changed the map tooltip script so the width would fit the size of the tooltip (for 4K resolution guys. I can't check, help!)
+- Added some commented out script that can be added later that forces peace between Khemri and Numas when Fatandira is human but Khemri and Numas is not. 
+
+2024/01/05 Rhox
+- Changed the Jaffar script so it should use a new tier 3 icon during the Bretonnia conquest, and the final one (previous tier3) at the completion
+- Fixed the issue of Fatandira's meter increasing Araby units' upkeep instead of decreasing it
+- Added Slave rabble mercenary for non-Fatandira AI Araby as they can't click the button in the Bazaar
+- Moved Fatandira's position to Karag Orrud
+- Added dummy effect in the Fatandira's faction effect bundle that warns you about the betrayal, and added incident upon declaring war on Numas when playing as Fatandira
+- Applied CAI. Mostly copy-paste from Albion, for region groups, Yuan Bo for GM, Khalida for Fatandira, Repanse for Jaffar, and default for minor
+- Fatandira does not start with the Victory counter as its only purpose is to show victory resource used at buying slaves
+- Added Partypus made Nomad VS Urban skin
+
+
+2024/01/04 Lingling
+- fixed clipping issue of Death Commando torso trough shield
+- fixed corsair necklace being rigged to head instead of neck
+- fixed spearmen torso 02 changing color mask from a distance
+- fixed knights horse barding changing to completely different texture from a distance
+- fixed defect wsmodel for knight head variant no spike 02
+- all caravans will now actually spawn with the displayed units
+- lowered calibration area of the grand bombard so its less accurate at great distances
+- lowered duration of mirage spawn
+- rebalanced quicksand spell. Upgraded no longer increases damage, only area of effect. Phase 2 prevents units from moving now. slight cost 
+  increase
+- fixed djinn carriage being too big in pre battle screen
+- added the urban/nomad mechanic to the how they play pop ups
+- moved atalan mountain peak landmark to vulture mountain settlement
+- slight nerf to dervisher damage reflection (20 -> 14)
+- added a small upkeep reduction for arabyan units to Fatandiras araby allegiance bonuses
+- slightly buffed camel lancers
+- added Elons special ability phase fixes
+- added Partypus treasure chest icons (urban/nomad icon + jaffar moons still need to be added)
+- fixed normal settlement chain appearing in castle drakenhof
+- added altdorf as special settelment
+- moved spearmen and bowmen to settlement chain, moved hashishin to nomad chain, moved local recruitment bonus from tier 4 city barracks to tier 4 nomad chain
+- added higher res versions of Daves unit cards
+
+2024/01/04 -3 Rhox
+- Regenerated IDs for building_level_armed_citizenry_junctions_tables as they were overlapping in the same pack
+- Gave Araby access to the special settlement chain in the Sartossa, Miragliano, and Courrone, and removed access to the plain main settlement chain in these area
+- Ported PJ's COTD script with a new image made by Shakyrivers
+- Added missing phase loc for special_ability_phases_onscreen_name_ovn_golden_scimitar_ability
+
+
+2024/01/04 -2 Rhox
+- Fixed the issue of Ogre Victory resource not showing in the bundle
+- Now Araby subculture can make vassals and can do confederation
+
+2024/01/04 Rhox
+- changed locs of these to gunpowder units (ovn_effect_tech_missile_strength_arb_gunpowder, ovn_effect_tech_reload_time_reduction_arb_gunpowder)
+- Made every info related to Urban and Nomad visible. Nothing secret
+
+2024/01/03 Rhox
+--------------------UI
+- Changed event feed pic of Araby caravan completed to Dave's one
+- Made Caravan UI script for Eventpic and flag
+- Added Partypus' UI zip + Techtree skin, pieces of Eight 
+-- Caravan flag .dds file has been renamed and the script to support it
+-- message events file has been renamed and the event feed table has been changed 
+- Added Djinn Jafar portrait and unit card
+- applied Dave's Seanymph, Seamonarch, and Djinn carriage's new unit card
+- Added new infopic made by Dave and effect added by Partypus
+
+--------------------DB & script
+- Reduced cargo to bought rate to 1.5 from 2.0 (It may break the caravan system in the savefile, if they did, go to DB/campaign_caravan_networks_tables/ovn_araby_only and change rhox_araby_contract to default)
+- Made unit_set that includes all the elephant 
+- Changed magician from initial caravan recruits to nomad as they can't cast spells
+- Changed scalywag displaying units to fit with the scripts
+- Changed dummy RoR effect of Jaffar to the correct one
+- Now Fatandira bar's weapon strength effect really affects the units
+- Changed diplo campaign group member criteria of Araby minor to ORIGINATOR from ACTOR
+- Added increased damage UI in the quicksand upgraded
+- Altered position of the Bazaar so that it even works in the 1920&1080 resolution 
+- Removed the following ancillaries from the slave market
+-- Malus and Tehenhauin exclusive: Too Powerful
+-- Sea Cucumber: It's a hidden easter egg item
+-- wh2_dlc17_bst_anc_follower_battle_scarred_ungor_raider: Just for my sanity. Need to do extra replacing just because of this one
+- Removed the following faction sets and added clone ancillaries for the slave market
+-- anc_set_exclusive_ogre_kingdoms
+-- anc_set_exclusive_skaven
+-- anc_set_exclusive_lizardmen
+-- anc_set_exclusive_high_elves
+-- anc_set_exclusive_dark_elves
+-- anc_set_exclusive_tomb_kings
+-- anc_set_exclusive_vampire_counts
+-- anc_set_exclusive_sc_empire
+-- anc_set_exclusive_norsca
+-- anc_set_exclusive_dwarfs
+-- anc_set_exclusive_beastmen
+-- anc_set_multi_beastmen_norsca_chaos
+-- anc_set_exclusive_greenskins
+-- anc_set_exclusive_wood_elves
+-- anc_set_exclusive_vampire_coast
+
+-------------------- Balance
+- Changed Fantandira's mountain to suitable
+- Increased rush construction per turn cost to 300 slaves from 150 slaves
+- Added replenish captive option for Fatandira
+
+-------------------- Localization
+- Changed ovn_effect_tech_missile_strength_arb_bow_units  to "Arabyan Bow units"
+- Listed the units in the rhox_araby_fatandira_constructs_dummy 
+- Recovered edict effect bundle title from Wh2 file
+
+
+2024/01/02 Shaky
+- Bazzar items that buff units limited to lords
+- Nerfed some agent innate skills that buff units
+- Fixed 'Greddy' and 'Unfaithful' innate skills to specify Heroes not Lords
+- Sorted out TK relations so Fatindira doesn't have affinity and aversion
+- You now get slaves from sacking settlements
+- Vizier skill 'Dedicated Scholar' correctly states it buff magicians not wizards
+- Included Palace Guard RoR in tech that buffs Palace Guard
+- Fixed typo in diplomacy string - Common interests bind us; submit to our will.
+- 'Crafted' items in the Bazzar cost 9K now instead of 10k
+- 'Buy Slave Rabble' text didn't have a space between after the lord name despite having a space in the loc so I've put it onto the next line.
+- Changed all loading screen art to the new one Dave made
+- UI text replacements for Scythans red line skills so Slave Rabble and Pit-Figters aren't mentioned
+- Added garrisons to Sartosa and Drakenhof
+- Fixed Magus UI Text replaments for Tzarkans whispers
+
+2023/12/30 Wolfremio
+- implemented Barbo's new Djinn Carriage model
+- added new 2d artwork by Partypus
+-- topbar holder
+-- alternate mortuary cult/grand bazaar gfx
+-- new building icons
+-- race select buttons
+- added some history long descr for the encyclopedia
+
+
+2023/12/28 Rhox
+- Added missing PJ's script from Wh2 that changes market tent depending on the category
+- Changed campaign group member criteria of occupation to subculture from culture as it seems like culture isn't working
+- Changed campaign group and member of event_feed_agent_action_all_hinder_army_ovn_araby as it had the wrong ones
+- Changed event feed to use the picture used by Dave on agent action success and failure
+- Added the following skins made by Partypus
+-- mon_defeat
+-- mortuary_cult_crafted_tick
+-- mortuary_cult_title_frame
+-- flags
+- Added the following skins made by Dave
+-- Loading screen (Only Jaffar is using it currently)
+-- New thumbnail
+-- Settlement occupation image
+-- Evendfeed images for besieged, agent action success and failure
+
+2023/12/27 Rhox
+- Added citybar made by Partypus
+- Added rotated flag made by Partypus
+- Added thumbnail added by Dave
+- Removed ancillary_included_subcultures_tables as Wh3 doesn't use it anymore, and our mod using it on vanilla ancillaries will make these items not obtainable by other cultures 
+- Changed wh_dlc03_anc_follower_beastmen_spawn_wrangler to wh2_dlc17_bst_anc_follower_battle_scarred_ungor_raider as the former gave the capacity to Beastmen which is useless to Araby
+- Changed wh3_main_anc_follower_ogr_cave_painter to wh3_main_anc_follower_ogr_brewer as formed as agent_subtype requirement
+- wh_main_vmp_vampire_counts culture was missing from slave-giving culture so added it in
+- Changed subculture key in the slave script to from wh_main_sc_nor_norsca wh_dlc08_sc_nor_norsca and also added the Norsca culture in as Rotblood mod is using Norsca culture but with different subculture
+- Added cultures from other mods to the slave victory
+-- mixer_gnob_gnoblar_horde (Gnoblar; Mixu) - Ogre (Need to check whether Mixu is okay with it)
+-- mixer_vmp_jade_vampires (Jade Vampire; Poljanan) - Undead  (Need to check whether Pol is okay with it)
+-- mixer_nag_nagash (Nagash; Team Nagash) - Undead
+-- ovn_fimir -Norsca
+-- ovn_albion - Men
+-- ovn_araby - Men
+-- ovn_amazon - Men (Not so sure about this, they're not 'Men' but not also Lizardmen)
+-- ovn_halflings  - Men
+-- ovn_troll - Greenskins
+- Added Araby culture to the following faction_set
+-- anc_set_exclusive_skaven
+-- anc_set_exclusive_lizardmen
+-- anc_set_exclusive_high_elves
+-- anc_set_exclusive_dark_elves
+-- anc_set_exclusive_tomb_kings
+-- anc_set_exclusive_vampire_counts
+-- anc_set_exclusive_sc_empire
+-- anc_set_exclusive_norsca
+-- anc_set_exclusive_dwarfs
+-- anc_set_exclusive_beastmen
+-- anc_set_multi_beastmen_norsca_chaos
+-- anc_set_exclusive_greenskins
+-- anc_set_exclusive_wood_elves
+-- anc_set_exclusive_vampire_coast
+-- Due to this, now we'll get to access most of the followers via random drop. Some of them will be useless (ex: add pooled resources Araby doesn't use) if we want to avoid it, we need to make clone ancillaries. Simple but the problem is there are 236 ancillaries for the slave market, so better to not do it. 
+
+
+2023/12/26 Lingling
+- Added ability icons from DeadBaron
+- Added ui from Partyprus
+- Added longer historical descriptions to Magus, Fatandira and Jaffar
+
+2023/12/23 Shaky
+- Added tech text for placeholders and reworked some other text
+- Added a UI background for the tech trees
+
+2023/12/23 Ubermorgen
+- reworked/restructured tech tree and added a couple of new tech
+
+2023/12/22 Lingling
+- added Dave's unit cards
+- added Rhox pack
+- added Elons changes
+
+2023/12/18 Shaky
+- Urban/Nomad building effects
+- Nerfed Scythans starting diplomatic buff with Numas
+
+2023/12/18 Lingling
+- restored a slave rabble face and beard variant
+- added and fixed destroyed models for warmachines
+- added Dave's Genie and Waghzen unit card
+
+2023/12/16 Lingling
+- added pieces of eight effects to Golden Magus
+- added missing armour audio meta data to various units
+- fixed some more visual flaws that escaped me earlier
+
+2023/12/15 Wolfremio - Djinn Jaffar + misc fixes
+- added Djinn Jaffar model by BarboMarsh
+- Fixed some animation issues in the Djinn Jaffar animset
+- Added a rebel/QB dummy faction flag for Araby
+- Fatandira no longer sidesaddles her roc mount
+- Added loading screen quotes for Araby
+
+2023/12/14 Lingling - Asset QA
+- fixed various LOD and material issues
+- added quivers to all ranged units
+- all bow units consistently use the same bow and arrow during idle and firing anims (except one vanilla bug where huntsmen missile weapon use bret projectiles)
+- fixed fire vizier not using all 3 head variants (made matching icons too)
+- fixed viziers on carpets riding below their mount
+- fire efreet now only shoots one fireball (from his ass)
+- gave "elite shield set" to camel cataprahts constintent with black scimitar guard
+- added Barbos new Genie model
+- new model for Fatandiras Roc
+- slight adjustments to the elephant tech skeletons to reduce clipping issues as much as possible
+
+2023/12/06 Rhox
+1. Changed one of the starting spears of Jaffar to Knight
+2. Changed Fatandira's building to ovn_arb_city_barracks_2
+3. Changed position of TWUI of Fatandira as it was overlapping with the effect bundle holder
+4. Fatandira & Golden Magus tech link positions (shakyrivers)
+5. Added some failsafe for the Fatandira UI script
+6. Made a separate military group for Fatandira (Mostly for Slave UI exclude, but it's not working?)
+7. Slave effects won't show up for Fatandira (shakyrivers)
+
+2023/12/05 Lingling
+- added magic drain passive to Djinn Jaffar
+- added settlement display change for Sud and Akhaba in IEE to El-Kalabad script
+- added Shakys nomad/urban pack
+- added Elons balance changes
+- added Robies custom araby settlement pack
+
+2023/11/29 Rhox
+1. Removed the overriding function from treasure maps
+2. Excluded mount variant caravan master from the scapegoat
+3. Changed the stance icon and the effect name for Golden Magus (Stance icon is done by script and it doesn't change the one above his head since I don't want to deploy the real time listener)
+
+2023/11/28 Lingling
+- adjusted armor values and sounds when hit of the elephants to match the new visuals
+- slight buff to Fatandiras income buildings
+- CHANGED SCALE of elephants to make them more equal. Can be changed of course if there's no consent
+
+2023/11/28 Lingling
+- Fixed Djinn Carriage mount being equippable by other lord types
+- Added unique skill line to Sheikhs
+- Fixed Horse mount for Caravan Master
+- Replaced dummy text for How they Play notifs
+- Slight rework to infrastructure buildings to incorporate the slave mechanic better. Fatandira has her own set with no slave effects
+- Slight buffs for low tier infantry and cavalry and the artillery units (mainly leadership)
+
+2023/11/28 Rhox
+1. Fixed the issue of Araby Minor caravan not getting initial unit
+2, Fixed the issue of Genie Jaffar not showing General Portrait (PH image)
+3. Fixed the issue of Araby caravan complete notification not showing up
+4. Made non-unique ancillaries (Uniqueness score between 2~199) into fusionable one. Also made non-mount ancillaries unique score to 15 from 1
+5. Added missing contact effect icon for the arb_jaffar_serpent_djinn
+6. Removed ovn_skill_node_arb_caravan_master_mount_warhorse from caravan master's character node set items (as it will currently have ovn_skill_arb_lord_mount_horse and will cause error)
+7. Assigned a new index for the special ability as they overlap with Grudgebringer
+8. Removed wh3_main_effect_gotrek_felix_spawn effect from ovn_arb_order_1
+9. Added missing edict table
+10. Changed slave rabble cost to 200 from 300
+11. Added spiral public order effect to ovn_arb_slaves_2
+12. Added Slave Instant constructions to Jaffar and GM (and minor just in case)
+13. Changed slave button tooltip to localised string
+14. Added invisible urban meter (ovn_araby_urban_meter) and effect (rhox_araby_urban_meter_effect)
+15. Decreased the caravan value increase per turn to half (because only two faction uses this route)
+16. Changed mixer dummy flag to College
+
+2023/11/27 Shaky
+- UI Text Replacements
+- Tech Tree Update
+
+2023/11/27 Rhox
+Added how they play
+
+2023/11/27 Wolfremio
+1. Actual minor diplo string
+2. Recovered missing variant
+
+2023/11/27 Rhox
+1. Added locking element to Fatandira feature
+2. Added diplo lines for the minor guys
+2023/11/26 Wolfremio
+1. Barbomarsh's elephants in.
+Rhox
+1. Added Ogre slave
+2. Added GM encamp stance effect
+3. Changed how Fatandira ending works 
+
+2023/11/24-2 Rhox
+1. Changed the Mehmed location to Araby unification
+2. AI gets Mehmed on turn 50
+3. Defeat traits
+
+2023/11/24 Rhox
+1. 4.1 change applied to Caravan script (Also the caravan master, note that we need to add another if mount have been added to the guy)
+2. New twui for the Fatandira as former one does not work anymore
+3. Fatandira TK 100 effect and incident
+4. Fixed the GM mercenary issue
+5. Fixed the GM missing expansion stance
+6. Fixed the Bazaar problem by restoring PJ's JSON file
+7. Added name for the Wazar
+8. Fixed the issue of defeat enemy slave script not working
+9. Mehmed on final victory
+
+2023/11/23
+Lingling DB pass
+
+2023/09/30:
+1. Setup patch note under text/ovn_araby_patch_note.txt
+2. Setup the faction groups
+3. Seductive influence
+4. Chaos Warrior Soul thing
+5. Eltharion prison PH
+6. Greenskin Waaagh
+7. Building level fix
+2023/09/29: Lingling initial balance pass and building rework

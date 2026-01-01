@@ -1,0 +1,106 @@
+{
+    "Settings": {
+        "BnkName": "battle_vo_orders__ovn_vo_actor_Empire_Morgan_Bernhardt",
+        "Language": "english(uk)"
+    },
+
+    "DialogueEvents": [
+        {
+            "DialogueEvent": "battle_vo_order_generic_response",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\1. Yes M'lord.wav", 
+                        "D:\\2. Aye sir.wav", 
+                        "D:\\3. I live to cheat death.wav", 
+                        "D:\\4. I'll do what I must.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_select",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Commander.wav", 
+                        "D:\\4. Leader of the Grudgebringers.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_attack",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt.Any.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\1. Hack them to pieces.wav", 
+                        "D:\\2. Spill their blood.wav", 
+                        "D:\\3. To the death.wav", 
+                        "D:\\4. Crush them.wav", 
+                        "D:\\5. Attack.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_move",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt.Any.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\2. Yes M'lord.wav", 
+                        "D:\\3. Aye sir.wav", 
+                        "D:\\4. Move out.wav", 
+                        "D:\\5. We march.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_halt",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Halt.wav", 
+                        "D:\\2. Hold the ground men.wav", 
+                        "D:\\3. Stand your ground.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_withdraw_tactical",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Win or lose the crows never go hungry.wav", 
+                        "D:\\2. There are fewer tales of my defeats.wav", 
+                        "D:\\3. Withdraw.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_withdraw",
+            "DecisionTree": [
+                {
+                    "StatePath": "wh_main_vo_culture_Empire.ovn_vo_actor_Empire_Morgan_Bernhardt.Any",
+                    "Sounds": [
+                        "D:\\1. They're slaughtering us.wav", 
+                        "D:\\2. We fear the enemy.wav", 
+                        "D:\\3. Help us.wav"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,0 @@
-building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_araby_outpost								
-ovn_araby_allied_outpost_1		ovn_sc_arb_araby		wh_main_PLACEHOLDER	war_coordination_outpost	false	ovn_araby_allied_outpost_1	true
-ovn_araby_allied_outpost_2		ovn_sc_arb_araby		wh_main_PLACEHOLDER	war_coordination_outpost	false	ovn_araby_allied_outpost_2	true
-ovn_araby_allied_outpost_3		ovn_sc_arb_araby		wh_main_PLACEHOLDER	war_coordination_outpost	false	ovn_araby_allied_outpost_3	true

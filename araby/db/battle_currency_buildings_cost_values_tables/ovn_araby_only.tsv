@@ -1,0 +1,6 @@
+item_type	currency_type	cost_value
+#battle_currency_buildings_cost_values_tables;0;db/battle_currency_buildings_cost_values_tables/ovn_araby_only		
+arb_tower_placement_01	supplies_currency	500.0000
+arb_tower_placement_02	supplies_currency	900.0000
+arb_tower_placement_03	supplies_currency	1400.0000
+arb_tower_placement_04	supplies_currency	2000.0000

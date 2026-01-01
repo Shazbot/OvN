@@ -1,0 +1,5 @@
+key	order	icon_file_path	show_in_recruitment	counts_towards_caps_when_off_the_map
+#agent_recruitment_categories_tables;2;db/agent_recruitment_categories_tables/ovn_araby_only				
+araby_lord	1	UI\Common UI\unit_category_icons\commander.png	true	true
+arb_vizier	2	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png	true	true
+arb_caravan_master	3	UI\Common UI\unit_category_icons\commander.png	true	true

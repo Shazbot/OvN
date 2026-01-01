@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="sword 1h" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_copher_sipahi\arb_copher_sipahi_lance_1.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:lance</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

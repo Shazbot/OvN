@@ -1,0 +1,20 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/ovn_araby_only					
+ovn_arb_art_grand_bombard_ror	100.0000	1	ovn_arb_art_grand_bombard_ror	true	0.1000
+ovn_arb_veh_naphtha_thrower_ror	100.0000	1	ovn_arb_veh_naphtha_thrower_ror	true	0.1000
+ovn_arb_cav_lancer_camels_ror	100.0000	1	ovn_arb_cav_lancer_camels_ror	true	0.1000
+ovn_arb_cav_arabyan_knights_ror	100.0000	1	ovn_arb_cav_arabyan_knights_ror	true	0.1000
+ovn_arb_cav_sipahis_ror	100.0000	1	ovn_arb_cav_sipahis_ror	true	0.1000
+ovn_arb_cav_flying_carpets_ror	100.0000	1	ovn_arb_cav_flying_carpets_ror	true	0.1000
+ovn_arb_inf_arabyan_warriors_ror	100.0000	1	ovn_arb_inf_arabyan_warriors_ror	true	0.1000
+ovn_arb_mon_desert_spirit_ror	100.0000	1	ovn_arb_mon_desert_spirit_ror	true	0.1000
+ovn_arb_mon_fire_efreet_ror	100.0000	1	ovn_arb_mon_fire_efreet_ror	true	0.1000
+ovn_arb_mon_sea_nymph_ror	100.0000	1	ovn_arb_mon_sea_nymph_ror	true	0.1000
+ovn_arb_mon_war_elephant_ror_2	100.0000	1	ovn_arb_mon_war_elephant_ror_2	true	0.1000
+ovn_arb_mon_war_elephant_ror_1	100.0000	1	ovn_arb_mon_war_elephant_ror_1	true	0.1000
+ovn_arb_inf_jezzails_ror	100.0000	1	ovn_arb_inf_jezzails_ror	true	0.1000
+ovn_arb_mon_tempest_djinn_ror	100.0000	1	ovn_arb_mon_tempest_djinn_ror	true	0.1000
+ovn_arb_inf_arabyan_guard_ror	100.0000	1	ovn_arb_inf_arabyan_guard_ror	true	0.1000
+ovn_arb_inf_naffatun_ror	100.0000	1	ovn_arb_inf_naffatun_ror	true	0.1000
+ovn_arb_art_quadballista_ror	100.0000	1	ovn_arb_art_quadballista_ror	true	0.1000
+ovn_arb_inf_sharkas_slaves	100.0000	1	ovn_arb_inf_sharkas_slaves	true	0.1000

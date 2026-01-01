@@ -1,0 +1,474 @@
+{
+  "ProjectSettings": {
+    "Version": 1,
+    "OutputGame": "Warhammer3",
+    "BnkName": "battle_vo_conversational__ovn_vo_actor_Empire_Morgan_Bernhardt",
+    "Language": "english(uk)"
+  },
+  "Events": [],
+  "Actions": [],
+  "GameSounds": [
+    {
+      "Path": "D:\\1. They\u0027re slaughtering us.wav",
+      "DirectParentId": "49487983_random_container_54174191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_fearful",
+      "Name": "82211310_sound_53590457",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\2. We fear the enemy.wav",
+      "DirectParentId": "49487983_random_container_54174191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_fearful",
+      "Name": "60216896_sound_47093902",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\3. Help us.wav",
+      "DirectParentId": "49487983_random_container_54174191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_fearful",
+      "Name": "70783218_sound_66561465",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\1. Forward.wav",
+      "DirectParentId": "29053396_random_container_32313778",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+      "Name": "22233914_sound_63127118",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\2. Yes M\u0027lord.wav",
+      "DirectParentId": "29053396_random_container_32313778",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+      "Name": "42793935_sound_39826068",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\3. Aye sir.wav",
+      "DirectParentId": "29053396_random_container_32313778",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+      "Name": "91115663_sound_74767278",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\4. Move out.wav",
+      "DirectParentId": "29053396_random_container_32313778",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+      "Name": "29144041_sound_86441706",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\5. We march.wav",
+      "DirectParentId": "29053396_random_container_32313778",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+      "Name": "23138358_sound_29359330",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\1. They\u0027re slaughtering us.wav",
+      "DirectParentId": "10929795_random_container_49353524",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_routing",
+      "Name": "41431989_sound_17282757",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\2. We fear the enemy.wav",
+      "DirectParentId": "10929795_random_container_49353524",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_routing",
+      "Name": "56628103_sound_33347809",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\3. Help us.wav",
+      "DirectParentId": "10929795_random_container_49353524",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_own_unit_routing",
+      "Name": "62722724_sound_19031962",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\1. Hack them to pieces.wav",
+      "DirectParentId": "10746398_random_container_86436513",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_clash",
+      "Name": "19130738_sound_56031622",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\2. Spill their blood.wav",
+      "DirectParentId": "10746398_random_container_86436513",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_clash",
+      "Name": "90868115_sound_67642171",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\3. To the death.wav",
+      "DirectParentId": "10746398_random_container_86436513",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_clash",
+      "Name": "50831561_sound_41560531",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\4. Crush them.wav",
+      "DirectParentId": "10746398_random_container_86436513",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_clash",
+      "Name": "31382842_sound_13094796",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\1. They\u0027re slaughtering us.wav",
+      "DirectParentId": "89065910_random_container_82142088",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_dissapointment",
+      "Name": "45869029_sound_57971536",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\2. We fear the enemy.wav",
+      "DirectParentId": "89065910_random_container_82142088",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_dissapointment",
+      "Name": "51183411_sound_51526898",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\3. Help us.wav",
+      "DirectParentId": "89065910_random_container_82142088",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_dissapointment",
+      "Name": "50435570_sound_75450932",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\1. Win or lose the crows never go hungry.wav",
+      "DirectParentId": "89065910_random_container_82142088",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_dissapointment",
+      "Name": "95314496_sound_86064083",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\1. Hack them to pieces.wav",
+      "DirectParentId": "20946230_random_container_28377870",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_encouragement",
+      "Name": "80050176_sound_60881532",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\2. Spill their blood.wav",
+      "DirectParentId": "20946230_random_container_28377870",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_encouragement",
+      "Name": "41946924_sound_95817860",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\3. To the death.wav",
+      "DirectParentId": "20946230_random_container_28377870",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_encouragement",
+      "Name": "68537665_sound_75150175",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\4. Crush them.wav",
+      "DirectParentId": "20946230_random_container_28377870",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_conversation_encouragement",
+      "Name": "70927762_sound_85943404",
+      "OverrideId": 0
+    }
+  ],
+  "ActorMixers": [
+    {
+      "DirectParentId": 600762068,
+      "Children": [
+        "49487983_random_container_54174191"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_conversation_own_unit_fearful",
+      "Name": "87748617_mixer_71807313",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 600762068,
+      "Children": [
+        "29053396_random_container_32313778"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_conversation_own_unit_moving",
+      "Name": "38363727_mixer_21651557",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 600762068,
+      "Children": [
+        "10929795_random_container_49353524"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_conversation_own_unit_routing",
+      "Name": "84415177_mixer_88904065",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 600762068,
+      "Children": [
+        "10746398_random_container_86436513"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_conversation_clash",
+      "Name": "36146127_mixer_98708486",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 600762068,
+      "Children": [
+        "89065910_random_container_82142088"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_conversation_dissapointment",
+      "Name": "93355895_mixer_94404891",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 600762068,
+      "Children": [
+        "20946230_random_container_28377870"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_conversation_encouragement",
+      "Name": "33494299_mixer_94637564",
+      "OverrideId": 0
+    }
+  ],
+  "RandomContainers": [
+    {
+      "Children": [
+        "82211310_sound_53590457",
+        "60216896_sound_47093902",
+        "70783218_sound_66561465"
+      ],
+      "DirectParentId": "87748617_mixer_71807313",
+      "Name": "49487983_random_container_54174191",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "22233914_sound_63127118",
+        "42793935_sound_39826068",
+        "91115663_sound_74767278",
+        "29144041_sound_86441706",
+        "23138358_sound_29359330"
+      ],
+      "DirectParentId": "38363727_mixer_21651557",
+      "Name": "29053396_random_container_32313778",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "41431989_sound_17282757",
+        "56628103_sound_33347809",
+        "62722724_sound_19031962"
+      ],
+      "DirectParentId": "84415177_mixer_88904065",
+      "Name": "10929795_random_container_49353524",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "19130738_sound_56031622",
+        "90868115_sound_67642171",
+        "50831561_sound_41560531",
+        "31382842_sound_13094796"
+      ],
+      "DirectParentId": "36146127_mixer_98708486",
+      "Name": "10746398_random_container_86436513",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "45869029_sound_57971536",
+        "51183411_sound_51526898",
+        "50435570_sound_75450932",
+        "95314496_sound_86064083"
+      ],
+      "DirectParentId": "93355895_mixer_94404891",
+      "Name": "89065910_random_container_82142088",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "80050176_sound_60881532",
+        "41946924_sound_95817860",
+        "68537665_sound_75150175",
+        "70927762_sound_85943404"
+      ],
+      "DirectParentId": "33494299_mixer_94637564",
+      "Name": "20946230_random_container_28377870",
+      "OverrideId": 0
+    }
+  ],
+  "DialogueEvents": [
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 885803487,
+            "AudioNodeId": 3938069322,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "battle_vo_conversation_own_unit_fearful",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 885803487,
+            "AudioNodeId": 3104025497,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "battle_vo_conversation_own_unit_moving",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 885803487,
+            "AudioNodeId": 433802963,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "battle_vo_conversation_own_unit_routing",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 885803487,
+            "AudioNodeId": 2282228150,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "battle_vo_conversation_clash",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 885803487,
+            "AudioNodeId": 4004758101,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "battle_vo_conversation_dissapointment",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 885803487,
+            "AudioNodeId": 2427317320,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "battle_vo_conversation_encouragement",
+      "OverrideId": 0
+    }
+  ],
+  "DatStates": [
+    "ovn_vo_actor_Empire_Morgan_Bernhardt"
+  ]
+}

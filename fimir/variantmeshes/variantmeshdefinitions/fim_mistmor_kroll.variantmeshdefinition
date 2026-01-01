@@ -1,0 +1,37 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/body/mistmor_body.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/body/mistmor_body_2.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="armour" probability ="0.5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/body/mistmor_body_armour.wsmodel" />
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/mistmor_head.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/mistmor_head_2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/mistmor_head_3.wsmodel" />
+	</SLOT>
+	<SLOT name="horns" probability ="0.6" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_fimir_warriors/head/mistmor_head_horns_mouth.wsmodel" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\legs\mistmor_legs_1.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\legs\mistmor_legs_2.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\legs\mistmor_legs_3.wsmodel" />
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu7d\nor\nor_props\nor_dragon_ogre_hammer_2h_01.wsmodel" >
+			<META_DATA>equipment</META_DATA> <META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu7d\nor\nor_props\nor_dragon_ogre_hammer_2h_02.wsmodel" >
+			<META_DATA>equipment</META_DATA> <META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu7d\nor\nor_props\nor_dragon_ogre_hammer_2h_03.wsmodel" >
+			<META_DATA>equipment</META_DATA> <META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu7d\nor\nor_props\nor_dragon_ogre_hammer_2h_04.wsmodel" >
+			<META_DATA>equipment</META_DATA> <META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

@@ -1,0 +1,31 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/ovn_araby_only_nomad_urban						
+ovn_arb_city_barracks_1	rhox_araby_urban_meter_effect		building_to_faction_own	4.0000	2.0000	0.0000
+ovn_arb_city_barracks_2	rhox_araby_urban_meter_effect		building_to_faction_own	8.0000	4.0000	0.0000
+ovn_arb_city_barracks_3	rhox_araby_urban_meter_effect		building_to_faction_own	12.0000	6.0000	0.0000
+ovn_arb_city_barracks_4	rhox_araby_urban_meter_effect		building_to_faction_own	16.0000	8.0000	0.0000
+ovn_arb_artillery_1	rhox_araby_urban_meter_effect		building_to_faction_own	8.0000	4.0000	0.0000
+ovn_arb_artillery_2	rhox_araby_urban_meter_effect		building_to_faction_own	12.0000	6.0000	0.0000
+ovn_arb_artillery_3	rhox_araby_urban_meter_effect		building_to_faction_own	16.0000	8.0000	0.0000
+ovn_arb_elephants_1	rhox_araby_urban_meter_effect		building_to_faction_own	8.0000	4.0000	0.0000
+ovn_arb_elephants_2	rhox_araby_urban_meter_effect		building_to_faction_own	12.0000	6.0000	0.0000
+ovn_arb_djinn_1	rhox_araby_nomad_meter_effect		building_to_faction_own	-8.0000	-4.0000	0.0000
+ovn_arb_djinn_2	rhox_araby_nomad_meter_effect		building_to_faction_own	-12.0000	-6.0000	0.0000
+ovn_arb_djinn_3	rhox_araby_nomad_meter_effect		building_to_faction_own	-16.0000	-8.0000	0.0000
+ovn_arb_nomad_infantry_1	rhox_araby_nomad_meter_effect		building_to_faction_own	-8.0000	-4.0000	0.0000
+ovn_arb_nomad_infantry_2	rhox_araby_nomad_meter_effect		building_to_faction_own	-12.0000	-6.0000	0.0000
+ovn_arb_nomad_infantry_3	rhox_araby_nomad_meter_effect		building_to_faction_own	-16.0000	-8.0000	0.0000
+ovn_arb_nomad_cavalry_1	rhox_araby_nomad_meter_effect		building_to_faction_own	-4.0000	-2.0000	0.0000
+ovn_arb_nomad_cavalry_2	rhox_araby_nomad_meter_effect		building_to_faction_own	-8.0000	-4.0000	0.0000
+ovn_arb_nomad_cavalry_3	rhox_araby_nomad_meter_effect		building_to_faction_own	-12.0000	-6.0000	0.0000
+ovn_arb_nomad_cavalry_4	rhox_araby_nomad_meter_effect		building_to_faction_own	-16.0000	-8.0000	0.0000
+ovn_arb_djinn_1	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	8.0000	4.0000	0.0000
+ovn_arb_djinn_2	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	12.0000	6.0000	0.0000
+ovn_arb_djinn_3	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	16.0000	8.0000	0.0000
+ovn_arb_nomad_infantry_1	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	8.0000	4.0000	0.0000
+ovn_arb_nomad_infantry_2	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	12.0000	6.0000	0.0000
+ovn_arb_nomad_infantry_3	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	16.0000	8.0000	0.0000
+ovn_arb_nomad_cavalry_1	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	4.0000	2.0000	0.0000
+ovn_arb_nomad_cavalry_2	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	8.0000	4.0000	0.0000
+ovn_arb_nomad_cavalry_3	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	12.0000	6.0000	0.0000
+ovn_arb_nomad_cavalry_4	rhox_araby_nomad_meter_effect_dummy		building_to_faction_own	16.0000	8.0000	0.0000

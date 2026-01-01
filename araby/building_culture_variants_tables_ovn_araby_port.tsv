@@ -1,6 +1,0 @@
-building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables;4;db/building_culture_variants_tables/ovn_araby_port								
-ovn_araby_port_1		ovn_sc_arb_araby		wh_main_PLACEHOLDER	empire_port	false	ovn_arb_port_2	true
-ovn_araby_port_2		ovn_sc_arb_araby		wh_main_PLACEHOLDER	empire_port	false	ovn_arb_port_1	true
-ovn_araby_port_3		ovn_sc_arb_araby		wh_main_PLACEHOLDER	empire_port	false	ovn_arb_port_3	true
-ovn_araby_port_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	wh_main_settlement_major_ruin	true

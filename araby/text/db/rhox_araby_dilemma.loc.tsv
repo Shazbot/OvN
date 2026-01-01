@@ -1,0 +1,230 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_dilemma.loc		
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_cathay_caravanFIRST	Draw weapons	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_cathay_caravanFIRST	Fresh new slaves!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_cathay_caravanSECOND	We don't need the hassle	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_cathay_caravanSECOND	One lousy Caravan isn't worth the bother. The Cathayans can keep their lives for today, and their paltry cargo.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_dwarfsFIRST	Slaughter sounds nice!	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_dwarfsFIRST	We were short on short slaves	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_dwarfsSECOND	Let them go	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_dwarfsSECOND	What a waste of time	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_far_from_homeFIRST	Seize Their Treasures	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_far_from_homeFIRST	Fight them! Break their ancient bones and seize their wealth.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_far_from_homeSECOND	Move On	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_far_from_homeSECOND	We must not be distracted from our goal. Leave them to their Unlife.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_fresh_battlefieldFIRST	Numbers are superior	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_fresh_battlefieldFIRST	Join us. It’s not a choice.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_fresh_battlefieldSECOND	Empower the existing army	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_fresh_battlefieldSECOND	Empower the existing army with the corpses	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_hungry_daemonsFIRST	Kill these creatures	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_hungry_daemonsFIRST	Hungry are they? Well in that case they can fill their bellies with our blades!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_hungry_daemonsSECOND	Keep these beasts at bay	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_hungry_daemonsSECOND	What's a few sacrifices for the many? It was probably time to cull the weak anyway – these Daemons are doing you a favour!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_localised_elfsFIRST	Fight Them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_localised_elfsFIRST	We will crush this host and make our consignment even more lucrative than it already is!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_localised_elfsSECOND	Ignore Them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_localised_elfsSECOND	Hostilities and losses can be easily avoided if we just keep moving.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_offence_or_defenceFIRST	Sharper Axe Blades	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_offence_or_defenceFIRST	To end a fight as quickly and easily as possible, one needs the capacity to deal the lethal blow.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_offence_or_defenceSECOND	Sturdier Armour	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_offence_or_defenceSECOND	One who can endure the most dangerous and prolonged attacks has the best chance of landing a lethal counterattack.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_ogre_mercenariesFIRST	Take the Ogres' assistance	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_ogre_mercenariesFIRST	Who are we to leave these poor Ogre mercenaries without work? Times are hard, after all!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_ogre_mercenariesSECOND	Tell them to get lost	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_ogre_mercenariesSECOND	You are strong and independent. Who needs an Ogre anyway!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_power_overwhelmingFIRST	Feed It	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_power_overwhelmingFIRST	The urge to throw one of the retinue into this strange formation is hard to ignore; it feels like there is great power to be had here.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_power_overwhelmingSECOND	Ignore It	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_power_overwhelmingSECOND	Ignore it – it is best not to meddle in things we do not understand.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_quick_way_downFIRST	Take the Shortcut	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_quick_way_downFIRST	We can handle a few off-road chicanes – any potential losses will probably cost us less in the long run than gaining a reputation for tardiness.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_quick_way_downSECOND	Slow and Steady	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_quick_way_downSECOND	We should stick to the main route and avoid exposing the cargo to any unnecessary risks.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_rats_in_a_tunnelFIRST	Kill the rats	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_rats_in_a_tunnelFIRST	Kill some rats and reduce the length of our journey? Sounds like a win-win!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_rats_in_a_tunnelSECOND	Not worth it	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_rats_in_a_tunnelSECOND	We don’t know how many rats infest this convoy. The last thing we need is to be overwhelmed by the vermin!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_redeadifyFIRST	Destroy Them All	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_redeadifyFIRST	The smell of gunpowder is preferable to the smell of rotting flesh. Eliminate them!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_redeadifySECOND	Cover Our Escape	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_redeadifySECOND	Their sacrifice allows us to continue without further losses.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_the_ambushFIRST	Show them their place	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_the_ambushFIRST	Their attempts at an ambush are frankly so embarrassing it would be an insult to the Djinns to let them live.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_the_ambushSECOND	Let them get whoever is next	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_the_ambushSECOND	They might get lucky one day. Probably not any time soon, though.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_the_guideFIRST	Find your own path	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_the_guideFIRST	We don't need any guidance! We have an excellent sense of direction, thank you very much!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_the_guideSECOND	Pay and follow the guide	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_the_guideSECOND	We need to reach our destination quickly; this guide had better be worth the price!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_trading_dark_elfsFIRST	Accept the Beast	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_trading_dark_elfsFIRST	With this beast in our Caravan’s ranks, assailants will not consider us an easy target.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_trading_dark_elfsSECOND	Decline the Trade	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_trading_dark_elfsSECOND	It would be foolish to part with some of our cargo – we have no need for this beast and can adequately protect ourselves.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_training_campFIRST	Combat Drills	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_training_campFIRST	We can brook no frailty in this Caravan. This is time well invested.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_training_campSECOND	No Delays!	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_training_campSECOND	Training is always important, but we must not lose track of time.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_way_of_lavaFIRST	Stick to the Road	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_way_of_lavaFIRST	We cannot risk this untested path.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_way_of_lavaSECOND	Through Storm	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_way_of_lavaSECOND	Our troops can handle a few losses.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_cathay_caravan	Caravan Encounter! Cathay Caravan	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_cathay_caravan	A lonely Caravan has been spotted trundling through nearby land, bearing the banners of Cathay. No doubt the products of the so-called Celestial Empire would be worth snatching for ourselves, yet such spoils are not likely to lie unguarded.\\n\\nA choice between killing or caution. It seems the answer is clear...	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_dwarfs	Caravan Encounter! A Dwarf Too Far	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_dwarfs	A wandering Caravan of Dwarfs has entered our sight. Should we attack them for a fresh new set of slaves?	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_far_from_home	Caravan Encounter! Unceasing March	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_far_from_home	Signs of a troop column have been spotted ahead. Judging by the tracks, it looks as though this force has been moving without sleep or pause. Cresting the next hill, the gleam of bone and gold can be seen throughout the army. A host of Tomb Kings, richly adorned, is marching through this area. Their destination is unclear, but their opulence is not. We could descend upon them, and claim their riches for ourselves!	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_fresh_battlefield	Caravan Encounter! Fresh Battlefield	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_fresh_battlefield	It seems like there was a big battle nearby, we can take some of the remnants or use the equipment to empower the existing troops. 	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_hungry_daemons	Caravan Encounter! Hungry Daemons	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_hungry_daemons	Traversing realms is hungry work if these Daemons we've encountered are to be believed. You could choose to sate their gluttonous appetites in the hopes of avoiding a fight. Yet, on the other hand, death would solve their hunger too…	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_localised_elfs	Caravan Encounter! Elfy Profits	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_localised_elfs	Unfortunate wretches of many races travel the sea to gather wealth. Yet while out on assignment, even our Caravan knows not to pass up the opportunity to attain more of the "right tools" for the job, having encountered a High Elf host from whom much profit could be forcibly reaped – both in long-limbed Labourers and loot reaped from beardless corpses.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_offence_or_defence	Caravan Encounter! Dark Magic Artefact	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_offence_or_defence	A great artefact of dark magic has come to our grasp. However, we need to decide which equipment we should empower to give the Caravan the greatest chance of successfully repelling any threats.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_ogre_mercenaries	Caravan Encounter! Ogre Mercenaries	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_ogre_mercenaries	The strength of an Ogre is unmatched anywhere! At least, that's what this group of rotund mercenaries assured us when offering to guard our trade Caravan on its route. Their claim is ridiculous but the extra muscle wouldn't go amiss. Ogres' services, however, certainly would not come free of charge.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_power_overwhelming	Caravan Encounter! A Whisper	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_power_overwhelming	Without warning, a sudden chill rushes through the bones. A torrent of whispers floods the heads of the warriors, all repeating the same thing.\\n\\n[[i]]"Make a sacrifice, and overwhelming power shall be yours…"[[/i]]	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_quick_way_down	Caravan Encounter! A Quick Way	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_quick_way_down	The Caravan Master scouts a quicker route which would make up for the lost time. However, looking at the weather, that shortcut would result in some damaged 'goods'.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_rats_in_a_tunnel	Caravan Encounter! Rats	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_rats_in_a_tunnel	This ship is filled with rats! Unless we have dealt with them sooner or we will have to make a stop to refill our supplies. Maybe we need to track them all and kill them.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_redeadify	Caravan Encounter! Skulking Horde	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_redeadify	Fog has descended around our Caravan. The smell is putrid and shuffling shapes can be glimpsed in the haze. This land around us teems with their shambling forms; we have stumbled, unwittingly, into the domain of the Undead. These creatures can be confronted head-on and the wretches put down for good or, alternatively, we can order some of our number to distract them while we make our escape, though they will ultimately have no hope against the necrotic masses.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_the_ambush	Caravan Encounter! The Ambush	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_the_ambush	Stealth is possibly not the strong suit of our would-be ambushers, who visibly await our Caravan from some rather questionable 'hiding' places. We could avoid them easily, of course, but it almost seems a disservice not to show them what a true ambush looks like...	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_the_guide	Caravan Encounter! The Guide	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_the_guide	A guide has tracked down our Caravan, offering to lead the way to our destination in exchange for a reasonable donation to his pockets. His price is frankly extortionate, but as they say in business, time is of the essence.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_trading_dark_elfs	Caravan Encounter! The Beastmaster	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_trading_dark_elfs	A cacophony of roars and feral shrieks rings out ahead of your Caravan – a Dark Elf Beastmaster approaches! By the look of his shackled beasts, he is recently returned from an expedition into Norsca and poses little threat, his retinue of hunters visibly weary and battered from their run-ins with the Northmen and critters of the tundra. With a tired Druchii sneer, he offers the Caravan one of his creatures in exchange for some slaves. Though we care little for the Dark Elf’s plight, such a beast could be useful against future threats.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_training_camp	Caravan Encounter! Duelling Shrine	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_training_camp	The day may have just begun, but one of the scouts has already spotted a wide, flat, stone platform in an isolated area. A series of eight steps leads to an eight-sided arena, with grooves carved in the floor to drain the blood spilled. Unmistakably, this is a Khornate combat shrine: the perfect location to tutor troops and beat the weakness out of them.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_way_of_lava	Caravan Encounter! The Path of Storms	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_way_of_lava	A strong current is in front of our eyes. We can traverse this rough current and reach our destination sooner, but it may take the lives of some of our weaker personnel.	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_tk_crypt	Caravan Encounter! Tomb King Crypt	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_skaven_ambush	Caravan Encounter! Skaven Ambush	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_def_black_ark_reinforcement_battle	Caravan Encounter! Black Ark	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_cst_treasure_map	Caravan Encounter! Here be treasure	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_hef_tax_reinforcement_battle	Caravan Encounter! A taxing journey	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_wooden_lamp	Caravan Encounter! The Wooden Lamp	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_brt_errant	Caravan Encounter! Errant Revenge	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_hef_tribute	Caravan Encounter! Tribute to the Phoenix King	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_def_corsair	Caravan Encounter! Corsairs!	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_emp_mercenaries	Caravan Encounter! Northern Mercenaries	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_chd_cannon_reinforcement_battle	Caravan Encounter! Smoke Signals	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_dwf_thane_reinforcement_battle	Caravan Encounter! The Mountain Folks Caravan	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_vmp_shortcut	Caravan Encounter! The Heirs of Mourkain	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_fimir_battle	Caravan Encounter! Beware the Marshes	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_teb_reinforcement	Caravan Encounter! A Paramour in Pavona	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_gnoblar_reinforcement	Caravan Encounter! One Man’s Treasure is Another Gnoblar’s Treasure	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_tmb_reinforcement_battle	Caravan Encounter! Walk Like a Nehekharan	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_dk_battle	Caravan Encounter! A Tithe of Bone	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_brt_battle	Caravan Encounter! Arabyan Arms	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_arb_carpet	Caravan Encounter! Djinn Master's Caravan	false
+dilemmas_localised_title_rhox_araby_jaffar_dilemma_arb_rope	Caravan Encounter! Ambushed by Rope Djinns!	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_tk_crypt	One of your caravans has crossed a Tomb King crypt, one owned by a dynasty that despises your caravans' objective. They demand all portions of your caravan's goods.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_skaven_ambush	Along the road, some of your caravaneers are ambushed, the sky being blotted out with smoke and chittering filling the air. They offer usage of their Underways to speed up your journey, if only for 1300 gold and some of your goods. 	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_def_black_ark_reinforcement_battle	Your caravan is halted by a far-flung Black Ark, seemingly here for piracy. Eyeing your slaves, and desperate for anything, they make a deal. They will take some of your slaves, and you will take some of their finest soldiers.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_cst_treasure_map	It is no secret that the southern seas are home to many hidden coves and islands where the pirates of Sartosa like to hide their booty. As it happens you spot a pirate crew digging around on a shore not too far away from you. Fighting them might not be part of your route but it might get you whatever they are looking for… 	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_hef_tax_reinforcement_battle	The High Elves are infamous for thinking of themselves as the guardians of the world, this part included. A force sent from Ulthuan to one of their far-flung colonies happens upon your caravan and makes it very clear that you are to pay a tax to the Phoenix court for conducting trade here. Of course, some handlers would have to be assigned to you for the rest of your journeys too to keep you “safe”. They don’t seem to give us much of a choice...	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_wooden_lamp	Your caravan stops some distance from a gigantic lamp-shaped tree. Is it merely a mirage? Surely a foreboding one, and right in the middle of the only viable path. What should we do? 	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_brt_errant	Our Caravan has come upon a minor Bretonnian Errantry led by a Noble bearing the familial name of one of the original Bretonnian Crusaders who invaded our shores! We have a chance to avenge our Ancestors deaths by the hands of these Savages or we can continue on our path.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_hef_tribute	 Our Caravan has been halted by a force of High Elves who demand we pay the customary Tribute to the Phoenix King, the Elves think these trade-routes are their property and are citing all sorts of ancient treaties to prove their claim.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_def_corsair	Our Caravans are used to dealing with Corsairs from our own shores, but this time some intrepid Corsair Captain has organised a large force to halt our progress and demands we hand over tribute to be allowed safe passage.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_emp_mercenaries	We have stumbled upon a band of Soldiers of Fortune from the Northern Empire. While their customs and beliefs are weird, especially their dogmatic belief in their man god ‘Sigmar’, they can be reliable soldiers. Let's hope they learn to wash themselves properly while in our employ if we hire them.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_chd_cannon_reinforcement_battle	We spotted a smoke column in the distance, upon further inspection we noticed that it was moving, specifically it is moving towards us; it’s a Chaos Dwarf convoy, led by a priest of Hashut, upon their approach, they make their intentions clear: they are looking to trade, and they won't take no for an answer.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_dwf_thane_reinforcement_battle	As we track across the lands near the mountains you spotted a Dwarfen caravan. Upon the approach one Thane approached and wishes to follow along with our caravan because of grudges against members of his current group. But the sharp eyes amongst you also notice that the caravan also brings with them plenty of treasure, and for those with a thirst for more gold this is easy pickings.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_vmp_shortcut	 As our caravan stops for the night at a shady oasis they encounter a tribe of the nomadic Strigany people. These folk ply the roads same as us but their customs are odd to say the least. The head of the tribe, a wise-woman bedecked in patchwork fabrics and fetishes of bone, meets with our caravan leader and offers to guide us to a shortcut through these dangerous lands in exchange for some of our cargo.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_fimir_battle	Strange mists surround our caravan as we are forced to push the wagons through a muddy mire. The beasts of burden are ill at ease as bloated flies hover over us like buzzards circling a desert meal and the thick, humid air makes each laboured breath harder to endure. Just when we thought things couldn’t get any worse, a shrill cry is heard over the din of swamplife and a ululating horde of one-eyed monsters emerge from the waters with crude weapons and vile magic in hand.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_teb_reinforcement	It is said that our caravan leader is a paramour of the famed Princess of Pavona herself, Lucrezzia Belladonna. After their last meeting she promised a lavish gift in the future and now a delegation of mercenaries from Pavona has found our caravan and they present a gift from their employer.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_gnoblar_reinforcement	While travelling on the road our caravan spots a lumbering beast hauling a ramshackle wagon crewed by a scrawny bunch of Gnoblars. The wagon pulls alongside of us and the head of this odd band, a spectacled Gnoblar wearing a turban of Arabyan fashion, speaks to our caravan leader of his journeys throughout these lands. He eyes our cargo the entire time and he asks for some of it to fund his latest invention, the Gnoblar Gnose Gnourisher. He offers you the services of his guards in return for your shiny scrap.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_tmb_reinforcement_battle	While travelling along the rolling dunes of Nehekhara our caravan chances upon a tomb that has been uncovered by the desert winds. The tomb appears to be untouched by time and ripe for the picking. Once inside, the men encounter a regally dressed skeleton who claims to be a prince and that our caravan leader is his long lost king. The skeleton promises to guard his “king” for eternity but all the men see are the riches that were buried here alongside the prince.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_dk_battle	As our caravan traverses past a once empty ruin they notice that there is a gleaming light far down the road. The caravan approaches this light but it soon resolves into the image of an army on the march. Rank upon rank of skeletons march in perfect lockstep and hulking beasts of bone are spotted behind them. It appears they are marching this way and they most definitely see the caravan.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_brt_battle	While travelling through foreign lands, your caravan encounters a local force equipped with fine blades of ensorcelled Arabyan steel. Very familiar blades, as a matter of fact. Upon inquiring about the situation, you discover that these blades were recovered from an Arabyan shipwreck their master recently looted. One of your merchant vessels, it seems, lost at sea not too long ago. By rights, these blades are yours.	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_arb_carpet	We hear our fellow Arabyan caravan before we see it, great drums pounding on the backs of elephants, oud lutes plucking sweet notes, and the sound of Arabyan marching songs splitting the air. The caravan master scoffs, for surely this lesser caravan cannot match our wealth and glory. But then we see them, riders on Flying Carpets! Outrageous! How dare this lesser caravan have such prestigious allies?!	false
+dilemmas_localised_description_rhox_araby_jaffar_dilemma_arb_rope	As we come to a desert outpost, we see a terrible sight. The guards are all missing, and blood is everywhere! As we search the outpost to discover what could have caused such a tragedy, the men shout in alarm! A swarm of furious Rope Djinns, angered at having been bound in such a manner, ready themselves to attack!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_tk_cryptFIRST	Refuse	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_tk_cryptFIRST	To Battle	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_skaven_ambushFIRST	Refuse	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_skaven_ambushFIRST	To Battle	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_def_black_ark_reinforcement_battleFIRST	Refuse	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_def_black_ark_reinforcement_battleFIRST	To Battle	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_cst_treasure_mapFIRST	Fight and steal the map	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_cst_treasure_mapFIRST	“Whatever they are digging for might fetch a nice price at the marketplace…” 	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_hef_tax_reinforcement_battleFIRST	Refuse	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_hef_tax_reinforcement_battleFIRST	“How about we show them who really owns this land?”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_wooden_lampFIRST	Rub	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_wooden_lampFIRST	Rub the Tree are you daft? There shall be no lamp unrubbed on my path.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_brt_errantFIRST	Avenge our ancestors	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_brt_errantFIRST	Honour demands it!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_hef_tributeFIRST	Attack	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_hef_tributeFIRST	To Battle	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_def_corsairFIRST	Attack	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_def_corsairFIRST	To Battle	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_emp_mercenariesFIRST	Hire Them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_emp_mercenariesFIRST	Hire Them	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_chd_cannon_reinforcement_battleFIRST	Refuse	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_chd_cannon_reinforcement_battleFIRST	"We're sorry but at the moment we're a bit short on slaves"	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_dwf_thane_reinforcement_battleFIRST	Attack	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_dwf_thane_reinforcement_battleFIRST	“The extra hand is nice but the gold is nicer.” 	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_vmp_shortcutFIRST	Accept	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_vmp_shortcutFIRST	“Guide me oh wise one.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_fimir_battleFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_fimir_battleFIRST	“Stand your ground!”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_teb_reinforcementFIRST	Use gift to recruit mercenaries	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_teb_reinforcementFIRST	“How would you like to work for me?”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_gnoblar_reinforcementFIRST	Rob the Scrapper and claim his scrap for yourself	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_gnoblar_reinforcementFIRST	“I think I’ll just take your scrap.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_tmb_reinforcement_battleFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_tmb_reinforcement_battleFIRST	“This belongs in a bazaar!”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_dk_battleFIRST	Fight	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_dk_battleFIRST	To arms!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_brt_battleFIRST	Demand the return of the weapons	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_brt_battleFIRST	Demand the return of the weapons	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_arb_carpetFIRST	Punish the rival caravan for their insolence	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_arb_carpetFIRST	These fools dare have better steeds than us?! We must attack these upstarts and take their Flying Carpets for ourselves!	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_arb_ropeFIRST	Fight as best we can!	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_arb_ropeFIRST	We ready ourselves for a battle, but it's over too quickly. The ropes are blurs of carnage, and a whole unit is slaughtered before we flee the outpost! At least the men who survive are hardened by the experience.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_tk_cryptSECOND	Pay the price	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_tk_cryptSECOND	"May the Djinns never guide us along that path again."	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_skaven_ambushSECOND	Pay the price	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_skaven_ambushSECOND	"We do not know who these strange people are, but their offer is kind."	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_def_black_ark_reinforcement_battleSECOND	Accept the Offer	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_def_black_ark_reinforcement_battleSECOND	"They barter well for torturers. We accept."	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_cst_treasure_mapSECOND	It's not worth the hassle	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_cst_treasure_mapSECOND	“We have a schedule to keep.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_hef_tax_reinforcement_battleSECOND	Pay Tribute	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_hef_tax_reinforcement_battleSECOND	“Though it never feels good to validate haughty elves, help is always needed… ”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_wooden_lampSECOND	Water the Tree	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_wooden_lampSECOND	This is obviously a test. And I am a generous man.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_brt_errantSECOND	Just go the way	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_brt_errantSECOND	This Noble is not their Ancestor.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_hef_tributeSECOND	Pay Tribute	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_hef_tributeSECOND	Pay Tribute	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_def_corsairSECOND	Pay Tribute	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_def_corsairSECOND	Pay Tribute	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_emp_mercenariesSECOND	Decline the offer	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_emp_mercenariesSECOND	Decline the offer	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_chd_cannon_reinforcement_battleSECOND	Accept the Offer	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_chd_cannon_reinforcement_battleSECOND	"They drive a hard bargain, but we really don't want to anger them "	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_dwf_thane_reinforcement_battleSECOND	Accept the Dwarf	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_dwf_thane_reinforcement_battleSECOND	“Join us. We can always use an extra short hand.” 	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_vmp_shortcutSECOND	Reject the Offer	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_vmp_shortcutSECOND	“Away from me, witch.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_fimir_battleSECOND	Escape by leaving the weapons	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_fimir_battleSECOND	“Leave the wagons and take all you can carry.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_teb_reinforcementSECOND	Accept the gift	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_teb_reinforcementSECOND	 “Money! It’s what I’ve always wanted.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_gnoblar_reinforcementSECOND	Give some cargo	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_gnoblar_reinforcementSECOND	“A fair trade to be sure.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_tmb_reinforcement_battleSECOND	Recruit	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_tmb_reinforcement_battleSECOND	“It’s good to be the king.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_dk_battleSECOND	Make a deal	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_dk_battleSECOND	“I prefer to keep my bones.”	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_brt_battleSECOND	Let him keep the blade	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_brt_battleSECOND	And inform them where they can acquire more	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_arb_carpetSECOND	Trade with the fellow caravan	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_arb_carpetSECOND	Any caravan master wealthy enough to afford such luxury will know the value of our cargo. We'll use it to buy ALL his carpets, rather than simply scavenging whatever's left after a battle. 	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_araby_jaffar_dilemma_arb_ropeSECOND	Retreat and bind them from afar!	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_araby_jaffar_dilemma_arb_ropeSECOND	We retreat before the Rope Djinns attack, and our Magicians begin the rituals of binding. This will take some time...	false

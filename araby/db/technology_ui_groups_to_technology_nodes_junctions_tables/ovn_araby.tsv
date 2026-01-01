@@ -1,0 +1,9 @@
+tech_ui_group	bottom_right_node	top_left_node	optional_top_right_node	optional_bottom_left_node
+#technology_ui_groups_to_technology_nodes_junctions_tables;2;db/technology_ui_groups_to_technology_nodes_junctions_tables/ovn_araby				
+arb_1	araby_tech_good_mil_1	araby_tech_good_civ_2		
+arb_2	araby_tech_bad_civ_0	araby_tech_good_civ_0		
+arb_2_scythan	araby_tech_bad_civ_0	scythan_tech_unique_0		
+arb_3	araby_tech_good_mil_3	araby_tech_good_civ_4		
+arb_4	araby_tech_bad_mil_1	araby_tech_bad_civ_2		
+arb_5	araby_tech_bad_mil_3	araby_tech_bad_civ_4		
+arb_6	araby_tech_bad_mil_0	araby_tech_bad_civ_0		

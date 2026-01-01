@@ -1,8 +1,11 @@
 local rancor_hold_faction_key = "ovn_fim_rancor_hold"
 
-local fimir_faction_keys = {
+local fimir_major_faction_keys = {
     "ovn_fim_rancor_hold",
     "ovn_fim_tendrils_of_doom",
+}
+
+local fimir_minor_faction_keys = {
     "ovn_fim_marsh_hornets",
     "ovn_fim_mist_dragons",
 }
@@ -166,8 +169,11 @@ local function add_regions_mist()
 end
 
 local function on_every_first_tick()
-    for _, fimir_faction_key in ipairs(fimir_faction_keys) do
+    for _, fimir_faction_key in ipairs(fimir_major_faction_keys) do
         cm:force_change_cai_faction_personality(fimir_faction_key, "wh3_combi_norsca_wulfrik")
+    end
+    for _, fimir_faction_key in ipairs(fimir_minor_faction_keys) do
+        cm:force_change_cai_faction_personality(fimir_faction_key, "wh3_combi_norsca_minor")
     end
 
     add_regions_mist()
@@ -370,5 +376,6 @@ function()
         end,
         3
     )
+    waaagh.rewards["chaos"].culture["ovn_fimir"]=true --waaagh thing
 end
 )

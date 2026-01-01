@@ -1,0 +1,107 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_factions.loc		
+factions_screen_name_ovn_arb_sultanate_of_all_araby	Sultanate of Araby	true
+factions_defend_desc_ovn_arb_sultanate_of_all_araby	You are defending against the Sultanate of Araby!	true
+factions_attack_desc_ovn_arb_sultanate_of_all_araby	You are attacking the Sultanate of Araby!	true
+factions_screen_adjective_ovn_arb_sultanate_of_all_araby	Sultanate of Araby	true
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_all_araby	Arabyan Rebels	true
+factions_screen_name_ovn_arb_aswad_scythans	Aswad Scythans	true
+factions_defend_desc_ovn_arb_aswad_scythans	You are defending against the Aswad Scythans!	true
+factions_attack_desc_ovn_arb_aswad_scythans	You are attacking the Aswad Scythans!	true
+factions_screen_adjective_ovn_arb_aswad_scythans	Aswad Scythans	true
+factions_screen_name_when_rebels_ovn_arb_aswad_scythans	Aswad Scythan Rebels	true
+factions_screen_name_ovn_arb_golden_fleet	The Golden Fleet	true
+factions_defend_desc_ovn_arb_golden_fleet	You are defending against the Golden Fleet!	true
+factions_attack_desc_ovn_arb_golden_fleet	You are attacking the Golden Fleet!	true
+factions_screen_adjective_ovn_arb_golden_fleet	The Golden Fleet	true
+factions_screen_name_when_rebels_ovn_arb_golden_fleet	Golden Fleet Mutineers	true
+factions_screen_name_ovn_arb_sultanate_of_all_araby_custom_battle_only	Sultanate of Araby	true
+factions_defend_desc_ovn_arb_sultanate_of_all_araby_custom_battle_only	You are defending against the Sultanate of Araby!	true
+factions_attack_desc_ovn_arb_sultanate_of_all_araby_custom_battle_only	You are attacking the Sultanate of Araby!	true
+factions_screen_adjective_ovn_arb_sultanate_of_all_araby_custom_battle_only	Sultanate of Araby	true
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_all_araby_custom_battle_only	Arabyan Rebels	true
+factions_screen_name_ovn_arb_aswad_scythans_custom_battle_only	Aswad Scythans	true
+factions_defend_desc_ovn_arb_aswad_scythans_custom_battle_only	You are defending against the Aswad Scythans!	true
+factions_attack_desc_ovn_arb_aswad_scythans_custom_battle_only	You are attacking the Aswad Scythans!	true
+factions_screen_adjective_ovn_arb_aswad_scythans_custom_battle_only	Aswad Scythans	true
+factions_screen_name_when_rebels_ovn_arb_aswad_scythans_custom_battle_only	Aswad Scythan Rebels	true
+factions_screen_name_ovn_arb_golden_fleet_custom_battle_only	The Golden Fleet	true
+factions_defend_desc_ovn_arb_golden_fleet_custom_battle_only	You are defending against the Golden Fleet!	true
+factions_attack_desc_ovn_arb_golden_fleet_custom_battle_only	You are attacking the Golden Fleet!	true
+factions_screen_adjective_ovn_arb_golden_fleet_custom_battle_only	The Golden Fleet	true
+factions_screen_name_when_rebels_ovn_arb_golden_fleet_custom_battle_only	Golden Fleet Mutineers	true
+factions_screen_name_ovn_arb_sultanate_of_martek_custom_battle_only	Sultanate of Martek	true
+factions_defend_desc_ovn_arb_sultanate_of_martek_custom_battle_only	You are defending against the Sultanate of Martek!	true
+factions_attack_desc_ovn_arb_sultanate_of_martek_custom_battle_only	You are attacking the Sultanate of Martek!	true
+factions_screen_adjective_ovn_arb_sultanate_of_martek_custom_battle_only	Sultanate of Martek	true
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_martek_custom_battle_only	Martek Rebels	true
+factions_screen_name_ovn_arb_sultanate_of_copher_custom_battle_only	Sultanate of Copher	true
+factions_defend_desc_ovn_arb_sultanate_of_copher_custom_battle_only	You are defending against the Sultanate of Copher!	true
+factions_attack_desc_ovn_arb_sultanate_of_copher_custom_battle_only	You are attacking the Sultanate of Copher!	true
+factions_screen_adjective_ovn_arb_sultanate_of_copher_custom_battle_only	Sultanate of Copher	true
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_copher_custom_battle_only	Copher Rebels	true
+factions_screen_name_ovn_arb_principality_of_fyrus_custom_battle_only	Principality of Fyrus	true
+factions_defend_desc_ovn_arb_principality_of_fyrus_custom_battle_only	You are defending against the Principality of Fyrus!	true
+factions_attack_desc_ovn_arb_principality_of_fyrus_custom_battle_only	You are attacking the Principality of Fyrus!	true
+factions_screen_adjective_ovn_arb_principality_of_fyrus_custom_battle_only	Principality of Fyrus	true
+factions_screen_name_when_rebels_ovn_arb_principality_of_fyrus_custom_battle_only	Fyrus Rebels	true
+factions_screen_name_ovn_arb_sultanate_of_el-kalabad_custom_battle_only	Sultanate of El-Kalabad	true
+factions_defend_desc_ovn_arb_sultanate_of_el-kalabad_custom_battle_only	You are defending against the Sultanate of El-Kalabad!	true
+factions_attack_desc_ovn_arb_sultanate_of_el-kalabad_custom_battle_only	You are attacking the Sultanate of El-Kalabad!	true
+factions_screen_adjective_ovn_arb_sultanate_of_el-kalabad_custom_battle_only	Sultanate of El-Kalabad	true
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_el-kalabad_custom_battle_only	El-Kalabad Rebels	true
+factions_screen_name_ovn_arb_corsairs_of_lashiek_custom_battle_only	Corsairs of Lashiek	true
+factions_defend_desc_ovn_arb_corsairs_of_lashiek_custom_battle_only	You are defending against the Corsairs of Lashiek!	true
+factions_attack_desc_ovn_arb_corsairs_of_lashiek_custom_battle_only	You are attacking the Corsairs of Lashiek!	true
+factions_screen_adjective_ovn_arb_corsairs_of_lashiek_custom_battle_only	Corsairs of Lashiek	true
+factions_screen_name_when_rebels_ovn_arb_corsairs_of_lashiek_custom_battle_only	Lashiek Mutineers	true
+factions_screen_name_ovn_arb_sultanate_of_ka-sabar_custom_battle_only	Sultanate of Ka-Sabar	true
+factions_defend_desc_ovn_arb_sultanate_of_ka-sabar_custom_battle_only	You are defending against the Sultanate of Ka-Sabar!	true
+factions_attack_desc_ovn_arb_sultanate_of_ka-sabar_custom_battle_only	You are attacking the Sultanate of Ka-Sabar!	true
+factions_screen_adjective_ovn_arb_sultanate_of_ka-sabar_custom_battle_only	Sultanate of Ka-Sabar	true
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_ka-sabar_custom_battle_only	Ka-Sabar Rebels	true
+factions_screen_name_ovn_arabyan_college_of_sorcerers_custom_battle_only	Arabyan College of Sorcerers	true
+factions_defend_desc_ovn_arabyan_college_of_sorcerers_custom_battle_only	You are defending against the Arabyan College of Sorcerers!	true
+factions_attack_desc_ovn_arabyan_college_of_sorcerers_custom_battle_only	You are attacking the Arabyan College of Sorcerers!	true
+factions_screen_adjective_ovn_arabyan_college_of_sorcerers_custom_battle_only	Arabyan College of Sorcerers	true
+factions_screen_name_when_rebels_ovn_arabyan_college_of_sorcerers_custom_battle_only	Student Protesters	true
+factions_screen_name_ovn_arb_cult_of_the_djinns_custom_battle_only	Cult of the Djinn	true
+factions_defend_desc_ovn_arb_cult_of_the_djinns_custom_battle_only	You are defending against the Cult of the Djinn!	true
+factions_attack_desc_ovn_arb_cult_of_the_djinns_custom_battle_only	You are attacking the Cult of the Djinn!	true
+factions_screen_adjective_ovn_arb_cult_of_the_djinns_custom_battle_only	Cult of the Djinn	true
+factions_screen_name_when_rebels_ovn_arb_cult_of_the_djinns_custom_battle_only	Djinn Fanatics	true
+faction_groups_description_localised_ovn_group_araby		true
+faction_groups_name_localised_ovn_group_araby	Araby	true
+event_feed_strings_text_ovn_araby_how_they_play_jaffar	[[col:green]]Complete Jaffar's Revenge by uniting all of Araby and conquering Estalia, Tilea and Bretonnia to earn great rewards.[[/col]]\\n\\n[[img:icon_caravan_cargo]][[/img]] [[col:green]]Send trade caravans across the world via [[/col]] [[url:script_link_campaign_ivory_road]][[tooltip:{{tt:tooltip_campaign_ivory_road}}]]Jellaba's Way[[/tooltip]][[/url]] [[col:green]]and navigate risks en route to reap great financial rewards.[[/col]]\\n\\n[[img:icon_slaves]][[/img]] [[col:green]]Capture[[/col]] [[sl_link:campaign_slaves]]Slaves[[/sl_link]] [[col:green]]to receive greater bonuses from certain buildings, enable instant building construction, barter for powerful items in the Grand Bazaar, or instantly recruit Slave Rabble units. Use Diktats to maintain slave population and gain additional effects.[[/col]]\\n\\n[[col:green]]The nobles of Araby are constantly warring with each other. Both the [[img:icon_urban_elites]][[/img]]Urban Elites and the [[img:icon_nomad_chiefs]][[/img]]Nomad Chiefs vie for control. The influence of either side is strengthened by constructing urban or nomadic aligned buildings. When one side gains the upper hand, you receive greater bonuses from certain buildings.[[/col]]	true
+event_feed_strings_text_ovn_araby_how_they_play_gm	[[img:icon_pirate_crew]][[/img]] [[col:green]]Use your faction leader’s access to[[/col]] [[url:script_link_campaign_ship_building]][[tooltip:{{tt:tooltip_campaign_ship_building}}]]shipbuilding[[/tooltip]][[/url]] [[col:green]]to upgrade their ship’s features, unlocking units and providing bonuses for the ship and crew.[[/col]]\\n\\n[[img:icon_infamy]][[/img]] [[col:green]]Increase your[[/col]] [[url:script_link_campaign_infamy]][[tooltip:{{tt:tooltip_campaign_infamy}}]]Infamy[[/tooltip]][[/url]] [[col:green]]rank throughout the campaign and attain possession of the[[/col]] [[url:script_link_campaign_sea_shanties]][[tooltip:{{tt:tooltip_campaign_sea_shanties}}]]Lost Sea Shanty[[/tooltip]][[/url]] [[col:green]]verses to wield in battle, drawing the attention of surpassed rivals.[[/col]]\\n\\n[[img:icon_treasure_map]][[/img]] [[col:green]]Seek out riches hinted at by[[/col]] [[url:script_link_campaign_treasure_maps]][[tooltip:{{tt:tooltip_campaign_treasure_maps}}]]Treasure Maps[[/tooltip]][[/url]] [[col:green]]or defeat rival pirates to obtain individual[[/col]] [[url:script_link_campaign_pieces_of_eight]][[tooltip:{{tt:tooltip_campaign_pieces_of_eight}}]]Pieces of Eight[[/tooltip]][[/url]] [[col:green]]and the[[/col]] [[sl:campaign_regiments_of_renown]]Royal Djinn[[/sl]] [[col:green]]bound to them.[[/col]]\\n\\n[[img:icon_slaves]][[/img]] [[col:green]]Capture[[/col]] [[sl_link:campaign_slaves]]Slaves[[/sl_link]] [[col:green]]to receive greater bonuses from certain buildings, enable instant building construction, barter for powerful items in the Grand Bazaar, or instantly recruit Slave Rabble units. Use Diktats to maintain slave population and gain additional effects.[[/col]]\\n\\n[[col:green]]The nobles of Araby are constantly warring with each other. Both the [[img:icon_urban_elites]][[/img]]Urban Elites and the [[img:icon_nomad_chiefs]][[/img]]Nomad Chiefs vie for control. The influence of either side is strengthened by constructing urban or nomadic aligned buildings. When one side gains the upper hand, you receive greater bonuses from certain buildings.[[/col]]	true
+event_feed_strings_text_ovn_araby_how_they_play_fatandira	[[col:green]]Decide [[img:icon_fatandira_allegiance]][[/img]]Fatandira's Allegiance — side with her god, the Tomb King Tutankhanut, or the people of Araby. Both sides offer unique rewards for your faction, from campaign buffs to powerful Royal Djinn or Tomb King Construct units. Your allegiance shifts by constructing certain buildings, winning battles and other deeds.[[/col]]\\n\\n[[col:green]]Barter money and resources for powerful items at the Grand Bazaar.[[/col]]\\n\\n[[col:green]]The nobles of Araby are constantly warring with each other. Both the [[img:icon_urban_elites]][[/img]]Urban Elites and the [[img:icon_nomad_chiefs]][[/img]]Nomad Chiefs vie for control. The influence of either side is strengthened by constructing urban or nomadic aligned buildings. When one side gains the upper hand, you receive greater bonuses from certain buildings.[[/col]]	true
+factions_attack_desc_ovn_arb_araby_rebels_qb	You are attacking Arabyan Rebels!	false
+factions_defend_desc_ovn_arb_araby_rebels_qb	You are defending against Arabyan Rebels!	false
+factions_screen_adjective_ovn_arb_araby_rebels_qb	Arabyan Rebels	false
+factions_screen_name_ovn_arb_araby_rebels_qb	Arabyan Rebels	false
+factions_screen_name_when_rebels_ovn_arb_araby_rebels_qb	Arabyan Rebels	false
+factions_attack_desc_mixer_arb_araby_dummy	You are attacking Araby!	false
+factions_defend_desc_mixer_arb_araby_dummy	You are defending against Araby!	false
+factions_screen_adjective_mixer_arb_araby_dummy	Araby	false
+factions_screen_name_mixer_arb_araby_dummy	Araby Rebels	false
+factions_screen_name_when_rebels_mixer_arb_araby_dummy	Araby	false
+factions_attack_desc_ovn_arb_araby_rebels	You are attacking the Araby Rebels!	false
+factions_defend_desc_ovn_arb_araby_rebels	You are defending against the Araby Rebels!	false
+factions_screen_adjective_ovn_arb_araby_rebels	Araby Rebels	false
+factions_screen_name_ovn_arb_araby_rebels	Araby Rebels	false
+factions_screen_name_when_rebels_ovn_arb_araby_rebels	Araby Rebels	false
+factions_attack_desc_ovn_arb_sultanate_of_el_kalabad	You are attacking the Sultanate of El-Kalabad!	false
+factions_defend_desc_ovn_arb_sultanate_of_el_kalabad	You are defending against the Sultanate of El-Kalabad!	false
+factions_screen_adjective_ovn_arb_sultanate_of_el_kalabad	Sultanate of El-Kalabad	false
+factions_screen_name_ovn_arb_sultanate_of_el_kalabad	Sultanate of El-Kalabad	false
+factions_screen_name_when_rebels_ovn_arb_sultanate_of_el_kalabad	El-Kalabad Rebels	false
+factions_attack_desc_ovn_arb_sultanate_ind	You are attacking the Sultanate of Chandrahara!	false
+factions_defend_desc_ovn_arb_sultanate_ind	You are defending against the Sultanate of Chandrahara!	false
+factions_screen_adjective_ovn_arb_sultanate_ind	Sultanate of Chandrahara	false
+factions_screen_name_ovn_arb_sultanate_ind	Sultanate of Chandrahara	false
+factions_screen_name_when_rebels_ovn_arb_sultanate_ind	Indan Rebels	false
+factions_attack_desc_ovn_arb_cult_of_the_djinns	You are attacking the Cult of the Djinn!	false
+factions_defend_desc_ovn_arb_cult_of_the_djinns	You are defending against the Cult of the Djinn!	false
+factions_screen_adjective_ovn_arb_cult_of_the_djinns	Cult of the Djinn	false
+factions_screen_name_ovn_arb_cult_of_the_djinns	Cult of the Djinn	false
+factions_screen_name_when_rebels_ovn_arb_cult_of_the_djinns	Djinn Fanatics	false

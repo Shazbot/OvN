@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_effects_additional_tooltip_details.loc		
+effects_additional_tooltip_details_localised_description_ovn_effect_force_replenishment_rate_arb_basic_city_units	{{tr:replenishment_additional_tooltip}}	false

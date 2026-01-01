@@ -8,3 +8,7 @@ building_effect_context_expressions_display_text_OvN_isRegionBrets	In Bretonnia-
 building_effect_context_expressions_display_text_OvN_isRegionWelfs	In Wood Elf-owned region:	false
 building_effect_context_expressions_display_text_OvNHasGruPaymasterTech	Effect unlocked when [[img:icon_tech]][[/img]]technology "Veteran Paymaster" researched:	false
 building_effect_context_expressions_display_text_OvNHasGruBargainerTech	Effect unlocked when [[img:icon_tech]][[/img]]technology "Bargainer" researched:	false
+building_effect_context_expressions_display_text_OvN_isRegionOrder	In Order faction-owned region barring Lizardmen:	false
+building_effect_context_expressions_display_text_OvNHasGruRetainerTech	Effect unlocked when [[img:icon_tech]][[/img]]technology "Retainer" researched:	false
+building_effect_context_expressions_display_text_OvNHasGruJustMercenaryTech	Effect unlocked when [[img:icon_tech]][[/img]]technology "Just Mercenaries" researched:	false
+building_effect_context_expressions_display_text_OvN_isRegionNotOrder	In Non-order faction-owned region including Lizardmen:	false

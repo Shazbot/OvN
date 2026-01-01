@@ -1,6 +1,6 @@
 key	expression	display_only_active_effects
 #building_effect_context_expressions_tables;1;db/building_effect_context_expressions_tables/ovn_grudge		
-OvN_isRegionEmpire	Region.Owner.CultureKey == "wh_main_emp_empire"	false
+OvN_isRegionEmpire	Region.Owner.CultureKey == "wh_main_emp_empire" || Region.Owner.CultureKey == "mixer_teb_southern_realms"	false
 OvN_isRegionDwarfs	Region.Owner.CultureKey == "wh_main_dwf_dwarfs"	false
 OvN_isRegionOgre	Region.Owner.CultureKey == "wh3_main_ogr_ogre_kingdoms"	false
 OvN_isRegionKislev	Region.Owner.CultureKey == "wh3_main_ksl_kislev"	false
@@ -8,3 +8,7 @@ OvN_isRegionBrets	Region.Owner.CultureKey == "wh_main_brt_bretonnia"	false
 OvN_isRegionWelfs	Region.Owner.CultureKey == "wh_dlc05_wef_wood_elves"	false
 OvNHasGruPaymasterTech	Owner.IsTechnologyResearched("rhox_grudge_tech_emp_academia_3")	false
 OvNHasGruBargainerTech	Owner.IsTechnologyResearched("rhox_grudge_tech_emp_academia_2_b")	false
+OvN_isRegionOrder	Region.Owner.CultureKey == "wh_dlc05_wef_wood_elves" && Region.Owner.RecordKeyIsOneOf("wh2_dlc16_wef_drycha") == false || Region.Owner.CultureKey == "wh_main_brt_bretonnia" || Region.Owner.CultureKey == "wh3_main_ksl_kislev" || Region.Owner.CultureKey == "wh_main_dwf_dwarfs" || Region.Owner.CultureKey == "wh_main_emp_empire" || Region.Owner.CultureKey == "wh3_main_cth_cathay" || Region.Owner.CultureKey == "wh2_main_hef_high_elves" || Region.Owner.CultureKey == "mixer_teb_southern_realms" || Region.Owner.CultureKey == "ovn_albion"	false
+OvNHasGruRetainerTech	Owner.IsTechnologyResearched("rhox_grudge_tech_emp_academia_3_b")	false
+OvNHasGruJustMercenaryTech	Owner.IsTechnologyResearched("rhox_grudge_tech_emp_economy_1_b")	false
+OvN_isRegionNotOrder	Region.Owner.RecordKeyIsOneOf("wh2_dlc13_wef_laurelorn_forest", "wh2_dlc16_wef_sisters_of_twilight", "wh2_main_wef_bowmen_of_oreon", "wh3_dlc21_wef_spirits_of_shanlin","wh_dlc05_wef_argwylon", "wh_dlc05_wef_torgovann", "wh_dlc05_wef_wood_elves", "wh_dlc05_wef_wydrioth", "wh3_main_wef_laurelorn") == false && Region.Owner.CultureKey != "wh_main_brt_bretonnia" && Region.Owner.CultureKey != "wh3_main_ksl_kislev" && Region.Owner.CultureKey != "wh_main_dwf_dwarfs" && Region.Owner.CultureKey != "wh_main_emp_empire" && Region.Owner.CultureKey != "wh3_main_cth_cathay" && Region.Owner.CultureKey != "wh2_main_hef_high_elves" && Region.Owner.CultureKey != "mixer_teb_southern_realms" && Region.Owner.CultureKey != "ovn_albion"	false

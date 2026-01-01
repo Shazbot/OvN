@@ -1,7 +1,0 @@
-unit_name	unit_level	unit_type	percentage_num_men	percentage_num_health	reduce_max_number
-#battle_set_piece_armies_units_tables;4;db/battle_set_piece_armies_units_tables/ovn_fimir_only					
-ovn_boglar	1	fim_inf_boglar	100	100	false
-ovn_shearl	1	fim_inf_shearl	100	100	false
-ovn_marsh_hounds	1	fim_inf_moor_hounds	100	100	false
-ovn_fim_mon_javelin_0	1	fim_inf_shearl_javelineer	100	100	false
-ovn_death_quest	1	fim_inf_death_quest	100	100	false

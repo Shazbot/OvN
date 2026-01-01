@@ -1,0 +1,20 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/torso/fim_shearl_torso_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/torso/fim_shearl_torso_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/torso/fim_shearl_torso_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/head/fim_shearl_head_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/head/fim_shearl_head_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/head/fim_shearl_head_03.wsmodel" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/legs/fim_shearl_legs_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/legs/fim_shearl_legs_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_shearls/legs/fim_shearl_legs_03.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,689 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_slave_craft_ancillaries.loc		
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_acolyte_of_sokth	Treachery - and indeed scorpion-husbandry - can be taught and learned like many other skills.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_charnel_valley_necrotect	The man who designed the Tomb Kings' elaborate crypts and vaults was just far too skilled to be allowed to rest in his own.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_cultist_of_usirian	Bearing witness to men's downfall, he judges their worthiness to serve his master-deity from beyond the grave.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_dog_headed_ushabti	What courageous heart has he who serves the God of Earth and Strength.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_high_born_of_khemri	Khemri's noble class still possess much of their former presence and power, even after death.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_legionnaire_of_asaph	This knot of life at once untie: poor venomous fool, be angry and dispatch.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_priest_of_ptra	The acolytes of the Great Father wield his burning power in Ptra's name, their skin shining brilliantly in the white-hot desert sun.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_skeletal_labourer	Where once he dug graves, now he toils eternally.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_tombfleet_taskmaster	As if the Tomb Kings' skeletal slave-sailors were not obedient and tireless enough, an extremely hard taskmaster whips them into shape and on to greater achievement.	false
+ancillaries_colour_text_ovn_araby_anc_follower_tmb_ushabti_bodyguard	An imposing monument to Nehekhara's former power, now living once again in service of its Lords.	false
+ancillaries_colour_text_ovn_araby_anc_follower_cst_sartosa_navigator	Someone with lifelong, intimate knowledge of the seas and coasts, and a little artistic flair, can prove most useful.	false
+ancillaries_colour_text_ovn_araby_anc_follower_cst_travelling_necromancer	All this one needs is a small space, off to one side, and plenty of samples to work with.	false
+ancillaries_colour_text_ovn_araby_anc_follower_vmp_the_ravenous_dead	As the Undead rip apart their victims they feast on the organs that spill forth – regaining strength in the process.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_apprentice_assassin	An assassin's services will always be in demand, assuming they survive the training…	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_beastmaster	Anath Raema's savage children can break enemy lines with tooth and claw. This one ensures their obedience in battle.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_bodyguard	There are always those in need of protection from the machinations of their enemies… or indeed their friends.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_cultist	The favour of the Pleasure Prince is much coveted amongst his acolytes.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_daemon_whisperer	"What's that? Pleasure and pain… indivisible? I see the truth of it..."	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_diplomat	It is sometimes necessary to employ silver-tongued diplomacy to achieve one's desired ends.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_diplomat_slaanesh	Slaanesh offers great power to those who have the resolve to grasp it.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_fanatic	This one lives for the day when the last High-Elf dies screaming in agony upon Khaine's altar.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_fimir_balefiend	The Balefiend's sorceries may seem crude and ritualistic compared to others, but they are no less potent.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_gravedigger	Nothing reinforces a Dark Elf's sense of superiority (and security) quite so much as knowing not only that his enemy has perished, but also where the body is buried.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_harem_attendant	You should never trust a wolf with your livestock.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_harem_keeper	"What's your pleasure, sir?"	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_merchant	When your rulers consider themselves above such low professions, there is money to be made for the wily merchant.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_musician_choirmaster	"The adagio will, quite literally, tear your heart out…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_musician_drum	Cruelty and excess have a certain rhythm.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_musician_flute	Depravity's melody is the sweetest of tunes to Dark Elf ears.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_organ_merchant	The profits of murder go beyond merely removing one's rivals from the field of play.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_overseer	Someone needs to ensure that enslaved captives do not - cannot - run away, and occasionally feed them just enough to remain productive.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_propagandist	When the deeds of old can be erased by a cleverly-spoken word, what need is there for integrity and law?	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_servant	"He's the very likeness of Khaine himself! I should know - slaving and doing for him all these years."	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_slave	Beaten by lash and scourge, brutally driven forth into servitude and torment. There is no release, not even death.	false
+ancillaries_colour_text_ovn_araby_anc_follower_def_slave_trader	A captured High Elf is the most valuable of prizes; a wealthy slaver will trade much to bring such a sweetmeat before his patron.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_admiral	An Elf whose time at sea exceeds that on land is well versed in the Storm-God's ways, and knows his will.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_assassin	So stealthy is the wolf that the sheep do not notice his presence until it is far, far too late.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_bard	The history of the High Elves of Ulthuan, handily converted to rhyming couplets for ease of consumption.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_beard_weaver	Someone has to ensure that the Cloak of Beards is maintained, lest its power over Dwarfen runes slacken.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_counsellor	"I feel it would be prudent, your majesty, and admirably demonstrate your divine wisdom to all."	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_counterspy	The agents of Hoeth seek out those Dark Elves who dare infiltrate Asur society.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_dragon_armourer	His wares are forged at the volcano's molten heart, and enchanted to resist almost any blow.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_dragon_tamer	Like his illustrious ancestor, this one can wake mighty Dragons and bind them to his will with harnesses of truesteel.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_food_taster	Unless the poison is slow-acting, his employer's life will be preserved by the forfeit of his own; according to Asuryan's will.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_horsemaster	Ellyrion's horses are not broken with harsh treatment. Instead, the enchanted beasts serve willingly when called.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_librarian	The greatest repository of magical knowledge in the world is maintained by the finest mages and scholars.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_minstrel	"I sing in praise of Total War…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_poisoner	Joranor's in the lower vault, mixing up the medicine.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_priest_vaul	"Like the Maker, we labour eternally in readiness for the great darkness that surely comes to consume the world."	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_priestess_isha	Their origins shrouded in the mists of time, Isha's priestesses officiate her mysterious rites on the Island of Rebirth.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_raven_keeper	A relationship with the Crone protects one from harm and can even forestall the seemingly inevitable.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_scout	He watches and waits, constantly alert and ready for Druchii incursions through the passes of his homeland.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_shrine_keeper	"Silence, please, when entering the sacred space. And take off your shoes."	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_trappist	This one aspires to mastery of fire magic, so it may be harnessed at will.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hef_wine_merchant	"I want the finest wines available to the Asur! I want them here and I want them now!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_acolyte_priest	It takes many long years of study and observance to become a fully-fledged Skink Priest.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_architect	This one toils ceaselessly to restore the great temple-cities to their former glory.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_archivist	"Yesss - this latest scheme is in keeping with the Great Plan; the Old Ones will be pleased."	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_army_beast_hunter	With the best will in the Old World, something capable of uprooting trees can be rather tricky to harness.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_artefact_hunter	"It is something that other races were not meant to disturb. Death has always surrounded it. It is not of this world."	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_astrologer	"When Morrslieb is in retrograde, that is when we should strike. Never before, lest disaster befalls us."	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_astronomer	He scans the heavens, for the return of the Old Ones comes closer with each passing day.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_attendant	"It isss vital to ensssure the master isss kept cool and moist until his time of waking."	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_cleaner	A clean pool, free from contamination, is necessary for a successful spawning.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_clerk	This one ensures that the hosts are well supplied and equipped, so that the wheels of war stay greased always.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_defence_expert	Watchtowers, spiked-pits, sentinels - the defences must be maintained lest the Realm of Chaos breaks through to consume the world.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_fan_waver	It is important to stay cool in the cloying, oppressive heat of the jungle.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_gardener	Lustria's first line of defence is the forest itself.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_librarian	The sacred plaques carry the instructions and predictions of the Old Ones. It is his job to preserve their wisdom for future generations.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_metallurgist	The knowledge and skill required to forge portal gates from super-heated star-metal is granted only to the worthy few.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_sacrificial_victim_human	"You are not part of the Great Plan, ssso your meagre life isss forfeit."	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_sacrificial_victim_skv	The ancient enemy, virulent and plague-ridden, makes the best sacrifices.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_temple_cleaner	For some, whose lot it is, mastery of the broom comes before mastery of the spear.	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_veteran_warrior	"I was with the Saurus Warriors on the Bridge of Stars, when Lord Kroak's spirit saved the First City…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_lzd_zoat	When eldritch storms erupt upon the world, it is possible to bind a Zoat to service.	false
+ancillaries_colour_text_ovn_araby_anc_follower_sea_cucumber	They say Skaven aren't picky when it comes to food, but even they have limits.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_artefact_hunter	There are arcane secrets hidden in the vaults beneath the temple-cities of Lustria. Useful secrets, to give advantage.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_bell_polisher	"Yes, yes! I want it so shiny that you can see your face in it and I can eat a manling off it!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_bodyguard	This one has a greater-than-usual care for the person of his foul, pox-ridden master.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_chemist	The elite of Skaven society can live for hundreds of years, their spans extended by Warpstone-exposure, foul spells, and strange, powerful potions…	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_clerk	Plots, plans, and intrigue abound inside the Under-Empire, and they must all be recorded lest something vitally important is forgotten.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_engineering_student	"Not that colour-shade, no-no, scrape-scratch the grime away…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_female	Only the privileged, high-caste members of Skaven society are permitted a female with which to breed.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_hell_pit_attendant	Clan Moulder's hideous experiments require a steady supply of unfortunates. This one sees to their 'needs'.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_mechanic	"I can fix it, guv, yes yes - I'll have it working again in a trice, yes yes!" 	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_messenger	"Yes, master, I will tell him what you said and return by nightfall."	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_pet_wolf_rat	Vicious and foul-tempered - the result of a hideous experiment whereby Skaven were crossed with Kislevite Wolves. Very nasty. Best avoid stroking it…	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_saboteur	Getting to the target is one thing, destroying it without killing yourself is quite another.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_sacrificial_victim_dwarf	One less stunted fool in the war for control of the Under-Empire can't be a bad thing.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_sacrificial_victim_lizardman	The Great Horned Rat's hunger MUST be appeased, and the ancient enemy make the most-satisfying meals.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_scavenger_1	This one probes the manling towns, instigating war between natural allies and turning man against his brother.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_scribe	The deeds of the mighty Clans, recorded for posterity and handy reference, give direction and purpose to their future endeavours.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_sculptor	The image of the Great Horned One, fashioned from finest Warpstone and adorned with his commandments is a thing of power 	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_slave_human	"They're not usually that colour - if you scrape all the grime away they're a hideous pink…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_slave_skv	The lofty arrogance of the Elfin race, reduced to filthy, subservient wretchedness. It's a beautiful thing.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skv_trainee_assassin	Those who fail to learn fail to live another despicable, worthless second.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_artificer	This Ogre has been given the job of crafting bespoke armour pieces and a variety of nasty gouging weapons for the tribe's elite.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_bellower	When it's time for a Great Feast, the loudest Ogre has the honour of carrying their Mawtooth and placing it in position around the pit.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_brewer	Ogre beer is a foul, viscous concoction, made with equal quantities of honeycomb and hornet, and intoxicating enough to hospitalise a Dwarf.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_campfire_storyteller	This one tells swaggering tales of great bravado, some of them true, all of them exaggerated, in order to inspire the tribe.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_cave_painter	In lieu of a proper written language or indeed any level of basic literacy, the Tyrant's achievements are immortalised in pictures on the walls of caves.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_eastern_traveller	"See this 'ere helmet? 'Twas a gift from a geezer I worked for in eggs-otick Caf-fay, right before I ate 'im."	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_enforcer	This Bruiser is there to ensure that the Tyrant's line is toed and that tribal matters run smoothly… using extreme violence, naturally.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_gnoblar_chief	Gnoblars are stupid, but this one has shown the faintest spark of intelligence, so has been promoted above his peers.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_gnoblar_inventor	"What if we constructed a giant, wooden… Giant, master?"	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_gnoblar_treasurer	This Gnoblar has shown some ability in managing the tribe's purse – if he can keep his fingers out of it he may even live out the year!	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_halfling_cook	This one knows that he'd better come up with some top grub if he wants to avoid becoming a light snack!	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_pit_fighter	The tribe huddle around a crudely-dug pit to watch two of their best gut-barge, face-crack and fist-splinter it out until one of them either submits or dies.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_ransom_negotiator	Ogre negotiations are simple: give them what they want or expect their captive to be sent back one piece at a time.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_rhinoxen_handler	Looking after the colossal, lumbering Rhinoxen is often just a matter of moving out of the way quickly enough to avoid a goring.	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_spider_hunter	"Haha, run! Yer eight legs aren't gonna save yer tho, 'cos yer due a good roastin'!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_ogr_yhetee_wrangler	Anyone stupid enough to attempt to cow, or even converse, with these savage relatives deserves their extra share of the loot or grub.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_barbarian	Some Marauders walk openly within the lands of other races, not seen as a threat but a northern foreigner - a barbarian. But they are wrong, he is a threat.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_beast_tamer	There are many monsters in the northern wastes - creatures that will eat a man no matter which god he worships. A tribe's Beast Tamer can bring such monsters to heel… if he has the talent.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_collector	Some nobles of the mortal nations - the rich ones - take to buying antiquities and cursed items. Their ignorance in unearthing such relics is our ally.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_cultist	The servants of Chaos are more than the barbarous Northmen - throughout the mortal realms secret cults worship the true Gods, and so our plans advance.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_darksoul	Said to have come from the ruins of Mordheim, Darksouls do not age and await the return of the Daemons that once possessed them.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_demagogue	"Listen brave men of the Empire - pray! But not to Sigmar, he cares not for YOU. There are other Gods who are willing to answer your prayers..."	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_huscarl	Huscarls are Norse tribesmen that honourably serve their Chieftain - a manservant and shieldbearer both.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_kurgan_chieftain	The Kurgan are a tribe that could end all others - such are their numbers. Best keep this Chieftain as an ally.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_magister	The Magister - or whatever name a cult leader abides by - is a powerful, covert agent of Chaos, tending to flocks of the corrupted within the mortal lands.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_mutant	Mutants are shunned by so-called civilised societies but welcomed by the tribes of the north... and their omnipotent patrons.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_oar_slave	"Stroke, stroke - keep up or I'll feed yer to the Blood God's hounds!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_possessed	There are souls that have been truly blessed by the Gods - not quite Spawn - but have received many gifts nonetheless.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_slave_master	The Slave Master takes the thralls taken on the raids and prepares them for bloody sacrifice or, even worse, a grisly life of servitude.	false
+ancillaries_colour_text_ovn_araby_anc_follower_chaos_zealot	"I am my master's tool - my God's vessel. Use me!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_bray_shamans_familiar	As a speaker of spells and caster of magicks, a Bray-Shaman can summon a magical servant to aid him in his darkling duties.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_chieftains_pet	This hound doesn't reside with the others, it remains close to the Chieftain, a dangerous pet desperate to please its master.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_doe	Female Beastmen are rare. Oft-timid beasts, they carry the true-horn's seed and mother the next generation.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_flayer	This Gor is skilled with flint knife able to separate skin from flesh, whether the subject is dead or still breathing.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_flying_spy	This harpy is loyal to the Chieftain, and will break through the tree canopy to fly high and spy out the land.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_herdstone_keeper	Some Gors are tasked to look after the herdstones, their reward oft-being sacrifice at the stone they kept in life.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_mannish_thrall	Some Beastmen are mongrels with minor mutations. Though they live their pathetic lives amongst men, their true loyalty is to the herd.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_pox_carrier	Nurgors are diseased Beastmen with rotting horns and blemished skin, oft-shunned by the herd and sent to bring ruin.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_spawn_wrangler	Chaos Spawn are not easy to control and corral, but some Gors are deft at doing just that.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beastmen_ungor_whelp	This scrawny Ungor is kept collared and close to the Chieftain - attending his needs, carrying his food, getting kicked and beaten.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dryad_spy	In a forest, there is no finer spy than a tree.	false
+ancillaries_colour_text_ovn_araby_anc_follower_elder_scout	The eldest of Athel Loren's scouts have visited areas of the forest their younger counterparts do not yet know exist.	false
+ancillaries_colour_text_ovn_araby_anc_follower_eternal_guard_commander	Commanders of the Eternal Guard; the finest of the finest.	false
+ancillaries_colour_text_ovn_araby_anc_follower_forest_spirit	A spirit of Athel Loren, while incorporeal, can be sensed by all who dwell within its Waystone bounds.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hawk_companion	A trusty hawk is its handler's eyes in the sky, scouting for danger.	false
+ancillaries_colour_text_ovn_araby_anc_follower_hunting_hound	A loyal hound, tried, tested and as much a killer as any bow-armed Elf.	false
+ancillaries_colour_text_ovn_araby_anc_follower_royal_standard_bearer	Those who march under the banner of the Hunter King and his Eternal Queen do so with true meaning in every step.	false
+ancillaries_colour_text_ovn_araby_anc_follower_vauls_anvil_smith	An outbreak of fire in the forest is generally a bad thing, but not when this one is forging the finest weapons, however.	false
+ancillaries_colour_text_ovn_araby_anc_follower_wardancer_drummer	Sometimes even the forest's chosen warriors wish their approach to be signalled; it's psychology in action.	false
+ancillaries_colour_text_ovn_araby_anc_follower_young_stag	Forest dwellers beware, lest you are watched, followed and taken, never to be seen again.	false
+ancillaries_colour_text_ovn_araby_anc_follower_baernsonlings_berserker	This absolute nutter is even a match for most other berserkers, such is his unrestrained axe-rage. Have him on *your* side, yeah?	false
+ancillaries_colour_text_ovn_araby_anc_follower_baernsonlings_werekin	From one of the seven dominant tribes of Norsca, this abject fiend attracts better-than-average Skin Wolves to the pack... and the hunt that surely follows.	false
+ancillaries_colour_text_ovn_araby_anc_follower_beserker	A wild and unruly beast of a man, good in a fight and… well, that's about it.	false
+ancillaries_colour_text_ovn_araby_anc_follower_cathy_slave_dancers	"Conditions are going to be pretty harsh, and the pay will vary depending on performance, but you do get to look at them... Fight well, kill plenty, and you might get to touch."	false
+ancillaries_colour_text_ovn_araby_anc_follower_dragonbone_raiders	These battle-hardened, merciless warriors are experts in sacking, looting, and the carnage that ensues. Plunder and killings are their reasons to be.	false
+ancillaries_colour_text_ovn_araby_anc_follower_kurgan_slave_merchant	"I am the strongest - I am the one… and my wares are the finest you'll see around these parts, I'll wager!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_mammoth	It is no easy task to secure the cooperation of such a large, hairy, foul smelling beast; the same can be said of the mammoths this man tames.	false
+ancillaries_colour_text_ovn_araby_anc_follower_marauder_champion	Spectacularly brutal and lacking even the faintest glimmer of mercy, this one is well on the road to be noticed by the ever-fickle Chaos Gods.	false
+ancillaries_colour_text_ovn_araby_anc_follower_mountain_scout	While some peaks of the Norscan mountain ranges remain impassable, this man has traversed those that can be crossed.	false
+ancillaries_colour_text_ovn_araby_anc_follower_seer	This one tends a shrine to one of the Ruinous Powers, braving their unpredictable cruelty and random transformation to guide the Norse warriors to exaltation.	false
+ancillaries_colour_text_ovn_araby_anc_follower_skaeling_trader	The Claws of Skael have another line besides brutal murder; as it turns out, some of their number have a nose for business...	false
+ancillaries_colour_text_ovn_araby_anc_follower_slave_worker	There's always work to be done and, somewhat predictably, the living spoils of the Norscans' raids are the ones who must do it, or die!	false
+ancillaries_colour_text_ovn_araby_anc_follower_vargs_beast_trainer	When Varag Skulltaker fell in battle he left behind some really useful retainers...	false
+ancillaries_colour_text_ovn_araby_anc_follower_whalers	In civilised parts, whaling is considered deplorable at best. However, whales from the Sea of Claws have a taste for mortal blood – and we all have to eat after all.	false
+ancillaries_colour_text_ovn_araby_anc_follower_bretonnia_court_jester	The fool dressed in motley - a symbol of Bretonnia as much as the Grail.	false
+ancillaries_colour_text_ovn_araby_anc_follower_bretonnia_squire	As Knights in training, squires assist their masters on and off the field of battle.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_archivist	The keepers of the archive know the location of any account, history or lore held within the Dwarfhold's dusty archives.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_brewmaster	"The king be damned - every Dawi knows there is no more important a personage in this Hold than the Brewmaster!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_candle_maker	Dwarf candle makers are always in demand. If you live underground you'll need light no matter the time of day - even if your eyes are suited to darkness.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_choir_master	A typical choirmaster's conundrum is how many verses of "She was Only a Halfling's Daughter" to regale the Elven ambassador with? The full 260? Or the shorter 180 stanza version?	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_cooper	"What do you mean the Coopers' Guild isn't important? Tell me, lad, without our casks what would you store the black powder and beer in?"	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_daughter_of_valaya	Although rarely seen on the battlefield, the Kvinn - Khazalid for lady - also known as Valaya's Daughters, are often the real power behind a Hold's throne.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_dwarf_bride	A Dwarf bride often comes with a hefty dowry - by tradition her weight in gold. Which probably explains why hot-blooded Dwarfs take to curvier maids!	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_dwarfen_tattooist	The ability to etch runes into Dwarf flesh will keep the spirit of the Karaz Ankor alive and well.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_goldsmith	Dwarfs can manipulate and shape gold as easy as wet clay, and Goldsmiths are masters of this craft.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_grudgekeeper	It is the Grudgekeeper's hallowed duty to keep the Hold's Book of Grudges up to date, expunging old grudges while adding new entries.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_guildmaster	The Guilds are as powerful as the Clans in Dwarf society - a Guildmaster can control or break a Hold's trade, should he be of a mind.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_jewelsmith	A Dwarf jeweller can weigh up, appraise and rate the clarity of a stone from across a room. An eyepiece is what umgi pretenders have to use.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_miner	Miners brave horrendous subterranean conditions, and horrors, in search of iron, silver, gold, gems, and other valuables.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_powder_mixer	"What in Grungni's matted beard are you doing? Never - I mean never - bring a lit candle in here again!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_prospector	"You can wave your pitchfork at me all you like, umgi, but I say there's gold under this farm and I mean to have it!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_reckoner	The High King's Reckoners travel the Karaz Ankor inspecting a Hold's assets, making sure every stipend is paid and coin accounted for.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_runebearer	Communication between Dwarfholds is important. As such, these young Dwarfs risk life and limb to carry messages from one to another.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_runesmith_apprentice	Even for Dwarfs, Runesmiths are a grim sort; they very rarely take on aspirants, as worthy apprentices are hard to find.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_sapper	Dwarfs excel at digging - not the crude tunnels of Skaven and Goblins - but masterful underground passages. They can also use such skills when besieging the enemy.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_shieldbreaker	Elite soldiers who specialise in fighting deep underground, seeking to stem the tide of evil and safeguard their people.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_shipwright	A Dwarf shipwright has mastered the art of floating huge vessels of metal on water - a mystery to other races.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_slayer_ward	Those beardlings who slight their masters or fail in their apprenticeships may take the Slayer Oath in shame.	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_stonemason	It was the stonemasons who discovered runic number-magic, allowing them to craft perfectly square stones. Manling scholars call such art "calculus".	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_teller_of_tales	Not an official title, but there is always one Longbeard in the feasting hall that can engross an audience with a fine tale - if offered a tankard of ale!	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_treasure_hunter	"There's lost treasure down here, alright. Gold or gems, one or t'other. My beard can sense it. Just gotta mind those booby traps…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_dwarfs_troll_slayer	Dwarfs who have been disgraced, crossed in love, or otherwise humiliated abandon traditional society and seek the sweet release of death. Fair enough, really.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_agitator	Whose skills include aggressive leaflet campaigns, rousing speeches, and generally stirring things up a bit…	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_apprentice_wizard	Humans born with magical talent are dangerous and feared individuals.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_barber_surgeon	Who provides painful but effective healing to the common folk of the Empire.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_bone_picker	"Any old iron? No? What about rags or bones?"	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_burgher	The glue that holds urban society together.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_camp_follower	No army travels alone. Who else would cook, sew or loot the freshly slain?	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_charcoal_burner	Wood is burned to create charcoal, an important fuel for the Winter months.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_coachman	The coachman risks life and limb to bring passengers and cargo safely through the hazards of the Imperial roadways.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_entertainer	Some do it for the roar of the crowd and others for the money. 	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_estalian_diestro	The bravest Estalians travel to the Empire to test their rapiers against worthy opponents.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_ferryman	Ferrymen make their living moving people and goods across the Empire's rivers, for a small fee of course.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_hunter	It takes skill to stalk wild animals while avoiding the dark creatures of the woods.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_jailer	The Empire is a nation of laws, and therefore also a nation of jails.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_light_college_acolyte	The acolytes of the Light College channel cleansing Light Magic for their masters.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_marine	Ship-borne soldiers, marines protect their vessels from pirates, Norse marauders, and other raiders.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_messenger	With great distances separating the important cities and castles of the Empire, messengers are an indispensable means of communication.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_noble	The younger children of noble houses must often make their own way in the world, amongst the lower classes, adventurers, and ne'er-do-wells.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_peasant	"Ooooo master, there's some lovely filth over here…"	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_rat_catcher	It’s a dirty job, but it helps keep the plague away.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_road_warden	These lawmen patrol the roads and tracks of the Empire, protecting travellers and their goods.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_scribe	Some scribes tire of reading about the adventures of others and resolve to have some of their own.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_seaman	On blood-soaked decks, seamen earn their rum ration and their booty.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_thief	Honest, hard-working citizens? Thieves are dedicated to taking as much of their money as possible.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_tradesman	Skilled labourers and craftsmen are an important part of the Empire's economy.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_watchman	Responsible for maintaining law and order, Watchmen are empowered to make arrests and fight fires where necessary.	false
+ancillaries_colour_text_ovn_araby_anc_follower_empire_woodsman	Among the mighty forests of the Empire, Woodsmen look after the trees they will fell for timber.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_backstabba	Don't like some git? Then send in a backstabba, they're like nasty skulkers, but even meaner.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_bat-winged_loony	"I'm gonna fly! Do da loop-de-loop! Watch me goooo!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_boggart	Marsh-gobbos, or "boggarts", know all the "secret ways" in marshy, swampy areas. However, they're still "smelly gits" according to the Orcs.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_bully	Orc bullies are irascible, infirm and often incontinent old warriors who boss the war machine crews around.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_dog_boy_scout	Mounted on a giant shaggy wolf, this Goblin is a grizzled veteran, having run away from countless enemies in his time.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_dung_collector	Greenskin encampments are often dominated by piles of poo. It's a useful material for daubing and throwing. The dung shovela has the "top job" of pilling it all up.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_gobbo_ranta	Greenskins don't have clergy in the normal sense, but some gobbos like to "preach" the will of da godz.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_idol_carva	Those idols of Gork 'n' Mork that appear around Greenskin camps? Someone 'as to carve 'em!	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_pit_boss	Orcs like a good scrap in the local fighting pit. The pit boss sets up the fights and "keeps it all within da rulez".	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_savage_orc_prodda	"Grrrr, we gonna get da zoggin gits! Get me prodda!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_serial_loota	All gobbos are sneak-thieves, but this one has elevated stripping the dead of their valuables into an art form.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_shamans_lacky	Orc Shamans rarely mix with others, unless when dancin' around the campfire. A lackey is there to fetch and carry for the Shaman and keep his interactions with the boyz to a minimum.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_shroom_gathera	It's not just Night Goblins that like fungus, all Greenskins do. 'Shroom gatheras go and get 'em - those that survive Squig attacks, that is.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_snotling_scavengers	Last in the queue behind the Orcs and Goblins when it comes to lootin', Snotlings will steal whatever they get their grubby little hands upon, ensuring nothing of value remains.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_spider-god_priest	The many-faceted eyes of the Feaster From Beyond demand worship, or He will not send his broodlings to serve.	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_squig_mascot	A spheroid body with beady eyes and gaping, many-toothed maw, this Squig has doubtful merits as a pet but works wonders intimidating gobbos into obedience (or just eating them).	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_swindla	"See dis? I'm gonna nick it, cos I'm a bit weeeey!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_greenskins_troll_herder	Trolls are stupid, that is a fact. So Orc troll herderz are employed to get the dumb gits where they're meant to be.	false
+ancillaries_colour_text_ovn_araby_anc_follower_halfling_fieldwarden	Halflings patrol the borders of the Moot, keeping away threats from unwanted outsiders.	false
+ancillaries_colour_text_ovn_araby_anc_follower_norsca_berserker	A grim, northern land, full of Ice Trolls, Chaos Spawn, and a breed of tough fighters.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_black_cat	Cats are generally seen as lucky in the Empire, but black cats are said to be the familiars of warlocks and witches.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_carrion	Carrion are large, Undead, vulture-like creatures that are drawn to battlefields and Unholy summonings.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_corpse_thief	Corpses not interned in Morr's gardens straight away often find themselves on the black market.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_crone	"Come, child, come visit my modest hovel - it's just around the corner and there's cakes in the oven!"	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_dreg	"Yes, master?"	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_flesh_golem	This thing has no mind, it is a fleshy contraption powered by its master's will, used for mundane tasks and guarding the castle during daylight.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_grave_digger	"Pass me ma spade, I'm lookin' for gallows bait!	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_manservant	Many Vampire Lords keep a mortal manservant around. After all, someone needs to dust the drapes.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_mortal_informer	There are foolish mortals - usually rich, noble, dilettante types - who crave immortality and will be a Vampire's willing spy for the chance of damnation.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_poltergeist	Those spirits who are no longer bound to the mortal plane, but have thus far avoided Morr's grasp, can be tethered to a Vampire's service - for poltergeists have their uses...	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_possessed_mirror	"Speculum, speculum on the wall, who is the cruellest of them all?"	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_treasurer	While they started off as destitute nobles of Stirland, since becoming Undead the von Carsteins have accumulated great wealth. The treasurer is in charge of the master's vaults.	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_warlock	Warlocks are those that practise the dark arts away from the overseers in the Colleges of Magic. They are the prey of Witch Hunters and more…	false
+ancillaries_colour_text_ovn_araby_anc_follower_undead_warp_stone_hunter	Warpstone is Dark Magic incarnate. Undead Lords, especially liches, will employ ghoulish hunters to find such precious ore.	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_acolyte_of_sokth	Acolyte of Sokth	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_charnel_valley_necrotect	Charnel Valley Necrotect	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_cultist_of_usirian	Cultist of Usirian	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_dog_headed_ushabti	Dog-Headed Ushabti	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_high_born_of_khemri	High-Born of Khemri	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_legionnaire_of_asaph	Legionnaire of Asaph	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_priest_of_ptra	Priest of Ptra	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_skeletal_labourer	Skeletal Labourer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_tombfleet_taskmaster	Tombfleet Taskmaster	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_tmb_ushabti_bodyguard	Ushabti Bodyguard	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_captain_drekla	Captain Drekla	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_cst_sartosa_navigator	Sartosan Mapwright	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_cst_travelling_necromancer	Ship's Necromancer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_apprentice_assassin	Assassin's Apprentice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_beastmaster	Wyrmhunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_bodyguard	Bodyguard	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_cultist	Pleasure Cultist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_daemon_whisperer	Daemon Whisperer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_diplomat	Envoy	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_diplomat_slaanesh	Dark Prince's Envoy	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_fanatic	Zealot	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_fimir_balefiend	Fimir Balefiend	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_gravedigger	Gravedigger	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_harem_attendant	Eunuch	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_harem_keeper	Harem Keeper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_merchant	Factor	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_musician_choirmaster	Evil Choirmaster	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_musician_drum	Degenerate Kettle Drummer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_musician_flute	Deviant Flautist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_organ_merchant	Organ Merchant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_overseer	Overseer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_propagandist	Rhetorician	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_servant	Elfservant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_slave	High Elf Slave	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_def_slave_trader	Slaver	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_admiral	Herald of Mathlann	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_assassin	Court Attendant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_bard	Bard	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_beard_weaver	Beard Weaver	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_counsellor	Advisor to the King	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_counterspy	Druchii Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_dragon_armourer	Dragon Armourer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_dragon_tamer	Caledorian Dragon Rouser	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_food_taster	Food Taster	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_horsemaster	Ellyrian Horsemaster	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_librarian	Sapherian Bibliothecary	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_minstrel	Minstrel	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_poisoner	Herbalist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_priest_vaul	Priest of Vaul	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_priestess_isha	Priestess of Isha	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_raven_keeper	Raven Keeper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_scout	Chracian Scout	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_shrine_keeper	Shrine Attendant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_trappist	Disciple of the Phoenix	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hef_wine_merchant	Eatainean Vintner	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_acolyte_priest	Acolyte Mage	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_architect	Temple Architect	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_archivist	Great Plan Archivist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_army_beast_hunter	Prize Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_artefact_hunter	Artefact Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_astrologer	Astromancer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_astronomer	Astronomer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_attendant	Hibernation Attendant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_cleaner	Spawning Pool Cleaner	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_clerk	Administrator	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_defence_expert	Great Warder	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_fan_waver	Fan Waver	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_gardener	Carnivorous Horticulturist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_librarian	Sacred Plaque Librarian	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_metallurgist	Star-Metallurgist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_sacrificial_victim_human	Man-Spawn Sacrifice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_sacrificial_victim_skv	Rat-Spawn Sacrifice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_temple_cleaner	Temple Keeper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_veteran_warrior	Scarred One	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_lzd_zoat	Zoat Servant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_sea_cucumber	Sea Cucumber	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_artefact_hunter	Artefact Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_bell_polisher	Bell Polisher	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_bodyguard	Bodyguard	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_chemist	Alchemist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_clerk	Clerk	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_engineering_student	Engineering Student	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_female	Breeder	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_hell_pit_attendant	Hell Pit Attendant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_mechanic	Mechanic	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_messenger	Messenger	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_pet_wolf_rat	Pet Wolf Rat	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_saboteur	Clan Skryre Saboteur	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_sacrificial_victim_dwarf	Beard-Thing Sacrifice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_sacrificial_victim_lizardman	Reptile-Thing Sacrifice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_scavenger_1	Scavenger	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_scribe	Scribe	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_sculptor	Warpstone Sculptor	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_slave_human	Man-Thing Slave	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_slave_skv	Elf-Thing Slave	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skv_trainee_assassin	Eshin Apprentice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_artificer	Artificer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_bellower	Bellower	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_brewer	Brewer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_campfire_storyteller	Campfire Storyteller	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_cave_painter	Cave Painter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_eastern_traveller	Eastern Traveller	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_enforcer	Enforcer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_gnoblar_chief	Gnoblar Chief	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_gnoblar_inventor	Gnoblar Inventor	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_gnoblar_treasurer	Gnoblar Treasurer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_halfling_cook	Halfling Cook	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_pit_fighter	Pit Fighter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_ransom_negotiator	Ransom Negotiator	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_rhinoxen_handler	Rhinoxen Handler	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_spider_hunter	Spider Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_ogr_yhetee_wrangler	Yhetee Wrangler	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_barbarian	Barbarian 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_beast_tamer	Beast Tamer 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_collector	Collector	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_cultist	Cultist 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_darksoul	Darksoul 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_demagogue	Demagogue 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_huscarl	Huscarl 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_kurgan_chieftain	Kurgan Chieftain	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_magister	Magister 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_mutant	Mutant 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_oar_slave	Oar Slave 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_possessed	Possessed	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_slave_master	Slave Master 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_chaos_zealot	Zealot	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_bray_shamans_familiar	Bray-Shaman’s Familiar	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_chieftains_pet	Chieftain’s Pet	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_doe	Doe	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_flayer	Flayer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_flying_spy	Flying Spy	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_herdstone_keeper	Herdstone Keeper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_mannish_thrall	Mannish Thrall	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_pox_carrier	Pox-Carrier	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_spawn_wrangler	Spawn-Wrangler	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beastmen_ungor_whelp	Ungor Whelp	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dryad_spy	Dryad Spy	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_elder_scout	Elder Scout	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_eternal_guard_commander	Eternal Guard Commander	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_forest_spirit	Forest Spirit	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hawk_companion	Hawk Companion	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_hunting_hound	Hunting Hound	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_royal_standard_bearer	Royal Standard Bearer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_vauls_anvil_smith	Vaul's Anvil Smith	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_wardancer_drummer	Wardancer Drummer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_young_stag	Young Stag	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_baernsonlings_berserker	Baernsonling Berserker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_baernsonlings_werekin	Graeling Werekin	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_beserker	Berserker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_cathy_slave_dancers	Cathay Slave Dancers	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dragonbone_raiders	Dragonbone Raiders	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_kurgan_slave_merchant	Kurgan Slave Merchant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_mammoth	Mammoth Tamer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_marauder_champion	Marauder Brute	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_mountain_scout	Mountain Scout	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_seer	Seer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_skaeling_trader	Skaeling Trader	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_slave_worker	Slave Worker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_vargs_beast_trainer	Varag's Beast Trainer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_whalers	Whalers	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_bretonnia_court_jester	Court Jester	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_bretonnia_squire	Squire	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_archivist	Archivist 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_brewmaster	Brewmaster	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_candle_maker	Candle Maker 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_choir_master	Choir Master	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_cooper	Cooper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_daughter_of_valaya	Daughter of Valaya	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_dwarf_bride	Dwarf Bride	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_dwarfen_tattooist	Dwarfen Tattooist	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_goldsmith	Goldsmith	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_grudgekeeper	Grudgekeeper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_guildmaster	Guildmaster	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_jewelsmith	Jewelsmith	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_miner	Miner	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_powder_mixer	Powdermaker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_prospector	Prospector	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_reckoner	Reckoner	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_runebearer	Runebearer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_runesmith_apprentice	Runesmith Apprentice	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_sapper	Sapper	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_shieldbreaker	Shieldbreaker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_shipwright	Shipwright 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_slayer_ward	Slayer Ward	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_stonemason	Stonemason	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_teller_of_tales	Teller of Tales	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_treasure_hunter	Treasure Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_dwarfs_troll_slayer	Troll Slayer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_agitator	Agitator	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_apprentice_wizard	Apprentice Wizard	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_barber_surgeon	Barber-Surgeon	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_bone_picker	Bone Picker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_burgher	Burgher	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_camp_follower	Camp Follower	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_charcoal_burner	Charcoal Burner	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_coachman	Coachman	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_entertainer	Entertainer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_estalian_diestro	Estalian Diestro	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_ferryman	Ferryman	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_hunter	Hunter	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_jailer	Jailer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_light_college_acolyte	Light College Acolyte	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_marine	Marine	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_messenger	Messenger	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_noble	Noble	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_peasant	Peasant	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_rat_catcher	Rat Catcher	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_road_warden	Road Warden	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_scribe	Scribe	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_seaman	Seaman	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_thief	Thief	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_tradesman	Tradesman	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_watchman	Watchman	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_empire_woodsman	Woodsman	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_backstabba	Backstabba 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_bat-winged_loony	Bat-Winged Loony 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_boggart	Boggart	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_bully	Bully 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_dog_boy_scout	Dog Boy Scout	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_dung_collector	Dung Shovela	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_gobbo_ranta	Gobbo Ranta	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_idol_carva	Idol Carva	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_pit_boss	Pit Boss	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_savage_orc_prodda	Savage Orc Prodda 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_serial_loota	Serial Loota	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_shamans_lacky	Shaman's Lackey	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_shroom_gathera	'Shroom Gathera	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_snotling_scavengers	Snotling Scavengers	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_spider-god_priest	Spider-God Priest	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_squig_mascot	Squig Mascot	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_swindla	Swindla 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_greenskins_troll_herder	Troll Herder 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_halfling_fieldwarden	Fieldwarden	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_norsca_berserker	Norse Berserker	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_black_cat	Black Cat	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_carrion	Carrion	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_corpse_thief	Corpse Thief	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_crone	Crone	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_dreg	Dreg	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_flesh_golem	Flesh Golem	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_grave_digger	Grave Digger	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_manservant	Manservant 	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_mortal_informer	Mortal Informer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_poltergeist	Restless Spirit	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_possessed_mirror	Possessed Mirror	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_treasurer	Treasurer	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_warlock	Warlock	false
+ancillaries_onscreen_name_ovn_araby_anc_follower_undead_warp_stone_hunter	Warpstone Hunter	false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_acolyte_of_sokth		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_charnel_valley_necrotect		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_cultist_of_usirian		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_high_born_of_khemri		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_legionnaire_of_asaph		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_priest_of_ptra		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_skeletal_labourer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_tombfleet_taskmaster		false
+ancillaries_explanation_text_ovn_araby_anc_follower_tmb_ushabti_bodyguard		false
+ancillaries_explanation_text_ovn_araby_anc_follower_cst_sartosa_navigator		false
+ancillaries_explanation_text_ovn_araby_anc_follower_cst_travelling_necromancer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_apprentice_assassin		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_beastmaster		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_bodyguard		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_cultist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_diplomat		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_diplomat_slaanesh		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_fanatic		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_gravedigger		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_harem_keeper		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_merchant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_musician_choirmaster		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_musician_drum		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_musician_flute		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_organ_merchant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_overseer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_propagandist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_slave		false
+ancillaries_explanation_text_ovn_araby_anc_follower_def_slave_trader		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_admiral		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_assassin		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_bard		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_beard_weaver		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_counsellor		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_counterspy		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_dragon_armourer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_food_taster		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_librarian		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_minstrel		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_poisoner		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_priest_vaul		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_priestess_isha		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_raven_keeper		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_scout		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_shrine_keeper		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_trappist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hef_wine_merchant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_acolyte_priest		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_archivist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_artefact_hunter		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_astronomer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_attendant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_clerk		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_defence_expert		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_fan_waver		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_gardener		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_librarian		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_sacrificial_victim_human		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_sacrificial_victim_skv		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_temple_cleaner		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_veteran_warrior		false
+ancillaries_explanation_text_ovn_araby_anc_follower_lzd_zoat		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_artefact_hunter		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_bodyguard		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_chemist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_clerk		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_female		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_hell_pit_attendant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_mechanic		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_messenger		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_pet_wolf_rat		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_saboteur		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_sacrificial_victim_dwarf		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_sacrificial_victim_lizardman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_scavenger_1		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_scribe		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_slave_human		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_slave_skv		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skv_trainee_assassin		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_bellower		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_brewer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_campfire_storyteller		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_eastern_traveller		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_enforcer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_gnoblar_treasurer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_ogr_spider_hunter		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_barbarian		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_beast_tamer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_collector		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_huscarl		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_kurgan_chieftain		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_mutant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_oar_slave		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_possessed		false
+ancillaries_explanation_text_ovn_araby_anc_follower_chaos_slave_master		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beastmen_bray_shamans_familiar		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beastmen_chieftains_pet		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beastmen_flayer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beastmen_flying_spy		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beastmen_mannish_thrall		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beastmen_pox_carrier		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dryad_spy		false
+ancillaries_explanation_text_ovn_araby_anc_follower_elder_scout		false
+ancillaries_explanation_text_ovn_araby_anc_follower_forest_spirit		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hawk_companion		false
+ancillaries_explanation_text_ovn_araby_anc_follower_hunting_hound		false
+ancillaries_explanation_text_ovn_araby_anc_follower_royal_standard_bearer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_vauls_anvil_smith		false
+ancillaries_explanation_text_ovn_araby_anc_follower_young_stag		false
+ancillaries_explanation_text_ovn_araby_anc_follower_beserker		false
+ancillaries_explanation_text_ovn_araby_anc_follower_cathy_slave_dancers		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dragonbone_raiders		false
+ancillaries_explanation_text_ovn_araby_anc_follower_kurgan_slave_merchant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_mammoth		false
+ancillaries_explanation_text_ovn_araby_anc_follower_mountain_scout		false
+ancillaries_explanation_text_ovn_araby_anc_follower_seer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_skaeling_trader		false
+ancillaries_explanation_text_ovn_araby_anc_follower_slave_worker		false
+ancillaries_explanation_text_ovn_araby_anc_follower_whalers		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_backstabba		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_bat-winged_loony		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_bully		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_dog_boy_scout		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_dung_collector		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_gobbo_ranta		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_idol_carva		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_pit_boss		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_serial_loota		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_snotling_scavengers		false
+ancillaries_explanation_text_ovn_araby_anc_follower_greenskins_swindla		false
+ancillaries_explanation_text_ovn_araby_anc_follower_halfling_fieldwarden		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_black_cat		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_carrion		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_corpse_thief		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_manservant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_mortal_informer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_poltergeist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_possessed_mirror		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_warlock		false
+ancillaries_explanation_text_ovn_araby_anc_follower_undead_warp_stone_hunter		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_archivist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_brewmaster		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_candle_maker		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_choir_master		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_cooper		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_daughter_of_valaya		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_dwarf_bride		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_dwarfen_tattooist		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_goldsmith		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_grudgekeeper		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_guildmaster		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_jewelsmith		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_miner		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_powder_mixer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_prospector		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_reckoner		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_runebearer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_sapper		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_shieldbreaker		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_shipwright		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_stonemason		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_teller_of_tales		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_treasure_hunter		false
+ancillaries_explanation_text_ovn_araby_anc_follower_dwarfs_troll_slayer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_agitator		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_apprentice_wizard		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_barber_surgeon		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_bone_picker		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_burgher		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_camp_follower		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_charcoal_burner		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_coachman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_entertainer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_ferryman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_hunter		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_jailer		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_light_college_acolyte		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_marine		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_messenger		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_noble		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_peasant		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_rat_catcher		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_road_warden		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_scribe		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_seaman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_thief		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_tradesman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_watchman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_empire_woodsman		false
+ancillaries_explanation_text_ovn_araby_anc_follower_bretonnia_court_jester		false
+ancillaries_explanation_text_ovn_araby_anc_follower_bretonnia_squire		false

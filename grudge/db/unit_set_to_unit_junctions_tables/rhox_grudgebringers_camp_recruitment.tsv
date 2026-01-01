@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_grudgebringers_camp_recruitment					
+			urblab_rotgut_mercenary_ogres	rhox_grudgebringer_camp_mercenary	false
+			jurgen_muntz_outlaw_infantry	rhox_grudgebringer_camp_mercenary	false
+			stephan_weiss_outlaw_pistoliers	rhox_grudgebringer_camp_mercenary	false
+			vannheim_75th	rhox_grudgebringer_camp_mercenary	false
+			ragnar_wolves	rhox_grudgebringer_camp_mercenary	false
+			keelers_longbows	rhox_grudgebringer_camp_mercenary	false

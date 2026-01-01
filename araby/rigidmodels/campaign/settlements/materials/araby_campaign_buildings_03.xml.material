@@ -1,0 +1,25 @@
+<material>
+ <name>araby_campaign_buildings_01.xml</name>
+ <shader>shaders/rigid_default.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_base_colour</slot>
+   <source>rigidmodels\campaign\settlements\textures\dave_arb_campaign_buildings_01_base_colour_3.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_dither</slot>
+   <source>commontextures/dither.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+   <source>rigidmodels/campaign/settlements/textures/arb_campaign_buildings_01_material_map.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+   <source>rigidmodels/campaign/settlements/textures/arb_campaign_buildings_01_normal.dds</source>
+  </texture>
+ </textures>
+ <params>
+ </params>
+</material>

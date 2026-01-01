@@ -1,0 +1,24 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/aarb_pit_fighter_base.variantmeshdefinition" />
+	</SLOT>
+	
+	<SLOT name="weapon_and_shield" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1c/arb/arb_pit_fighters/arb_pit_fighter_arms_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1c/arb/arb_pit_fighters/arb_pit_fighter_arms_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1c/arb/arb_pit_fighters/arb_pit_fighter_arms_03.wsmodel" />
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1c\arb\arb_pit_fighters\arb_pit_fighter_arms_dummy.rigid_model_v2">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:club</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1c\arb\arb_pit_fighters\arb_pit_fighter_arms_dummy.rigid_model_v2">
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

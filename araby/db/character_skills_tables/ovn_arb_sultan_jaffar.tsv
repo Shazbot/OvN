@@ -1,0 +1,13 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/ovn_arb_sultan_jaffar									
+ovn_araby_Serpent_Staff	item_weapon.png		Serpent_Staff	0	false	false	false	0.0000	0
+Black_Book_Of_Ibn_Naggazar	item_enchanted_item.png		Black_Book_Of_Ibn_Naggazar	0	false	false	false	0.0000	0
+ovn_araby_unyeilding_stride	character_speed.png		unyeilding_stride	0	false	false	false	0.0000	0
+ovn_araby_Friend_Of_Evil	character_diplomacy.png		Friend_Of_Evil	0	false	false	false	0.0000	0
+ovn_jaffar_innate	trait_araby.png		Ambush Master	0	true	false	false	0.0000	0
+arb_jaffar_unique_0	character_public_order.png			0	false	false	false	0.0000	0
+arb_jaffar_unique_1	character_slaves.png			0	false	false	false	0.0000	0
+arb_jaffar_unique_2	battle_damage.png			0	false	false	false	0.0000	0
+arb_jaffar_unique_3	battle_morale.png			0	false	false	false	0.0000	0
+arb_jaffar_unique_4	battle_attack.png			0	false	false	false	0.0000	0
+arb_jaffar_unique_5	arb_jaffar_aura_will.png			0	false	false	false	0.0000	0

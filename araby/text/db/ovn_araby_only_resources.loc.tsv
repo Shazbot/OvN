@@ -1,0 +1,16 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_resources.loc		
+resources_onscreen_text_res_ivory	Ivory	true
+resources_description_res_ivory	Ivory from the mighty elephants of Araby, prized across the World for its purity and sheen.	true
+resources_long_description_res_ivory	Ivory from the mighty elephants of Araby, prized across the World for its purity and sheen.	true
+resources_onscreen_text_ovn_coffee	Coffee Beans	true
+resources_description_ovn_coffee	Coffee comes from Araby, and has become popular in Tilea and the Empire, both as a drink and as a display of wealth.	true
+resources_long_description_ovn_coffee	Coffee comes from Araby, and has become popular in Tilea and the Empire, both as a drink and as a display of wealth.	true
+resources_onscreen_text_res_location_araby_hidden	Strategic Location	true
+resources_onscreen_text_res_location_araby	Strategic Location	true
+resources_description_res_location_araby_hidden	This location is of special importance to Araby.	true
+resources_description_res_location_araby	This location is of special importance to Araby.	true
+resources_long_description_res_location_araby	This location is of special importance to Araby.	true
+resources_long_description_res_location_araby_hidden	This location is of special importance to Araby.	true
+pooled_resource_factors_display_name_negative_araby_actions	Araby Actions	false
+pooled_resource_factors_display_name_positive_araby_actions	Araby Actions	false

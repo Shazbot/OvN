@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_warriors/Head/fim_fimir_warriors_head_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu7d/fim/fim_warriors/Head/fim_fimir_warriors_head_02.wsmodel" />
+	</SLOT>
+	<SLOT name="helmet" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_helmets\fim_fimm_helmet_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_helmets\fim_fimm_helmet_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_helmets\fim_fimm_helmet_03.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_helmets\fim_fimm_helmet_04.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_helmets\fim_fimm_helmet_05.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

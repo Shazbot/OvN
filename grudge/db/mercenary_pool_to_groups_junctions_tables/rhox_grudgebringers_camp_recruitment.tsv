@@ -1,0 +1,8 @@
+key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
+#mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/rhox_grudgebringers_camp_recruitment						
+1271700306	camp_recruitment_urblab_rotgut_mercenary_ogres	-1	wh3_main_ogr_merc_pool			
+1271700307	camp_recruitment_jurgen_muntz_outlaw_infantry	-1	wh3_main_ogr_merc_pool			
+1271700308	camp_recruitment_stephan_weiss_outlaw_pistoliers	-1	wh3_main_ogr_merc_pool			
+1271700309	camp_recruitment_vannheim_75th	-1	wh3_main_ogr_merc_pool			
+1271700310	camp_recruitment_ragnar_wolves	-1	wh3_main_ogr_merc_pool			
+1271700311	camp_recruitment_keelers_longbows	-1	wh3_main_ogr_merc_pool			

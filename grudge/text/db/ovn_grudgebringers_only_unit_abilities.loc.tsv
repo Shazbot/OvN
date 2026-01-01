@@ -42,3 +42,6 @@ unit_abilities_onscreen_name_grudge_ability_skv_verminous_valour	Decisive Battle
 special_ability_phases_onscreen_name_rhox_grudge_stormbringer_ability	Stormbringer	false
 unit_abilities_tooltip_text_rhox_grudge_stormbringer_ability	As Vladimir Stormbringer unleashes his arcane might upon his foes, he feels the power coursing through him grow ever stronger with each fallen enemy. With every life extinguished, his magic becomes more deadly, more potent, and more unstoppable. Beware the wrath of Vladimir Stormbringer, for his spellcraft is a force to be reckoned with.	false
 unit_abilities_onscreen_name_rhox_grudge_stormbringer_ability	Stormbringer	false
+unit_abilities_onscreen_name_mod_fellrounds_ludwig_uberdorf	Fellrounds	false
+unit_abilities_tooltip_text_mod_fellrounds_ludwig_uberdorf	Ludwig started making these rounds after examining compounds looted from undead and skaven enemies. Is this madness or inspiration?	false
+special_ability_groups_name_rhox_grudge_stormbringer	Lore of the Stormbringer	false

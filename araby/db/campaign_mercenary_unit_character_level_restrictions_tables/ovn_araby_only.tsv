@@ -1,0 +1,15 @@
+unit	faction_override	character_level
+#campaign_mercenary_unit_character_level_restrictions_tables;1;db/campaign_mercenary_unit_character_level_restrictions_tables/ovn_araby_only		
+ovn_arb_inf_naffatun_ror		8
+ovn_arb_inf_arabyan_warriors_ror		10
+ovn_arb_cav_arabyan_knights_ror		10
+ovn_arb_art_quadballista_ror		13
+ovn_arb_cav_lancer_camels_ror		13
+ovn_arb_inf_jezzails_ror		16
+ovn_arb_cav_flying_carpets_ror		16
+ovn_arb_inf_arabyan_guard_ror		18
+ovn_arb_art_grand_bombard_ror		18
+ovn_arb_cav_sipahis_ror		20
+ovn_arb_mon_war_elephant_ror_2		23
+ovn_arb_veh_naphtha_thrower_ror		26
+ovn_arb_mon_war_elephant_ror_1		30

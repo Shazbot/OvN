@@ -1,0 +1,193 @@
+2026/JAN/1 Prop Joe
+- moved json.lua to ovn_requires/json.lua to avoid an error when loading mod scripts
+
+2025/DEC/14 Rhox
+- Added new 7.0 settlement types to allied outpost of Fimir (So that Fimir can build allied outpost in Norsca and Dechals's settlement)
+
+2025/DEC/8 Rhox
+- Added resource_ui_overrides_tables so that Fimir culture won't see the Throgg troll and savage orc mark in the citybar
+
+2025/NOV/20 Lingling
+- added Woodsman attribute to Fenbeasts to match the Albion version
+
+2025/NOV/06 Lingling
+- added faction potential entries for new minor factions
+
+2025/OCT/24 Rhox
+- If Clan Pestilens starts in Sanmal via IEE's MCT, he won't be in war with Rotten Knot and will be fighting Thunderous Sight instead
+
+2025/OCT/24 Lingling
+- expanded the minor factions a bit further:
+  - Fen Serpents has 2 regions now
+  - Thunderous Sight has 3 regions now (unless Clan Pestilens starts in Khuresh), Rotten Knot is moved to Tigercage Isle where VCoast has a loreful presence (according to Khuresh fan project)
+  - Hell Gate has 2 regions now
+  - added MCT option (default off) for Mist Dragons and Marsh Hornets to have an additional region each
+  
+All changes have been made with compatibility and game balance in mind
+
+2025/OCT/23 Rhox
+- Added Fimir minor factions. 1 is for IE, and 2 are IEE exclusive. You need to enable them in MCT in order for them to spawn
+(Flags are PH)
+
+2025/OCT/16 Lingling
+- added How they Play notification at campaign start
+
+2025/OCT/12 Lingling
+- DB preparations for new minor factions
+- polish pass including improved event art, fixed locs, added campaign cheatsheet
+- fixed Bog Matriarch skill not providing its effects corretcly
+- fixed Enhanced Magics tech not applying the spells to caster lord and heroes
+
+2025/SEP/03 Rhox
+- 6.3 update (Mazdamundi effect)
+- Gave Fimir access to those Minor cults
+    mc_carnival_of_chaos=true,
+    mc_chaos_portal=true,
+    mc_crimson_plague=true,
+    mc_crimson_skull=true,
+    mc_cult_of_pleasure=true,
+    mc_doomsphere=true,
+    mc_forge_of_hashut=true,
+    mc_ogre_mercs=true,
+    mc_purple_hand=true,
+    mc_the_cabal=true,
+    mc_underworld_sea=true
+
+
+2025/AUG/08 Rhox
+- Changed invalid name fim_boglar_ears_04 into fim_boglar_ears_04
+- Fixed the issue of skullcannon, all four of soulgrinders, chariot, fiend missing key and skratch not getting them. You need a new game start if you want to recruit them.
+
+2025/JUL/10 Lingling - 6.2.2 Update
+- applied the changes of the vanilla fimir units
+- adjusted ability ranges according to the new patch
+
+2025/JUN/17 Wolfremio
+- 6.2 Update
+
+2025/APR/09 Rhox
+-Fixed the issue of ovn_fim_swamp_daemons_regeneration effect giving regeneration to all units. (Effect bundle from the eye of the gods)
+- Fixed the issue of Untamed Monstrosities skill giving rampage to everybody rather than selected unit_set
+
+
+2025/APR/04 Rhox
+- Added compat tables
+
+2025/APR/03 Lingling
+- Added missing garrison in Realms of Chaos settlements (TOW)
+
+2024/MAR/27 Lingling
+- increased Balefiend melee attack as in patch 6.1
+
+2024/DEC/30 Lingling
+- added Fog effect to Fimir casters, made by DeadBaron
+
+2024/OCT/31 Lingling
+- increased base damage of Nuckelavee from 12 to 14
+
+2024/SEP/24 Rhox
+- Fixed the issue of agent rank bonuses giving double bonuses. Affected effects: 
+-- ovn_fim_effect_agent_xp_increase_elo_boglar_shaman
+-- ovn_fim_effect_agent_xp_increase_finmor
+-- ovn_fim_effect_agent_recruitment_xp_dignitary_fimir_balefiend
+
+2024/SEP/10 Lingling
+- added auto resolve values to land units as added in the latest patch
+- adjusted the AI building values for custom buildings according to the changes in the latest patch
+
+2024/JULY/16 Rhox
+- Fixed the issue of disbanding the general triggering the death quest
+
+2024/JULY/09 Lingling
+- Added/buffed collision and splash attacks for various units according to the 5.1 changes
+- Adjusted stats for Fianna Fimm (both variants) according to the vanilla changes
+- Changed Weather effects of Fimir fog, should be easier to the eyes now
+
+2024/JUNE/30 Rhox
+- Added access to Fortress of Dawn Harbour
+
+2024/JUNE/25 Wolfremio:
+- Updated to 5.1
+
+2024/MAY/23 Elon
+- Changed Bog Beast and Bog Beast Rider spacing
+- Buffed Fimir Warriors (both variants) and Swamp Daemons
+- Significantly increased (non-RoR) Moor Hound leadership
+- Significantly decreased Balefiend Apprentices ranged damage
+- Increased Fog Shrine cost since it is basically just a better luminark, so it should cost more too
+- Significantly decreased Mistmor cost. Also reduced their recruitment time to 1 turn
+- Decreased Bog Octopus cost
+- Changed Swamp Daemon unit type icon to the ones of forsaken
+- fixed a typo
+- rebalanced the pre-battle slave sacrifice mechanic
+
+2024/MAY/23 Lingling
+- fixed effect scopes for custom nemesis crown effects
+
+2024/MAY/23 Lingling
+- added/adjusted effects for Fimir targeting chaos in general (roughly all effects targeting more than 2 chaos races)
+- added Chaos Dwarfs to Fimir diplo bonus effect with chaos worshipping factions
+- added missing loc entries for Fimir prisoners in eltharions dungeon mechanic
+
+2024/MAY/18 Rhox
+- Now Fimir culture fully supports Eltharion dungeon feature
+- Added Nemesis Crown support
+
+2024/MAY/17 Lingling
+- added race specific nemesis crown effect bundles
+
+2024/MAY/15 Lingling
+- updated faction agent permitted table
+
+2024/MAY/8 Rhox
+- Added the new Dwarf Grudge support for the culture
+
+2024/MAY/3 Rhox
+- Fixed the issue of tech node indent clapping
+
+2024/MAY/2 Rhox
+- Removed the mixer_nur_rotblood subculture mention as Mixer does not support this key anymore
+
+2024/APR/30 Wolfremio:
+- Updated to 5.0, there might be some unaccounted for bugs, so keep a lookout for them, report them and they'll get fixed eventually
+
+2024/APR/29 Lingling
+- fixed the destroyed model of the Shrine of Balor, which was still using the old model
+
+2024/APR/9 Partypus
+- Added proper flag for the Fimir rebels
+
+2024/MAR/7 Lingling
+- Fimirach Noble now has the Miasma of Despair skill to be consistent with all the other Fimir characters, lost eye of the gods skill in turn
+- UI: Fimm Warriors are now axe infantry, Skattach and Kroll are now mixed lore casters
+
+2024/FEB/25 Rhox
+- Now Fimir reveal script changes the skin only when the region owner is Fimir. (the previous condition was changing if not Skaven) this change is for compatibility
+
+2024/FEB/17 Rhox
+- Now two Fimir LLs are also candidates for Changeling transform in IEE and TOW
+
+2024/FEB/12 Rhox
+- Now Kislev gains devotion upon defeating Fimirs
+
+2024/JAN/20 Rhox
+- Gave access to the Ogham stones landmark
+- Added Bog Octopus to fimir_untamed_monsters unit_set
+
+2024/JAN/18 Rhox
+- Added rebel faction (Proper flag will come later)
+- Added Siege weapon script for Fimir Rebels&Rogue (Vanilla script will still scream out for script errors though)
+- Fixed the issue of ovn_fim_enable_army_ability_cursed_mist_HIDDEN having priority and is shown in the effect bundle
+- Changed the path to icon_minimize_up.png in the TWUI as it was limited to Wh3 only
+- Changed Hellmother's Crown to an enchanted item from Armour
+- Changed Fimir's incident and dilemma to show one in its own path rather than just faction for all of them
+- Removed pre-battle charge ability ovn_fimir_spell_mastery_X's phase display and audio as it's showing for all of the units for all of the battle duration
+- Gave access to the Fu-Chow port
+
+2024/JAN/10 Rhox
+- Added name for the QB faction
+
+2023/12/30 Rhox
+- Regenerated wsmodel for Gharnu's Deamon Fiend's head
+2023/12/18 Lingling
+- changed the melee and missile weapon building damage multipliers to be in line with current game rules

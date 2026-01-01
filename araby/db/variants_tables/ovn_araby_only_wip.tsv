@@ -1,0 +1,155 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/ovn_araby_only_wip							
+arb_giant		arb_savage_giant		1.0000	1.0000	0.0500	
+arb_mirage_spearmen		arb_mirage_spearmen		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_cha_vizier_desert_01		ovn_arb_cha_vizier_desert_01		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_desert_02		ovn_arb_cha_vizier_desert_02		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_desert_03		ovn_arb_cha_vizier_desert_03		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_fire_01		ovn_arb_cha_vizier_fire_01		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_fire_02		ovn_arb_cha_vizier_fire_02		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_fire_03		ovn_arb_cha_vizier_fire_03		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_heavens_01		ovn_arb_cha_vizier_heavens_01		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_heavens_02		ovn_arb_cha_vizier_heavens_02		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_heavens_03		ovn_arb_cha_vizier_heavens_03		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_life_01		ovn_arb_cha_vizier_life_01		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_life_02		ovn_arb_cha_vizier_life_02		1.0500	1.0500	0.0000	
+ovn_arb_cha_vizier_life_03		ovn_arb_cha_vizier_life_03		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magicican_desert		ovn_uniform_arb_magicican_desert		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magicican_desert_2		ovn_uniform_arb_magicican_desert_2		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magicican_desert_3		ovn_uniform_arb_magicican_desert_3		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magicican_fire		ovn_uniform_arb_magicican_fire		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magicican_fire_2		ovn_uniform_arb_magicican_fire_2		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magicican_fire_3		ovn_uniform_arb_magicican_fire_3		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magician_heavens		ovn_uniform_arb_magician_heavens		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magician_heavens_2		ovn_uniform_arb_magician_heavens_2		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magician_heavens_3		ovn_uniform_arb_magician_heavens_3		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magician_life		ovn_uniform_arb_magician_life		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magician_life_2		ovn_uniform_arb_magician_life_2		1.0500	1.0500	0.0000	
+ovn_uniform_arb_magician_life_3		ovn_uniform_arb_magician_life_3		1.0500	1.0500	0.0000	
+otf_khemri_rangers		aarb_alrahem_nomad_bow_sword		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arabyan_bowmen		aarb_skirmisher_bow_sword		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_naffatun_ror		ovn_arb_naffatun_ror		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arabyan_guard		aarb_guard_halberd_shield		1.0000	1.0000	0.0500	
+ovn_arabyan_guard_ror		aarb_guard_ror_sword_shield		1.0000	1.0000	0.0500	
+ovn_arabyan_knights		aarb_knight_sword_shield		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arabyan_knights_ror		aarb_knight_ror_sword_shield		1.0000	1.0000	0.0500	
+ovn_arabyan_knights_ror_almuktar_officer		aarb_knight_ror_almuktar_officer		1.0000	1.0000	0.0500	
+ovn_arabyan_knights_ror_shufti_officer		aarb_knight_ror_shufti_officer		1.0000	1.0000	0.0500	
+ovn_arabyan_ogres		araby_mercenary_ogres		1.0000	1.0000	0.0500	
+ovn_arabyan_ogres_pistol		ogr_arb_maneater_pistol		1.0000	1.0000	0.0500	
+ovn_arabyan_ogres_maneaters		ogr_arb_maneater_sword		1.0000	1.0000	0.0500	
+ovn_arabyan_spearmen		aarb_warrior_spear_shield		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arabyan_warriors		aarb_warrior_sword_shield		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_bedouin_scouts		aarb_alrahem_nomad_javelin_spear_shield		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_camel_rider_archer		aarb_mounted_skirmisher_bow_sword_camel		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_camel_rider_jezzail		aarb_mounted_skirmisher_jezzail_sword		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_camel_rider_lancer		aarb_mounted_warrior_spear_shield_camel		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_camel_rider_lancer_ror		aarb_mounted_warrior_ror_daughters_sword		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_ch_magician_desert		aarb_magician_desert_staff_sword		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_desert_carpet		arb_magician_desert_carpet		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_fire		aarb_magician_fire_staff_sword		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_fire_carpet		arb_magician_fire_carpet		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_heavens		aarb_magician_tempest_staff_sword		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_heavens_carpet		arb_magician_heavens_carpet		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_life		aarb_magician_life_staff_sword		1.0000	1.0000	0.0000	
+ovn_arb_ch_magician_life_carpet		arb_magician_life_carpet		1.0000	1.0000	0.0000	
+ovn_arb_cha_champion_01		ovn_arb_cha_champion_01		1.0000	1.0000	0.0500	
+ovn_arb_cha_champion_02		ovn_arb_cha_champion_02		1.0000	1.0000	0.0500	
+ovn_arb_cha_champion_03		ovn_arb_cha_champion_03		1.0000	1.0000	0.0500	
+ovn_arb_cha_champion_wazar		ovn_arb_cha_champion_wazar		1.0000	1.0000	0.0500	
+ovn_arb_cha_fatandira_0		ovn_arb_cha_fatandira_0		1.0000	1.2000	0.0000	
+ovn_arb_cha_fatandira_0_camp		arb_fatandira_camp		1.0000	1.1000	0.0000	
+ovn_arb_cha_golden_magus_0		ovn_arb_cha_golden_magus_0		1.0500	1.0500	0.0000	
+ovn_arb_cha_golden_magus_1		arb_golden_magus_horse		1.0500	1.0500	0.0000	
+ovn_arb_cha_hashashin_01		ovn_arb_cha_hashashin_01		1.0000	1.0000	0.0000	
+ovn_arb_cha_hashashin_02		ovn_arb_cha_hashashin_02		1.0000	1.0000	0.0000	
+ovn_arb_cha_hashashin_03		ovn_arb_cha_hashashin_03		1.0000	1.0000	0.0000	
+ovn_arb_cha_sheikh_01		ovn_arb_cha_sheikh_01		1.0000	1.1500	0.0000	
+ovn_arb_cha_sheikh_02		ovn_arb_cha_sheikh_02		1.0000	1.1500	0.0000	
+ovn_arb_cha_sheikh_03		ovn_arb_cha_sheikh_03		1.0000	1.1500	0.0000	
+ovn_arb_cha_sheikh_mehmed		ovn_arb_cha_sheikh_mehmed		1.0000	1.1500	0.0000	
+ovn_arb_cha_sultan_jaffar_0		ovn_arb_cha_sultan_jaffar_0		1.0500	1.0500	0.0000	
+ovn_arb_corsairs		aarb_corsair_dual_swords		1.0000	1.0000	0.0500	
+ovn_arb_corsairs_jezzail_riders		aarb_corsair_jezzail_sword		1.0000	1.0000	0.0500	
+ovn_arb_dervishers		aarb_dervisher_dual_clubs		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_djinn_vessel_01		arb_djinn_vessel_01		1.0000	1.0000	0.0000	
+ovn_arb_djinn_vessel_02		arb_djinn_vessel_02		1.0000	1.0000	0.0000	
+ovn_arb_flying_carpet_rider		aarb_carpet_rider_sword_bow		1.0000	1.0000	0.0500	
+ovn_arb_flying_carpet_rider_ror		aarb_carpet_rider_ror_sword_bomb		1.0000	1.0000	0.0500	
+ovn_arb_giant_scorpion		arb_giant_scorpion		1.0000	0.6000	0.0500	
+ovn_arb_giant_vulture_feral	VariantMeshes\wh_variantmodels\bi2\grn\grn_wyvern\tech	aarb_giant_vulture		1.0000	1.0000	0.0500	
+ovn_arb_warriors_ror		arb_warrior_ror_sword_shield		1.0000	1.0000	0.0500	
+ovn_arb_warriors_ror_mullah_officer		arb_warrior_ror_aklan_officer		1.0000	1.0000	0.0000	
+ovn_arb_jezzails		aarb_skirmisher_jezzail_sword		1.0000	1.0000	0.0500	
+ovn_arb_jezzails_ror		aarb_rifleman_ror_jezzail_sword		1.0000	1.0000	0.0500	
+ovn_arb_mnt_camel	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel		1.0000	1.0000	0.0000	
+ovn_arb_mnt_camel_armoured	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel_armoured		1.0000	1.0000	0.0000	
+ovn_arb_mnt_camel_armoured_ror	variantmeshes/wh_variantmodels/cm1/arb/arb_camel/tech	arb_camel_armoured_ror		1.0000	1.0000	0.0000	
+ovn_arb_mnt_djinn_siff_campaign	warmachines/chariot/arb_golden_magus_ship/tech_campaign	arb_golden_magus_djinn_skiff_campaign		1.0500	1.0500	0.0000	
+ovn_arb_mnt_fatandira_roc	VariantMeshes\wh_variantmodels\bi1\wef\wef_great_eagle\body\tech	arb_fatandira_roc		1.0000	1.0000	0.0000	
+ovn_arb_mnt_fatandira_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_fatandira_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	0.9500	0.9500	0.0000	
+ovn_arb_mnt_flying_carpet	VariantMeshes/wh_variantmodels/fc2/arb/arb_flying_carpet/tech/	arb_flying_carpet		0.6000	1.0000	0.0000	
+ovn_arb_mnt_giant_vulture_mir	VariantMeshes\wh_variantmodels\bi2\grn\grn_wyvern\tech	aarb_giant_vulture_mir		1.0000	1.0000	0.0500	
+ovn_arb_mnt_knight_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_knight_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_knight_warhorse_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_knight_warhorse_ror	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_scorpion		arb_giant_scorpion		1.0000	0.6000	0.0500	
+ovn_arb_mnt_sipahis_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sipahis_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_sipahis_warhorse_ror	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sipahis_warhorse_ror	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_sheikh_warhorse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_sheikh_warhorse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_necrofex_colossus	VariantMeshes\wh_variantmodels\gi2\cst\cst_necrofex_colossus\tech	cst_necrofex_colossus		1.0000	1.0000	0.0500	
+ovn_arb_pit_fighters		aarb_pit_fighter_sword_shield		1.0000	0.9500	0.0500	
+ovn_arb_promethean_hatchlings		cst_rotting_promethean		1.0000	0.6000	0.0500	
+ovn_arb_sharkas_slaves		arb_sharkas_slaves		1.0000	1.0000	0.0500	
+ovn_arb_sipahis		aarb_sipahi_mace_shield		1.0000	1.0000	0.0500	
+ovn_arb_sipahis_ror		aarb_sipahi_ror_mace_shield		1.0000	1.0000	0.0500	
+ovn_arb_southland_warriors		aarb_southland_warriors_sword		1.0000	1.0000	0.0500	
+ovn_arb_tempest_djinn_gm_skiff		arb_tempest_djinn_oarsman		1.0000	1.0000	0.0500	
+ovn_arb_tuareg_riders		aarb_mounted_skirmisher_bow_sword		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_campaign_arb_ship_agent		campaign_arb_ship_agent		1.0000	0.5000	0.0000	
+ovn_campaign_arb_ship_army		campaign_arb_ship_army		1.0000	0.6000	0.0000	
+ovn_campaign_arb_ship_flaming_scimitar_army		arb_ship_flaming_scimitar		1.0000	0.7500	0.0000	
+ovn_arb_artillery_crew		arb_artillery_crew		1.0000	1.0000	0.0500	
+scythan_archers		ovn_arb_scy_archers		1.0000	1.0000	0.0500	
+scythan_cataphracts		ovn_arb_scy_cataphracts		1.0000	1.0000	0.0500	
+scythan_guard		ovn_arb_scy_guard		1.0000	1.0000	0.0500	
+scythan_knights		ovn_arb_scy_knights		1.0000	1.0000	0.0500	
+scythan_ranger		ovn_arb_scy_rangers		1.0000	1.0000	0.0500	
+scythan_spearmen		ovn_arb_scy_spearmen		1.0000	1.0000	0.0500	
+scythan_swordsmen		ovn_arb_scy_swordsmen		1.0000	1.0000	0.0500	
+ovn_arb_mnt_hippo	variantmeshes/wh_variantmodels/bo1/arb/arb_hippo/tech	arb_hippo		1.0000	1.5000	0.0000	
+ovn_arb_waghzen		aarb_waghzen_dual_clubs		1.0000	1.0000	0.0500	
+ovn_arb_enchanted_rope		aarb_enchanted_rope		1.0000	0.7500	0.0500	
+ovn_arb_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_horse_desert_dogs	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	arb_desert_dog_horse	hr1\brt\brt_horse\imposter\brt_horse_armoured_imposter	1.0000	1.0000	0.0500	
+ovn_arb_mnt_flying_carpet_ror	VariantMeshes/wh_variantmodels/fc2/arb/arb_flying_carpet/tech/	arb_flying_carpet_ror		0.6000	1.0000	0.0000	
+ovn_arb_djinn_carriage_djinn_cultist		arb_djinn_carriage_djinn_cultist		1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
+ovn_arb_ravager_kasabar_crew_whip		aarb_ravager_kasabar_crew_whip		1.0000	1.0000	0.0500	
+ovn_arb_ravager_kasabar_crew		aarb_ravager_kasabar_crew_jezzails		1.0000	1.0000	0.0500	
+ovn_arb_ravager_kasabar_crew_naffatun		aarb_ravager_kasabar_crew_naffatun		1.0000	1.0000	0.0500	
+ovn_arb_veh_air_skiff	warmachines/aircraft/arb_air_skiff/tech/	arb_air_skiff		1.0000	1.0000	0.0000	
+campaign_djinn_airskiff	warmachines/aircraft/arb_air_skiff/tech/	campaign_djinn_airskiff		1.0000	1.0000	0.0000	
+ovn_mon_book_djinn		ovn_arb_djinnbook		1.0000	0.2200	0.0500	
+ovn_arb_genie		arb_genie		1.0000	3.0000	0.0000	
+ovn_arb_jaffar_genie		arb_jaffar_djinn		1.0000	3.2000	0.0000	
+ovn_arb_sea_nymph		arb_sea_nymph		1.0000	3.0000	0.0000	
+ovn_arb_sea_nymph_ror		arb_sea_nymph_ror		1.0000	3.2000	0.0000	
+ovn_arb_desert_spirit		arb_desert_spirit		1.0000	0.6000	0.0000	
+ovn_arb_kharmel_ror		aarb_kharmel_ror		1.0000	3.2000	0.0000	
+ovn_arb_fire_efreet		arb_fire_efreet		1.0000	1.0000	0.0000	
+ovn_arb_fire_efreet_ror		arb_fire_efreet_ror		1.0000	1.2000	0.0000	
+ovn_arb_tempest_djinn		arb_tempest_djinn		1.0000	1.0000	0.0000	
+ovn_arb_tempest_djinn_ror		arb_tempest_djinn_ror		1.0000	1.2000	0.0000	
+ovn_arb_elephant_mahout		aarb_mahout		1.0000	1.0000	0.0500	
+ovn_arb_elephant_cannon		arb_elephant_cannon		1.3500	1.2500	0.0000	
+ovn_arb_mnt_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_base_elephant/tech	arb_elephant		1.0000	1.1500	0.0000	
+ovn_arb_mnt_royal_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_royal_elephant/tech	arb_royal_war_elephant		1.4000	1.4000	0.0000	
+ovn_arb_mnt_war_elephant	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_war_elephant/tech	arb_war_elephant		1.3500	1.3500	0.0000	
+ovn_arb_mnt_war_elephant_ror_1	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_ravager_elephant/tech	arb_kasabar_elephant		1.3000	3.2000	0.0000	
+ovn_arb_mnt_war_elephant_ror_2	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_war_elephant/tech_ror	arb_cannon_elephant		1.3500	1.3500	0.0000	
+ovn_arb_mnt_royal_war_elephant_cam	variantmeshes/wh_variantmodels/el1/arb/arb_new_elephants/arb_royal_elephant/tech	arb_royal_war_elephant		1.4000	1.4000	0.0000	
+ovn_radiant_pegasus_sheikh	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_radiant_pegasus_sheikh		1.0000	1.0000	0.0500	
+ovn_radiant_pegasus_emir	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ovn_radiant_pegasus_emir		1.0000	1.0000	0.0500	
+ovn_arb_cha_caravan_master_01		ovn_arb_cha_caravan_master_01		1.0000	1.1500	0.0000	
+ovn_arb_cha_caravan_master_02		ovn_arb_cha_caravan_master_02		1.0000	1.1500	0.0000	
+ovn_arb_cha_caravan_master_03		ovn_arb_cha_caravan_master_03		1.0000	1.1500	0.0000	
+ovn_arb_djinn_carriage_campaign	warmachines\engines\arb_djinn_carriage_02\tech	campaign_arb_djinn_carriage		1.0000	1.0000	0.0000	

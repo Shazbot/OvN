@@ -1,0 +1,47 @@
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters>
+		<emitter type="continuous_rigid" id="balloon">
+			<property name="AllowEmitFromMesh" quality="0" value="false"/>
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="500.00" w="500.00"/>
+			<property name="EmissionLoopAnim" quality="0" value="false"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8405056,0;0.0,100.0,linear,linear,-0.05,0.0,0.05,0.0,1|x_max,16728128,0;0.0,100.0,linear,linear,-0.05,0.0,0.05,0.0,1:x,0;0,1</property>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<property name="MaximumParticles" quality="0" value="1"/>
+			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="100.00" w="500.00"/>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8405056,0;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,1|x_max,16728128,0;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,1:x,0;0,1</property>
+			<property name="ParticleInitialSpeedLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8405056,1;0.0,60.0,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,60.0,linear,linear,-0.05,0.0,0.05,0.0,0:x,1;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="0.00" z="0.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8405056,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|x_max,16728128,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|y_min,4227136,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|y_max,4259648,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|z_min,4210816,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|z_max,4210943,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="ParticleSimulationSpace" quality="0" value="LOCAL_SPACE_POSITION_ONLY"/>
+			<property_rigid_data name="RigidData" quality="0">
+				<rigid_entry>
+					<ModelFile value="vfx/models/arb_war_elephant_balloon_01.wsmodel"/>
+					<PivotPoint x="0.5" y="0.5" z="0.5"/>
+					<AnimFile value=""/>
+					<AnimSpeed value="1.00"/>
+				</rigid_entry>
+			</property_rigid_data>
+			<property name="SpawnAreaLoopAnim" quality="0" value="false"/>
+			<property name="UseSurfaceNormal" quality="0" value="false"/>
+			<property name="CullDistances" quality="1" x="0.00" y="0.00" z="400.00" w="400.00"/>
+			<property name="ParticleCullDistances" quality="1" x="0.00" y="0.00" z="80.00" w="400.00"/>
+			<property name="CullDistances" quality="2" x="0.00" y="0.00" z="300.00" w="300.00"/>
+			<property name="ParticleCullDistances" quality="2" x="0.00" y="0.00" z="60.00" w="300.00"/>
+		</emitter>
+	</emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains>
+		<behaviour_chain id="balloon" />
+		</behaviour_chain>
+	</behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks>
+		<effect_render_stack id="balloon"/>
+	</effect_render_stacks>
+</vfx><vfx_references></vfx_references>

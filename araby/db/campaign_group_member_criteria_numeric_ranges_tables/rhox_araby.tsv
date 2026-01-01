@@ -1,0 +1,14 @@
+member	context	max_range	min_range
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/rhox_araby			
+rhox_fatandira_pooled_resource_1	VALUE	100	81
+rhox_fatandira_pooled_resource_2	VALUE	80	61
+rhox_fatandira_pooled_resource_3	VALUE	60	41
+rhox_fatandira_pooled_resource_4	VALUE	40	21
+rhox_fatandira_pooled_resource_5	VALUE	20	-20
+rhox_fatandira_pooled_resource_6	VALUE	-21	-40
+rhox_fatandira_pooled_resource_7	VALUE	-41	-60
+rhox_fatandira_pooled_resource_8	VALUE	-61	-80
+rhox_fatandira_pooled_resource_9	VALUE	-81	-100
+rhox_araby_estate_bundle_nomad_chief	VALUE	-25	-100
+rhox_araby_estate_bundle_urban_elite	VALUE	100	25
+rhox_araby_estate_bundle_evenly_matched	VALUE	24	-24

@@ -1,3 +1,4 @@
 key	recruitment_source	ui_recruitment_info
 #mercenary_pools_tables;1;db/mercenary_pools_tables/ovn_grudgebringers_only		
 ovn_gru_units_of_renown_pool		renown
+rhox_grudge_vanilla_unit_pool		rhox_grudge_return_recruit

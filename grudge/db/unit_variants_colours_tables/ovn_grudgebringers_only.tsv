@@ -80,3 +80,11 @@ key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_co
 2117853290		officer	uter_blomkwist_imperial_mortar		002955	002955	002955
 2117853291		officer	reiksguard_knights_todbringer		6A0000	FFFFFF	6A0000
 2117853292		soldier	reiksguard_knights_todbringer		6A0000	FFFFFF	6A0000
+210309002732		soldier	ludwig_uberdorf_mechanical_steed		FFFFFF	8D0000	FFFFFF
+2103090043		soldier	matthias_war_wagon		6A0000	6A0000	6A0000
+2103090053		soldier	matthias_war_wagon		000000	000000	000000
+2103090054		officer	matthias_war_wagon		000000	000000	000000
+2103090055		autonomous_rider	dwarf_envoy_oath_stone		6F0101	0F409C	6F0101
+2103090056		soldier	dwarf_envoy_oath_stone		6F0101	0F409C	6F0101
+2103090057		officer	dwarf_envoy_oath_stone		6F0101	0F409C	6F0101
+2103090058		mount	dwarf_envoy_oath_stone		6F0101	0F409C	6F0101

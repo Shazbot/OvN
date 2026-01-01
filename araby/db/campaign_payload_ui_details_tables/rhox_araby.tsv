@@ -1,0 +1,9 @@
+component	icon	state	sort_order
+#campaign_payload_ui_details_tables;2;db/campaign_payload_ui_details_tables/rhox_araby			
+rhox_araby_jaffar_djinn_unlock	ui/campaign ui/effect_bundles/cst_piece_of_eight.png	default	0
+rhox_araby_fatandira_djinn_unlock	ui/campaign ui/effect_bundles/cst_piece_of_eight.png	default	0
+rhox_araby_fatandira_tk_unlock	ui/campaign ui/effect_bundles/cst_piece_of_eight.png	default	0
+rhox_araby_jaffar_mehmed_unlock	ui/campaign ui/effect_bundles/cst_piece_of_eight.png	default	0
+dummy_convoy_50_battle	UI/skins/default/icon_alert_message.png	default	0
+dummy_convoy_fight_keep_slave	UI/skins/default/icon_alert_message.png	default	0
+dummy_convoy_fight_treasure_map	UI/skins/default/icon_alert_message.png	default	0

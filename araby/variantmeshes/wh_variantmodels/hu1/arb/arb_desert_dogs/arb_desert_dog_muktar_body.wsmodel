@@ -1,0 +1,37 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\arb_desert_dog_muktar_body.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_arms_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_robe_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arn_desert_dog_muktar_headdress_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_head_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_sorcerer\materials\arb_sorcerer_eyesnmouth_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_hair_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_cowl_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_arms_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_robe_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arn_desert_dog_muktar_headdress_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_head_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_sorcerer\materials\arb_sorcerer_eyesnmouth_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_hair_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_cowl_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_arms_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_robe_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arn_desert_dog_muktar_headdress_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_head_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_sorcerer\materials\arb_sorcerer_eyesnmouth_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_hair_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_cowl_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_arms_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_robe_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arn_desert_dog_muktar_headdress_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_head_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_sorcerer\materials\arb_sorcerer_eyesnmouth_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_muktar_hair_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\arb_desert_dog_cowl_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

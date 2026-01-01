@@ -166,3 +166,21 @@ dilemmas_localised_title_rhox_grudgebringer_battle_s	The Dead Have Risen	false
 dilemmas_localised_description_rhox_grudgebringer_battle_s	We arrive only to find a shambling horde of corpses, it’s not clear if the contract was only a lure or we were merely too late. Whatever the case we will make the living dead just plain dead, attack!	false
 dilemmas_localised_title_rhox_grudgebringer_battle_t	From The Burrows They Come	false
 dilemmas_localised_description_rhox_grudgebringer_battle_t	At the behest of Thanquol, the skaven assassin Shrinq Shaderipper has been sent to destroy the Grudgebringers or at the very least Commander Bernhardt. We should have known something was up by all the muck, rat hair and repeating words on the contract sent to us.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_mage_dilemmaFIRST	Lore of Beasts 	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_mage_dilemmaFIRST	Allor the Amber wizard, who utilizes Lore of Beast with additional healing skills will join us	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_mage_dilemmaSECOND	Lore of Fire 	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_mage_dilemmaSECOND	Luther Flamestrike, Bright Wizard with powerful attack magics will join us	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_mage_dilemmaTHIRD	Lore of Ice 	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_mage_dilemmaTHIRD	Vladimir Stormbringer, who utilizes both lore of ice and tempest will join us	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_fighter_dilemmaFIRST	Zhufbar Envoy	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_fighter_dilemmaFIRST	Engrol Goldtongue, dwarf in high places will join you with his bodyguard	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_fighter_dilemmaSECOND	Prince Carlsson’s Advisor 	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_fighter_dilemmaSECOND	Ilmarin, mysterious Elf advisor will join you	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_fighter_dilemmaTHIRD	Witch Hunter General	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_fighter_dilemmaTHIRD	Matthias, witch hunter who knows how to drill soldiers to its limits will join you	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_grudgebringer_fighter_dilemmaFOURTH	Imperial Combat Engineer 	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_grudgebringer_fighter_dilemmaFOURTH	Ludwig von Uberdorf, a person with great engineer knowledge will join you	false
+dilemmas_localised_description_rhox_grudgebringer_mage_dilemma	For our upcoming campaign we would be foolish to not seek out the aid of a wizard, though we must decide which lore of magic would aid us best?	false
+dilemmas_localised_title_rhox_grudgebringer_mage_dilemma	Might of Magic	false
+dilemmas_localised_description_rhox_grudgebringer_fighter_dilemma	We have received several escort contracts that require our immediate attention, though we can only fulfill one, which should we choose?	false
+dilemmas_localised_title_rhox_grudgebringer_fighter_dilemma	Urgent Escort	false

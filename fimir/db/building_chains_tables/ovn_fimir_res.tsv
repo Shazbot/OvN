@@ -1,18 +1,18 @@
-key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
-#building_chains_tables;9;db/building_chains_tables/ovn_fimir_res									
-ovn_fimir_resource_dyes			money	true	wh_main_sch_human_resource_dyes		20		true
-ovn_fimir_resource_exotic_animals			money	true	wh2_main_sch_resource_animals		20		true
-ovn_fimir_resource_furs			money	true	wh_main_sch_human_resource_furs		20		true
-ovn_fimir_resource_gemstones			money	true	wh_main_sch_dwarf_resource_gemstones		20		true
-ovn_fimir_resource_ivory			money	true	wh3_main_sch_human_resource_ivory		20		true
-ovn_fimir_resource_pastures			money	true	wh_main_sch_human_resource_pastures		20		true
-ovn_fimir_resource_salt			money	true	wh_main_sch_human_resource_salt		20		true
-ovn_fimir_resource_spices			money	true	wh2_main_sch_resource_spices		20		true
-ovn_fimir_resource_wine			money	true	wh_main_sch_human_resource_wine		20		true
-ovn_fimir_resource_obsidian			money	true	wh2_main_sch_resource_obsidian		20		true
-ovn_fimir_resource_marble			money	false	wh_main_sch_human_resource_marble		0		true
-ovn_fimir_resource_timber			money	false	wh_main_sch_human_resource_timber		0		true
-ovn_fimir_resource_gold			money	false	wh_main_sch_human_resource_gold		0		true
-ovn_fimir_resource_iron			money	false	wh_main_sch_human_resource_iron		0		true
-ovn_fimir_resource_pottery			money	false	wh_main_sch_human_resource_pottery		0		true
-ovn_fimir_resource_medicine			money	false	wh2_main_sch_resource_medicine		0		true
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/ovn_fimir_res										
+ovn_fimir_resource_dyes			money	true	wh_main_sch_human_resource_dyes		20		true	false
+ovn_fimir_resource_exotic_animals			money	true	wh2_main_sch_resource_animals		20		true	false
+ovn_fimir_resource_furs			money	true	wh_main_sch_human_resource_furs		20		true	false
+ovn_fimir_resource_gemstones			money	true	wh_main_sch_dwarf_resource_gemstones		20		true	false
+ovn_fimir_resource_ivory			money	true	wh3_main_sch_human_resource_ivory		20		true	false
+ovn_fimir_resource_pastures			money	true	wh_main_sch_human_resource_pastures		20		true	false
+ovn_fimir_resource_salt			money	true	wh_main_sch_human_resource_salt		20		true	false
+ovn_fimir_resource_spices			money	true	wh2_main_sch_resource_spices		20		true	false
+ovn_fimir_resource_wine			money	true	wh_main_sch_human_resource_wine		20		true	false
+ovn_fimir_resource_obsidian			money	true	wh2_main_sch_resource_obsidian		20		true	false
+ovn_fimir_resource_marble			money	false	wh_main_sch_human_resource_marble		0		true	false
+ovn_fimir_resource_timber			money	false	wh_main_sch_human_resource_timber		0		true	false
+ovn_fimir_resource_gold			money	false	wh_main_sch_human_resource_gold		0		true	false
+ovn_fimir_resource_iron			money	false	wh_main_sch_human_resource_iron		0		true	false
+ovn_fimir_resource_pottery			money	false	wh_main_sch_human_resource_pottery		0		true	false
+ovn_fimir_resource_medicine			money	false	wh2_main_sch_resource_medicine		0		true	false

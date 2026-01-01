@@ -27,8 +27,8 @@ effects_description_grudge_effect_ability_enable_banner_of_arcane_warding	Abilit
 effects_description_grudge_skill_ability_swiftness_of_itzl	Ability: Unstoppable Charge	true
 effects_description_grudge_skill_ability_skv_verminous_valour	Ability: Decisive Battle	true
 effects_description_ovn_grudge_diplo_bonus	Diplomatic relations: %+n with Men, Dwarfs and Wood Elves	false
-effects_description_ovn_grudge_horde	Alongside Bernhardt's personal Camp, deploy additional Camps as forward bases though you are limited to only one army. Permanent camps incur a trespass penalty unless you are military allies 	true
-effects_description_ovn_grudge_mercenary_dummy	Complete Contracts, Missions and return Settlements for RoR, Reinforcements, Gold and more	true
+effects_description_ovn_grudge_horde	Though you are limited to only one army, deploy additional Camps which have zero upkeep for more income and replenishment.	true
+effects_description_ovn_grudge_mercenary_dummy	Complete Contracts, Bounties, Missions and return Settlements for RoR, Reinforcements, Gold and more	true
 effects_description_ovn_grudge_good_dummy	Cannot declare war on Empire, Bretonnian, Kislev, High Elf, Wood Elf (Barring Wargrove of Woe), Cathayan and Dwarf factions	false
 effects_description_ovn_grudge_ror_xp_dummy	Regiments of Renown can gain XP, but if the unit perishes you lose them permanently barring Grudgebringer units. Each campaign a random selection will be recruitable	false
 effects_description_ovn_grudgebringer_ward	Ward save: %+n% for Grudgebringer Cavalry, Grudgebringer Infantry, Grudgebringer Crossbowmen & Grudgebringer Cannon.	true
@@ -175,3 +175,20 @@ effects_description_ovn_recruitment_cost_reduction_gru_ogre	Recruitment cost: %+
 effects_description_ovn_recruitment_cost_upkeep_gru_empire	Upkeep: %+n% for Empire units recruited from buildings	false
 effects_description_ovn_recruitment_cost_upkeep_gru_dwarf	Upkeep: %+n% for Dwarf units recruited from buildings	false
 effects_description_ovn_recruitment_cost_upkeep_gru_ogre	Upkeep: %+n% for Ogre units recruited from buildings	false
+effects_description_ovn_gru_stat_melee_attack_units_recruited_building	Melee Attack: %+n for all units recruited from buildings	false
+effects_description_ovn_gru_stat_melee_defense_units_recruited_building	Melee Defense: %+n for all units recruited from buildings	false
+effects_description_ovn_gru_stat_leadership_units_recruited_building	Leadership: %+n for all units recruited from buildings	false
+effects_description_matthias_war_wagon	Mount: War Wagon	false
+effects_description_dwarf_envoy_oath_stone	Mount: Oath Stone	false
+effects_description_enable_ovn_allor_spell_bound_earth_blood	Bound spell: "Earth Blood"	false
+unit_abilities_onscreen_name_ovn_allor_spell_bound_earth_blood	Earth Blood	false
+unit_abilities_tooltip_text_ovn_allor_spell_bound_earth_blood	The Wizard draws wholesome energies from the soil, imbuing companions with the natural resilience of the earth.	false
+unit_abilities_onscreen_name_ovn_luthor_wall_of_fire	Wall of Fire	false
+unit_abilities_tooltip_text_ovn_luthor_wall_of_fire	A wall of fire distorts everything seen through it and sows disorder and sick burns among the enemy, leaving them emotionally vulnerable.	false
+effects_description_enable_ovn_bound_wall_of_wind_and_fire	Bound spell: "Wall of Fire"	false
+special_ability_phases_onscreen_name_ovn_luthor_raging_flames	Raging Flames	false
+unit_abilities_onscreen_name_ovn_luthor_raging_flames	Raging Flames	false
+unit_abilities_tooltip_text_ovn_luthor_raging_flames	The flame of Aqshy kindles best in living flesh, and always hungers to destroy.	false
+effects_description_enable_ovn_luthor_raging_flames	Passive ability: "Raging Flames"	false
+character_skills_localised_description_ovn_luthor_innate	You don't want to be on the wrong side of this one's ire – it's explosive to say the least!	false
+character_skills_localised_name_ovn_luthor_innate	Incendiary	false

@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_building_effect_context_expressions.loc		
+building_effect_context_expressions_display_text_OvNArabyPublicOrderGreaterThan25	When [[img:icon_public_order]][[/img]]{{tr:public_order_effect}} is 25 or more:	false
+building_effect_context_expressions_display_text_OvNArabyPublicOrderLessThan-25	When [[img:icon_public_order]][[/img]]{{tr:public_order_effect}} is 25 or less:	false
+building_effect_context_expressions_display_text_OvNArabyHighUrbanFealty	When Urban Elites hold  [[img:icon_corruption_untainted]][[/img]] strong control:	false
+building_effect_context_expressions_display_text_OvNArabyLowUrbanFealty	When Urban Elites have [[img:icon_corruption_untainted]][[/img]] lost control:	false
+building_effect_context_expressions_display_text_OvNArabyHighNomadFealty	When Nomad Chiefs hold  [[img:icon_corruption_untainted]][[/img]] strong control:	false
+building_effect_context_expressions_display_text_OvNArabyLowNomadFealty	When Nomad Chiefs have [[img:icon_corruption_untainted]][[/img]] lost control:	false

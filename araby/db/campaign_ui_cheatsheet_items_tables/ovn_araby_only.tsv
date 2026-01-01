@@ -1,0 +1,13 @@
+key	description_text	faction	header_text	image_path	priority_index
+#campaign_ui_cheatsheet_items_tables;0;db/campaign_ui_cheatsheet_items_tables/ovn_araby_only					
+ovn_arb_golden_fleet_1	cheatsheet_arb_urban_nomad_text	ovn_arb_golden_fleet	war.camp.hp.urban_nomad.001		1
+ovn_arb_golden_fleet_2	cheatsheet_arb_slaves_text	ovn_arb_golden_fleet	war.camp.hp.slaves.001		2
+ovn_arb_golden_fleet_3	cheatsheet_arb_ship_building_text	ovn_arb_golden_fleet	war.camp.hp.ship_building.001		3
+ovn_arb_golden_fleet_4	cheatsheet_arb_infamy_text	ovn_arb_golden_fleet	war.camp.hp.infamy.001		4
+ovn_arb_sultanate_of_all_araby_1	cheatsheet_arb_urban_nomad_text	ovn_arb_sultanate_of_all_araby	war.camp.hp.urban_nomad.001		1
+ovn_arb_sultanate_of_all_araby_2	cheatsheet_arb_slaves_text	ovn_arb_sultanate_of_all_araby	war.camp.hp.slaves.001		2
+ovn_arb_sultanate_of_all_araby_3	cheatsheet_arb_caravans_text	ovn_arb_sultanate_of_all_araby	war.camp.hp.jellaba.001		3
+ovn_arb_sultanate_of_all_araby_4	cheatsheet_arb_jaffars_revenge_text	ovn_arb_sultanate_of_all_araby	war.camp.hp.jaffars_revenge.001		4
+ovn_arb_aswad_scythans_1	cheatsheet_arb_urban_nomad_text	ovn_arb_aswad_scythans	war.camp.hp.urban_nomad.001		1
+ovn_arb_aswad_scythans_2	cheatsheet_arb_fatandira_allegiance_text	ovn_arb_aswad_scythans	war.camp.hp.fatandira_allegiance.001		2
+ovn_arb_aswad_scythans_3	cheatsheet_arb_grand_bazaar_text	ovn_arb_aswad_scythans	war.camp.hp.grand_bazaar.001		3

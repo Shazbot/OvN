@@ -1,2 +1,15 @@
 character_name	skill	level
 #battle_set_piece_armies_characters_skills_tables;2;db/battle_set_piece_armies_characters_skills_tables/ovn_grudgebringers		
+allor	wh_main_skill_all_magic_all_11_arcane_conduit	1
+allor	rhox_allor_innate	1
+allor	rhox_allor_unique_1	1
+allor	rhox_allor_unique_2	1
+allor	rhox_allor_unique_3	1
+allor	rhox_allor_unique_4	1
+allor	rhox_allor_unique_5	1
+allor	rhox_allor_unique_6	1
+ceridan	ceridan_innate	1
+ceridan	ceridan_lone_wolf	1
+ceridan	ceridan_natural_hunter	1
+ceridan	ceridan_skaven_scourge	1
+ceridan	rhox_grudge_ceridan_dedication_asuryan	1

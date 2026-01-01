@@ -2,6 +2,11 @@ base_unit	mounted_unit	icon_name
 #units_custom_battle_mounts_tables;1;db/units_custom_battle_mounts_tables/ovn_grudgebringers		
 morgan_bernhardt	morgan_bernhardt_mount	ui/campaign ui/mounts/mount_warhorse.png
 gaston	gaston_mount	ui/campaign ui/mounts/mount_barded_warhorse.png
-ludwig_uberdorf	ludwig_uberdorf_mount_main_units	ui/campaign ui/mounts/mount_barded_warhorse.png
+ludwig_uberdorf	ludwig_uberdorf_mount_main_units	ui/campaign ui/mounts/mount_warhorse.png
 ludwig_uberdorf	ludwig_uberdorf_steam_tank_main_units	ui/campaign ui/mounts/mount_tank.png
 luther_flamenstrike	luther_flamenstrike_mount	ui/campaign ui/mounts/mount_warhorse.png
+ice_mage_vladimir_stormbringer	ice_mage_vladimir_stormbringer_mount	ui/campaign ui/mounts/mount_warhorse.png
+allor	allor_griffon	ui/campaign ui/mounts/mount_imperial_griffon.png
+ceridan	ceridan_eagle	ui/campaign ui/mounts/mount_great_eagle.png
+matthias	matthias_war_wagon	ui/campaign ui/mounts/mount_war_altar_of_sigmar.png
+dwarf_envoy	dwarf_envoy_oath_stone	ui/campaign ui/mounts/mount_oath_stone.png

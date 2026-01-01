@@ -1,3 +1,0 @@
-key	faction_offset_x	faction_offset_y	faction_scale_x	faction_scale_y	unitcat_offset_x	unitcat_offset_y	unitcat_scale_x	unitcat_scale_y	command_star_offset_x	command_star_offset_y	army_id_offset_y	animation_name	unit_id_offset_y
-#unit_banners_tables;3;db/unit_banners_tables/ovn_fimir_only													
-ovn_fim_fimir	0.5000	0.1760	0.5000	0.5000	0.5900	0.2700	0.3200	0.3200	-1.0000	0.0000	4.3000	banner_ver_01	6.6000

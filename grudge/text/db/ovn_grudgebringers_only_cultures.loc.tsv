@@ -2,3 +2,9 @@ key	text	tooltip
 #Loc;1;text/db/ovn_grudgebringers_only_cultures.loc		
 cultures_name_ovn_grudgebringers_CB_only	Grudgebringers	false
 cultures_frontend_description_ovn_grudgebringers_CB_only	Composed of regiments and heroes of many diverse armies, backgrounds and races, the Grudgebringers have a powerful but costly roster at their disposal of almost exclusively Regiments of Renown.	false
+cultures_subcultures_name_ovn_sc_grudgebringers	Grudgebringers	false
+cultures_subcultures_battle_playstyle_description_ovn_sc_grudgebringers	Composed of regiments and heroes of many diverse armies, backgrounds and races, the Grudgebringers have a powerful but costly roster at their disposal of almost exclusively Regiments of Renown.	false
+cultures_subcultures_confederation_screen_name_ovn_sc_grudgebringers		false
+cultures_subcultures_confederation_summary_name_ovn_sc_grudgebringers		false
+cultures_frontend_description_ovn_sc_grudgebringers	Composed of regiments and heroes of many diverse armies, backgrounds and races, the Grudgebringers have a powerful but costly roster at their disposal of almost exclusively Regiments of Renown.	false
+cultures_subcultures_battle_playstyle_description_ovn_grudgebringers_CB_only	Composed of regiments and heroes of many diverse armies, backgrounds and races, the Grudgebringers have a powerful but costly roster at their disposal of almost exclusively Regiments of Renown.	false

@@ -1,0 +1,20 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\fim_skattach_torso.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir_LH</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\fim_skattach_head.wsmodel" ></VARIANT_MESH>
+	</SLOT>
+		<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\fim_skattach_legs.wsmodel" ></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\fim_skattach_staff.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>
+
+

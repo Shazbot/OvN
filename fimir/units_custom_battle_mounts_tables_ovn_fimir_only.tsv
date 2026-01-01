@@ -1,5 +1,0 @@
-base_unit	mounted_unit	icon_name
-#units_custom_battle_mounts_tables;1;db/units_custom_battle_mounts_tables/ovn_fimir_only		
-fim_cha_boglar_shaman	fim_cha_boglar_shaman_hound	ui/campaign ui/mounts/mount_giant_wolf.png
-fim_cha_fimirach_noble	fim_cha_fimirach_noble_bog_beast	ui/campaign ui/mounts/mount_cold_one.png
-fim_cha_meargh_skattach	fim_cha_meargh_skattach_palanquin	ui/campaign ui/mounts/mount_warhorse.png

@@ -26,3 +26,5 @@ rhox_grudgebringer_battle_q	false			emp/rhox_grudgebringer_battle_a	true	Event		
 rhox_grudgebringer_battle_r	false			emp/rhox_grudgebringer_battle_a	true	Event				false
 rhox_grudgebringer_battle_s	false			emp/rhox_grudgebringer_battle_a	true	Event				false
 rhox_grudgebringer_battle_t	false			emp/rhox_grudgebringer_battle_a	true	Event				false
+rhox_grudgebringer_mage_dilemma	false			emp/rhox_grudgebringer_battle_l	true	Event				false
+rhox_grudgebringer_fighter_dilemma	false			emp/rhox_grudgebringer_battle_f	true	Event				false

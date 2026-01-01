@@ -1,0 +1,6 @@
+scene_filepath
+#composite_scene_files_tables;0;db/composite_scene_files_tables/ovn_araby_only
+composite_scene/spells_and_abilities/ovn_desert_sandstorm.csc
+composite_scene/spells_and_abilities/invocation_of_djinn.csc
+composite_scene/spells_and_abilities/invocation_of_djinn_impacts.csc
+composite_scene/spells_and_abilities/magus_dust_devil.csc

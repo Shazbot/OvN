@@ -1,9 +1,0 @@
-subculture	subtype	agent	associated_unit_override	icon
-#agent_subtype_subculture_overrides_tables;5;db/agent_subtype_subculture_overrides_tables/ovn_fimir_only				
-ovn_sc_fim_fimir	wh_dlc08_nor_cha_fimir_balefiend_beast	dignitary		
-ovn_sc_fim_fimir	wh_dlc08_nor_cha_fimir_balefiend_death	dignitary		
-ovn_sc_fim_fimir	wh_dlc08_nor_fimir_balefiend_fire	dignitary		
-ovn_sc_fim_fimir	wh_dlc08_nor_fimir_balefiend_shadow	dignitary		
-ovn_sc_fim_fimir	elo_boglar_shaman	wizard		
-ovn_sc_fim_fimir	fim_finmor	champion		
-ovn_sc_fim_fimir	fim_finmor_kroll	champion		

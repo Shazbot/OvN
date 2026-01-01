@@ -1,0 +1,48 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/ovn_araby_only														
+araby_tech_good_civ_2			0	araby_tech_good_civ_2	ovn_araby_tech	1	600	0	0	arb_1		0	0	0
+araby_tech_bad_civ_2			0	araby_tech_bad_civ_2	ovn_araby_tech	7	100	5000	0	arb_4		0	0	0
+araby_tech_good_civ_1			1	araby_tech_good_civ_1	ovn_araby_tech	1	500	0	0			0	0	0
+araby_tech_good_civ_3			1	araby_tech_good_civ_3	ovn_araby_tech	2	600	0	0			0	0	0
+araby_tech_bad_civ_3			1	araby_tech_bad_civ_3	ovn_araby_tech	6	600	0	0			0	0	0
+araby_tech_bad_civ_1			1	araby_tech_bad_civ_1	ovn_araby_tech	7	500	0	0			0	0	0
+scythan_tech_unique_0		ovn_arb_aswad_scythans	2	scythan_tech_unique_0	ovn_araby_tech	0	400	0	0	arb_2_scythan		0	0	0
+araby_tech_good_civ_0			2	araby_tech_good_civ_0	ovn_araby_tech	0	400	0	0			0	0	0
+araby_tech_good_civ_4			2	araby_tech_good_civ_4	ovn_araby_tech	2	600	0	0	arb_3		0	0	0
+araby_tech_good_civ_6			2	araby_tech_good_civ_6	ovn_araby_tech	3	600	0	0			0	0	0
+araby_tech_bad_civ_6			2	araby_tech_bad_civ_6	ovn_araby_tech	5	600	0	0			0	0	0
+araby_tech_bad_civ_4			2	araby_tech_bad_civ_4	ovn_araby_tech	6	600	0	0	arb_6		0	0	0
+araby_tech_bad_civ_0			2	araby_tech_bad_civ_0	ovn_araby_tech	8	400	0	0			0	0	0
+araby_tech_good_civ_5			3	araby_tech_good_civ_5	ovn_araby_tech	2	600	0	0			0	0	0
+araby_tech_good_civ_7			3	araby_tech_good_civ_7	ovn_araby_tech	3	600	0	0			0	0	0
+araby_tech_bad_civ_7			3	araby_tech_bad_civ_7	ovn_araby_tech	5	600	0	0			0	0	0
+araby_tech_bad_civ_5			3	araby_tech_bad_civ_5	ovn_araby_tech	6	600	0	0			0	0	0
+araby_tech_good_civ_8			4	araby_tech_good_civ_8	ovn_araby_tech	3	600	0	0			0	0	0
+araby_tech_bad_civ_8			4	araby_tech_bad_civ_8	ovn_araby_tech	5	600	0	0			0	0	0
+araby_tech_good_final_0			5	araby_tech_good_final_0	ovn_araby_tech	3	800	0	0			0	0	0
+araby_tech_bad_final_0			5	araby_tech_bad_final_0	ovn_araby_tech	5	800	0	0			0	0	0
+araby_tech_good_mil_6			6	araby_tech_good_mil_6	ovn_araby_tech	3	600	0	0			0	0	0
+araby_tech_bad_mil_6			6	araby_tech_bad_mil_6	ovn_araby_tech	5	600	0	0			0	0	0
+araby_tech_good_mil_3			7	araby_tech_good_mil_3	ovn_araby_tech	2	600	0	0			0	0	0
+araby_tech_good_mil_7			7	araby_tech_good_mil_7	ovn_araby_tech	3	600	0	0			0	0	0
+araby_tech_bad_mil_7			7	araby_tech_bad_mil_7	ovn_araby_tech	5	600	0	0			0	0	0
+araby_tech_bad_mil_3			7	araby_tech_bad_mil_3	ovn_araby_tech	6	600	0	0			0	0	0
+araby_tech_good_mil_0			8	araby_tech_good_mil_0	ovn_araby_tech	0	400	0	0	arb_2		0	0	0
+jaffar_tech_unique_1		ovn_arb_sultanate_of_all_araby	8	jaffar_tech_unique_1	ovn_araby_tech	2	600	0	0			0	0	0
+scimitar_tech_unique_1		ovn_arb_golden_fleet	8	scimitar_tech_unique_1	ovn_araby_tech	2	600	0	0			0	0	0
+scythan_tech_unique_1		ovn_arb_aswad_scythans	8	scythan_tech_unique_1	ovn_araby_tech	2	600	0	0			0	0	0
+araby_tech_good_mil_4			8	araby_tech_good_mil_4	ovn_araby_tech	2	600	0	0			0	0	0
+jaffar_tech_unique_2		ovn_arb_sultanate_of_all_araby	8	jaffar_tech_unique_2	ovn_araby_tech	3	600	0	0			0	0	0
+scimitar_tech_unique_2		ovn_arb_golden_fleet	8	scimitar_tech_unique_2	ovn_araby_tech	3	600	0	0			0	0	0
+scythan_tech_unique_2		ovn_arb_aswad_scythans	8	scythan_tech_unique_2	ovn_araby_tech	3	100	2000	0			0	0	0
+araby_tech_good_mil_8			8	araby_tech_good_mil_8	ovn_araby_tech	3	600	0	0			0	0	0
+araby_tech_bad_mil_8			8	araby_tech_bad_mil_8	ovn_araby_tech	5	600	0	0			0	0	0
+araby_tech_bad_mil_4			8	araby_tech_bad_mil_4	ovn_araby_tech	6	600	0	0			0	0	0
+araby_tech_bad_mil_0			8	araby_tech_bad_mil_0	ovn_araby_tech	8	400	0	0	arb_5		0	0	0
+araby_tech_good_mil_1			9	araby_tech_good_mil_1	ovn_araby_tech	1	500	0	0			0	0	0
+araby_tech_good_mil_5			9	araby_tech_good_mil_5	ovn_araby_tech	2	600	0	0			0	0	0
+araby_tech_bad_mil_5			9	araby_tech_bad_mil_5	ovn_araby_tech	6	600	0	0			0	0	0
+araby_tech_bad_mil_1			9	araby_tech_bad_mil_1	ovn_araby_tech	7	500	0	0			0	0	0
+araby_tech_good_mil_2			10	araby_tech_good_mil_2	ovn_araby_tech	1	600	0	0			0	0	0
+araby_tech_bad_mil_2			10	araby_tech_bad_mil_2	ovn_araby_tech	7	600	0	0			0	0	0
+ovn_araby_tech_dummy_tech		wh2_dlc11_cst_vampire_coast_qb1	16	wh_main_tech_dwf_civ_5_0	ovn_araby_tech	0	999999	0	0			0	0	0

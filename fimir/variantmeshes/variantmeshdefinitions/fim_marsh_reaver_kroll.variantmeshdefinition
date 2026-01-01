@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/fim_fianna_kroll_base.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\nor\nor_props\nor_fimir_warriors_glaive_2h_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\nor\nor_props\nor_fimir_warriors_glaive_2h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\nor\nor_props\nor_fimir_warriors_glaive_2h_03.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

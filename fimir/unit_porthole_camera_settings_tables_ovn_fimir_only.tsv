@@ -1,4 +1,0 @@
-key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
-#unit_porthole_camera_settings_tables;2;db/unit_porthole_camera_settings_tables/ovn_fimir_only								
-fim_fimirach_noble	2.6000	35.0000	195.0000	205.0000	-0.5000	2.8000	0.0000	Porthole/advisor/default_porthole.lighting
-fim_bog_octopus	12.0000	28.0000	190.0000	200.0000	-2.0000	3.0000	0.0000	Porthole/advisor/default_porthole.lighting

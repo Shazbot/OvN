@@ -1,0 +1,58 @@
+<material>
+ <name>chs_marauder_shield_01.xml</name>
+ <shader>shaders/rigid_faction_colours.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_blood_map</slot>
+   <source>commontextures/bloodmap.dds</source>
+  </texture>
+  <texture>
+   <slot>s_blood_map2</slot>
+   <source>commontextures/bloodmap.dds</source>
+  </texture>
+  <texture>
+   <slot>s_blood_map3</slot>
+   <source>commontextures/bloodmap.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_base_colour</slot>
+    <source>VariantMeshes/wh_variantmodels/hu1/arb_modular/tex/moon_shield_base_colour.dds</source>
+  </texture>
+  <texture>
+   <slot>s_gloss</slot>
+    <source>VariantMeshes/wh_variantmodels/hu1/arb_modular/tex/moon_shield_gloss.dds</source>
+  </texture>
+  <texture>
+   <slot>s_mask1</slot>
+    <source>VariantMeshes/wh_variantmodels/hu1/arb_modular/tex/moon_shield_mask.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+    <source>VariantMeshes/wh_variantmodels/hu1/arb_modular/tex/moon_shield_normal.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+    <source>VariantMeshes/wh_variantmodels/hu1/arb_modular/tex/moon_shield_spec.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_dither</slot>
+   <source>commontextures/dither.dds</source>
+  </texture>
+  <texture>
+   <slot>s_Texture7747</slot>
+   <source>commontextures/winds_of_magic_noise.dds</source>
+  </texture>
+  <texture>
+   <slot>s_Texture7748</slot>
+   <source>commontextures/winds_of_magic_material_map.dds</source>
+  </texture>
+ </textures>
+ <params>
+  <param>
+   <name>metal_tint_variation</name>
+   <type>float</type>
+   <value>0.1</value>
+  </param>
+ </params>
+</material>

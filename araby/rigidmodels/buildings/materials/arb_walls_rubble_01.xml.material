@@ -1,0 +1,25 @@
+<material>
+ <name>arb_walls_rubble_01.xml</name>
+ <shader>shaders/rigid_default.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_base_colour</slot>
+   <source>rigidmodels/buildings/textures/cth_rubble_01_base_colour.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_dither</slot>
+   <source>commontextures/dither.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+   <source>rigidmodels/buildings/textures/cth_rubble_01_material_map.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+   <source>rigidmodels/buildings/textures/cth_rubble_01_normal.dds</source>
+  </texture>
+ </textures>
+ <params>
+ </params>
+</material>

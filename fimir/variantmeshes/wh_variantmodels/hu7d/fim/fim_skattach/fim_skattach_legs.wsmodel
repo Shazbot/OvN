@@ -1,0 +1,21 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\fim_skattach_legs.rigid_model_v2</geometry>
+		<materials>
+			<material part_index="0" lod_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_balefiend\legs\materials\vmp_zombie_head_01_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="0">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_wristband_weighted4_alpha_on.xml.material</material>
+			<material part_index="2" lod_index="0">variantmeshes\wh_variantmodels\hu5\ogr\ogr_gnoblar\materials\grn_troll_river_hag_body_02_subm - clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="0">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_legs_submesh_0_weighted4_alpha_on.xml.material</material>
+			<material part_index="0" lod_index="1">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_balefiend\legs\materials\vmp_zombie_head_01_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="1">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_wristband - Clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="2" lod_index="1">variantmeshes\wh_variantmodels\hu5\ogr\ogr_gnoblar\materials\grn_troll_river_hag_body_02_subm - clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="1">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_legs_submesh_0 - Clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="0" lod_index="2">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_balefiend\legs\materials\vmp_zombie_head_01_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="2">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_wristband - Clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="2" lod_index="2">variantmeshes\wh_variantmodels\hu5\ogr\ogr_gnoblar\materials\grn_troll_river_hag_body_02_subm - clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="2">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_legs_submesh_0 - Clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="0" lod_index="3">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_balefiend\legs\materials\vmp_zombie_head_01_01_lod1_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="3">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_wristband - Clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="2" lod_index="3">variantmeshes\wh_variantmodels\hu5\ogr\ogr_gnoblar\materials\grn_troll_river_hag_body_02_subm - clone_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="3">variantmeshes\wh_variantmodels\hu7d\fim\fim_skattach\materials\fim_skattach_legs_submesh_0 - Clone_weighted4_alpha_on.xml.material</material>
+	</materials>
+</model>

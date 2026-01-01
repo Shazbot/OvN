@@ -1,0 +1,19 @@
+key	texture_filename_base	category
+#warscape_animated_tables;2;db/warscape_animated_tables/ovn_araby_only		
+arb_ship	warmachines\tex	animation
+arb_grand_bombard	warmachines\tex	animation
+arb_grand_bombard_destruct	warmachines\tex	animation
+arb_grand_bombard_ror	warmachines\tex	animation
+arb_grand_bombard_ror_destruct	warmachines\tex	animation
+arb_djinn_carriage_old	warmachines\tex	animation
+arb_djinn_carriage_destruct_old	warmachines\tex	animation
+arb_naphtha_thrower	warmachines\tex	animation
+arb_naphtha_thrower_destruct	warmachines\tex	animation
+arb_naphtha_thrower_ror	warmachines\tex	animation
+arb_naphtha_thrower_ror_destruct	warmachines\tex	animation
+arb_quadballista	warmachines\tex	animation
+arb_quadballista_destruct	warmachines\tex	animation
+arb_quadballista_ror	warmachines\tex	animation
+arb_quadballista_ror_destruct	warmachines\tex	animation
+arb_djinn_carriage	warmachines\tex	animation
+arb_djinn_carriage_destruct	warmachines\tex	animation

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<layout
+	version="138"
+	comment=""
+	precache_condition="">
+	<hierarchy>
+		<root this="B3E65DA1-296E-A368-438C12278C3D7D6D">
+			<malus_holder this="5EEB1AEB-61AC-94E0-FC2F221C783B9025"/>
+		</root>
+	</hierarchy>
+	<components>
+		<malus_holder
+			this="5EEB1AEB-61AC-94E0-FC2F221C783B9025"
+			id="malus_holder"
+			offset="245.00,0.00"
+			visible="false"
+			priority="1"
+			tooltipslocalised="true"
+			uniqueguid="5EEB1AEB-61AC-94E0-FC2F221C783B9025"
+			currentstate="2EF47323-D2EA-F003-095F84FB755CA7D4"
+			defaultstate="2EF47323-D2EA-F003-095F84FB755CA7D4">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ComponentCreator"/>
+				<callback_with_context callback_id="FactionSpecificVisibilitySetter"/>
+			</callbackwithcontextlist>
+			<userproperties>
+				<property
+					name="faction_key"
+					value="ovn_arb_golden_fleet"/>
+				<property
+					name="layout"
+					value="ui/campaign ui/rhox_araby_gm_top_bar"/>
+			</userproperties>
+			<states>
+				<newstate
+					this="2EF47323-D2EA-F003-095F84FB755CA7D4"
+					name="NewState"
+					width="1"
+					height="1"
+					texthbehaviour="Never split"
+					uniqueguid="2EF47323-D2EA-F003-095F84FB755CA7D4"/>
+			</states>
+			<LayoutEngine
+				type="HorizontalList"
+				sizetocontent="true"/>
+		</malus_holder>
+		<root
+			this="B3E65DA1-296E-A368-438C12278C3D7D6D"
+			id="root"
+			tooltipslocalised="true"
+			uniqueguid="B3E65DA1-296E-A368-438C12278C3D7D6D"
+			currentstate="9392E3A6-0656-53A3-36A3A66F28AAD5BF"
+			defaultstate="9392E3A6-0656-53A3-36A3A66F28AAD5BF">
+			<componentimages>
+				<component_image
+					this="DE1DABD9-10FE-ACC6-B7057747A1E7FB7A"
+					uniqueguid="DE1DABD9-10FE-ACC6-B7057747A1E7FB7A"/>
+			</componentimages>
+			<states>
+				<default
+					this="9392E3A6-0656-53A3-36A3A66F28AAD5BF"
+					name="default"
+					width="1600"
+					height="900"
+					texthbehaviour="Never split"
+					interactive="true"
+					uniqueguid="9392E3A6-0656-53A3-36A3A66F28AAD5BF">
+					<imagemetrics>
+						<image
+							this="009C4578-A00E-3E6B-65BC8AAF6D40A3DF"
+							uniqueguid="009C4578-A00E-3E6B-65BC8AAF6D40A3DF"
+							componentimage="DE1DABD9-10FE-ACC6-B7057747A1E7FB7A"
+							width="1600"
+							height="900"
+							colour="#F0F0F0FF"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</root>
+	</components>
+</layout>

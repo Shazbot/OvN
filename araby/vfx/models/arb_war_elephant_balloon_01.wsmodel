@@ -1,0 +1,9 @@
+<model version="1">
+  <geometry>vfx/models/arb_war_elephant_balloon_01.rigid_model_v2</geometry>
+  <materials>
+    <material part_index="0" lod_index="0">vfx/materials/arb_war_elephant_howdah_03_rigid_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="1">vfx/materials/arb_war_elephant_howdah_03_rigid_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="2">vfx/materials/arb_war_elephant_howdah_03_rigid_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="3">vfx/materials/arb_war_elephant_howdah_03_rigid_alpha_off.xml.material</material>
+  </materials>
+</model>

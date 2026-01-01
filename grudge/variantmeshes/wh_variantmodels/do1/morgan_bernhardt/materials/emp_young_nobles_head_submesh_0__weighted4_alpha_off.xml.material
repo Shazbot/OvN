@@ -5,7 +5,7 @@
  <textures>
   <texture>
    <slot version="2">t_xml_base_colour</slot>
-   <source>variantmeshes\wh_variantmodels\hu1\emp\emp_young_nobles\head\tex\emp_young_nobles_abroad_head_base_colour.dds</source>
+   <source>variantmeshes\wh_variantmodels\do1\morgan_bernhardt\tex\morgan_helm_flaps_base_colour.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_blood_map</slot>
@@ -21,7 +21,7 @@
   </texture>
   <texture>
    <slot version="2">t_xml_material_map</slot>
-   <source>VariantMeshes/wh_variantmodels/hu1/emp/emp_young_nobles/head/tex/emp_young_nobles_head_material_map.dds</source>
+   <source>variantmeshes\wh_variantmodels\do1\morgan_bernhardt\tex\morgan_helm_flaps_material_map.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_normal</slot>

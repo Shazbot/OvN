@@ -1,0 +1,6 @@
+<model version="1">
+ <geometry>rigidmodels\campaign\settlements\kislev\arb_ksl_flag_03.rigid_model_v2</geometry>
+ <materials>
+  <material lod_index="0" part_index="0">materials\environment\arb_ksl_flag_alpha_off.xml.material</material>
+ </materials>
+</model>

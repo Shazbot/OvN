@@ -42,8 +42,8 @@ local function add_on_first_tick()
 				local region_owner = region:owning_faction()
 				if not region_owner or region_owner:is_null_interface() then return end
 
-				-- only change it if not skaven
-				if region_owner:subculture() == "wh2_main_sc_skv_skaven" then return end
+				-- only change it if's Fimir
+				if region_owner:subculture() ~= "ovn_sc_fim_fimir" then return end
 
 				local shield = find_uicomponent(reveal, "shield")
 				local glow = find_uicomponent(reveal, "glow")

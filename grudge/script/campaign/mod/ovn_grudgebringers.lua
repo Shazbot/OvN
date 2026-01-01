@@ -14,12 +14,28 @@ end
 local grudebringers_faction_key = "ovn_emp_grudgebringers"
 
 local function spawn_new_force()
+
+    local x = 712
+    local y = 534
+    local spawn_region = "wh3_main_combi_region_stormhenge" --doesn't really matter'
+    if cm:get_campaign_name() == "cr_oldworld" then
+		x=983
+		y=896
+		spawn_region= "cr_oldworld_region_flensburg"
+    end
+    if cm:get_campaign_name() == "cr_oldworldclassic" then
+		x=983
+		y=896
+		spawn_region= "cr_oldworld_region_flensburg"
+    end
+    
+
 	cm:create_force_with_general(
 		"ovn_emp_grudgebringers", -- faction_key,
 		"grudgebringer_cavalry,grudgebringer_infantry,grudgebringer_cannon,grudgebringer_crossbow", -- unit_list,
-		"wh3_main_combi_region_stormhenge", -- region_key,
-        712, -- x
-        534, -- y,
+		spawn_region, -- region_key,
+        x, -- x
+        y, -- y,
 		"general", -- type,
 		"morgan_bernhardt", -- subtype,
 		"names_name_210309005", -- name1,
@@ -41,7 +57,6 @@ local function new_game_startup()
 	local grudgebringers = cm:get_faction(grudgebringers_string)
 
     if not grudgebringers then return end
-    character_unlocking.character_data["ulrika"].factions_involved[grudgebringers_string] = true--to keep Ulrika event from happening to Grudgebringers
     local to_kill_cqi = nil
     local mixer_grudgebringers_leader = grudgebringers:faction_leader()
 
@@ -60,9 +75,6 @@ local function new_game_startup()
     local srr = "" -- (may be empty) String subculture_restricted_record
     local trr = "" -- (may be empty) String tech_restricted_record
     local units = {
-        "grudgebringer_infantry",
-		"grudgebringer_cannon",
-		"grudgebringer_crossbow",
 		"helmgart_bowmen",
 		"keelers_longbows",
 		"dargrimm_firebeard_dwarf_warriors",
@@ -88,11 +100,12 @@ local function new_game_startup()
         "stephan_weiss_outlaw_pistoliers",
         "boris_von_raukov_4th_nuln_halberdiers",
         "uter_blomkwist_imperial_mortar",
-        "dwarf_envoy_dwarf_warriors"
+        "dwarf_envoy_dwarf_warriors",
+        "leitdorf_9th_crossbows",
+        "emperors_hellblaster_volley_gun",
+        "reiksguard_knights_todbringer"
     }
 
-    
-    
     
     for _, unit in ipairs(units) do
         cm:add_unit_to_faction_mercenary_pool(
@@ -121,42 +134,64 @@ local function new_game_startup()
         end
         
         -- prevent war with Order factions bar Lizardmen
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh_main_brt_bretonnia", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh_main_emp_empire", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh_main_dwf_dwarfs", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh_dlc05_wef_wood_elves", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh2_main_hef_high_elves", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh3_main_cth_cathay", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:wh3_main_ksl_kislev", "war", false, false, true);
-        cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:mixer_teb_southern_realms", "war", false, false, true);
+        for culture_key, _ in pairs(RHOX_GRUDGEBRINGER_GOOD_CULTURE) do
+            cm:force_diplomacy("faction:ovn_emp_grudgebringers", "culture:" .. culture_key, "war", false, false, true);
+        end
+        
+        for faction_key, _ in pairs(RHOX_GRUDGEBRINGER_BAD_FACTION) do
+            cm:force_diplomacy("faction:ovn_emp_grudgebringers", "faction:" .. faction_key, "war", true, true, true);
+        end
+        
+        local all_factions = cm:model():world():faction_list();
+        for i = 0, all_factions:num_items()-1 do
+            local faction = all_factions:item_at(i);
+            if faction:is_human() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[faction:culture()] then
+                cm:force_diplomacy("faction:ovn_emp_grudgebringers", "faction:" .. faction:name(), "war", true, true, true);
+            end
+        end;
+        
         
         --Spawn Starting Enemy Army
+
+		local enemy_x=717
+		local enemy_y=534
+        local spawn_region = "wh3_main_combi_region_stormhenge" --doesn't really matter'
+		if cm:get_campaign_name() == "cr_oldworld" then
+			enemy_x=987
+			enemy_y=896
+			spawn_region= "cr_oldworld_region_flensburg"
+		end
+		if cm:get_campaign_name() == "cr_oldworldclassic" then
+			enemy_x=987
+			enemy_y=896
+			spawn_region= "cr_oldworld_region_flensburg"
+		end
         
         if grudgebringers:is_human() then
-
-        cm:create_force_with_general(
-				"wh2_main_skv_skaven_qb1",
-				"wh_main_emp_inf_swordsmen,wh_main_emp_inf_swordsmen,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_1",
-				"wh3_main_combi_region_wreckers_point",
-                717,
-                534,
-				"general",
-				"wh2_dlc14_skv_master_assassin",
-				"",
-				"",
-				"",
-				"",
-				true,
-				function(cqi)
-					cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
-					cm:disable_movement_for_character("character_cqi:" .. cqi)
-				end
-			)
-    
-		cm:force_declare_war("wh2_main_skv_skaven_qb1", "ovn_emp_grudgebringers", false, false)
-		
-		cm:change_custom_faction_name("wh2_main_skv_skaven_qb1", "Hiln's Pact")
-
+            cm:create_force_with_general(
+                    "wh2_main_skv_skaven_qb1",
+                    "wh_main_emp_inf_swordsmen,wh_main_emp_inf_swordsmen,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_0,wh2_main_skv_inf_clanrats_1",
+                    spawn_region,
+                    enemy_x,
+                    enemy_y,
+                    "general",
+                    "wh2_dlc14_skv_master_assassin",
+                    "",
+                    "",
+                    "",
+                    "",
+                    true,
+                    function(cqi)
+                        cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force", cqi, -1, true)
+                        cm:disable_movement_for_character("character_cqi:" .. cqi)
+                    end
+                )
+        
+            cm:force_declare_war("wh2_main_skv_skaven_qb1", "ovn_emp_grudgebringers", false, false)
+            
+            cm:change_custom_faction_name("wh2_main_skv_skaven_qb1", common.get_localised_string("ovn_grudge_starting_enemy_faction_name"))
+            
+            cm:treasury_mod("ovn_emp_grudgebringers",-2000)
         end
     cm:lock_technology(grudebringers_faction_key, "wh2_dlc13_tech_emp_academia_1") --lock the basic empire economy tuff so the player won't get research available eventhough they have researched all
     cm:lock_technology(grudebringers_faction_key, "wh2_dlc13_tech_emp_economy_1")
@@ -174,7 +209,7 @@ function rhox_grudge_trigger_how_they_play()
         local title = "event_feed_strings_text_wh2_scripted_event_how_they_play_title";
         local primary_detail = "factions_screen_name_" .. faction_name;
         local secondary_detail = "event_feed_strings_text_rhox_grudge_event_feed_string_scripted_event_intro_grudgebringer_secondary_detail";
-        local pic = 591;
+        local pic = 3301240;
         out(title)
         out(primary_detail)
         out(secondary_detail)
@@ -191,13 +226,16 @@ function rhox_grudge_trigger_how_they_play()
 end
 
 
+
+
+
 cm:add_first_tick_callback(
 	function()
         pcall(function()
-            mixer_set_faction_trait("ovn_emp_grudgebringers", "ovn_faction_trait_grudge", true)
+            mixer_set_faction_trait("ovn_emp_grudgebringers", "ovn_lord_trait_emp_morgan", true)
         end)
 		if cm:is_new_game() then
-			if cm:get_campaign_name() == "main_warhammer" then
+			if cm:get_campaign_name() == "main_warhammer" or cm:get_campaign_name() == "cr_oldworld" or cm:get_campaign_name() == "cr_oldworldclassic" then
 				local ok, err =
 					pcall(
 					function()
@@ -249,6 +287,10 @@ core:add_listener(
 	function(context)
 		local char = context:character()
 		cm:set_character_excluded_from_trespassing(char, true)
+		local faction = context:character():faction()
+		if faction:is_human() == false and char:character_subtype_key() == "morgan_bernhardt" then --give AI replenishment bonus and AI can't handle it
+            cm:apply_effect_bundle_to_character("rhox_grudge_AI_hidden_bonus", char, -1)
+		end
 	end,
 	true
 )
@@ -265,6 +307,42 @@ core:add_listener(
 	function(context)
 		local char = context:character()
 		cm:set_character_excluded_from_trespassing(char, true)
+		local faction = context:character():faction()
+		if faction:is_human() == false and char:character_subtype_key() == "morgan_bernhardt" then --give AI replenishment bonus and AI can't handle it
+            cm:apply_effect_bundle_to_character("rhox_grudge_AI_hidden_bonus", char, -1)
+		end
 	end,
 	true
+)
+
+
+RHOX_GRUDGEBRINGER_MCT={
+    ror_skip = 8,
+    all_hero = false,
+    disable_all_hero_recruitment=false,--this is for compatibility
+}
+
+
+core:add_listener(
+    "rhox_grudge_mct_initialize",
+    "MctInitialized",
+    true,
+    function(context)
+        -- get the mct object
+        local mct = context:mct()
+
+        local my_mod = mct:get_mod_by_key("ovn_grudgebringer")
+
+        
+        local mct_ror_skip_num = my_mod:get_option_by_key("rhox_grudge_ror_skip")
+        RHOX_GRUDGEBRINGER_MCT.ror_skip = mct_ror_skip_num:get_finalized_setting()
+        
+        local mct_all_hero_option = my_mod:get_option_by_key("rhox_grudge_all_hero")
+        RHOX_GRUDGEBRINGER_MCT.all_hero = mct_all_hero_option:get_finalized_setting()
+        
+        
+
+
+    end,
+    true
 )

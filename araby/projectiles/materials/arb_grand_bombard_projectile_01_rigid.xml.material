@@ -1,0 +1,20 @@
+<material>
+ <name>arb_grand_bombard_projectile_01_rigid.xml</name>
+ <shader>shaders/rigid_default.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_base_colour</slot>
+   <source>projectiles/tex/arb_grand_bombard_projectile_01_diffuse.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+   <source>commontextures/default_material_mat.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+   <source>projectiles/tex/arb_grand_bombard_projectile_01_normal.dds</source>
+  </texture>
+ <params>
+ </params>
+</material>

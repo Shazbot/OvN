@@ -1,0 +1,5 @@
+from	to	automatic
+#military_force_type_conversions_tables;0;db/military_force_type_conversions_tables/ovn_araby_only		
+ovn_araby_flaming_scimitar_boat	ARMY	true
+ovn_araby_flaming_scimitar_boat	HORDE	false
+HORDE	ovn_araby_flaming_scimitar_boat	false

@@ -1,0 +1,27 @@
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+#cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/ovn_araby_only																												
+ovn_arb_allied_outpost						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125
+ovn_arb_artillery						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
+ovn_arb_nomad_cavalry						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
+ovn_arb_elephants						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
+ovn_arb_defence_major						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_defence_major						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_growth						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_nomad_infantry						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
+ovn_arb_income						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	1000
+ovn_arb_city_barracks						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
+ovn_arb_djinn						cai_military_group					0	0	1000	1000	1000	1000	0	0	0	0	510	510	510	510	0	0	1100	1500
+ovn_arb_order						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_port						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	1000
+ovn_arb_defence_minor						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_defence_minor						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+wh3_main_foreign_slot_discovery_arb						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	1	1
+ovn_arb_slaves						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_healing						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125
+ovn_arb_defence_major_scythans						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_defence_major_scythans						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_defence_minor_scythans						cai_defence_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_defence_minor_scythans						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_growth_scythans						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250
+ovn_arb_income_scythans						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	200	1000
+ovn_arb_order_scythans						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	250

@@ -1,0 +1,19 @@
+key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn_araby_resources	
+ovn_arb_resource_coffee	1
+ovn_arb_resource_animals	1
+ovn_arb_resource_dyes	1
+ovn_arb_resource_furs	1
+ovn_arb_resource_gems	1
+ovn_arb_resource_gold	1
+ovn_arb_resource_iron	1
+ovn_arb_resource_ivory	1
+ovn_arb_resource_marble	1
+ovn_arb_resource_medicine	1
+ovn_arb_resource_obsidian	1
+ovn_arb_resource_pasture	1
+ovn_arb_resource_pottery	1
+ovn_arb_resource_salt	1
+ovn_arb_resource_spices	1
+ovn_arb_resource_wine	1
+ovn_arb_resource_wood	1

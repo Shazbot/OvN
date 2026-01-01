@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_only_ui.loc		
+ovn_fimir_pre_battle_charge_slave_tooltip	Slaves||Fimir slaves that can be sacrificed.	false
+ovn_fimir_pre_battle_charge_text	Pre-Battle Sacrifices	false
+ovn_fimir_pre_battle_charge_tooltip	Pre-Battle Sacrifices||Fimir can sacrifice slaves to empower their spells.	false

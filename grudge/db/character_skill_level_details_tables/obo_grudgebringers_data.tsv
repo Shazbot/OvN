@@ -1,4 +1,4 @@
-faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
 #character_skill_level_details_tables;1;db/character_skill_level_details_tables/obo_grudgebringers_data						
 		1	grudge_skill_missile_ward		x	6
 		1	morgan_bernhardt_per_skill_01		x	9
@@ -13,6 +13,8 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	grudge_skill_grudgebringer_sword		x	4
 		1	grudge_skill_shadow_of_the_horned_rat		x	9
 		1	grudge_skill_dark_omen		x	13
+		1	ludwig_uberdorf_mechanical_steed		x	7
+		1	ludwig_uberdorf_mount		x	7
 		1	ludwig_uberdorf_steam_tank		x	15
 		1	rhox_grudge_ceridan_dedication_asuryan		x	9
 		1	ovn_grudge_skill_ksl_frost_maiden_unique_04		x	19
@@ -37,3 +39,17 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	ovn_grudge_skill_node_luther_flamenstrike_unique_04		x	12
 		1	ovn_grudge_skill_node_luther_flamenstrike_unique_05		x	12
 		1	ovn_grudge_skill_node_luther_flamenstrike_unique_06		x	12
+		1	rhox_ovn_grudge_item_sword_of_eilor		x	10
+		1	grudge_anc_rune_rune_of_fury		x	4
+		1	grudge_anc_rune_rune_of_might		x	9
+		1	grudge_anc_rune_rune_of_parrying		x	14
+		1	grudge_anc_rune_rune_of_striking		x	19
+		1	rhox_allor_unique_1		x	9
+		1	luther_flamenstrike_mount		x	7
+		1	vladimir_stormbringer_mount		x	7
+		1	allor_griffon		x	21
+		1	ceridan_eagle		x	11
+		1	matthias_war_wagon		x	15
+		1	dwarf_envoy_oath_stone		x	7
+		2	rhox_grudge_ceridan_hero_assist_army_replenish_troops		x	4
+		3	rhox_grudge_ceridan_hero_assist_army_replenish_troops		x	9

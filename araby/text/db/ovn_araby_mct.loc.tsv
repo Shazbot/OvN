@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_mct.loc		
+rhox_ovn_araby_minor_ind_title	Spawn Sultanate of Chandrahara (IEE)	false
+rhox_ovn_araby_minor_ind_desc	Spawns an Araby minor faction in Ind	false
+rhox_ovn_araby_minor_elkalabad_title	Additional starting regions for Sultanate of El-Kalabad (IEE)	false
+rhox_ovn_araby_minor_elkalabad_desc	Gives Akhaba and Sud to the Sultanate of El-Kalabad	false
+rhox_ovn_araby_minor_latency_title	Set latency	false
+rhox_ovn_araby_minor_latency_tooltip	If multiple mods are fighting over a single region, the higher the latency, the more likely it is to take over that region. Do note that it also means more likely you'll see the moment of ownership change	false
+rhox_ovn_araby_minor_cult_djinn_title	Spawn Cult of the Djinn (IEE)	false
+rhox_ovn_araby_minor_cult_djinn_desc	Spawns an Araby minor faction in Khuresh	false

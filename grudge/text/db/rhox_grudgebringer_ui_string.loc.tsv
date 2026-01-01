@@ -7,3 +7,8 @@ campaign_payload_ui_details_description_rhox_grudgebringer_declare_war_payload	T
 campaign_payload_ui_details_description_rhox_grudgebringer_50_chance_declare_war_payload	There is a 50% chance a battle will occur	false
 campaign_localised_strings_string_rhox_grudge_locked_by_envoy	[[col:red]]This unit will become available after you have been in contact with the Dwarf Envoy [[/col]]	false
 campaign_payload_ui_details_description_rhox_grudgebringer_settlement_returned	You recieved settlement from the Grudgebringers	false
+campaign_payload_ui_details_description_rhox_dark_omen_true_ceridan	Ceridan has revealed his true self	false
+unit_abilities_additional_ui_effects_localised_text_rhox_grudge_random_chance	At the start of the battle, there is a 20% chance Gotrek and Felix will come to your aid.	false
+uied_component_texts_localised_string_ComponentTooltip_rhox_ovngrudgebringer_cost	Camp cost	false
+ui_text_replacements_localised_text_scrap_panel_button_tooltip_ovn_grudgebringer	Unit Upgrades||Use Money to increase your units’ battle capabilities.	false
+campaign_localised_strings_string_rhox_grudge_camp_recruitment_locked_bad_guy	[[col:red]]This unit is not available to the non-order factions[[/col]]	false

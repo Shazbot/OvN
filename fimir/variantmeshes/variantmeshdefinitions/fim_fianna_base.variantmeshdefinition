@@ -1,0 +1,26 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\torso\fim_fianna_torso_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\torso\fim_fianna_torso_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\torso\fim_fianna_torso_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\torso\fim_fianna_torso_04.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\torso\fim_fianna_torso_05.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes\VariantMeshDefinitions\fim_fianna_heads_base.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes\VariantMeshDefinitions\fim_fianna_heads_base.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes\VariantMeshDefinitions\fim_fianna_heads_base.VariantMeshDefinition" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\head\nor_fimir_warriors_head_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\head\nor_fimir_warriors_head_02.wsmodel" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\legs\fim_warrior_legs_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\legs\fim_warrior_legs_02.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_fimm\legs\fim_warrior_legs_03.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

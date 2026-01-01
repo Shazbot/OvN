@@ -1,0 +1,45 @@
+<material>
+ <name>ovn_gru_flag_alpha_off.xml</name>
+ <shader>shaders/rigid_campaign_flag.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_base_colour</slot>
+   <source>RigidModels/campaign/settlements/textures/ovn_gru_flags_base_colour.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_dither</slot>
+   <source>commontextures/dither.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+   <source>RigidModels/campaign/settlements/textures/brt_flags_material_map.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+   <source>RigidModels/campaign/settlements/textures/brt_flags_normal.dds</source>
+  </texture>
+ </textures>
+ <params>
+  <param>
+   <name>main_wave_strength</name>
+   <type>float</type>
+   <value>0.04</value>
+  </param>
+  <param>
+   <name>major_wave_frequency</name>
+   <type>float</type>
+   <value>2</value>
+  </param>
+  <param>
+   <name>minor_wave_frequency</name>
+   <type>float</type>
+   <value>60</value>
+  </param>
+  <param>
+   <name>minor_wave_strength</name>
+   <type>float</type>
+   <value>0.01</value>
+  </param>
+ </params>
+</material>

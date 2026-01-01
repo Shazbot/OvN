@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_captive.loc		
+campaign_post_battle_captive_options_onscreen_name_268797970	Pardon Captives	false
+campaign_post_battle_captive_options_description_268797970	Allow these warriors to return to their homelands, for a ransom. Despite dipping into their treasury, the enemy will appreciate such a deed.	false
+campaign_post_battle_captive_options_onscreen_name_268797971	Enslave	false
+campaign_post_battle_captive_options_description_268797971	Herd these wretches into our slave camps and harems! They shall toil for us!	false
+campaign_post_battle_captive_options_onscreen_name_268797972	Pardon Captives	false
+campaign_post_battle_captive_options_description_268797972	Allow these warriors to return to their homelands, for a ransom. Despite dipping into their treasury, the enemy will appreciate such a deed.	false
+campaign_post_battle_captive_options_onscreen_name_268797973	Execute Captives	false
+campaign_post_battle_captive_options_description_268797973	Leave no captives alive. The foe and their allies will not look upon you kindly, but their enemies will respect your decision.	false
+campaign_post_battle_captive_options_description_268797974	Defeated warriors can be persuaded to follow a victorious Lord.	false
+campaign_post_battle_captive_options_onscreen_name_268797974	Take on Warriors	false

@@ -10,17 +10,6 @@ local grudge_marker_key = "grudgebringer_mark"
 
 local grudgebringer_random_encounter_marker = nil --this will act as a marker
 
-local rhox_grudgebringer_good_culture ={
-    ["wh2_main_hef_high_elves"] = true,
-    ["wh3_main_cth_cathay"] = true,
-    ["wh3_main_ksl_kislev"] = true,
-    ["wh_dlc05_wef_wood_elves"] = true,
-    ["wh_main_brt_bretonnia"] = true,
-    ["wh_main_dwf_dwarfs"] = true,
-    ["wh_main_emp_empire"] = true,
-    ["mixer_teb_southern_realms"] = true
-}     
-
 local force_to_faction_name ={
     ["ovn_gru_skaven_force"]="wh2_dlc13_skv_skaven_invasion",
     ["ovn_gru_greenskin_force"]="wh2_dlc13_grn_greenskins_invasion",
@@ -50,6 +39,7 @@ local rhox_grudgebringer_reinforcements_list ={
     ["wh_main_dwf_dwarfs"] = "ovn_gru_dwf_force",
     ["wh_main_emp_empire"] = "ovn_gru_emp_force",
     ["mixer_teb_southern_realms"] = "ovn_gru_teb_force",
+    ["ovn_albion"]="ovn_gru_albion_force",
 }    
 
 local ovn_random_name_prefix="ovn_grudge_random_faction_name_"
@@ -95,7 +85,7 @@ local event_table = {
 		local probability = 3;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --there must be a noble, right? So the chance goes up as the controller is of good culture
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --there must be a noble, right? So the chance goes up as the controller is of good culture
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+5
 		end
@@ -151,7 +141,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -194,7 +184,7 @@ local event_table = {
 		
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --It's a caravan protection, chance of this goes up as this region is owned by not good guys
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --It's a caravan protection, chance of this goes up as this region is owned by not good guys
             out("Rhox Grudge: This region is owned by good faction, lower the probability")
             probability = probability-3
 		end
@@ -248,7 +238,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -289,7 +279,7 @@ local event_table = {
 		local probability = 3;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --chace goes up if this region belongs to the good culture
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --chace goes up if this region belongs to the good culture
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -343,7 +333,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -384,7 +374,7 @@ local event_table = {
 		local probability = 6;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --chance goes up if good culture owns it. Local population
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --chance goes up if good culture owns it. Local population
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -438,7 +428,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -480,7 +470,7 @@ local event_table = {
 		--local probability = 900;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --local fortification, you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --local fortification, you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -533,7 +523,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -576,7 +566,7 @@ local event_table = {
 		--local probability = 600;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --this faction is going to get a Empire wizard
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --this faction is going to get a Empire wizard
             out("Rhox Grudge: This region is owned by Good guys, adding probability")
             probability = probability+3
 		end
@@ -631,7 +621,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -641,7 +631,7 @@ local event_table = {
         local money = 4000 * mod;
         
         payload_builder:treasury_adjustment(money);
-        payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+        payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
         payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
         dilemma_builder:add_choice_payload("FIRST", payload_builder);
         payload_builder:clear();
@@ -676,7 +666,7 @@ local event_table = {
 		--local probability = 900;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -730,7 +720,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -773,7 +763,7 @@ local event_table = {
 		--local probability = 900;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -827,7 +817,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -870,7 +860,7 @@ local event_table = {
 		--local probability = 900;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -924,7 +914,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -967,7 +957,7 @@ local event_table = {
 		--local probability = 900;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -1022,7 +1012,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -1121,7 +1111,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -1131,7 +1121,7 @@ local event_table = {
         local money = 3500 * mod;
         
         payload_builder:treasury_adjustment(money);
-        payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+        payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
         payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
         dilemma_builder:add_choice_payload("FIRST", payload_builder);
         payload_builder:clear();
@@ -1223,7 +1213,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -1233,7 +1223,7 @@ local event_table = {
         local money = 3000 * mod;
         
         payload_builder:treasury_adjustment(money);
-        payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+        payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
         payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
         dilemma_builder:add_choice_payload("FIRST", payload_builder);
         payload_builder:clear();
@@ -1268,7 +1258,7 @@ local event_table = {
 		
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --local fortification, you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --local fortification, you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -1322,7 +1312,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -1419,7 +1409,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -1429,7 +1419,7 @@ local event_table = {
         local money = 2500 * mod;
         
         payload_builder:treasury_adjustment(money);
-        payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+        payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
         payload_builder:text_display("rhox_grudgebringer_declare_war_payload")
         dilemma_builder:add_choice_payload("FIRST", payload_builder);
         payload_builder:clear();
@@ -1517,7 +1507,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -1565,7 +1555,9 @@ local event_table = {
             probability = probability+3
 		end
 		
-		
+		if cm:model():turn_number() < 20 then --too harsh on the early turns
+            probability = 0
+		end
 
 		--probability = 900;
 		return {probability,eventname}
@@ -2008,7 +2000,7 @@ local event_table = {
 		local probability = 0;
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] and player_faction:at_war_with(enemy_faction) ==false then --you need reinforcements so it'll be zero chance unless it's owned by a good faction.
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+1
 		end
@@ -2069,7 +2061,7 @@ local event_table = {
         
         
         local target_region_interface = cm:get_region(target_region)
-        if target_region_interface:owning_faction() and rhox_grudgebringer_good_culture[target_region_interface:owning_faction():culture()] then
+        if target_region_interface:owning_faction() and RHOX_GRUDGEBRINGER_GOOD_CULTURE[target_region_interface:owning_faction():culture()] then
             local diplo_mod = 1 + math.floor(character:faction():bonus_values():scripted_value("rhox_grudge_contracts_diplo_payload_modifier", "value") / 100); --diplomatic_attitude_adjustment are using 1~6 value you have to use /100
             payload_builder:diplomatic_attitude_adjustment(target_region_interface:owning_faction(), diplo_mod)
         end
@@ -2105,7 +2097,12 @@ local event_table = {
 		--local probability = 600
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --there must be a noble, right? So the chance goes up as the controller is of good culture
+		
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		
+		
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --increase chance of meeting merchant when hold by good culture
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -2137,17 +2134,17 @@ local event_table = {
 
 		local mod = 1 + (character:faction():bonus_values():scripted_value("rhox_grudge_market_price_modifier", "value") / 100);
 		
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("FIRST", payload_builder);
 		payload_builder:clear();
 
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("SECOND", payload_builder);
 		payload_builder:clear();
 		
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("THIRD", payload_builder);
 		payload_builder:clear();
@@ -2174,7 +2171,11 @@ local event_table = {
 		--local probability = 600
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --there must be a noble, right? So the chance goes up as the controller is of good culture
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		
+		
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --increase chance of meeting merchant when hold by good culture
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -2206,17 +2207,17 @@ local event_table = {
 
 		local mod = 1 + (character:faction():bonus_values():scripted_value("rhox_grudge_market_price_modifier", "value") / 100);
 		
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("FIRST", payload_builder);
 		payload_builder:clear();
 
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("SECOND", payload_builder);
 		payload_builder:clear();
 		
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("THIRD", payload_builder);
 		payload_builder:clear();
@@ -2243,7 +2244,11 @@ local event_table = {
 		--local probability = 600
 		
 		local player_faction = world_conditions["faction"];
-		if enemy_faction and rhox_grudgebringer_good_culture[enemy_faction:culture()] then --there must be a noble, right? So the chance goes up as the controller is of good culture
+		local event_region = world_conditions["event_region"];
+		local enemy_faction = event_region:owning_faction();   --think of it as a local faction holder
+		
+		
+		if enemy_faction and RHOX_GRUDGEBRINGER_GOOD_CULTURE[enemy_faction:culture()] then --increase chance of meeting merchant when hold by good culture
             out("Rhox Grudge: This region is owned by good faction adding probability")
             probability = probability+3
 		end
@@ -2275,17 +2280,17 @@ local event_table = {
 		
 		local mod = 1 + (character:faction():bonus_values():scripted_value("rhox_grudge_market_price_modifier", "value") / 100);
 		
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("FIRST", payload_builder);
 		payload_builder:clear();
 
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("SECOND", payload_builder);
 		payload_builder:clear();
 		
-		payload_builder:faction_ancillary_gain(get_random_ancillary_key_for_faction(character:faction():name(), nil, "rare"))
+		payload_builder:faction_ancillary_gain(rhox_grudgebringer_get_random_item())
 		payload_builder:treasury_adjustment(-1*math.floor(cm:random_number(1250, 750)*mod));
 		dilemma_builder:add_choice_payload("THIRD", payload_builder);
 		payload_builder:clear();
@@ -2803,11 +2808,11 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
 	local turn_number = cm:turn_number();
 	local upa
 
-    if turn_number > 70 then
+    if turn_number > 55 then
         upa = 8
-    elseif turn_number  > 45 then
+    elseif turn_number  > 35 then
         upa = 6
-    elseif turn_number > 20 then
+    elseif turn_number > 18 then
         upa = 4
     else
         upa = 1
@@ -2821,32 +2826,32 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --5000 gold battle, 10 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;  --5000 gold battle, 10 should do it.  
     elseif force_name == "battle_b" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --4000 gold battle, 8 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --4000 gold battle, 8 should do it.  
     elseif force_name == "battle_c" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+3, false), enemy_force;  --2000 gold battle, 5 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --2000 gold battle, 5 should do it.  
     elseif force_name == "battle_d" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+4, false), enemy_force;  --3000 gold battle, 6 should do it.  
+        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --3000 gold battle, 6 should do it.  
     elseif force_name == "battle_e" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it.
     elseif force_name == "battle_f" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --4000 gold battle, random ancillary ally reinforcements. 12 should do it
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;  --4000 gold battle, random ancillary ally reinforcements. 12 should do it
     elseif force_name == "battle_g" then
         local enemy_force = "ovn_gru_dragon_force"
         return random_army_manager:generate_force(enemy_force, upa, false), enemy_force;
@@ -2854,49 +2859,49 @@ function rhox_grudgebringer_generate_attackers(force_name, military_force)
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+7, false), enemy_force;  --3000 gold battle, 2~3 ally reinforcements. 50% chance to go to battle 10 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+9, false), enemy_force;  --3000 gold battle, 2~3 ally reinforcements. 50% chance to go to battle 10 should do it.
     elseif force_name == "battle_i" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+5, false)..",wh_main_emp_cha_captain_0,wh2_dlc17_emp_inf_prisoners_0,wh2_dlc17_emp_inf_prisoners_0", enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it. 5 random, 3 fixed
+        return random_army_manager:generate_force(enemy_force, upa+6, false)..",wh_main_emp_cha_captain_0,wh2_dlc17_emp_inf_prisoners_0,wh2_dlc17_emp_inf_prisoners_0", enemy_force;  --3000 gold battle, but with reinforcements. 8 should do it. 5 random, 3 fixed
     elseif force_name == "battle_j" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --4000 gold battle, with 2~3 ally reinforcements. 10 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;  --4000 gold battle, with 2~3 ally reinforcements. 10 should do it.
     elseif force_name == "battle_k" then
         local enemy_force = "ovn_gru_skaven_force"
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;  --3500 gold battle+ancillary 10 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;  --3500 gold battle+ancillary 10 should do it.
     elseif force_name == "battle_l" then
         force_name = {"ovn_gru_vamp_coast_force", "ovn_gru_undead_force"}
         local target_index = cm:random_number(#force_name,1)
         local enemy_force = force_name[target_index]
-        return random_army_manager:generate_force(enemy_force, upa+7, false), enemy_force;  --3000 gold battl+ancillary 9 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+9, false), enemy_force;  --3000 gold battl+ancillary 9 should do it.
     elseif force_name == "battle_m" then
         local enemy_force = "ovn_gru_troll_force"
-        return random_army_manager:generate_force(enemy_force, upa+4, false).."wh2_dlc15_grn_cha_river_troll_hag_0", enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+6, false).."wh2_dlc15_grn_cha_river_troll_hag_0", enemy_force;
     elseif force_name == "battle_n" then
         local enemy_force = "ovn_gru_greenskin_force"
-        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;  --2500 gold battl+ancillary 8 should do it.
+        return random_army_manager:generate_force(enemy_force, upa+9, false), enemy_force;  --2500 gold battl+ancillary 8 should do it.
     elseif force_name == "battle_o" then
         local enemy_force = "ovn_gru_giant_force"
         return random_army_manager:generate_force(enemy_force, upa+2, false), enemy_force;
     elseif force_name == "battle_p" then
         local enemy_force = "ovn_gru_slayer_force"
-        return random_army_manager:generate_force(enemy_force, upa+6, false), enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
     elseif force_name == "battle_q" then
         local enemy_force = "ovn_gru_human_force"
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;
     elseif force_name == "battle_r" then
         local enemy_force = "ovn_gru_greenskin_force"
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;
     elseif force_name == "battle_s" then
         local enemy_force = "ovn_gru_undead_force"
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;
     elseif force_name == "battle_t" then
         local enemy_force = "ovn_gru_skaven_force"
-        return random_army_manager:generate_force(enemy_force, upa+8, false), enemy_force;
+        return random_army_manager:generate_force(enemy_force, upa+10, false), enemy_force;
     elseif force_name == "final_battle" then
         force_name = {"ovn_gru_skaven_force", "ovn_gru_greenskin_force", "ovn_gru_vamp_coast_force", "ovn_gru_norsca_force", "ovn_gru_human_force", "ovn_gru_chaos_force", "ovn_gru_beastmen_force", "ovn_gru_dark_elves_force", "ovn_gru_ogre_force", "ovn_gru_khorne_force", "ovn_gru_nurgle_force", "ovn_gru_tzeentch_force", "ovn_gru_slaanesh_force", "ovn_gru_undead_force", "ovn_gru_chorf_force"}
         local target_index = cm:random_number(#force_name,1)
@@ -3306,7 +3311,6 @@ cm:add_first_tick_callback(
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_main_vmp_inf_skeleton_warriors_0", 3);
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_main_vmp_inf_skeleton_warriors_1", 2);
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_main_vmp_cav_hexwraiths", 1);
-            random_army_manager:add_unit("ovn_gru_undead_force", "wh_dlc04_vmp_cav_chillgheists_0", 1);
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_dlc04_vmp_veh_mortis_engine_0", 1);
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_dlc02_vmp_cav_blood_knights_0", 2);
             random_army_manager:add_unit("ovn_gru_undead_force", "wh_dlc04_vmp_veh_corpse_cart_1", 1);
@@ -3354,14 +3358,29 @@ cm:add_first_tick_callback(
             random_army_manager:add_unit("ovn_gru_emp_force", "wh_main_emp_inf_halberdiers", 2);
             random_army_manager:add_unit("ovn_gru_emp_force", "wh_main_emp_inf_crossbowmen", 1);
             
+
             random_army_manager:new_force("ovn_gru_teb_force");
-            random_army_manager:add_unit("ovn_gru_teb_force", "wh_main_emp_inf_halberdiers", 2);
-            random_army_manager:add_unit("ovn_gru_teb_force", "wh_main_emp_inf_crossbowmen", 1);
+            if vfs.exists("script/frontend/mod/cataph_teb.lua") then
+                random_army_manager:add_unit("ovn_gru_teb_force", "teb_pikemen", 2);
+                random_army_manager:add_unit("ovn_gru_teb_force", "teb_pavisiers", 1);
+            else
+                random_army_manager:add_unit("ovn_gru_teb_force", "wh_main_emp_inf_halberdiers", 2);
+                random_army_manager:add_unit("ovn_gru_teb_force", "wh_main_emp_inf_crossbowmen", 1);
+            end
             
+            random_army_manager:new_force("ovn_gru_albion_force");
+            if vfs.exists("script/frontend/mod/ovn_albion_frontend.lua") then
+                random_army_manager:add_unit("ovn_gru_albion_force", "albion_hearthguard", 2);
+                random_army_manager:add_unit("ovn_gru_albion_force", "albion_huntresses", 1);
+
+            else
+                random_army_manager:add_unit("ovn_gru_albion_force", "wh_main_emp_inf_halberdiers", 2);
+                random_army_manager:add_unit("ovn_gru_albion_force", "wh_main_emp_inf_crossbowmen", 1);
+            end
             random_army_manager:new_force("ovn_gru_slayer_force");
             random_army_manager:add_unit("ovn_gru_slayer_force", "wh2_dlc10_dwf_inf_giant_slayers", 1);
             random_army_manager:add_unit("ovn_gru_slayer_force", "wh_dlc06_dwf_inf_dragonback_slayers_0", 1);
-            random_army_manager:add_unit("ovn_gru_slayer_force", "wh_main_dwf_inf_slayers", 4);
+            random_army_manager:add_unit("ovn_gru_slayer_force", "wh_main_dwf_inf_slayers", 6);
         end
 	end
 )

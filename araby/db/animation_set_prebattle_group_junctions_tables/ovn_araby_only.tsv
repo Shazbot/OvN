@@ -1,0 +1,10 @@
+anim_set	group
+#animation_set_prebattle_group_junctions_tables;0;db/animation_set_prebattle_group_junctions_tables/ovn_araby_only	
+cam_bl3_araby_air_skiff	giant
+cam_cm1_camel	default_mounted
+cam_fc1_flying_carpet	default
+cam_hu1_arabya_hammer	default
+cam_lord_el1_ar_elephant	enormous
+cam_tc2_flying_carpet	default
+cam_wm_djinncarriage	corpse_cart
+cam_wm_djinncarriage2	corpse_cart

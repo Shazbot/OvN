@@ -1,0 +1,29 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\fim_daemonomaniac_body.rigid_model_v2</geometry>
+		<materials>
+			<material part_index="0" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_forsaken\materials\chs_forsaken_torso_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="0">VariantMeshes/wh_variantmodels/hu1c/chs/chs_forsaken/materials/chs_forsaken_head_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\nor_fimir_warriors_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\fim_daemonomaniac_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="0">variantmeshes\wh_variantmodels\hc02\chs\chs_spawn\materials\chs_spawn_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="5" lod_index="0">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\fim_daemonomaniac_ror_sword_1h_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_forsaken\materials\chs_forsaken_torso_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="1">VariantMeshes/wh_variantmodels/hu1c/chs/chs_forsaken/materials/chs_forsaken_head_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="1">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\nor_fimir_warriors_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="1">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\fim_daemonomaniac_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="1">variantmeshes\wh_variantmodels\hc02\chs\chs_spawn\materials\chs_spawn_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="5" lod_index="1">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\fim_daemonomaniac_ror_sword_1h_01_weighted4_alpha_off.xml.material</material>			
+			<material part_index="0" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_forsaken\materials\chs_forsaken_torso_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="2">VariantMeshes/wh_variantmodels/hu1c/chs/chs_forsaken/materials/chs_forsaken_head_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="2">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\nor_fimir_warriors_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="2">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\fim_daemonomaniac_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="2">variantmeshes\wh_variantmodels\hc02\chs\chs_spawn\materials\chs_spawn_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="5" lod_index="2">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\fim_daemonomaniac_ror_sword_1h_01_weighted4_alpha_off.xml.material</material>			
+			<material part_index="0" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_forsaken\materials\chs_forsaken_torso_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="3">VariantMeshes/wh_variantmodels/hu1c/chs/chs_forsaken/materials/chs_forsaken_head_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="3">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\nor_fimir_warriors_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="3" lod_index="3">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\materials\fim_daemonomaniac_body_01_weighted4_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="3">variantmeshes\wh_variantmodels\hc02\chs\chs_spawn\materials\chs_spawn_01_weighted4_alpha_off.xml.material</material>
+			<material part_index="5" lod_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_props\materials\fim_daemonomaniac_ror_sword_1h_01_weighted4_alpha_off.xml.material</material>
+	</materials>
+</model>

@@ -1,0 +1,19 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/ovn_araby_resources										
+ovn_arb_resource_coffee			money	false	ovn_sch_human_resource_coffee		10		true	false
+ovn_arb_resource_animals			money	false	wh2_main_sch_resource_animals		10		true	false
+ovn_arb_resource_dyes			money	false	wh_main_sch_human_resource_dyes		10		true	false
+ovn_arb_resource_furs			money	false	wh_main_sch_human_resource_furs		10		true	false
+ovn_arb_resource_gems			money	false	wh2_main_sch_human_resource_gems		10		true	false
+ovn_arb_resource_gold			money	false	wh_main_sch_human_resource_gold		10		true	false
+ovn_arb_resource_iron			money	false	wh_main_sch_human_resource_iron		10		true	false
+ovn_arb_resource_ivory			money	false	wh3_main_sch_human_resource_ivory		10		true	false
+ovn_arb_resource_marble			money	false	wh_main_sch_human_resource_marble		10		true	false
+ovn_arb_resource_medicine			money	false	wh2_main_sch_resource_medicine		10		true	false
+ovn_arb_resource_obsidian			money	false	wh2_main_sch_resource_obsidian		10		true	false
+ovn_arb_resource_pasture			money	false	wh_main_sch_human_resource_pastures		10		true	false
+ovn_arb_resource_pottery			money	false	wh_main_sch_human_resource_pottery		10		true	false
+ovn_arb_resource_salt			money	false	wh_main_sch_human_resource_salt		10		true	false
+ovn_arb_resource_spices			money	false	wh2_main_sch_resource_spices		10		true	false
+ovn_arb_resource_wine			money	false	wh_main_sch_human_resource_wine		10		true	false
+ovn_arb_resource_wood			money	false	wh_main_sch_human_resource_timber		10		true	false

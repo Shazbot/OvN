@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_ui_unit_bullet_point_enums.loc		
+ui_unit_bullet_point_enums_tooltip_ovn_bombard_siege_bonus	This unit deals additional damage to buildings, which makes it highly effective in sieges.	true
+ui_unit_bullet_point_enums_onscreen_name_ovn_bombard_siege_bonus	Wallbreaker	true
+ui_unit_bullet_point_enums_tooltip_djinn	Djinn are many different kinds of elemental spirits, considered by some scholars a kind of Daemon.	true
+ui_unit_bullet_point_enums_onscreen_name_djinn	Djinn	true
+ui_unit_bullet_point_enums_onscreen_name_djinn_carriage	Vessels of the Djinn	true
+ui_unit_bullet_point_enums_tooltip_djinn_carriage	The Djinn Carriage transports four vessels, each containing a powerful Djinn. It can only summon one of the four Djinn in each battle.	true
+ui_unit_bullet_point_enums_onscreen_name_ovn_arb_people_nomads	People of the Desert	true
+ui_unit_bullet_point_enums_tooltip_ovn_arb_people_nomads	This Arabyan unit comes from a desert nomad tribe. These nomads are known for their quick hit and run tactics.	true
+ui_unit_bullet_point_enums_onscreen_name_ovn_arb_people_cities	People of the Cities	true
+ui_unit_bullet_point_enums_tooltip_ovn_arb_people_cities	This Arabyan unit comes from a city-state. These warriors are proud and well equipped.	true
+ui_unit_bullet_point_enums_onscreen_name_ovn_rope	Constriction	true
+ui_unit_bullet_point_enums_tooltip_ovn_rope	The entangling ropes hinder foes, reducing their speed and melee defence.	true

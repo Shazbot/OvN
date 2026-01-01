@@ -1,0 +1,3 @@
+battle_map_location	group	catchment_name	tile_upgrades
+#battle_catchment_override_group_battles_tables;3;db/battle_catchment_override_group_battles_tables/copher			
+terrain/battles/test_stl_coast_infield_copher/	copher		

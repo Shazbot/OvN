@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_grudgebringers_attrition.loc		
+campaign_map_attritions_unit_card_tooltip_ovn_gru_desertion	Several dogs, having their fill of gold from the recent sacking, have left the army.	true
+campaign_map_attritions_unit_immunity_text_ovn_gru_desertion	Desertion	true
+effects_description_grudge_sack_attrition	Suffer attrition due to desertion	false
+effect_bundles_localised_title_grudge_sack_attrition	Dogs of War	false
+effect_bundles_localised_description_grudge_sack_attrition	We can cut several dogs pay with them having their fill of gold from the recent sacking.	false

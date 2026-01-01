@@ -1,0 +1,5 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_araby_estate								
+rhox_araby_estate_bundle_evenly_matched			faction	1	character.png	true	false	true
+rhox_araby_estate_bundle_nomad_chief			faction	1	character.png	true	false	true
+rhox_araby_estate_bundle_urban_elite			faction	1	character.png	true	false	true

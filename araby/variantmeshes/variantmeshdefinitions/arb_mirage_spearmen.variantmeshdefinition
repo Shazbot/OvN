@@ -1,0 +1,24 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head1_mirage.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/arb_modular/wsmodel/arb_a_head2_mirage.wsmodel" />
+	</SLOT>
+    
+	<SLOT name="body"  >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb_bm\arb_warrior\arb_warrior_complete_set_mirage.wsmodel" />
+	</SLOT>
+	
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb_bm\arb_props\arb_spear_mirage.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:spear</META_DATA></VARIANT_MESH>
+	</SLOT>
+
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\arb_modular\wsmodel\arb_round_shield_1_mirage.wsmodel" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:wood</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

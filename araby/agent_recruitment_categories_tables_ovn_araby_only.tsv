@@ -1,6 +1,0 @@
-key	order	icon_file_path
-#agent_recruitment_categories_tables;1;db/agent_recruitment_categories_tables/ovn_araby_only		
-araby_lord	1	UI\Common UI\unit_category_icons\warhammer2\commander.png
-araby_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
-arb_vizier	2	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png
-arb_caravan_master	3	UI\Common UI\unit_category_icons\warhammer2\commander.png

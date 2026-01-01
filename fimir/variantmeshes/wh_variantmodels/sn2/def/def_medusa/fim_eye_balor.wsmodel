@@ -1,0 +1,25 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\sn2\def\def_medusa\fim_eye_balor.rigid_model_v2</geometry>
+		<materials>
+			<material part_index="0" lod_index="0">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_tentacles_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="0">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eyes_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="0">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eye_weighted2_alpha_off.xml.material</material>
+			<material part_index="3" lod_index="0">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_body_weighted2_alpha_off.xml.material</material>
+			<material part_index="4" lod_index="0">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_plates_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="1">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_tentacles - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="1">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eyes - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="1">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eye - Clone_weighted2_alpha_off.xml.material</material>
+			<material part_index="3" lod_index="1">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_body - Clone_weighted2_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="1">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_plates - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="2">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_tentacles - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="2">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eyes - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="2">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eye - Clone_weighted2_alpha_off.xml.material</material>
+			<material part_index="3" lod_index="2">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_body - Clone_weighted2_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="2">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_plates - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="3">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_tentacles - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="1" lod_index="3">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eyes - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="2" lod_index="3">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_eye - Clone_weighted2_alpha_off.xml.material</material>
+			<material part_index="3" lod_index="3">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_body - Clone_weighted2_alpha_on.xml.material</material>
+			<material part_index="4" lod_index="3">variantmeshes\wh_variantmodels\sn2\def\def_medusa\materials\eye_balor_plates - Clone_weighted4_alpha_off.xml.material</material>
+	</materials>
+</model>

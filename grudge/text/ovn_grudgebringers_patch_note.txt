@@ -1,0 +1,192 @@
+2026/JAN/1 Prop Joe
+- moved json.lua to ovn_requires/json.lua to avoid an error when loading mod scripts
+
+2025/DEC/24 Rhox
+- Fixed the issue of the camp killing script calling out errors when killing lots of people. I added the checking factions part, and the script does nothing if it's not the Grudgebringers faction.
+
+2025/DEC/17 Rhox
+- Now, all of the camp lords will be deleted on AI Morgan's force deletion. This is to prevent CTD, and will be reverted if we find a way to avoid it
+
+2025/DEC/08 Rhox
+- Fixed the issue of Black avengers don't have the hide in the forest attribute
+- Changed Luther and Morghan's horse entity type to wh_main_cavalry_slow_hero_blood (Which would increase mass)
+- Fixed the issue of Grudgebringers not getting access to return units (You need a new game start)
+
+
+2025/SEP/03 Rhox
+- 6.3 Empty update
+
+2025/JUL/10 Lingling - 6.2.2 Update
+- raised minimum knockback resistance of foot characters to 40%
+- adjusted ability ranges according to the new patch
+
+2025/JUN/17 Wolfremio
+- 6.2 Update
+
+2025/FEB/09 Rhox
+- Fixed the issue of the camp deploy button not showing up after the last pack or game's update. 
+
+2025/FEB/01 Rhox
+- Fixed the issue of Grudgebringer camp providing ogre mercenaries
+- Now Grudgebringer camp will provide 6 kinds of mercenaries to nearby factions. 3 of them are limited to non-lizardmen order factions.
+
+2025/JAN/24 Wolfremio
+- Added Old World Classic compatiblity
+- Faction lord effect bundles should now show up in the faction summary screen
+
+2025/JAN/05 Rhox
+- Added missing loc for the scrap upgrade tooltip
+
+2025/JAN/04 Shaky
+- Balance pass making economy a little easier
+
+2025/JAN/04 Rhox
+- Added temp solution for the scrap upgrade because I'm tired of telling people to read and I'm one of the authors even though I'm not listed as a co-author
+
+2024/DEC/30 Lingling
+- fixed missing textures of Ludwig uberdorf
+
+2024/DEC/20 Rhox & DeadBaron
+- Added Grudgebringers faction to the merc_contracts.client_exclusion_list so that they don't get settlement via Golgfag contract
+- Added new horse for the Morgan made by DeadBaron
+
+2024/DEC/15 Rhox
+- Fixed the issue of horde population not showing on the camp
+
+2024/DEC/14 Rhox
+- 6.0 DB key update
+- Disabled scrap upgrade for now, current working way is too wonky (See TotN's Kul)
+- Fixed the issue of Bounty not working
+- Now camp works like how Ogre Camp is, and can be redeployed
+
+2024/NOV/18 Dead Baron, Rhox
+- Updated Morgan's model (Dead Baron)
+- Reverted some of the changes to contract money and distance made in the last update as that was an overlook
+
+2024/NOV/1 Rhox, Dead Baron, Partypus
+- Update Contract to Bounty as vanilla updated it
+- Fixed some bugs in la tour grail knights (Dead Baron)
+- Added a new UI for the Ogre contract (Partypus)
+
+2024/OCT/31 Lingling
+Dummy Update
+
+2024/SEP/12 Wert
+- character balance changes
+
+2024/SEP/10 Lingling
+- added auto resolve values to land units as added in the latest patch
+
+2024/AUGUST/21 Rhox
+- Fixed the issue of Empire building browser's hero showing wrong portrait due to 5.2 update
+
+2024/AUGUST/20 Wolfremio
+- Fixed the cdir quality to fit with 5.2
+
+2024/JULY/24 Rhox
+- Changed the scope of ancillary drop to fit with vanilla's 5.1.2 change
+
+2024/JULY/20 Rhox
+- Changed action replenishment after returning settlement to DB base way to support unlimited army mod
+- Made some more variables in the script to global for compatibility
+
+2024/JULY/17 Rhox
+- Added access to ToD unit_sets to Grudgebringer units (I might have missed some here are the lists: wh3_dlc25_emp_artillery_warmachines, emp_gun_artillery, emp_gunnery, emp_missile_infantry_vet, emp_missile_infantry, emp_missile_cavalry_vet, emp_missile_cavalry, emp_outriders, wh3_dlc25_emp_handgunner_outrider_ironsides, wh3_dlc25_gunnery_cavalry) (only emp_gun_artillery has characters in it, because for some reason, that is the way vanilla chose)
+- Now returned settlements start with tier 1 with healed garrison
+
+
+2024/JULY/15 Rhox
+- Added Epidemius and Tamurkhan to the evil LL candidate
+- Fixed the issue of Ludwig not having access to restock
+- Now Grudgebringer don't start with authority
+
+2024/JULY/13 Shaky
+- Economy rework
+
+2024/JULY/09 Shaky
+- Economy rework
+
+2024/JULY/09 Lingling
+- Added/buffed collision and splash attacks for various units according to the 5.1 changes
+- removed Mentor from all Legendary Heroes as in the 5.1.1 changes
+
+2024/JUL/06 Shaky
+- Building Upgrades
+- Cannons have grapeshot, removed custom abilities
+
+2024/JUL/1 Rhox
+- Blocked several narrative missions that Grudgebringer can't accomplish. Thanks grackul for help and sorry Mixu for spreading false information
+
+2024/JUN/30 Rhox
+- Fixed the issue of Bertrand le Grande's Knights of the Realm not being able to gain exp
+- Removed Grudgebringer's access to Theodore and Gotrek and Felix (as a LH, he still appears via Morgan's skill)
+
+2024/JUN/29 Rhox
+- Applied GreenPhoenix's fix to the Dwarf Envoy Oathstone mount
+
+2024/JUNE/25 Wolfremio:
+- Updated to 5.1
+
+2024/JUN/23 Rhox
+- Added icon to the Smith buildings
+- Changed the help icon on the upper right to the close icon since it wasn't used
+- Fixed the issue of Uter Blomkwist's Imperial Mortar not showing condition on the book's page
+
+2024/MAY/22 Wolfremio
+- Updated startpos to be in line with ChaosRobie's upcoming update for the Old World campaign mod
+
+2024/MAY/15 Lingling
+- deleted master engineer on steam tank from land units table (leftover from updating)
+
+2024/MAY/14 Rhox
+- Chganged the character skill node to the updated one
+
+2024/MAY/08 Rhox
+- Added Grudge support for Grudgebringer camp
+
+2024/MAY/07 Rhox
+- Adjusted tech nodes to fit those of post ToD one
+
+2024/MAY/05
+- Further fixes to Ludwig von Uberdorf's Steam Tank mount, it should no longer insta explode at battle start and it should now behave like the vanila steam tank more, also, new coat of paint to the wood parts of the tank's steam engine
+
+2024/MAY/01 Rhox 
+- Removed landship from Marienburg land return
+
+2024/APR/30 Wolfremio
+- ToD cope
+
+2024/MAR/25 Rhox
+- Increased the max radius of the settlement healing to 37 from 25
+- Removed anti-large bullet point from Dwarf Envoy and Ceridan
+- Fixed the issue of Grudgebringer camp Prefab overriding other camps due to the wrong campaign group setting
+
+2024/MAR/5 Shaky
+- Created custom prefab for Camps and Encamp stance
+
+2024/MAR/2 Rhox
+- Changed the settlement return script's several variables to global so that other mods can modify it
+
+2024/FEB/23 Wolfremio
+- Update to 4.2
+
+2024/JAN/31 Rhox
+- Removed unbreakable bullet point from black avengers
+- Removed Sunfang Vortex from Grudgebringers' Runefang
+2024/JAN/20 Rhox
+- Now script won't break even if an unexpected climate comes in
+
+2024/JAN/17 -Rhox 2
+- Fixed the script break occuring at RoC campaign
+- AI now does not get -10% replenish bonus as they don't know how to use manual recovery or transferring units to camp
+
+2024/JAN/17 -Rhox
+- Changed Morgan's force type to HORDE from CHARACTER_BOUND_HORDE as it will cause CTD when only Morgan is defeated while the force is not
+
+2024/JAN/16 -Rhox
+- Applied PJ's healing script fix. Now it wouldn't cause CTD even though players have replaced general
+- Now Grudgebringer has access to Empire lord from the beginning but is limited to one force. Use multi-army submod for more armies
+- Now Morgan is character_bound_horde and the other guys are just horde. So you can now replace general if they're not Morgan 
+
+2023/12/18 Lingling
+- changed the melee and missile weapon building damage multipliers to be in line with current game rules

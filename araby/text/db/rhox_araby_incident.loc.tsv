@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_incident.loc		
+incidents_localised_title_rhox_araby_jaffar_conquer_incident_araby_united	Reconquest of Araby	false
+incidents_localised_description_rhox_araby_jaffar_conquer_incident_araby_united	Rejoice, for the barbarian, the crusader and the usurper have been driven from our lands! Once more, the true Sultan of All Araby reigns supreme.	false
+incidents_localised_title_rhox_araby_jaffar_conquer_incident_teb_complete	The Return of Jaffar	false
+incidents_localised_description_rhox_araby_jaffar_conquer_incident_teb_complete	Tilea and Estalia have fallen! Our glorious Sultan has taken his revenge upon the uncouth inhabitants of these lands.	false
+incidents_localised_title_rhox_araby_jaffar_conquer_incident_bretonnia_foothold	At the Gates of the Castle	false
+incidents_localised_description_rhox_araby_jaffar_conquer_incident_bretonnia_foothold	Jaffar’s final vengeance upon the Bretonnians and their so-called ‘Lady’ begins – they will all pay.	false
+incidents_localised_title_rhox_araby_jaffar_conquer_incident_bretonnia_complete	Revenge Complete!	false
+incidents_localised_description_rhox_araby_jaffar_conquer_incident_bretonnia_complete	Bretonnia lies broken and defeated, and the armies of the Great Sultan now march through Couronne unopposed. Ah, victories are like sweet nectar! Come, let us savour this glorious fruit!	false
+incidents_localised_title_rhox_araby_fatandira_araby_100	The Secret of Araby’s Magic	false
+incidents_localised_description_rhox_araby_fatandira_araby_100	Through our allegiance to Araby, we have been taught the secret of their most hidden sorceries. The Royal Djinn of Araby now heed our command!	false
+incidents_button_text_rhox_araby_fatandira_araby_100		false
+incidents_button_text_rhox_araby_fatandira_tk_100		false
+incidents_localised_description_rhox_araby_fatandira_tk_100	With our bonds to the Tomb Kings stronger than ever, they have granted us some of their most powerful constructs.	false
+incidents_localised_title_rhox_araby_fatandira_tk_100	Reinforcements from the Tomb Kings	false
+incidents_localised_description_rhox_araby_fatandira_betrayal	You have betrayed Numas, and your people have lost faith in you.	false
+incidents_localised_title_rhox_araby_fatandira_betrayal	Betrayal	false
+incidents_localised_description_rhox_araby_incident_cst_sea_shanty_gained_1	Shiver me timbers! You've secured one of the verses of the Lost Sea Shanty!	false
+incidents_localised_title_rhox_araby_incident_cst_sea_shanty_gained_1	Sea Shanty Verse Gained	false
+incidents_localised_description_rhox_araby_incident_cst_sea_shanty_gained_2	Shiver me timbers! You've secured one of the verses of the Lost Sea Shanty!	false
+incidents_localised_title_rhox_araby_incident_cst_sea_shanty_gained_2	Sea Shanty Verse Gained	false
+incidents_localised_description_rhox_araby_incident_cst_sea_shanty_gained_3	Shiver me timbers! You've secured one of the verses of the Lost Sea Shanty!	false
+incidents_localised_title_rhox_araby_incident_cst_sea_shanty_gained_3	Sea Shanty Verse Gained	false

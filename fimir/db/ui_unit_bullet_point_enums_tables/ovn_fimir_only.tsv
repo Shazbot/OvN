@@ -1,4 +1,4 @@
-key	state	sort_order
-#ui_unit_bullet_point_enums_tables;3;db/ui_unit_bullet_point_enums_tables/ovn_fimir_only		
-disturbed	positive	90
-hellmothers_bidding	positive	90
+key	state	sort_order	icon_path
+#ui_unit_bullet_point_enums_tables;4;db/ui_unit_bullet_point_enums_tables/ovn_fimir_only			
+disturbed	positive	90	
+hellmothers_bidding	positive	90	

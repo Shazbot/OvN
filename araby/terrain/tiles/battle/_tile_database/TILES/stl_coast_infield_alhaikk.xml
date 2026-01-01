@@ -1,0 +1,10 @@
+<TILE serialise_version='9' name='alhaikk' tile_set='stl_coast_infield' mask='' nogo='' width='8' height='8' red='0' green='0' blue='0' requires_infield_lodding='true' random_rotatable='false' custom_alpha_blend_texture='' scalable='true' encampable='false' custom_blend_tile='' barbarian='false' use_alt_lf='false' geometry_blend_edge_left='true' geometry_blend_edge_top='true' geometry_blend_edge_right='true' geometry_blend_edge_bottom='true' layer_mask_override='false'>
+	<VARIATIONS>
+		<VARIATION serialise_version='13' location='terrain\tiles\battle\stl_coast_infield\alhaikk\' name='alhaikk' min_height='0.000000' scale='150.000000' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0' green='0' blue='0' requires_sea_in_infield='false' shadow_camera_depth='0.000000' enable_sea_water_plane='false' is_subterranean='false' enable_shadow_distance='false' lerp_heights_to_zero='false' fog_mask=''>
+			<texture_set serialise_version='2' faction_key='' red0='river01' green0='grass02' blue0='sand01' alpha0='mud02' red1='forest01' green1='scree01' blue1='rock01' alpha1='tiles02'/>
+			<height_range x='-14.196922' y='167.000000'/>
+		</VARIATION>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

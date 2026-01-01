@@ -1,0 +1,33 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_araby_jaffar_conquer								
+rhox_araby_jaffar_conquer_bretonnia_1			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_10			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_2			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_3			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_4			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_5			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_6			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_7			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_8			faction	1		true	false	true
+rhox_araby_jaffar_conquer_bretonnia_9			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_1			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_10			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_2			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_3			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_4			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_5			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_6			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_7			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_8			faction	1		true	false	true
+rhox_araby_jaffar_conquer_teb_9			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_1			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_10			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_2			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_3			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_4			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_5			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_6			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_7			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_8			faction	1		true	false	true
+rhox_araby_jaffar_conquer_araby_9			faction	1		true	false	true
+rhox_araby_jaffar_conquer_complete_0			faction	1		true	false	true

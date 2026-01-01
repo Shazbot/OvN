@@ -1,0 +1,6 @@
+<model version="1">
+  <geometry>rigidmodels/campaign/settlements/araby/arb_campaign_minaret_01.rigid_model_v2</geometry>
+  <materials>
+    <material lod_index="0" part_index="0">rigidmodels/campaign/settlements/materials/araby_campaign_buildings_01.xml.material</material>
+  </materials>
+</model>

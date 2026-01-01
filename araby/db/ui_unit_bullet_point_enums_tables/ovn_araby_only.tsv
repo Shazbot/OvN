@@ -1,0 +1,8 @@
+key	state	sort_order	icon_path
+#ui_unit_bullet_point_enums_tables;4;db/ui_unit_bullet_point_enums_tables/ovn_araby_only			
+ovn_bombard_siege_bonus	positive	5	
+djinn	positive	0	
+djinn_carriage	positive	0	
+ovn_arb_people_nomads	positive	1	
+ovn_arb_people_cities	positive	1	
+ovn_rope	positive	53	

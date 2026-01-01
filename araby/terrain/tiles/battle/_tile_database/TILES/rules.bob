@@ -1,0 +1,5 @@
+[Pack]
+	BasePath = /
+	PackFile = <retail>/data/assembly_kit_example.pack
+	PackType = mod
+	

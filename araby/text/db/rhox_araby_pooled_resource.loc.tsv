@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_pooled_resource.loc		
+pooled_resources_display_name_rhox_fatandira_meter	Fatandira’s Allegiance	false
+pooled_resources_positive_factors_display_name_rhox_fatandira_meter	Araby	false
+pooled_resources_negative_factors_display_name_rhox_fatandira_meter	Tomb Kings	false
+pooled_resources_description_rhox_fatandira_meter	Choose a side to pledge allegiance to and earn mighty rewards.	false
+pooled_resources_description_ovn_araby_urban_meter	The people of Araby are divided between those who dwell in the cities, deemed more civilised, and the fierce nomads who roam the dunes. The constant struggle between Urban Elites and Nomad Chiefs for dominance is shaped by the buildings you construct. Should one side wrest control of the realm, certain buildings will grant additional bonuses.	false
+pooled_resources_display_name_ovn_araby_urban_meter	Internal Strife	false
+pooled_resources_negative_factors_display_name_ovn_araby_urban_meter	Towards Nomad Chiefs	false
+pooled_resources_positive_factors_display_name_ovn_araby_urban_meter	Towards Urban Elites	false

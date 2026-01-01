@@ -1,0 +1,5 @@
+campaign_group	ritual	unlock_mission	unlock_turn	initially_unlocked
+#campaign_group_rituals_tables;1;db/campaign_group_rituals_tables/rhox_araby				
+rhox_araby_slave_feature_group	wh3_main_ritual_def_slave_a		0	true
+rhox_araby_slave_feature_group	wh3_main_ritual_def_slave_b		0	true
+rhox_araby_slave_feature_group	wh3_main_ritual_def_slave_c		0	true

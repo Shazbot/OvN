@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_mct.loc		
+rhox_ovn_fim_fen_serpents_title	Spawn {{tr:factions_screen_name_ovn_fim_fen_serpents}}	false
+rhox_ovn_fim_thunderous_sight_title	Spawn {{tr:factions_screen_name_ovn_fim_thunderous_sight}} (IEE)	false
+rhox_ovn_fim_hell_gate_title	Spawn {{tr:factions_screen_name_ovn_fim_hell_gate}} (IEE)	false
+rhox_ovn_fim_marsh_hornets_title	Additional starting region for {{tr:factions_screen_name_ovn_fim_marsh_hornets}}	false
+rhox_ovn_fim_mist_dragons_title	Additional starting region for {{tr:factions_screen_name_ovn_fim_mist_dragons}}	false
+rhox_ovn_fim_fen_serpents_tooltip	Spawns a Fimir minor faction in Lustria	false
+rhox_ovn_fim_thunderous_sight_tooltip	Spawns a Fimir minor faction in Khuresh and moves Rotten Knot (Vampire Coast) to Tigercage Isle	false
+rhox_ovn_fim_hell_gate_tooltip	Spawns a Fimir minor faction in the Eastern Steppes, replaces Withered Eye (Savage Orcs)	false
+rhox_ovn_fim_marsh_hornets_tooltip	Gives Sunken Khernarch to {{tr:factions_screen_name_ovn_fim_marsh_hornets}} and moves Malagor to Morgheim	false
+rhox_ovn_fim_mist_dragons_tooltip	Gives Shang Wu to {{tr:factions_screen_name_ovn_fim_mist_dragons}}	false

@@ -17,11 +17,9 @@ hide_forest	fim_inf_shearl
 causes_fear	fim_inf_death_quest
 hide_forest	fim_inf_death_quest
 unbreakable	fim_inf_death_quest
-rampage	fim_inf_death_quest
 causes_fear	fim_inf_killing_eye_ror
 hide_forest	fim_inf_killing_eye_ror
 unbreakable	fim_inf_killing_eye_ror
-rampage	fim_inf_killing_eye_ror
 causes_fear	fim_inf_moor_hounds
 guerrilla_deploy	fim_inf_moor_hounds
 hide_forest	fim_inf_moor_hounds
@@ -106,9 +104,10 @@ causes_fear	fim_inf_swamp_daemons_summon
 guerrilla_deploy	fim_inf_swamp_daemons_summon
 stalk	fim_inf_swamp_daemons_summon
 daemonic	fim_inf_swamp_daemons_summon
-causes_fear	fim_mon_fenbeast
-construct	fim_mon_fenbeast
 hide_forest	fim_mon_fenbeast
+construct	fim_mon_fenbeast
+causes_fear	fim_mon_fenbeast
+ignore_trees	fim_mon_fenbeast
 strider	ovn_fim_mon_bog_octopus_0_attributes
 causes_fear	ovn_fim_mon_bog_octopus_0_attributes
 causes_terror	ovn_fim_mon_bog_octopus_0_attributes

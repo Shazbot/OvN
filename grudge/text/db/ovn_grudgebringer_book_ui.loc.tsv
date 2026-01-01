@@ -72,7 +72,7 @@ matthias_unit_description	Matthias, a Witch Hunter General, works tirelessly to 
 luther_flamenstrike_unit_description	Stubborn and egotistical, Luther Flamestrike also has a fiery temper to complement his magical abilities. He was exiled from the Bright College in Nuln after an argument with a colleague caused a firestorm which destroyed a tavern and set the surrounding buildings ablaze. Luther is a competent wizard but prone to. Flamestrike now wanders the lands gladly offering his services as a master of the magic arts... for a 'reasonable price'.	false
 carlsson_cavalry_unlock_condition	Foil the Skaven collaborator Otto Hiln.	false
 ludwig_uberdorf_unlock_condition	Relieve the broken down Steam Tank at Flensburg.	false
-ceridan_unlock_condition	Escort Ceridan to Kings Glade, Loren.	false
+ceridan_unlock_condition	Escort Ilmarian to Kings Glade, Loren.	false
 ice_mage_vladimir_stormbringer_unlock_condition	Cross the Kislev border at Vitevo.	false
 dwarf_envoy_unlock_condition	March to Zhufbar.	false
 matthias_unlock_condition	Answer the Emperor's summons to Altdorf.	false
@@ -90,3 +90,17 @@ reiksguard_knights_todbringer_unit_commander_name	Captain Todbringer	false
 leitdorf_9th_crossbows_unit_description	Their regimental patron is Marius Leitdorf, the "Mad" Elector Count of Averland. Like many of Averland's regiments, the 9th Crossbows regularly guard the entrance to Black Fire Pass a route through the Black Mountains and are often stationed at Averland Keep the mouth of the pass found a little further north of Kurgan's Keep.	false
 emperors_hellblaster_volley_gun_unit_description	This powerful weapon has nine seperate barrels fixed on a circular crank which can be fired in turn or simultaneously for a devastaing volley.  These multi-barrelled cannons and their crew are among the best and as such form part of the Emperor's own personal army. Thier commander hails from the capital of the frozen lands of Kislev where he dutifully used their frail brass cannon over his long decorated service. He eventually ended up in the Empire, where he quickly made a name for himself as a grizzled veteran. Likely owing to his appearance he is rumoured to be a were-bear, though there has been no real evidence of this, if you ignore the scratch marks that is.	false
 reiksguard_knights_todbringer_unit_description	The Reiksguard are the personal army and bodyguard of the Emperor himself and the knights are one of the strongest of the Reiksguard regiments. Its warriors are recruited from all over the Empire and the sons of many wealthy and powerful families can be found among its ranks.	false
+allor_unit_commander_name	Allor	false
+allor_unit_description	Amber wizard Allor despises the supernatural properties of warpstone and uses his powers to destroy it wherever he finds it. He has lived in the mountains for many years and has watched the Skaven as they search for warpstone. He’s seen the harm they do to the world, their lack of respect. They are the spawn of Chaos evil and must be stopped. Allor is willing to use his powers and knowledge to help and guide those who seek stop the spawn of this evil Chaos. He expects no pay, he works for the earth and no-one else.	false
+allor_unlock_condition	Visit Krak Hirn	false
+ilmarin_unit_commander_name	Ilmarin	false
+ilmarin_unit_description	A trusted advisor and intelligence officer to the Border Prince Sven Carlsson, Ilmarin's efforts are focused on keeping his liege's land safe. Though he seems to have a particular fixation on the vile ratmen machinations.	false
+ilmarin_unlock_condition	Escort Ilmarian to Kings Glade, Loren.	false
+rhox_grudge_dilemma_unlock_condition	Wait for opportunity	false
+pj_healing_replenishment_string	Fully replenish the unit.\\nMust be near an Order settlement.	false
+pj_healing_replenishment_money	\\nCosts [[img:icon_money]][[/img]]	false
+pj_healing_replenishment_order_warning	\\n[[col:red]]Must be near an Order settlement to replenish troops.[[/col]]	false
+pj_healing_replenishment_already_full	\\n[[col:yellow]]Unit is already fully replenished.[[/col]]	false
+pj_healing_replenishment_need_money	\\n[[col:red]]Not enough [[img:icon_money]][[/img]].[[/col]]	false
+pj_healing_replenishment_already_force_full	\\n[[col:yellow]]All units in the force are already fully replenished.[[/col]]	false
+pj_healing_replenishment_string_force	Fully replenish all the units in the force.\\nMust be near an Order settlement.	false

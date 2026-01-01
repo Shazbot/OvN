@@ -62,22 +62,26 @@ local function ovn_fim_deathquest_spawn()
         "ovn_fim_spawn_deathquest_lost_char",
         "CharacterConvalescedOrKilled",
         function(context)
-                return context:character():faction():culture() == "ovn_fimir" and context:character():character_type_key() == "general"
+            local character = context:character()
+            if character:is_null_interface() then
+                return false
+            end
+            return character:faction():culture() == "ovn_fimir" and character:character_type_key() == "general" and character:fought_in_battle()
         end,
         function(context)
-            local char = context:character()
+            local character = context:character()
             -- don't trigger it for default Mixer faction leaders we kill at game start
-            if char:character_subtype_key() == "wh_main_nor_marauder_chieftain" and cm:model():turn_number() == 1 then
+            if character:character_subtype_key() == "wh_main_nor_marauder_chieftain" and cm:model():turn_number() == 1 then
                 return
             end
 
-            local FimFaction = char:faction()
+            local FimFaction = character:faction()
 
             cm:add_unit_to_faction_mercenary_pool(FimFaction, "fim_inf_death_quest", "renown", 1, 20, 10, 0.1, "", "", "", true, "fim_inf_death_quest");
 
             if FimFaction:is_human() then
                 cm:show_message_event(
-                    context:character():faction():name(),
+                    character:faction():name(),
                     "event_feed_fim_lost_battle_start_title",
                     "event_feed_fim_lost_battle_primary_detail",
                     "event_feed_fim_lost_battle_secondary_detail",

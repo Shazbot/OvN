@@ -1,0 +1,8 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/alhaikk			
+alhaikk_palace	stat_resistance_all	5.0000	add
+alhaikk_harbor	scalar_speed	1.2800	mult
+alhaikk_bazaar	stat_morale	10.0000	add
+alhaikk_temple	stat_resistance_magic	15.0000	add
+alhaikk_nomad	stat_accuracy	10.0000	add
+alhaikk_barracks	stat_melee_attack	10.0000	add

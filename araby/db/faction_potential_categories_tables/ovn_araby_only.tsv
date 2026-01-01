@@ -1,0 +1,7 @@
+campaign_potential	base_value	random_roll_lower_bound	random_roll_median	random_roll_upper_bound
+#faction_potential_categories_tables;0;db/faction_potential_categories_tables/ovn_araby_only				
+ovn_arb_aswad_scythans_ie	175	0	30	60
+ovn_arb_golden_fleet_ie	175	0	30	60
+ovn_arb_sultanate_of_all_araby_ie	190	0	30	60
+ovn_arb_sultanate_ind	20	0	20	40
+ovn_arb_cult_of_the_djinns	50	0	5	10

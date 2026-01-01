@@ -79,7 +79,7 @@ elo_fen_monster_rulers_morale	morale.png	61	morale.png	battle	true
 elo_fen_monster_rulers_resmis	resistance_missile.png	55	resistance_missile.png	battle	true
 elo_fen_monster_rulers_cost	income.png	100	income.png	campaign	false
 elo_fimir_apprentices_range	accuracy.png	203	accuracy.png	battle	true
-elo_fen_lord_heroes	magic.png	15	magic.png	battle	true
+elo_fen_lord_heroes	magic_character.png	291	magic_character.png	battle	true
 elo_fen_lord_heroes_ward	resistance_ward_save.png	55	resistance_ward_save.png	battle	true
 elo_demons_papa_nurgle	resistance_ward_save.png	55	resistance_ward_save.png	battle	true
 elo_demons_khoooorne	general_ability.png	600	general_ability.png	battle	true
@@ -105,8 +105,8 @@ ovn_fim_skroll_innate_mis_resistance_monsters	resistance_missile.png	581	resista
 ovn_fim_skroll_innate_bog_upkeep_reduction	treasury.png	106	treasury.png	campaign	false
 fim_kroll_enable_mother_young	general_ability.png	600	general_ability.png	battle	true
 fim_kroll_enable_constrict_effect	phase_posion.png	1		battle	true
-ovn_fim_skroll_bog_cotopus_speed	battle_movement.png	106	battle_movement.png	battle	true
-ovn_fim_skroll_bog_cotopus_charge	battle_charge.png	106	battle_charge.png	battle	true
+ovn_fim_skroll_bog_cotopus_speed	battle_movement.png	421	battle_movement.png	battle	true
+ovn_fim_skroll_bog_cotopus_charge	charge.png	501	charge.png	battle	true
 ovn_fim_skroll_monster_ma	melee.png	106	melee.png	battle	true
 fim_kroll_enable_broodmother	general_ability.png	600	general_ability.png	battle	true
 fim_kroll_enable_fulcrum	general_ability.png	600	general_ability.png	battle	true
@@ -131,7 +131,7 @@ ovn_fimir_kroll_god_dummy_1	ovn_kroll_bundle1.png	310	ovn_kroll_bundle1.png	camp
 ovn_fimir_kroll_god_dummy_2	ovn_kroll_bundle2.png	310	ovn_kroll_bundle2.png	campaign	true
 ovn_fimir_kroll_god_dummy_3	ovn_kroll_bundle3.png	310	ovn_kroll_bundle3.png	campaign	true
 ovn_fimir_kroll_god_dummy_4	ovn_kroll_bundle4.png	310	ovn_kroll_bundle4.png	campaign	true
-ovn_fim_enable_army_ability_cursed_mist_HIDDEN	general_ability.png	600	general_ability.png	both	true
+ovn_fim_enable_army_ability_cursed_mist_HIDDEN	general_ability.png	0	general_ability.png	both	true
 ovn_fim_enable_army_ability_cursed_mist	general_ability.png	600	general_ability.png	both	true
 ovn_fim_enable_army_ability_fog_fimul_HIDDEN	general_ability.png	600	general_ability.png	both	true
 ovn_fim_enable_army_ability_fog_fimul	general_ability.png	600	general_ability.png	both	true
@@ -146,3 +146,6 @@ ovn_fimir_spell_mastery_2	magic_character.png	1	magic_character.png	battle	true
 ovn_fimir_spell_mastery_3	magic_character.png	1	magic_character.png	battle	true
 ovn_fimir_spell_mastery_4	magic_character.png	1	magic_character.png	battle	true
 ovn_fimir_spell_mastery_5	magic_character.png	1	magic_character.png	battle	true
+wh2_dlc15_hef_dungeon_mistwalker_upgrade_fimir	general_ability.png	605	general_ability.png	battle	true
+ovn_fimir_faction_political_diplomacy_mod_fimir	diplomacy.png	5	diplomacy.png	campaign	true
+ovn_fimir_effect_force_stat_leadership_vs_fimir	morale.png	411	morale.png	battle	true

@@ -1,0 +1,18 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\el1\arb\arb_new_elephants\arb_base_elephant\arb_base_elephant_1.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\el1\arb\arb_new_elephants\arb_base_elephant\arb_base_elephant_2.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	
+	
+		
+	<SLOT name="fez" probability ="0.1" >
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_props\arb_fez_elephant.wsmodel" />
+	    </SLOT>
+</VARIANT_MESH>

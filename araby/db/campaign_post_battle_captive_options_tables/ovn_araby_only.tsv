@@ -1,0 +1,7 @@
+id	sort_priority	captive_outcome	campaign_group	effect_bundle	effect_bundle_turns	icon_path	resource_transaction	capturing_force_resource_transaction	men_per_force_resource_transaction	men_per_faction_resource_transaction	men_per_faction_resource_transaction_cap	men_per_force_resource_transaction_cap	audio_override
+#campaign_post_battle_captive_options_tables;6;db/campaign_post_battle_captive_options_tables/ovn_araby_only													
+268797970	2	release	rhox_araby_gm_captive_group		1	icon_share_loot.png	wh2_dlc11_resource_cost_cst_captives		0	0	0	0	
+268797971	1	enslave	rhox_araby_slave_captive_group		1	icon_enslave.png	wh3_main_def_slaves_battles		0	1	0	0	
+268797972	2	release	rhox_araby_captive_group		1	icon_ransom.png			0	0	0	0	
+268797973	0	kill	rhox_araby_captive_group	wh_main_bundle_captives_kill_humans	1	icon_kill.png			0	0	0	0	
+268797974	1	enslave	rhox_araby_fatandira_captive_group		1	icon_enslave.png			0	0	0	0	

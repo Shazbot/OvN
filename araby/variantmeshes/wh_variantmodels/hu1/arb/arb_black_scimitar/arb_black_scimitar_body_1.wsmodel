@@ -1,0 +1,37 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\arb_black_scimitar_body_1.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_cape_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_clothparts_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu1\arb_bm\arb_regular\materials\arb_regular_03_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_legs_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_mail_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_sash_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black-scimitar_armor_1_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_cape_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_clothparts_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu1\arb_bm\arb_regular\materials\arb_regular_03_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_legs_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_mail_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_sash_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black-scimitar_armor_1_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_cape_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_clothparts_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\regular_gutplate_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_legs_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_mail_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_sash_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black-scimitar_armor_1_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_cape_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_clothparts_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu1\arb\arb_desert_dogs\materials\regular_gutplate_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_legs_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_mail_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black_scimitar_sash_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu1\arb\arb_black_scimitar\materials\arb_black-scimitar_armor_1_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

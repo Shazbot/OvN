@@ -1,0 +1,36 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_agent_subtypes.loc		
+agent_subtypes_onscreen_name_override_arb_sultan_jaffar	Legendary Lord	false
+agent_subtypes_onscreen_name_override_arb_fatandira	Legendary Lord	false
+agent_subtypes_onscreen_name_override_arb_golden_magus	Legendary Lord	false
+agent_subtypes_onscreen_name_override_arb_vizier_fire	Grand Vizier (Fire)	false
+agent_subtypes_onscreen_name_override_arb_vizier_life	Grand Vizier (Life)	false
+agent_subtypes_onscreen_name_override_arb_vizier_heavens	Grand Vizier (Heavens)	false
+agent_subtypes_onscreen_name_override_arb_vizier_desert	Grand Vizier (Djinn)	false
+agent_subtypes_onscreen_name_override_arb_magician_life	Magician (Life)	false
+agent_subtypes_onscreen_name_override_arb_magician_desert	Magician (Djinn)	false
+agent_subtypes_onscreen_name_override_arb_magician_fire	Magician (Fire)	false
+agent_subtypes_onscreen_name_override_arb_magician_heavens	Magician (Heavens)	false
+agent_subtypes_onscreen_name_override_arb_nomad	Hashishin	false
+agent_subtypes_onscreen_name_override_arb_champion	Emir	false
+agent_subtypes_onscreen_name_override_arb_sheikh	Sheikh	false
+agent_subtypes_onscreen_name_override_arb_caravan_master	Caravan Master	false
+agent_subtypes_description_text_override_arb_magician_life	The Sorcerers of Araby who dwell near the coasts are adept at manipulating the Wind of Ghyran and taming Sea Nymphs.	false
+agent_subtypes_description_text_override_arb_magician_desert	The desert Sorcerers of Araby follow their own ancient tradition, calling upon the Desert Spirits and their elemental might.	false
+agent_subtypes_description_text_override_arb_magician_fire	Some Arabyan Sorcerers have learned to bind Fire Efreets to their will, mastering the Wind of Aqshy in the process.	false
+agent_subtypes_description_text_override_arb_magician_heavens	Tempest Djinns and the Wind of Azyr are powerful allies to these Arabyan Sorcerers.	false
+agent_subtypes_description_text_override_arb_nomad	The cities of Araby conceal countless dangers in their shadows. Its assassins are famed for striking swiftly and unseen.	false
+agent_subtypes_description_text_override_arb_champion	Lesser nobles, yet warriors without equal. They often serve as bodyguards to the greatest lords of Araby.	false
+agent_subtypes_description_text_override_arb_sultan_jaffar		false
+agent_subtypes_description_text_override_arb_fatandira		false
+agent_subtypes_description_text_override_arb_golden_magus		false
+agent_subtypes_description_text_override_arb_vizier_fire	The Grand Viziers are personal advisors to the Sultans and often have the task of commanding the armies on the battlefield so that their masters do not have to leave their luxurious palace.	false
+agent_subtypes_description_text_override_arb_vizier_life	The Grand Viziers are personal advisors to the Sultans and often have the task of commanding the armies on the battlefield so that their masters do not have to leave their luxurious palace.	false
+agent_subtypes_description_text_override_arb_vizier_heavens	The Grand Viziers are personal advisors to the Sultans and often have the task of commanding the armies on the battlefield so that their masters do not have to leave their luxurious palace.	false
+agent_subtypes_description_text_override_arb_vizier_desert	The Grand Viziers are personal advisors to the Sultans and often have the task of commanding the armies on the battlefield so that their masters do not have to leave their luxurious palace.	false
+agent_subtypes_description_text_override_arb_sheikh	The grim Sheikhs are high-ranking nobles, famed both as warriors and commanders.	false
+agent_subtypes_description_text_override_arb_caravan_master		false
+agent_subtypes_description_text_override_arb_champion_wazar	A high-ranking Arabyan Emir and captain of Sultan Jaffar’s elite Black Scimitar Guard.	false
+agent_subtypes_onscreen_name_override_arb_champion_wazar	Legendary Hero	false
+agent_subtypes_description_text_override_arb_sheikh_mehmed		false
+agent_subtypes_onscreen_name_override_arb_sheikh_mehmed	Legendary Lord	false

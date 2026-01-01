@@ -1,0 +1,16 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/ovn_crafting_araby_slaves					
+ovn_araby_victories_lzd	trait_lizardmen.png	2	trait_lizardmen.png	campaign	true
+ovn_araby_victories_dwarfs	trait_dwarf.png	2	trait_dwarf.png	campaign	true
+ovn_araby_victories_def	trait_dark_elves.png	2	trait_dark_elves.png	campaign	true
+ovn_araby_victories_hef	trait_high_elves.png	2	trait_high_elves.png	campaign	true
+ovn_araby_victories_men	trait_human.png	2	trait_human.png	campaign	true
+ovn_araby_victories_undead	trait_vampire_counts.png	2	trait_vampire_counts.png	campaign	true
+ovn_araby_victories_chaos	trait_chaos.png	2	trait_chaos.png	campaign	true
+ovn_araby_victories_skv	trait_skaven.png	2	trait_skaven.png	campaign	true
+ovn_araby_victories_nor	trait_norsca.png	2	trait_norsca.png	campaign	true
+ovn_araby_victories_we	trait_wood_elves.png	2	trait_wood_elves.png	campaign	true
+ovn_araby_victories_grn	trait_greenskins.png	2	trait_greenskins.png	campaign	true
+ovn_araby_victories_bst	trait_beastmen.png	2	trait_beastmen.png	campaign	true
+ovn_araby_victories_tmb	trait_tomb_kings.png	2	trait_tomb_kings.png	campaign	true
+ovn_araby_victories_ogr	trait_ogre_kingdoms.png	2	trait_ogre_kingdoms.png	campaign	true

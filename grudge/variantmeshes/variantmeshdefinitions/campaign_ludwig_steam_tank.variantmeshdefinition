@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="steam_tank" >
+		<VARIANT_MESH model="warmachines/engines/ovn_imperial_steam_tank_ludwig_von_uberdorf/imperial_steam_tank_ludwig_von_uberdorf.wsmodel" />
+	</SLOT>
+	<SLOT name="turret" />
+	<SLOT name="cannon" >
+		<VARIANT_MESH model="warmachines/engines/ovn_imperial_steam_tank_ludwig_von_uberdorf/imperial_steam_tank_ludwig_von_uberdorf_cannon.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

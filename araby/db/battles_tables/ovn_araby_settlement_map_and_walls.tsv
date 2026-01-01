@@ -1,0 +1,3 @@
+key	type	is_naval	specification	screenshot_path	map_path	team_size_1	team_size_2	release	multiplayer	singleplayer	intro_movie	year	defender_funds_ratio	has_key_buildings	matchmaking	playable_area_width	playable_area_height	is_large_settlement	has_15m_walls	is_underground	catchment_name	tile_upgrade	battle_environment	battle_environment_audio	battle_script	culture	author
+#battles_tables;17;db/battles_tables/ovn_araby_settlement_map_and_walls																											
+major_d_arb	siege	false	terrain/battles/major_d_arb/	ui/frontend ui/battle_map_images/ovn_araby_ka-sabar_siege.png		4	4	true	true	true		0	0.7000	false	false	0.0000	0.0000	false	true	false		faction:arb		tomb_kings_cavern		wh2_dlc09_tmb_tomb_kings	

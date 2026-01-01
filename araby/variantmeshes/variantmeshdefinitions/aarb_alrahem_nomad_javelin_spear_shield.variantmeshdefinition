@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/aarb_alrahem_nomad_base.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="quiver" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/arb_bm/arb_stealth/arb_stealth_quiver_javelin_01.wsmodel" />
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\aarb_cav_javelin_melee_set1.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\aarb_shield_set_moon.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\aarb_cav_javelin_set1.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

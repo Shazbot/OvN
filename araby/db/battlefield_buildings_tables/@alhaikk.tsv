@@ -1,0 +1,8 @@
+key	category	model	audio_material	hit_points	gun_type	onscreen_name	ignition_threshold	radar_icon	visible_in_public_ted	fortwall_penetration_chance	collision_3d	destruct_thresholds	joiner	auxiliary	burn_rate	height_map_mesh	ground_type	can_burn	audio_count_as_urban	ability_radius	shares_reload_between_emitters	togleable_icon_path	audio_construction_type_switch	audio_faction_switch	tower_group	destructible
+#battlefield_buildings_tables;29;db/battlefield_buildings_tables/@alhaikk																										
+alhaikk_palace	generic	tmb_column_08	rock	15		alhaikk_palace	100		true	0	true		false	false	1.0000	false	rock	false	true	32.0000	false				default_value	always_indestructible
+alhaikk_harbor	generic	tmb_column_08	rock	15		alhaikk_harbor	100		true	0	true		false	false	1.0000	false	rock	false	true	32.0000	false				default_value	always_indestructible
+alhaikk_bazaar	generic	tmb_column_08	rock	15		alhaikk_bazaar	100		true	0	true		false	false	1.0000	false	rock	false	true	32.0000	false				default_value	always_indestructible
+alhaikk_temple	generic	tmb_column_08	rock	15		alhaikk_temple	100		true	0	true		false	false	1.0000	false	rock	false	true	32.0000	false				default_value	always_indestructible
+alhaikk_nomad	generic	tmb_column_08	rock	15		alhaikk_nomad	100		true	0	true		false	false	1.0000	false	rock	false	true	32.0000	false				default_value	always_indestructible
+alhaikk_barracks	generic	tmb_column_08	rock	15		alhaikk_barracks	100		true	0	true		false	false	1.0000	false	rock	false	true	32.0000	false				default_value	always_indestructible

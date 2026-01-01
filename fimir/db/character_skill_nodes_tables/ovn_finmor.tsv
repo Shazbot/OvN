@@ -1,72 +1,72 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_finmor										
-fim_finmor_campaign_01		wh2_main_skill_all_hero_assist_army_training	node_set_fimir_finmor		5.0000	0.0000		0	0	true
-fim_finmor_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order	node_set_fimir_finmor		5.0000	1.0000		0	0	true
-fim_finmor_campaign_03		wh2_main_skill_all_hero_hinder_settlement_assault_garrison	node_set_fimir_finmor		5.0000	2.0000		0	0	true
-fim_finmor_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate	node_set_fimir_finmor		5.0000	3.0000		0	0	true
-fim_finmor_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_units	node_set_fimir_finmor		5.0000	4.0000		0	0	true
-fim_finmor_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	node_set_fimir_finmor		5.0000	5.0000		0	0	true
-fim_finmor_campaign_actions_dummy		wh_dlc08_skill_all_dummy_agent_actions_nor_skin_wolf_werekin	node_set_fimir_finmor		8.0000	0.0000		1	0	false
-fim_finmor_self_01		wh2_main_skill_skv_combat_tail_weapon	node_set_fimir_finmor		1.0000	0.0000		0	0	true
-fim_finmor_self_02		wh_main_skill_all_all_self_devastating_charge	node_set_fimir_finmor		1.0000	1.0000		0	0	true
-fim_finmor_self_03		wh_main_skill_all_all_self_thick-skinned	node_set_fimir_finmor		1.0000	2.0000		0	0	true
-fim_finmor_self_04		wh_main_skill_all_all_self_hard_to_hit	node_set_fimir_finmor		1.0000	3.0000		0	0	true
-fim_finmor_self_05		wh_main_skill_all_all_self_deadly_blade	node_set_fimir_finmor		1.0000	4.0000		0	0	true
-fim_finmor_self_06		wh_main_skill_all_all_self_foe-seeker	node_set_fimir_finmor		1.0000	5.0000		0	4	true
-fim_finmor_self_07		wh_main_skill_all_all_self_wound-maker	node_set_fimir_finmor		1.0000	6.0000		0	0	true
-fim_finmor_self_08		wh_main_skill_all_all_self_scarred_veteran_2	node_set_fimir_finmor		1.0000	7.0000		0	0	true
-fim_finmor_self_09		wh_main_skill_all_all_self_indomitable	node_set_fimir_finmor		1.0000	8.0000		0	0	true
-fim_finmor_self_10		wh_dlc08_skill_nor_lords_self_quicksilver	node_set_fimir_finmor		1.0000	9.0000		0	0	true
-fim_finmor_self_11		wh_main_skill_all_all_self_deadly_onslaught	node_set_fimir_finmor		1.0000	10.0000		0	4	true
-fim_finmor_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	node_set_fimir_finmor		0.0000	0.0000		0	0	true
-fim_finmor_unique_02		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	node_set_fimir_finmor		0.0000	1.0000		0	0	true
-fim_finmor_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	node_set_fimir_finmor		0.0000	2.0000		0	0	true
-fim_finmor_unique_04		wh2_main_skill_all_immortality_hero	node_set_fimir_finmor		0.0000	3.0000		0	0	true
-fim_finmor_innate_01		fim_lord_innate_1	node_set_fimir_finmor		6.0000	0.0000		0	0	false
-fim_finmor_innate_02		fim_lord_innate_2	node_set_fimir_finmor		6.0000	1.0000		0	0	false
-fim_finmor_innate_03		fim_lord_innate_3	node_set_fimir_finmor		6.0000	2.0000		0	0	false
-fim_finmor_innate_04		fim_lord_innate_4	node_set_fimir_finmor		6.0000	4.0000		0	0	false
-fim_finmor_innate_05		fim_lord_innate_5	node_set_fimir_finmor		6.0000	5.0000		0	0	false
-fim_finmor_innate_06		fim_lord_innate_6	node_set_fimir_finmor		6.0000	6.0000		0	0	false
-fim_finmor_innate_07		fim_lord_innate_7	node_set_fimir_finmor		6.0000	7.0000		0	0	false
-fim_finmor_innate_08		fim_lord_innate_10	node_set_fimir_finmor		6.0000	8.0000		0	0	false
-fim_finmor_innate_09		wh2_main_skill_innate_all_strong	node_set_fimir_finmor		6.0000	9.0000		0	0	false
-fim_finmor_innate_10		wh2_main_skill_innate_all_tough	node_set_fimir_finmor		6.0000	10.0000		0	0	false
-fim_finmor_innate_11		wh2_main_skill_innate_all_fleet_footed	node_set_fimir_finmor		6.0000	11.0000		0	0	false
-fim_finmor_innate_12		wh2_main_skill_innate_all_disciplined	node_set_fimir_finmor		6.0000	12.0000		0	0	false
-fim_finmor_mentor		wh3_main_skill_all_mentor_hero	node_set_fimir_finmor		0.0000	12.0000		0	0	true
-fim_finmor_campaign_01_kroll		wh2_main_skill_all_hero_assist_army_training	node_set_fimir_finmor_kroll		5.0000	0.0000		0	0	true
-fim_finmor_campaign_02_kroll		wh2_main_skill_all_hero_passive_spread_public_order	node_set_fimir_finmor_kroll		5.0000	1.0000		0	0	true
-fim_finmor_campaign_03_kroll		wh2_main_skill_all_hero_hinder_settlement_assault_garrison	node_set_fimir_finmor_kroll		5.0000	2.0000		0	0	true
-fim_finmor_campaign_04_kroll		wh2_main_skill_all_hero_hinder_agent_assassinate	node_set_fimir_finmor_kroll		5.0000	3.0000		0	0	true
-fim_finmor_campaign_05_kroll		wh2_main_skill_all_hero_hinder_army_assault_units	node_set_fimir_finmor_kroll		5.0000	4.0000		0	0	true
-fim_finmor_campaign_06_kroll		wh2_main_skill_all_hero_reduce_action_cost	node_set_fimir_finmor_kroll		5.0000	5.0000		0	0	true
-fim_finmor_campaign_actions_dummy_kroll		wh_dlc08_skill_all_dummy_agent_actions_nor_skin_wolf_werekin	node_set_fimir_finmor_kroll		8.0000	0.0000		1	0	false
-fim_finmor_self_01_kroll		wh2_main_skill_skv_combat_tail_weapon	node_set_fimir_finmor_kroll		1.0000	0.0000		0	0	true
-fim_finmor_self_02_kroll		wh_main_skill_all_all_self_devastating_charge	node_set_fimir_finmor_kroll		1.0000	1.0000		0	0	true
-fim_finmor_self_03_kroll		wh_main_skill_all_all_self_thick-skinned	node_set_fimir_finmor_kroll		1.0000	2.0000		0	0	true
-fim_finmor_self_04_kroll		wh_main_skill_all_all_self_hard_to_hit	node_set_fimir_finmor_kroll		1.0000	3.0000		0	0	true
-fim_finmor_self_05_kroll		wh_main_skill_all_all_self_deadly_blade	node_set_fimir_finmor_kroll		1.0000	4.0000		0	0	true
-fim_finmor_self_06_kroll		wh_main_skill_all_all_self_foe-seeker	node_set_fimir_finmor_kroll		1.0000	5.0000		0	4	true
-fim_finmor_self_07_kroll		wh_main_skill_all_all_self_wound-maker	node_set_fimir_finmor_kroll		1.0000	6.0000		0	0	true
-fim_finmor_self_08_kroll		wh_main_skill_all_all_self_scarred_veteran_2	node_set_fimir_finmor_kroll		1.0000	7.0000		0	0	true
-fim_finmor_self_09_kroll		wh_main_skill_all_all_self_indomitable	node_set_fimir_finmor_kroll		1.0000	8.0000		0	0	true
-fim_finmor_self_10_kroll		wh_dlc08_skill_nor_lords_self_quicksilver	node_set_fimir_finmor_kroll		1.0000	9.0000		0	0	true
-fim_finmor_self_11_kroll		wh_main_skill_all_all_self_deadly_onslaught	node_set_fimir_finmor_kroll		1.0000	10.0000		0	4	true
-fim_finmor_unique_01_kroll		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	node_set_fimir_finmor_kroll		0.0000	0.0000		0	0	true
-fim_finmor_unique_02_kroll		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	node_set_fimir_finmor_kroll		0.0000	1.0000		0	0	true
-fim_finmor_unique_03_kroll		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	node_set_fimir_finmor_kroll		0.0000	2.0000		0	0	true
-fim_finmor_unique_04_kroll		wh2_main_skill_all_immortality_hero	node_set_fimir_finmor_kroll		0.0000	3.0000		0	0	true
-fim_finmor_innate_01_kroll		fim_lord_innate_1	node_set_fimir_finmor_kroll		6.0000	0.0000		0	0	false
-fim_finmor_innate_02_kroll		fim_lord_innate_2	node_set_fimir_finmor_kroll		6.0000	1.0000		0	0	false
-fim_finmor_innate_03_kroll		fim_lord_innate_3	node_set_fimir_finmor_kroll		6.0000	2.0000		0	0	false
-fim_finmor_innate_04_kroll		fim_lord_innate_4	node_set_fimir_finmor_kroll		6.0000	4.0000		0	0	false
-fim_finmor_innate_05_kroll		fim_lord_innate_5	node_set_fimir_finmor_kroll		6.0000	5.0000		0	0	false
-fim_finmor_innate_06_kroll		fim_lord_innate_6	node_set_fimir_finmor_kroll		6.0000	6.0000		0	0	false
-fim_finmor_innate_07_kroll		fim_lord_innate_7	node_set_fimir_finmor_kroll		6.0000	7.0000		0	0	false
-fim_finmor_innate_08_kroll		fim_lord_innate_10	node_set_fimir_finmor_kroll		6.0000	8.0000		0	0	false
-fim_finmor_innate_09_kroll		wh2_main_skill_innate_all_strong	node_set_fimir_finmor_kroll		6.0000	9.0000		0	0	false
-fim_finmor_innate_10_kroll		wh2_main_skill_innate_all_tough	node_set_fimir_finmor_kroll		6.0000	10.0000		0	0	false
-fim_finmor_innate_11_kroll		wh2_main_skill_innate_all_fleet_footed	node_set_fimir_finmor_kroll		6.0000	11.0000		0	0	false
-fim_finmor_innate_12_kroll		wh2_main_skill_innate_all_disciplined	node_set_fimir_finmor_kroll		6.0000	12.0000		0	0	false
-fim_finmor_kroll_mentor		wh3_main_skill_all_mentor_hero	node_set_fimir_finmor_kroll		0.0000	12.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/ovn_finmor									
+fim_finmor_campaign_01		wh2_main_skill_all_hero_assist_army_training		5	0		0	0	true
+fim_finmor_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order		5	1		0	0	true
+fim_finmor_campaign_03		wh2_main_skill_all_hero_hinder_settlement_assault_garrison		5	2		0	0	true
+fim_finmor_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate		5	3		0	0	true
+fim_finmor_campaign_05		wh2_main_skill_all_hero_hinder_army_assault_units		5	4		0	0	true
+fim_finmor_campaign_06		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+fim_finmor_campaign_actions_dummy		wh_dlc08_skill_all_dummy_agent_actions_nor_skin_wolf_werekin		8	0		1	0	false
+fim_finmor_self_01		wh2_main_skill_skv_combat_tail_weapon		1	0		0	0	true
+fim_finmor_self_02		wh_main_skill_all_all_self_devastating_charge		1	1		0	0	true
+fim_finmor_self_03		wh_main_skill_all_all_self_thick-skinned		1	2		0	0	true
+fim_finmor_self_04		wh_main_skill_all_all_self_hard_to_hit		1	3		0	0	true
+fim_finmor_self_05		wh_main_skill_all_all_self_deadly_blade		1	4		0	0	true
+fim_finmor_self_06		wh_main_skill_all_all_self_foe-seeker		1	5		0	4	true
+fim_finmor_self_07		wh_main_skill_all_all_self_wound-maker		1	6		0	0	true
+fim_finmor_self_08		wh_main_skill_all_all_self_scarred_veteran_2		1	7		0	0	true
+fim_finmor_self_09		wh_main_skill_all_all_self_indomitable		1	8		0	0	true
+fim_finmor_self_10		wh_dlc08_skill_nor_lords_self_quicksilver		1	9		0	0	true
+fim_finmor_self_11		wh_main_skill_all_all_self_deadly_onslaught		1	10		0	4	true
+fim_finmor_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos		0	0		0	0	true
+fim_finmor_unique_02		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp		0	1		0	0	true
+fim_finmor_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair		0	2		0	0	true
+fim_finmor_unique_04		wh2_main_skill_all_immortality_hero		0	3		0	0	true
+fim_finmor_innate_01		fim_lord_innate_1		6	0		0	0	false
+fim_finmor_innate_02		fim_lord_innate_2		6	1		0	0	false
+fim_finmor_innate_03		fim_lord_innate_3		6	2		0	0	false
+fim_finmor_innate_04		fim_lord_innate_4		6	4		0	0	false
+fim_finmor_innate_05		fim_lord_innate_5		6	5		0	0	false
+fim_finmor_innate_06		fim_lord_innate_6		6	6		0	0	false
+fim_finmor_innate_07		fim_lord_innate_7		6	7		0	0	false
+fim_finmor_innate_08		fim_lord_innate_10		6	8		0	0	false
+fim_finmor_innate_09		wh2_main_skill_innate_all_strong		6	9		0	0	false
+fim_finmor_innate_10		wh2_main_skill_innate_all_tough		6	10		0	0	false
+fim_finmor_innate_11		wh2_main_skill_innate_all_fleet_footed		6	11		0	0	false
+fim_finmor_innate_12		wh2_main_skill_innate_all_disciplined		6	12		0	0	false
+fim_finmor_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true
+fim_finmor_campaign_01_kroll		wh2_main_skill_all_hero_assist_army_training		5	0		0	0	true
+fim_finmor_campaign_02_kroll		wh2_main_skill_all_hero_passive_spread_public_order		5	1		0	0	true
+fim_finmor_campaign_03_kroll		wh2_main_skill_all_hero_hinder_settlement_assault_garrison		5	2		0	0	true
+fim_finmor_campaign_04_kroll		wh2_main_skill_all_hero_hinder_agent_assassinate		5	3		0	0	true
+fim_finmor_campaign_05_kroll		wh2_main_skill_all_hero_hinder_army_assault_units		5	4		0	0	true
+fim_finmor_campaign_06_kroll		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+fim_finmor_campaign_actions_dummy_kroll		wh_dlc08_skill_all_dummy_agent_actions_nor_skin_wolf_werekin		8	0		1	0	false
+fim_finmor_self_01_kroll		wh2_main_skill_skv_combat_tail_weapon		1	0		0	0	true
+fim_finmor_self_02_kroll		wh_main_skill_all_all_self_devastating_charge		1	1		0	0	true
+fim_finmor_self_03_kroll		wh_main_skill_all_all_self_thick-skinned		1	2		0	0	true
+fim_finmor_self_04_kroll		wh_main_skill_all_all_self_hard_to_hit		1	3		0	0	true
+fim_finmor_self_05_kroll		wh_main_skill_all_all_self_deadly_blade		1	4		0	0	true
+fim_finmor_self_06_kroll		wh_main_skill_all_all_self_foe-seeker		1	5		0	4	true
+fim_finmor_self_07_kroll		wh_main_skill_all_all_self_wound-maker		1	6		0	0	true
+fim_finmor_self_08_kroll		wh_main_skill_all_all_self_scarred_veteran_2		1	7		0	0	true
+fim_finmor_self_09_kroll		wh_main_skill_all_all_self_indomitable		1	8		0	0	true
+fim_finmor_self_10_kroll		wh_dlc08_skill_nor_lords_self_quicksilver		1	9		0	0	true
+fim_finmor_self_11_kroll		wh_main_skill_all_all_self_deadly_onslaught		1	10		0	4	true
+fim_finmor_unique_01_kroll		wh_dlc08_skill_nor_lords_unique_aura_of_chaos		0	0		0	0	true
+fim_finmor_unique_02_kroll		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp		0	1		0	0	true
+fim_finmor_unique_03_kroll		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair		0	2		0	0	true
+fim_finmor_unique_04_kroll		wh2_main_skill_all_immortality_hero		0	3		0	0	true
+fim_finmor_innate_01_kroll		fim_lord_innate_1		6	0		0	0	false
+fim_finmor_innate_02_kroll		fim_lord_innate_2		6	1		0	0	false
+fim_finmor_innate_03_kroll		fim_lord_innate_3		6	2		0	0	false
+fim_finmor_innate_04_kroll		fim_lord_innate_4		6	4		0	0	false
+fim_finmor_innate_05_kroll		fim_lord_innate_5		6	5		0	0	false
+fim_finmor_innate_06_kroll		fim_lord_innate_6		6	6		0	0	false
+fim_finmor_innate_07_kroll		fim_lord_innate_7		6	7		0	0	false
+fim_finmor_innate_08_kroll		fim_lord_innate_10		6	8		0	0	false
+fim_finmor_innate_09_kroll		wh2_main_skill_innate_all_strong		6	9		0	0	false
+fim_finmor_innate_10_kroll		wh2_main_skill_innate_all_tough		6	10		0	0	false
+fim_finmor_innate_11_kroll		wh2_main_skill_innate_all_fleet_footed		6	11		0	0	false
+fim_finmor_innate_12_kroll		wh2_main_skill_innate_all_disciplined		6	12		0	0	false
+fim_finmor_kroll_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true

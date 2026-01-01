@@ -1,6 +1,0 @@
-key	icon	sort_order	show_in_ui	audio_switch	colour_hex
-#building_sets_tables;5;db/building_sets_tables/ovn_fimir_buildings					
-ovn_set_fimir_defence	UI/Buildings/Icons/nor_cat_defence.png	5	true	Defence	5B492F
-ovn_set_fimir_economy	UI/Buildings/Icons/nor_cat_civic.png	6	true	Resource	3E4739
-ovn_set_fimir_military_recruitment	UI/Buildings/Icons/nor_cat_recruitment.png	3	true	Military_Recruitment	653934
-ovn_set_fimir_military_support	UI/Buildings/Icons/nor_cat_support.png	4	true	Advanced_Military	4B4158

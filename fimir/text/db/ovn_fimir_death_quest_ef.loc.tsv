@@ -1,0 +1,26 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_death_quest_ef.loc		
+event_feed_fim_lost_battle_start_title	Death-Quest	true
+event_feed_fim_lost_battle_primary_detail	Exiles Returned	true
+event_feed_fim_lost_battle_secondary_detail	After the heavy losses in a recent battle, those survivors who displeased the Clan were exiled. Many have splintered off and formed Death Quests. One such group has now returned to redeem themselves - and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_rancor_hold_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_rancor_hold_primary_detail	The Fall of Rancor Hold	true
+event_feed_fim_lost_ovn_fim_rancor_hold_secondary_detail	Meargh Skattach and her clan of Rancor Hold have fallen. The remnants, now fragmented, have formed Death Quests - one band has sought out the mighty Kroll and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_tendrils_of_doom_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_tendrils_of_doom_primary_detail	The Fall of the Tendrils of Doom	true
+event_feed_fim_lost_ovn_fim_tendrils_of_doom_secondary_detail	Kroll and her clan, the Tendrils of Doom, have fallen. The remnants, now fragmented, have formed Death Quests - one band has sought out the mighty Meargh Skattach and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_mist_dragons_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_mist_dragons_primary_detail	Mist Dragon Death-Quest	true
+event_feed_fim_lost_ovn_fim_mist_dragons_secondary_detail	The mysterious far-eastern clan of the Mist Dragons has fallen. The remnants, now fragmented, have formed Death Quests - one band has sought out our mighty clan and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_marsh_hornets_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_marsh_hornets_primary_detail	Marsh Hornets Death-Quest	true
+event_feed_fim_lost_ovn_fim_marsh_hornets_secondary_detail	The clan of the Marsh Hornets has fallen. The remnants, now fragmented, have formed Death Quests and scattered from the scorching Badlands. One such band has sought out our mighty clan and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_thunderous_sight_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_thunderous_sight_primary_detail	Thunderous Sight Death-Quest	true
+event_feed_fim_lost_ovn_fim_thunderous_sight_secondary_detail	The clan of the Thunderous Sight has fallen. The remnants, now fragmented, have formed Death Quests and scattered across the steaming jungles of Khuresh. One such band has emerged from the mists once more, seeking redemption - and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_fen_serpents_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_fen_serpents_primary_detail	Fen Serpents Death-Quest	true
+event_feed_fim_lost_ovn_fim_fen_serpents_secondary_detail	The clan of the Fen Serpents has fallen. The remnants, now fragmented, have formed Death Quests and drifted through the pestilent swamps of Lustria. One such band has survived the biting mists of the Mosquito Swamp and is available for recruitment, should you so choose.	true
+event_feed_fim_lost_ovn_fim_hell_gate_start_title	Death-Quest	true
+event_feed_fim_lost_ovn_fim_hell_gate_primary_detail	Hell Gate Death-Quest	true
+event_feed_fim_lost_ovn_fim_hell_gate_secondary_detail	The clan of Hell Gate has fallen. The remnants, now fragmented, have formed Death Quests and wandered through the blighted expanse of the Northern Chaos Wastes. One such band, scarred by the fires of corruption, has returned and is available for recruitment, should you so choose.	true

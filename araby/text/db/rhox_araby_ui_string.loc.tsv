@@ -1,0 +1,21 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_ui_string.loc		
+campaign_localised_strings_string_rhox_araby_pieces_of_eight_lock	[[col:red]]One of the Royal Djinn will unlock for every two Pieces of Eight attained.[[/col]]	false
+ui_text_replacements_localised_text_rhox_araby_jaffar_conquer_message	The Great Sultan has finally returned to rule over all of Araby, and those who once conspired against him shall now pay the price of their hubris. Expel the foreigners, then take war to their lands once more - Sultan Jaffar shall rule supreme!	false
+campaign_localised_strings_string_rhox_araby_jaffar_revenge_lock	[[col:red]]One of the Royal Djinn will unlock for each milestone achieved during Jaffar’s Revenge.[[/col]]	false
+campaign_localised_strings_string_rhox_araby_allegiance_lock	[[col:red]]This unit becomes available once your allegiance to Araby reaches 100%.[[/col]]	false
+ovn_araby_slave_purchase_cost_intro	The last selected Arabyan army will receive a unit of Slave Rabble. The army must be within player-owned territory. Cost: 200[[img:icon_money]][[/img]].	false
+ovn_araby_slave_purchase_no_valid_army	\\n\\n[[col:red]]No valid army selected![[/col]]	false
+ovn_araby_slave_purchase_selected_army_first	\\n\\n[[col:yellow]]The army of 	false
+ovn_araby_slave_purchase_selected_army_second	\\nis currently selected.[[/col]]	false
+ovn_araby_slave_purchase_selected_army_full	\\n\\n[[col:red]]Army is full![[/col]]	false
+ovn_araby_slave_purchase_selected_army_outside	\\n\\n[[col:red]]Army is outside owned territory![[/col]]	false
+ovn_araby_slave_purchase_not_enough_money	\\n\\n[[col:red]]Insufficient funds! [[img:icon_money]][[/img]]![[/col]]	false
+localised_text_ovn_araby_jellabas_way	Jellaba's Way	false
+localised_text_ovn_araby_jellabas_way_docker_button_text	Jellaba's Way||Dispatch trade caravans along Ibn Jellaba’s Way - each route carries its own perils and potential riches.	false
+campaign_localised_strings_string_rhox_araby_status_quo	Impasse	false
+uied_component_texts_localised_string_StateText_rhox_araby_status_quo	When the strength of both sides is evenly matched:	false
+rhox_araby_jaffar_conquer_regions	Conquer the following regions or ensure they are occupied by non-Bretonnian allies or vassals: 	false
+rhox_araby_jaffar_destroy_factions	Destroy the following factions:	false
+rhox_araby_jaffar_current_effects	\\n\\nCurrent faction effects:	false
+campaign_localised_strings_string_ovn_arb_golden_fleet_leader	The Golden Magus	false

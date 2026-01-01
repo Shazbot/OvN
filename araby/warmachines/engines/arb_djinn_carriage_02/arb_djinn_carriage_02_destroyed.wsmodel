@@ -1,0 +1,6 @@
+<model version="1">
+	<geometry>warmachines/engines/arb_djinn_carriage_02/arb_djinn_carriage_02_destroyed.rigid_model_v2</geometry>
+	<materials>
+		<material part_index="0" lod_index="0">warmachines/materials/arb_djinn_carriage_02_rigid.xml.material</material>
+	</materials>
+</model>

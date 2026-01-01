@@ -1,6 +1,6 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-        <VARIANT_MESH model="warmachines/engines/imperial_steam_tank_ludwig_von_uberdorf/imperial_steam_tank_ludwig_von_uberdorf.wsmodel"/>
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/do1/ludwig_von_uberdorf/ludwig_von_uberdorf.wsmodel"/>
     </SLOT>
   	<SLOT attach_point="be_prop_0" name="weapon_1" />
 	<SLOT attach_point="be_prop_1" name="weapon_2">

@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_settlement_occupation.loc		
+culture_settlement_occupation_options_tooltip_225218921	Scavenge Ruins||You will be presented with a puzzle to solve; with Balor's Eye, we shall reap its rewards.	true
+culture_settlement_occupation_options_tooltip_225218922	Nest||Settle here – though it is a little bright and dry, this is something we shall soon remedy.	true
+culture_settlement_occupation_options_tooltip_225218923	Do Nothing||Leave the settlement as it stands, as any craven cyclops would!	true
+culture_settlement_occupation_options_tooltip_225218924	Enshroud||You gain wealth from looting, but buildings in the settlement are damaged. All captives are enslaved; [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner will suffer greatly.	true
+culture_settlement_occupation_options_tooltip_225218925	Obliterate||All buildings are destroyed and the settlement is torched. A Chaos altar is raised in its place, spewing corruption across the land – all in Fimúl’s name!	true
+culture_settlement_occupation_options_tooltip_225218926	Resettle||With no regions to our name, we must settle – Fimúl commands it!	true
+culture_settlement_occupation_options_tooltip_225218927	Raid||You do not capture the settlement, but instead steal wealth and damage buildings. All captives are enslaved; [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	true

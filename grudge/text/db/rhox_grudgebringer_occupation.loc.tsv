@@ -1,3 +1,4 @@
 key	text	tooltip
 #Loc;1;text/db/rhox_grudgebringer_occupation.loc		
-culture_settlement_occupation_options_tooltip_2205198931	Restore||Raze and destroy all the foul things' buildings and return control to a nearby faction of Order.	false
+culture_settlement_occupation_options_tooltip_2205198931	Restore||Raze the foul things' settlement to the ground and restore control to a nearby faction of Order.	false
+culture_settlement_occupation_options_tooltip_2205198932	Plunder||Steal wealth and damage buildings. Upkeep is lowered for your your army having had thier share of gold from the sacking. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	false

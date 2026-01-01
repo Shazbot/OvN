@@ -1,0 +1,503 @@
+{
+    "Settings": {
+        "BnkName": "campaign_vo__ovn_vo_actor_Empire_Morgan_Bernhardt",
+        "Language": "english(uk)"
+    },
+
+    "DialogueEvents": [
+        {
+            "DialogueEvent": "campaign_vo_recruit_units",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\2. Why don't you join us.wav", 
+                        "D:\\3. Glad to have you with us.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected_fail",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Thats your problem.wav", 
+                        "D:\\2. I don't have your advantage.wav", 
+                        "D:\\3. Fancy meeting you here.wav", 
+                        "D:\\4. Call me commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_no",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Thats your problem.wav", 
+                        "D:\\2. I don't have your advantage.wav", 
+                        "D:\\3. Fancy meeting you here.wav", 
+                        "D:\\4. Call me commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_no_short",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Thats your problem.wav", 
+                        "D:\\2. I don't have your advantage.wav", 
+                        "D:\\4. Call me commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Commander.wav", 
+                        "D:\\4. Leader of the Grudgebringers.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_move",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt.Any",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\2. Yes M'lord.wav", 
+                        "D:\\3. Aye sir.wav", 
+                        "D:\\4. Move out.wav", 
+                        "D:\\5. We march.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_attack",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt.Any",
+                    "Sounds": [
+                        "D:\\1. Hack them to pieces.wav", 
+                        "D:\\2. Spill their blood.wav", 
+                        "D:\\3. To the death.wav", 
+                        "D:\\4. Crush them.wav", 
+                        "D:\\5. Attack.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected_first_time",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\1. Win or lose the crows never go hungry.wav", 
+                        "D:\\1. I deal in gold coin for red blood.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_yes",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Yes M'lord.wav", 
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\3. I live to cheat death.wav", 
+                        "D:\\4. I'll do what I must.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_yes_short",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Yes M'lord.wav", 
+                        "D:\\2. Aye sir.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_yes_short_aggressive",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Commander.wav", 
+                        "D:\\4. Call me commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_ship_dock",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Yes M'lord.wav", 
+                        "D:\\2. Aye sir.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_ambush",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Hack them to pieces.wav", 
+                        "D:\\2. Spill their blood.wav", 
+                        "D:\\4. I'll do what I must.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_channeling",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Yes M'lord.wav", 
+                        "D:\\2. Aye sir.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_default",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\2. Yes M'lord.wav", 
+                        "D:\\3. Aye sir.wav", 
+                        "D:\\4. Move out.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_double_time",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\4. Move out.wav", 
+                        "D:\\5. We march.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_land_raid",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Hack them to pieces.wav", 
+                        "D:\\2. Spill their blood.wav", 
+                        "D:\\4. I'll do what I must.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_march",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\4. Move out.wav", 
+                        "D:\\5. We march.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_muster",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\2. Why don't you join us.wav", 
+                        "D:\\2. Grudgebringers.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_patrol",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\2. Yes M'lord.wav", 
+                        "D:\\3. Aye sir.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_set_camp",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\1. Halt.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_stance_settle",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\1. Halt.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected_allied",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\4. Leader of the Grudgebringers.wav", 
+                        "D:\\3. Fancy meeting you here.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected_neutral",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Win or lose the crows never go hungry.wav", 
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\4. Leader of the Grudgebringers.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected_short",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_agent_action_failed",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\2. There are fewer tales of my defeats.wav", 
+                        "D:\\2. We fear the enemy.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_agent_action_success",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\3. I live to cheat death.wav", 
+                        "D:\\4. I'll do what I must.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_created",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\2. Grudgebringers.wav",
+                        "D:\\1. Commander Bernhardt.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_diplomacy_negative",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Thats your problem.wav", 
+                        "D:\\3. Fancy meeting you here.wav", 
+                        "D:\\4. Call me commander.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_diplomacy_positive",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\4. I'll do what I must.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_diplomacy_selected",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Commander Bernhardt.wav", 
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Commander.wav", 
+                        "D:\\4. Leader of the Grudgebringers.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_move_garrisoning",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\2. Hold the ground men.wav", 
+                        "D:\\3. Stand your ground.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_move_next_turn",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Forward.wav", 
+                        "D:\\2. Yes M'lord.wav", 
+                        "D:\\3. Aye sir.wav", 
+                        "D:\\4. Move out.wav", 
+                        "D:\\5. We march.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_new_commander",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\2. Grudgebringers.wav", 
+                        "D:\\3. Fancy meeting you here.wav", 
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\2. Why don't you join us.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_post_battle_defeat",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. They're slaughtering us.wav", 
+                        "D:\\1. Win or lose the crows never go hungry.wav", 
+                        "D:\\2. There are fewer tales of my defeats.wav", 
+                        "D:\\3. Withdraw.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_post_battle_victory",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. Win or lose the crows never go hungry.wav", 
+                        "D:\\1. I deal in gold coin for red blood.wav", 
+                        "D:\\3. To the death.wav", 
+                        "D:\\4. Crush them.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_retreat",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Empire_Morgan_Bernhardt",
+                    "Sounds": [
+                        "D:\\1. They're slaughtering us.wav", 
+                        "D:\\2. We fear the enemy.wav", 
+                        "D:\\3. Withdraw.wav"
+                    ]
+                }
+            ]
+        }
+    ]
+}

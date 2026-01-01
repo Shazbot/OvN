@@ -1,0 +1,11 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/rhox_araby					
+ovn_arb_tze_inf_pink_horrors_0_rhox_ovn_araby	0.0000	10	ovn_arb_tze_inf_pink_horrors_0	false	0.0000
+ovn_arb_tze_mon_screamers_0_rhox_ovn_araby	0.0000	10	ovn_arb_tze_mon_screamers_0	false	0.0000
+ovn_arb_tze_mon_flamers_0_rhox_ovn_araby	0.0000	10	ovn_arb_tze_mon_flamers_0	false	0.0000
+ovn_arb_tze_inf_blue_horrors_0_rhox_ovn_araby	0.0000	10	ovn_arb_tze_inf_blue_horrors_0	false	0.0000
+ovn_arb_tmb_mon_heirotitan_0_rhox_ovn_araby	0.0000	1	ovn_arb_tmb_mon_heirotitan_0	false	0.0000
+ovn_arb_tmb_mon_necrosphinx_0_rhox_ovn_araby	0.0000	1	ovn_arb_tmb_mon_necrosphinx_0	false	0.0000
+ovn_arb_tmb_veh_khemrian_warsphinx_0_rhox_ovn_araby	0.0000	1	ovn_arb_tmb_veh_khemrian_warsphinx_0	false	0.0000
+ovn_arb_tmb_mon_ushabti_0_rhox_ovn_araby	0.0000	4	ovn_arb_tmb_mon_ushabti_0	false	0.0000
+ovn_arb_tmb_mon_ushabti_1_rhox_ovn_araby	0.0000	2	ovn_arb_tmb_mon_ushabti_1	false	0.0000

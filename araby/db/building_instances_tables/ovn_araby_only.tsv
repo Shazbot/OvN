@@ -1,0 +1,26 @@
+key	num_instances
+#building_instances_tables;0;db/building_instances_tables/ovn_araby_only	
+ovn_arb_allied_outpost	1
+ovn_arb_settlement_major	1
+ovn_arb_settlement_minor	1
+ovn_arb_port	1
+ovn_arb_city_barracks	1
+ovn_arb_nomad_infantry	1
+ovn_arb_nomad_cavalry	1
+ovn_arb_djinn	1
+ovn_arb_elephants	1
+ovn_arb_artillery	1
+ovn_arb_defence_major	1
+ovn_arb_defence_minor	1
+ovn_arb_growth	1
+ovn_arb_income	1
+ovn_arb_order	1
+ovn_arb_slaves	1
+ovn_arb_healing	1
+wh3_main_foreign_slot_discovery_arb	1
+ovn_arb_nehekharan_excavation	1
+ovn_arb_defence_major_scythans	1
+ovn_arb_defence_minor_scythans	1
+ovn_arb_growth_scythans	1
+ovn_arb_income_scythans	1
+ovn_arb_order_scythans	1

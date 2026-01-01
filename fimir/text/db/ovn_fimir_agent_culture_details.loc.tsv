@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_agent_culture_details.loc		
+agent_culture_details_onscreen_name_9880221	Finmor	true
+agent_culture_details_onscreen_name_9880223	Balefiend	true
+agent_culture_details_onscreen_name_9880225	Fimm Noble	true
+agent_culture_details_onscreen_name_9880229	Boglar Shaman	true
+agent_culture_details_description_text_9880221	Finmor are lesser Fimir nobles who aspire to earn the honour of leading their own raiding parties or bands of Fimm Warriors.	true
+agent_culture_details_description_text_9880223	An ancient, intrinsically evil race of amphibians, the Fimir worshipped the Ruinous Powers long before the fickle Gods’ attentions were drawn by man’s endless potential.	true
+agent_culture_details_description_text_9880225		true
+agent_culture_details_description_text_9880229	The magic of Boglar Shamans reflects their cowardly nature and boggy homelands.	true

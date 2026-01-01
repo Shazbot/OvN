@@ -1,0 +1,31 @@
+<VARIANT_MESH>
+	<SLOT name="palanquin" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\fim_skattach_palanquin_01.wsmodel" >
+			<META_DATA>audio_material:plate</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="thronebearer_bl" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\fim_thronebearer_bl.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="thronebearer_br" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\fim_thronebearer_br.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="thronebearer_fl" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\fim_thronebearer_fl.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="thronebearer_fr" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\fim_thronebearer_fr.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

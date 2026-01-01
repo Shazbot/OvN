@@ -1,6 +1,0 @@
-key	faction	allowed
-#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/ovn_fimir_only		
-fim_cav_marsh_reavers	ovn_fim_rancor_hold	true
-fim_cav_marsh_reavers	ovn_fim_marsh_hornets	true
-fim_cav_marsh_reavers	ovn_fim_mist_dragons	true
-fim_cav_marsh_reavers_kroll	ovn_fim_tendrils_of_doom	true

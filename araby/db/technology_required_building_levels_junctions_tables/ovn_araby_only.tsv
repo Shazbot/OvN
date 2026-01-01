@@ -1,0 +1,6 @@
+technology	required_building_level
+#technology_required_building_levels_junctions_tables;0;db/technology_required_building_levels_junctions_tables/ovn_araby_only	
+araby_tech_good_mil_6	ovn_arb_healing_2
+araby_tech_good_civ_8	ovn_arb_port_3
+araby_tech_bad_civ_8	ovn_arb_city_barracks_4
+araby_tech_bad_mil_6	ovn_arb_djinn_3

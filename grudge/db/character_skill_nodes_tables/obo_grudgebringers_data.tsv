@@ -1,56 +1,58 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/obo_grudgebringers_data										
-morgan_bernhardt_innate_01		grudgebringers_campaign_quartermaster	morgan_bernhardt		6.0000	0.0000		1	0	false
-morgan_bernhardt_army_01		wh_main_skill_all_lord_battle_rally	morgan_bernhardt		4.0000	0.0000		0	0	true
-morgan_bernhardt_army_02		morgan_bernhardt_battle_skill_01	morgan_bernhardt		4.0000	1.0000		0	0	true
-morgan_bernhardt_army_03		morgan_bernhardt_battle_skill_02	morgan_bernhardt		4.0000	2.0000		0	0	true
-morgan_bernhardt_army_04		ovn_grudge_gold	morgan_bernhardt		4.0000	3.0000		0	0	true
-morgan_bernhardt_army_05		ovn_grudge_glory	morgan_bernhardt		4.0000	4.0000		0	0	true
-morgan_bernhardt_army_06		wh2_main_skill_def_malekith_absolute_power	morgan_bernhardt		4.0000	5.0000		0	3	true
-morgan_bernhardt_army_07		wh_main_skill_all_lord_battle_inspiring_presence	morgan_bernhardt		4.0000	6.0000		0	0	true
-morgan_bernhardt_army_08		ovn_grudge_soldiers_of_fortune	morgan_bernhardt		4.0000	7.0000		0	0	true
-morgan_bernhardt_army_09		morgan_bernhardt_battle_skill_03	morgan_bernhardt		4.0000	8.0000		0	0	true
-morgan_bernhardt_army_10		wh_main_skill_brt_lord_battle_basic_training	morgan_bernhardt		4.0000	9.0000		0	0	true
-morgan_bernhardt_army_11		wh_main_skill_all_lord_battle_stand_your_ground	morgan_bernhardt		4.0000	10.0000		0	3	true
-morgan_bernhardt_campaign_01		morgan_bernhardt_campaign_skill_03	morgan_bernhardt		5.0000	0.0000		0	0	true
-morgan_bernhardt_campaign_02		morgan_bernhardt_campaign_skill_01	morgan_bernhardt		5.0000	1.0000		0	0	true
-morgan_bernhardt_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown	morgan_bernhardt		5.0000	2.0000		0	0	true
-morgan_bernhardt_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence	morgan_bernhardt		5.0000	3.0000		0	0	true
-morgan_bernhardt_campaign_05		wh_main_skill_emp_lord_campaign_fervent	morgan_bernhardt		5.0000	4.0000		0	0	true
-morgan_bernhardt_campaign_06		wh2_main_skill_LL_self_defense	morgan_bernhardt		5.0000	5.0000		0	4	true
-morgan_bernhardt_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike	morgan_bernhardt		5.0000	6.0000		0	0	true
-morgan_bernhardt_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster	morgan_bernhardt		5.0000	7.0000		0	0	true
-morgan_bernhardt_campaign_09		wh_main_skill_emp_lord_campaign_logistician	morgan_bernhardt		5.0000	8.0000		0	0	true
-morgan_bernhardt_campaign_10		morgan_bernhardt_campaign_skill_02	morgan_bernhardt		5.0000	9.0000		0	0	true
-morgan_bernhardt_campaign_11		wh2_main_skill_def_malekith_warleader_1	morgan_bernhardt		5.0000	10.0000		0	4	true
-morgan_bernhardt_war_01		grudge_skill_damage_starter	morgan_bernhardt		2.0000	0.0000		0	0	true
-morgan_bernhardt_war_02		grudge_skill_attack_main1	morgan_bernhardt		2.0000	1.0000		0	0	true
-morgan_bernhardt_war_03		grudge_skill_damage_main1	morgan_bernhardt		2.0000	2.0000		0	0	true
-morgan_bernhardt_war_04		grudge_skill_defence_main1	morgan_bernhardt		2.0000	3.0000		0	0	true
-morgan_bernhardt_war_05		grudge_skill_armour_main1	morgan_bernhardt		2.0000	4.0000		0	0	true
-morgan_bernhardt_war_06		grudge_skill_deadly_onslaught	morgan_bernhardt		2.0000	5.0000		0	4	true
-morgan_bernhardt_war_07		grudge_skill_attack_main2	morgan_bernhardt		2.0000	6.0000		0	0	true
-morgan_bernhardt_war_08		grudge_skill_damage_main2	morgan_bernhardt		2.0000	7.0000		0	0	true
-morgan_bernhardt_war_09		grudge_skill_defence_main2	morgan_bernhardt		2.0000	8.0000		0	0	true
-morgan_bernhardt_war_10		grudge_skill_armour_main2	morgan_bernhardt		2.0000	9.0000		0	0	true
-morgan_bernhardt_war_11		grudge_skill_heroic_killing_blow	morgan_bernhardt		2.0000	10.0000		0	4	true
-morgan_bernhardt_unique_8		grudge_skill_missile_ward	morgan_bernhardt		0.0000	8.0000		0	0	true
-morgan_bernhardt_unique_14		wh2_main_skill_all_immortality_lord	morgan_bernhardt		0.0000	14.0000		1	0	false
-morgan_bernhardt_per_01		morgan_bernhardt_per_skill_01	morgan_bernhardt		1.0000	0.0000		0	0	true
-morgan_bernhardt_per_02		morgan_bernhardt_per_skill_02	morgan_bernhardt		1.0000	1.0000		0	0	true
-morgan_bernhardt_per_03		morgan_bernhardt_per_skill_03	morgan_bernhardt		1.0000	2.0000		0	0	true
-morgan_bernhardt_per_04		morgan_bernhardt_per_skill_04	morgan_bernhardt		1.0000	3.0000		0	0	true
-morgan_bernhardt_war3_01		grudge_skill_bernhardt_bonus_vs_undead	morgan_bernhardt		3.0000	0.0000		0	0	true
-morgan_bernhardt_war3_02		grudge_skill_bernhardt_bonus_vs_chaos	morgan_bernhardt		3.0000	1.0000		0	0	true
-morgan_bernhardt_war3_03		grudge_skill_bernhardt_bonus_vs_beastmen	morgan_bernhardt		3.0000	2.0000		0	0	true
-morgan_bernhardt_war3_04		grudge_skill_bernhardt_bonus_vs_skaven	morgan_bernhardt		3.0000	3.0000		0	0	true
-morgan_bernhardt_war3_05		grudge_skill_bernhardt_bonus_vs_greenskins	morgan_bernhardt		3.0000	4.0000		0	0	true
-morgan_bernhardt_war3_06		grudge_skill_bernhardt_bonus_vs_dark_elves	morgan_bernhardt		3.0000	5.0000		0	0	true
-morgan_bernhardt_war3_07		grudge_skill_bernhardt_bonus_vs_lizardmen	morgan_bernhardt		3.0000	6.0000		0	0	true
-morgan_bernhardt_mount		morgan_bernhardt_mount	morgan_bernhardt		0.0000	0.0000		1	0	true
-morgan_bernhardt_unique_01		grudge_skill_mercenary	morgan_bernhardt		0.0000	9.0000		0	0	true
-morgan_bernhardt_unique_2		grudge_skill_grudgebringer_sword	morgan_bernhardt		0.0000	2.0000		0	0	false
-morgan_bernhardt_unique_3		grudge_skill_enchanted_shield	morgan_bernhardt		0.0000	4.0000		0	0	false
-morgan_bernhardt_unique_11		grudge_skill_shadow_of_the_horned_rat	morgan_bernhardt		0.0000	11.0000		0	0	true
-morgan_bernhardt_unique_12		grudge_skill_dark_omen	morgan_bernhardt		0.0000	12.0000		0	0	true
-morgan_bernhardt_unique_13		wh_main_skill_all_lord_battle_brass-lunged	morgan_bernhardt		0.0000	13.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/obo_grudgebringers_data									
+morgan_bernhardt_innate_01		grudgebringers_campaign_quartermaster		6	0		1	0	false
+morgan_bernhardt_army_01		wh_main_skill_all_lord_battle_rally		4	0		0	0	true
+morgan_bernhardt_army_02		morgan_bernhardt_battle_skill_01		4	1		0	0	true
+morgan_bernhardt_army_03		morgan_bernhardt_battle_skill_02		4	2		0	0	true
+morgan_bernhardt_army_04		ovn_grudge_gold		4	3		0	0	true
+morgan_bernhardt_army_05		ovn_grudge_glory		4	4		0	0	true
+morgan_bernhardt_army_06		wh2_main_skill_def_malekith_absolute_power		4	5		0	3	true
+morgan_bernhardt_army_07		wh_main_skill_all_lord_battle_inspiring_presence		4	6		0	0	true
+morgan_bernhardt_army_08		ovn_grudge_soldiers_of_fortune		4	7		0	0	true
+morgan_bernhardt_army_09		morgan_bernhardt_battle_skill_03		4	8		0	0	true
+morgan_bernhardt_army_10		wh_main_skill_brt_lord_battle_basic_training		4	9		0	0	true
+morgan_bernhardt_army_11		wh_main_skill_all_lord_battle_stand_your_ground		4	10		0	3	true
+morgan_bernhardt_campaign_01		morgan_bernhardt_campaign_skill_03		5	0		0	0	true
+morgan_bernhardt_campaign_02		morgan_bernhardt_campaign_skill_01		5	1		0	0	true
+morgan_bernhardt_campaign_03		wh_main_skill_emp_lord_campaign_leader_of_renown		5	2		0	0	true
+morgan_bernhardt_campaign_04		wh_main_skill_lord_all_campaign_reassuring_presence		5	3		0	0	true
+morgan_bernhardt_campaign_05		wh_main_skill_emp_lord_campaign_fervent		5	4		0	0	true
+morgan_bernhardt_campaign_06		wh2_main_skill_LL_self_defense		5	5		0	4	true
+morgan_bernhardt_campaign_07		wh_main_skill_all_lord_campaign_lightning_strike		5	6		0	0	true
+morgan_bernhardt_campaign_08		wh_main_skill_emp_lord_campaign_quartermaster		5	7		0	0	true
+morgan_bernhardt_campaign_09		rhox_grudge_replenish		5	8		0	0	true
+morgan_bernhardt_campaign_10		morgan_bernhardt_campaign_skill_02		5	9		0	0	true
+morgan_bernhardt_campaign_11		wh2_main_skill_def_malekith_warleader_1		5	10		0	4	true
+morgan_bernhardt_war_01		grudge_skill_damage_starter		2	0		0	0	true
+morgan_bernhardt_war_02		grudge_skill_attack_main1		2	1		0	0	true
+morgan_bernhardt_war_03		grudge_skill_damage_main1		2	2		0	0	true
+morgan_bernhardt_war_04		grudge_skill_defence_main1		2	3		0	0	true
+morgan_bernhardt_war_05		grudge_skill_armour_main1		2	4		0	0	true
+morgan_bernhardt_war_06		grudge_skill_deadly_onslaught		2	5		0	4	true
+morgan_bernhardt_war_07		grudge_skill_attack_main2		2	6		0	0	true
+morgan_bernhardt_war_08		grudge_skill_damage_main2		2	7		0	0	true
+morgan_bernhardt_war_09		grudge_skill_defence_main2		2	8		0	0	true
+morgan_bernhardt_war_10		grudge_skill_armour_main2		2	9		0	0	true
+morgan_bernhardt_war_11		grudge_skill_heroic_killing_blow		2	10		0	4	true
+morgan_bernhardt_unique_8		grudge_skill_missile_ward		0	8		0	0	true
+morgan_bernhardt_unique_14		wh2_main_skill_all_immortality_lord		0	14		1	0	false
+morgan_bernhardt_per_01		morgan_bernhardt_per_skill_01		1	0		0	0	true
+morgan_bernhardt_per_02		morgan_bernhardt_per_skill_02		1	1		0	0	true
+morgan_bernhardt_per_03		morgan_bernhardt_per_skill_03		1	2		0	0	true
+morgan_bernhardt_per_04		morgan_bernhardt_per_skill_04		1	3		0	0	true
+morgan_bernhardt_war3_01		grudge_skill_bernhardt_bonus_vs_undead		3	0		0	0	true
+morgan_bernhardt_war3_02		grudge_skill_bernhardt_bonus_vs_chaos		3	1		0	0	true
+morgan_bernhardt_war3_03		grudge_skill_bernhardt_bonus_vs_beastmen		3	2		0	0	true
+morgan_bernhardt_war3_04		grudge_skill_bernhardt_bonus_vs_skaven		3	3		0	0	true
+morgan_bernhardt_war3_05		grudge_skill_bernhardt_bonus_vs_greenskins		3	4		0	0	true
+morgan_bernhardt_war3_06		grudge_skill_bernhardt_bonus_vs_dark_elves		3	5		0	0	true
+morgan_bernhardt_war3_07		grudge_skill_bernhardt_bonus_vs_lizardmen		3	6		0	0	true
+morgan_bernhardt_mount		morgan_bernhardt_mount		0	0		1	0	true
+morgan_bernhardt_unique_01		grudge_skill_mercenary		0	9		0	0	true
+morgan_bernhardt_unique_2		grudge_skill_grudgebringer_sword		0	2		0	0	false
+morgan_bernhardt_unique_3		grudge_skill_enchanted_shield		0	4		0	0	false
+morgan_bernhardt_unique_11		grudge_skill_shadow_of_the_horned_rat		0	11		0	0	true
+morgan_bernhardt_unique_12		grudge_skill_dark_omen		0	12		0	0	true
+morgan_bernhardt_unique_13		wh_main_skill_all_lord_battle_brass-lunged		0	13		0	0	true
+morgan_bernhardt_per_05		morgan_bernhardt_gotrek_felix		1	4		0	3	true
+rhox_ovn_grudge_camp_hidden_dummy		rhox_ovn_grudge_camp_hidden_dummy		8	0		1	0	false

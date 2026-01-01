@@ -1,0 +1,7 @@
+key	icon	sort_order	show_in_ui	audio_switch	colour_hex
+#building_sets_tables;5;db/building_sets_tables/ovn_araby_golden_magus					
+ovn_arb_flaming_scimitar_newhorde	placeholder	0	false		FFFFFF
+ovn_arb_flaming_scimitar_main	placeholder	0	true	Infrastructure	3E3D38
+ovn_arb_flaming_scimitar_unique	UI/Buildings/Icons/vampire_coast_cat_ship_unique.png	4	true	Infrastructure	64143C
+ovn_arb_flaming_scimitar_structure	UI/Buildings/Icons/vampire_coast_cat_ship_structure.png	3	true	Infrastructure	3E4739
+ovn_arb_flaming_scimitar_military	UI/Buildings/Icons/vampire_coast_cat_recruitment.png	2	true	Military_Recruitment	781414

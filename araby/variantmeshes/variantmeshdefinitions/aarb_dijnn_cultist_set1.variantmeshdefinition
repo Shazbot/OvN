@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="weapon_5" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_djinn_carriage_djinn_cultist\arb_djinn_cultist_lamp.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

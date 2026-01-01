@@ -1,0 +1,7 @@
+<VARIANT_MESH>
+	<SLOT name="weapon_5" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_golden_magus\arb_golden_magus_lamp_1.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

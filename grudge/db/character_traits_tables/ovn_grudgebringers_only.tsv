@@ -1,8 +1,8 @@
-key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
-#character_traits_tables;2;db/character_traits_tables/ovn_grudgebringers_only						
-grudge_trait_name_dummy_vladimir_stormbringer	1	true	99	personality	0	
-grudge_trait_name_dummy_luther_flamestrike	1	true	99	personality	0	
-grudge_trait_name_dummy_alloy	1	true	99	personality	0	
-grudge_trait_name_dummy_gunther	1	true	99	personality	0	
-grudge_trait_name_dummy_ubersbrom	1	true	99	personality	0	
-ovn_morgan_bernhardt_defeat_trait	1	false	1	grudgebringers	1	
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter	remove_on_skill_reset
+#character_traits_tables;3;db/character_traits_tables/ovn_grudgebringers_only							
+grudge_trait_name_dummy_vladimir_stormbringer	1	true	99	personality	0		false
+grudge_trait_name_dummy_luther_flamestrike	1	true	99	personality	0		false
+grudge_trait_name_dummy_alloy	1	true	99	personality	0		false
+grudge_trait_name_dummy_gunther	1	true	99	personality	0		false
+grudge_trait_name_dummy_ubersbrom	1	true	99	personality	0		false
+ovn_morgan_bernhardt_defeat_trait	1	false	1	grudgebringers	1		false

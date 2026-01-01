@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_defeat_traits.loc		
+character_trait_levels_colour_text_ovn_araby_jaffar_defeated	Mighty Jaffar lies dead once again. For how long, no one knows for certain...	false
+character_trait_levels_explanation_text_ovn_araby_jaffar_defeated	Defeated Sultan Jaffar	false
+character_trait_levels_onscreen_name_ovn_araby_jaffar_defeated	The Despot's Demise	false
+character_trait_levels_removal_text_ovn_araby_jaffar_defeated		false
+character_trait_levels_colour_text_ovn_araby_gm_defeated	Whether he was slain by an enemy or undone by his own Djinn slaves remains unknown, but the Golden Magus will no longer plague the seas with his cruel petulance and eccentricity.	false
+character_trait_levels_explanation_text_ovn_araby_gm_defeated	Defeated the Golden Magus	false
+character_trait_levels_onscreen_name_ovn_araby_gm_defeated	The Magus Confronted	false
+character_trait_levels_removal_text_ovn_araby_gm_defeated		false
+character_trait_levels_colour_text_ovn_araby_fatandira_defeated	Twice a ruler, twice a failure. Princess Fatandira has learned the hard way that the crown will never be her destiny.	false
+character_trait_levels_explanation_text_ovn_araby_fatandira_defeated	Defeated Fatandira	false
+character_trait_levels_onscreen_name_ovn_araby_fatandira_defeated	Fatandira's Fate	false
+character_trait_levels_removal_text_ovn_araby_fatandira_defeated		false

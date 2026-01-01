@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!ovn_arb_siege_tower_battlefield_siege_vehicles__.loc		
+battlefield_siege_vehicles_description_arb_siege_tower_15m	Protects units intending to assault settlement walls.	false
+battlefield_siege_vehicles_onscreen_name_arb_siege_tower_15m	Araby Siege Tower	false
+battlefield_siege_vehicles_description_arb_battering_ram	Used to break down gates and the morale of those within.	false
+battlefield_siege_vehicles_onscreen_name_arb_battering_ram	Araby Battering Ram	false

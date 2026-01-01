@@ -1,0 +1,5 @@
+key	image_path
+#ui_tagged_images_tables;0;db/ui_tagged_images_tables/ovn_fimir_only	
+icon_mass	ui/campaign ui/effect_bundles/mass_character.png
+icon_spell_lore_deep	ui/campaign ui/effect_bundles/lore_deep.png
+icon_balefiend	ui/campaign ui/effect_bundles/fimir_balefiend.png

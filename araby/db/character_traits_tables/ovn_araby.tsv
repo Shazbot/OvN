@@ -1,0 +1,5 @@
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter	remove_on_skill_reset
+#character_traits_tables;3;db/character_traits_tables/ovn_araby							
+ovn_araby_jaffar_defeated	1	false	1	ovn_araby_trait	1		false
+ovn_araby_gm_defeated	1	false	1	ovn_araby_trait	1		false
+ovn_araby_fatandira_defeated	1	false	1	ovn_araby_trait	1		false

@@ -1,0 +1,24 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7d\fim\fim_noble\torso\fim_noble_torso_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_fimir</META_DATA>			<META_DATA>audio_armour_type:heavy_metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7d\fim\fim_noble\head\nor_fimir_warriors_head_03.wsmodel" />
+	</SLOT>
+	<SLOT name="helmet" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu7d\fim\fim_helmets/fim_noble_helmet_03.wsmodel" />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="Variantmeshes\wh_variantmodels\hu7d\fim\fim_noble\legs\fim_warrior_legs_01.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_props/nor_mist_stalkers_mace_1h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu7d/nor/nor_props/nor_mist_stalkers_mace_1h_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:axe_medium</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

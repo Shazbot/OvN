@@ -10,12 +10,13 @@ building_short_description_texts_short_description_wh_main_emp_cha_grudge_worshi
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_growth_1	It is wise to keep lookouts so you may choose the wisest paths and gain the greatest vantage points.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_growth_2	A central place for our scouts and hunters to rest and plan. It also includes a room to cure and hang the meat.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_growth_3	A network of small outposts means we are always one step ahead of our foes.	true
-building_short_description_texts_short_description_wh_main_emp_cha_grudge_paymaster	The Paymaster is nearly as important as the army's general, being responsible for the mercenaries pay.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_paymaster	The Paymaster is nearly as important as the army's general, being responsible for the mercenaries pay and finding work.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_paymaster_2	With more space and an apprentice, the Paymaster is better able to do his work.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_paymaster_3	A timber building is errected offering more security and space, attracting more lucrative backers and contracts.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_blacksmith	Blacksmiths only ever join the largest of camps to ensure a steady stream of income.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_blacksmith_2	To acquire the aid of an expert blacksmith and his tools is invaluable, but also costly.	true
-building_short_description_texts_short_description_wh_main_emp_cha_grudge_income	Traders ensure luxuries and other home comforts are available to the men, often at eye-watering prices.	true
-building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_2	Merchants provide a wide variety of rare and expensive luxuries and goods, meaning our cut is even greater.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income	An envoy is much more delicate in the matters of money and relations than the curt paymaster.	true
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_2	More envoys mean more schmoozing with the elite which in turn means more gold and favour for us.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_1	A small basic camp with tents surrounding a roaring campfire.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_2	Just large enough to require a few sentries dotted around the camp.	true
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_main_3	A large camp, where the clattering of steel and the many campfires can be heard and seen from afar.	true
@@ -39,3 +40,8 @@ building_short_description_texts_short_description_wh_main_emp_cha_grudge_gunpow
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_camp_pot	Every camp, no matter how small, will have a pot where whatever can be scrounged is tossed into a bubbling stew.	false
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_camp_pot_2	Essentially a big cooking pot, large enough to feed several units watched over by the camp cook.	false
 building_short_description_texts_short_description_wh_main_emp_cha_grudge_camp_pot_3	A full kitchen, with a small army of cooks capable of feeding an entire army.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_camp_1	The local camp oversees escorts for merchant wagons and those travellers able to afford mercenary guards.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_camp_2	We are charged with patroling the borders of this region.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_camp_3	Be it a bridge or road, we collect the tolls and keep a share of the gold as payment.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_camp_4	Our soldiers man the gates of the local settlement, to keep out the rabble and whatever evil lurks in the shadows.	false
+building_short_description_texts_short_description_wh_main_emp_cha_grudge_income_camp_5	Entrusted with the protection of the local royals, it is a high honour, one that pays very well.	false

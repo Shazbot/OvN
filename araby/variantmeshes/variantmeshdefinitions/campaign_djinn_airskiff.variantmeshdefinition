@@ -1,0 +1,5 @@
+<VARIANT_MESH>
+	<SLOT name="skiff" >
+		<VARIANT_MESH model="warmachines/aircraft/arb_air_skiff/arb_air_skiff_01.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

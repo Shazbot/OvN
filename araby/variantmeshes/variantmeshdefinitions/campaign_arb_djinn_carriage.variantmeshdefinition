@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="chariot">
+		<VARIANT_MESH model="warmachines/engines/arb_djinn_carriage_02/arb_djinn_carriage_02.wsmodel">
+			<META_DATA>audio_material:stone</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_agent_subtype_subculture_overrides.loc		
+agent_subtype_subculture_overrides_onscreen_name_roy_arb_championovn_sc_arb_arabychampion	Emir	true
+agent_subtype_subculture_overrides_description_roy_arb_championovn_sc_arb_arabychampion	Lesser nobles, yet warriors without equal. They often serve as bodyguards to the greatest lords of Araby.	true
+agent_subtype_subculture_overrides_onscreen_name_roy_arb_nomadovn_sc_arb_arabyspy	Hashishin	true
+agent_subtype_subculture_overrides_description_roy_arb_nomadovn_sc_arb_arabyspy	The cities of Araby conceal countless dangers in their shadows. Its assassins are famed for striking swiftly and unseen.	true
+agent_subtype_subculture_overrides_onscreen_name_arb_magician_desertovn_sc_arb_arabywizard	Magician	true
+agent_subtype_subculture_overrides_description_arb_magician_desertovn_sc_arb_arabywizard	The desert Sorcerers of Araby follow their own ancient tradition, calling upon the Desert Spirits and their elemental might.	true

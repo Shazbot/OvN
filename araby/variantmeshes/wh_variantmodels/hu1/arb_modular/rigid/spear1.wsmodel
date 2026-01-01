@@ -1,0 +1,12 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu1\arb_modular\rigid\spear1.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_props\materials\spear1_lod1_rigid_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_props\materials\spear1_lod1_rigid_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\arb\arb_props\materials\spear1_lod1_rigid_alpha_off.xml.material</material>
+
+
+	</materials>
+</model>

@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\el1\arb\arb_new_elephants\arb_war_elephant\arb_war_elephant.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>
+			<META_DATA>audio_armour_type:body</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

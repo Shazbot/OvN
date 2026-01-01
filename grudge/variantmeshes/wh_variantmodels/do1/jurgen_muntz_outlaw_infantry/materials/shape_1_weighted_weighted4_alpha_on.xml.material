@@ -5,7 +5,7 @@
  <textures>
   <texture>
    <slot version="2">t_xml_base_colour</slot>
-   <source>variantmeshes\wh_variantmodels\do1\jurgen_muntz_outlaw_infantry\tex\outlaw_infantry_banner.dds</source>
+   <source>variantmeshes\wh_variantmodels\do1\jurgen_muntz_outlaw_infantry\tex\dread_banner.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_blood_map</slot>
@@ -25,7 +25,7 @@
   </texture>
   <texture>
    <slot version="2">t_xml_normal</slot>
-   <source>variantmeshes\wh_variantmodels\do1\banners\tex\shape_1_normal.dds</source>
+   <source>variantmeshes\wh_variantmodels\do1\black_avangers\tex\shape_1_normal.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_distortion_noise</slot>

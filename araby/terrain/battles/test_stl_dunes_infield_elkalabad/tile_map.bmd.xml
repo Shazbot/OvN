@@ -1,0 +1,192 @@
+<BATTLE_MAP_DEFINITION_DATA serialise_version='27'>
+	<BATTLEFIELD_BUILDING_LIST serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST>
+	<BATTLEFIELD_BUILDING_LIST_FAR serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST_FAR>
+	<CAPTURE_LOCATION_SET serialise_version='11'>
+		<CAPTURE_LOCATION_SET/>
+	</CAPTURE_LOCATION_SET>
+	<EF_LINE_LIST>
+		<LINES/>
+	</EF_LINE_LIST>
+	<GO_OUTLINES/>
+	<NON_TERRAIN_OUTLINES/>
+	<ZONES_TEMPLATE_LIST serialise_version='1'>
+		<ZONES/>
+	</ZONES_TEMPLATE_LIST>
+	<PREFAB_INSTANCE_LIST serialise_version='1'>
+		<PREFAB_INSTANCE/>
+	</PREFAB_INSTANCE_LIST>
+	<BMD_OUTLINE_LIST serialise_version='1'>
+		<BMD_OUTLINES/>
+	</BMD_OUTLINE_LIST>
+	<TERRAIN_OUTLINES/>
+	<LITE_BUILDING_OUTLINES/>
+	<CAMERA_ZONES serialise_version='1'>
+		<BMD_OUTLINES/>
+	</CAMERA_ZONES>
+	<CIVILIAN_DEPLOYMENT_LIST/>
+	<CIVILIAN_SHELTER_LIST/>
+	<PROP_LIST serialise_version='2'>
+		<KEYS/>
+		<PROPS/>
+	</PROP_LIST>
+	<PARTICLE_EMITTER_LIST serialise_version='1'>
+		<PARTICLE_EMITTERS>
+			<PARTICLE_EMITTER serialise_version='10' key='wh2_dlc09_campaign_sandstorm' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-109.313683' m01='0.000000' m02='-19.274876' m10='0.000000' m11='111.000000' m12='0.000000' m20='19.274876' m21='0.000000' m22='-109.313683' m30='3756.936279' m31='128.326355' m32='-4067.867920'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh2_dlc09_campaign_sandstorm' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-109.313675' m01='0.000000' m02='-19.274874' m10='0.000000' m11='111.000000' m12='0.000000' m20='19.274874' m21='0.000000' m22='-109.313675' m30='3343.210449' m31='19.036987' m32='7614.214844'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh2_dlc09_campaign_sandstorm' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-3.874013' m01='0.000000' m02='-110.932365' m10='0.000000' m11='111.000000' m12='0.000000' m20='110.932365' m21='0.000000' m22='-3.874013' m30='-7867.950684' m31='92.542114' m32='5889.374512'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh2_dlc09_campaign_sandstorm' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-3.874013' m01='0.000000' m02='-110.932365' m10='0.000000' m11='111.000000' m12='0.000000' m20='110.932365' m21='0.000000' m22='-3.874013' m30='-6028.255371' m31='138.354187' m32='-7222.582031'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-70.710709' m01='0.000000' m02='-70.710663' m10='0.000000' m11='100.000000' m12='0.000000' m20='70.710663' m21='0.000000' m22='-70.710709' m30='-577.377747' m31='33.579010' m32='-3394.277588'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-25.882030' m01='0.000000' m02='-96.592545' m10='0.000000' m11='100.000000' m12='0.000000' m20='96.592545' m21='0.000000' m22='-25.882030' m30='-2373.618896' m31='55.834991' m32='-5988.482910'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='1.745826' m01='0.000000' m02='-99.984749' m10='0.000000' m11='100.000000' m12='0.000000' m20='99.984749' m21='0.000000' m22='1.745826' m30='2998.132324' m31='100.568054' m32='-4376.987793'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-20.791208' m01='0.000000' m02='-97.814735' m10='0.000000' m11='100.000000' m12='0.000000' m20='97.814735' m21='0.000000' m22='-20.791208' m30='4523.600098' m31='191.696320' m32='-175.060242'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-20.791208' m01='0.000000' m02='-97.814735' m10='0.000000' m11='100.000000' m12='0.000000' m20='97.814735' m21='0.000000' m22='-20.791208' m30='3654.385254' m31='193.117889' m32='1705.831909'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-0.000012' m01='0.000000' m02='-100.000000' m10='0.000000' m11='100.000000' m12='0.000000' m20='100.000000' m21='0.000000' m22='-0.000012' m30='5082.005371' m31='342.074280' m32='4681.924316'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-0.000012' m01='0.000000' m02='-100.000000' m10='0.000000' m11='100.000000' m12='0.000000' m20='100.000000' m21='0.000000' m22='-0.000012' m30='7877.547852' m31='192.918884' m32='957.299194'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-24.192202' m01='0.000000' m02='-97.029579' m10='0.000000' m11='100.000000' m12='0.000000' m20='97.029579' m21='0.000000' m22='-24.192202' m30='-820.027100' m31='195.804108' m32='6177.096191'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-24.192202' m01='0.000000' m02='-97.029579' m10='0.000000' m11='100.000000' m12='0.000000' m20='97.029579' m21='0.000000' m22='-24.192202' m30='-4535.478516' m31='286.970032' m32='5879.994141'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-1.744819' m01='0.000000' m02='-99.984764' m10='0.000000' m11='100.000000' m12='0.000000' m20='99.984764' m21='0.000000' m22='-1.744819' m30='-6717.196289' m31='298.229797' m32='735.101929'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-10.468912' m01='0.000000' m02='-599.908569' m10='0.000000' m11='600.000000' m12='0.000000' m20='599.908569' m21='0.000000' m22='-10.468912' m30='-9541.232422' m31='11.951538' m32='5332.645996'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='124.747292' m01='0.000000' m02='586.888428' m10='-0.000000' m11='600.000000' m12='0.000000' m20='-586.888428' m21='0.000000' m22='124.747292' m30='-10126.993164' m31='21.009644' m32='-3825.948730'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='124.747292' m01='0.000000' m02='586.888428' m10='-0.000000' m11='600.000000' m12='0.000000' m20='-586.888428' m21='0.000000' m22='124.747292' m30='-9024.455078' m31='5.266113' m32='-9818.541016'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='124.747292' m01='0.000000' m02='586.888428' m10='0.000000' m11='600.000000' m12='0.000000' m20='-586.888428' m21='0.000000' m22='124.747292' m30='3306.615234' m31='4.914917' m32='-11932.478516'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-215.019958' m01='0.000000' m02='560.148560' m10='0.000000' m11='600.000000' m12='0.000000' m20='-560.148560' m21='0.000000' m22='-215.019958' m30='8814.043945' m31='205.407349' m32='-8066.994629'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-595.527527' m01='0.000000' m02='73.121864' m10='0.000000' m11='600.000000' m12='0.000000' m20='-73.121864' m21='0.000000' m22='-595.527527' m30='9101.205078' m31='253.392944' m32='-246.690918'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-595.527527' m01='0.000000' m02='73.121864' m10='0.000000' m11='600.000000' m12='0.000000' m20='-73.121864' m21='0.000000' m22='-595.527527' m30='9690.474609' m31='3.863403' m32='9687.745117'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='10' key='wh3_campaign_desert_dust_mist' emission_rate='0.000000' instance_name='' height_mode='BHM_PARENT' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false' parent_id='-1' visible_without_shroud='true'>
+				<transform m00='-281.683075' m01='0.000000' m02='-529.768616' m10='0.000000' m11='600.000000' m12='0.000000' m20='529.768616' m21='0.000000' m22='-281.683075' m30='-822.740234' m31='79.272217' m32='9609.538086'/>
+				<flags serialise_version='4' allow_in_outfield='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true' visible_in_tactical_view='true' visible_in_tactical_view_only='false'/>
+			</PARTICLE_EMITTER>
+		</PARTICLE_EMITTERS>
+	</PARTICLE_EMITTER_LIST>
+	<AI_HINTS serialise_version='1'>
+		<separators serialise_version='1'>
+			<SEPARATORS/>
+		</separators>
+		<directed_points serialise_version='1'>
+			<DIRECTED_POINTS/>
+		</directed_points>
+		<polylines serialise_version='1'>
+			<HINT_POLYLINES/>
+		</polylines>
+		<polylines_list serialise_version='1'>
+			<HINT_POLYLINES/>
+		</polylines_list>
+	</AI_HINTS>
+	<LIGHT_PROBE_LIST serialise_version='1'>
+		<LIGHT_PROBES/>
+	</LIGHT_PROBE_LIST>
+	<TERRAIN_STENCIL_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_STENCIL_TRIANGLES/>
+	</TERRAIN_STENCIL_TRIANGLE_LIST>
+	<POINT_LIGHT_LIST serialise_version='1'>
+		<POINT_LIGHTS/>
+	</POINT_LIGHT_LIST>
+	<BUILDING_PROJECTILE_EMITTER_LIST serialise_version='1'>
+		<BUILDING_PROJECTILE_EMITTERS/>
+	</BUILDING_PROJECTILE_EMITTER_LIST>
+	<PLAYABLE_AREA serialise_version='3' has_been_set='false'>
+		<area min_x='64.000000' min_y='64.000000' max_x='1920.000000' max_y='1920.000000'/>
+		<valid_location_flags serialise_version='1' valid_north='true' valid_south='true' valid_east='true' valid_west='true'/>
+	</PLAYABLE_AREA>
+	<CUSTOM_MATERIAL_MESH_LIST serialise_version='1'>
+		<CUSTOM_MATERIAL_MESH_LIST/>
+	</CUSTOM_MATERIAL_MESH_LIST>
+	<TERRAIN_STENCIL_BLEND_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_BLEND_TRIANGLES/>
+	</TERRAIN_STENCIL_BLEND_TRIANGLE_LIST>
+	<SPOT_LIGHT_LIST serialise_version='1'>
+		<SPOT_LIGHTS/>
+	</SPOT_LIGHT_LIST>
+	<SOUND_SHAPE_LIST serialise_version='1'>
+		<SOUND_SHAPES/>
+	</SOUND_SHAPE_LIST>
+	<COMPOSITE_SCENE_LIST serialise_version='1'>
+		<COMPOSITE_SCENE_LIST/>
+	</COMPOSITE_SCENE_LIST>
+	<DEPLOYMENT_LIST serialise_version='1'>
+		<DEPLOYMENT_AREAS/>
+	</DEPLOYMENT_LIST>
+	<BMD_CATCHMENT_AREA_LIST serialise_version='1'>
+		<BMD_CATCHMENT_AREAS/>
+	</BMD_CATCHMENT_AREA_LIST>
+	<TOGGLEABLE_BUILDINGS_SLOT_LIST serialise_version='7'>
+		<TOGGLEABLE_BUILDINGS_SLOTS/>
+	</TOGGLEABLE_BUILDINGS_SLOT_LIST>
+	<TERRAIN_DECAL_LIST serialise_version='1'>
+		<TERRAIN_DECALS/>
+	</TERRAIN_DECAL_LIST>
+	<TREE_LIST_REFERENCE_LIST serialise_version='1'>
+		<TREE_LIST_REFERENCES/>
+	</TREE_LIST_REFERENCE_LIST>
+	<GRASS_LIST_REFERENCE_LIST serialise_version='1'>
+		<GRASS_LIST_REFERENCES/>
+	</GRASS_LIST_REFERENCE_LIST>
+	<WATER_OUTLINES/>
+</BATTLE_MAP_DEFINITION_DATA>

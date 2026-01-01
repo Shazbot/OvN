@@ -1,0 +1,4 @@
+blockade	culture	model_bmd
+#campaign_settlement_display_building_siege_models_tables;0;db/campaign_settlement_display_building_siege_models_tables/ovn_araby_only		
+false	ovn_araby	prefabs/campaign/greenskins_siege.bmd
+true	ovn_araby	prefabs/campaign/greenskins_siege.bmd

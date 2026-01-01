@@ -1,0 +1,20 @@
+<model version="1">
+  <geometry>VariantMeshes/wh_variantmodels/hu1/arb_modular/rigid/arb_a_head2.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu1\arb_modular\materials\arb_a_headsa_mirage.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\materials\arb_death_commando_aklan_eyes_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu1\arb_modular\materials\arb_a_headsa_mirage.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\materials\arb_death_commando_aklan_eyes_weighted4_alpha_on.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu1\arb_modular\materials\arb_a_headsa_miragex2.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\materials\arb_death_commando_aklan_eyes_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu1\arb_modular\materials\arb_a_headsa_miragex2.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\materials\arb_death_commando_aklan_eyes_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="4" part_index="0">variantmeshes\wh_variantmodels\hu1\arb_modular\materials\arb_a_headsa_miragex2.xml.material</material>
+			<material lod_index="4" part_index="1">variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\materials\arb_death_commando_aklan_eyes_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

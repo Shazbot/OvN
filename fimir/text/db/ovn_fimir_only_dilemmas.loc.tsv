@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_only_dilemmas.loc		
+dilemmas_localised_description_fimir_eye_of_the_gods	Your actions have drawn the attention of the Chaos Gods. Though they are fickle, you can perhaps direct their attention to a particular area. However, there is always a price to be paid…	false
+dilemmas_localised_title_fimir_eye_of_the_gods	The Eye Opens!	false
+cdir_events_dilemma_choice_details_localised_choice_label_fimir_eye_of_the_godsFIRST	My Legions	false
+cdir_events_dilemma_choice_details_localised_choice_label_fimir_eye_of_the_godsFOURTH	My Gifts	false
+cdir_events_dilemma_choice_details_localised_choice_label_fimir_eye_of_the_godsSECOND	My Underlings	false
+cdir_events_dilemma_choice_details_localised_choice_label_fimir_eye_of_the_godsTHIRD	My Fortresses	false
+cdir_events_dilemma_choice_details_localised_choice_label_fimir_eye_of_the_gods_khoFIRST	My Legions	false
+cdir_events_dilemma_choice_details_localised_choice_title_fimir_eye_of_the_godsFIRST	Gaze upon my legions and let them bask in the Dark Gods’ blessings.	false
+cdir_events_dilemma_choice_details_localised_choice_title_fimir_eye_of_the_godsFOURTH	Change is always the answer. Seek to bestow upon yourself fresh gifts.	false
+cdir_events_dilemma_choice_details_localised_choice_title_fimir_eye_of_the_godsSECOND	The champions under your yoke are loyal to you, and so should be rewarded.	false
+cdir_events_dilemma_choice_details_localised_choice_title_fimir_eye_of_the_godsTHIRD	The Dark Fortresses under your sway are ready for enhancement.	false

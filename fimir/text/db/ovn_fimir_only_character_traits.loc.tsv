@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_only_character_traits.loc		
+character_trait_levels_onscreen_name_fim_skattach_defeated_trait	Meargh-Murderer	true
+character_trait_levels_colour_text_fim_skattach_defeated_trait	Most would call parting children from their mother a cruel act - but not so with Skattach and her Fimir brood.	true
+character_trait_levels_explanation_text_fim_skattach_defeated_trait	Defeated Meargh Skattach	true
+character_trait_levels_onscreen_name_fim_kroll_defeated_trait	Bogslayer	true
+character_trait_levels_colour_text_fim_kroll_defeated_trait	Who knew that defeating an eldritch octopus goddess would be this easy? All it takes is a bit of grit.	true
+character_trait_levels_explanation_text_fim_kroll_defeated_trait	Defeated Kroll	true
+character_skills_localised_name_fim_lord_innate_1	Bogpipe Player	true
+character_skills_localised_description_fim_lord_innate_1	This Fimir plays an instrument known among the mist-daemons as the “Bogpipe” - melodious to the Fimir, but horrendously cacophonous to all others.	true
+character_skills_localised_name_fim_lord_innate_2	Brollaidheacht Wrestler	true
+character_skills_localised_description_fim_lord_innate_2	This Fimir practises Brollaidheacht, a form of wrestling popular among all castes. Two Fimir try to push each other out of a sacred circle - the first to step outside loses.	true
+character_skills_localised_name_fim_lord_innate_3	Follower of Lisaart	true
+character_skills_localised_description_fim_lord_innate_3	This Fimir has chosen the Daemon Prince Lisaart the Serpent - master of camouflage and cunning trickster - as their patron deity.	true
+character_skills_localised_name_fim_lord_innate_4	Follower of Balor	true
+character_skills_localised_description_fim_lord_innate_4	This Fimir has chosen the Daemon Prince Balor - master of battle and warrior of unmatched prowess - as their patron deity.	true
+character_skills_localised_name_fim_lord_innate_5	Follower of Kroll	true
+character_skills_localised_description_fim_lord_innate_5	This Fimir has chosen the Daemon Princess Kroll - mistress of plenty and guardian of the bogs - as their patron deity.	true
+character_skills_localised_name_fim_lord_innate_6	Flaithmor Paragon	true
+character_skills_localised_description_fim_lord_innate_6	This character is known as a Flaithmor - a Fimm renowned for his duelling skill and for slaying enemy champions. He commands immense respect among the Fimm caste.	true
+character_skills_localised_name_fim_lord_innate_7	Cruel Thrallmaster	true
+character_skills_localised_description_fim_lord_innate_7	This Fimm delights in enslaving others - Fimir or not - driving them mercilessly to toil and fight harder.	true
+character_skills_localised_name_fim_lord_innate_8	Fidchell Player	true
+character_skills_localised_description_fim_lord_innate_8	This Dirach is a master of Fidchell, a complex board game beloved among their kind. Though its rules seem tedious and opaque to outsiders, it demands sharp intellect and ruthless cunning to win.	true
+character_skills_localised_name_fim_lord_innate_9	Dirach Channeler	true
+character_skills_localised_description_fim_lord_innate_9	All Dirach possess a natural talent for magic, but this one’s raw potential allows him to act as a living conduit for the Winds of Magic.	true
+character_skills_localised_name_fim_lord_innate_10	Clan Storyteller	true
+character_skills_localised_description_fim_lord_innate_10	This Fimir is famed for recounting the ancient stories, legends, and songs of their race - from the war against the human tribe of the Jutones to the grand tales of the lost Fimir homeland, the Wandering Isle.	true

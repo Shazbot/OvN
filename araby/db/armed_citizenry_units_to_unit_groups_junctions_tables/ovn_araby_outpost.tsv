@@ -1,0 +1,11 @@
+id	priority	unit	unit_group
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/ovn_araby_outpost			
+92112111	500	ovn_arb_inf_arabyan_spearmen	ovn_arb_allied_1
+92112112	500	ovn_arb_inf_arabyan_spearmen	ovn_arb_allied_1
+92112113	600	ovn_arb_inf_arabyan_bowmen	ovn_arb_allied_1
+92112114	500	ovn_arb_inf_arabyan_spearmen	ovn_arb_allied_2
+92112115	600	ovn_arb_inf_arabyan_bowmen	ovn_arb_allied_2
+92112116	700	ovn_arb_inf_arabyan_guard	ovn_arb_allied_2
+92112117	750	ovn_arb_inf_jezzails	ovn_arb_allied_3
+92112118	800	ovn_arb_cav_arabyan_knights	ovn_arb_allied_3
+92112119	700	ovn_arb_inf_arabyan_guard	ovn_arb_allied_3

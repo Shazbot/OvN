@@ -1,0 +1,4 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/ovn_araby_only				
+	ovn_primary_core_special_major_al_haikk	mixer_ime_major_primary_port_al_haikk		false
+ovn_arb_settlement_major		mixer_ime_major_primary_port_al_haikk		true

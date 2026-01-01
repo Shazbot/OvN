@@ -65,15 +65,23 @@
 			dock_offset="64.00,0.00"
 			component_anchor_point="-0.00,0.50"
 			priority="20"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle}}"
 			tooltiplabel="charge_icon_Tooltip_3c005d"
 			uniqueguid="56cc240a-dd7f-4fb6-a0ef-a20c0567ac38"
 			currentstate="D758EA79-A75F-419B-9A7186CDBFF9D2C6"
 			defaultstate="D758EA79-A75F-419B-9A7186CDBFF9D2C6">
 			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
-					context_object_id="CcoEffectBundle"/>
+                <callback_with_context
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoEffectBundle">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle"/>
+						<property
+							name="offset_y"
+							value="20"/>
+					</child_m_user_properties>
+				</callback_with_context>
 			</callbackwithcontextlist>
 			<componentimages>
 				<component_image

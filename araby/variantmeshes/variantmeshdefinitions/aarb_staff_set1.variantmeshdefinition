@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="weapon_5" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/arb_bm/arb_props/arb_staff_01.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/hu1/arb_bm/arb_props/arb_staff_02.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:staff</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

@@ -1,0 +1,21 @@
+<material>
+ <name>brt_flag_alpha_off.xml</name>
+ <shader>shaders/rigid_campaign_flag.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_base_colour</slot>
+   <source>RigidModels/campaign/settlements/textures/ovn_gru_camps_base_colour.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_material_map</slot>
+   <source>RigidModels/campaign/settlements/textures/brt_camps_material_map.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_normal</slot>
+   <source>RigidmMdels/campaign/settlements/textures/brt_camps_normal.dds</source>
+  </texture>
+ </textures>
+ <params>
+ </params>
+</material>

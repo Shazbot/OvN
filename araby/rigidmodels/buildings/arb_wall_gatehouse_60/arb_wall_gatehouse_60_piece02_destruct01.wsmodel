@@ -1,0 +1,15 @@
+<model version="1">
+  <geometry>RigidModels/Buildings/cth_wall_gatehouse_60/cth_wall_gatehouse_60_piece02_destruct01.rigid_model_v2</geometry>
+  <materials>
+    <material part_index="0" lod_index="0">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="1">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="2">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="3">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="1" lod_index="0">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="1" lod_index="1">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="1" lod_index="2">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="2" lod_index="0">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="2" lod_index="1">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+    <material part_index="2" lod_index="2">RigidModels/Buildings/materials/cth_building_array_01_alpha_off.xml.material</material>
+  </materials>
+</model>

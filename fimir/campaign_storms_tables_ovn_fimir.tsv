@@ -1,3 +1,0 @@
-strength	type	attrition	key	tiling_composite_scene	composite_scene	priority	battle_tag	battle_lighting_environment
-#campaign_storms_tables;0;db/campaign_storms_tables/ovn_fimir								
-1	ovn_fimir_mist	ovn_fimir_mist	ovn_fimir_mist	storm_base	cst_fog	9		weather\battle\ovn_mist.environment

@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_rituals.loc		
+rituals_description_ovn_fimir_fog_diktat	With a great expenditure of slave lives, the Fimir can shroud an entire province in an unnatural, impenetrable fog.	false
+rituals_display_name_ovn_fimir_fog_diktat	Unnatural Fog	false
+rituals_description_ovn_fimir_growth_diktat	Drive the slaves to the brink of death before casting their remains into the bogs, feeding the clan’s dark powers.	false
+rituals_display_name_ovn_fimir_growth_diktat	Slave Labour	false

@@ -1,0 +1,19 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\legs\fim_finmor_legs_kroll_02.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\materials\fim_noble_kroll_ror_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\materials\fimir_br_body_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\materials\fim_noble_kroll_ror_body_01_1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\materials\fim_noble_kroll_ror_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\materials\fimir_br_body_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\materials\fim_noble_kroll_ror_body_01_1_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\materials\fim_noble_kroll_ror_body_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\materials\fimir_br_body_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hu7d\nor\nor_fimir_warriors\body\materials\fim_noble_kroll_ror_body_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\th07d\fim\fim_palanquin\materials\fimir_br_body_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

@@ -1,0 +1,15 @@
+key	persistant	show_instant	show_on_navigate	is_header	navigation_order
+#advice_info_texts_tables;3;db/advice_info_texts_tables/ovn_araby_only					
+cheatsheet_arb_slaves_text	true	true	true	false	0
+cheatsheet_arb_ship_building_text	true	true	true	false	0
+cheatsheet_arb_infamy_text	true	true	true	false	0
+cheatsheet_arb_caravans_text	true	true	true	false	0
+war.camp.hp.jellaba.001	true	false	true	true	0
+cheatsheet_arb_jaffars_revenge_text	true	true	true	false	0
+war.camp.hp.jaffars_revenge.001	true	false	true	true	0
+cheatsheet_arb_urban_nomad_text	true	true	true	false	0
+war.camp.hp.urban_nomad.001	true	false	true	true	0
+cheatsheet_arb_fatandira_allegiance_text	true	true	true	false	0
+war.camp.hp.fatandira_allegiance.001	true	false	true	true	0
+cheatsheet_arb_grand_bazaar_text	true	true	true	false	0
+war.camp.hp.grand_bazaar.001	true	false	true	true	0

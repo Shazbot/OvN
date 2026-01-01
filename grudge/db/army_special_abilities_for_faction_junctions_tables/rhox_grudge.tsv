@@ -1,0 +1,4 @@
+army_special_ability	faction
+#army_special_abilities_for_faction_junctions_tables;0;db/army_special_abilities_for_faction_junctions_tables/rhox_grudge	
+rhox_grudge_summon_gotrek	ovn_emp_grudgebringers_CB
+rhox_grudge_summon_felix	ovn_emp_grudgebringers_CB

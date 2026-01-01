@@ -1,0 +1,6 @@
+<model version="1">
+  <geometry>RigidModels/Buildings/arb_wall_corner_90_external/arb_wall_corner_90_external_piece01_destruct01.rigid_model_v2</geometry>
+  <materials>
+    <material lod_index="0" part_index="0">rigidmodels/buildings/materials/arb_walls_01.xml.material</material>
+  </materials>
+</model>

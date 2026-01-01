@@ -1,0 +1,4 @@
+key	display_path	model_file	logic_file
+#models_sieges_tables;4;db/models_sieges_tables/ovn_araby_only			
+arb_siege_tower_15m		rigidmodels\buildings\arb_siege_tower_15m\arb_siege_tower_15m_tech.cs2.parsed	rigidmodels\buildings\arb_siege_tower_15m\arb_siege_tower_15m_tech.cs2.collision
+arb_batteringram		rigidmodels\buildings\arb_batteringram\arb_batteringram_tech.cs2.parsed	rigidmodels\buildings\arb_batteringram\arb_batteringram_tech.cs2.collision

@@ -1,0 +1,17 @@
+id	culture	faction	remove	set	subculture
+#faction_set_items_tables;1;db/faction_set_items_tables/ovn_araby_only					
+74556244			false	slaanesh_seducible_factions	ovn_sc_arb_araby
+74556245			false	anc_set_multi_sc_kislev_bretonnia_empire_southern_realms	ovn_sc_arb_araby
+74556246			false	anc_set_exclusive_sc_araby	ovn_sc_arb_araby
+74556247	ovn_araby		false	anc_set_multi_kislev_bretonnia_empire	
+74556248	ovn_araby		false	anc_set_multi_kislev_norsca_bretonnia_chaos_dwarfs_empire_vampire_counts	
+74556249	ovn_araby		false	anc_set_multi_kislev_bretonnia_dwarfs_empire_greenskins	
+74556250	ovn_araby		false	anc_set_multi_kislev_empire	
+74556251	ovn_araby		false	anc_set_multi_high_elves_kislev_norsca_chaos_empire	
+74556252	ovn_araby		false	anc_set_multi_tomb_kings_vampire_coast_dark_elves_high_elves_kislev_empire_vampire_counts	
+74556253	ovn_araby		false	anc_set_multi_high_elves_kislev_wood_elves_bretonnia_empire	
+74556254	ovn_araby		false	human_factions	
+74556255	ovn_araby		false	factions_with_vassals	
+74556256	ovn_araby		false	FavouredCorruptionNone	
+74556257		ovn_arb_golden_fleet	false	anc_set_multi_tzeentch_daemons	
+74556258		ovn_arb_golden_fleet	false	mixer_factions_with_infamy	

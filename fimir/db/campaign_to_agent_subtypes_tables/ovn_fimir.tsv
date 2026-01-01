@@ -1,0 +1,10 @@
+agent_subtype	campaign_type
+#campaign_to_agent_subtypes_tables;0;db/campaign_to_agent_subtypes_tables/ovn_fimir	
+fim_meargh_skattach	wh3_main_combi
+fim_daemon_octopus_kroll	wh3_main_combi
+fim_meargh_skattach	cr_combi_expanded
+fim_daemon_octopus_kroll	cr_combi_expanded
+fim_meargh_skattach	cr_oldworld
+fim_daemon_octopus_kroll	cr_oldworld
+fim_meargh_skattach	cr_oldworldclassic
+fim_daemon_octopus_kroll	cr_oldworldclassic

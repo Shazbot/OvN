@@ -98,21 +98,21 @@ local function rename_gru_unit(unit)
 end
 
     
-    core:add_listener(
-        "ovn_grudge_unit_rename_on_unit_trained",
-        "UnitTrained",
-        function(context)
-            return context:unit():faction():name() == "ovn_emp_grudgebringers"
-        end,
-        function(context)
-            ---@type CA_UNIT
-            local unit = context:unit()
-            if unit:has_force_commander() then
-                local fc = unit:force_commander()
-                if not fc or fc:is_null_interface() then return end
-                rename_gru_unit(unit)
+core:add_listener(
+    "ovn_grudge_unit_rename_on_unit_trained",
+    "UnitTrained",
+    function(context)
+        return context:unit():faction():name() == "ovn_emp_grudgebringers"
+    end,
+    function(context)
+        ---@type CA_UNIT
+        local unit = context:unit()
+        if unit:has_force_commander() then
+            local fc = unit:force_commander()
+            if not fc or fc:is_null_interface() then return end
+            rename_gru_unit(unit)
     
-            end
-        end,
-        true
-    )
+        end
+    end,
+    true
+)

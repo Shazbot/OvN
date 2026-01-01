@@ -1,0 +1,25 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_araby_only								
+araby_edict_1		Army March	province	1	edict_state_troop_levy.png	false	false	true
+araby_edict_3		Stability	province	1	edict_host_festag.png	false	false	true
+araby_edict_2		The Sultan Demands	province	1	edict_def_increase_slave_production_quota.png	false	false	true
+araby_edict_4		Sultan Call	province	1	edict_council_of_burgomeisters.png	false	false	true
+ovn_crafting_araby_slaves	 		faction	1	subterfuge.png	true	false	true
+ovn_arb_jehad	eat	eat	faction	1	jehad_effect.png	true	false	true
+ovn_arb_jehad_army	eat	eat	force	1	jehad_effect_army.png	false	false	true
+ovn_scy_numas_trans	ovn_scy_numas_trans	ovn_scy_numas_trans	faction	1	numas_flag.png	true	false	true
+ovn_enable_araby_trebuchet_bonus_in_sieges	 		faction	0	ranged_damage.png	false	false	true
+ovn_arb_jehad_region			region	1	jehad_effect.png	true	true	false
+sr_arab_bundle	[HIDDEN]	[HIDDEN]	faction	0		false	false	true
+sr_arab_bundle_bad	[HIDDEN]	[HIDDEN]	faction	0		false	false	true
+ovn_lord_trait_arb_aswad_scythans			faction	1	character.png	false	false	true
+ovn_lord_trait_arb_sultanate_of_all_araby			faction	1	character.png	false	false	true
+ovn_lord_trait_arb_golden_fleet			faction	1	character.png	false	false	true
+ovn_faction_trait_araby			faction	1	food.png	false	false	true
+arb_golden_magus_inland_camp	Sets up a defensive camp, enabling recruitment and replenishment regardless of territory.	Stance: Encamp	force	1	icon_effects_fortify.png	true	false	true
+arb_golden_magus_navy_camp	Allows the [[img:icon_pirate_crew]][[/img]]pirate crew to construct ship buildings and recruit units directly to the vessel.	Stance: Flagship Expansion	force	1	icon_effects_patrol.png	true	false	true
+rhox_araby_punished_bret			faction	1	diplomacy.png	true	false	true
+rhox_araby_spared_bret			faction	1	diplomacy.png	true	false	true
+wh_main_bundle_force_siege_equipment_arb			force	0		true	false	true
+wh2_dlc15_hef_dungeon_mistwalker_upgrade_araby		Interrogation: Araby	faction	1	jehad_effect.png	true	false	true
+wh2_dlc15_hef_eltharion_dungeon_reward_araby		Araby Prisoner	faction	1	jehad_effect.png	true	false	true

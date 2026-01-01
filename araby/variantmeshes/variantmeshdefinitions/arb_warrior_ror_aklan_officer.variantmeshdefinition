@@ -1,0 +1,22 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\arb_death_commandos_aklan_body_1.wsmodel" >
+			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh_human_male</META_DATA></VARIANT_MESH>
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb_modular\rigid\mace.wsmodel" >
+			<META_DATA>audio_melee_weapon_type:club</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_death_commandos\arb_death_commandos_buckler.wsmodel" >
+			<META_DATA>equipment</META_DATA>
+			<META_DATA>audio_shield_type:metal</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

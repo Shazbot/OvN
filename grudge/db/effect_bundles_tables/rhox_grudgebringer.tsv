@@ -33,4 +33,6 @@ rhox_grudgebringer_lh_reward_bundle_3			faction	1	cst_piece_of_eight.png	true	fa
 rhox_grudgebringer_lh_reward_bundle_4			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_grudgebringer_lh_reward_bundle_5			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_grudgebringer_lh_reward_bundle_6			faction	1	cst_piece_of_eight.png	true	false	true
+rhox_grudgebringer_lh_reward_bundle_7			faction	1	cst_piece_of_eight.png	true	false	true
 rhox_grudge_debt_money			faction	1	treasury.png	true	false	true
+rhox_grudge_AI_hidden_bonus	[HIDDEN] Gives the spawned force free upkeep and prevents regionless attrition	[HIDDEN]	force	0		true	false	true

@@ -51,3 +51,6 @@ no_mercy_for_wicked	no_mercy_for_wicked.png			0	false	false	false	0.0000	0
 matthias_innate	matthias_innate.png			0	true	false	false	5.0000	0
 do_main_skill_all_dummy_agent_actions_emp_battle_wizard	battle_attack.png			0	false	false	false	0.0000	0
 ludwig_greenskin_grudge	grudge_kill_greenskins.png			10	false	false	false	0.0000	0
+vladimir_stormbringer_mount	mount_warhorse.png	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	Warhorse	0	false	false	false	0.0000	0
+ovn_luthor_innate	trait_high_elves.png	You don't want to be on the wrong side of this one's ire – it's explosive to say the least!	Incendiary	0	true	false	false	1.0000	60
+rhox_ovn_grudge_camp_hidden_dummy	character_general_ability.png			0	false	false	false	0.0000	0

@@ -1,0 +1,7 @@
+campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/ovn_arb_sultan_jaffar						
+		1	ovn_araby_Serpent_Staff		x	6
+		1	Black_Book_Of_Ibn_Naggazar		x	11
+		1	ovn_araby_Friend_Of_Evil		x	7
+		1	ovn_araby_unyeilding_stride		x	11
+		1	arb_jaffar_unique_0		x	11

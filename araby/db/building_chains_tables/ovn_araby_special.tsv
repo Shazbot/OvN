@@ -1,0 +1,20 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/ovn_araby_special										
+ovn_special_tomb_of_the_death_scarab			money	false	ovn_sch_special_tomb_of_the_death_scarab		0		true	false
+ovn_special_palace_of_the_great_sultan			military	false	ovn_sch_special_palace_of_the_great_sultan		0		true	false
+ovn_special_gardens_of_bel-aliad			military	false	ovn_sch_special_gardens_of_bel-aliad		0		true	false
+ovn_special_tomb_of_mullah_akland			military	false	ovn_sch_special_tomb_of_mullah_akland		0		true	false
+ovn_special_ivory_palace_of_ka-sabar			military	false	ovn_sch_special_ivory_palace_of_ka-sabar		0		true	false
+ovn_special_madrasat_el-sehr			military	false	ovn_sch_special_madrasat_el-sehr		0		true	false
+ovn_special_fortress_of_nafel_muq			military	false	ovn_sch_special_fortress_of_nafel_muq		0		true	false
+ovn_special_the_black-gold_tower			military	false	ovn_sch_special_the_black-gold_tower		0		true	false
+ovn_special_crypt_of_abdul_ben_rachid			military	false	ovn_sch_special_crypt_of_abdul_ben_rachid		0		true	false
+ovn_special_portal_of_twilight			military	false	ovn_sch_special_portal_of_twilight		0		true	false
+ovn_special_galleons_graveyard_wreck			military	false	ovn_sch_special_galleons_graveyard_wreck		0		true	false
+ovn_special_copher_port_araby			money	false	wh_main_sch_port		0		true	false
+ovn_special_college_of_sorcerers			military	false	ovn_sch_special_college_of_sorcerers		0		true	false
+ovn_special_great_slave_market			money	false	ovn_sch_special_great_slave_market		0		true	false
+ovn_special_atalan_mountain_peaks			military	false	ovn_sch_special_atalan_mountain_peaks		0		true	false
+ovn_special_galleons_graveyard_magus_djinn			military	false	ovn_sch_special_galleons_graveyard_magus		0		true	false
+ovn_special_galleons_graveyard_magus_tzeentch			military	false	ovn_sch_special_galleons_graveyard_magus		0		true	false
+ovn_special_golden_magus_paradise			money	false	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_coast_galleons_graveyard.png	0		true	false

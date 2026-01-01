@@ -1,0 +1,54 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_only_factions.loc		
+factions_screen_name_ovn_fim_thunderous_sight	Thunderous Sight	true
+factions_screen_name_ovn_fim_fen_serpents	Fen Serpents	true
+factions_screen_name_ovn_fim_hell_gate	Hell Gate	true
+factions_screen_name_ovn_fim_rancor_hold	Rancor Hold	true
+factions_screen_name_ovn_fim_tendrils_of_doom	Tendrils of Doom	true
+factions_screen_name_ovn_fim_marsh_hornets	Marsh Hornets	true
+factions_screen_name_ovn_fim_mist_dragons	Mist Dragons	true
+factions_attack_desc_ovn_fim_rancor_hold	You are attacking Rancor Hold!	true
+factions_defend_desc_ovn_fim_rancor_hold	You are defending against Rancor Hold!	true
+factions_screen_adjective_ovn_fim_rancor_hold	 	true
+factions_screen_name_when_rebels_ovn_fim_rancor_hold	Shearl Rebels	true
+factions_attack_desc_ovn_fim_tendrils_of_doom	You are attacking the Tendrils of Doom!	true
+factions_defend_desc_ovn_fim_tendrils_of_doom	You are defending against the Tendrils of Doom!	true
+factions_screen_adjective_ovn_fim_tendrils_of_doom	 	true
+factions_screen_name_when_rebels_ovn_fim_tendrils_of_doom	Heretic Rebels	true
+factions_attack_desc_ovn_fim_tendrils_of_doom_battle_only	You are attacking the Tendrils of Doom!	true
+factions_defend_desc_ovn_fim_tendrils_of_doom_battle_only	You are defending against the Tendrils of Doom!	true
+factions_screen_adjective_ovn_fim_tendrils_of_doom_battle_only	 	true
+factions_screen_name_ovn_fim_tendrils_of_doom_battle_only	Tendrils of Doom	true
+factions_screen_name_when_rebels_ovn_fim_tendrils_of_doom_battle_only	Heretic Rebels	true
+factions_attack_desc_ovn_fim_marsh_hornets	You are attacking the Marsh Hornets!	true
+factions_attack_desc_ovn_fim_mist_dragons	You are attacking the Mist Dragons!	true
+factions_defend_desc_ovn_fim_marsh_hornets	You are defending against the Marsh Hornets!	true
+factions_defend_desc_ovn_fim_mist_dragons	You are defending against the Mist Dragons!	true
+factions_screen_adjective_ovn_fim_marsh_hornets	Marsh Hornets	true
+factions_screen_adjective_ovn_fim_mist_dragons	Mist Dragons	true
+factions_screen_name_when_rebels_ovn_fim_marsh_hornets	Shearl Rebels	true
+factions_screen_name_when_rebels_ovn_fim_mist_dragons	Shearl Rebels	true
+factions_attack_desc_mixer_fim_fimir_dummy	You are attacking the Fimir!	true
+factions_defend_desc_mixer_fim_fimir_dummy	You are defending against the Fimir!	true
+factions_screen_adjective_mixer_fim_fimir_dummy	Fimir	true
+factions_screen_name_mixer_fim_fimir_dummy	Fimir	true
+factions_screen_name_when_rebels_mixer_fim_fimir_dummy	Fimir Rebels	true
+factions_attack_desc_ovn_fim_fimir_rebel	You are attacking the Fimir Rebels!	true
+factions_defend_desc_ovn_fim_fimir_rebel	You are defending against the Fimir Rebels!	true
+factions_screen_adjective_ovn_fim_fimir_rebel	Fimir Rebels	true
+factions_screen_name_ovn_fim_fimir_rebel	Fimir Rebels	true
+factions_screen_name_when_rebels_ovn_fim_fimir_rebel	Fimir Rebels	true
+factions_attack_desc_ovn_fim_thunderous_sight	You are attacking Thunderous Sight!	true
+factions_defend_desc_ovn_fim_thunderous_sight	You are defending against Thunderous Sight!	true
+factions_screen_adjective_ovn_fim_thunderous_sight	Thunderous Sight	true
+factions_screen_name_when_rebels_ovn_fim_thunderous_sight	Shearl Rebels	true
+factions_attack_desc_ovn_fim_fen_serpents	You are attacking the Fen Serpents!	true
+factions_defend_desc_ovn_fim_fen_serpents	You are defending against the Fen Serpents!	true
+factions_screen_adjective_ovn_fim_fen_serpents	Fen Serpents	true
+factions_screen_name_when_rebels_ovn_fim_fen_serpents	Shearl Rebels	true
+factions_attack_desc_ovn_fim_hell_gate	You are attacking Hell Gate!	true
+factions_defend_desc_ovn_fim_hell_gate	You are defending against Hell Gate!	true
+factions_screen_adjective_ovn_fim_hell_gate	Hell Gate	true
+factions_screen_name_when_rebels_ovn_fim_hell_gate	Shearl Rebels	true
+event_feed_strings_text_ovn_fimir_how_they_play_skattach	[[img:icon_slaves]][[/img]] [[col:green]]Capture[[/col]] [[sl_link:campaign_slaves]]Slaves[[/sl_link]] [[col:green]]to receive greater bonuses from certain buildings or sacrifice them to empower your spells before battle. Use Diktats to maintain slave population and gain additional effects.[[/col]]\\n\\n[[img:icon_chaos_gifts]][[/img]] [[col:green]]Slaves can be sacrificed to the Dark Gods in return for factionwide boons granted by[[/col]] [[url:script_link_campaign_chaos_gifts]][[tooltip:{{tt:tooltip_campaign_chaos_gifts}}]]Gifts of Chaos.[[/tooltip]][[/url]]\\n\\n[[img:icon_balefiend]][[/img]] [[col:green]]Bolster your ranks with Death Quest units earned when other Fimir clans fall or your own forces suffer grievous losses in battle.[[/col]]\\n\\n[[img:bullet_hef_espionage]][[/img]] [[col:green]]The Swirling Mists shroud your domains, empowering Fimir armies within their fog and sapping the strength of intruders. Draw your foes into the fog – where the Fimir are strongest.[[/col]]	true
+event_feed_strings_text_ovn_fimir_how_they_play_kroll	[[img:icon_slaves]][[/img]] [[col:green]]Capture[[/col]] [[sl_link:campaign_slaves]]Slaves[[/sl_link]] [[col:green]]to receive greater bonuses from certain buildings or sacrifice them to empower your spells before battle. Use Diktats to maintain slave population and gain additional effects.[[/col]]\\n\\n[[img:icon_spell_lore_deep]][[/img]] [[col:green]]Construct Temples of Kroll in province capitals to honour the All-Mother of the Fimir. Each temple strengthens her divine form and spreads her influence.[[/col]]\\n\\n[[img:icon_balefiend]][[/img]] [[col:green]]Bolster your ranks with Death Quest units earned when other Fimir clans fall or your own forces suffer grievous losses in battle.[[/col]]\\n\\n[[img:bullet_hef_espionage]][[/img]] [[col:green]]The Swirling Mists shroud your domains, empowering Fimir armies within their fog and sapping the strength of intruders. Draw your foes into the fog – where the Fimir are strongest.[[/col]]	true

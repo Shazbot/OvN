@@ -1,0 +1,53 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\fim_kroll_campaign.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_body_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_fin_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\def_kharibdyss_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_waystone_weighted2_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewel_crown_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="5">variantmeshes\wh_variantmodels\hc9\cst\cst_cylostra\materials\cst_cylostra_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="6">variantmeshes\wh_variantmodels\hu1d\def\def_props\materials\def_harpoon_gun_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="7">variantmeshes\wh_variantmodels\hc02\cst\cst_animated_hulk\materials\cst_animated_hulk_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="8">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewelryandmisc_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="9">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_weapon_spear_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="10">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_beak_animprop_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_body_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_fin_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\def_kharibdyss_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_waystone_weighted2_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewel_crown_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="5">variantmeshes\wh_variantmodels\hc9\cst\cst_cylostra\materials\cst_cylostra_body_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="6">variantmeshes\wh_variantmodels\hu1d\def\def_props\materials\def_harpoon_gun_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="7">variantmeshes\wh_variantmodels\hc02\cst\cst_animated_hulk\materials\cst_animated_hulk_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="8">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewelryandmisc_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="9">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_weapon_spear_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="10">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_beak_animprop_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_body_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_fin_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\def_kharibdyss_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_waystone_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewel_crown_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="5">variantmeshes\wh_variantmodels\hc9\cst\cst_cylostra\materials\cst_cylostra_body_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="6">variantmeshes\wh_variantmodels\hu1d\def\def_props\materials\def_harpoon_gun_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="7">variantmeshes\wh_variantmodels\hc02\cst\cst_animated_hulk\materials\cst_animated_hulk_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="8">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewelryandmisc_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="9">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_weapon_spear_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="10">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_beak_animprop_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_body_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_fin_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\def_kharibdyss_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_waystone_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewel_crown_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="5">variantmeshes\wh_variantmodels\hc9\cst\cst_cylostra\materials\cst_cylostra_body_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="6">variantmeshes\wh_variantmodels\hu1d\def\def_props\materials\def_harpoon_gun_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="7">variantmeshes\wh_variantmodels\hc02\cst\cst_animated_hulk\materials\cst_animated_hulk_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="8">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_jewelryandmisc_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="9">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_weapon_spear_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="10">variantmeshes\wh_variantmodels\hc5\fim\fim_kroll\materials\fim_kroll_beak_animprop_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

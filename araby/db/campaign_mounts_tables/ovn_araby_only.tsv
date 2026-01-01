@@ -1,0 +1,13 @@
+model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount	prebattle_separation_offset
+#campaign_mounts_tables;9;db/campaign_mounts_tables/ovn_araby_only								
+ovn_cam_mnt_arb_magic_carpet	cam_tc2_flying_carpet	ovn_arb_mnt_flying_carpet	0.5000	vo_culture_None	false	0	false	0.0000
+ovn_cam_mnt_arb_camel	cam_cm1_camel	ovn_arb_mnt_camel	0.9500	wh_main_vo_culture_Stag	true	0	false	0.0000
+ovn_cam_mnt_arb_camel_armoured	cam_cm1_camel	ovn_arb_mnt_camel_armoured	0.9500	wh_main_vo_culture_Stag	true	0	false	0.0000
+ovn_cam_mnt_arb_sipahis_warhorse	cam_hr1_warhorse	ovn_arb_mnt_sipahis_warhorse	1.0000	wh_main_vo_culture_Horse	true	0	false	0.0000
+ovn_cam_mnt_arb_royal_war_elephant	cam_lord_el1_ar_elephant	ovn_arb_mnt_royal_war_elephant_cam	0.6000	vo_culture_Invalid	false	0	false	0.0000
+ovn_cam_mnt_arb_fatandira_warhorse	cam_hr1_warhorse	ovn_arb_mnt_fatandira_warhorse	1.0000	wh_main_vo_culture_Horse	true	0	false	0.0000
+ovn_cam_mnt_arb_fatandira_roc	cam_bi1_eagle	ovn_arb_mnt_fatandira_roc	0.6000	wh_main_vo_culture_Hawk	false	0	false	0.0000
+ovn_cam_mnt_arb_djinn_skiff	cam_bl3_araby_air_skiff	campaign_djinn_airskiff	0.2500	vo_culture_None	true	0	false	0.0000
+ovn_cam_mnt_arb_radiant_pegasus_sheikh	cam_hr1_pegasus	ovn_radiant_pegasus_sheikh	1.0000	wh_main_vo_culture_Pegasus	false	0	false	0.0000
+ovn_cam_mnt_arb_radiant_pegasus_emir	cam_hr1_pegasus	ovn_radiant_pegasus_emir	1.0000	wh_main_vo_culture_Pegasus	false	0	false	0.0000
+ovn_cam_mnt_arb_djinn_carriage	cam_wm_djinncarriage2	ovn_arb_djinn_carriage_campaign	0.5000	vo_culture_None	false	0	false	0.0000

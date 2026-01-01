@@ -1,0 +1,4 @@
+vehicle	cap	probability
+#battlefield_siege_vehicles_custom_battles_tables;0;db/battlefield_siege_vehicles_custom_battles_tables/ovn_araby_only		
+arb_battering_ram	2	30.0000
+arb_siege_tower_15m	10	100.0000

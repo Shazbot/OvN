@@ -27,7 +27,6 @@ enchanted_shield	morgan_bernhardt
 gunther_schepke	grudgebringer_infantry
 shield_of_ptolos	grudgebringer_infantry
 stormsword	grudgebringer_infantry
-anti_large	ceridan
 armoured	ceridan
 damage_dealer	ceridan
 decent_melee	ice_mage_vladimir_stormbringer
@@ -50,8 +49,6 @@ sven_carlsson	carlsson_cavalry
 armoured	carlsson_cavalry
 damage_dealer	black_avangers
 frenzy	black_avangers
-unbreakable	black_avangers
-anti_large	dwarf_envoy
 armoured	dwarf_envoy
 damage_dealer	dwarf_envoy
 armoured_and_shielded	grudgebringer_infantry
@@ -196,3 +193,19 @@ armoured	treeman_knarlroot
 forest_spirit	treeman_knarlroot
 armour_piercing	treeman_knarlroot
 charge_reflector	treeman_knarlroot
+decent_melee	allor
+spellcaster	allor
+decent_melee	ice_mage_vladimir_stormbringer_mount
+spellcaster	ice_mage_vladimir_stormbringer_mount
+frostbite	ice_mage_vladimir_stormbringer_mount
+armour_piercing_ranged	ludwig_uberdorf_mechanical_steed
+fire_whilst_moving	ludwig_uberdorf_mechanical_steed
+spellcaster	allor_griffon
+terror	allor_griffon
+melee_expert	ceridan_eagle
+very_fast	ceridan_eagle
+armour_piercing_ranged	matthias_war_wagon
+armoured	matthias_war_wagon
+fire_whilst_moving	matthias_war_wagon
+armoured	dwarf_envoy_oath_stone
+damage_dealer	dwarf_envoy_oath_stone

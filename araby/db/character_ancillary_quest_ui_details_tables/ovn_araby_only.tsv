@@ -1,0 +1,8 @@
+agent_subtype	ancillary	rank	instant	is_quest_battle
+#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/ovn_araby_only				
+arb_fatandira	arb_fatandira_blades_demise	7	true	false
+arb_fatandira	arb_fatandira_scythan_armour	12	true	false
+arb_golden_magus	arb_golden_magus_fire_scimitar	7	true	false
+arb_golden_magus	arb_golden_magus_auric_robe	12	true	false
+arb_sultan_jaffar	ovn_araby_Serpent_Staff	7	true	false
+arb_sultan_jaffar	Black_Book_Of_Ibn_Naggazar	12	true	false

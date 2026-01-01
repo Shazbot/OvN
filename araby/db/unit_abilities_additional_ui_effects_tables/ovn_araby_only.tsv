@@ -1,0 +1,18 @@
+key	sort_order	effect_state
+#unit_abilities_additional_ui_effects_tables;3;db/unit_abilities_additional_ui_effects_tables/ovn_araby_only		
+ovn_all_summon_genie	103	positive
+ovn_all_summon_sea_nymph	103	positive
+ovn_all_summon_desert_spirit	103	positive
+ovn_all_summon_fire_efreet	103	positive
+ovn_all_summon_tempest_djinn	103	positive
+ovn_all_summon_arb_spearmen	103	positive
+ovn_spell_upgraded_added_resistance_magic	1	positive
+ovn_all_summon_arb_nomad_assassin_mirror	106	positive
+ovn_all_summon_arb_nomad_assassin_unspottable	101	positive
+ovn_all_summon_book_djinn	103	positive
+ovn_djinn_form_advantages	102	positive
+ovn_djinn_form_disadvantages	103	negative
+ovn_human_form_advantages	102	positive
+ovn_human_form_advantages_spells	103	positive
+ovn_transform_to_djinn_form	101	positive
+ovn_transform_to_human_form	101	positive

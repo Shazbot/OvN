@@ -1,0 +1,12 @@
+key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event	sepia_fade	use_revealing_text
+#incidents_tables;7;db/incidents_tables/rhox_araby									
+rhox_araby_jaffar_conquer_incident_araby_united	false	carnage_charge	false	Event		false		0.0000	false
+rhox_araby_jaffar_conquer_incident_teb_complete	false	elector_invasion	false	Event		false		0.0000	false
+rhox_araby_jaffar_conquer_incident_bretonnia_foothold	false	elector_region	false	Event		false		0.0000	false
+rhox_araby_jaffar_conquer_incident_bretonnia_complete	false	jaffar_victory	false	Event		true		0.0000	false
+rhox_araby_fatandira_araby_100	false	fatandira_araby	false	Event		true		0.0000	false
+rhox_araby_fatandira_tk_100	false	fatandira_tk	false	Event		true		0.0000	false
+rhox_araby_fatandira_betrayal	false	settlement_lost	false	Event		false		0.0000	false
+rhox_araby_incident_cst_sea_shanty_gained_1	false	sea_shanty_gained	false	Event		false		0.0000	false
+rhox_araby_incident_cst_sea_shanty_gained_2	false	sea_shanty_gained	false	Event		false		0.0000	false
+rhox_araby_incident_cst_sea_shanty_gained_3	false	sea_shanty_gained	false	Event		false		0.0000	false

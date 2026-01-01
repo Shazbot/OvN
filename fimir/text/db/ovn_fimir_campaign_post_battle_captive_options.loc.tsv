@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_campaign_post_battle_captive_options.loc		
+campaign_post_battle_captive_options_description_291190	Enslave these fools - break them and consume their souls!	true
+campaign_post_battle_captive_options_onscreen_name_291190	Enslave Captives	true
+campaign_post_battle_captive_options_description_291191	Slaughter the captives in the name of the Chaos Gods!	true
+campaign_post_battle_captive_options_onscreen_name_291191	Kill Captives	true
+campaign_post_battle_captive_options_description_291192	Offer these captives to the Chaos Gods in return for their favour.	true
+campaign_post_battle_captive_options_onscreen_name_291192	Sacrifice Captives	true

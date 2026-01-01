@@ -3,3 +3,4 @@ component	icon	state	sort_order
 rhox_grudgebringer_declare_war_payload	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	negative	0
 rhox_grudgebringer_50_chance_declare_war_payload	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	default	0
 rhox_grudgebringer_settlement_returned	ui/campaign ui/effect_bundles/settlement.png	positive	0
+rhox_dark_omen_true_ceridan	ui/campaign ui/effect_bundles/agent.png	default	0

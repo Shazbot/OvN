@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_building_contexts.loc		
+building_effect_context_expressions_display_text_OVNFIMSlavesGreaterThan100	When total [[img:icon_slaves]][[/img]]slaves higher than 100 at the start of turn:	false
+building_effect_context_expressions_display_text_OVNFIMSlavesGreaterThan1000	When total [[img:icon_slaves]][[/img]]slaves higher than 1000 at the start of turn:	false
+building_effect_context_expressions_display_text_OVNFIMSlavesGreaterThan600	When [[img:icon_slaves]][[/img]]slaves higher than 600 at the start of turn:	false
+building_effect_context_expressions_display_text_OVNFIMSlavesGreaterThan200	When [[img:icon_slaves]][[/img]]slaves higher than 200 at the start of turn:	false
+building_effect_context_expressions_display_text_OVNFIMSlavesLessThan100	When [[img:icon_slaves]][[/img]]slaves lower than 100 at the start of turn:	false
+building_effect_context_expressions_display_text_OVNFIMSlavesLessThan1000	When [[img:icon_slaves]][[/img]]slaves lower than 1000 at the start of turn:	false

@@ -1,0 +1,9 @@
+name	vo_actor_1	vo_actor_2	vo_actor_3	vo_actor_4	vo_actor_5	vo_actor_6	vo_actor_7	vo_actor_8	vo_actor_9	vo_actor_10	vo_actor_11	vo_actor_12	vo_actor_13	vo_actor_14	vo_actor_15	cooldown_overlap	container
+#audio_vo_actor_groups_tables;4;db/audio_vo_actor_groups_tables/!!!ovn_voiceacting_paradise																	
+ovn_vo_actor_Araby_Generic_Unit	ovn_vo_actor_Araby_Generic_Unit1															0.0000	random
+ovn_vo_actor_Araby_Sultan_Jaffar	ovn_vo_actor_Araby_Sultan_Jaffar															0.0000	random
+ovn_vo_actor_Araby_Golden_Magus	ovn_vo_actor_Araby_Golden_Magus															0.0000	random
+ovn_vo_actor_Araby_Generic_Lord	ovn_vo_actor_Araby_Generic_Lord1															0.0000	random
+ovn_vo_actor_Araby_Sorcerer	ovn_vo_actor_Araby_Sorcerer_Hero1	ovn_vo_actor_Araby_Sorcerer_Hero2														0.0000	random
+ovn_vo_actor_Araby_Grand_Vizier	ovn_vo_actor_Araby_Grand_Vizier_Lord1	ovn_vo_actor_Araby_Grand_Vizier_Lord2														0.0000	random
+ovn_vo_actor_Araby_Fatandira	ovn_vo_actor_Araby_Fatandira															0.0000	random

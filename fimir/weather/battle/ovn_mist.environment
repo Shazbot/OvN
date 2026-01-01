@@ -1,0 +1,54 @@
+<environment_file serialise_version='11' environment_prefab='prefabs\sky_cloudy_04.bmd' post_processes=''>
+	<lighting serialise_version='14' sun_colour_scale='40000.000000' sea_bed_light_scatter_red='0.980000' sea_bed_light_scatter_green='0.980000' sea_bed_light_scatter_blue='0.980000' refraction_light_scatter='0.250000' use_custom_ambient_cube_colours='true' ambient_cube_hdr_scaler='2.711000' ambient_scale='3.711000' sun_direction_azimuth='198.000000' sun_direction_elevation='32.000000' auto_gen_cubemap_set='true' cloud_shadow_scroll_speed='10.000000' cloud_shadow_uv_scale='1150.000000' cloud_shadow_lerp='0.250000' sky_colour_scale='100000.000000' cloud_shadow_texture='commontextures/cloudshadows_02.dds' dynamic_light_scale='0.130000'>
+		<sun_colour r='0.900000' g='0.988235' b='0.996079'/>
+		<deep_water_colour r='0.105882' g='0.121569' b='0.098039'/>
+		<shallow_water_colour r='0.184314' g='0.168627' b='0.141176'/>
+				<ambient_cube_left r='0.386240' g='0.275050' b='0.121054'/>
+				<ambient_cube_right r='0.461551' g='0.332151' b='0.153471'/>
+				<ambient_cube_top r='0.525268' g='0.382787' b='0.176153'/>
+				<ambient_cube_bottom r='0.313882' g='0.212753' b='0.095298'/>
+				<ambient_cube_front r='0.433345' g='0.313979' b='0.151288'/>
+				<ambient_cube_back r='0.409619' g='0.289303' b='0.123629'/>
+				<component_common serialise_version='1' accumulate='true'/>
+	</lighting>
+	<post_processing serialise_version='2' lut_texture_file='filmic_curve_01' brightness_r='0.700000' brightness_g='0.700000' brightness_b='0.700000' contrast_r='1.000000' contrast_g='1.000000' contrast_b='1.000000' saturation_r='0.900000' saturation_g='0.900000' saturation_b='0.900000' hue='0.000000' sharpening_strength='0.250000'>
+		<overlay r='1.000000' g='1.000000' b='1.000000'/>
+	</post_processing>
+	<fog serialise_version='5' enabled='true' density='0.570000' haziness='0.650000' height_top='210.000000' height_density='0.380000' noise='0.750000' terrain_relative_height_fog='true' clear_distance='150.000000' is_3d='1.000000' height_bottom='150.000000' height_fog_clear_distance='80.000000' clear_distance_fade_out='26.000000'>
+		<colour r='0.482353' g='0.482353' b='0.594118'/>
+	</fog>
+	<legacy_fog serialise_version='2' fog_distance_start='0.20000' fog_distance_strength='0.480000' fog_distance_scale='0.680000' fog_height_top='500.000000' fog_height_strength='0.200000' fog_clear_distance='0.000000' fog_colour_blend='0.100000' fog_precipitation_intensity='1.000000' fog_precipitation_distance_modifier='0.000000' terrain_relative_height_fog='true'>
+		<volume_fog_colour r='0.227451' g='0.323529' b='0.403922' a='1.000000'/>
+	</legacy_fog>
+	<depth_of_field serialise_version='1' use_DOF='false' DOF_blur_size='3.000000'>
+		<DOF_focus value='0.300000' variation='40.000000'/>
+	</depth_of_field>
+	<audio serialise_version='1' environment=''/>
+    <bloom serialise_version='1' bloom_threshold='0.700000' bloom_strength='0.090000'>
+    <component_common serialise_version='1' accumulate='true'/>
+    </bloom>
+	<legacy_hdr serialise_version='5' absolute_black_point='0.001000' max_black_point='0.0100000' min_white_point='1.000000' absolute_white_point='4.000000' exposure_sensitivity='0.150000' auto_exposure_speed_down='0.020000' auto_exposure_speed_up='0.020000' low_tones_bias_red='0.500000' high_tones_bias_red='0.500000' low_tones_bias_green='0.500000' high_tones_bias_green='1.000000' low_tones_bias_blue='1.000000' high_tones_bias_blue='1.000000' lock_rgb_relative_tones='true' bloom_point_above_white_point='0.000000' whiteout_start='0.000000' whiteout_end='5.000000' bloom_strength='0.100000'/>
+	<tone_mapping serialise_version='1' brightness='0.250000' burn='0.030000' enabled='true'/>
+	<weather serialise_version='4' wind_dir_random='true' wind_dir_degrees='120.186768' definition_name='storm shadows' snowing_intensity='0.000000' creep_intensity='0.000000'/>
+	<sun_mesh serialise_version='1' sun_texture='sundisk1.dds' sun_scale='0.010000' sun_flare='0.200000'/>
+	<sunsky serialise_version='2' sky_colour_scale='2.000000' circumsolar_decay='0.720000' circumsolar_colour_scale='1.000000' horizon_colour_scale='2.200000' horizon_opposite_colour_scale='3.000000' horizon_decay='0.790000' backscatter_colour_scale='1.000000' backscatter_decay='0.900000' render_skydome='false'>
+		<sky_colour r='0.247059' g='0.286275' b='0.647059'/>
+		<circumsolar_colour r='1.000000' g='0.666667' b='0.898039'/>
+		<horizon_colour r='0.692181' g='0.732897' b='0.874126'/>
+		<horizon_opposite_colour r='0.706167' g='0.795225' b='0.902098'/>
+		<backscatter_colour r='0.325697' g='0.413571' b='0.510490'/>
+	</sunsky>
+	<near_cloud_plane_mesh serialise_version='2' grid_size='10' height_scale='2.600000' cloud_velocity='0.000000' cloud_density='0.860000' flatten_factor='0.360000' sun_transmit_falloff='0.080000' cloud_shadow_gradient='1.000000' cloud_shadow_falloff='0.230000' horizon_alpha_start='0.950000' horizon_alpha_end='1.000000' cloud_height_variation='0.090000' cloudset='CLOUDSET_3' cloud_rotation='1.000000' seed='2'>
+		<sun_transmitted_colour r='0.737255' g='0.737255' b='0.737255'/>
+		<sun_reflected_colour r='0.541176' g='0.541176' b='0.541176'/>
+		<cloud_shadow_colour r='0.568627' g='0.568627' b='0.568627'/>
+		<cloud_plane_data/>
+	</near_cloud_plane_mesh>
+	<far_cloud_plane_mesh serialise_version='2' grid_size='2' height_scale='1.000000' cloud_velocity='0.000000' cloud_density='1.000000' flatten_factor='1.000000' sun_transmit_falloff='0.000000' cloud_shadow_gradient='1.000000' cloud_shadow_falloff='0.000000' horizon_alpha_start='0.950000' horizon_alpha_end='1.000000' cloud_height_variation='0.000000' cloudset='CLOUDSET_3' cloud_rotation='0.000000' seed='0'>
+		<sun_transmitted_colour r='1.000000' g='1.000000' b='1.000000'/>
+		<sun_reflected_colour r='1.000000' g='1.000000' b='1.000000'/>
+		<cloud_shadow_colour r='1.000000' g='1.000000' b='1.000000'/>
+		<cloud_plane_data/>
+	</far_cloud_plane_mesh>
+	<ssao serialise_version='1' number_of_steps='5' number_of_directions='5' radius='5.000000' attenuation='0.880000' strength='2.000000' minimum_strength='0.200000' angle_bias='0.000000' contrast='0.800000' blur_radius='3' blur_sharpness='7.000000'/>
+</environment_file>

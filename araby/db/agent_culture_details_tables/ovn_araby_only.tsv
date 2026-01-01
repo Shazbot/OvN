@@ -1,0 +1,9 @@
+key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon	small_icon	recruitable_in_ui
+#agent_culture_details_tables;9;db/agent_culture_details_tables/ovn_araby_only										
+9880194	champion	ovn_araby	ovn_arb_cha_champion_0		0		m		ui/campaign ui/agents/wh_main_vmp_champion.png	true
+9880198	general	ovn_araby	ovn_arb_cha_sheikh_0		0		m		ui/campaign ui/agents/wh_main_vmp_champion.png	true
+9880201	spy	ovn_araby	ovn_arb_cha_nomad_0		0		m		ui/campaign ui/agents/ovn_arb_spy.png	true
+9880202	wizard	ovn_araby	ovn_arb_cha_magician_desert_0		0		m		ui/campaign ui/agents/ovn_lore_desert.png	true
+63452356	general	ovn_araby	ovn_arb_cha_caravan_master		0				ui/campaign ui/agents/paladin.png	true
+63452357	colonel	ovn_araby			0				ui/campaign ui/agents/paladin.png	true
+63452358	minister	ovn_araby			0				ui/campaign ui/agents/paladin.png	true

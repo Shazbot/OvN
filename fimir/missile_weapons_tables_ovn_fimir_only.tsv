@@ -1,6 +1,0 @@
-key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
-#missile_weapons_tables;11;db/missile_weapons_tables/ovn_fimir_only				
-ovn_fim_javelin	false	ovn_fim_javelin	javelin	false
-ovn_fimir_gaze	false	ovn_bound_spell_fimir_gaze	luminark	false
-fim_fimm_warriors_axe_throwers_ror	false	fim_throwing_axe	none	false
-ovn_fim_balor_shrine_evil_eye	false	ovn_fim_balor_shrine_evil_eye	luminark	false

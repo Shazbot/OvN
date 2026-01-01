@@ -1,0 +1,7 @@
+key	icon	sort_order	show_in_ui	audio_switch	colour_hex
+#building_sets_tables;5;db/building_sets_tables/ovn_araby_only					
+ovn_set_arb_nehekharan_excavation	UI/Buildings/Icons/araby_cat_excavation.png	2	true		40718C
+ovn_set_araby_military_recruitment	ui/buildings/icons/dark_elves_cat_recruitment.png	4	true	Military_Recruitment	781414
+ovn_set_araby_military_support	ui/buildings/icons/high_elves_cat_support.png	5	true	Advanced_Military	4B4158
+ovn_set_araby_defence	ui/buildings/icons/tomb_kings_cat_defence.png	6	true	Defence	5B492F
+ovn_set_araby_economy	ui/buildings/icons/wood_elves_cat_civic.png	7	true	Infrastructure	3E4739

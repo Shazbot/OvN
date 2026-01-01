@@ -1,0 +1,802 @@
+{
+  "ProjectSettings": {
+    "Version": 1,
+    "OutputGame": "Warhammer3",
+    "BnkName": "battle_vo_orders__ovn_vo_actor_Araby_Sorcerer_Hero1",
+    "Language": "english(uk)"
+  },
+  "Events": [],
+  "Actions": [],
+  "GameSounds": [
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_attack-01.wav",
+      "DirectParentId": "52162731_random_container_56674334",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_attack",
+      "Name": "28223144_sound_26913237",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_attack-02.wav",
+      "DirectParentId": "52162731_random_container_56674334",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_attack",
+      "Name": "45503293_sound_91076380",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_attack-03.wav",
+      "DirectParentId": "52162731_random_container_56674334",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_attack",
+      "Name": "56074620_sound_44409543",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_attack-04.wav",
+      "DirectParentId": "52162731_random_container_56674334",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_attack",
+      "Name": "28125678_sound_61042658",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_attack-05.wav",
+      "DirectParentId": "52162731_random_container_56674334",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_attack",
+      "Name": "21094929_sound_72865735",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_generic-01.wav",
+      "DirectParentId": "14766844_random_container_18273264",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_generic_response",
+      "Name": "97596910_sound_88081700",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_generic-02.wav",
+      "DirectParentId": "14766844_random_container_18273264",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_generic_response",
+      "Name": "95654246_sound_35413992",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_generic-03.wav",
+      "DirectParentId": "14766844_random_container_18273264",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_generic_response",
+      "Name": "44258043_sound_91269801",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_generic-04.wav",
+      "DirectParentId": "14766844_random_container_18273264",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_generic_response",
+      "Name": "33465211_sound_26755217",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_halt-01.wav",
+      "DirectParentId": "88912611_random_container_77340560",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_halt",
+      "Name": "60411507_sound_76251308",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_halt-02.wav",
+      "DirectParentId": "88912611_random_container_77340560",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_halt",
+      "Name": "56017301_sound_81749054",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_halt-03.wav",
+      "DirectParentId": "88912611_random_container_77340560",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_halt",
+      "Name": "56069755_sound_28202078",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_move-01.wav",
+      "DirectParentId": "41876027_random_container_25046296",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_move",
+      "Name": "48730752_sound_64540052",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_move-02.wav",
+      "DirectParentId": "41876027_random_container_25046296",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_move",
+      "Name": "31360213_sound_32451173",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_move-03.wav",
+      "DirectParentId": "41876027_random_container_25046296",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_move",
+      "Name": "20917541_sound_20334003",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_move-04.wav",
+      "DirectParentId": "41876027_random_container_25046296",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_move",
+      "Name": "24572249_sound_55051927",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_select-01.wav",
+      "DirectParentId": "25463909_random_container_62057440",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "50262600_sound_34152081",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_select-02.wav",
+      "DirectParentId": "25463909_random_container_62057440",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "96171431_sound_89996051",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_select-03.wav",
+      "DirectParentId": "25463909_random_container_62057440",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "73759084_sound_31113366",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_select-04.wav",
+      "DirectParentId": "25463909_random_container_62057440",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "27427186_sound_85343643",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_select-05.wav",
+      "DirectParentId": "25463909_random_container_62057440",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "36199198_sound_31903801",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_select-06.wav",
+      "DirectParentId": "25463909_random_container_62057440",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "95320047_sound_41686115",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_withdraw-01.wav",
+      "DirectParentId": "77703873_random_container_99195134",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_withdraw",
+      "Name": "41863935_sound_58048798",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_withdraw-02.wav",
+      "DirectParentId": "77703873_random_container_99195134",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_withdraw",
+      "Name": "83709116_sound_86144293",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_withdraw-03.wav",
+      "DirectParentId": "77703873_random_container_99195134",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_withdraw",
+      "Name": "37980245_sound_60943774",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_withdraw_tactical-01.wav",
+      "DirectParentId": "79783533_random_container_82869766",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_withdraw_tactical",
+      "Name": "27469546_sound_40073364",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_withdraw_tactical-02.wav",
+      "DirectParentId": "79783533_random_container_82869766",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_withdraw_tactical",
+      "Name": "22813783_sound_19987635",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier1_Battle_vo_order_withdraw_tactical-03.wav",
+      "DirectParentId": "79783533_random_container_82869766",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "battle_vo_order_withdraw_tactical",
+      "Name": "40943257_sound_73652324",
+      "OverrideId": 0
+    }
+  ],
+  "ActorMixers": [
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "52162731_random_container_56674334"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_attack",
+      "Name": "43748816_mixer_29982368",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "14766844_random_container_18273264"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_generic_response",
+      "Name": "44352154_mixer_12720582",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "88912611_random_container_77340560"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_halt",
+      "Name": "96155590_mixer_32001257",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "41876027_random_container_25046296"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_move",
+      "Name": "64815345_mixer_26449061",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "25463909_random_container_62057440"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_select",
+      "Name": "77492956_mixer_57694596",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "77703873_random_container_99195134"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_withdraw",
+      "Name": "81410666_mixer_33642046",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 1009314120,
+      "Children": [
+        "79783533_random_container_82869766"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "battle_vo_order_withdraw_tactical",
+      "Name": "85064676_mixer_65035547",
+      "OverrideId": 0
+    }
+  ],
+  "RandomContainers": [
+    {
+      "Children": [
+        "28223144_sound_26913237",
+        "45503293_sound_91076380",
+        "56074620_sound_44409543",
+        "28125678_sound_61042658",
+        "21094929_sound_72865735"
+      ],
+      "DirectParentId": "43748816_mixer_29982368",
+      "Name": "52162731_random_container_56674334",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "97596910_sound_88081700",
+        "95654246_sound_35413992",
+        "44258043_sound_91269801",
+        "33465211_sound_26755217"
+      ],
+      "DirectParentId": "44352154_mixer_12720582",
+      "Name": "14766844_random_container_18273264",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "60411507_sound_76251308",
+        "56017301_sound_81749054",
+        "56069755_sound_28202078"
+      ],
+      "DirectParentId": "96155590_mixer_32001257",
+      "Name": "88912611_random_container_77340560",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "48730752_sound_64540052",
+        "31360213_sound_32451173",
+        "20917541_sound_20334003",
+        "24572249_sound_55051927"
+      ],
+      "DirectParentId": "64815345_mixer_26449061",
+      "Name": "41876027_random_container_25046296",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "50262600_sound_34152081",
+        "96171431_sound_89996051",
+        "73759084_sound_31113366",
+        "27427186_sound_85343643",
+        "36199198_sound_31903801",
+        "95320047_sound_41686115"
+      ],
+      "DirectParentId": "77492956_mixer_57694596",
+      "Name": "25463909_random_container_62057440",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "41863935_sound_58048798",
+        "83709116_sound_86144293",
+        "37980245_sound_60943774"
+      ],
+      "DirectParentId": "81410666_mixer_33642046",
+      "Name": "77703873_random_container_99195134",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "27469546_sound_40073364",
+        "22813783_sound_19987635",
+        "40943257_sound_73652324"
+      ],
+      "DirectParentId": "85064676_mixer_65035547",
+      "Name": "79783533_random_container_82869766",
+      "OverrideId": 0
+    }
+  ],
+  "DialogueEvents": [
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 0,
+                "Children_uIdx": 1,
+                "Children_uCount": 1,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": [
+                  {
+                    "Key": 0,
+                    "AudioNodeId": 0,
+                    "Children_uIdx": 1,
+                    "Children_uCount": 1,
+                    "uWeight": 50,
+                    "uProbability": 100,
+                    "Children": [
+                      {
+                        "Key": 0,
+                        "AudioNodeId": 0,
+                        "Children_uIdx": 1,
+                        "Children_uCount": 1,
+                        "uWeight": 50,
+                        "uProbability": 100,
+                        "Children": [
+                          {
+                            "Key": 0,
+                            "AudioNodeId": 0,
+                            "Children_uIdx": 1,
+                            "Children_uCount": 1,
+                            "uWeight": 50,
+                            "uProbability": 100,
+                            "Children": [
+                              {
+                                "Key": 0,
+                                "AudioNodeId": 0,
+                                "Children_uIdx": 1,
+                                "Children_uCount": 1,
+                                "uWeight": 50,
+                                "uProbability": 100,
+                                "Children": [
+                                  {
+                                    "Key": 0,
+                                    "AudioNodeId": 333985815,
+                                    "Children_uIdx": 0,
+                                    "Children_uCount": 0,
+                                    "uWeight": 50,
+                                    "uProbability": 100,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 8,
+      "Name": "battle_vo_order_attack",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 0,
+                "Children_uIdx": 1,
+                "Children_uCount": 1,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": [
+                  {
+                    "Key": 0,
+                    "AudioNodeId": 0,
+                    "Children_uIdx": 1,
+                    "Children_uCount": 1,
+                    "uWeight": 50,
+                    "uProbability": 100,
+                    "Children": [
+                      {
+                        "Key": 0,
+                        "AudioNodeId": 0,
+                        "Children_uIdx": 1,
+                        "Children_uCount": 1,
+                        "uWeight": 50,
+                        "uProbability": 100,
+                        "Children": [
+                          {
+                            "Key": 0,
+                            "AudioNodeId": 3915235229,
+                            "Children_uIdx": 0,
+                            "Children_uCount": 0,
+                            "uWeight": 50,
+                            "uProbability": 100,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 6,
+      "Name": "battle_vo_order_generic_response",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 990487228,
+                "Children_uIdx": 0,
+                "Children_uCount": 0,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 3,
+      "Name": "battle_vo_order_halt",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 0,
+                "Children_uIdx": 1,
+                "Children_uCount": 1,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": [
+                  {
+                    "Key": 0,
+                    "AudioNodeId": 0,
+                    "Children_uIdx": 1,
+                    "Children_uCount": 1,
+                    "uWeight": 50,
+                    "uProbability": 100,
+                    "Children": [
+                      {
+                        "Key": 0,
+                        "AudioNodeId": 0,
+                        "Children_uIdx": 1,
+                        "Children_uCount": 1,
+                        "uWeight": 50,
+                        "uProbability": 100,
+                        "Children": [
+                          {
+                            "Key": 0,
+                            "AudioNodeId": 0,
+                            "Children_uIdx": 1,
+                            "Children_uCount": 1,
+                            "uWeight": 50,
+                            "uProbability": 100,
+                            "Children": [
+                              {
+                                "Key": 0,
+                                "AudioNodeId": 0,
+                                "Children_uIdx": 1,
+                                "Children_uCount": 1,
+                                "uWeight": 50,
+                                "uProbability": 100,
+                                "Children": [
+                                  {
+                                    "Key": 0,
+                                    "AudioNodeId": 2057631811,
+                                    "Children_uIdx": 0,
+                                    "Children_uCount": 0,
+                                    "uWeight": 50,
+                                    "uProbability": 100,
+                                    "Children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 8,
+      "Name": "battle_vo_order_move",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 0,
+                "Children_uIdx": 1,
+                "Children_uCount": 1,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": [
+                  {
+                    "Key": 0,
+                    "AudioNodeId": 0,
+                    "Children_uIdx": 1,
+                    "Children_uCount": 1,
+                    "uWeight": 50,
+                    "uProbability": 100,
+                    "Children": [
+                      {
+                        "Key": 0,
+                        "AudioNodeId": 0,
+                        "Children_uIdx": 1,
+                        "Children_uCount": 1,
+                        "uWeight": 50,
+                        "uProbability": 100,
+                        "Children": [
+                          {
+                            "Key": 0,
+                            "AudioNodeId": 516403132,
+                            "Children_uIdx": 0,
+                            "Children_uCount": 0,
+                            "uWeight": 50,
+                            "uProbability": 100,
+                            "Children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 6,
+      "Name": "battle_vo_order_select",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 0,
+                "Children_uIdx": 1,
+                "Children_uCount": 1,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": [
+                  {
+                    "Key": 0,
+                    "AudioNodeId": 4077364719,
+                    "Children_uIdx": 0,
+                    "Children_uCount": 0,
+                    "uWeight": 50,
+                    "uProbability": 100,
+                    "Children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 4,
+      "Name": "battle_vo_order_withdraw",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 2048671553,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 543101176,
+                "AudioNodeId": 1830948267,
+                "Children_uIdx": 0,
+                "Children_uCount": 0,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 3,
+      "Name": "battle_vo_order_withdraw_tactical",
+      "OverrideId": 0
+    }
+  ],
+  "DatStates": [
+    "ovn_vo_culture_Araby",
+    "ovn_vo_actor_Araby_Sorcerer_Hero1",
+    "Any"
+  ]
+}

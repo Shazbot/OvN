@@ -1,8 +1,8 @@
 alternate_unit	base_unit	type_category	type_icon	show_base_in_unit_list	id	colour	sort_order
 #units_custom_battle_types_tables;3;db/units_custom_battle_types_tables/ovn_fimir_only							
-fim_cha_dirach_fire	fim_cha_dirach_fire	type_spell_lore		true	92112271	FFFFFF	30
-fim_cha_dirach_shadow	fim_cha_dirach_fire	type_spell_lore		false	92112272	FFFFFF	90
-fim_cha_dirach_beast	fim_cha_dirach_fire	type_spell_lore		false	92112273	FFFFFF	70
-fim_cha_dirach_death	fim_cha_dirach_fire	type_spell_lore		false	92112274	FFFFFF	80
-wh_dlc08_nor_cha_fimir_balefiend_beast	wh_dlc08_nor_cha_fimir_balefiend_fire_0	type_spell_lore		false	92112275	FFFFFF	70
-wh_dlc08_nor_cha_fimir_balefiend_death	wh_dlc08_nor_cha_fimir_balefiend_fire_0	type_spell_lore		false	92112276	FFFFFF	80
+fim_cha_dirach_fire	fim_cha_dirach_fire	type_spell_lore		true	92112308	FFFFFF	30
+fim_cha_dirach_shadow	fim_cha_dirach_fire	type_spell_lore		false	92112309	FFFFFF	90
+fim_cha_dirach_beast	fim_cha_dirach_fire	type_spell_lore		false	92112310	FFFFFF	70
+fim_cha_dirach_death	fim_cha_dirach_fire	type_spell_lore		false	92112311	FFFFFF	80
+wh_dlc08_nor_cha_fimir_balefiend_beast	wh_dlc08_nor_cha_fimir_balefiend_fire_0	type_spell_lore		false	92112312	FFFFFF	70
+wh_dlc08_nor_cha_fimir_balefiend_death	wh_dlc08_nor_cha_fimir_balefiend_fire_0	type_spell_lore		false	92112313	FFFFFF	80

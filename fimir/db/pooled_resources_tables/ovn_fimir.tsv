@@ -1,8 +1,8 @@
-key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors
-#pooled_resources_tables;1;db/pooled_resources_tables/ovn_fimir													
-ovn_fimir_slaves	1000	0	false	wh2_main_resource_factor_other	icon_slaves.png	END_OF_ROUND	false	FACTION	false	0		false	true
-ovn_fim_skattach_slaves_spent_kho	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_khorne.png	END_OF_ROUND	false	FACTION	false	1		false	true
-ovn_fim_skattach_slaves_spent_nur	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_nurgle.png	END_OF_ROUND	false	FACTION	false	1		false	true
-ovn_fim_skattach_slaves_spent_sla	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_slaanesh.png	END_OF_ROUND	false	FACTION	false	1		false	true
-ovn_fim_skattach_slaves_spent_tze	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_tzeentch.png	END_OF_ROUND	false	FACTION	false	1		false	true
-ovn_fim_skattach_slaves_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors	can_scale_effect_thresholds_per_unit
+#pooled_resources_tables;2;db/pooled_resources_tables/ovn_fimir														
+ovn_fimir_slaves	1000	0	false	wh2_main_resource_factor_other	icon_slaves.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+ovn_fim_skattach_slaves_spent_kho	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_khorne.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+ovn_fim_skattach_slaves_spent_nur	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_nurgle.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+ovn_fim_skattach_slaves_spent_sla	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_slaanesh.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+ovn_fim_skattach_slaves_spent_tze	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_tzeentch.png	END_OF_ROUND	false	FACTION	false	1		false	true	false
+ovn_fim_skattach_slaves_spent_und	2147483647	0	false	wh2_main_resource_factor_other	icon_soul_hybrid_undivided.png	END_OF_ROUND	false	FACTION	false	1		false	true	false

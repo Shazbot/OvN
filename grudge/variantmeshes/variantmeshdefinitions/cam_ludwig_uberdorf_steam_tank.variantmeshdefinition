@@ -1,7 +1,6 @@
 <VARIANT_MESH>
-	<SLOT name="engine" >
-		<VARIANT_MESH model="warmachines/engines/imperial_steam_tank_ludwig_von_uberdorf/imperial_steam_tank_ludwig_von_uberdorf.wsmodel" >
-			<META_DATA>audio_entity_type:wh_war_machine_steamtank</META_DATA>
-		</VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="warmachines/engines/ovn_imperial_steam_tank_ludwig_von_uberdorf/imperial_steam_tank_ludwig_von_uberdorf.wsmodel" >
+			<META_DATA>audio_material:metal</META_DATA>			<META_DATA>audio_entity_type:wh_war_machine_steamtank</META_DATA></VARIANT_MESH>
 	</SLOT>
 </VARIANT_MESH>

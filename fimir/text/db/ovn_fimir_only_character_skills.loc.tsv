@@ -1,0 +1,80 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_only_character_skills.loc		
+character_skills_localised_name_fimir_ranged_units	Death from Afar	true
+character_skills_localised_description_fimir_ranged_units	It's hard to aim with only one eye, but the Fimir still use limited numbers of ranged troops.	true
+character_skills_localised_name_fimir_sacrifices	Born to Fight	true
+character_skills_localised_description_fimir_sacrifices	Crude they may be, the skill and might of the Fimir Warriors makes them terrifying opponents.	true
+character_skills_localised_name_fimir_riders_doggos	Swift Raiders	true
+character_skills_localised_description_fimir_riders_doggos	Fimir aren’t the fastest creatures, but they understand the value of mobility on the battlefield. Therefore, they tame the faster, corrupted, and dangerous beasts of their swampland homes to gain a tactical advantage.	true
+character_skills_localised_name_fimir_bog_monsters	Creatures of the Dark Bogs	true
+character_skills_localised_description_fimir_bog_monsters	The Fimir aren’t the only monsters inhabiting the swamps. Weaker or small-minded creatures are subjugated and used to bolster the ranks of Fimir armies.	true
+character_skills_localised_name_fimir_swamp_warriors	Pride of the Caste	true
+character_skills_localised_description_fimir_swamp_warriors	The larger and stronger Fimir are used as shock troops, with devastating effect on the enemy.	true
+character_skills_localised_name_fimir_fen_giants	Terrors from the Fens	true
+character_skills_localised_description_fimir_fen_giants	Fimir are often accompanied by bigger, more terrifying swamp dwellers. Make no mistake though, the Fimir are the masters of these creatures and will use them with ruthless cunning.	true
+character_skills_localised_name_fimir_r7_warriors	Masters of Battle	true
+character_skills_localised_description_fimir_r7_warriors	Few can hope to overcome the veterans of the warrior caste in battle. Luckily, they are few in number.	true
+character_skills_localised_name_fimir_r7_elite_monsters	Deadly Devourers	true
+character_skills_localised_description_fimir_r7_elite_monsters	Starved monsters, driven by hatred and hunger. They will fight with reckless abandon against the foes of the Fimir.	true
+character_skills_localised_name_fimir_r7_fast_beasts	Experienced Raiders	true
+character_skills_localised_description_fimir_r7_fast_beasts	Fimir are not famous for their hit and run tactics, partly because only a few who encounter them live to tell the tale.	true
+character_skills_localised_name_fimir_r7_elite_giants	Heralds of Doom	true
+character_skills_localised_description_fimir_r7_elite_giants	Nothing brings fear to the heart like the trembling of the ground these abominations cause with every step.	true
+character_skills_localised_name_fimir_worthless_slaves	Worthless Slaves	true
+character_skills_localised_description_fimir_worthless_slaves	They have no worth. Their lives have no worth. They merely exist to die for the dark gods. Now drown your enemies in a tide of bodies.	true
+character_skills_localised_name_fimir_warrior_elite	Warrior Elite	true
+character_skills_localised_description_fimir_warrior_elite	The elite of the Fimir warrior caste are unmatched in skill. Luckily for the civilized races, the Fimir can rarely afford to field many of such might at once.	true
+character_skills_localised_name_fimir_untamed_monsters	Untamed Monstrosities	true
+character_skills_localised_description_fimir_untamed_monsters	The Fimir sometimes leave the will of captured beasts unbroken, releasing them ahead of the army to sow havoc. This tactic preserves their natural ferocity, but makes them difficult to control.	true
+character_skills_localised_name_elo_fimir_from_mists	From the Mists	true
+character_skills_localised_description_elo_fimir_from_mists	From the mists they came, unseen until it was too late. And in the mist they vanished again, once their bloody work was done.	true
+character_skills_localised_name_elo_fimir_witness_me	Under the Eyes of the Gods	true
+character_skills_localised_description_elo_fimir_witness_me	The Fimir will do anything for but a moment of attention from the Dark Gods. No act of bravery is too foolhardy, no act of cruelty too savage.	true
+character_skills_localised_name_elo_champions_chaos_r7	Ambitious Elites	false
+character_skills_localised_description_elo_champions_chaos_r7	Many mighty champions have flocked to Bel'akors banner, always honing their own skill in battle to serve their Dark Master and reap the promised rewards.	false
+character_skills_localised_name_fim_meargh_skattach_innate	Pretender Hell-Mother	true
+character_skills_localised_description_fim_meargh_skattach_innate	Having been ousted from her fortress at Schadensumpf by the ever-encroaching humans, Skattach has descended into insanity. Having regrouped in the misty coasts of the northern Wastelands, she has crowned herself Hell-Mother, ruler of all Fimir.	true
+character_skills_localised_name_fim_meargh_skattach_ancient_leadership	Ancient Leadership	false
+character_skills_localised_description_fim_meargh_skattach_ancient_leadership	The Meargh are the respected and feared witch-queens of the Fimir. Skattach is at her prime as a Meargh, having ruled over her Clan for 800 hundred years.	false
+character_skills_localised_name_fim_meargh_skattach_death_quest	Skattach's Fianna	false
+character_skills_localised_description_fim_meargh_skattach_death_quest	From the moment took on the hated mantle of the Fimir Hell-Mother, Skattach keeps a personal guard of the most elite, skilled and loyal Fianna Fimm of her clan, lest any ambitious Dirach gets the wrong idea and tries to replace her with a more pliable Meargh.	false
+character_skills_localised_name_fim_meargh_skattach_poison_mist	Poison Mist	false
+character_skills_localised_description_fim_meargh_skattach_poison_mist	All Meargs naturally exude a magical mist that poisons and dazes all non-Fimir. Skattach's Mist is a particularly noxious one.	false
+character_skills_localised_name_fim_meargh_skattach_maddened_mother	Skattach's Megalomania	false
+character_skills_localised_description_fim_meargh_skattach_maddened_mother	After surviving an assassination attempt by one of her own Dirach advisers and subsequently being driven from her ancestral stronghold by humans, Skattach has descended into such a state of crazed megalomania that it has further empowered her already considerable magical abilities and natural resilience.	false
+character_skills_localised_name_fim_meargh_skattach_witch_queen	Witch-Queen of the Fimir	false
+character_skills_localised_description_fim_meargh_skattach_witch_queen	Being one of the Meargh, Skattach is a fearsome sorceress, able to easily manipulate the Winds of Magic, and even lend some of her arcane acumen to the lesser Dirach males.	false
+character_skills_localised_name_fim_skattach_summon_swampdaemons	Master Daemonologist	false
+character_skills_localised_description_fim_skattach_summon_swampdaemons	Fimir possess a natural aptitude for summoning daemons, said to come from their half-daemonic heritage. The Meargh summon them with ease, casually binding thousands of lesser daemons each day to serve as servants and warriors.	false
+character_skills_localised_name_fim_meargh_skattach_anc_staff_balor	Staff of Balor's Eye	false
+character_skills_localised_description_fim_meargh_skattach_anc_staff_balor	At the tip of this magical staff rests an ancient Fimir artifact known as Balor’s Eye - a magically preserved eye said to belong to the mysterious Fimir god, able to open a rift into the Realm of Chaos and suck all of the user’s enemies within.	false
+character_skills_localised_name_fim_meargh_skattach_anc_hellmother_crown	Crown of the Hell-Mother	false
+character_skills_localised_description_fim_meargh_skattach_anc_hellmother_crown	This thorny metal crown once belonged to the First Hell-Mother - a Meargh who united all the ancient Fimir clans. She was a potent sorceress who placed many warding and magic-amplifying enchantments upon her crown. Skattach recently rediscovered it in what she claims to be the ruins of the Wandering Isle, the ancient lost homeland of the Fimir, and used it to claim the controversial mantle of the Hell-Mother.	false
+character_skills_localised_name_ovn_fim_dirach_hidden_title		false
+character_skills_localised_description_ovn_fim_dirach_hidden_title		false
+character_skills_localised_description_anc_boglar_shaman_hound	Boglar Shamans are often gifted Moor Hounds by the Fimir. Such gifts can serve as either reward or punishment - if the Hound devours the Shaman, it was a punishment; if the Shaman tames it, a reward.	true
+character_skills_localised_name_anc_boglar_shaman_hound	Moor Hound	true
+character_skills_localised_description_anc_fimirach_noble_mount	The highest-ranking nobles often ride into battle atop mighty Bog Beasts.	true
+character_skills_localised_name_anc_fimirach_noble_mount	Bog Beast	true
+character_skills_localised_name_fim_daemon_octopus_kroll_innate	The All-Mother	true
+character_skills_localised_description_fim_daemon_octopus_kroll_innate	A being as ancient as the world possessing great malice and intellect, Kroll is a Daemon Princess unaligned to any of the Great Powers, and worshipped as mother of the Bog Octopuses and ruler of the cursed bogs by the Fimir.	true
+character_skill_node_sets_enc_title_node_set_fimir_daemon_octopus_kroll	Kroll Skills	true
+character_skills_localised_name_fim_kroll_unique_0	Mother of a Thousand Young	true
+character_skills_localised_description_fim_kroll_unique_0	Ever the nurturing mother, Kroll's love for her children has no bounds, as she devours foes, all those she considers her progeny - Fimir, Bog Octopuses and others - are fed the regurgigated remains and revitalised.	true
+character_skills_localised_name_fim_kroll_unique_1	Nameless Thing	true
+character_skills_localised_description_fim_kroll_unique_1	Kroll has survived for aeons, and the Fimir claim she's as old as the world itself. Whatever the truth, the many weapons and trinkets of would-be slayers that cover her form can attest to her endurance.	true
+character_skills_localised_name_fim_kroll_unique_2	Terrible Tentacles	true
+character_skills_localised_description_fim_kroll_unique_2	The grip of Kroll's colossal tentacles has such strenght that it can crush armour, flesh and bones in a matter of seconds. No foe who has been trapped in her embrace has lived to tell the tale.	true
+character_skills_localised_name_fim_kroll_unique_3	Bog Matriarch	true
+character_skills_localised_description_fim_kroll_unique_3	In the presence of Kroll, both her earthly children - the Bog Octopuses - and the other supernatural denizens of the marsh fight with greater cunning and ferocity, for now they are guided not by instinct alone, but by the will of the Great Mother.	true
+character_skills_localised_name_fim_kroll_unique_4	Broodmother	true
+character_skills_localised_description_fim_kroll_unique_4	Kroll has been known to implant her magical eggs in the bodies of her still living prey, eggs which then grow quickly feeding on the soul essence of the victim, ending with a Bog Octopus hatchling busting out of the doomed victim.	true
+character_skills_localised_name_fim_kroll_unique_5	Daemon Princess of the Fimir	true
+character_skills_localised_description_fim_kroll_unique_5	Whatever the truth of her origins, it is certain that Kroll is now a creature of the Empyrean, and that the worship and sacrifices dedicated to her greatly empower her physical form. Beholden to none of the Four, Kroll plans to one day achieve her own apotheosis as goddess of the Fimir.	true
+character_skill_level_details_localised_name_1fim_meargh_skattach_anc_throne_hellmother	Throne of the Hell-Mother	true
+character_skill_level_details_localised_description_1fim_meargh_skattach_anc_throne_hellmother	Whether it is the genuine article or a replica made for her is unknown, but Skattach claims it to be the original throne of the mythical Hell-Mother, ruler of all Fimir. It is borne aloft by four of Skattach’s most trusted Fianna Guardians.	true
+character_skills_localised_name_fim_meargh_skattach_anc_throne_hellmother	Throne of the Hell-Mother	true
+character_skills_localised_description_fim_meargh_skattach_anc_throne_hellmother	Whether it is the genuine article or a replica made for her is unknown, but Skattach claims it to be the original throne of the mythical Hell-Mother, ruler of all Fimir. It is borne aloft by four of Skattach’s most trusted Fianna Guardians.	true
+effects_description_fim_skattach_enable_throne_mount	Mount: Throne of the Hell-Mother	true
+character_skills_localised_name_fim_devoted_of_chaos	Devoted of Fimúl	true
+character_skills_localised_description_fim_devoted_of_chaos	No act of faith among the Fimir rivals the sacrifice of captured slaves - a dark and twisted offering to the Mud-Father Fimúl and his children.	true

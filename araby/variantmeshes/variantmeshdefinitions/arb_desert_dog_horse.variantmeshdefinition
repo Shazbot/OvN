@@ -1,0 +1,12 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hr1\arb\rigid\arb_arabyan_horse_base_02.wsmodel" >
+			<META_DATA>audio_armour_type:leather</META_DATA>			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA></VARIANT_MESH>
+	</SLOT>
+
+	<SLOT name="saddle" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hr1\arb\rigid\arb_arabyan_horse_saddle_muktar_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hr1\arb\rigid\arb_arabyan_horse_saddle_muktar_02.wsmodel" />
+	</SLOT>
+
+</VARIANT_MESH>

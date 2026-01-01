@@ -1,0 +1,5 @@
+key	image_path
+#ui_tagged_images_tables;0;db/ui_tagged_images_tables/ovn_araby_only	
+icon_fatandira_allegiance	ui/common ui/unit_category_icons/wh2_dlc09_tmb_hierotitan_magic_scales.png
+icon_nomad_chiefs	ui/campaign ui/effect_bundles/nomad_influence.png
+icon_urban_elites	ui/campaign ui/effect_bundles/urban_influence.png

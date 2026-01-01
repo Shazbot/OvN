@@ -1,0 +1,7 @@
+anim_set	group
+#animation_set_prebattle_group_junctions_tables;0;db/animation_set_prebattle_group_junctions_tables/ovn_fimir_only	
+cam_hu7_fim_2h_mounted	default_mounted
+cam_hu7_skattach_throne	default_mounted
+cam_lord_hc5_kroll	monster_hunts
+cam_lord_lz1_bogbeast	large
+cam_th7d_hellmother_throne	chariots

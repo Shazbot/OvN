@@ -51,6 +51,9 @@ morgan_bernhardt_war_11	morgan_bernhardt_war_10	0	1	1	0.0000	0.0000	SUBSET_REQUI
 morgan_bernhardt_per_02	morgan_bernhardt_per_01	0	1	1	0.0000	0.0000	REQUIRED
 morgan_bernhardt_per_04	morgan_bernhardt_per_01	0	1	1	0.0000	0.0000	REQUIRED
 morgan_bernhardt_per_03	morgan_bernhardt_per_01	0	1	1	0.0000	0.0000	REQUIRED
+morgan_bernhardt_per_05	morgan_bernhardt_per_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+morgan_bernhardt_per_05	morgan_bernhardt_per_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+morgan_bernhardt_per_05	morgan_bernhardt_per_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 wh2_dlc13_skill_node_matthias_self_02	wh2_dlc13_skill_node_matthias_self_01	0	1	1	0.0000	0.0000	REQUIRED
 wh2_dlc13_skill_node_matthias_self_03	wh2_dlc13_skill_node_matthias_self_01	0	1	1	0.0000	0.0000	REQUIRED
 wh2_dlc13_skill_node_matthias_self_04	wh2_dlc13_skill_node_matthias_self_01	0	1	1	0.0000	0.0000	REQUIRED

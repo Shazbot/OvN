@@ -1,4 +1,5 @@
-model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-#campaign_mounts_tables;8;db/campaign_mounts_tables/ovn_fimir_only							
-fim_moorhound	cam_wf1_giant_wolf	fim_moor_hounds	1.0000	wh_main_vo_culture_Wolf	false	0	false
-cam_fim_skattach_throne	cam_th7d_hellmother_throne	fim_meargh_skattach_palanquin	0.8000	wh_main_vo_culture_Var_Creature	false	0	false
+model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount	prebattle_separation_offset
+#campaign_mounts_tables;9;db/campaign_mounts_tables/ovn_fimir_only								
+fim_moorhound	cam_wf1_giant_wolf	fim_moor_hounds	1.0000	wh_main_vo_culture_Wolf	false	0	false	0.0000
+cam_fim_skattach_throne	cam_th7d_hellmother_throne	fim_meargh_skattach_palanquin	0.8000	wh_main_vo_culture_Var_Creature	false	0	false	0.0000
+cam_fim_bogbeast_lord	cam_lord_lz1_bogbeast	fim_bog_beast_lord	0.8000	wh2_main_vo_culture_Cold_One	false	0	false	0.0000

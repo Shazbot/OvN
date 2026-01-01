@@ -1,0 +1,14 @@
+agent_subtype	campaign_type
+#campaign_to_agent_subtypes_tables;0;db/campaign_to_agent_subtypes_tables/ovn_araby_only	
+arb_sultan_jaffar	wh3_main_combi
+arb_fatandira	wh3_main_combi
+arb_golden_magus	wh3_main_combi
+arb_sheikh_mehmed	wh3_main_combi
+arb_sultan_jaffar	cr_combi_expanded
+arb_fatandira	cr_combi_expanded
+arb_golden_magus	cr_combi_expanded
+arb_sheikh_mehmed	cr_combi_expanded
+arb_sultan_jaffar	cr_oldworld
+arb_fatandira	cr_oldworld
+arb_golden_magus	cr_oldworld
+arb_sheikh_mehmed	cr_oldworld

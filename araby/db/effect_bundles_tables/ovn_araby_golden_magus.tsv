@@ -1,0 +1,12 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/ovn_araby_golden_magus								
+rhox_araby_wh2_dlc11_ror_reward_1	A beautiful centrepiece of the frigid ocean, cursed by the Ruinous Ones’ rejection of those who worshipped them so vehemently.	The Pearl of the Kraken Sea	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_2	You need the luckiest of lucky charms to tinker with the Dark Arts, especially if unprepared for their deathly consequences…	Lucky Levi’s Keepsake	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_3	A most rare mintage of Estalian silver, above which flying horrors of the sky seem to gather and circle.	The Doubloon of Castelo Novo	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_4	The only Vorgo gold outside of the southern Grey Mountains is cursed with the anguish of hungry, insatiable ghouls.	The Vorgo Nugget	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_5	A mysterious glob of Athel Loren amber, enchanted to ensure that even dead flesh will never remain idle.	Panteleon’s Pendant	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_6	Only this final gold bar can manifest the trigger-happy apparitions that serve the Shadewraith’s ghostly turncoat captain.	Von Zeich’s Last Ingot	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_7	The great warriors’ souls trapped within wait to be returned to this plain as terrifying sentries in service to the admirals of the night.	The Stone of Schwartzhafen	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_wh2_dlc11_ror_reward_8	The wrath of Vanhel is harnessed within these golden ingots, primed for release in monstrous proportions.	The Cursed Bullion of Bogenhafen	faction	1	cst_piece_of_eight.png	true	false	true
+rhox_araby_bundle_sea_shanty_complete	You've collected the whole shanty and become a pirate legend!	Pirate of Legend	faction	1	cst_infamy.png	true	false	true
+rhox_araby_bundle_stance_army_channelling_digging	Increases the favourability of the Winds of Magic while searching for valuable treasure in the area	Stance: Channelling and Digging for treasure	force	1	wizard.png	true	false	true

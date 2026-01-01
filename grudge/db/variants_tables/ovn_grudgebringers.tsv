@@ -22,6 +22,7 @@ grudgebringer_cavalry_klaus		grudgebringer_cavalry_klaus	hu1/emp/low_poly/emp_re
 grudgebringer_cavalry_banner_officer		grudgebringer_cavalry_banner_officer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
 grudgebringer_infantry_banner_officer		grudgebringer_infantry_banner_officer	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0500	hu1\imposter\humanoid_imposter
 ice_mage_vladimir_stormbringer		ice_mage_vladimir_stormbringer		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+ice_mage_vladimir_stormbringer_rider		ice_mage_vladimir_stormbringer		1.0000	1.0000	0.0000	
 morgan_bernhardt_mount		morgan_bernhardt	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
 morgan_bernhardt_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	morgan_bernhardt_horse	hr1\emp\emp_horse\low_poly\emp_horse_lowlod	1.0000	1.1500	0.0000	
 grudgebringer_crossbow_banner		grudgebringer_crossbow_banner	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
@@ -70,7 +71,7 @@ ludwig_uberdorf_mount_variant_name		ludwig_uberdorf_mount		1.0000	1.1500	0.0000
 ludwig_uberdorf_gyrobomber_variant_name		ludwig_uberdorf_gyrobomber		1.0000	1.1500	0.0000	
 ludwig_uberdorf_steam_tank_variant_name		ludwig_uberdorf_steam_tank		1.0000	1.1500	0.0000	
 cam_ludwig_uberdorf_mount_variant_name		cam_ludwig_uberdorf_mount		1.0000	1.1500	0.0000	
-cam_ludwig_uberdorf_steam_tank	warmachines/engines/imperial_steam_tank_ludwig_von_uberdorf/techcam	cam_ludwig_uberdorf_steam_tank		1.0000	1.1500	0.0000	
+cam_ludwig_uberdorf_steam_tank	warmachines/engines/emp_steam_tank/tech_campaign	campaign_ludwig_steam_tank		1.0000	0.8000	0.0000	
 dwarf_envoy_dwarf_warriors		dwarf_envoy_dwarf_warriors	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0500	hu3/dwf/dwf_warriors/low_poly/super_imposter
 ceridan		ceridan		1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 dwarf_envoy		dwarf_envoy		1.0000	1.0000	0.0000	
@@ -80,7 +81,7 @@ grudgebringer_infantry_officer		grudgebringer_infantry_officer	hu1\emp\emp_state
 grudgebringer_crossbow_officer		grudgebringer_crossbow_officer	hu1\emp\low_poly\emp_state_troops_handgunners_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 black_avangers_officer		black_avangers_officer	hu1\emp\emp_free_company\low_poly\emp_free_company_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 carlsson_cavalry_officer		carlsson_cavalry_officer	hu1/brt/brt_questing_knights/imposter/brt_questing_knights_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
-countess_guard_officer		countess_guard_officer	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	0.9000	0.0000	hu1\imposter\humanoid_imposter
+countess_guard_officer		countess_guard_officer	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 countess_guard_officer1		countess_guard_officer1	hu1\emp\low_poly\emp_state_troops_halberdiers_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 vannheim_75th_officer		vannheim_75th_officer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0000	
 azguz_bloodfist_dwarf_warriors_officer		azguz_bloodfist_dwarf_warriors_officer	hu3/dwf/dwf_warriors/low_poly/dwf_warriors_lowlod	1.0000	1.0000	0.0000	hu3/dwf/dwf_warriors/low_poly/super_imposter
@@ -146,3 +147,19 @@ reiksguard_knights_todbringer		reiksguard_knights_todbringer	hu1/emp/low_poly/em
 reiksguard_knights_todbringer_officer		reiksguard_knights_todbringer_officer	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 reiksguard_knights_todbringer_banner		reiksguard_knights_todbringer_banner	hu1/emp/low_poly/emp_reiksguard_lowlod	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
 grudgebringer_infantry_musician		grudgebringer_infantry_musician	hu1\emp\emp_state_troops\imposter\emp_state_troops_imposter	1.0000	1.0000	0.0000	hu1\imposter\humanoid_imposter
+ilmarin		ilmarin		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+allor		allor		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+outlaw_infantry_dread_banner		jurgen_muntz_outlaw_infantry_banner_officer		1.0000	1.0000	0.0500	
+vladimir_stormbringer_mount	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ksl_vlad_horse	hr1/ksl/ksl_horse/ksl_horse_heavy_white_01_imposter	1.0000	1.0000	0.0000	
+ludwig_uberdorf_mechanical_steed		ludwig_uberdorf_mechanical_steed		1.0000	1.1500	0.0000	
+ludwig_uberdorf_mechanical_steed_horse	VariantMeshes\wh_variantmodels\hr1\emp\emp_warbeast_horse\tech	ludwig_uberdorf_mechanical_steed_horse		1.0000	1.1500	0.0000	hu1\imposter\humanoid_imposter
+matthias_war_wagon		matthias		1.0000	1.0000	0.0000	
+mattias_war_wagon_charioteer		mattias_war_wagon_charioteer		1.0000	0.9000	0.0000	
+matthias_emp_free_company_militia		matthias_emp_free_company_militia		1.0000	1.0000	0.0000	
+matthias_emp_witch_hunter		matthias_emp_witch_hunter		1.0000	1.0000	0.0000	
+matthias_emp_demigryph		matthias_emp_demigryph		1.0000	1.0000	0.0000	
+emp_witch_hunter_rifle		emp_witch_hunter_rifle		1.0000	1.0000	0.0000	
+oath_stone_bearers_dwarf_envoy	variantmeshes\wh_variantmodels\throne01\dwf_shield_bearers\tech	dwarf_envoy_oath_stone		1.0000	1.0000	0.0000	
+dwarf_envoy_oath_stone		dwarf_envoy		1.0000	1.0000	0.0000	
+dwarf_envoy_oath_stone_campaign		dwarf_envoy		1.0000	1.0000	0.0000	
+ludwig_uberdorf_steam_tank_cannon		cam_ludwig_uberdorf_steam_tank_cannon		1.0000	1.0000	0.0000	

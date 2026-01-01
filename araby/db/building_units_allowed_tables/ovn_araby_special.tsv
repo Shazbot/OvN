@@ -1,0 +1,15 @@
+key	building	unit	XP	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_araby_special						
+345369063	ovn_special_portal_of_twilight	ovn_arb_tze_inf_blue_horrors_0	0	0		false
+345369064	ovn_special_portal_of_twilight	ovn_arb_tze_inf_pink_horrors_0	0	0		false
+345369132	ovn_special_palace_of_the_great_sultan	ovn_arb_inf_arabyan_guard	0	0		false
+345369133	ovn_special_galleons_graveyard_magus_djinn	ovn_arb_mon_genie	0	0		false
+345369134	ovn_special_galleons_graveyard_magus_djinn	ovn_arb_cav_flying_carpets	0	0		false
+345369135	ovn_special_galleons_graveyard_magus_djinn	ovn_arb_mon_enchanted_rope	0	0		false
+345369136	ovn_special_galleons_graveyard_magus_tzeentch	ovn_arb_tze_mon_lord_of_change_0	0	0		false
+345369137	ovn_special_galleons_graveyard_magus_tzeentch	ovn_arb_tze_inf_blue_horrors_0	0	0		false
+345369138	ovn_special_galleons_graveyard_magus_tzeentch	ovn_arb_tze_inf_pink_horrors_0	0	0		false
+345369139	ovn_special_galleons_graveyard_magus_tzeentch	ovn_arb_tze_mon_flamers_0	0	0		false
+345369140	ovn_special_galleons_graveyard_magus_tzeentch	ovn_arb_tze_mon_screamers_0	0	0		false
+345369141	ovn_special_tomb_of_the_death_scarab	ovn_arb_tmb_mon_ushabti_0	0	0		false
+345369142	ovn_special_tomb_of_the_death_scarab	ovn_arb_tmb_mon_ushabti_1	0	0		false

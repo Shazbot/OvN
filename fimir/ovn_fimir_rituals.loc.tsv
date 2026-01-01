@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_fimir_rituals.loc		
-rituals_description_ovn_fimir_fog_diktat	With a great expenditure of slave lives Fimir can blanket a whole province in an inpenetrable fog.	false
-rituals_display_name_ovn_fimir_fog_diktat	Unnatural Fog	false
-rituals_description_ovn_fimir_growth_diktat	Work the slaves until they're near death and then sacrifice them.	false
-rituals_display_name_ovn_fimir_growth_diktat	Slave Built	false

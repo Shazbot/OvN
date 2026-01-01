@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/!!!ovn_grudge						
 260589105	wh_main_emp_cha_grudge_recruit_1	wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	0	0		false
 260589106	wh_main_emp_cha_grudge_recruit_2	wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	0	0		false

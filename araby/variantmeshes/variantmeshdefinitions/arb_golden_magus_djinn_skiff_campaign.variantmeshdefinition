@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="boat" >
+		<VARIANT_MESH model="warmachines/chariot/arb_golden_magus_ship/arb_golden_magus_ship_01.wsmodel" >
+			<META_DATA>audio_material:wood</META_DATA>			<META_DATA>audio_entity_type:wh3_cth_war_machine_kong_ming_sky_junk</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

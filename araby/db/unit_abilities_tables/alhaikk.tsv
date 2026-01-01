@@ -1,0 +1,8 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/alhaikk											
+alhaikk_palace	false	arb_jaffar_human_form		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false
+alhaikk_harbor	false	ovn_unit_abilities_air_skiff_broadside_left		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false
+alhaikk_bazaar	false	ovn_sturdy_beasts		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false
+alhaikk_temple	false	arb_golden_magus_master_djinn		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false
+alhaikk_nomad	false	arb_fatandira_aimed_shot		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false
+alhaikk_barracks	false	ovn_arb_al_muktar		wh_type_augment		wh_main_anc_group_unique	false	false	passive		false

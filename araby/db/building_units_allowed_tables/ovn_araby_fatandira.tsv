@@ -1,0 +1,16 @@
+key	building	unit	XP	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_araby_fatandira						
+52352221	ovn_special_tomb_king_crypt_1	wh2_dlc09_tmb_inf_nehekhara_warriors_0	0	0		false
+52352222	ovn_special_tomb_king_crypt_1	wh2_dlc09_tmb_veh_skeleton_chariot_0	0	0		false
+52352223	ovn_special_tomb_king_crypt_2	wh2_dlc09_tmb_cav_nehekhara_horsemen_0	0	0		false
+52352224	ovn_special_tomb_king_crypt_2	wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	0	0		false
+52352225	ovn_special_tomb_king_crypt_2	wh2_dlc09_tmb_inf_nehekhara_warriors_0	0	0		false
+52352226	ovn_special_tomb_king_crypt_2	wh2_dlc09_tmb_veh_skeleton_chariot_0	0	0		false
+52352227	ovn_special_tomb_king_crypt_3	wh2_dlc09_tmb_inf_tomb_guard_0	0	0		false
+52352228	ovn_special_tomb_king_crypt_3	wh2_dlc09_tmb_inf_tomb_guard_1	0	0		false
+52352229	ovn_special_tomb_king_crypt_3	wh2_dlc09_tmb_cav_nehekhara_horsemen_0	0	0		false
+52352230	ovn_special_tomb_king_crypt_3	wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	0	0		false
+52352231	ovn_special_tomb_king_crypt_3	wh2_dlc09_tmb_inf_nehekhara_warriors_0	0	0		false
+52352232	ovn_special_tomb_king_crypt_3	wh2_dlc09_tmb_veh_skeleton_chariot_0	0	0		false
+345369146	ovn_arb_nehekharan_excavation	ovn_arb_tmb_mon_ushabti_0	0	0		false
+345369147	ovn_arb_nehekharan_excavation	ovn_arb_tmb_mon_ushabti_1	0	0		false

@@ -202,7 +202,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_emp_cav_empire_knights_ovn_gru	emp_lances	false
 			wh_main_emp_cav_empire_knights_ovn_gru	emp_melee_infantry_tier_2	false
 			wh_main_emp_cav_empire_knights_ovn_gru	mp_cap_unit_emp_cav_empire_knights	false
-			wh_main_emp_cav_empire_knights_ovn_gru	wh2_dlc11_emp_empire_knights_reiksguard_knights_of_the_blazing_sun	false
+			wh_main_emp_cav_empire_knights_ovn_gru	wh2_dlc11_emp_empire_knights_reiksguard_knights_of_the_blazing_sun_knights_of_the_black_rose	false
 			wh_main_emp_cav_empire_knights_ovn_gru	wh2_dlc11_emp_vets_spearmen_swordsmen_flagellants_huntsmen_empire_knights	false
 			wh_main_emp_cav_empire_knights_ovn_gru	wh2_dlc17_volkmar_focus_units	false
 			wh_main_emp_cav_empire_knights_ovn_gru	wh2_main_emp_basic_empire_knight	false
@@ -347,7 +347,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			stephan_weiss_outlaw_pistoliers	mp_cap_unit_emp_cav_pistoliers	false
 			stephan_weiss_outlaw_pistoliers	wh2_dlc11_emp_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
 			stephan_weiss_outlaw_pistoliers	wh2_dlc11_emp_vets_free_company_crossbowmen_huntsmen_archers_handgunners_pistoliers_outriders	false
-			stephan_weiss_outlaw_pistoliers	ovn_gru_empire_unit	false
 			stephan_weiss_outlaw_pistoliers	wh2_main_ror_units_all	false
 			grudgebringers_wagon	emp_warmachines	false
 			grudgebringers_wagon	emp_steam_tank	false
@@ -433,7 +432,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			reiksguard_knights_todbringer	emp_reiksguard	false
 			reiksguard_knights_todbringer	mp_cap_unit_emp_cav_reiksguard	false
 			reiksguard_knights_todbringer	mp_cap_unit_emp_cav_zintlers_reiksguard_0	false
-			reiksguard_knights_todbringer	wh2_dlc11_emp_empire_knights_reiksguard_knights_of_the_blazing_sun	false
+			reiksguard_knights_todbringer	wh2_dlc11_emp_empire_knights_reiksguard_knights_of_the_blazing_sun_knights_of_the_black_rose	false
 			reiksguard_knights_todbringer	wh2_dlc11_emp_vets_greatswords_halberds_reiksguard_knights_of_the_blazing_sun_demigryph_knights_ror	false
 			reiksguard_knights_todbringer	wh2_main_ror_units_all	false
 			emperors_hellblaster_volley_gun	emp_all	false
@@ -458,97 +457,150 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			dwarf_envoy	dwarf_all_units_exclude_slayers	false
 			dwarf_envoy	dwf_all_units_characters	false
 			wh3_main_ksl_cav_gryphon_legion_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cav_horse_archers_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cav_horse_raiders_0	ovn_gru_kislev_unit	false
 			wh3_main_ksl_cav_war_bear_riders_1	ovn_gru_kislev_unit	false
 			wh3_main_ksl_cav_winged_lancers_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_boris_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_boris_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_boris_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_boyar_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_boyar_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_boyar_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_frost_maiden_ice_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_frost_maiden_ice_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_frost_maiden_ice_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_frost_maiden_tempest_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_frost_maiden_tempest_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_frost_maiden_tempest_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_ice_witch_ice_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_ice_witch_ice_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_ice_witch_ice_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_ice_witch_tempest_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_ice_witch_tempest_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_ice_witch_tempest_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_katarin_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_katarin_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_katarin_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_kostaltyn_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_kostaltyn_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_kostaltyn_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_patriarch_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_patriarch_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_cha_patriarch_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_armoured_kossars_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_armoured_kossars_1	ovn_gru_kislev_unit	false
 			wh3_main_ksl_inf_ice_guard_0	ovn_gru_kislev_unit	false
 			wh3_main_ksl_inf_ice_guard_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_kossars_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_kossars_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_kossars_tutorial_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_kossars_tutorial_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_streltsi_0	ovn_gru_kislev_unit	false
 			wh3_main_ksl_inf_tzar_guard_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_inf_tzar_guard_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_mon_elemental_bear_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_mon_elemental_bear_summoned_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_mon_snow_leopard_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_mon_snow_leopard_summoned_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_mon_snow_leopard_summoned_1	ovn_gru_kislev_unit	false
-			wh3_main_ksl_mon_snow_leopard_summoned_2	ovn_gru_kislev_unit	false
-			wh3_main_ksl_veh_heavy_war_sled_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_veh_light_war_sled_0	ovn_gru_kislev_unit	false
-			wh3_main_ksl_veh_little_grom_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cav_horse_raiders_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cav_war_bear_riders_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cav_winged_lancers_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_boyar_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_boyar_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_boyar_2	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_frost_maiden_ice_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_frost_maiden_ice_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_frost_maiden_ice_2	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_gerik_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_patriarch_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_patriarch_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_patriarch_2	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_sergi_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_slavin_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_2	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_3	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_4	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_5	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_5_brazen_altar	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_cha_yuri_5_howling_citadel	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_inf_armoured_kossars_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_inf_armoured_kossars_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_inf_kossars_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_inf_kossars_1	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_inf_streltsi_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_inf_tzar_guard_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_mon_elemental_bear_ror_0	ovn_gru_kislev_unit	false
-			wh3_main_pro_ksl_veh_little_grom_0	ovn_gru_kislev_unit	false
 			wh3_twa06_ksl_inf_tzar_guard_ror_0	ovn_gru_kislev_unit	false
-			wh3_twa07_ksl_cav_war_bear_riders_ror_0	ovn_gru_kislev_unit	false
-			wh3_twa08_ksl_mon_elemental_bear_0_ror	ovn_gru_kislev_unit	false
-			wh3_twa10_ksl_inf_armoured_kossars_ror	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_captain_0	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_captain_1	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_captain_2	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_general_0	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_general_1	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_general_2	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_wizard_0	ovn_gru_kislev_unit	false
-			wh_main_ksl_cha_wizard_1	ovn_gru_kislev_unit	false
+			ceridan	rhox_dark_omen_ceridan_carlsson	false
+			ilmarin	rhox_dark_omen_ceridan_carlsson	false
+			carlsson_guard	rhox_dark_omen_ceridan_carlsson	false
+			carlsson_cavalry	rhox_dark_omen_ceridan_carlsson	false
+			dargrimm_firebeard_dwarf_warriors	ovn_gru_dwarfs_unit	false
+			azguz_bloodfist_dwarf_warriors	ovn_gru_dwarfs_unit	false
+			dwarf_envoy_dwarf_warriors	ovn_gru_dwarfs_unit	false
+			wh_main_dwf_art_organ_gun	ovn_gru_dwarfs_unit	false
+			wh_main_dwf_veh_gyrocopter_0	ovn_gru_dwarfs_unit	false
+			wh_main_dwf_inf_longbeards_1	ovn_gru_dwarfs_unit	false
+			wh_main_dwf_inf_hammerers	ovn_gru_dwarfs_unit	false
+			wh_main_dwf_inf_ironbreakers	ovn_gru_dwarfs_unit	false
+			ice_mage_vladimir_stormbringer_mount	emp_characters	false
+			ice_mage_vladimir_stormbringer_mount	emp_wizards	false
+			ice_mage_vladimir_stormbringer_mount	emp_all	false
+			ice_mage_vladimir_stormbringer_mount	ovn_gru_kislev_unit	false
+			wh3_main_ksl_inf_streltsi_0	ovn_gru_kislev_unit	false
+			wh3_main_ksl_inf_armoured_kossars_0	ovn_gru_kislev_unit	false
+			ludwig_uberdorf_mechanical_steed	emp_all	false
+			ludwig_uberdorf_mechanical_steed	emp_characters	false
+			ludwig_uberdorf_mechanical_steed	emp_steam_tank	false
+			ludwig_uberdorf_mechanical_steed	emp_warmachines	false
+			ceridan_eagle	emp_characters	false
+			ceridan_eagle	emp_all	false
+			ceridan_eagle	rhox_dark_omen_ceridan_carlsson	false
+			matthias_war_wagon	emp_all	false
+			matthias_war_wagon	emp_characters	false
+			matthias_war_wagon	witch_hunters_warrior_priests	false
+			dwarf_envoy_oath_stone	dwarf_all_units_exclude_slayers	false
+			dwarf_envoy_oath_stone	dwf_all_units_characters	false
+			grudgebringer_cannon	wh3_dlc25_emp_artillery_warmachines	false
+			uter_blomkwist_imperial_mortar	wh3_dlc25_emp_artillery_warmachines	false
+			imperial_cannon_darius_flugenheim	wh3_dlc25_emp_artillery_warmachines	false
+			wh_main_emp_art_mortar_ovn_gru	wh3_dlc25_emp_artillery_warmachines	false
+			wh_main_emp_art_great_cannon_ovn_gru	wh3_dlc25_emp_artillery_warmachines	false
+			emperors_hellblaster_volley_gun	wh3_dlc25_emp_artillery_warmachines	false
+			grudgebringers_wagon	wh3_dlc25_emp_artillery_warmachines	false
+			wh_main_emp_inf_handgunners_ovn_gru	wh3_dlc25_emp_handgunner_outrider_ironsides	false
+			wh_main_emp_inf_handgunners_ovn_gru	emp_gun_artillery	false
+			wh_main_emp_inf_handgunners_ovn_gru	emp_gunnery	false
+			wh_main_emp_inf_handgunners_ovn_gru	emp_missile_infantry_vet	false
+			wh_main_emp_inf_handgunners_ovn_gru	emp_missile_infantry	false
+			wh_main_emp_inf_handgunners_ovn_gru	wh3_dlc25_gunnery_infantry	false
+			wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	emp_gun_artillery	false
+			grudgebringer_cannon	emp_gun_artillery	false
+			uter_blomkwist_imperial_mortar	emp_gun_artillery	false
+			imperial_cannon_darius_flugenheim	emp_gun_artillery	false
+			wh_main_emp_art_mortar_ovn_gru	emp_gun_artillery	false
+			wh_main_emp_art_great_cannon_ovn_gru	emp_gun_artillery	false
+			emperors_hellblaster_volley_gun	emp_gun_artillery	false
+			wh3_main_ogr_inf_maneaters_3_ovn_gru	emp_gun_artillery	false
+			ludwig_uberdorf	emp_gun_artillery	false
+			ludwig_uberdorf_gyrobomber_main_units	emp_gun_artillery	false
+			ludwig_uberdorf_steam_tank_main_units	emp_gun_artillery	false
+			cam_ludwig_uberdorf_steam_tank_main_units	emp_gun_artillery	false
+			matthias	emp_gun_artillery	false
+			matthias_war_wagon	emp_gun_artillery	false
+			grudgebringers_wagon	emp_gun_artillery	false
+			stephan_weiss_outlaw_pistoliers	emp_gun_artillery	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	emp_gun_artillery	false
+			wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	emp_gunnery	false
+			grudgebringer_cannon	emp_gunnery	false
+			uter_blomkwist_imperial_mortar	emp_gunnery	false
+			imperial_cannon_darius_flugenheim	emp_gunnery	false
+			wh_main_emp_art_mortar_ovn_gru	emp_gunnery	false
+			wh_main_emp_art_great_cannon_ovn_gru	emp_gunnery	false
+			emperors_hellblaster_volley_gun	emp_gunnery	false
+			wh3_main_ogr_inf_maneaters_3_ovn_gru	emp_gunnery	false
+			grudgebringers_wagon	emp_gunnery	false
+			stephan_weiss_outlaw_pistoliers	emp_gunnery	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	emp_gunnery	false
+			galed_elf_archers	emp_missile_infantry	false
+			galed_elf_archers_upgrade	emp_missile_infantry	false
+			grudgebringer_crossbow	emp_missile_infantry	false
+			grudgebringer_crossbow_upgrade	emp_missile_infantry	false
+			helmgart_bowmen	emp_missile_infantry	false
+			keelers_longbows	emp_missile_infantry	false
+			wh_main_emp_inf_crossbowmen_ovn_gru	emp_missile_infantry	false
+			wh2_dlc13_emp_inf_archers_0_ovn_gru	emp_missile_infantry	false
+			wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	emp_missile_infantry	false
+			leitdorf_9th_crossbows	emp_missile_infantry	false
+			galed_elf_archers	emp_missile_infantry_vet	false
+			galed_elf_archers_upgrade	emp_missile_infantry_vet	false
+			grudgebringer_crossbow	emp_missile_infantry_vet	false
+			grudgebringer_crossbow_upgrade	emp_missile_infantry_vet	false
+			helmgart_bowmen	emp_missile_infantry_vet	false
+			keelers_longbows	emp_missile_infantry_vet	false
+			wh_main_emp_inf_crossbowmen_ovn_gru	emp_missile_infantry_vet	false
+			wh2_dlc13_emp_inf_archers_0_ovn_gru	emp_missile_infantry_vet	false
+			wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	emp_missile_infantry_vet	false
+			leitdorf_9th_crossbows	emp_missile_infantry_vet	false
+			stephan_weiss_outlaw_pistoliers	emp_missile_cavalry_vet	false
+			stephan_weiss_outlaw_pistoliers	emp_missile_cavalry	false
+			stephan_weiss_outlaw_pistoliers	emp_outriders	false
+			stephan_weiss_outlaw_pistoliers	wh3_dlc25_emp_handgunner_outrider_ironsides	false
+			stephan_weiss_outlaw_pistoliers	wh3_dlc25_gunnery_cavalry	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	emp_missile_cavalry_vet	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	emp_missile_cavalry	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	emp_outriders	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	wh3_dlc25_emp_handgunner_outrider_ironsides	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	wh3_dlc25_gunnery_cavalry	false
+		art_fix		ovn_grudge_all_units_except_chars	false
+		art_fld		ovn_grudge_all_units_except_chars	false
+		art_siege		ovn_grudge_all_units_except_chars	false
+		cav_mel		ovn_grudge_all_units_except_chars	false
+		cav_mis		ovn_grudge_all_units_except_chars	false
+		cav_shk		ovn_grudge_all_units_except_chars	false
+		chariot		ovn_grudge_all_units_except_chars	false
+		com		ovn_grudge_all_units_except_chars	false
+		elph		ovn_grudge_all_units_except_chars	false
+		inf_mel		ovn_grudge_all_units_except_chars	false
+		inf_mis		ovn_grudge_all_units_except_chars	false
+		inf_pik		ovn_grudge_all_units_except_chars	false
+		inf_spr		ovn_grudge_all_units_except_chars	false
+		shp_art		ovn_grudge_all_units_except_chars	false
+		shp_mel		ovn_grudge_all_units_except_chars	false
+		shp_mis		ovn_grudge_all_units_except_chars	false
+		shp_trn		ovn_grudge_all_units_except_chars	false
+		spcl		ovn_grudge_all_units_except_chars	false
+			ceridan	ovn_grudge_all_units_except_chars	true
+			ceridan_eagle	ovn_grudge_all_units_except_chars	true
+			ice_mage_vladimir_stormbringer	ovn_grudge_all_units_except_chars	true
+			ice_mage_vladimir_stormbringer_mount	ovn_grudge_all_units_except_chars	true
+			morgan_bernhardt	ovn_grudge_all_units_except_chars	true
+			morgan_bernhardt_mount	ovn_grudge_all_units_except_chars	true
+			dwarf_envoy	ovn_grudge_all_units_except_chars	true
+			dwarf_envoy_oath_stone	ovn_grudge_all_units_except_chars	true
+			gaston	ovn_grudge_all_units_except_chars	true
+			gaston_mount	ovn_grudge_all_units_except_chars	true
+			ludwig_uberdorf	ovn_grudge_all_units_except_chars	true
+			ludwig_uberdorf_mount_main_units	ovn_grudge_all_units_except_chars	true
+			ludwig_uberdorf_mechanical_steed	ovn_grudge_all_units_except_chars	true
+			ludwig_uberdorf_gyrobomber_main_units	ovn_grudge_all_units_except_chars	true
+			ludwig_uberdorf_steam_tank_main_units	ovn_grudge_all_units_except_chars	true
+			matthias	ovn_grudge_all_units_except_chars	true
+			matthias_war_wagon	ovn_grudge_all_units_except_chars	true
+			luther_flamenstrike	ovn_grudge_all_units_except_chars	true
+			luther_flamenstrike_mount	ovn_grudge_all_units_except_chars	true
+			ilmarin	ovn_grudge_all_units_except_chars	true
+			allor	ovn_grudge_all_units_except_chars	true
+			allor_griffon	ovn_grudge_all_units_except_chars	true

@@ -1,0 +1,22 @@
+key	category	model	audio_material	hit_points	gun_type	onscreen_name	ignition_threshold	radar_icon	visible_in_public_ted	fortwall_penetration_chance	collision_3d	destruct_thresholds	joiner	auxiliary	burn_rate	height_map_mesh	ground_type	can_burn	audio_count_as_urban	ability_radius	shares_reload_between_emitters	togleable_icon_path	audio_construction_type_switch	audio_faction_switch	tower_group	destructible
+#battlefield_buildings_tables;29;db/battlefield_buildings_tables/ovn_araby_settlement_map_and_walls																										
+arb_wall_angled_joiner	unbreachable_fort_wall	arb_wall_angled_joiner	rock	10000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_angled_to_grid_joiner	fort_wall	arb_wall_angled_to_grid_joiner	rock	10000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_corner_90_external	unbreachable_fort_wall	arb_wall_corner_90_external	rock	1000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_corner_90_internal	unbreachable_fort_wall	arb_wall_corner_90_internal	rock	1000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_gatehouse_60	gate	arb_wall_gatehouse_60	rock	12000		gate	100	gate.tga	true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	default
+arb_wall_gatehouse_60_02	gate	arb_wall_gatehouse_60	rock	14000		gate	100	gate.tga	true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	default
+arb_wall_gatehouse_60_03	gate	arb_wall_gatehouse_60	rock	16000		gate	100	gate.tga	true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	default
+arb_wall_grid_to_angled_joiner	fort_wall	arb_wall_grid_to_angled_joiner	rock	10000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_merlon_01	generic	arb_wall_merlon_01	rock	250			100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	default
+arb_wall_merlon_02	generic	arb_wall_merlon_02	rock	250			100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	default
+arb_wall_straight_20m_01	fort_wall	arb_wall_straight_20m_01	rock	12000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_straight_20m_02	fort_wall	arb_wall_straight_20m_01	rock	14000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_straight_20m_03	fort_wall	arb_wall_straight_20m_01	rock	16000		fort_wall	100	wall.tga	false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_straight_20m_emplacement	fort_wall	arb_wall_straight_20m_emplacement	rock	12000		fort_wall	100		false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_tower	fort_tower	arb_wall_tower	rock	12000	wh3_settlement_tower_brt_arrow	tower_arrow	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	true	60.0000	false				default_value	default
+arb_wall_tower_01	fort_tower	arb_wall_tower	rock	14000	wh3_settlement_tower_emp_bullet_improved	tower_piercing	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	true	60.0000	false				default_value	default
+arb_wall_tower_02	fort_tower	arb_wall_tower	rock	14000	wh3_settlement_tower_emp_cannon_ball	tower_cannon	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	true	60.0000	false				default_value	default
+arb_wall_tower_03	fort_tower	arb_wall_tower	rock	16000	wh3_settlement_tower_lzd_solar_engine_beam	tower_magic	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	true	60.0000	false				default_value	default
+arb_wall_stepdown_15m	unbreachable_fort_wall	arb_wall_stepdown_15m	rock	10000		fort_wall	100		false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+arb_wall_stepup_15m	unbreachable_fort_wall	arb_wall_stepup_15m	rock	10000		fort_wall	100		false	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default

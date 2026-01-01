@@ -1,7 +1,0 @@
-ability	default_amount	max_amount	inverse	intensity_source	intensity_type
-#special_ability_intensity_settings_tables;2;db/special_ability_intensity_settings_tables/ovn_fimir_only					
-ovn_fim_kroll_mother_young	0.0000	150.0000	false	kills_made	linear_multiplier
-ovn_fim_kroll_fulcrum_of_worship	0.0000	300.0000	false	nearby_all_deaths	linear_multiplier
-fim_skattach_poison_mist	20.0000	300.0000	false	time_in_melee	linear_multiplier
-fim_skattach_madness	0.0000	240.0000	false	combined_time_in_melee_and_ability_wind_up	linear_multiplier
-ovn_fim_shrine_enshrouded_glory	0.0000	300.0000	false	nearby_all_deaths	linear_multiplier

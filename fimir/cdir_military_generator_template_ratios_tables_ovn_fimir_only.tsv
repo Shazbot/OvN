@@ -1,8 +1,0 @@
-template_key	unit_group_key	ratio
-#cdir_military_generator_template_ratios_tables;0;db/cdir_military_generator_template_ratios_tables/ovn_fimir_only		
-ovn_fimir_meargh	wh3_default_land_melee_cavalry	10
-ovn_fimir_meargh	wh3_default_land_melee_infantry	20
-ovn_fimir_meargh	wh3_default_land_ranged_infantry	3
-ovn_fimir_meargh	wh3_default_land_characters	3
-ovn_fimir_meargh	wh3_default_land_monsters	10
-ovn_fimir_meargh	wh3_default_land_aura	4

@@ -1,0 +1,4 @@
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors	can_scale_effect_thresholds_per_unit
+#pooled_resources_tables;2;db/pooled_resources_tables/rhox_araby														
+rhox_fatandira_meter	100	-100	false	other	wh2_dlc09_tmb_hierotitan_magic_scales.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+ovn_araby_urban_meter	100	-100	false	buildings	wh2_dlc09_tmb_hierotitan_magic_scales.png	END_OF_ROUND	true	FACTION	false	0		false	true	false

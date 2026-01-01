@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/ksl/kat_horse/ksl_katarin_horse.wsmodel" >
+			<META_DATA>audio_entity_type:wh_horse_normal</META_DATA>			<META_DATA>audio_armour_type:leather</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="tack" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/ksl/kat_horse/ksl_vlad_horse_tac.wsmodel" />
+	</SLOT>	
+</VARIANT_MESH>

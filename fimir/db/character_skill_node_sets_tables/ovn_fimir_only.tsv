@@ -1,15 +1,15 @@
-key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
+key	agent_key	for_army	faction_key	for_navy	campaign_key	subculture	agent_subtype_key
 #character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/ovn_fimir_only							
-node_set_fimir_lord	general	false	false				aky_chief_fimir_great_weapons
-wh_dlc08_nor_cha_fimir_balefiend_death	dignitary	false	false				wh_dlc08_nor_cha_fimir_balefiend_death
-wh_dlc08_nor_cha_fimir_balefiend_beast	dignitary	false	false				wh_dlc08_nor_cha_fimir_balefiend_beast
-wh_main_skill_node_fim_meargh_skattach	general	false	false				fim_meargh_skattach
-elo_boglar_shaman	wizard	false	false				elo_boglar_shaman
-node_set_fimir_dirach_beasts	general	false	false				fim_dirach_lord_beasts
-node_set_fimir_dirach_fire	general	false	false				fim_dirach_lord_fire
-node_set_fimir_dirach_shadows	general	false	false				fim_dirach_lord_shadow
-node_set_fimir_dirach_death	general	false	false				fim_dirach_lord_death
-node_set_fimir_finmor	champion	false	false				fim_finmor
-node_set_fimir_lord_kroll	general	false	false				aky_chief_fimir_great_weapons_kroll
-node_set_fimir_finmor_kroll	champion	false	false				fim_finmor_kroll
-node_set_fimir_daemon_octopus_kroll	general	false	false				fim_daemon_octopus_kroll
+node_set_fimir_lord	general	false		false			aky_chief_fimir_great_weapons
+wh_dlc08_nor_cha_fimir_balefiend_death	dignitary	false		false			wh_dlc08_nor_cha_fimir_balefiend_death
+wh_dlc08_nor_cha_fimir_balefiend_beast	dignitary	false		false			wh_dlc08_nor_cha_fimir_balefiend_beast
+wh_main_skill_node_fim_meargh_skattach	general	false		false			fim_meargh_skattach
+elo_boglar_shaman	wizard	false		false			elo_boglar_shaman
+node_set_fimir_dirach_beasts	general	false		false			fim_dirach_lord_beasts
+node_set_fimir_dirach_fire	general	false		false			fim_dirach_lord_fire
+node_set_fimir_dirach_shadows	general	false		false			fim_dirach_lord_shadow
+node_set_fimir_dirach_death	general	false		false			fim_dirach_lord_death
+node_set_fimir_finmor	champion	false		false			fim_finmor
+node_set_fimir_lord_kroll	general	false		false			aky_chief_fimir_great_weapons_kroll
+node_set_fimir_finmor_kroll	champion	false		false			fim_finmor_kroll
+node_set_fimir_daemon_octopus_kroll	general	false		false			fim_daemon_octopus_kroll

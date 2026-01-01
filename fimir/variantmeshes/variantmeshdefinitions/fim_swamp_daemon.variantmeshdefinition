@@ -1,0 +1,15 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes\VariantMeshDefinitions\fim_swamp_daemon_base_1.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes\VariantMeshDefinitions\fim_swamp_daemon_base_2.VariantMeshDefinition" />		
+	</SLOT>
+	<SLOT name="grass_1"  probability="0.6">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu8\vmp\vmp_strigoi_ghoul_kings\fim_swamp_daemon_body_grass_01.wsmodel" />
+	</SLOT>
+	<SLOT name="grass_2"  probability="0.6">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu8\vmp\vmp_strigoi_ghoul_kings\fim_swamp_daemon_body_grass_02.wsmodel" />
+	</SLOT>
+	<SLOT name="grass_3"  probability="0.6">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu8\vmp\vmp_strigoi_ghoul_kings\fim_swamp_daemon_body_grass_03.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

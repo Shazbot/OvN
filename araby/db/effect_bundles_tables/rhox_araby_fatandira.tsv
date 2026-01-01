@@ -1,0 +1,13 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_araby_fatandira								
+rhox_fatandira_pooled_resource_1			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_2			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_3			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_4			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_5			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_6			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_7			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_8			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_pooled_resource_9			faction	0	wh2_dlc09_tmb_hierotitan_magic_scales.png	true	false	true
+rhox_fatandira_betrayal			faction	1	numas_flag.png	true	false	true
+rhox_fatandira_friendship			faction	1	numas_flag.png	true	false	true

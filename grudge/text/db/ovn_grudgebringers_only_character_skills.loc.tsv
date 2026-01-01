@@ -97,7 +97,7 @@ character_skills_localised_name_ovn_grudge_soldiers_of_fortune	The Bonds of War	
 character_skills_localised_description_ovn_grudge_soldiers_of_fortune	Many regiments have come and gone but those few that bear the Grudgebringer name have developed a brotherhood like no other.	false
 character_skills_localised_name_ovn_grudge_gold	For Gold	false
 character_skills_localised_description_ovn_grudge_gold	If death is a reward, I'll take it in gold coin, old friend. The glory we'll leave for others.	false
-character_skills_localised_name_ovn_grudge_glory	Greater than Glory	false
+character_skills_localised_name_ovn_grudge_glory	For Glory	false
 character_skills_localised_description_ovn_grudge_glory	I don't give a damn about glory, I do what I must.	false
 character_skills_localised_description_morgan_bernhardt_battle_skill_01	Hack, hack and hack again, such is the bloody work of the mercenary.	false
 character_skills_localised_description_morgan_bernhardt_battle_skill_02	Bernhardt knows it's easier to hack down his enemies after softening them up with a few volleys.	false
@@ -128,3 +128,130 @@ character_skills_localised_description_matthias_innate	Though most Witch Hunters
 character_skills_localised_name_matthias_innate	Holy Templar of Sigmar	false
 character_skills_localised_description_ludwig_greenskin_grudge	Ludwig's bodyguard detachment of Imperial Halberdiers were cut down by Greenskin filith and now he seeks revenge for his fallen brothers.	false
 character_skills_localised_name_ludwig_greenskin_grudge	Greenskin Hatred	false
+character_skills_localised_name_ludwig_uberdorf_skill_dump	Skill Dump	true
+character_skills_localised_description_ludwig_uberdorf_skill_dump	Dump Skill	true
+character_skills_localised_name_ludwig_uberdorf_skill_mount	Warhorse	true
+character_skills_localised_description_ludwig_uberdorf_skill_mount	While Ludwig's steam tank is being repaired, his loyal dwarfs have built a steam weapon that can be comfortably used on horseback.	true
+character_skills_localised_name_ludwig_uberdorf_skill_gyrobomber	Gyrobomber with Hellblaster	true
+character_skills_localised_description_ludwig_uberdorf_skill_gyrobomber	The repair of the tank will soon be completed, but some more time is needed. To great luck, the dwarves from Ludwig's team managed to get a working gyrobomber and fasten a volley gun to it	true
+character_skills_localised_name_ludwig_uberdorf_skill_steam_tank	Ignis Draconis Steam Tank	true
+character_skills_localised_description_ludwig_uberdorf_skill_steam_tank	The steam tank will be available once the tank crew finish their repairs.	true
+character_skills_localised_description_ceridan_innate	Only those who are adept at swordsmanship and stealth are permitted to be Rangers in Asrai society.	true
+character_skills_localised_name_ceridan_innate	Elven Ranger	true
+character_skills_localised_description_ceridan_skaven_scourge	Years of stalking the despised Ratmen has made Ceridan a feared individual amongst Skavendom. Ceridan often shares his experiences around campfires to any who would listen.	true
+character_skills_localised_name_ceridan_skaven_scourge	Scourge of Skaven	true
+character_skills_localised_description_ceridan_natural_hunter	Ceridan was born with natural affinity towards hunting and swordplay, a valuable trait for any aspiring Rangers.	true
+character_skills_localised_name_ceridan_natural_hunter	Natural Hunter	true
+character_skills_localised_description_ceridan_lone_wolf	Ceridan prefers to work alone as he believes himself to be most efficient when he doesn’t have to worry about others. Like the time he spent in the black Mountains, gathering information to use against the Skaven.	true
+character_skills_localised_name_ceridan_lone_wolf	Lone Wolf	true
+character_skills_localised_description_engrol_innate	Engrol Goldtongue is the official Dwarf Envoy from the fortress of Zhufbar to the Empire, relaying messages from the High King Grudgebearer to Emperor Franz.	true
+character_skills_localised_name_engrol_innate	Envoy of the High King	true
+character_skills_localised_description_engrol_gold_tongue	With his unnatural gift of persuasion, Engrol can twist any situation to be of benefit to his lords and allies.	true
+character_skills_localised_name_engrol_gold_tongue	Gold Tongue	true
+character_skills_localised_description_engrol_trademaster	Engrol is famous for striking lucrative trade deals where even the most experienced businessmen have failed.	true
+character_skills_localised_name_engrol_trademaster	Trademaster	true
+character_skills_localised_description_engrol_dwf_bodyguard	Engrol’s bodyguard are fierce warriors who are completely loyal and will protect him in battle to the very last.	true
+character_skills_localised_name_engrol_dwf_bodyguard	Dwarven Bodyguards	true
+character_skills_localised_description_engrol_persuasion_master	Engrol’s skills in diplomacy are unnaturally proficient for a Dwarf and he has resolved many quarrels with the Empire in his career spanning over two centuries.	true
+character_skills_localised_name_engrol_persuasion_master	Master of Persuasion	true
+character_skills_localised_description_morgan_innate	Morgan Bernhardt commands the renowned mercenary company known as The Grudgerbringers. Famous all over the Old World, from Bernhardt’s homeland of Reikland to the lands of the Border Princes and the far eastern empires.	true
+character_skills_localised_name_morgan_innate	Grudgebringer Commander	true
+character_skills_localised_description_mercenary_commander	It takes great leadership and charisma to lead such a disorderly bunch into war…	true
+character_skills_localised_name_mercenary_commander	Mercenary Commander	true
+character_skills_localised_description_motley_crew	The Grudgebringers are mostly consisted of a rag tag group of Men, Elves, Dwarves and Ogres held together by Bernhardt’s skilled leadership. 	true
+character_skills_localised_name_motley_crew	Motley Crew	true
+character_skills_localised_description_sworn_to_emperor	Despite leading a mercenary company, Bernhardt is still very loyal to his homeland of Reikland and its Emperor. Bernhardt’s company is often entrusted with carrying out dangerous missions by Franz himself.	true
+character_skills_localised_name_sworn_to_emperor	Sworn to the Emperor	true
+character_skills_localised_description_sword_against_vermin	Bernhardt and his company have lead many attacks against the vile Ratmen. One such attack was the campaign to stop the infamous Grey Seer Thanquol from using magical Elven stones to destroy the realms of men, known as the Shadow of the Horned Rat	true
+character_skills_localised_name_sword_against_vermin	Sword Against Vermin	true
+character_skills_localised_description_dark_omen	Bernhardt has also had skirmishes against the undead servants of Nagash, the most notable being the resurrection of one of Nagash’s commanders, The Dread King, who was stopped before he could wreak havoc upon the world by Bernhardt and his men. 	true
+character_skills_localised_name_dark_omen	The Dark Omen	true
+character_skills_localised_description_bane_of_evil	Bernhardt has slayed monsters of all kinds during his many campaigns against the Undead, Greenskins and Ratmen; he is truly a man who fears very little.	true
+character_skills_localised_name_bane_of_evil	Bane of Evil	true
+character_skills_localised_description_true_hero	Bernhardt, who started out as a simple mercenary interested in making quick money, turned into a respected man, both amongst his band and the greater world; his deeds spread all over the Old World and beyond.	true
+character_skills_localised_name_true_hero	A True Hero	true
+character_skills_localised_name_morgan_bernhardt_mount	Warhorse	true
+character_skills_localised_description_morgan_bernhardt_mount	Bernhardt's battle-tested warhorse	true
+character_skills_localised_name_gaston_mount	Warhorse	true
+character_skills_localised_description_matthias_war_wagon	Matthias's personal War Wagon a hybrid of a heavy chariot with a combat platform and a carriage.	false
+character_skills_localised_name_matthias_war_wagon	Mattias' War Wagon	false
+character_skills_localised_description_dwarf_envoy_oath_stone	Standing atop an Oath Stone, a Thane increases the resolve of his followers and ensures that all foes find him.	false
+character_skills_localised_name_dwarf_envoy_oath_stone	Oath Stone	false
+character_skills_localised_name_rhox_grudge_ceridan_dedication_asuryan	Dedicated to Asuryan	false
+character_skills_localised_description_rhox_grudge_ceridan_dedication_asuryan	Asuryan's adherents believe they are part of the Creator's plan and will never be abandoned.	false
+character_skills_localised_name_ovn_grudge_skill_ksl_frost_maiden_unique_04	Right hand of the Ice Queen	false
+character_skills_localised_description_ovn_grudge_skill_ksl_frost_maiden_unique_04	Often the most dangerous assault comes from the enemy you least expect.	false
+character_skills_localised_name_ovn_grudge_vlad_innate	Stormbringer	false
+character_skills_localised_description_ovn_grudge_vlad_innate	Fear the might of the Storm!	false
+character_skills_localised_name_ludwig_uberdorf_steam_tank	Ignis Draconis Steam Tank	true
+character_skills_localised_description_ludwig_uberdorf_steam_tank	The steam tank Ignis Draconis was the first tank built by Leonardo of Miragliano. 	true
+character_skills_localised_name_rhox_grudge_skill_hef_noble_unique_1	Knowledge of High Elf Affairs	false
+character_skills_localised_description_rhox_grudge_skill_hef_noble_unique_1	This one is well-versed in the various court intrigues of the Asur, which is something of an advantage in matters of diplomacy.	false
+character_skills_localised_name_rhox_grudge_skill_hef_noble_unique_2	Knowledge of Man's Affairs	false
+character_skills_localised_description_rhox_grudge_skill_hef_noble_unique_2	"The Realms of Man must not fall."	false
+character_skills_localised_name_rhox_grudge_skill_hef_noble_unique_3	Knowledge of Lizardmen Affairs	false
+character_skills_localised_description_rhox_grudge_skill_hef_noble_unique_3	He is well known enough to them to gain access to certain high-caste individuals.	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_01	Ice Sheet	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_01	This kind of spell is nothing to the Vladimir	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_02	Ice Tip	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_02	Deadliest tip arrow can ever have	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_03	Blizzard's Boon	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_03	Vladimir Stormbringer can harness the power of blizzards to enhance the speed of his troops. With a wave of his hand, he summons a freezing storm that swirls around his army, reducing the drag on their movements and allowing them to cover ground with ease. The biting winds of the blizzard invigorate the troops, filling them with an icy determination to reach their destination quickly. With this skill, Vladimir's troops can move at a rapid pace, cutting through snowdrifts and icy terrain to outflank their enemies and seize key positions.	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_04	Storm Shield	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_04	Vladimir creates a shield of wind and lightning that deflects blows and stuns foes who try to breach it. This skill allows Vladimir and his troops to weather savage attacks and regroup.	false
+character_skills_localised_name_ovn_grudge_skill_ice_mage_unique_2_05	Tempestuous Casting	false
+character_skills_localised_description_ovn_grudge_skill_ice_mage_unique_2_05	Vladimir channels the power of the storm to shorten his spell cooldown time, allowing him to cast his spells more frequently to harness the enemy	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_01	Fiery Temper	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_01	His stubborn anger will see nothing stop him.	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_02	Scorched Earth	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_02	Just with a mere thought, he can manipulate the flames to burn even hotter and longer, while requiring less of his own energy to sustain it.	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_03	Instability	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_03	The wind flows through me. It controls me!	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_04	Flame in the Dark	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_04	Against the undead, Luther's fills the mens hearts with fire and light!	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_05	The Dead Still Burn	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_05	Stand firm men, that which is dead may still burn.	false
+character_skills_localised_name_ovn_grudge_skill_node_luther_flamenstrike_unique_06	Ashes to Ashes	false
+character_skills_localised_description_ovn_grudge_skill_node_luther_flamenstrike_unique_06	His spells are like infernos, leaving nothing but ash and cinders in their wake. His enemies quickly learn to fear the searing heat of his magic.	false
+character_skills_localised_name_rhox_ovn_grudgebringer_ludwig_innate	Pioneer of Technology	false
+character_skills_localised_description_rhox_ovn_grudgebringer_ludwig_innate	Nothing is beyond that of which he dreams, with old hands he deftly put to fruition his machinations.	false
+character_skills_localised_description_rhox_ovn_grudgebringer_immortal_for_ai	[HIDDEN]Immortal for AI	false
+character_skills_localised_name_rhox_ovn_grudgebringer_immortal_for_ai	[HIDDEN]Immortal for AI	false
+character_skills_localised_description_rhox_ovn_grudge_item_sword_of_eilor	This splendid elven sword contains a piece of rune crystal attached to the shaft. It has magical properties that detect the presence of dwarves and in doing so sharpen the blade to double its fineness, giving the welder more destructive potential.	false
+character_skills_localised_name_rhox_ovn_grudge_item_sword_of_eilor	Sword of Eilor	false
+character_skills_localised_description_grudge_anc_rune_rune_of_fury	Bright and angry glow the Runes of Fury, the weapons that hold them almost jumping out of their wielders' hands in desperation to strike the foe.	false
+character_skills_localised_name_grudge_anc_rune_rune_of_fury	Rune of Fury	false
+character_skills_localised_description_grudge_anc_rune_rune_of_might	A Dwarf wielding a weapon bearing the Runes of Might can fell a Giant in a flurry of axe blows.	false
+character_skills_localised_name_grudge_anc_rune_rune_of_might	Rune of Might	false
+character_skills_localised_description_grudge_anc_rune_rune_of_parrying	A weapon with this rune moves to block incoming attacks, making its wielder extremely hard to hit.	false
+character_skills_localised_name_grudge_anc_rune_rune_of_parrying	Rune of Parrying	false
+character_skills_localised_description_grudge_anc_rune_rune_of_striking	The Rune of Striking causes the weapon to hit the foe’s most vulnerable area with an uncanny precision.	false
+character_skills_localised_name_grudge_anc_rune_rune_of_striking	Rune of Striking	false
+character_skills_localised_description_rhox_allor_innate	Not for you	false
+character_skills_localised_name_rhox_allor_innate	I work for the Earth	false
+character_skills_localised_description_rhox_allor_unique_1	They search warp stone. They have no respect, they spawn evil	false
+character_skills_localised_name_rhox_allor_unique_1	The Watcher	false
+character_skills_localised_description_rhox_allor_unique_2	They should be stopped	false
+character_skills_localised_name_rhox_allor_unique_2	Hatred towards Skaven	false
+character_skills_localised_description_rhox_allor_unique_3	Mother Earth is pregnant	false
+character_skills_localised_name_rhox_allor_unique_3	Walk Lightly	false
+character_skills_localised_description_rhox_allor_unique_4	Bestowed with unwavering power, Allor intervenes with his Amber magic to ensure the survival of Ceridan and Carlsson in their direst moments	false
+character_skills_localised_name_rhox_allor_unique_4	Savior	false
+character_skills_localised_description_rhox_allor_unique_5	He preserves life and restores vitality in the face of peril	false
+character_skills_localised_name_rhox_allor_unique_5	Allor's Benevolent Resurgence	false
+character_skills_localised_description_rhox_allor_unique_6	Infused with Amber's might, Allor imparts reduced winds of magic costs and cooldowns, hastening spellcasting with unparalleled mastery	false
+character_skills_localised_name_rhox_allor_unique_6	All Evil Must Be Stopped	false
+character_skills_localised_description_vladimir_stormbringer_mount	Vladimir Stormbringer's battle-tested warhorse	false
+character_skills_localised_name_vladimir_stormbringer_mount	Warhorse	false
+character_skills_localised_description_ludwig_uberdorf_mechanical_steed	While Ludwig's steam tank is being repaired, he get in Nuln mechanical steed which was created by the greatest engineer Chaos Robie	false
+character_skills_localised_name_ludwig_uberdorf_mechanical_steed	Mechanical Steed (Pistols)	false
+character_skills_localised_description_ludwig_uberdorf_mount	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	false
+character_skills_localised_name_ludwig_uberdorf_mount	Barded Warhorse	false
+character_skills_localised_description_allor_griffon	Once trained to carry a man in battle, Imperial griffons are poised killers and incredibly dedicated to their riders.	false
+character_skills_localised_name_allor_griffon	Imperial Griffon	false
+character_skills_localised_description_ceridan_eagle	Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	false
+character_skills_localised_name_ceridan_eagle	Great Eagle	false
+character_skills_localised_description_rhox_grudge_ceridan_hero_assist_army_replenish_troops	Those in the army can find succour or be replenished by the power of this champion.	false
+character_skills_localised_name_rhox_grudge_ceridan_hero_assist_army_replenish_troops	{{tr:agent_action_name_replenish_troops}}	false
+character_skills_localised_description_morgan_bernhardt_gotrek_felix	After fighting a mighty dragon and Greenskins together at Khaz Drakk, the Dragons Hall, Gotrek formed one of his many unlikely bonds. If Gotrek is by chance adventuring nearby he would always aid his old friends.	false
+character_skills_localised_name_morgan_bernhardt_gotrek_felix	An Unlikely Bond	false

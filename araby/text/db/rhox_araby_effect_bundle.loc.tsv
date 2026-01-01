@@ -1,0 +1,110 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_effect_bundle.loc		
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_1	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_1	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 69%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_10	Grand Empire of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_10	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 100%)[[/col]]\\n\\n[[col:green]]His enemies are broken, their lands subjugated – Jaffar has taken his revenge. But there is still a whole world to conquer! Onwards![[/col]]\\n\\nCurrent faction effects:	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_2	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_2	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 72%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_3	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_3	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 76%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_4	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_4	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 79%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_5	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_5	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 82%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_6	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_6	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 86%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_7	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_7	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 89%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_8	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_8	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 93%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_bretonnia_9	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_bretonnia_9	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 96%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_1	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_1	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 35%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_10	Annihilation of Bretonnia	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_10	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 65%)[[/col]]\\n\\n[[col:green]]Attack Bretonnia and conquer their heartlands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_2	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_2	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 38%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_3	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_3	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 41%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_4	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_4	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 45%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_5	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_5	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 48%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_6	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_6	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 52%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_7	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_7	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 55%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_8	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_8	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 59%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_teb_9	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_teb_9	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 62%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_1	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_1	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 0%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_10	Subjugation of the Southern Realms	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_10	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 31%)[[/col]]\\n\\n[[col:yellow]]Conquer Tilea and Estalia! Make them fear Jaffar once more![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_2	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_2	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 4%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_3	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_3	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 7%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_4	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_4	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 11%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_5	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_5	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 14%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_6	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_6	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 18%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_7	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_7	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 21%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_8	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_8	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 24%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_araby_9	Reconquest of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_araby_9	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 28%)[[/col]]\\n\\n[[col:red]]Reclaim Araby and drive the crusaders from our lands![[/col]]	false
+effect_bundles_localised_title_rhox_araby_jaffar_conquer_complete_0	Grand Empire of Araby	false
+effect_bundles_localised_description_rhox_araby_jaffar_conquer_complete_0	{{tr:rhox_araby_jaffar_conquer_message}}\\n\\n[[col:yellow]](Progress of Jaffar's Revenge: 100%)[[/col]]\\n\\n[[col:green]]His enemies are broken, their lands subjugated – Jaffar has taken his revenge. But there is still a whole world to conquer! Onwards![[/col]]\\n\\nCurrent faction effects:	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_1	The Pearl of the Kraken Sea	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_1	A beautiful centrepiece of the frigid ocean, cursed by the Ruinous Ones’ rejection of those who worshipped them so vehemently.	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_2	Lucky Levi’s Keepsake	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_2	You need the luckiest of lucky charms to tinker with the Dark Arts, especially if unprepared for their deathly consequences…	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_3	The Doubloon of Castelo Novo	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_3	A most rare mintage of Estalian silver, above which flying horrors of the sky seem to gather and circle.	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_4	The Vorgo Nugget	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_4	The only Vorgo gold outside of the southern Grey Mountains is cursed with the anguish of hungry, insatiable ghouls.	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_5	Panteleon’s Pendant	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_5	A mysterious glob of Athel Loren amber, enchanted to ensure that even dead flesh will never remain idle.	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_6	Von Zeich’s Last Ingot	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_6	Only this final gold bar can manifest the trigger-happy apparitions that serve the Shadewraith’s ghostly turncoat captain.	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_7	The Stone of Schwartzhafen	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_7	The great warriors’ souls trapped within wait to be returned to this plain as terrifying sentries in service to the admirals of the night.	false
+effect_bundles_localised_title_rhox_araby_wh2_dlc11_ror_reward_8	The Cursed Bullion of Bogenhafen	false
+effect_bundles_localised_description_rhox_araby_wh2_dlc11_ror_reward_8	The wrath of Vanhel is harnessed within these golden ingots, primed for release in monstrous proportions.	false
+effect_bundles_localised_description_rhox_araby_estate_bundle_evenly_matched	Urban Elites and Nomad Chiefs are evenly matched.	false
+effect_bundles_localised_title_rhox_araby_estate_bundle_evenly_matched	Impasse (both sides below 24)	false
+effect_bundles_localised_description_rhox_araby_estate_bundle_nomad_chief	Nomad Chiefs hold high influence – this will affect certain buildings’ effects.	false
+effect_bundles_localised_title_rhox_araby_estate_bundle_nomad_chief	Dominant Nomad Chiefs (24 and more)	false
+effect_bundles_localised_description_rhox_araby_estate_bundle_urban_elite	Urban Elites hold high influence – this will affect certain buildings’ effects.	false
+effect_bundles_localised_title_rhox_araby_estate_bundle_urban_elite	Dominant Urban Elites (24 and more)	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_1	Champion of Araby (81 - 100)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_1	Attaining level 4 allegiance to the Arabyans will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_2	Loyal to Araby (61 - 80)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_2	Attaining level 3 allegiance to the Arabyans will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_3	Customs of the Desert People (41 - 60)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_3	Attaining level 2 allegiance to the Arabyans will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_4	The Arabyan Way (21 - 40)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_4	Attaining level 1 allegiance to the Arabyans will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_5	The Crossroads (both sides below 20)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_5	Remaining undecided will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_6	The Way of the Tomb Kings (21 - 40)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_6	Attaining level 1 allegiance to the Tomb Kings will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_7	Customs of Nehekhara (41 - 60)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_7	Attaining level 2 allegiance to the Tomb Kings will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_8	Loyal to Tutankhanut (61 - 80)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_8	Attaining level 3 allegiance to the Tomb Kings will grant the following rewards:	false
+effect_bundles_localised_title_rhox_fatandira_pooled_resource_9	Champion of Tutankhanut (81 - 100)	false
+effect_bundles_localised_description_rhox_fatandira_pooled_resource_9	Attaining level 4 allegiance to the Tomb Kings will grant the following rewards:	false
+effect_bundles_localised_description_rhox_fatandira_betrayal	You have betrayed Numas, and your people have lost faith in you.	false
+effect_bundles_localised_title_rhox_fatandira_betrayal	Betrayal	false
+effect_bundles_localised_description_rhox_fatandira_friendship	Fatandira has remained faithful and returned Numas to its rightful ruler.	false
+effect_bundles_localised_title_rhox_fatandira_friendship	Honoured Alliance	false
+effect_bundles_localised_description_rhox_araby_bundle_sea_shanty_complete	You collected the whole shanty and became a pirate legend!	false
+effect_bundles_localised_title_rhox_araby_bundle_sea_shanty_complete	Pirate of Legend	false

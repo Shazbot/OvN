@@ -1,0 +1,19 @@
+key	agent_key	for_army	faction_key	for_navy	campaign_key	subculture	agent_subtype_key
+#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/ovn_araby_only							
+ovn_skill_node_set_arb_magician_life	wizard	false		false			arb_magician_life
+ovn_skill_node_set_arb_magician_desert	wizard	false		false			arb_magician_desert
+ovn_skill_node_set_arb_magician_fire	wizard	false		false			arb_magician_fire
+ovn_skill_node_set_arb_magician_heavens	wizard	false		false			arb_magician_heavens
+wh_main_skill_node_set_sultan_jaffar	general	false		false			arb_sultan_jaffar
+wh2_main_skill_node_set_arb_roy_nomad	spy	false		false			arb_nomad
+wh2_main_skill_node_set_arb_roy_champion	champion	false		false			arb_champion
+wh2_main_skill_node_set_arb_roy_champion_wazar	champion	false		false			arb_champion_wazar
+wh_main_skill_node_set_ovn_araby_ll	general	false		false			arb_sheikh
+wh_main_skill_node_set_arb_fatandira	general	false		false			arb_fatandira
+wh_main_skill_node_set_arb_golden_magus	general	false		false			arb_golden_magus
+wh_main_skill_node_set_arb_vizier_fire	general	false		false			arb_vizier_fire
+wh_main_skill_node_set_arb_vizier_life	general	false		false			arb_vizier_life
+wh_main_skill_node_set_arb_vizier_heavens	general	false		false			arb_vizier_heavens
+wh_main_skill_node_set_arb_vizier_desert	general	false		false			arb_vizier_desert
+ovn_skill_node_set_arb_caravan_master	general	false		false			arb_caravan_master
+ovn_skill_node_set_arb_sheikh_mehmed	general	false		false			arb_sheikh_mehmed

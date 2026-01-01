@@ -1,0 +1,11 @@
+<model version="1">
+  <geometry>RigidModels/Buildings/cth_wall_gatehouse_60/cth_wall_gatehouse_60_piece02_destruct02_gate_closed.rigid_model_v2</geometry>
+  <materials>
+    <material lod_index="0" part_index="0">RigidModels/Buildings/materials/cth_building_array_01.xml.material</material>
+    <material lod_index="0" part_index="1">RigidModels/Buildings/materials/cth_building_array_01.xml.material</material>
+    <material lod_index="0" part_index="2">RigidModels/Buildings/materials/cth_building_array_01.xml.material</material>
+    <material lod_index="1" part_index="0">RigidModels/Buildings/materials/cth_building_array_01.xml.material</material>
+    <material lod_index="1" part_index="1">RigidModels/Buildings/materials/cth_building_array_01.xml.material</material>
+    <material lod_index="2" part_index="0">RigidModels/Buildings/materials/cth_building_array_01.xml.material</material>
+  </materials>
+</model>

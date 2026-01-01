@@ -1,0 +1,33 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/ovn_arb_champion_wazar									
+wh2_main_skill_node_arb_champion_wazar_unique_skills_01		arb_champion_wazar_unique_0		1	0		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_skills_02		arb_champion_wazar_unique_1		1	1		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_skills_03		arb_champion_wazar_unique_2		1	2		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_skills_04		arb_champion_wazar_unique_3		1	3		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_skills_05		arb_champion_wazar_unique_4		1	4		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_skills_06		arb_champion_wazar_unique_5		1	5		0	4	true
+wh2_main_skill_node_arb_champion_wazar_campaign_01		wh2_main_skill_all_hero_assist_army_training		5	0		0	0	true
+wh2_main_skill_node_arb_champion_wazar_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order		5	1		0	0	true
+wh2_main_skill_node_arb_champion_wazar_campaign_03		wh2_main_skill_all_hero_hinder_army_assault_units		5	2		0	0	true
+wh2_main_skill_node_arb_champion_wazar_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound		5	3		0	0	true
+wh2_main_skill_node_arb_champion_wazar_campaign_05		wh2_main_skill_all_hero_hinder_settlement_assault_garrison		5	4		0	0	true
+wh2_main_skill_node_arb_champion_wazar_campaign_06		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+wh2_main_skill_node_arb_champion_wazar_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_emp_captain		8	0		1	0	false
+wh2_main_skill_node_arb_champion_wazar_immortality		wh2_main_skill_all_immortality_lord		0	10		1	0	false
+wh2_main_skill_node_arb_champion_wazar_innate		arb_champion_wazar_innate		6	0		0	0	false
+wh2_main_skill_node_arb_champion_wazar_self_01		wh_main_skill_all_all_self_blade_master_starter		2	0		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_02		wh_main_skill_all_all_self_devastating_charge		2	1		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_03		wh_main_skill_all_lord_self_full_plate_armour_2		2	2		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_04		wh_main_skill_all_all_self_hard_to_hit		2	3		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_05		wh_main_skill_all_all_self_deadly_blade		2	4		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_06		wh_main_skill_all_all_self_foe-seeker		2	5		0	4	true
+wh2_main_skill_node_arb_champion_wazar_self_07		wh_main_skill_all_all_self_wound-maker		2	6		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_08		wh_main_skill_all_all_self_scarred_veteran_2		2	7		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_09		wh_main_skill_all_all_self_indomitable		2	8		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_10		wh_main_skill_all_all_self_blade_shield		2	9		0	0	true
+wh2_main_skill_node_arb_champion_wazar_self_11		wh3_dlc24_skill_all_all_self_colossal_strike		2	10		0	4	true
+wh2_main_skill_node_arb_champion_wazar_unique_01		roy_anc_mount_arb_champion_horse_wazar		0	1		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_02		roy_anc_mount_arb_champion_pegasus_wazar		0	2		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_03		roy_skill_arb_agent_missile_res		0	3		0	0	true
+wh2_main_skill_node_arb_champion_wazar_unique_04		ovn_skill_arb_all_unique_ward_of_the_one		0	4		0	0	true
+wh3_main_agent_action_scaling_wh2_main_skill_node_arb_champion_wazar		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false

@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_outpost.loc		
+building_chains_chain_tooltip_ovn_araby_allied_outpost	Outpost	false
+building_culture_variants_name_ovn_araby_allied_outpost_1ovn_sc_arb_araby	Arabyan Outpost	false
+building_culture_variants_name_ovn_araby_allied_outpost_2ovn_sc_arb_araby	Arabyan Market	false
+building_culture_variants_name_ovn_araby_allied_outpost_3ovn_sc_arb_araby	Arabyan District	false
+building_short_description_texts_short_description_ovn_araby_allied_outpost_1	An outpost where adventurous Arabyan merchants sell their silks, spices and oils.	false
+building_short_description_texts_short_description_ovn_araby_allied_outpost_2	Thriving Arabyan districts spring up wherever there are coins to be earned.	false
+building_short_description_texts_short_description_ovn_araby_allied_outpost_3	Arabyan colonies are lively and bustling places with street performers, music, alcohol, narcotics, fiery food, and concubines.	false

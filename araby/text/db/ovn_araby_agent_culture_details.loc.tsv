@@ -1,0 +1,16 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_agent_culture_details.loc		
+agent_culture_details_onscreen_name_9880194	Emir	true
+agent_culture_details_onscreen_name_9880198	Sheikh	true
+agent_culture_details_onscreen_name_9880201	Hashishin	true
+agent_culture_details_onscreen_name_9880202	Magician	true
+agent_culture_details_description_text_9880194	Lesser nobles, yet warriors without equal. They often serve as bodyguards to the greatest lords of Araby.	true
+agent_culture_details_description_text_9880198		true
+agent_culture_details_description_text_9880201	The cities of Araby conceal countless dangers in their shadows. Its assassins are famed for striking swiftly and unseen.	true
+agent_culture_details_description_text_9880202	The desert Sorcerers of Araby follow their own ancient tradition, calling upon the Desert Spirits and their elemental might.	true
+agent_culture_details_onscreen_name_63452356	Lord	true
+agent_culture_details_onscreen_name_63452357	Colonel	true
+agent_culture_details_onscreen_name_63452358	Minister	true
+agent_culture_details_description_text_63452356		true
+agent_culture_details_description_text_63452357		true
+agent_culture_details_description_text_63452358		true

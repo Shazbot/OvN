@@ -1,0 +1,92 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_technologies.loc		
+technologies_onscreen_name_jaffar_tech_unique_1	Master of Djinn	false
+technologies_onscreen_name_jaffar_tech_unique_2	By Order of the Sultan	false
+technologies_onscreen_name_scimitar_tech_unique_1	No Quarter Given	false
+technologies_onscreen_name_scimitar_tech_unique_2	Undying Bucaneers	false
+technologies_onscreen_name_scythan_tech_unique_0	Servants of the Dead	false
+technologies_onscreen_name_scythan_tech_unique_1	All-Embracing Necropolis	false
+technologies_onscreen_name_scythan_tech_unique_2	Devoted of Tutankhanut	false
+technologies_onscreen_name_araby_tech_good_civ_0	Earn Your Freedom	false
+technologies_onscreen_name_araby_tech_good_civ_1	Teachings of the Wise	false
+technologies_onscreen_name_araby_tech_good_civ_2	Oath of Loyalty	false
+technologies_onscreen_name_araby_tech_good_civ_3	Funeral Rites	false
+technologies_onscreen_name_araby_tech_good_civ_4	Tribal Rights	false
+technologies_onscreen_name_araby_tech_good_civ_5	Algoritmi	false
+technologies_onscreen_name_araby_tech_good_civ_6	Truth behind the Myth	false
+technologies_onscreen_name_araby_tech_good_civ_7	Academia	false
+technologies_onscreen_name_araby_tech_good_civ_8	Architecti	false
+technologies_onscreen_name_araby_tech_good_mil_0	Martyrdom	false
+technologies_onscreen_name_araby_tech_good_mil_1	Way of the Bow	false
+technologies_onscreen_name_araby_tech_good_mil_2	Shock & Awe	false
+technologies_onscreen_name_araby_tech_good_mil_3	Writings of Suliman	false
+technologies_onscreen_name_araby_tech_good_mil_4	PLACEHOLDER	false
+technologies_onscreen_name_araby_tech_good_mil_5	Merit over Everything	false
+technologies_onscreen_name_araby_tech_good_mil_6	Kitab at-Tasrif	false
+technologies_onscreen_name_araby_tech_good_mil_7	Scripture of Al Muktar	false
+technologies_onscreen_name_araby_tech_good_mil_8	PLACEHOLDER	false
+technologies_onscreen_name_araby_tech_good_final_0	Golden Age	false
+technologies_onscreen_name_araby_tech_bad_civ_0	One Thousand and One Nights	false
+technologies_onscreen_name_araby_tech_bad_civ_1	Maps of Ibn Jellaba	false
+technologies_onscreen_name_araby_tech_bad_civ_2	Archaeology	false
+technologies_onscreen_name_araby_tech_bad_civ_3	Forbidden Tomes	false
+technologies_onscreen_name_araby_tech_bad_civ_4	Hassan Order	false
+technologies_onscreen_name_araby_tech_bad_civ_5	Water Clock	false
+technologies_onscreen_name_araby_tech_bad_civ_6	Hashishin Teachings	false
+technologies_onscreen_name_araby_tech_bad_civ_7	Scorched Earth	false
+technologies_onscreen_name_araby_tech_bad_civ_8	Warrior Society	false
+technologies_onscreen_name_araby_tech_bad_mil_0	Parables of War	false
+technologies_onscreen_name_araby_tech_bad_mil_1	Not One Step Back	false
+technologies_onscreen_name_araby_tech_bad_mil_2	Savage Ways	false
+technologies_onscreen_name_araby_tech_bad_mil_3	Camel Barding	false
+technologies_onscreen_name_araby_tech_bad_mil_4	Spellbook of Shihab Ibn Alim	false
+technologies_onscreen_name_araby_tech_bad_mil_5	Mullah Aklan'd Recipes	false
+technologies_onscreen_name_araby_tech_bad_mil_6	Scrawls of Mahik al'Rak	false
+technologies_onscreen_name_araby_tech_bad_mil_7	Pure Breeds	false
+technologies_onscreen_name_araby_tech_bad_mil_8	Tome of Har-Ak-Iman	false
+technologies_onscreen_name_araby_tech_bad_final_0	Runic Studies	false
+technologies_short_description_jaffar_tech_unique_1	No other has such mastery over the Djinn as the great Sultan Jaffar.	false
+technologies_short_description_jaffar_tech_unique_2	What an honour to serve and die by the orders of the mighty Sultan.	false
+technologies_short_description_scimitar_tech_unique_1	Those on the high seas are promised plunder, otherwise there'd be scarce men who would join at all.	false
+technologies_short_description_scimitar_tech_unique_2	The undead make for useful troops, but they make for poor company.	false
+technologies_short_description_scythan_tech_unique_0	Submit to their gracious will, so we may serve them in this life and the next.	false
+technologies_short_description_scythan_tech_unique_1	From slaves to beggars, all can now be laid to rest in the Necropolis so that they may serve their God for all eternity.	false
+technologies_short_description_scythan_tech_unique_2	Let us renew our undying pledge to Tutankhanut as our nomad forefathers once did.	false
+technologies_short_description_araby_tech_good_civ_0	Cover yourself with the glory of the sultan and you may earn your freedom.	false
+technologies_short_description_araby_tech_good_civ_1	Learn from your past to better your future.	false
+technologies_short_description_araby_tech_good_civ_2	Though the Askar have a strong sense of camaraderie with their leader, having a ceremony for those worthy can make them utterly devoted. 	false
+technologies_short_description_araby_tech_good_civ_3	Overseen by the Dervishers the prayers and rites are performed before the body is washed and then taken to the Tower of Silence where the carrion birds feast. 	false
+technologies_short_description_araby_tech_good_civ_4	Together we stand and fight, as equals, as brothers.	false
+technologies_short_description_araby_tech_good_civ_5	Any riddle of the world may be solved through reason and numbers, as taught by the great scholar al-Kharazim.	false
+technologies_short_description_araby_tech_good_civ_6	They are not monsters, merely beings shrouded in misunderstanding and fear.	false
+technologies_short_description_araby_tech_good_civ_7	Our future lies in the mind, protected by the sword.	false
+technologies_short_description_araby_tech_good_civ_8	No other can rival the majesty of our buildings, and through our writings we can create bigger, more elaborate structures faster than ever. 	false
+technologies_short_description_araby_tech_good_mil_0	It is most honourable to die defending your homeland and the Sultan's glory.	false
+technologies_short_description_araby_tech_good_mil_1	There is much honour and tradition in the Arabyan bow.	false
+technologies_short_description_araby_tech_good_mil_2	Hit them and hit them again and keep doing so until they are either dead or run.	false
+technologies_short_description_araby_tech_good_mil_3	Suliman became renowned as a deadly, exotic warrior across not only his native Araby but the Old World too. Though he is seen as traitor to some for his Bretonnian ties.	false
+technologies_short_description_araby_tech_good_mil_4	PLACEHOLDER	false
+technologies_short_description_araby_tech_good_mil_5	Nepotism is a sickness that can bring down even the mightiest of Empires. Let the greatest serve you rather than us serve the weak.	false
+technologies_short_description_araby_tech_good_mil_6	An encyclopedia of medical texts that will serve our peoples for eons and ensure our finest veterans can keep fighting.	false
+technologies_short_description_araby_tech_good_mil_7	The chosen one, not an Arabyan but a foreigner, a man of the Empire but this does not stop him from being widely revered across Araby and the Old World. Now many study his countless battles and heroism.	false
+technologies_short_description_araby_tech_good_mil_8	PLACEHOLDER	false
+technologies_short_description_araby_tech_good_final_0	We will be the envy of our successors and will go down as the greatest of our people. 	false
+technologies_short_description_araby_tech_bad_civ_0	A collection of Arabyan myths and legends, it's readers inspired to join its pages.	false
+technologies_short_description_araby_tech_bad_civ_1	Some would lock these maps away in gilded halls. I say we use them to chart our own destiny.	false
+technologies_short_description_araby_tech_bad_civ_2	We can learn much from the study of our forefathers and the Priest Kings.	false
+technologies_short_description_araby_tech_bad_civ_3	What secrets lie in the blood scrawl, just try to not let them consume you or maybe do...	false
+technologies_short_description_araby_tech_bad_civ_4	Legendary order of assassins, renowned and feared across Araby. Your throat will be slit long before you ever catch wind of them.	false
+technologies_short_description_araby_tech_bad_civ_5	An ingenious timepiece that proved to be vital for the Arabyan shipping lanes. It involves bonding a genie to the device, doomed to mark every heartbeat of its eternal imprisonment.	false
+technologies_short_description_araby_tech_bad_civ_6	How to strike man and beast from the shadows, it may not be honourable but it is often fatal.	false
+technologies_short_description_araby_tech_bad_civ_7	Victory can be gained not only on the battlefield. We shall see our enemies hunger and thirst before they ever raise a blade to us.	false
+technologies_short_description_araby_tech_bad_civ_8	Subjected to military drills since early manhood, all citizens must train in the disciplines and honour of warfare.	false
+technologies_short_description_araby_tech_bad_mil_0	Many stories of bloody war that even the wisest of despots can learn from.	false
+technologies_short_description_araby_tech_bad_mil_1	We are the line between those that seek to destroy us and our families. If we are to turn and flee we will be lucky to escape with just lashes.	false
+technologies_short_description_araby_tech_bad_mil_2	We will decorate our camp with their entrails.	false
+technologies_short_description_araby_tech_bad_mil_3	The camel is a mighty creature that can bear the weight of more than just cargo. Those that whimper under the burden of armour are slain on sight.	false
+technologies_short_description_araby_tech_bad_mil_4	The author, in the service of the Sultan of Copher, was not only a powerful Arabyan sorcerer but a cruel and feared spymaster. His writing included how to torture those with the use of magic to great effect.	false
+technologies_short_description_araby_tech_bad_mil_5	Considered one of the best sorcerers, the Mullah was a famous and revered Arabyan warrior. His many teachings are used to this day even in ways he might not condone.	false
+technologies_short_description_araby_tech_bad_mil_6	The leader of the most influential chaos cult in all of Araby, made infamous for the portal to the Chaos realms they constructed. They managed to scrawl their knowledge in blood before being possessed by an agent of Tzeentch.	false
+technologies_short_description_araby_tech_bad_mil_7	Through selective breeding, we can rear Elephants that rival even Norscan Mammoths.	false
+technologies_short_description_araby_tech_bad_mil_8	It is said that there is no man more disturbed, evil and vile than the Arabyan necromancer known as Har-Ak-Iman who penned this cursed book.	false
+technologies_short_description_araby_tech_bad_final_0	True power lies in the ancient runes of Nehekhara.	false

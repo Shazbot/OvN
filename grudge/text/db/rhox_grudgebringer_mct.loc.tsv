@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_grudgebringer_mct.loc		
+rhox_grudge_mct_description	You can setup some of the campaign rules for the Grudgebringers faction	false
+rhox_grudge_ror_skip_title	Max number of unaccessible RoRs	false
+rhox_grudge_ror_skip_description	At the beginning of the campaign, the script will sample X times from the RoR pool without replacement. RoRs sampled this way will be not accessible in this campaign.\\n\\nOur intention was to give more replayability and solve the "Having only 19 unit slots without any submods" issue. But if you want all of them, you can set this value to 0.	false
+rhox_grudge_all_hero_title	Enable all heroes	false
+rhox_grudge_all_hero_description	By turning this option on, you'll gain access to all the Gurdgebringer faction's Legendary heroes via missions. If you turn it off, you'll gain one mage hero and a non-mage hero via a dilemma.	false

@@ -1,0 +1,55 @@
+{
+    "Settings": {
+        "BnkName": "campaign_vo__ovn_vo_actor_Araby_Sorcerer_Hero1",
+        "Language": "english(uk)"
+    },
+
+    "DialogueEvents": [
+        {
+            "DialogueEvent": "campaign_vo_move",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Araby_Sorcerer_Hero1.Any",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_move-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_move-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_move-03.wav",
+                        "D:\\Vizier1_Battle_vo_order_move-04.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Araby_Sorcerer_Hero1",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_select-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-03.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-04.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-05.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-06.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "campaign_vo_selected_fail",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_actor_Araby_Sorcerer_Hero1",
+                    "Sounds": [
+                        "D:\\Vizier1_campaign_vo_selected_fail-01.wav",
+                        "D:\\Vizier1_campaign_vo_selected_fail-02.wav",
+                        "D:\\Vizier1_campaign_vo_selected_fail-03.wav",
+                        "D:\\Vizier1_campaign_vo_selected_fail-04.wav",
+                        "D:\\Vizier1_campaign_vo_selected_fail-05.wav",
+                        "D:\\Vizier1_campaign_vo_selected_fail-06.wav"
+                    ]
+                }
+            ]
+        }
+    ]
+}

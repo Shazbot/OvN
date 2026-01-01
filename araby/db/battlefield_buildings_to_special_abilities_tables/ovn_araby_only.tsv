@@ -1,0 +1,6 @@
+battlefield_building	special_ability	tier
+#battlefield_buildings_to_special_abilities_tables;0;db/battlefield_buildings_to_special_abilities_tables/ovn_araby_only		
+arb_tower_placement_01	wh3_main_tower_vision	1
+arb_tower_placement_02	wh3_main_tower_vision	1
+arb_tower_placement_03	wh3_main_tower_vision	1
+arb_tower_placement_04	wh3_main_tower_vision	1

@@ -17,15 +17,15 @@
   </texture>
   <texture>
    <slot version="2">t_xml_mask</slot>
-   <source>VariantMeshes/wh_variantmodels/hu1/emp/emp_generals/head/tex/emp_generals_head_01_mask.dds</source>
+   <source>commontextures/default_black.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_material_map</slot>
-   <source>variantmeshes/wh_variantmodels/hu1/emp/emp_boris_todbringer/head/tex/emp_boris_todbringer_head_01_material_map.dds</source>
+   <source>variantmeshes\wh_variantmodels\hu1\emp\emp_boris_todbringer\tex\emp_boris_todbringer_head_01_material_map.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_normal</slot>
-   <source>variantmeshes/wh_variantmodels/hu1/emp/emp_boris_todbringer/head/tex/emp_boris_todbringer_head_01_normal.dds</source>
+   <source>variantmeshes\wh_variantmodels\hu1\emp\emp_boris_todbringer\tex\emp_boris_todbringer_head_01_normal.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_distortion_noise</slot>

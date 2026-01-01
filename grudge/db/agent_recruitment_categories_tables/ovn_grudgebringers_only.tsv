@@ -1,3 +1,4 @@
-key	order	icon_file_path
-#agent_recruitment_categories_tables;1;db/agent_recruitment_categories_tables/ovn_grudgebringers_only		
-grudge_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png
+key	order	icon_file_path	show_in_recruitment	counts_towards_caps_when_off_the_map
+#agent_recruitment_categories_tables;2;db/agent_recruitment_categories_tables/ovn_grudgebringers_only				
+grudge_legendary_lords	0	UI\Common UI\unit_category_icons\warhammer2\commander.png	true	true
+ovn_grudge_camp_lord	4	UI\Common UI\unit_category_icons\commander.png	false	false

@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_effects.loc		
+effects_description_rhox_araby_golden_magus_ror_dummy	A Royal Djinn unit will be added to the Regiments of Renown pool for every two Pieces of Eight collected	false
+effects_description_rhox_araby_fatandira_ror_dummy	The Royal Djinns will be added to the Regiments of Renown pool upon reaching 100 Allegiance	false
+effects_description_rhox_araby_fatandira_constructs_dummy	A Hierotitan, a Necrosphinx and two Khemrian Warsphinxes will be added to the Regiments of Renown pool upon reaching 100 Allegiance	false
+effects_description_rhox_araby_jaffar_ror_dummy	A Royal Djinn unit will be added to the Regiments of Renown pool	false
+effects_description_rhox_araby_jaffar_mehmed_dummy	Adds the Sheikh [[col:yellow]]Mehmed the Butcher[[/col]] to your faction's [[img:icon_general]][[/img]]Lord pool	false
+effects_description_rhox_araby_urban_meter_effect	[[col:orange]]Increases Urban Elites’ Influence: %+n[[/col]]	false
+effects_description_rhox_araby_nomad_meter_effect	[[col:orange]]Increases Nomad Chiefs’ Influence: %+n[[/col]]	false
+effects_description_rhox_araby_nomad_meter_effect_dummy	[[col:orange]]Increases Nomad Chiefs’ Influence: %+n[[/col]]	false
+effects_description_rhox_araby_urban_in_power	Dominant Urban Elites: The Urban Elites are in charge and your buildings provide additional effects	false
+effects_description_rhox_araby_nomad_in_power	Dominant Nomad Chiefs: The Nomad Chiefs are in charge and your buildings provide additional effects	false
+effects_description_rhox_araby_status_quo	Impasse: Both sides are evenly matched and your buildings offer no additional bonuses	false
+effects_description_rhox_araby_tmb_upkeep_dummy	Upkeep: %+n% for Tomb King units	false
+effects_description_rhox_araby_araby_upkeep_dummy	Upkeep: %+n% for Arabyan units	false
+effects_description_rhox_araby_tmb_weapon_strength	Weapon strength: %+n% for Tomb King units	false
+effects_description_rhox_araby_araby_weapon_strength	Weapon strength: %+n% for Arabyan units	false
+effects_description_rhox_araby_meter_araby_effect	%n closer to Araby each turn	false
+effects_description_rhox_araby_meter_tk_effect	%n closer to Tomb Kings each turn	false
+effects_description_rhox_araby_meter_tk_effect_dummy	%n closer to Tomb Kings each turn	false
+effects_description_rhox_araby_meter_wont_change_dummy	You are irrevocably choosing this side upon reaching 100 Allegiance	false
+effects_description_rhox_araby_fatandira_feature_dummy	Fatandira’s Allegiance: Side with either her Tomb King God, Tutankhanut, or the people of Araby to earn rewards	false
+effects_description_rhox_araby_jaffar_feature_dummy	Jaffar’s Revenge: Enact Jaffar’s revenge by uniting all of Araby and conquering Estalia, Tilea and Bretonnia. Each milestone grants various rewards	false
+effects_description_rhox_araby_gm_feature_dummy	Sultan of the Seas: Destroy, sack, hunt treasure and raid to build your reputation at sea against other Vampire Coast factions and collect Sea Shanties	false
+effects_description_rhox_araby_slave_feature_dummy	Has access to the Slave mechanic	false
+effects_description_rhox_araby_faction_political_diplomacy_mod_crusaders	Diplomatic relations: %+n with [[img:brt_chevaliers_de_lyonesse]][[/img]]Chevaliers de Lyonesse, [[img:brt_thegans_crusaders]][[/img]]Thegan's Errantry, [[img:brt_knights_of_the_flame]][[/img]]Knights of the Flame, [[img:brt_knights_of_origo]][[/img]]Knights of Origo and [[img:brt_rogue_jerrod]][[/img]]Jerrod's Errantry	false
+effects_description_rhox_araby_effect_force_army_campaign_experience_base_war_beast	Recruit rank: %+n for Feral Giant Vulture, Waghzen and Camel units	false
+effects_description_rhox_araby_effect_force_replenishment_rate_war_beast	Casualty replenishment rate: %+n% for Feral Giant Vulture, Waghzen and Camel units	false

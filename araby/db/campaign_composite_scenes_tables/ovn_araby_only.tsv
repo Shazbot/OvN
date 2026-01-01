@@ -1,0 +1,11 @@
+id	filename
+#campaign_composite_scenes_tables;0;db/campaign_composite_scenes_tables/ovn_araby_only	
+ovn_arb_altar_01	composite_scene/campaign/arb/arb_altar_01.csc
+ovn_arb_camp_01	composite_scene/campaign/arb/arb_camp_01.csc
+ovn_arb_camp_02	composite_scene/campaign/arb/arb_camp_02.csc
+ovn_arb_village_01	composite_scene/campaign/arb/arb_village_01.csc
+ovn_arb_village_02	composite_scene/campaign/arb/arb_village_02.csc
+ovn_arb_caravan_01	composite_scene/campaign/arb/arb_caravan_01.csc
+ovn_arb_fortress_01	composite_scene/campaign/arb/arb_fortress_01.csc
+ovn_arb_lighthouse_01	composite_scene/campaign/arb/arb_lighthouse_01.csc
+ovn_arb_palace_01	composite_scene/campaign/arb/arb_palace_01.csc

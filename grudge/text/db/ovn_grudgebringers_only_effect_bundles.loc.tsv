@@ -8,15 +8,15 @@ effect_bundles_localised_title_ovn_grudge_cross_effect	Brigands Way	true
 effect_bundles_localised_description_ovn_grudge_cross_effect	Brigands are known for ambushes and what better way than with the use of smoke bombs.	true
 effect_bundles_localised_title_ovn_grudge_can_effect	Earthworks	false
 effect_bundles_localised_description_ovn_grudge_can_effect	Hiring an imperial engineer and a few sappers will allow us to defend our artillery from enemy fire at the cost of manoeuvrability and a large sum of gold.	false
-effect_bundles_localised_title_grudge_transfer_region	Glory to the Empire	true
+effect_bundles_localised_title_grudge_transfer_region	Fell This Evil	true
 effect_bundles_localised_title_grudge_transfer_region_horde_growth	Camp Grows	true
-effect_bundles_localised_description_grudge_transfer_region	You have conquered in the name of the Empire - glory to you - glory to the Empire!	true
-effect_bundles_localised_description_grudge_transfer_region_horde_growth	As the Grudgebringers success spreads around the Empire, many seek us out to swell our ranks.	true
-effect_bundles_localised_title_grudge_supply_dummy	Imperial Reinforcements	true
+effect_bundles_localised_description_grudge_transfer_region	You will restore this settlement to it's rightful owners!	true
+effect_bundles_localised_description_grudge_transfer_region_horde_growth	As the Grudgebringers success spreads many seek us out to swell our ranks.	true
+effect_bundles_localised_title_grudge_supply_dummy	Reinforcements	true
 effect_bundles_localised_title_grudge_hire_dummy	Hired Mercenary	true
-effect_bundles_localised_description_grudge_supply_dummy	You will receive what men, if any, the Emperor can spare for your mission.	true
+effect_bundles_localised_description_grudge_supply_dummy	You will receive what men, if any, can be spared for your mission.	true
 effect_bundles_localised_description_grudge_hire_dummy	This unit will bolster our ranks.	true
-effects_description_grudge_supply_dummy	High chance to receive reinforcements in the form of Imperial State Troops or Mercenaries.	true
+effects_description_grudge_supply_dummy	Receive reinforcements and gold from the faction you choose to return the settlement to.	true
 effects_description_grudge_hire_dummy	Receive one mercenary unit.	true
 effect_bundles_localised_title_grudge_retain_dummy	Imperial Satellite	true
 effect_bundles_localised_description_grudge_retain_dummy	A place to rest our weary bones and while the nobles run the settlement, we will defend it.	true
@@ -39,10 +39,12 @@ effect_bundles_localised_description_grudge_bundle_banner_of_defiance	This power
 effect_bundles_localised_title_grudge_bundle_banner_of_defiance	Banner of Defiance	true
 effect_bundles_localised_description_ovn_grudgebringers_garrison_replenishment		true
 effect_bundles_localised_title_ovn_grudgebringers_garrison_replenishment		true
-effect_bundles_localised_title_ovn_faction_trait_grudge	Mercenary Legends	false
-effect_bundles_localised_description_ovn_faction_trait_grudge	"I have the knowledge, I have the skill, and you can follow me if you will! How many years have you been scraping for a living-five, ten, fifteen? Well, show me the men and I'll put together a fighting force to shame the Reiksguard and the Panthers and the whining White Wolves of Middenheim to boot! Are you with me, Grudgebringers?" 	false
-effect_bundles_localised_title_ovn_gru_camp	Mercenary Camp	false
-effect_bundles_localised_description_ovn_gru_camp	Mercenaries have set up camp here. Any army within its circle of influence will be able to recruit units from the camp.	false
+effect_bundles_localised_title_ovn_lord_trait_emp_morgan	Mercenary Legends	false
+effect_bundles_localised_description_ovn_lord_trait_emp_morgan	"I have the knowledge, I have the skill, and you can follow me if you will! How many years have you been scraping for a living-five, ten, fifteen? Well, show me the men and I'll put together a fighting force to shame the Reiksguard and the Panthers and the whining White Wolves of Middenheim to boot! Are you with me, Grudgebringers?" 	false
+effect_bundles_localised_title_ovn_gru_camp	Stance: Raiding Camp	false
+effect_bundles_localised_description_ovn_gru_camp	Mercenaries have set up camp here, raiding the local region. Any army within its circle of influence will be able to recruit units from the camp.	false
+effect_bundles_localised_title_ovn_gru_camp_not_raiding	Mercenary Camp	false
+effect_bundles_localised_description_ovn_gru_camp_not_raiding	Mercenaries have set up camp here, supporting the local region. Any army within its circle of influence will be able to recruit units from the camp.	false
 effect_bundles_localised_title_ovn_grudge_wep	Artisan Blades	true
 effect_bundles_localised_description_ovn_grudge_wep	Each weapon is hand crafted and perfectly balanced, making its wielder a dangerous prospect.	true
 effect_bundles_localised_title_ovn_grudge_cav	Outcast Knights	true
@@ -69,3 +71,11 @@ effect_bundles_localised_description_ovn_grudge_carlsson	Only the finest regimen
 effect_bundles_localised_description_ovn_grudge_innercircle	Inner Circle Knights, make up the deadliest, highest-ranking and most experienced warriors within any knightly order.	false
 effect_bundles_localised_description_ovn_grudge_skaven	They exist only to kill skaven and do so gladly, they adorn their banners and persons with rat skulls, bones, viscera and fur.	false
 effect_bundles_localised_description_ovn_grudge_cavarmour	The finest hand crafted cavarly barding, the true mark of worthy cavalrymen.	false
+effect_bundles_localised_description_ludwig_uberdorf	Steam Tank Commander	true
+effect_bundles_localised_title_ludwig_uberdorf_join	Ludwig von Uberdorf joins your faction!	true
+effect_bundles_localised_title_leitdorf_9th_crossbows_join	Leitdorf's 9th Crossbows join your faction!	true
+effect_bundles_localised_description_leitdorf_9th_crossbows_join	Captain of Leitdorf's 9th Crossbows	true
+effect_bundles_localised_title_emperors_hellblaster_volley_gun_join	Emperor’s Hellblaster Volley Gun join your faction!	true
+effect_bundles_localised_description_emperors_hellblaster_volley_gun_join	Regiment of Famous Mercenaries	true
+effect_bundles_localised_title_reiksguard_knights_todbringer_join	Todbringer's Reiksguard Knights join your faction!	true
+effect_bundles_localised_description_reiksguard_knights_todbringer_join	Regiment of Famous Mercenaries	true

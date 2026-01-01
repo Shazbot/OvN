@@ -1,0 +1,300 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_effects.loc		
+effects_description_wh2_main_effect_building_unit_recruitment_duration_arb_ovn_arb_inf_arabyan_guard	Local Recruitment duration: %+n turn for Palace Guards units (minimum 1)	true
+effects_description_wh2_main_effect_tech_unit_xp_levels_arb_ovn_arb_inf_arabyan_guard_global	Recruit rank: %+n for Palace Guards units	true
+effects_description_wh2_main_effect_tech_unit_xp_levels_arb_ovn_arb_inf_arabyan_guard	Recruit rank: %+n for Palace Guards units	true
+effects_description_wh2_main_effect_building_upkeep_reduction_arb_ovn_arb_inf_arabyan_guard	Upkeep: %+n% for Palace Guards units	true
+effects_description_wh2_main_effect_building_recruitment_cost_reduction_arb_ovn_arb_inf_arabyan_guard	Recruitment cost: %+n% for Palace Guards units	true
+effects_description_ovn_effect_tech_unit_xp_arb_elephants	Recruit rank: %+n for Elephants and War Elephant units	true
+effects_description_wh2_main_effect_building_upkeep_reduction_arb_ovn_elephant	Upkeep: %+n% for Elephants and War Elephant units	true
+effects_description_wh2_main_effect_building_recruitment_cost_reduction_arb_ovn_elephant	Recruitment cost: %+n% for Elephants and War Elephant units	true
+effects_description_wh2_dlc09_effect_melee_defence_arb_ovn_elephant	Melee defence: %+n for Elephants and War Elephant units	true
+effects_description_wh2_dlc09_effect_melee_attack_arb_ovn_elephant	Melee attack: %+n for Elephants and War Elephant units	true
+effects_description_roy_effect_agent_enable_recruitment_arb_champion	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Emir	false
+effects_description_roy_effect_agent_cap_increase_arb_champion	Hero capacity: %+n for Emirs	false
+effects_description_ovn_effect_tech_grant_all_immortality	All [[img:icon_general]][[/img]]Lords and [[img:icon_hero]][[/img]]Heroes will be wounded instead of killed in battle	false
+effects_description_roy_effect_agent_recruitment_xp_arb_champion	Hero recruit rank: %+n for Emirs	false
+effects_description_roy_effect_agent_enable_recruitment_arb_nomad	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Hashishin	false
+effects_description_roy_effect_agent_cap_increase_arb_nomad	Hero capacity: %+n for Hashishins	false
+effects_description_roy_effect_agent_recruitment_xp_arb_nomad	Hero recruit rank: %+n for Hashishins	false
+effects_description_roy_effect_enable_arb_strike_from_the_shadows	Ability: "Strike from the Shadows"	false
+effects_description_roy_effect_enable_arb_doppelgang	Ability: "Doppelgang"	false
+effects_description_ovn_effect_tech_weapon_strength_arb_sharkas_slaves_pit_fighters	Weapon strength: %+n% for Slave Rabble and Pit-Fighters units	false
+effects_description_ovn_effect_tech_leadership_arb_sharkas_slaves_pit_fighters	Leadership: %+n for Slave Rabble and Pit-Fighters units	false
+effects_description_ovn_effect_tech_charge_bonus_pct_arb_camels	Charge bonus: %+n% for Camel Lancers, Camel Cataphracts, Camel Archers and Camel Jezzails units	false
+effects_description_roy_effect_agent_action_success_chance_arb_nomad	Hero action success chance: %+n% for Hashishins	false
+effects_description_roy_effect_agent_action_cost_mod_arb_nomad	Hero action cost: %+n% for Hashishins	false
+effects_description_roy_effect_agent_action_success_chance_arb_champion	Hero action success chance: %+n% for Emirs	false
+effects_description_ovn_arb_cha_sheikh_2	Mount: Griffon	true
+effects_description_ovn_effect_ability_enable_blessing_of_the_elements	Passive ability: "Blessing of the Elements"	true
+effects_description_ovn_effect_magic_desert_enable_mirage	Spell: "Mirage"	true
+effects_description_ovn_effect_magic_desert_enable_mirage_upgraded	Overcast spell: "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_mirage	Cooldown: %+n% to "Mirage"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_mirage_upgraded	Miscast base chance: %+n% for "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_mirage	Winds of Magic cost: %n for "Mirage"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_mirage_upgraded	Winds of Magic cost: %n for "Mirage Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike	Spell: "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_cooldown_sunstrike	Cooldown: %+n% to "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_enable_sunstrike_upgraded	Overcast spell: "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sunstrike_upgraded	Miscast base chance: %+n% for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike	Winds of Magic cost: %n for "Sunstrike"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sunstrike_upgraded	Winds of Magic cost: %n for "Sunstrike Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm	Spell: "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_cooldown_sandstorm	Cooldown: %+n% to "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_enable_sandstorm_upgraded	Overcast spell: "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_sandstorm_upgraded	Miscast base chance: %+n% for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm	Winds of Magic cost: %n for "Sandstorm"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_sandstorm_upgraded	Winds of Magic cost: %n for "Sandstorm Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand	Spell: "Quicksand"	true
+effects_description_ovn_effect_magic_desert_enable_quicksand_upgraded	Overcast spell: "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_quicksand	Cooldown: %+n% to "Quicksand"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_quicksand_upgraded	Miscast base chance: %+n% for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand	Winds of Magic cost: %n for "Quicksand"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_quicksand_upgraded	Winds of Magic cost: %n for "Quicksand Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands	Spell: "Burning Hand"	true
+effects_description_ovn_effect_magic_desert_enable_burning_hands_upgraded	Overcast spell: "Burning Hand Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_burning_hands	Cooldown: %+n% to "Burning Hand"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_burning_hands_upgraded	Miscast base chance: %+n% for "Burning Hand Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands	Winds of Magic cost: %n for "Burning Hand"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_burning_hands_upgraded	Winds of Magic cost: %n for "Burning Hand Upgraded"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn	Spell: "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_enable_curse_of_the_djinn_upgraded	Overcast spell: "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_magic_desert_cooldown_curse_of_the_djinn	Cooldown: %+n% to "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_miscast_reduction_curse_of_the_djinn_upgraded	Miscast base chance: %+n% for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn	Winds of Magic cost: %n for "Curse of the Djinn"	true
+effects_description_ovn_effect_magic_desert_reduce_wom_cost_curse_of_the_djinn_upgraded	Winds of Magic cost: %n for "Curse of the Djinn Upgraded"	true
+effects_description_ovn_effect_force_stat_speed_arb_beasts	Speed: %+n% for Waghzen, Elephants, War Elephant and Feral Giant Vulture units	true
+effects_description_ovn_effect_force_stat_charge_bonus_pct_arb_beasts	Charge bonus: %+n% for Waghzen, Elephants, War Elephant and Feral Giant Vulture units	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_djinns	Melee attack: %+n for Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn and Flying Carpets units	true
+effects_description_ovn_effect_force_stat_leadership_arb_djinns	Leadership: %+n for Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn and Flying Carpets units	true
+effects_description_ovn_effect_force_stat_weapon_strength_arb_melee_infantry	Weapon strength: %+n% for melee infantry units	true
+effects_description_ovn_effect_force_stat_magic_resistance_arb_melee_infantry	Spell resistance: %n% for all melee infantry units	true
+effects_description_ovn_effect_force_stat_armour_arb_melee_cavalry	Armour: %+n for all melee cavalry units	true
+effects_description_ovn_effect_force_stat_leadership_arb_melee_cavalry	Leadership: %+n for all melee cavalry units	true
+effects_description_ovn_effect_force_stat_missile_strength_arb_ranged_nongunpowder	Missile strength: %+n% for Bowmen, Nomad Trackers, Desert Riders, Camel Archers, Flying Carpets and Scorpion units	true
+effects_description_ovn_effect_force_stat_reload_time_reduction_arb_ranged_nongunpowder	Reload time reduction: %+n% for Bowmen, Nomad Trackers, Desert Riders, Camel Archers, Flying Carpets and Scorpion units	true
+effects_description_ovn_effect_force_stat_ward_save_arb_magic_rank7	Ward save: %n% for Dervishers, Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Flying Carpets and Djinn Carriage units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_weapon_strength_arb_magic_rank7	Weapon strength: %+n% for Dervishers, Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Flying Carpets and Djinn Carriage units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_physical_resistance_arb_nomads_rank7	Physical resistance: %n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_charge_bonus_pct_arb_nomads_rank7	Charge bonus: %+n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_melee_defence_arb_settled_rank7	Melee defence: %+n for Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs, Pit-Fighters, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_speed_arb_settled_rank7	Speed: %+n% for Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs, Pit-Fighters, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	true
+effects_description_ovn_effect_upkeep_arb_sea_units	Upkeep: %+n% for Corsairs and Sea Nymph units	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_sea_units	Melee attack: %+n for Corsairs and Sea Nymph units	true
+effects_description_ovn_effect_force_stat_melee_defence_arb_sea_units	Melee defence: %+n for Corsairs and Sea Nymph units	true
+effects_description_ovn_effect_force_stat_flame_resistance_arb_tomb_king_units	Fire resistance: %n% for Tomb King units	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_tomb_king_units	Melee attack: %+n for Tomb King units	true
+effects_description_ovn_effect_force_stat_armour_arb_tomb_king_units	Armour: %+n for Tomb King units	true
+effects_description_ovn_effect_enable_mount_djinn_vessel	Mount: Camel	true
+effects_description_ovn_effect_enable_mount_magic_carpet	Mount: Flying Carpet	true
+effects_description_ovn_effect_enable_mount_camel	Mount: Camel	true
+effects_description_ovn_effect_enable_mount_elephant	Mount: Royal War Elephant	true
+effects_description_ovn_effect_enable_mount_roc	Mount: Saqir	true
+effects_description_ovn_effect_enable_mount_golden_magus_skiff	Mount: Golden Skiff	true
+effects_description_ovn_effect_enable_mount_djinn_carriage	Mount: Djinn Carriage 	false
+effects_description_ovn_effect_arb_rite_cost_mod_crafting	Grand Bazaar crafting cost: %+n%	false
+effects_description_ovn_effect_tech_upkeep_arb_camels	Upkeep: %+n% for Camel Lancers, Camel Cataphracts, Camel Archers and Camel Jezzails units	false
+effects_description_ovn_effect_tech_armour_arb_camels	Armour: %+n for Camel Lancers, Camel Cataphracts, Camel Archers and Camel Jezzails units	true
+effects_description_ovn_effect_tech_missile_strength_arb_gunpowder	Missile strength: %+n% for Gunpowder units	true
+effects_description_ovn_effect_tech_reload_time_reduction_arb_gunpowder	Reload time reduction: %+n% for Gunpowder units	true
+effects_description_ovn_effect_tech_melee_defence_arb_basic_infantry	Melee defence: %+n for Warriors, Spearmen and Bowmen units	true
+effects_description_ovn_effect_tech_armour_arb_basic_infantry	Armour: %+n for Warriors, Spearmen and Bowmen units	true
+effects_description_ovn_effect_tech_melee_attack_arb_nomads	Melee attack: %+n for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_ovn_effect_tech_speed_arb_nomads	Speed: %+n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_ovn_effect_tech_missile_strength_arb_bow_units	Missile strength: %+n% for Arabyan bow units	true
+effects_description_ovn_effect_tech_melee_attack_arb_corsairs	Melee attack: %+n for Corsairs units	false
+effects_description_ovn_araby_tech_corasir_units_upkeep	Upkeep: %+n% for Corsair units	false
+effects_description_ovn_effect_tech_melee_attack_arb_sharkas_slaves_pit_fighters	Melee attack: %+n for Slave Rabble and Pit-Fighters units	false
+effects_description_ovn_effect_tech_upkeep_reduction_arb_sharkas_slaves_pit_fighters	Recruitment cost: %+n% for Slave Rabble and Pit-Fighters units	false
+effects_description_ovn_effect_tech_unit_xp_arb_arabyan_guard	Recruit rank: %+n for Palace Guards units	true
+effects_description_ovn_effect_tech_unit_xp_arb_arabyan_guard_global	Recruit rank: %+n for Palace Guards units	true
+effects_description_ovn_effect_tech_weapon_strength_arb_sea_units	Weapon strength: %+n% for Corsairs and Sea Nymph units	true
+effects_description_ovn_effect_tech_speed_arb_sea_units	Speed: %+n% for Corsairs and Sea Nymph units	true
+effects_description_ovn_effect_tech_armour_arb_sea_units	Armour: %+n for Corsairs and Sea Nymph units	true
+effects_description_ovn_effect_tech_weapon_strength_arb_tomb_king_units	Weapon strength: %+n% for Tomb King units	true
+effects_description_ovn_effect_tech_melee_defense_arb_tomb_king_units	Melee defence: %+n for Tomb King units	true
+effects_description_ovn_effect_tech_upkeep_arb_tomb_king_units	Upkeep: %+n% for Tomb King units	true
+effects_description_Black_Book_Of_Ibn_Naggazar	Improved [[img:icon_wom_recharge]][[/img]]power recharge rate	true
+effects_description_summon_djinn_fighter	Ability: "Summon Fire Efreet"	true
+effects_description_wh2_dlc12_army_abilities_great_invocation_of_djinn	Ability: "Unleash Serpent Djinn"	true
+effects_description_ovn_jaffar_innate_dummy	Summon a Fire Efreet	false
+effects_description_arb_jaffar_serpent_djinn_enable	Ability: "Serpent Staff"	true
+effects_description_arb_jaffar_serpent_guard_upkeep	Upkeep: %+n% for Palace Guards and Camel Cataphracts units	true
+effects_description_arb_jaffar_serpent_guard_melee	Melee attack: %+n for Palace Guards and Camel Cataphracts units	true
+effects_description_arb_jaffar_serpent_guard_defence	Melee defence: %+n for Palace Guards and Camel Cataphracts units	true
+effects_description_arb_jaffar_enable_aura_will	Ability: "Will of Jaffar"	true
+effects_description_ovn_araby_slave_production	Slaves: %n per turn	false
+effects_description_ovn_scythan_numas_diplo	Diplomatic relations: %+n with [[img:ui/flags/wh2_dlc09_tmb_numas/mon_24.png]][[/img]]Numas	true
+effects_description_ovn_araby_elephant_scor_mor	Leadership: %+n for Elephants and War Elephant units	true
+effects_description_ovn_arb_iron_resource_res_cost	Recruitment cost: %+n% for Palace Guards and Camel Cataphracts units	true
+effects_description_ovn_arb_baz_ei_12_twilight_mirror_shard_ability	Ability: "Twilight Mirror Shard"	true
+effects_description_ovn_arb_baz_wep_10_vengeful_sword_heal	Passive ability: "Vengeful God Sword (Feeding)"	true
+effects_description_ovn_arb_baz_wep_10_vengeful_sword_damage_self	Passive ability: "Vengeful God Sword (Hungers)"	true
+effects_description_ovn_arb_baz_wep_08_matyr_shard_ability	Passive ability: "Martyr’s Stand"	true
+effects_description_ovn_arb_baz_heal	Passive ability: "Divine Healing"	true
+effects_description_ovn_arb_baz_arm_09_faith_shield_ability	Passive ability: "Divine Faith"	true
+effects_description_ovn_arb_baz_arm_08_gorgon_shield_ability	Ability: "Gorgon's Glare"	true
+effects_description_smokeleaf_smokescreen	Ability: "Tobacco Smokescreen"	true
+effects_description_ovn_arb_baz_escape	Ability: "Enveloped by the Dune"	true
+effects_description_ovn_resource_production_coffee	Coffee beans resource production: %n sacks	true
+effects_description_arb_fatandira_innate_nomad_discount	Upkeep: %+n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_arb_fatandira_innate_nomad_ammo	Ammunition: %n% for Nomad Trackers, Jezzails, Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_arb_fatandira_enable_aimed_shot	Ability: "Aimed Shot"	true
+effects_description_arb_fatandira_enable_aimed_shot_cooldown	Cooldown: %+n% to "Aimed Shot"	true
+effects_description_arb_fatandira_nomad_ranged_damage	Missile strength: %+n% for Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_arb_fatandira_innate_nomad_weapon_strength	Weapon strength: %+n% for Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	false
+effects_description_arb_fatandira_nomad_speed	Speed: %+n% for Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_arb_fatandira_enable_sand_feint	Ability: "Sand Feint"	true
+effects_description_arb_fatandira_enable_blades_demise	Ability: "Blades of Honourable Demise"	true
+effects_description_arb_golden_magus_enable_master_djinn	Ability: "Master of the Djinn"	true
+effects_description_arb_golden_magus_wishmaster_djinn_exp	Recruit rank: %+n for Enchanted Ropes, Genie and Flying Carpets units	true
+effects_description_arb_golden_magus_enable_burning_scimitar	Ability: "The Flaming Scimitar"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_enable	Army ability: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_hurricane_blades_enable	Army ability: "Hurricane of Blades"	true
+effects_description_arb_golden_magus_flaming_scimitar_bolts_of_burning_disable	Replaces: "Piercing Bolts of Ruin"	true
+effects_description_arb_golden_magus_flaming_scimitar_royal_djinn_enable	Army ability: "Summon Book Djinns"	true
+effects_description_arb_golden_magus_innate_djinn_upkeep	Upkeep: %+n% for Enchanted Ropes, Genie and Flying Carpets units	true
+effects_description_arb_golden_magus_diplomatic_relations_sartosa	Diplomatic relations: %+n with [[img:ui/flags/wh2_dlc11_cst_pirates_of_sartosa/mon_24.png]][[/img]]Pirates of Sartosa	true
+effects_description_arb_golden_magus_ship_growth	Pirate crew growth: %+n	true
+effects_description_wh2_main_effect_building_recruitment_cost_reduction_arb_OtF_khemri_elite_guard	Recruitment cost: %+n% for Palace Guards units	true
+effects_description_wh2_main_effect_building_unit_recruitment_duration_arb_OtF_khemri_elite_guard	Recruitment duration: %+n turn for Palace Guards units (minimum 1)	true
+effects_description_wh2_main_effect_building_upkeep_reduction_arb_OtF_khemri_elite_guard	Upkeep: %+n% for Palace Guards units	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_arb_1	Hero capacity: %+n for Magicians	true
+effects_description_wh_main_effect_agent_cap_increase_wizard_arb_2	Hero capacity: %+n for Magicians	true
+effects_description_wh_main_effect_agent_recruitment_xp_wizard_arb_2	Hero recruit rank: %+n for Magicians	false
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_1	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Magician	true
+effects_description_wh_main_effect_agent_enable_recruitment_wizard_arb_2	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Magician	true
+effects_description_wh2_main_diplomatic_relations_crusaders_bad	Diplomatic relations: %+n with Araby	true
+effects_description_wh2_main_diplomatic_relations_araby	Diplomatic relations: %+n with Araby	true
+effects_description_ovn_effect_faction_political_diplomacy_mod_kairos	Diplomatic relations: %+n with [[img:ui/flags/wh3_main_tze_oracles_of_tzeentch/mon_24.png]][[/img]]Oracles of Tzeentch	true
+effects_description_ovn_desert_att_immune_dummy	Immune to Desert attrition	true
+effects_description_ovn_scythans_recruit_tmbking_dummy	Enables recruitment of certain Tomb King units	true
+effects_description_ovn_enable_araby_trebuchet_bonus_in_sieges	Missile strength: %+n% for Grand Bombard units	true
+effects_description_wh_main_effect_ovn_Nehekharan_dummy	A chance of great wealth – but at what cost?	true
+effects_description_landmark_effect_produce_res_ivory	Ivory resource production: %n tusks	true
+effects_description_ovn_effect_tech_recruitment_cost_reduction_giant_vultures	Recruitment cost: %+n% for Feral Giant Vulture units	true
+effects_description_ovn_effect_tech_upkeep_reduction_giant_vultures	Upkeep: %+n% for Feral Giant Vulture units	true
+effects_description_ovn_effect_tech_unit_xp_increase_giant_vultures	Recruit rank: %+n for Feral Giant Vulture units	true
+effects_description_enable_radiant_pegasus_ability	Ability: "Radiant Discharge"	true
+effects_description_ovn_effect_siege_engine_number_arb_siege_tower	Siege towers: %+n per siege item constructed	true
+effects_description_ovn_effect_siege_engine_number_arb_battering_ram	Battering rams: %+n per siege item constructed	true
+effects_description_ovn_effect_force_stat_reload_time_reduction_arb_infantry_basic	Reload time reduction: %+n% for Bowmen and Corsairs units	false
+effects_description_ovn_effect_force_stat_melee_attack_arb_infantry_basic	Melee attack: %+n {{tr:mod_effects_description_ovn_effect_force_stat_melee_attack_arb_infantry_basic}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_melee_attack_arb_infantry_basic	Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs and Pit-Fighters units	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_melee_attack_arb_infantry_basic_ovn_arb_aswad_scythans	Warriors, Spearmen, Bowmen and Corsairs	false
+effects_description_ovn_effect_force_stat_melee_defence_arb_infantry_basic	Melee defence: %+n {{tr:mod_effects_description_ovn_effect_force_stat_melee_defence_arb_infantry_basic}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_melee_defence_arb_infantry_basic	for Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs and Pit-Fighters units	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_melee_defence_arb_infantry_basic_ovn_arb_aswad_scythans	for Warriors, Spearmen, Bowmen and Corsairs	false
+effects_description_ovn_effect_force_stat_melee_defence_arb_infantry_advanced	Melee defence: %+n for Palace Guards, Dervishers, Nomad Trackers, Jezzails and Southlands Warriors units	false
+effects_description_ovn_effect_force_stat_missile_damage_arb_infantry_advanced	Missile strength: %+n% for Nomad Trackers and Jezzails units	false
+effects_description_ovn_effect_force_stat_melee_attack_arb_infantry_advanced	Melee attack: %+n for Palace Guards, Dervishers, Nomad Trackers, Jezzails and Southlands Warriors units	false
+effects_description_ovn_effect_force_stat_charge_bonus_pct_arb_cavalry_melee	Charge bonus: %+n% for Camel Lancers, Arabyan Knights, Camel Cataphracts, Enchanted Ropes and Waghzen units	false
+effects_description_ovn_effect_force_stat_weapon_strength_arb_cavalry_melee	Weapon strength: %+n% for Camel Lancers, Arabyan Knights, Camel Cataphracts, Enchanted Ropes and Waghzen units	false
+effects_description_ovn_effect_force_stat_missile_damage_arb_cavalry_ranged	Missile strength: %+n% for Desert Riders, Camel Archers, Camel Jezzails and Flying Carpets units	false
+effects_description_ovn_effect_force_stat_ammunition_arb_bow_units	Ammunition: %+n% for Arabyan bow units	false
+effects_description_ovn_effect_force_stat_ammunition_arb_cavalry_ranged	Ammunition: %+n% for Desert Riders, Camel Archers, Camel Jezzails and Flying Carpets units	false
+effects_description_ovn_effect_force_stat_weapon_strength_arb_monsters	Weapon strength: %+n% for Elephants, War Elephant, Feral Giant Vulture, Genie, Desert Spirit, Fire Efreet, Sea Nymph and Tempest Djinn units	false
+effects_description_ovn_effect_force_stat_armour_arb_monsters	Armour: %+n for Elephants, War Elephant, Feral Giant Vulture, Genie, Desert Spirit, Fire Efreet, Sea Nymph and Tempest Djinn units	false
+effects_description_ovn_effect_force_stat_armour_arb_artillery	Armour: %+n for Djinn Carriage units	false
+effects_description_ovn_effect_force_stat_weapon_strength_arb_artillery	Weapon strength: %+n% for Djinn Carriage units	false
+effects_description_ovn_effect_force_stat_missile_damage_arb_artillery	Missile strength: %+n% for Scorpion, Grand Bombard and Naphtha Thrower units	false
+effects_description_ovn_effect_force_stat_ammunition_arb_artillery	Ammunition: %+n% for Scorpion, Grand Bombard and Naphtha Thrower units	false
+effects_description_ovn_effect_force_stat_magic_resistance_arb_settled_rank7	Spell resistance: %n% {{tr:mod_effects_description_ovn_effect_force_stat_magic_resistance_arb_settled_rank7}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_magic_resistance_arb_settled_rank7	for Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs, Pit-Fighters, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_magic_resistance_arb_settled_rank7_ovn_arb_aswad_scythans	for Warriors, Spearmen, Bowmen, Corsairs, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_melee_defence_increase_arb_settled_rank7	Melee defence: %+n {{tr:mod_effects_description_ovn_effect_force_stat_melee_defence_increase_arb_settled_rank7}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_melee_defence_increase_arb_settled_rank7	for Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs, Pit-Fighters, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_melee_defence_increase_arb_settled_rank7_ovn_arb_aswad_scythans	for Warriors, Spearmen, Bowmen, Corsairs, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_morale_increase_arb_settled_rank7	Leadership: %+n {{tr:mod_effects_description_ovn_effect_force_stat_morale_increase_arb_settled_rank7}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_morale_increase_arb_settled_rank7	for Slave Rabble, Warriors, Spearmen, Bowmen, Corsairs, Pit-Fighters, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+ui_text_replacements_localised_text_mod_effects_description_ovn_effect_force_stat_morale_increase_arb_settled_rank7_ovn_arb_aswad_scythans	for Warriors, Spearmen, Bowmen, Corsairs, Palace Guards, Arabyan Knights, Camel Cataphracts, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_ammunition_arb_settled_rank7	Ammunition: %+n% for Bowmen, Corsairs, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_missile_damage_increase_arb_settled_rank7	Missile strength: %+n% for Bowmen, Corsairs, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_reload_time_reduction_arb_settled_rank7	Reload time reduction: %+n% for Bowmen, Corsairs, Scorpion, Grand Bombard and Naphtha Thrower units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_armour_arb_nomads_rank7	Armour: %+n for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_melee_attack_arb_nomads_rank7	Melee attack: %+n for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_missile_damage_arb_nomads_rank7	Missile strength: %+n% for Nomad Trackers, Jezzails, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_missile_resistance_arb_nomads_rank7	Missile resistance: %n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_reload_increase_arb_nomads_rank7	Reload time reduction: %+n% for Nomad Trackers, Jezzails, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_range_arb_nomads_rank7	Range: %+n% for Nomad Trackers, Jezzails, Desert Riders, Camel Archers and Camel Jezzails units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_melee_attack_arb_magic_rank7	Melee attack: %+n for Dervishers, Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Flying Carpets and Djinn Carriage units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_melee_defence_arb_magic_rank7	Melee defence: %+n for Dervishers, Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Flying Carpets and Djinn Carriage units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_physical_resistance_increase_arb_magic_rank7	Physical resistance: %n% for Dervishers, Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Flying Carpets and Djinn Carriage units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_reload_time_reduction_arb_magic_rank7	Reload time reduction: %+n% for Flying Carpets units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_leadership_arb_beasts_rank7	Leadership: %+n for Waghzen, Elephants, War Elephant and Feral Giant Vulture units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_weapon_strength_arb_beasts_rank7	Weapon strength: %+n% for Waghzen, Elephants, War Elephant and Feral Giant Vulture units {{tr:rank7}}	false
+effects_description_ovn_effect_force_stat_missile_resistance_arb_beasts_rank7	Missile resistance: %n% for Waghzen, Elephants, War Elephant and Feral Giant Vulture units {{tr:rank7}}	true
+effects_description_ovn_effect_force_stat_melee_attack_arb_beasts_rank7	Melee attack: %+n for Waghzen, Elephants, War Elephant and Feral Giant Vulture units {{tr:rank7}}	true
+effects_description_ovn_effect_enable_mount_radiant_pegasus	Mount: Radiant Pegasus	true
+effects_description_ovn_effect_force_replenishment_rate_arb_basic_city_units	Casualty replenishment rate: %+n% for Warriors, Spearmen and Bowmen units	false
+effects_description_ovn_effect_ability_enable_guardian_palace_guards	Passive ability: "Guardian" for Palace Guards units	false
+effects_description_ovn_effect_attribute_stalk_nomads	Attribute: Stalk for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	false
+effects_description_ovn_effect_force_stat_leadership_corsairs	Leadership: %+n for Corsairs units	false
+effects_description_ovn_effect_force_stat_weapon_strength_corsairs	Weapon strength: %+n% for Corsairs units	false
+effects_description_ovn_effect_character_stat_enable_flaming_attacks_corsairs	Enables flaming and magical attacks for Corsairs units	false
+effects_description_ovn_effect_ability_enable_spell_mastery	Attribute: Mastery of the Elemental Winds	false
+effects_description_ovn_effect_ability_enable_spell_mastery_magicians	Attribute: Mastery of the Elemental Winds for embedded Magician [[img:icon_hero]][[/img]]Heroes	false
+effects_description_ovn_effect_ability_enable_infernal_gateway_golden_magus	Bound spell: "Infernal Gateway"	false
+effects_description_ovn_effect_force_stat_missile_damage_arb_tzeentch_demons	Missile strength: %+n% for Tzeentch Daemon units	false
+effects_description_ovn_effect_force_stat_barrier_arb_tzeentch_demons	Barrier: %+n% for Tzeentch Daemon units	false
+effects_description_ovn_effect_force_stat_melee_attack_arb_tzeentch_demons	Melee attack: %+n for Tzeentch Daemon units	false
+effects_description_ovn_effect_allegiance_points_mod_araby	Allegiance points gained: %+n% for alliances with Araby	false
+effects_description_ovn_skill_innate_arb_caravan_master_slave_driver	This Lord's caravan army has additional Slave units	false
+effects_description_ovn_skill_innate_arb_caravan_master_bedouin	This Lord's caravan army has additional Nomad units	false
+effects_description_ovn_skill_innate_arb_caravan_master_tuareg	This Lord's caravan army has additional Nomad units	false
+effects_description_ovn_skill_innate_arb_caravan_master_inventor	This Lord's caravan army has additional Artillery units	false
+effects_description_ovn_skill_innate_arb_caravan_master_clandestine	This Lord's caravan army has an additional Hashishin	false
+effects_description_ovn_skill_innate_arb_caravan_master_pious	This Lord's caravan army includes Dervishers units	false
+effects_description_ovn_skill_innate_arb_caravan_master_royally_connected	This Lord's caravan army has units of increased quality	false
+effects_description_ovn_skill_innate_arb_caravan_master_Former_Artillery_Officer	This Lord's caravan army has additional Artillery units	false
+effects_description_ovn_skill_innate_arb_caravan_master_Humble_Born	This Lord's caravan army has additional basic units	false
+effects_description_ovn_skill_innate_arb_caravan_master_gunpowder_enthusiast	This Lord's caravan army has additional Gunner units	false
+effects_description_ovn_skill_innate_arb_caravan_master_bretophile	This Lord's caravan army includes Bretonnia units	false
+effects_description_ovn_skill_innate_arb_caravan_master_scalywag	This Lord's caravan army has additional Corsair units	false
+effects_description_ovn_skill_innate_arb_caravan_master_meteorologist	This Lord's caravan army has additional Flying Carpet units	false
+effects_description_ovn_skill_innate_arb_caravan_master_fire_obsessed	This Lord's caravan army has an additional Naphtha Thrower unit	false
+effects_description_ovn_skill_innate_arb_caravan_master_djinn_worshipper	This Lord's caravan army has an additional Genie unit	false
+effects_description_ovn_skill_innate_arb_caravan_master_southlander	This Lord's caravan army has additional Southlands Warrior units	false
+effects_description_ovn_skill_innate_arb_caravan_master_beastmaster	This Lord's caravan army has additional Beast units	false
+effects_description_ovn_skill_innate_arb_caravan_master_elephant_lover	This Lord's caravan army has additional Elephant units	false
+effects_description_ovn_effect_magic_desert_enable_bound_sunstrike	Bound spell: "Sunstrike"	false
+effects_description_ovn_effect_magic_desert_enable_bound_sandstorm	Bound spell: "Sandstorm"	false
+effects_description_ovn_effect_magic_desert_enable_bound_quicksand	Bound spell: "Quicksand"	false
+effects_description_ovn_effect_magic_desert_enable_bound_curse_of_the_djinn	Bound spell: "Curse of the Djinn"	false
+effects_description_ovn_effect_enable_arb_black_scimitar_ability	Passive ability: "Pride of the Sultan"	false
+effects_description_ovn_effect_force_stat_charge_bonus_pct_mehmed_knights_cataphracts	Charge bonus: %+n% for Arabyan Knights and Camel Cataphracts units	false
+effects_description_ovn_effect_force_stat_weapon_strength_mehmed_knights_cataphracts	Weapon strength: %+n% for Arabyan Knights and Camel Cataphracts units	false
+effects_description_ovn_effect_enable_frenzy_dervishers	Passive ability: "Frenzy" for Dervishers units	false
+effects_description_ovn_effect_upkeep_reduction_dervishers	Upkeep: %+n% for Dervishers units	false
+effects_description_ovn_effect_mehmed_massacre_them	Ability: "Massacre Them!"	false
+effects_description_arb_wazar_guard_melee_weapon_strength	Weapon strength: %+n% for Palace Guards units	false
+effects_description_ovn_effect_force_stat_melee_attack_arb_myth_tech	Melee attack: %+n for Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Waghzen and Flying Carpets units	true
+effects_description_ovn_effect_force_stat_ward_save_arb_myth_tech	Ward save: %+n% for Enchanted Ropes, Genie, Desert Spirit, Fire Efreet, Sea Nymph, Tempest Djinn, Waghzen and Flying Carpets units	true
+effects_description_ovn_effect_tech_leadership_arb_vultures	Leadership: %+n for Feral Giant Vulture units	false
+effects_description_ovn_effect_tech_leadership_cost_reduction_arb_nomads	Recruitment cost: %+n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	true
+effects_description_ovn_effect_tech_upkeep_reduction_giant_vultures_Dervishers	Upkeep: %+n% for Feral Giant Vulture units and Dervishers units	true
+effects_description_ovn_effect_force_stat_missile_resistance_arb_palace_guard_arabyan_knights	Missile resistance: %+n% for Palace Guards and Arabyan Knights units	false
+effects_description_ovn_effect_tech_melee_attack_arb_palace_guard_arabyan_knights	Melee attack: %+n for Palace Guards and Arabyan Knights units	false
+effects_description_ovn_effect_tech_speed_arb_arabyan_knights_camel_cataphracts	Speed: %+n% for Arabyan Knights and Camel Cataphracts units	true
+effects_description_ovn_effect_tech_melee_defence_arb_arabyan_knights_camel_cataphracts	Melee defence: %+n for Arabyan Knights and Camel Cataphracts units	true
+effects_description_ovn_effect_tech_arb_building_construction_cost_mod_infrastructure	Construction cost: %+n% for Infrastructure buildings	false
+effects_description_ovn_effect_ability_enable_guardian_dervishers	Passive ability: "Guardian" for Dervishers units	false
+effects_description_ovn_effect_force_stat_djinn_upkeep	Upkeep: %+n% for Genie and Djinn Carriage units	false
+effects_description_ovn_effect_arb_city_unit_upkeep	Upkeep: %+n% for Warriors, Spearmen, Bowmen, Palace Guards, Arabyan Knights and Camel Cataphracts units	false
+effects_description_ovn_effect_force_stat_arb_city_unit_weapon_strength	Weapon strength: %+n% for Warriors, Spearmen, Palace Guards, Arabyan Knights and Camel Cataphracts units	false
+effects_description_ovn_effect_force_stat_nomad_upkeep	Upkeep: %+n% for Nomad Trackers, Jezzails, Southlands Warriors, Camel Lancers, Desert Riders, Camel Archers and Camel Jezzails units	false
+effects_description_ovn_effect_force_stat_nomad_ranged_damage	Missile strength: %+n% for Nomad Trackers, Jezzails, Desert Riders, Camel Archers and Camel Jezzails units	false
+effects_description_ovn_effect_force_stat_arb_city_unit_melee_defence	Melee defence: %+n for Warriors, Spearmen, Bowmen, Palace Guards, Arabyan Knights and Camel Cataphracts units	false
+effects_description_ovn_effect_unit_xp_arb_arabyan_knight	Recruit rank: %+n for Arabyan Knights units	false
+effects_description_ovn_effect_unit_xp_arb_warriors_bowmen_spearmen_palaceguard	Recruit rank: %+n for Warriors, Spearmen, Bowmen and Palace Guards units	false
+effects_description_ovn_effect_unit_xp_arb_arabyan_dervishes	Recruit rank: %+n for Dervishers units	false
+effects_description_ovn_effect_unit_xp_arb_arabyan_camels_except_cataphracts	Recruit rank: %+n for Camel Lancers, Camel Archers and Camel Jezzails units	false
+effects_description_ovn_effect_recruitment_cost_reduction_barrack_units	Recruitment cost: %+n% for Warriors, Spearmen, Bowmen, Palace Guards, Arabyan Knights and Camel Cataphracts units	false
+effects_description_ovn_arb_effect_enable_magic_attacks_building	Enables magical attacks for all units \\n(armies in province)	false
+effects_description_ovn_golden_scimitar_ability	Ability: "The Golden Scimitar"	false
+effects_description_ovn_weeping_blade_ability	Ability: "Weeping Blade"	false
+effects_description_ovn_effect_arb_fata_arabyan_upkeep	Upkeep: %+n% for Arabyan units	false
+effects_description_rhox_araby_fatandira_betrayal_warning_dummy	If Numas is captured, honour your alliance and return Numas' capital to gain factionwide bonuses. However, betray Numas and you will receive temporary penalties	false
+effects_description_ovn_effect_force_stat_arb_city_unit_missile_strength	Missile strength: %+n% for Bowmen units	false
+effects_description_wh2_dlc15_hef_dungeon_mistwalker_upgrade_araby	Passive ability: "Famously Loyal" for Mistwalker units	false
+effects_description_ovn_araby_effect_force_stat_leadership_vs_araby	Leadership: %+n when fighting against Araby	false

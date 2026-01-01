@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/ovn_fimir_buildings						
 260500002	ovn_fimir_infantry_1	fim_inf_shearl	0	0		false
 260500003	ovn_fimir_infantry_2	fim_inf_shearl	0	0		false

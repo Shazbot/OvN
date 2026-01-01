@@ -1,0 +1,23 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/cm1/arb/arb_camel/arb_camel_body_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_wef_stag</META_DATA>
+			<META_DATA>audio_armour_type:leather</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/cm1/arb/arb_camel/arb_camel_body_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_wef_stag</META_DATA>
+			<META_DATA>audio_armour_type:leather</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+	<SLOT name="saddle" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/cm1/arb/arb_camel/arb_camel_saddle_01.wsmodel" />
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/cm1/arb/arb_camel/arb_camel_saddle_02.wsmodel" />
+	</SLOT>
+	
+	
+	<SLOT name="fez" probability ="0.1" >
+				<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_props\arb_fez_camel.wsmodel" />
+	 </SLOT>
+	 
+	 
+</VARIANT_MESH>

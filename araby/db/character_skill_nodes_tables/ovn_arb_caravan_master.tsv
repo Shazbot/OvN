@@ -1,0 +1,65 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/ovn_arb_caravan_master									
+ovn_skill_node_arb_caravan_master_mount_warhorse		ovn_skill_arb_caravan_master_mount_horse		0	0		0	0	true
+ovn_skill_innate_arb_caravan_master_1		wh3_main_skill_cth_caravan_master_wheelwright		0	1		0	0	true
+ovn_skill_innate_arb_caravan_master_2		wh3_main_skill_cth_caravan_master_smugglers_space		0	2		0	0	true
+ovn_skill_node_arb_caravan_master_generic_1		arb_scythan_tomb_king_units	ovn_arb_aswad_scythans	0	3		0	0	true
+ovn_skill_node_arb_caravan_master_generic_2		wh2_main_skill_def_campaign_dreaded_slaver	ovn_arb_golden_fleet	0	3		0	0	true
+ovn_skill_node_arb_caravan_master_generic_3		wh2_main_skill_def_campaign_dreaded_slaver	ovn_arb_sultanate_of_all_araby	0	3		0	0	true
+ovn_skill_node_arb_caravan_master_generic_4		wh2_main_skill_def_campaign_dreaded_slaver	ovn_arb_sultanate_of_el_kalabad	0	3		0	0	true
+ovn_skill_node_arb_caravan_master_generic_14		wh2_main_skill_def_campaign_dreaded_slaver	ovn_arb_sultanate_ind	0	3		0	0	true
+ovn_skill_node_arb_caravan_master_generic_24		wh2_main_skill_def_campaign_dreaded_slaver	ovn_arb_cult_of_the_djinns	0	3		0	0	true
+ovn_skill_node_arb_caravan_master_generic_5		wh_main_skill_brt_lord_battle_basic_training		0	4		0	0	true
+ovn_skill_node_arb_caravan_master_generic_6		wh_main_skill_all_lord_battle_brass-lunged		0	5		0	0	true
+ovn_skill_node_arb_caravan_master_generic_7		roy_skill_arb_agent_missile_res		0	6		0	0	true
+ovn_skill_node_arb_caravan_master_generic_8		ovn_skill_arb_all_unique_ward_of_the_one		0	7		0	0	true
+ovn_skill_node_arb_caravan_master_generic_9		wh2_main_skill_all_immortality_lord		0	8		0	0	true
+ovn_skill_node_arb_caravan_master_combat_0		wh_main_skill_all_all_self_hard_to_hit_starter		1	0		0	0	true
+ovn_skill_node_arb_caravan_master_combat_1_1		wh2_dlc11_skill_all_lord_self_devastating_charge		1	1		0	0	true
+ovn_skill_node_arb_caravan_master_combat_1_2		wh2_dlc11_skill_all_lord_self_full_plate_armour		1	2		0	0	true
+ovn_skill_node_arb_caravan_master_combat_1_3		wh2_dlc11_skill_all_lord_self_scarred_veteran		1	3		0	0	true
+ovn_skill_node_arb_caravan_master_combat_1_4		wh2_dlc11_skill_all_lord_self_deadly_blade		1	4		0	0	true
+ovn_skill_node_arb_caravan_master_combat_2		wh_main_skill_all_all_self_foe-seeker		1	5		0	4	true
+ovn_skill_node_arb_caravan_master_combat_3_1		wh2_dlc11_skill_all_lord_self_wound-maker		1	6		0	0	true
+ovn_skill_node_arb_caravan_master_combat_3_2		wh2_dlc11_skill_all_lord_self_blade_master		1	7		0	0	true
+ovn_skill_node_arb_caravan_master_combat_3_3		wh2_dlc11_skill_all_lord_self_self_indomitable		1	8		0	0	true
+ovn_skill_node_arb_caravan_master_combat_3_4		wh2_dlc11_skill_all_lord_self_blade_shield		1	9		0	0	true
+ovn_skill_node_arb_caravan_master_combat_4		wh_main_skill_all_all_self_deadly_onslaught		1	10		0	4	true
+ovn_skill_node_arb_caravan_master_army_0		wh_main_skill_all_lord_battle_inspiring_presence		4	0		0	0	true
+ovn_skill_node_arb_caravan_master_army_1_1		ovn_skill_arb_army_buff_infantry_basic		4	1		0	0	true
+ovn_skill_node_arb_caravan_master_army_1_2		ovn_skill_arb_army_buff_cavalry_melee		4	2		0	0	true
+ovn_skill_node_arb_caravan_master_army_1_3		ovn_skill_arb_army_buff_cavalry_ranged		4	3		0	0	true
+ovn_skill_node_arb_caravan_master_army_1_4		ovn_skill_arb_army_buff_infantry_advanced		4	4		0	0	true
+ovn_skill_node_arb_caravan_master_army_1_5		ovn_skill_arb_army_buff_monsters		4	5		0	0	true
+ovn_skill_node_arb_caravan_master_army_1_6		ovn_skill_arb_army_buff_artillery		4	6		0	0	true
+ovn_skill_node_arb_caravan_master_army_2		wh_main_skill_all_lord_battle_rally		4	7		0	6	true
+ovn_skill_node_arb_caravan_master_army_3_1		ovn_skill_arb_army_buff_settled_rank7		4	8		0	0	true
+ovn_skill_node_arb_caravan_master_army_3_2		ovn_skill_arb_army_buff_nomads_rank7		4	9		0	0	true
+ovn_skill_node_arb_caravan_master_army_3_3		ovn_skill_arb_army_buff_magic_rank7		4	10		0	0	true
+ovn_skill_node_arb_caravan_master_army_3_4		ovn_skill_arb_army_buff_beasts_rank7		4	11		0	0	true
+ovn_skill_node_arb_caravan_master_army_4		wh_main_skill_all_lord_battle_stand_your_ground		4	12		0	1	true
+ovn_skill_arb_caravan_master_speed		wh3_main_skill_cth_caravan_master_speed		5	0		0	0	true
+ovn_skill_arb_caravan_master_scouts		wh3_main_skill_cth_caravan_master_scouts		5	1		0	0	true
+ovn_skill_arb_caravan_master_replenish		wh3_main_skill_cth_caravan_master_replenish		5	2		0	0	true
+ovn_skill_arb_caravan_master_cargo_value		wh3_main_skill_cth_caravan_master_cargo_value		5	3		0	0	true
+ovn_skill_arb_caravan_master_cargo_capacity		wh3_main_skill_cth_caravan_master_cargo_capacity		5	4		0	0	true
+ovn_skill_innate_arb_caravan_master_slave_driver		ovn_skill_innate_arb_caravan_master_slave_driver		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_bedouin		ovn_skill_innate_arb_caravan_master_bedouin		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_tuareg		ovn_skill_innate_arb_caravan_master_tuareg		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_inventor		ovn_skill_innate_arb_caravan_master_inventor		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_clandestine		ovn_skill_innate_arb_caravan_master_clandestine		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_pious		ovn_skill_innate_arb_caravan_master_pious		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_royally_connected		ovn_skill_innate_arb_caravan_master_royally_connected		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_Former_Artillery_Officer		ovn_skill_innate_arb_caravan_master_Former_Artillery_Officer		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_Humble_Born		ovn_skill_innate_arb_caravan_master_Humble_Born		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_gunpowder_enthusiast		ovn_skill_innate_arb_caravan_master_gunpowder_enthusiast		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_Ogre_Ally		ovn_skill_innate_arb_caravan_master_Ogre_Ally		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_bretophile		ovn_skill_innate_arb_caravan_master_bretophile		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_scalywag		ovn_skill_innate_arb_caravan_master_scalywag		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_meteorologist		ovn_skill_innate_arb_caravan_master_meteorologist		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_fire_obsessed		ovn_skill_innate_arb_caravan_master_fire_obsessed		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_djinn_worshipper		ovn_skill_innate_arb_caravan_master_djinn_worshipper		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_southlander		ovn_skill_innate_arb_caravan_master_southlander		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_beastmaster		ovn_skill_innate_arb_caravan_master_beastmaster		6	0		0	0	false
+ovn_skill_innate_arb_caravan_master_elephant_lover		ovn_skill_innate_arb_caravan_master_elephant_lover		6	0		0	0	false
+wh3_main_agent_action_scaling_ovn_skill_node_arb_caravan_master		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false

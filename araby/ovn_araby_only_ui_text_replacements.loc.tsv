@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_araby_only_ui_text_replacements.loc		
-ui_text_replacements_localised_text_fresh_djinn	Strong Binding	false
-ui_text_replacements_localised_text_steady_djinn	Stable Binding	false
-ui_text_replacements_localised_text_wavering_djinn	Critical Binding	false
-ui_text_replacements_localised_text_confident_djinn	Good Binding	false

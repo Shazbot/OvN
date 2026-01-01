@@ -1,0 +1,379 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_araby_only_character_skills.loc		
+character_skills_localised_description_ovn_skill_arb_army_buff_infantry_basic	Warriors of great armies are decorated in ornate armour taken from the Sultan's personal armoury, even the slaves!	false
+character_skills_localised_name_ovn_skill_arb_army_buff_infantry_basic	Sultan's Royal Armoury	false
+character_skills_localised_description_ovn_skill_arb_army_buff_infantry_advanced	Years of training and fighting in the scorching desert sun creates exceptionally tough fighters.	false
+character_skills_localised_name_ovn_skill_arb_army_buff_infantry_advanced	Hardened Warriors	false
+character_skills_localised_description_ovn_skill_arb_army_buff_cavalry_melee	The sand dunes are so large that a man can only cross them with his trusty mount.	false
+character_skills_localised_name_ovn_skill_arb_army_buff_cavalry_melee	Dune Chargers	false
+character_skills_localised_description_ovn_skill_arb_army_buff_cavalry_ranged	Hit and run tactics work especially well in the desert. That's why the horsemen of Araby are particularly skilled marksmen.	false
+character_skills_localised_name_ovn_skill_arb_army_buff_cavalry_ranged	Skilled Riders	false
+character_skills_localised_description_ovn_skill_arb_army_buff_monsters	The powerful Djinns and various other monstrous creatures are fielded to destroy the enemies of Araby.	false
+character_skills_localised_name_ovn_skill_arb_army_buff_monsters	Creatures of the Desert	false
+character_skills_localised_description_ovn_skill_arb_army_buff_artillery	In the arsenals of the Sultans are countless powerful guns capable of firing devastating volleys.	false
+character_skills_localised_name_ovn_skill_arb_army_buff_artillery	Sophisticated Gunsmiths	false
+character_skills_localised_name_ovn_skill_arb_army_buff_beasts_rank7	Beast Whisperer	true
+character_skills_localised_description_ovn_skill_arb_army_buff_beasts_rank7	They call him the beast whisperer, for these creatures would truly die for him.	true
+character_skills_localised_name_ovn_skill_arb_army_buff_magic_rank7	Learned Mystic	true
+character_skills_localised_description_ovn_skill_arb_army_buff_magic_rank7	You are wise in the ways of magic and have much to teach others.	true
+character_skills_localised_name_ovn_skill_arb_army_buff_nomads_rank7	The Nomads Way	true
+character_skills_localised_description_ovn_skill_arb_army_buff_nomads_rank7	You have seen many brothers fall in battle, for that is what the nomads are, my brothers.	true
+character_skills_localised_name_ovn_skill_arb_army_buff_settled_rank7	Masters of the Sands	true
+character_skills_localised_description_ovn_skill_arb_army_buff_settled_rank7	Veterans among the settled peoples, or "hadir", of Araby are able to be bestowed with titles and finery befitting their contribution to these great lands.	true
+character_skills_localised_name_arb_vizier_administrator	Loyal Administrator	true
+character_skills_localised_description_arb_vizier_administrator	Despite the slander that envious men like to spread, most Grand Viziers in Araby are loyal servants to their lieges and dedicated administrators of their assigned provinces.	true
+character_skills_localised_name_arb_vizier_scholar	Dedicated Scholar	true
+character_skills_localised_description_arb_vizier_scholar	Many Grand Viziers reach their lofty positions thanks to both their knowledge in the magical arts and their advances in the sciences, for in Araby there's little difference between the study of the natural world and the supernatural world.	true
+character_skills_localised_name_arb_vizier_schemer	Scheming Megalomaniac	true
+character_skills_localised_description_arb_vizier_schemer	The rumours about the dubious moral integrity of Arabyan Grand Viziers are not entirely unfounded, for there are many among them who abuse their privileges to indulge in the study of the Dark Arts.	true
+character_skills_localised_name_arb_vizier_fire_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_fire_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_arb_vizier_life_camel	Camel	false
+character_skills_localised_description_arb_vizier_life_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_arb_vizier_desert_camel	Camel	false
+character_skills_localised_description_arb_vizier_desert_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_arb_vizier_heavens_camel	Camel	false
+character_skills_localised_description_arb_vizier_heavens_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_arb_vizier_life_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_life_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_arb_vizier_desert_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_desert_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_arb_vizier_heavens_magic_carpet	Flying Carpet	false
+character_skills_localised_description_arb_vizier_heavens_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_arb_vizier_fire_camel	Camel	false
+character_skills_localised_description_arb_vizier_fire_camel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_ovn_skill_magic_desert_mirage	Mirage	false
+character_skills_localised_description_ovn_skill_magic_desert_mirage	The sorcerer creates the illusion of a huge host of fearsome warriors, bearing down inexorably upon his startled foes.	false
+character_skills_localised_name_ovn_skill_magic_desert_blessing_of_the_elements	Blessing of the Elements	false
+character_skills_localised_description_ovn_skill_magic_desert_blessing_of_the_elements	The caster calls on the elements of the desert and draws upon the fortune they can bestow.	false
+character_skills_localised_name_ovn_skill_magic_desert_sunstrike	Sunstrike	false
+character_skills_localised_description_ovn_skill_magic_desert_sunstrike	Bright beams of burning energy leap from the sorcerer's eyes and scythe through all before him.	false
+character_skills_localised_name_ovn_skill_magic_desert_sandstorm	Sandstorm	false
+character_skills_localised_description_ovn_skill_magic_desert_sandstorm	Commanding the Desert Spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	false
+character_skills_localised_name_ovn_skill_magic_desert_quicksand	Quicksand	false
+character_skills_localised_description_ovn_skill_magic_desert_quicksand	By invoking the Element of Water, moisture rises up from the very rocks and sand, turning the ground into deadly quicksand.	false
+character_skills_localised_name_ovn_skill_magic_desert_burning_hands	Burning Hand	false
+character_skills_localised_description_ovn_skill_magic_desert_burning_hands	By invoking the Element of Fire, one of the caster's hands becomes burning hot, which he can use to smite enemies.	false
+character_skills_localised_name_ovn_skill_magic_desert_curse_of_the_djinn	Curse of the Djinn	false
+character_skills_localised_description_ovn_skill_magic_desert_curse_of_the_djinn	The sorcerer channels the immense power of the Djinn through his own body and lays a terrible curse upon his foes.	false
+character_skills_localised_name_ovn_skill_magic_desert_mirage_dummy	Mirage	false
+character_skills_localised_description_ovn_skill_magic_desert_mirage_dummy	The sorcerer creates the illusion of a huge host of fearsome warriors, bearing down inexorably upon his startled foes.	false
+character_skills_localised_name_ovn_skill_magic_desert_sunstrike_lord	Sunstrike	false
+character_skills_localised_description_ovn_skill_magic_desert_sunstrike_lord	Bright beams of burning energy leap from the sorcerer's eyes and scythe through all before him.	false
+character_skills_localised_name_ovn_skill_magic_desert_sandstorm_lord	Sandstorm	false
+character_skills_localised_description_ovn_skill_magic_desert_sandstorm_lord	Commanding the Desert Spirit of Da'ru'de, the sorcerer engulfs his foes in a swirling cloud of choking sand and dust.	false
+character_skills_localised_name_ovn_skill_magic_desert_quicksand_lord	Quicksand	false
+character_skills_localised_description_ovn_skill_magic_desert_quicksand_lord	By invoking the Element of Water, moisture rises up from the very rocks and sand, turning the ground into deadly quicksand.	false
+character_skills_localised_name_ovn_skill_magic_desert_burning_hands_lord	Burning Hand	false
+character_skills_localised_description_ovn_skill_magic_desert_burning_hands_lord	By invoking the Element of Fire, one of the caster's hands becomes burning hot, which he can use to smite enemies.	false
+character_skills_localised_name_ovn_skill_magic_desert_curse_of_the_djinn_lord	Curse of the Djinn	false
+character_skills_localised_description_ovn_skill_magic_desert_curse_of_the_djinn_lord	The sorcerer channels the immense power of the Djinn through his own body and lays a terrible curse upon his foes.	false
+character_skills_localised_name_ovn_skill_arb_all_unique_ward_of_the_one	Ward of the Djinn	false
+character_skills_localised_description_ovn_skill_arb_all_unique_ward_of_the_one	The relentless drive and fury of the elemental spirits, harnessed for the protection of this ward’s bearer.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_life_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_life_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_life_djinn_vessel	Camel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_life_djinn_vessel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_desert_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_desert_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	Camel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_desert_djinn_vessel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_fire_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_fire_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	Camel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_fire_djinn_vessel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	Flying Carpet	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_heavens_magic_carpet	A Djinn bound to a piece of furniture to make it fly.	false
+character_skills_localised_name_ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	Camel	false
+character_skills_localised_description_ovn_skill_arb_magician_unique_magician_heavens_djinn_vessel	The mount of any self-respecting Arabyan gentleman.	false
+character_skills_localised_name_ovn_skill_innate_arb_decadent	Decadent	false
+character_skills_localised_description_ovn_skill_innate_arb_decadent	With this unrestrained lifestyle, the Prince of Pleasure might one day come to him.	false
+character_skills_localised_name_ovn_araby_Serpent_Staff	Serpent Staff	true
+character_skills_localised_description_ovn_araby_Serpent_Staff	Inside this ornate staff decorated with snake motifs is bound a malignant and ancient Serpent Djinn, imprisoned by powerful enchantments woven by Jaffar. Only Jaffar's will is strong enough to temporarily unleash it upon his enemies on the battlefield.	true
+character_skills_localised_name_Black_Book_Of_Ibn_Naggazar	Black Book of Ibn Naggazar	true
+character_skills_localised_description_Black_Book_Of_Ibn_Naggazar	Ibn Naggazar was a brilliant, if somewhat maniacal Arabyan sorcerer. Whilst it is unknown whether his madness sprang from isolation, too many attempts at creating intoxicating elixirs or the honeyed promises of whispering daemons. There can be no doubt he was utterly mad.	true
+character_skills_localised_name_Desert_Wind	Fakir Descendant	true
+character_skills_localised_description_Desert_Wind	Let us turn the oasis into wine so that the crusaders may succumb to their beloved tipple.	true
+character_skills_localised_name_ovn_araby_unyeilding_stride	Unyielding Stride	true
+character_skills_localised_description_ovn_araby_unyeilding_stride	Moving tirelessly through the sands of Araby.	true
+character_skills_localised_name_Sand_Dwellers	Sand Dwellers	true
+character_skills_localised_description_Sand_Dwellers	Living in such a hostile land gives warriors and beasts alike a great advantage.	true
+character_skills_localised_name_ovn_araby_Friend_Of_Evil	Pragmatic Alliances	true
+character_skills_localised_description_ovn_araby_Friend_Of_Evil	The enemy of my enemy is my friend. Even if that friend is heavily mutated.	true
+character_skills_localised_name_ovn_jaffar_innate	Sultan of All Araby	true
+character_skills_localised_description_ovn_jaffar_innate	Due to his charisma and his power over the Djinns, he managed to unite the nomadic tribes of the desert and formed the Sultanate of Araby.	true
+character_skills_localised_name_arb_jaffar_anc_camel	Camel	true
+character_skills_localised_description_arb_jaffar_anc_camel	Jaffar is a vainglorious man, it is no wonder then that the prestigious camel is one of his favourite mounts to ride into battle.	true
+character_skills_localised_name_arb_jaffar_anc_elephant	Royal War Elephant	true
+character_skills_localised_description_arb_jaffar_anc_elephant	From on top the howdah of a mighty Arabyan Royal Elephant, Sultan Jaffar gazes down upon the battlefield with only imperious cruelty and disdain in his eyes.	true
+character_skills_localised_name_arb_jaffar_unique_0	Unbridled Ambition	true
+character_skills_localised_description_arb_jaffar_unique_0	Jaffar's hunger for power knows no bounds. There's no pact he won't make or enemy he won't crush on his path to conquest.	true
+character_skills_localised_name_arb_jaffar_unique_1	Slavemonger	true
+character_skills_localised_description_arb_jaffar_unique_1	Jaffar condemns all who oppose him to a life of slavery. Arabyans, Estalians, Bretonnians, Greenskins, no matter who or what they are, all enemies of Jaffar are to kneel before the Great Sultan and serve him.	true
+character_skills_localised_name_arb_jaffar_unique_2	Black Scimitar Guard	true
+character_skills_localised_description_arb_jaffar_unique_2	The Black Scimitar Guard is Sultan Jaffar's personal elite bodyguard. They are devoted to their Sultan and aligned with Jaffar's goals of Arabyan dominance.	true
+character_skills_localised_name_arb_jaffar_unique_3	Cunning Charisma	true
+character_skills_localised_description_arb_jaffar_unique_3	Jaffar possesses a compelling charisma with which he has been able to sway many Arabyan tribes and city-states to his side.	true
+character_skills_localised_name_arb_jaffar_unique_4	Desires of Conquest	true
+character_skills_localised_description_arb_jaffar_unique_4	"Nothing will stop me, not the Northerners, the Elves, the Dwarfs, Settra's lackeys or anyone else! I will rule this world, or see it burnt to ashes around me!"	true
+character_skills_localised_name_arb_jaffar_unique_5	Will of Jaffar	true
+character_skills_localised_description_arb_jaffar_unique_5	"No land shall remain beyond my grasp. No kingdom shall be beyond my mandate. Go forth. Conquer. Rule."	true
+character_skills_localised_name_arb_fatandira_innate	Scythan Warrior Queen	true
+character_skills_localised_description_arb_fatandira_innate	Fatandira had always known that she was descended from Arabyan nomads, but it was only recently, on her journey to the Southlands, that she discovered her Scythan legacy. Now she is the undisputed leader of her ancestral tribe.	true
+character_skills_localised_name_arb_fatandira_aimed_shot	Aimed Shot	false
+character_skills_localised_description_arb_fatandira_aimed_shot	Back in the Borderlands, Fatandira had quite the reputation as a markswoman among her troops. Since returning to her people, she has applied her skills to the Scythan way of the hunter.	false
+character_skills_localised_name_arb_fatandira_aimed_shot_cooldown	Desert Huntress	false
+character_skills_localised_description_arb_fatandira_aimed_shot_cooldown	"Be as cunning as the sand fox, strike as swift as the falcon!"	false
+character_skills_localised_name_arb_fatandira_unique_1	Enlightened Leadership	false
+character_skills_localised_description_arb_fatandira_unique_1	Since her tenure as Princess in the Borderlands, Fatandira has sought to end the bigotry and hate that plague any land she rules. Her principality might be long gone, but the ideal stands strong.	false
+character_skills_localised_name_arb_fatandira_unique_2	Nomad Cavalry Tactics	false
+character_skills_localised_description_arb_fatandira_unique_2	Even back in the Border Princes, Fatandira was well known for her cavalry tactics and the swiftness of her mounted troops. Imagine what she can do with a saddle-born people such as the Scythans under her command.	false
+character_skills_localised_name_arb_fatandira_unique_3	Al-Kahina	false
+character_skills_localised_description_arb_fatandira_unique_3	Since her arrival at Scythan lands, Fatandira has been hailed as "Al-Kahina", The Prophetess, by her people. The Scythans claim that she's the hero of legend that will banish the Darkness with the Golden God by her side. Fatandira herself doesn't quite believe the legend, but keeps up the appearance for the morale of her troops and well-being of her people.	false
+character_skills_localised_name_arb_fatandira_unique_4	A Better Life	false
+character_skills_localised_description_arb_fatandira_unique_4	"...From now on my destiny will be to lift these people out of ignorance and poverty, to prevent them from becoming as paranoid and vicious as the villagers who butchered my family. This I swear."	false
+character_skills_localised_name_arb_fatandira_unique_5	Straightforward Commander	false
+character_skills_localised_description_arb_fatandira_unique_5	Fatandira is a woman with an iron determination. She leads honestly, and personally ensures that her troops have talent in battle and good sense out of it.	false
+character_skills_localised_name_arb_fatandira_unique_6	Desert Feint	false
+character_skills_localised_description_arb_fatandira_unique_6	Fatandira has adapted her famously stealthy cavalry strikes from the rough terrain of the Border Princes to the sands of Araby and Nehekhara almost seamlessly.	false
+character_skills_localised_name_arb_fatandira_anc_blades_demise	Blades of Honourable Demise	false
+character_skills_localised_description_arb_fatandira_anc_blades_demise	Taken by Fatandira from the tomb of the Liche Lord Karitamen in the Borderlands, this pair of Nehekharan Khopeshes magically enhance their owner's combat skills, and weakens anyone struck by them.	false
+character_skills_localised_name_arb_fatandira_anc_warhorse	Barded Warhorse	false
+character_skills_localised_description_arb_fatandira_anc_warhorse	Born to a family of Arabyan caravan nomads, Fatandira is as comfortable on the saddle as on foot.	false
+character_skills_localised_name_arb_fatandira_anc_roc	Saqir	false
+character_skills_localised_description_arb_fatandira_anc_roc	Given to Fatandira as a gift by the Scythans, Saqir is a mighty specimen of Desert Roc, giant and intelligent birds of prey that fly high above the deserts of Araby. The animal quickly bonded with her, and now they soar the battlefield together.	false
+character_skills_localised_name_arb_fatandira_anc_scythan_armour	Cuirass of the Brave Queen	true
+character_skills_localised_description_arb_fatandira_anc_scythan_armour	This ancient magical lamellar cuirass is said to have belonged to a legendary warrior queen of the Scythans who killed one of the great Priest Kings of Ancient Nehekhara in battle. The Scythans, believing Fatandira to be a reincarnation of that queen, have granted to her this ancient artifact.	true
+character_skills_localised_description_arb_scythan_tomb_king_units	Those proved in battle may take a sacred vow to their god Tutankhanut and serve as his mortal champion.	true
+character_skills_localised_name_arb_scythan_tomb_king_units	Vow to Tutankhanut	true
+character_skills_localised_name_arb_golden_magus_innate	Sultan of the Seas	true
+character_skills_localised_description_arb_golden_magus_innate	Beneath all the eccentricity and gaudiness hides a callous corsair, eager to bring more magical treasures to his collection, more slaves to his servitude, more concubines to his harem and more power to himself.	true
+character_skills_localised_name_arb_golden_magus_aether_tether	Aethyric Tether	false
+character_skills_localised_description_arb_golden_magus_aether_tether	The secret of the Golden Magus' sorcerous might resides in his connection, or "aethyric tether" with 3 magic urns in his possession. Imprisoned inside are 3 powerful elemental spirits, siphoned of their power for the Magus' benefit.	false
+character_skills_localised_name_arb_golden_magus_old_gold	Old but Gold	false
+character_skills_localised_description_arb_golden_magus_old_gold	For someone who cultivates the image of an elderly eccentric scholar, the Golden Magus is surprisingly spry, fast and adept at combat.	false
+character_skills_localised_name_arb_golden_magus_sphere_changer	In the Changer's Sphere	false
+character_skills_localised_description_arb_golden_magus_sphere_changer	Some whisper that the Magus is in complete thrall of the malignant Architect of Fate. Nonsense, of course, but like with all good rumours, there's might be a grain of truth to it...	false
+character_skills_localised_name_arb_golden_magus_sultan_seas	Eminent Elementalist	false
+character_skills_localised_description_arb_golden_magus_sultan_seas	The Golden Magus' mastery over the elements of air, fire and water is exceptional, especially for a human. His powers come from his most prized possessions, 3 Royal Djinns from who he draws his magical might from. 	false
+character_skills_localised_name_arb_golden_magus_master_sorcerer	Master of Sorcery	false
+character_skills_localised_description_arb_golden_magus_master_sorcerer	The Golden Magus can impart much knowledge onto those aspirants willing to learn the sorcerous arts - if they can stand the eccentric nature of his lessons and the Magus' ever so condescending manners.	false
+character_skills_localised_name_arb_golden_magus_master_djinn	Master of the Djinn	false
+character_skills_localised_description_arb_golden_magus_master_djinn	The Golden Magus is an expert in the art of binding the elemental spirits known as "Djinns" to his will. Stored in the Magus' flagship are thousands of warded urns, each containing a potent Djinn ready and willing to obey his every command.	false
+character_skills_localised_name_arb_golden_magus_wishmaster	Wishmaster	false
+character_skills_localised_description_arb_golden_magus_wishmaster	The Magus has enslaved many a Djinn to his will, to such degree that they cannot reject any of his wishes and commands. Djinns though are capricious and free-spirited entities, and their service should not be taken for granted.	false
+character_skills_localised_name_arb_golden_magus_anc_fire_scimitar	The Flaming Scimitar	false
+character_skills_localised_description_arb_golden_magus_anc_fire_scimitar	One of the Golden Magus' most infamous creations, this fiery curved sword is kept most of the time inside a jar filled with a slimy orange solution. When drawn out of it, the sword catches a mystical fire that the Magus' uses for battle, theatrics and summoning Djinn spirits. Contrary to popular belief, the ship is named after the sword.	false
+character_skills_localised_name_arb_golden_magus_anc_auric_robe	Auric Robes	false
+character_skills_localised_description_arb_golden_magus_anc_auric_robe	The Magus' ostentatious golden robes are not just a flamboyant show of wealth, they possess potent enchantments that the Magus discovered in a parchment at the ruined city of Bel-Aliad. Besides providing protection from harm, these wards are curiously nocive to the Undead.	false
+character_skills_localised_name_arb_golden_magus_anc_camel	Camel	false
+character_skills_localised_description_arb_golden_magus_anc_camel	Though vigorous for his old age, the Golden Magus often rides to battle on one of his many camels - out of flamboyance if anything else.	false
+character_skills_localised_name_arb_golden_magus_anc_djinskiff	Golden Skiff	false
+character_skills_localised_description_arb_golden_magus_anc_djinskiff	Much like the Magus' infamous flagship, this enchanted skiff is proof of his mastery over the Djinn. This is one of the Golden Magus' favourite ways to ride to battle.	false
+character_skills_localised_name_arb_golden_magus_ship_growth	Sea's Bounty	true
+character_skills_localised_description_arb_golden_magus_ship_growth	From the sea we take, to the sea we give.	true
+character_skills_localised_name_ovn_araby_talisman	Crescent Amulet	true
+character_skills_localised_description_ovn_araby_talisman		true
+character_skills_localised_description_Mount	Hailing from the highest peaks of the World's Edge Mountains, Arabyans just like the northern Imperials are willing to pay vast sums of gold for a single egg or chick such the renown of these majestic beasts. 	true
+character_skills_localised_name_ovn_araby_sword	Falcon Scimitar	true
+character_skills_localised_description_ovn_araby_sword	A fine-blade presented to Arabyan Warriors who have proved themselves in battle, gaining them respect from all.	true
+character_skills_localised_name_ovn_araby_helm	Scorpion Carapace Armour	true
+character_skills_localised_description_ovn_araby_helm	It is said that Armour fashioned from the carapace of the Dune Scorpion is stronger and lighter than any metal variety.	true
+character_skills_localised_name_ovn_araby_Order_Buff	Protector of Order	true
+character_skills_localised_description_ovn_araby_Order_Buff	They try to protect the innocent and drive evil from the lands and while the northern men can't see past their own prejudices but there are others in this world who fight for good.	true
+character_skills_localised_name_ovn_araby_Chaos_Buff	Machinator	true
+character_skills_localised_description_ovn_araby_Chaos_Buff	They will do anything in their pursuit of power even bargaining with Chaos or scheming with Ratmen.	true
+character_skills_localised_name_ovn_araby_Araby_Lord_Buff	Aithopian Prince	true
+character_skills_localised_description_ovn_araby_Araby_Lord_Buff	From a far-flung tribe, their power and wealth is a great asset.	true
+character_skills_localised_name_ovn_araby_Djinn	Djinn Hunter	true
+character_skills_localised_description_ovn_araby_Djinn	A sorcerer of skill can bend Djinn to their will, the spirit fighting with every ounce of its strength against its master's enemies, making the magical jars they come from highly sought after.	true
+character_skills_localised_name_ovn_araby_Mount_Elephant	Royal War Elephant	true
+character_skills_localised_description_ovn_araby_Mount_Elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	true
+character_skills_localised_name_ovn_araby_ll_innate_02	Warrior of Araby	true
+character_skills_localised_description_ovn_araby_ll_innate_02	A great man, master of war, risen through the ranks and rewarded with the Crescent Seal giving them the authority to lead a great Arabyan War Throng.	true
+character_skills_localised_name_ovn_araby_ll_innate_03	Corsair Captain	true
+character_skills_localised_description_ovn_araby_ll_innate_03	Some say he was born on a Dhow but all agree he's a master of the sea.	true
+character_skills_localised_name_ovn_araby_ll_innate_04	Slave-Master	true
+character_skills_localised_description_ovn_araby_ll_innate_04	Not many can claim to "own" an army.	true
+character_skills_localised_name_ovn_araby_ll_innate_05	Wizard Caliph Apprentice	true
+character_skills_localised_description_ovn_araby_ll_innate_05	An apprentice from the revered Palace of the Wizard Caliph.	true
+character_skills_localised_name_ovn_araby_ll_innate_06	Nomad Warchief	true
+character_skills_localised_description_ovn_araby_ll_innate_06	Born in the dunes, some will never see him as their equal.	true
+character_skills_localised_name_ovn_araby_ll_innate_07	Alchemist	true
+character_skills_localised_description_ovn_araby_ll_innate_07	Smoke and loud bangs emanate day and night from this one's tent.	true
+character_skills_localised_name_ovn_araby_ll_innate_08	Tuareg Beastmaster	true
+character_skills_localised_description_ovn_araby_ll_innate_08	He has more in common with the beasts than his fellow man.	true
+character_skills_localised_name_ovn_araby_ll_innate_09	Al-Raheem Bowmaster	true
+character_skills_localised_description_ovn_araby_ll_innate_09	He demands all under his command train with the bow.	true
+character_skills_localised_name_ovn_araby_ll_innate_10	Muktarhin Hero	true
+character_skills_localised_description_ovn_araby_ll_innate_10	A hero feared and renowned in much of Araby.	true
+character_skills_localised_name_ovn_araby_rattlesnake_staff	Rattlesnake Staff	true
+character_skills_localised_description_ovn_araby_rattlesnake_staff	Those proven proficient in magic are gifted the Rattlesnake Staff by the Wizard Caliph, it is the mark of any good Arabyan sorcerer.	true
+character_skills_localised_name_ovn_araby_tank_01	Hardened by the Desert	true
+character_skills_localised_description_ovn_araby_tank_01	Endless days in the dunes has left this one dogged and burly.	true
+character_skills_localised_name_ovn_araby_tank_02	Cataphract Armour	true
+character_skills_localised_description_ovn_araby_tank_02	Fine heavy armour, though its weight stifles movement.	true
+character_skills_localised_name_ovn_araby_tank_03	Unshakable Faith	true
+character_skills_localised_description_ovn_araby_tank_03	His mind is as immovable as his body.	true
+character_skills_localised_name_ovn_araby_duel_01	Razmafzar	true
+character_skills_localised_description_ovn_araby_duel_01	Ancient sword art which dazzles the many who have not seen it.	true
+character_skills_localised_name_ovn_araby_duel_02	Cloaked Janbiya	true
+character_skills_localised_description_ovn_araby_duel_02	Just in case...	true
+character_skills_localised_name_ovn_araby_duel_03	Smoke Dance	true
+character_skills_localised_description_ovn_araby_duel_03	They twist and turn like a fierce sandstorm.	true
+character_skills_localised_name_ovn_buff_araby_vamp_coast	Sea Dogs	false
+character_skills_localised_description_ovn_buff_araby_vamp_coast	The Golden Magus had fought against the Vampire Coast bitterly, and now makes use of their necromantic arts against them.	false
+character_skills_localised_name_ovn_skill_arb_lord_mount_horse	Barded Warhorse	false
+character_skills_localised_description_ovn_skill_arb_lord_mount_horse	The finest horses in Araby, bred for their endurance and fiery temperament, barded for further protection.	false
+character_skills_localised_name_roy_skill_nomad_mount_warhorse	Camel	false
+character_skills_localised_name_roy_skill_champion_mount_horse	Barded Warhorse	false
+character_skills_localised_name_roy_skill_champion_mount_warhorse	Barded Warhorse	false
+character_skills_localised_name_roy_skill_champion_mount_elephant	Royal War Elephant	false
+character_skills_localised_name_roy_skill_champion_arb_guard	Palace Guard	false
+character_skills_localised_name_roy_skill_champion_arb_warrior	Champion	false
+character_skills_localised_name_roy_skill_champion_arb_sergeant	Sergeant	false
+character_skills_localised_name_roy_skill_arb_agent_missile_res	Djinn's Protection	false
+character_skills_localised_name_roy_skill_arb_nomad_strike_from_the_shadows	Strike from the Shadows	false
+character_skills_localised_name_roy_skill_arb_nomad_self_missile_damage	Shoot to Kill	false
+character_skills_localised_name_roy_skill_nomad_mount_assassin	Mark of the Hashishin	false
+character_skills_localised_name_roy_skill_nomad_jezzail	Jezzail	false
+character_skills_localised_name_roy_skill_arb_hero_innate_01	Kind	false
+character_skills_localised_name_roy_skill_arb_hero_innate_02	Honourable	false
+character_skills_localised_name_roy_skill_arb_hero_innate_03	Proud	false
+character_skills_localised_name_roy_skill_arb_hero_innate_04	Greedy	false
+character_skills_localised_name_roy_skill_arb_hero_innate_05	Brave	false
+character_skills_localised_name_roy_skill_arb_hero_innate_06	Wise	false
+character_skills_localised_name_roy_skill_arb_hero_innate_07	Merciless	false
+character_skills_localised_name_roy_skill_arb_hero_innate_08	Deceitful	false
+character_skills_localised_name_roy_skill_arb_hero_innate_09	Unfaithful	false
+character_skills_localised_name_roy_skill_arb_hero_innate_10	Sharp Witted	false
+character_skills_localised_name_roy_skill_arb_hero_innate_11	Slaver	false
+character_skills_localised_description_roy_skill_nomad_mount_warhorse	One major advantage the camel provides for these mounted archers is simply a better angle for their arrows to aim true than from their horse counterparts. Albeit, mounted archery on a camel is no easy task! 	false
+character_skills_localised_description_roy_skill_champion_mount_horse	The finest horses in Araby, bred for their endurance and fiery temperament, barded for further protection.	false
+character_skills_localised_description_roy_skill_champion_mount_warhorse	The finest horses in Araby, bred for their endurance and fiery temperament, barded for further protection.	false
+character_skills_localised_description_roy_skill_champion_mount_elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	false
+character_skills_localised_description_roy_skill_champion_arb_guard	Palace Guards are among the most prestigious soldiers, tasked with the protection of the Arabyan Nobles.	false
+character_skills_localised_description_roy_skill_champion_arb_warrior	Some only fight for fame and glory, becoming well-trained champions in the process.	false
+character_skills_localised_description_roy_skill_champion_arb_sergeant	It is important to stay grounded when climbing up the chain of command.	false
+character_skills_localised_description_roy_skill_arb_agent_missile_res	Even from within their vessels the Djinn will protect their masters.	false
+character_skills_localised_description_roy_skill_arb_nomad_strike_from_the_shadows	They won't feel a thing... unless you want them to.	false
+character_skills_localised_description_roy_skill_arb_nomad_self_missile_damage	When you are the target of a Hashishin, you'll never know it until it is too late.	false
+character_skills_localised_description_roy_skill_nomad_mount_assassin	After years of service and loyalty, a Hashishi will receive the mark of the brotherhood.	false
+character_skills_localised_description_roy_skill_nomad_jezzail	Armed with long-barrelled arquebus of Arabyan design, the endless deserts have taught these men the value of marksmanship and an accurate firearm. 	false
+character_skills_localised_description_roy_skill_arb_hero_innate_01	Even the smallest acts of kindness can mean to world to someone in need.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_02	Honour is everything!	false
+character_skills_localised_description_roy_skill_arb_hero_innate_03	Pride comes before the fall.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_04	Some people simply can't get enough.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_05	In the eyes of the brave, danger gleams like sunshine.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_06	This one has gained deep knowledge about local cultures and politics.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_07	A skilled assassin is a cold-hearted killer and merciless murderer.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_08	Deceit is a perfectly acceptable means of attack.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_09	People say you can't trust him, he'll betray anybody for the right price.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_10	This being has a plan - not just a game plan, but a master plan to achieve his long-term aims.	false
+character_skills_localised_description_roy_skill_arb_hero_innate_11	This one ensures that those captured in battle wished they'd died on the field, so great is the cruelty that awaits them.	false
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_slave_driver	Slave Driver	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_slave_driver	An entourage of laborers and eunuchs accompany this caravan.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_bedouin	Bedouin	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_bedouin	Running this caravan is the most contact his tribe has had with the world in years.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_tuareg	Tuareg	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_tuareg	Of the Tuareg tribe. Their typical fight-for-coin lifestyle doesn't suit him, so he's taken to trading. There's still a lot of fighting though.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_inventor	Inventor	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_inventor	Born and raised in Ras Karim, he spent his early days walking up and down the Street of the Scholars. Some of that ingenuity must have rubbed off on him.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_clandestine	Clandestine	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_clandestine	A secretive history allows him to call upon veteran troops who perhaps served him in the past.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_pious	Pious	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_pious	This man has dedicated his life to the Djinn and follows the teachings of the Cult to the letter.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_royally_connected	Royally Connected	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_royally_connected	In Araby, reputation is a powerful tool, and those favoured by sultans and emirs will be able to recruit quality troops.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_Former_Artillery_Officer	Former Artillery Officer	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_Former_Artillery_Officer	Once of the Sultan's artillery legions. Though now an independent trader, those ties are hard to break.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_Humble_Born	Humble Born	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_Humble_Born	Many masters of the continent spanning caravans come from the peasant oases or the slums of the Araby's mighty cities.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_gunpowder_enthusiast	Gunpowder Enthusiast	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_gunpowder_enthusiast	Now did I buy the powder from the Dwarfs or the Cathayans? Ah well, it probably doesn't matter.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_Ogre_Ally	Ogre Ally	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_Ogre_Ally	Crack open a few kegs of Tialva or Arag and you've got some friends for life.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_bretophile	Bretophile	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_bretophile	The caravan and its master spends a lot of time in the Land of Chivalry, to the point that he prefers the company of foreigners to his homeland.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_scalywag	Scalywag	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_scalywag	A band of corsairs and their captain, turned to a life of honest work? Sure, if you ignore string of unsolved burglaries they leave in their wake.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_meteorologist	Meteorologist	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_meteorologist	According to the Kitab al-Filaha al-Martekiyya, nasty weather can be predicted and avoided by careful observation of wind movements, the lunar phases, and planetary astral alterations.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_fire_obsessed	Fire Obsessed	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_fire_obsessed	Fire hot, fire good.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_djinn_worshipper	Djinn Worshipper	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_djinn_worshipper	This caravan is a front for the Cult of the Djinn, hoping to spread their message to the wider world.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_southlander	Southlander	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_southlander	Brought up in the Southlands, with an intimate knowledge of its denizens and geography.	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_beastmaster	Beastmaster	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_beastmaster	Fangweasels, Bonechewers, Indrikas, Lake-Lions? All out of stock, but could I interest you in this Giant Vulture?	true
+character_skills_localised_name_ovn_skill_innate_arb_caravan_master_elephant_lover	Elephant Lover	true
+character_skills_localised_description_ovn_skill_innate_arb_caravan_master_elephant_lover	Did you know that elephants are the world's 89th largest land animal?	true
+character_skills_localised_name_arb_vizier_desert_djinn_carriage	Djinn Carriage	true
+character_skills_localised_description_arb_vizier_desert_djinn_carriage	From atop this wondrous carriage, the Vizier calls upon the elemental spirits to aid his armies.	true
+character_skills_localised_name_arb_vizier_fire_djinn_carriage	Djinn Carriage	true
+character_skills_localised_description_arb_vizier_fire_djinn_carriage	From atop this wondrous carriage, the Vizier calls upon the elemental spirits to aid his armies.	true
+character_skills_localised_name_arb_vizier_heavens_djinn_carriage	Djinn Carriage	true
+character_skills_localised_description_arb_vizier_heavens_djinn_carriage	From atop this wondrous carriage, the Vizier calls upon the elemental spirits to aid his armies.	true
+character_skills_localised_name_arb_vizier_life_djinn_carriage	Djinn Carriage	true
+character_skills_localised_description_arb_vizier_life_djinn_carriage	From atop this wondrous carriage, the Vizier calls upon the elemental spirits to aid his armies.	true
+character_skills_localised_description_roy_anc_mount_arb_champion_pegasus	These noble beasts absorb the sun's heat, transmuting it into the burning light that flows over their skin like ripples of brightest flame.	false
+character_skills_localised_name_roy_anc_mount_arb_champion_pegasus	Radiant Pegasus	false
+character_skills_localised_description_roy_anc_mount_arb_lord_pegasus	These noble beasts absorb the sun's heat, transmuting it into the burning light that flows over their skin like ripples of brightest flame.	false
+character_skills_localised_name_roy_anc_mount_arb_lord_pegasus	Radiant Pegasus	false
+character_skills_localised_description_ovn_skill_arb_lord_campaign_army	Whether out of fear or conviction, this leader is able to rally a relentless force behind him.	false
+character_skills_localised_name_ovn_skill_arb_lord_campaign_army	Great Commander	false
+character_skills_localised_name_roy_skill_arb_nomad_doppelgang	Doppelgang	false
+character_skills_localised_description_roy_skill_arb_nomad_doppelgang	Now you see them, now you don’t… and now you’re seeing double.	false
+character_skills_localised_description_arb_golden_magus_tzeentch_servant	Without a doubt, the Sultan of the Seas is a powerful sorcerer. Besides Djinn, however, he can also bind darker beings. This power is granted to him by his supposedly true master, the Chaos God Tzeentch.	false
+character_skills_localised_name_arb_golden_magus_tzeentch_servant	Master of Daemons	false
+character_skills_localised_description_roy_anc_mount_arb_champion_horse_wazar	The finest horses in Araby, bred for their endurance and fiery temperament, barded for further protection.	false
+character_skills_localised_name_roy_anc_mount_arb_champion_horse_wazar	Barded Warhorse	false
+character_skills_localised_description_roy_anc_mount_arb_champion_pegasus_wazar	These noble beasts absorb the sun's heat, transmuting it into the burning light that flows over their skin like ripples of brightest flame.	false
+character_skills_localised_name_roy_anc_mount_arb_champion_pegasus_wazar	Radiant Pegasus	false
+character_skills_localised_description_roy_anc_mount_arb_champion_elephant_wazar	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	false
+character_skills_localised_name_roy_anc_mount_arb_champion_elephant_wazar	Royal War Elephant	false
+character_skills_localised_description_arb_champion_wazar_innate	As captain of Jaffar's Black Scimitar Guard, he never leaves his side for an instant, neither night or day.	false
+character_skills_localised_name_arb_champion_wazar_innate	Captain of the Guard	false
+character_skills_localised_description_arb_sheikh_mehmed_innate	One of Jaffar's most efficient and brutal generals, he's rightly feared by the enemies of the Sultan.	false
+character_skills_localised_name_arb_sheikh_mehmed_innate	The Black Lizard	false
+character_skills_localised_description_arb_sheikh_mehmed_unique_0	The Sultan demands conquest and we will give him nothing else.	false
+character_skills_localised_name_arb_sheikh_mehmed_unique_0	Relentless Conqueror	false
+character_skills_localised_description_arb_sheikh_mehmed_unique_1	Mehmed favors using his light cavalry to weaken the enemy and then smashes them with his cataphracts.	false
+character_skills_localised_name_arb_sheikh_mehmed_unique_1	Cavalry Commander	false
+character_skills_localised_description_arb_sheikh_mehmed_unique_2	The sun-blackened Dervishers march under the Black Lizard.	false
+character_skills_localised_name_arb_sheikh_mehmed_unique_2	Fanatical Devotees	false
+character_skills_localised_description_arb_sheikh_mehmed_unique_3	Not only is his brutality frightening, but also his deadly skill in close combat.	false
+character_skills_localised_name_arb_sheikh_mehmed_unique_3	Daunting Warrior	false
+character_skills_localised_description_arb_sheikh_mehmed_unique_4	These lands now belong to the Great Sultan. Put those worms to good use and see to it that his empire prospers!	false
+character_skills_localised_name_arb_sheikh_mehmed_unique_4	Ruthless Slaver	false
+character_skills_localised_description_arb_sheikh_mehmed_unique_5	Mehmed earned his sobriquet after the Battle of Nine Jackals, in which he slaughtered a force of Bretonnian crusaders. He left only one man alive to bear the tale to his countrymen, but only after he had chopped off his hands.	false
+character_skills_localised_name_arb_sheikh_mehmed_unique_5	The Butcher	false
+character_skills_localised_description_arb_sheikh_mehmed_mount_horse	The finest horses in Araby, bred for their endurance and fiery temperament, barded for further protection.	false
+character_skills_localised_name_arb_sheikh_mehmed_mount_horse	Barded Warhorse	false
+character_skills_localised_description_arb_sheikh_mehmed_mount_pegasus	These noble beasts absorb the sun's heat, transmuting it into the burning light that flows over their skin like ripples of brightest flame.	false
+character_skills_localised_name_arb_sheikh_mehmed_mount_pegasus	Radiant Pegasus	false
+character_skills_localised_description_arb_sheikh_mehmed_mount_elephant	Elephants are unstoppable beasts. Trained on the battlefield, they lead Araby's leaders to war, wiping out everything that gets in their way.	false
+character_skills_localised_name_arb_sheikh_mehmed_mount_elephant	Royal War Elephant	false
+character_skills_localised_description_arb_champion_wazar_unique_0	Wherever his master goes, Wazar will follow.	false
+character_skills_localised_name_arb_champion_wazar_unique_0	Bodyguard	false
+character_skills_localised_description_arb_champion_wazar_unique_1	As a trusted retainer of Jaffar, Wazar speaks with his authority when he is sent out to lead the troops.	false
+character_skills_localised_name_arb_champion_wazar_unique_1	Commander of the Forces	false
+character_skills_localised_description_arb_champion_wazar_unique_2	In a world full of dangers far greater than humans, a good guardian must be able to cope with anything.	false
+character_skills_localised_name_arb_champion_wazar_unique_2	Beastslayer	false
+character_skills_localised_description_arb_champion_wazar_unique_3	Loyalty is rewarded but unfaithfulness is severely punished.	false
+character_skills_localised_name_arb_champion_wazar_unique_3	Favoured by the Sultan	false
+character_skills_localised_description_arb_champion_wazar_unique_4	Only the very best is good enough for Jaffar's personal retinue.	false
+character_skills_localised_name_arb_champion_wazar_unique_4	The Sultan's Finest	false
+character_skills_localised_description_arb_champion_wazar_unique_5	Wazar is an insurmountable fighter. He would be unstoppable even if the sky crashed down on him.	false
+character_skills_localised_name_arb_champion_wazar_unique_5	Unbreakable	false
+character_skills_localised_description_arb_sheikh_administrator	The Sheikhs ensure that there are always enough recruits available for the Sultan's armies.	false
+character_skills_localised_name_arb_sheikh_administrator	Recruiter	false
+character_skills_localised_description_arb_sheikh_city	The Sheikhs of the cities are proud of their troops and especially of their cavalry so that no expense is spared either on their equipment or maintenance	false
+character_skills_localised_name_arb_sheikh_city	Army General	false
+character_skills_localised_description_arb_sheikh_nomad	The fierce Sheikhs of the desert are local leaders, being renowned warriors and military men.	false
+character_skills_localised_name_arb_sheikh_nomad	Tribal Leader	false
+character_skills_localised_description_ovn_skill_arb_caravan_master_mount_horse	The finest horses in Araby, bred for their endurance and fiery temperament, barded for further protection.	false
+character_skills_localised_name_ovn_skill_arb_caravan_master_mount_horse	Barded Warhorse	false
+character_skills_localised_name_arb_golden_magus_ogre_buff	Ogre Bodyguard	false
+character_skills_localised_description_arb_golden_magus_ogre_buff	The Golden Magus personally hand selects the ogres that will serve under him. This ensures that only the most brutish and blood-thirsty of their ilk fill his ranks.	false

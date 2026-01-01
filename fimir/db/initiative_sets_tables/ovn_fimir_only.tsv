@@ -1,7 +1,7 @@
-key	active_initiative_limit	activation_cooldown	category	points_limit	allows_multiple_activation	base_cost
-#initiative_sets_tables;5;db/initiative_sets_tables/ovn_fimir_only						
-ovn_fim_skattach_faction_initiative_set_chs_khorne	0	1	DLC20_KHORNE_INITIATIVES	0	false	
-ovn_fim_skattach_faction_initiative_set_chs_nurgle	0	1	DLC20_NURGLE_INITIATIVES	0	false	
-ovn_fim_skattach_faction_initiative_set_chs_slaanesh	0	1	DLC20_SLAANESH_INITIATIVES	0	false	
-ovn_fim_skattach_faction_initiative_set_chs_tzeentch	0	1	DLC20_TZEENTCH_INITIATIVES	0	false	
-ovn_fim_skattach_faction_initiative_set_chs_undivided	1	1	DLC20_UNDIVIDED_INITIATIVES	0	false	
+key	active_initiative_limit	activation_cooldown	category	points_limit	allows_multiple_activation	base_cost	use_force_pooled_resources
+#initiative_sets_tables;7;db/initiative_sets_tables/ovn_fimir_only							
+ovn_fim_skattach_faction_initiative_set_chs_khorne	0	1	DLC20_KHORNE_INITIATIVES	0	false		false
+ovn_fim_skattach_faction_initiative_set_chs_nurgle	0	1	DLC20_NURGLE_INITIATIVES	0	false		false
+ovn_fim_skattach_faction_initiative_set_chs_slaanesh	0	1	DLC20_SLAANESH_INITIATIVES	0	false		false
+ovn_fim_skattach_faction_initiative_set_chs_tzeentch	0	1	DLC20_TZEENTCH_INITIATIVES	0	false		false
+ovn_fim_skattach_faction_initiative_set_chs_undivided	1	1	DLC20_UNDIVIDED_INITIATIVES	0	false		false

@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_mercenary_replenishment_reason.loc		
+mercenary_unit_groups_replenishment_reason_ovn_arb_tze_inf_pink_horrors_0_rhox_ovn_araby	This unit will be replenished by the Whispers of Tzeentch.	false
+mercenary_unit_groups_replenishment_reason_ovn_arb_tze_mon_screamers_0_rhox_ovn_araby	This unit will be replenished by the Whispers of Tzeentch.	false
+mercenary_unit_groups_replenishment_reason_ovn_arb_tze_mon_flamers_0_rhox_ovn_araby	This unit will be replenished by the Whispers of Tzeentch.	false
+mercenary_unit_groups_replenishment_reason_ovn_arb_tze_inf_blue_horrors_0_rhox_ovn_araby	This unit will be replenished by the Whispers of Tzeentch.	false
+mercenary_unit_groups_replenishment_reason_ovn_arb_inf_sharkas_slaves	This unit is only for AI, if you saw this, report to devs!	false

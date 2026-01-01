@@ -1,0 +1,6 @@
+member	context	faction
+#campaign_group_member_criteria_factions_tables;1;db/campaign_group_member_criteria_factions_tables/rhox_araby_fatandira		
+rhox_fatandira_meter_group	ACTOR	ovn_arb_aswad_scythans
+rhox_araby_fatandira_vs_araby	ACTOR	ovn_arb_aswad_scythans
+rhox_araby_fatandira_vs_tk	ACTOR	ovn_arb_aswad_scythans
+rhox_araby_fatandira_numas_gift	ACTOR	ovn_arb_aswad_scythans

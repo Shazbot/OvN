@@ -1,0 +1,11 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_araby_fatandira					
+rhox_araby_tmb_upkeep_dummy	military_spending.png	105	military_spending.png	campaign	false
+rhox_araby_araby_upkeep_dummy	military_spending.png	105	military_spending.png	campaign	false
+rhox_araby_tmb_weapon_strength	weapon_damage.png	461	weapon_damage.png	battle	true
+rhox_araby_araby_weapon_strength	weapon_damage.png	461	weapon_damage.png	battle	true
+rhox_araby_meter_araby_effect	wh2_dlc09_tmb_hierotitan_magic_scales.png	2	wh2_dlc09_tmb_hierotitan_magic_scales.png	campaign	true
+rhox_araby_meter_tk_effect		0		campaign	false
+rhox_araby_meter_tk_effect_dummy	wh2_dlc09_tmb_hierotitan_magic_scales.png	2	wh2_dlc09_tmb_hierotitan_magic_scales.png	campaign	true
+rhox_araby_meter_wont_change_dummy	wh2_dlc09_tmb_hierotitan_magic_scales.png	2	wh2_dlc09_tmb_hierotitan_magic_scales.png	campaign	true
+rhox_araby_fatandira_betrayal_warning_dummy	numas_flag.png	2	numas_flag.png	campaign	true

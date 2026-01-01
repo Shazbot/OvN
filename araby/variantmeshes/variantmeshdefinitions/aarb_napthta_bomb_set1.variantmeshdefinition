@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="weapon_4" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb\arb_props\arb_naphtha_pot_01.wsmodel" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

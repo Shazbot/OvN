@@ -1,0 +1,60 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/ovn_arb_nomad									
+wh2_main_skill_node_arb_nomad_immortality		wh2_main_skill_all_immortality_hero		0	5		0	0	true
+wh2_main_skill_node_arb_nomad_unique_01		roy_skill_arb_nomad_strike_from_the_shadows		1	0		0	0	true
+wh2_main_skill_node_arb_nomad_unique_02		roy_skill_arb_nomad_doppelgang		1	1		0	0	true
+wh2_main_skill_node_arb_nomad_unique_03		wh2_main_skill_def_spy_poison_3		1	2		0	0	true
+wh2_main_skill_node_arb_nomad_unique_04		wh_main_skill_all_spy_self_stalker		0	4		0	0	true
+wh2_main_skill_node_arb_nomad_unique_05		roy_skill_arb_agent_missile_res		0	2		0	0	true
+wh2_main_skill_node_arb_nomad_unique_06		ovn_skill_arb_all_unique_ward_of_the_one		0	3		0	0	true
+wh2_main_skill_node_arb_nomad_unique_07		wh2_main_skill_def_spy_unbreakable		0	1		0	0	true
+wh2_main_skill_node_arb_nomad_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true
+wh2_main_skill_node_arb_nomad_self_01		wh2_main_skill_def_combat_dance_of_death		2	0		0	0	true
+wh2_main_skill_node_arb_nomad_self_02		wh_main_skill_all_spy_self_gutter_fighter_2		2	1		0	0	true
+wh2_main_skill_node_arb_nomad_self_03		wh_main_skill_all_spy_self_elusive		2	2		0	0	true
+wh2_main_skill_node_arb_nomad_self_04		wh_main_skill_all_spy_self_precise_2		2	3		0	0	true
+wh2_main_skill_node_arb_nomad_self_05		wh_main_skill_all_spy_self_survivalist_2		2	4		0	0	true
+wh2_main_skill_node_arb_nomad_self_06		wh_main_skill_all_spy_self_slippery		2	5		0	4	true
+wh2_main_skill_node_arb_nomad_self_07		wh_main_skill_all_spy_self_fleet-footed		2	6		0	0	true
+wh2_main_skill_node_arb_nomad_self_08		wh_main_skill_all_spy_self_opportunist		2	7		0	0	true
+wh2_main_skill_node_arb_nomad_self_09		wh_main_skill_all_spy_self_counter-striker_2		2	8		0	0	true
+wh2_main_skill_node_arb_nomad_self_10		wh_main_skill_all_spy_self_bloody_blade		2	9		0	0	true
+wh2_main_skill_node_arb_nomad_self_11		wh2_main_skill_skv_trophy_heads_assassin		2	10		0	4	true
+wh2_main_skill_node_arb_nomad_missile_0		wh2_main_skill_def_assassin_missile_range_hawk_eyed		3	0		0	0	true
+wh2_main_skill_node_arb_nomad_missile_1		wh_dlc05_skill_wef_general_personal_buff_missile_damage		3	1		0	0	true
+wh2_main_skill_node_arb_nomad_missile_2		wh2_main_skill_def_combat_deadeye		3	2		0	0	true
+wh2_main_skill_node_arb_nomad_campaign_01		wh2_main_skill_all_hero_assist_army_scavenge		5	0		0	0	true
+wh2_main_skill_node_arb_nomad_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption		5	1		0	0	true
+wh2_main_skill_node_arb_nomad_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_walls		5	2		0	0	true
+wh2_main_skill_node_arb_nomad_campaign_04		wh2_main_skill_all_hero_hinder_agent_assassinate		5	3		0	0	true
+wh2_main_skill_node_arb_nomad_campaign_05		wh2_main_skill_all_hero_hinder_army_block_army		5	4		0	0	true
+wh2_main_skill_node_arb_nomad_campaign_06		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+wh2_main_skill_node_arb_nomad_innate_01_01		roy_skill_arb_hero_innate_01	ovn_arb_golden_fleet	6	0		0	0	false
+wh2_main_skill_node_arb_nomad_innate_01_02		roy_skill_arb_hero_innate_01	ovn_arb_sultanate_of_all_araby	6	0		0	0	false
+wh2_main_skill_node_arb_nomad_innate_01_03		roy_skill_arb_hero_innate_01	ovn_arb_sultanate_of_el_kalabad	6	0		0	0	false
+wh2_main_skill_node_arb_nomad_innate_01_04		roy_skill_arb_hero_innate_01	ovn_arb_sultanate_ind	6	0		0	0	false
+wh2_main_skill_node_arb_nomad_innate_01_05		roy_skill_arb_hero_innate_01	ovn_arb_cult_of_the_djinns	6	0		0	0	false
+wh2_main_skill_node_arb_nomad_innate_02		roy_skill_arb_hero_innate_02		6	1		0	0	false
+wh2_main_skill_node_arb_nomad_innate_03		roy_skill_arb_hero_innate_03		6	2		0	0	false
+wh2_main_skill_node_arb_nomad_innate_04		roy_skill_arb_hero_innate_04		6	3		0	0	false
+wh2_main_skill_node_arb_nomad_innate_05		roy_skill_arb_hero_innate_05		6	4		0	0	false
+wh2_main_skill_node_arb_nomad_innate_06		roy_skill_arb_hero_innate_06		6	5		0	0	false
+wh2_main_skill_node_arb_nomad_innate_07		roy_skill_arb_hero_innate_07		6	6		0	0	false
+wh2_main_skill_node_arb_nomad_innate_08		roy_skill_arb_hero_innate_08		6	7		0	0	false
+wh2_main_skill_node_arb_nomad_innate_09		roy_skill_arb_hero_innate_09		6	8		0	0	false
+wh2_main_skill_node_arb_nomad_innate_10		roy_skill_arb_hero_innate_10		6	9		0	0	false
+wh2_main_skill_node_arb_nomad_innate_11		roy_skill_arb_hero_innate_11		6	10		0	0	false
+wh2_main_skill_node_arb_nomad_innate_12		wh2_main_skill_innate_all_fleet_footed		6	11		0	0	false
+wh2_main_skill_node_arb_nomad_innate_13		wh2_main_skill_innate_all_cunning		6	12		0	0	false
+wh2_main_skill_node_arb_nomad_innate_14		wh2_main_skill_innate_all_determined		6	13		0	0	false
+wh2_main_skill_node_arb_nomad_innate_15		wh2_main_skill_innate_all_confident		6	14		0	0	false
+wh2_main_skill_node_arb_nomad_innate_16		wh2_main_skill_innate_all_disciplined		6	15		0	0	false
+wh2_main_skill_node_arb_nomad_innate_17		wh2_main_skill_innate_all_perceptive		6	16		0	0	false
+wh2_main_skill_node_arb_nomad_innate_18		wh2_main_skill_innate_all_aggressive		6	17		0	0	false
+wh2_main_skill_node_arb_nomad_innate_19		wh2_main_skill_innate_all_tough		6	18		0	0	false
+wh2_main_skill_node_arb_nomad_innate_20		wh2_main_skill_innate_all_strong		6	19		0	0	false
+wh2_main_skill_node_arb_nomad_innate_21		wh2_main_skill_innate_all_weapon_master		6	20		0	0	false
+wh2_main_skill_node_arb_nomad_innate_22		wh2_main_skill_innate_all_strategist		6	21		0	0	false
+wh2_main_skill_node_arb_nomad_innate_23		wh2_main_skill_innate_all_tactician		6	22		0	0	false
+wh2_main_skill_node_arb_nomad_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_emp_witch_hunter		8	0		1	0	false
+wh3_main_agent_action_scaling_wh2_main_skill_node_arb_nomad		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false

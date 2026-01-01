@@ -1,0 +1,107 @@
+{
+    "Settings": {
+        "BnkName": "battle_vo_orders__ovn_vo_actor_Araby_Grand_Vizier_Lord1",
+        "Language": "english(uk)"
+    },
+
+    "DialogueEvents": [
+        {
+            "DialogueEvent": "battle_vo_order_attack",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1.Any.Any.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_attack-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_attack-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_attack-03.wav",
+                        "D:\\Vizier1_Battle_vo_order_attack-04.wav",
+                        "D:\\Vizier1_Battle_vo_order_attack-05.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_generic_response",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_generic-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_generic-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_generic-03.wav",
+                        "D:\\Vizier1_Battle_vo_order_generic-04.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_halt",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_halt-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_halt-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_halt-03.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_move",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1.Any.Any.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_move-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_move-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_move-03.wav",
+                        "D:\\Vizier1_Battle_vo_order_move-04.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_select",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1.Any.Any.Any",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_select-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-03.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-04.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-05.wav",
+                        "D:\\Vizier1_Battle_vo_order_select-06.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_withdraw",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1.Any",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_withdraw-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_withdraw-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_withdraw-03.wav"
+                    ]
+                }
+            ]
+        },
+        {
+            "DialogueEvent": "battle_vo_order_withdraw_tactical",
+            "DecisionTree": [
+                {
+                    "StatePath": "ovn_vo_culture_Araby.ovn_vo_actor_Araby_Grand_Vizier_Lord1",
+                    "Sounds": [
+                        "D:\\Vizier1_Battle_vo_order_withdraw_tactical-01.wav",
+                        "D:\\Vizier1_Battle_vo_order_withdraw_tactical-02.wav",
+                        "D:\\Vizier1_Battle_vo_order_withdraw_tactical-03.wav"
+                    ]
+                }
+            ]
+        }
+    ]
+}

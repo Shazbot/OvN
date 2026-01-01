@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_fimir_only_faction_groups.loc		
-faction_groups_description_localised_ovn_fact_group_fimir		false
-faction_groups_name_localised_ovn_fact_group_fimir	Fimir	false
-daemon_ability_bar_descriptions_bar_description_ovn_fimir	Points are generated for each enemy entity killed.	false
-daemon_ability_bar_descriptions_bar_title_ovn_fimir	Sacrifices to Fimul	false

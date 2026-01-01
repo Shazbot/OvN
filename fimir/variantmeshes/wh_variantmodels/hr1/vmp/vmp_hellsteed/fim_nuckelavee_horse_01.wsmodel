@@ -1,0 +1,25 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\hr1\vmp\vmp_hellsteed\fim_nuckelavee_horse_01.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\hr1\vmp\vmp_hellsteed\materials\dlc02_stump_waist_hu6_lod1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu4f\grn\grn_troll_river\materials\grn_troll_river_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\wf1\vmp\vmp_dire_wolf\materials\vmp_nightmare_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_archaon\head\materials\chs_archaon_head_01_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\hr1\vmp\vmp_hellsteed\materials\dlc02_stump_waist_hu6_lod1_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu4f\grn\grn_troll_river\materials\grn_troll_river_01_weighted4_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\wf1\vmp\vmp_dire_wolf\materials\vmp_nightmare_01_weighted4_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_archaon\head\materials\chs_archaon_head_01_weighted4_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\hr1\vmp\vmp_hellsteed\materials\dlc02_stump_waist_hu6_lod1_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu4f\grn\grn_troll_river\materials\grn_troll_river_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\wf1\vmp\vmp_dire_wolf\materials\vmp_nightmare_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_archaon\head\materials\chs_archaon_head_01_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\hr1\vmp\vmp_hellsteed\materials\dlc02_stump_waist_hu6_lod1_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu4f\grn\grn_troll_river\materials\grn_troll_river_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\wf1\vmp\vmp_dire_wolf\materials\vmp_nightmare_01_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1c\chs\chs_archaon\head\materials\chs_archaon_head_01_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

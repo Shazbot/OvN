@@ -17,6 +17,14 @@ grudge_item_wand_of_jet	grudge_item_wand_of_jet	.	false	false	false	1	0	9999			f
 grudge_item_banner_of_arcane_warding	grudge_item_banner_of_arcane_warding	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		grudge_banner_of_arcane_warding	200	0	banner	false	false	false	all
 grudge_item_banner_of_wrath	grudge_item_banner_of_wrath	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		grudge_banner_of_wrath	200	0	banner	false	false	false	all
 grudge_item_banner_of_defiance	grudge_item_banner_of_defiance	.	false	false	false	1	0	9999			false	false	false	general	16	30	30	50	true		grudge_banner_of_defiance	200	0	banner	false	false	false	all
-morgan_bernhardt_mount	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	morgan_bernhardt_mount		1	1		false	false	true	all
-ludwig_uberdorf_steam_tank	ludwig_uberdorf_steam_tank	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ludwig_uberdorf_steam_tank_main_units		1	1		false	false	true	all
-luther_flamenstrike_mount	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	luther_flamenstrike_mount		1	1		false	false	true	all
+morgan_bernhardt_mount	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	morgan_bernhardt_mount		1	0		false	false	true	all
+ludwig_uberdorf_steam_tank	ludwig_uberdorf_steam_tank	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ludwig_uberdorf_steam_tank_main_units		1	0		false	false	true	all
+luther_flamenstrike_mount	wh_main_anc_mount_barded_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	luther_flamenstrike_mount		1	0		false	false	true	all
+grudge_item_sword_of_eilor	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+vladimir_stormbringer_mount	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ice_mage_vladimir_stormbringer_mount		1	0		false	false	true	all
+ludwig_uberdorf_mechanical_steed	ludwig_uberdorf_mechanical_steed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ludwig_uberdorf_mechanical_steed		1	0		false	false	false	all
+ludwig_uberdorf_mount	ludwig_uberdorf_mount	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ludwig_uberdorf_mount_main_units		1	0		false	false	false	all
+allor_griffon	wh_main_anc_mount_imperial_griffon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	allor_griffon		1	0		false	false	true	all
+ceridan_eagle	wh_dlc05_anc_mount_wef_great_eagle	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	ceridan_eagle		1	0		false	false	true	all
+matthias_war_wagon	matthias_war_wagon	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	matthias_war_wagon		1	0		false	false	false	all
+dwarf_envoy_oath_stone	dwarf_envoy_oath_stone	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	dwarf_envoy_oath_stone		1	0		false	false	false	all

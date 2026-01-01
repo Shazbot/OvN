@@ -10,8 +10,10 @@ engrol_gold_tongue	engrol_gold_tongue.png			0	false	false	false	0.0000	0
 engrol_trademaster	campaign_trade.png			0	false	false	false	0.0000	0
 engrol_dwf_bodyguard	trait_dwarf.png			0	false	false	false	0.0000	0
 engrol_persuasion_master	campaign_military_spending.png			0	false	false	false	0.0000	0
+ludwig_uberdorf_mount	mount_barded_warhorse.png	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	Barded Warhorse	1	false	false	false	0.0000	0
+ludwig_uberdorf_mechanical_steed	mount_mechanical_steed.png	A general's horse can be their most trusted and daring companion. Just don't name him 'Daisy'.	Barded Warhorse	0	false	false	false	0.0000	0
 ludwig_uberdorf_steam_tank	mount_tank.png	A Steam Tank is a monstrous, smoke-belching war machine.	Steam Tank	15	false	false	false	0.0000	0
-do_skill_all_dummy_agent_actions_emp_master_engineer	battle_attack.png			0	false	false	false	0.0000	0
+do_skill_all_dummy_agent_actions_champion_ludwig	battle_attack.png			0	false	false	false	0.0000	0
 rhox_grudge_ceridan_dedication_asuryan	wh2_hef_asuryan.png			9	false	false	false	0.0000	0
 ovn_grudge_skill_ksl_frost_maiden_unique_04	character_disaster.png	Often the most dangerous assault comes from the enemy you least expect.	Handmaiden of the Ice Queen	0	false	false	false	0.0000	0
 ovn_grudge_vlad_innate	wh3_main_lore_passive_freezing_winds.png			0	true	false	false	5.0000	0
@@ -31,3 +33,28 @@ ovn_grudge_skill_node_luther_flamenstrike_unique_05	character_magic.png			0	fals
 ovn_grudge_skill_node_luther_flamenstrike_unique_06	character_magic.png			0	false	false	false	0.0000	0
 rhox_ovn_grudgebringer_ludwig_innate	wh_main_hero_passive_extra_powder.png			0	true	false	false	5.0000	0
 rhox_ovn_grudgebringer_immortal_for_ai	battle_attack.png			0	false	false	false	0.0000	0
+rhox_ovn_grudge_item_sword_of_eilor	item_weapon.png			0	false	false	false	0.0000	0
+grudge_anc_rune_rune_of_fury	wh_main_anc_rune_rune_of_fury.png			0	false	false	false	0.0000	0
+grudge_anc_rune_rune_of_might	wh_main_anc_rune_rune_of_might.png			0	false	false	false	0.0000	0
+grudge_anc_rune_rune_of_parrying	wh_main_anc_rune_rune_of_parrying.png			0	false	false	false	0.0000	0
+grudge_anc_rune_rune_of_striking	wh_main_anc_rune_rune_of_striking.png			0	false	false	false	0.0000	0
+rhox_allor_innate	wh_dlc03_lore_passive_wild_heart.png			0	true	false	false	5.0000	0
+rhox_allor_unique_1	campaign_subterranean.png			0	false	false	false	0.0000	0
+rhox_allor_unique_2	campaign_skaven_corruption.png			0	false	false	false	0.0000	0
+rhox_allor_unique_3	campaign_replenishment.png			0	false	false	false	0.0000	0
+rhox_allor_unique_4	character_ammo.png			0	false	false	false	0.0000	0
+rhox_allor_unique_5	character_general_ability.png			0	false	false	false	0.0000	0
+rhox_allor_unique_6	character_magic.png			0	false	false	false	0.0000	0
+rhox_dummy_all_action_ceridan	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+rhox_dummy_all_action_dwarf_envoy	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+rhox_dummy_all_action_luther	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+rhox_dummy_all_action_vlad	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+rhox_dummy_all_action_allor	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+rhox_dummy_all_action_matthias	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+allor_griffon	mount_imperial_griffon.png	Once trained to carry a man in battle, Imperial griffons are poised killers and incredibly dedicated to their riders.	Imperial Griffon	21	false	false	false	0.0000	0
+ceridan_eagle	mount_great_eagle.png	Great Eagles are the firm allies of the Elves, fighting their causes since the coming of Chaos.	Great Eagle	11	false	false	false	0.0000	0
+matthias_war_wagon	mount_war_altar.png			0	false	false	false	0.0000	0
+dwarf_envoy_oath_stone	mount_oath_stone.png			1	false	false	false	0.0000	0
+rhox_grudge_replenish	campaign_replenishment.png			0	false	false	false	0.0000	0
+rhox_grudge_ceridan_hero_assist_army_replenish_troops	campaign_replenishment.png	Those in the army can find succour or be replenished by the power of this champion.	{{tr:agent_action_name_replenish_troops}}	0	false	false	false	0.0000	0
+morgan_bernhardt_gotrek_felix	character_magic.png			0	false	false	false	0.0000	0

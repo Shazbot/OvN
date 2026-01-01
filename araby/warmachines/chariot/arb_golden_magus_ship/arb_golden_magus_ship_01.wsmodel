@@ -1,0 +1,10 @@
+<model version="1">
+	<geometry>warmachines\chariot\arb_golden_magus_ship\arb_golden_magus_ship_01.rigid_model_v2</geometry>
+		<materials>
+			<material part_index="0" lod_index="0">warmachines\chariot\arb_golden_magus_ship\materials\ship_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="1">warmachines\chariot\arb_golden_magus_ship\materials\ship - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="2">warmachines\chariot\arb_golden_magus_ship\materials\ship - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="3">warmachines\chariot\arb_golden_magus_ship\materials\ship - Clone_weighted4_alpha_off.xml.material</material>
+			<material part_index="0" lod_index="4">warmachines\chariot\arb_golden_magus_ship\materials\ship - Clone_weighted4_alpha_off.xml.material</material>
+	</materials>
+</model>

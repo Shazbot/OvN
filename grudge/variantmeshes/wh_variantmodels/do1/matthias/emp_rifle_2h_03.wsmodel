@@ -1,0 +1,29 @@
+<model version="1">
+	<geometry>variantmeshes\wh_variantmodels\do1\matthias\emp_rifle_2h_03.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_0_rigid_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_1_rigid_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu3\dwf\dwf_props\materials\dwf_thunderers_rifle_2h_01_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\emp_props\materials\emp_rifle_01_alpha_off.xml.material</material>
+			<material lod_index="0" part_index="4">variantmeshes\wh_variantmodels\do1\matthias\materials\dwf_grudge_thrower_01_submesh_59_rigid_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_0_rigid_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_1_rigid_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu3\dwf\dwf_props\materials\dwf_thunderers_rifle_2h_01_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\emp_props\materials\emp_rifle_01_alpha_off.xml.material</material>
+			<material lod_index="1" part_index="4">variantmeshes\wh_variantmodels\do1\matthias\materials\dwf_grudge_thrower_01_submesh_59_rigid_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_0_rigid_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_1_rigid_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu3\dwf\dwf_props\materials\dwf_thunderers_rifle_2h_01_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\emp_props\materials\emp_rifle_01_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">variantmeshes\wh_variantmodels\do1\matthias\materials\dwf_grudge_thrower_01_submesh_59_rigid_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_0_rigid_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\do1\matthias\materials\emp_wizard_celestial_body_01_sub_submesh_1_rigid_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu3\dwf\dwf_props\materials\dwf_thunderers_rifle_2h_01_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">variantmeshes\wh_variantmodels\hu1\emp\emp_props\materials\emp_rifle_01_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">variantmeshes\wh_variantmodels\do1\matthias\materials\dwf_grudge_thrower_01_submesh_59_rigid_alpha_off.xml.material</material>
+
+	</materials>
+</model>

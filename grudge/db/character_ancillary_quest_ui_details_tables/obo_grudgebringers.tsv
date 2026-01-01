@@ -2,3 +2,8 @@ agent_subtype	ancillary	rank	instant	is_quest_battle
 #character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/obo_grudgebringers				
 morgan_bernhardt	grudge_item_enchanted_shield	10	true	false
 morgan_bernhardt	grudge_item_grudgebringer_sword	5	true	false
+ceridan	grudge_item_sword_of_eilor	11	true	false
+dwarf_envoy	grudge_anc_rune_rune_of_fury	5	true	false
+dwarf_envoy	grudge_anc_rune_rune_of_might	10	true	false
+dwarf_envoy	grudge_anc_rune_rune_of_parrying	15	true	false
+dwarf_envoy	grudge_anc_rune_rune_of_striking	20	true	false

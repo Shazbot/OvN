@@ -22,3 +22,5 @@ rhox_grudge_stormbringer_ability	scalar_spell_mastery	1.2000	mult
 grudgebringers_wagon	stat_melee_attack	5.0000	add
 grudgebringers_wagon	stat_melee_defence	5.0000	add
 grudgebringers_wagon	stat_morale	10.0000	add
+grudgebringer_sword_of_elior	stat_bonus_vs_infantry	30.0000	add
+rhox_grudge_abilities_mighty_oath_stone	stat_melee_defence	24.0000	add

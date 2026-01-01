@@ -1,0 +1,7 @@
+ability_group	icon_path	special_edition_mask	sort_order	is_naval	button_name	sound_event	is_composite_group	unique_id	sound_switch	show_lore_icon	colour_hex
+#special_ability_groups_tables;11;db/special_ability_groups_tables/ovn_araby_only											
+ovn_lore_golden_magus	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_heavens	Play_WH_UI_Ability_Click_Generic_Heavens	true	10055000	Heavens	true	615B57
+wh_main_lore_jaffar	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_shadow	Play_WH_UI_Ability_Click_Generic_Shadow	true	10055001	Shadow	true	615B57
+ovn_djinn_carriage_shared_group	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true	10055002		false	615B57
+ovn_lore_desert	UI\Battle UI\ability_icons\ovn_lore_passive_blessing_of_the_elements.png	0	66	false	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	false	10055003	Nehekhara	true	FFF020
+ovn_lore_desert_upgraded	UI\Battle UI\ability_icons\ovn_lore_passive_blessing_of_the_elements.png	0	0	false	lore_desert	Play_WH_UI_Ability_Click_Generic_Light	true	10055004	Nehekhara	false	FFF020

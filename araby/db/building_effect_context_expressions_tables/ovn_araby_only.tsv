@@ -1,0 +1,11 @@
+key	expression	display_only_active_effects
+#building_effect_context_expressions_tables;1;db/building_effect_context_expressions_tables/ovn_araby_only		
+IsFatandira	Owner.RecordKeyIsOneOf("ovn_arb_aswad_scythans")	true
+IsMagusOrJaffar	Owner.RecordKeyIsOneOf("ovn_arb_golden_fleet", "ovn_arb_sultanate_of_all_araby")	true
+OvNArabyPublicOrderGreaterThan25	Region.PublicOrder > 25	false
+OvNArabyPublicOrderLessThan-25	Region.PublicOrder < -25	false
+OvNArabyHighUrbanFealty	Owner.ModelPooledResourceContext("ovn_araby_urban_meter").Total >= 25	false
+OvNArabyLowUrbanFealty	Owner.ModelPooledResourceContext("ovn_araby_urban_meter").Total <= -25	false
+OvNArabyHighNomadFealty	Owner.ModelPooledResourceContext("ovn_araby_urban_meter").Total <= -25	false
+OvNArabyLowNomadFealty	Owner.ModelPooledResourceContext("ovn_araby_urban_meter").Total >= 25	false
+IsNOTFatandira	Owner.RecordKeyIsOneOf("ovn_arb_aswad_scythans") == false	true

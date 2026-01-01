@@ -1,3 +1,0 @@
-key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
-#dilemmas_tables;3;db/dilemmas_tables/ovn_fimir										
-fimir_eye_of_the_gods	false	Your actions have drawn the attention of the Chaos Gods. Though they are fickle, you can perhaps direct their attention to a particular area. However, there is always a price to be paid…	The Eye Opens!	soul_gift	false	Event	UI_CAM_EVENT_Dilemma			false

@@ -1,0 +1,10 @@
+key	description_text	faction	header_text	image_path	priority_index
+#campaign_ui_cheatsheet_items_tables;0;db/campaign_ui_cheatsheet_items_tables/ovn_fimir_only					
+ovn_fim_rancor_hold_1	war.camp.hp.fimir_chaos_gifts_text	ovn_fim_rancor_hold	war.camp.hp.fimir_chaos_gifts_header		1
+ovn_fim_rancor_hold_2	war.camp.hp.fimir_slaves_text	ovn_fim_rancor_hold	war.camp.hp.fimir_slaves_header		2
+ovn_fim_rancor_hold_3	war.camp.hp.fimir_mists_text	ovn_fim_rancor_hold	war.camp.hp.fimir_mists_header		3
+ovn_fim_rancor_hold_4	war.camp.hp.fimir_death_quest_text	ovn_fim_rancor_hold	war.camp.hp.fimir_death_quest_header		4
+ovn_fim_tendrils_of_doom_1	war.camp.hp.fimir_temples_kroll_text	ovn_fim_tendrils_of_doom	war.camp.hp.fimir_temples_kroll_header		1
+ovn_fim_tendrils_of_doom_2	war.camp.hp.fimir_slaves_text	ovn_fim_tendrils_of_doom	war.camp.hp.fimir_slaves_header		2
+ovn_fim_tendrils_of_doom_3	war.camp.hp.fimir_mists_text	ovn_fim_tendrils_of_doom	war.camp.hp.fimir_mists_header		3
+ovn_fim_tendrils_of_doom_4	war.camp.hp.fimir_death_quest_text	ovn_fim_tendrils_of_doom	war.camp.hp.fimir_death_quest_header		4

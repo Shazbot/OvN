@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\aarb_archer_base.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="quiver" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb_bm\arb_archer\arb_archer_quiver.wsmodel" />
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes\variantmeshdefinitions\aarb_old_sword_set1.variantmeshdefinition" />
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu1\arb_modular\rigid\arb_shortbow_1.rigid_model_v2"   />
+	</SLOT>
+	<SLOT name="weapon_4" attach_point="be_prop_4" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_props/tmb_skeleton_warriors_arrow_01.wsmodel" />
+	</SLOT>
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

@@ -1,0 +1,635 @@
+{
+  "ProjectSettings": {
+    "Version": 1,
+    "OutputGame": "Warhammer3",
+    "BnkName": "campaign_vo__ovn_vo_actor_Araby_Grand_Vizier_Lord2",
+    "Language": "english(uk)"
+  },
+  "Events": [],
+  "Actions": [],
+  "GameSounds": [
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_attack-01.wav",
+      "DirectParentId": "79161672_random_container_69552330",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_attack",
+      "Name": "70162909_sound_22615264",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_attack-02.wav",
+      "DirectParentId": "79161672_random_container_69552330",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_attack",
+      "Name": "74056038_sound_77694720",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_attack-03.wav",
+      "DirectParentId": "79161672_random_container_69552330",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_attack",
+      "Name": "65144329_sound_22915299",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_attack-04.wav",
+      "DirectParentId": "79161672_random_container_69552330",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_attack",
+      "Name": "39773325_sound_10260272",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_attack-05.wav",
+      "DirectParentId": "79161672_random_container_69552330",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_attack",
+      "Name": "65945758_sound_95808737",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_move-01.wav",
+      "DirectParentId": "55658046_random_container_66211191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_move",
+      "Name": "31325248_sound_97025128",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_move-02.wav",
+      "DirectParentId": "55658046_random_container_66211191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_move",
+      "Name": "49737000_sound_63540531",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_move-03.wav",
+      "DirectParentId": "55658046_random_container_66211191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_move",
+      "Name": "97020806_sound_52215485",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_move-04.wav",
+      "DirectParentId": "55658046_random_container_66211191",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_move",
+      "Name": "46762842_sound_14975571",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_recruit_units-01.wav",
+      "DirectParentId": "45423258_random_container_11348207",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_recruit_units",
+      "Name": "18360588_sound_74395648",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_recruit_units-02.wav",
+      "DirectParentId": "45423258_random_container_11348207",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_recruit_units",
+      "Name": "44069540_sound_70997663",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_recruit_units-03.wav",
+      "DirectParentId": "45423258_random_container_11348207",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_recruit_units",
+      "Name": "63228404_sound_18443370",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-01.wav",
+      "DirectParentId": "41122117_random_container_18102805",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "43606923_sound_35083043",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-02.wav",
+      "DirectParentId": "41122117_random_container_18102805",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "30923511_sound_24185440",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-03.wav",
+      "DirectParentId": "41122117_random_container_18102805",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "66551087_sound_82071494",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-04.wav",
+      "DirectParentId": "41122117_random_container_18102805",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "31244136_sound_94852551",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-05.wav",
+      "DirectParentId": "41122117_random_container_18102805",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "57094640_sound_99406302",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-06.wav",
+      "DirectParentId": "41122117_random_container_18102805",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "42824917_sound_92822326",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-01.wav",
+      "DirectParentId": "98299674_random_container_75813020",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "35482355_sound_42156434",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-02.wav",
+      "DirectParentId": "98299674_random_container_75813020",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "64582498_sound_66689254",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-03.wav",
+      "DirectParentId": "98299674_random_container_75813020",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "27209417_sound_37510176",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-04.wav",
+      "DirectParentId": "98299674_random_container_75813020",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "78714885_sound_23662704",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-05.wav",
+      "DirectParentId": "98299674_random_container_75813020",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "39034407_sound_17372230",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-06.wav",
+      "DirectParentId": "98299674_random_container_75813020",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "31415066_sound_59678328",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-01.wav",
+      "DirectParentId": "74635870_random_container_14773288",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "16520527_sound_65529038",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-02.wav",
+      "DirectParentId": "74635870_random_container_14773288",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "28375618_sound_62775353",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-03.wav",
+      "DirectParentId": "74635870_random_container_14773288",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "52208512_sound_90204140",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-04.wav",
+      "DirectParentId": "74635870_random_container_14773288",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "77828394_sound_94237433",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-05.wav",
+      "DirectParentId": "74635870_random_container_14773288",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "68923264_sound_75318459",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_Battle_vo_order_select-06.wav",
+      "DirectParentId": "74635870_random_container_14773288",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "90642850_sound_77683619",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_selected_fail-01.wav",
+      "DirectParentId": "57527656_random_container_44009230",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_fail",
+      "Name": "75859448_sound_13657240",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_selected_fail-02.wav",
+      "DirectParentId": "57527656_random_container_44009230",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_fail",
+      "Name": "48283896_sound_69580075",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_selected_fail-03.wav",
+      "DirectParentId": "57527656_random_container_44009230",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_fail",
+      "Name": "93395089_sound_50247052",
+      "OverrideId": 0
+    },
+    {
+      "Path": "D:\\Vizier2_campaign_vo_selected_fail-04.wav",
+      "DirectParentId": "57527656_random_container_44009230",
+      "IsDialogueEventSound": true,
+      "DialogueEvent": "campaign_vo_selected_fail",
+      "Name": "37994675_sound_72212786",
+      "OverrideId": 0
+    }
+  ],
+  "ActorMixers": [
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "79161672_random_container_69552330"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_attack",
+      "Name": "37590817_mixer_93206311",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "55658046_random_container_66211191"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_move",
+      "Name": "25249966_mixer_71706304",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "45423258_random_container_11348207"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_recruit_units",
+      "Name": "82361786_mixer_42178826",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "41122117_random_container_18102805"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_selected",
+      "Name": "74643697_mixer_45289634",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "98299674_random_container_75813020"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_selected_short",
+      "Name": "12040801_mixer_52574430",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "74635870_random_container_14773288"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_selected_first_time",
+      "Name": "74519310_mixer_39038731",
+      "OverrideId": 0
+    },
+    {
+      "DirectParentId": 306196174,
+      "Children": [
+        "57527656_random_container_44009230"
+      ],
+      "ActorMixerChildren": [],
+      "DialogueEvent": "campaign_vo_selected_fail",
+      "Name": "36985916_mixer_80170961",
+      "OverrideId": 0
+    }
+  ],
+  "RandomContainers": [
+    {
+      "Children": [
+        "70162909_sound_22615264",
+        "74056038_sound_77694720",
+        "65144329_sound_22915299",
+        "39773325_sound_10260272",
+        "65945758_sound_95808737"
+      ],
+      "DirectParentId": "37590817_mixer_93206311",
+      "Name": "79161672_random_container_69552330",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "31325248_sound_97025128",
+        "49737000_sound_63540531",
+        "97020806_sound_52215485",
+        "46762842_sound_14975571"
+      ],
+      "DirectParentId": "25249966_mixer_71706304",
+      "Name": "55658046_random_container_66211191",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "18360588_sound_74395648",
+        "44069540_sound_70997663",
+        "63228404_sound_18443370"
+      ],
+      "DirectParentId": "82361786_mixer_42178826",
+      "Name": "45423258_random_container_11348207",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "43606923_sound_35083043",
+        "30923511_sound_24185440",
+        "66551087_sound_82071494",
+        "31244136_sound_94852551",
+        "57094640_sound_99406302",
+        "42824917_sound_92822326"
+      ],
+      "DirectParentId": "74643697_mixer_45289634",
+      "Name": "41122117_random_container_18102805",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "35482355_sound_42156434",
+        "64582498_sound_66689254",
+        "27209417_sound_37510176",
+        "78714885_sound_23662704",
+        "39034407_sound_17372230",
+        "31415066_sound_59678328"
+      ],
+      "DirectParentId": "12040801_mixer_52574430",
+      "Name": "98299674_random_container_75813020",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "16520527_sound_65529038",
+        "28375618_sound_62775353",
+        "52208512_sound_90204140",
+        "77828394_sound_94237433",
+        "68923264_sound_75318459",
+        "90642850_sound_77683619"
+      ],
+      "DirectParentId": "74519310_mixer_39038731",
+      "Name": "74635870_random_container_14773288",
+      "OverrideId": 0
+    },
+    {
+      "Children": [
+        "75859448_sound_13657240",
+        "48283896_sound_69580075",
+        "93395089_sound_50247052",
+        "37994675_sound_72212786"
+      ],
+      "DirectParentId": "36985916_mixer_80170961",
+      "Name": "57527656_random_container_44009230",
+      "OverrideId": 0
+    }
+  ],
+  "DialogueEvents": [
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 0,
+                "AudioNodeId": 2488033246,
+                "Children_uIdx": 0,
+                "Children_uCount": 0,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 3,
+      "Name": "campaign_vo_attack",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 0,
+            "Children_uIdx": 1,
+            "Children_uCount": 1,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": [
+              {
+                "Key": 0,
+                "AudioNodeId": 997965780,
+                "Children_uIdx": 0,
+                "Children_uCount": 0,
+                "uWeight": 50,
+                "uProbability": 100,
+                "Children": []
+              }
+            ]
+          }
+        ]
+      },
+      "NodesCount": 3,
+      "Name": "campaign_vo_move",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 3135156485,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "campaign_vo_recruit_units",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 2926877076,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "campaign_vo_selected",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 407840022,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "campaign_vo_selected_short",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 1645142336,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "campaign_vo_selected_first_time",
+      "OverrideId": 0
+    },
+    {
+      "RootNode": {
+        "Key": 0,
+        "AudioNodeId": 0,
+        "Children_uIdx": 1,
+        "Children_uCount": 1,
+        "uWeight": 50,
+        "uProbability": 100,
+        "Children": [
+          {
+            "Key": 4131918387,
+            "AudioNodeId": 4268787263,
+            "Children_uIdx": 0,
+            "Children_uCount": 0,
+            "uWeight": 50,
+            "uProbability": 100,
+            "Children": []
+          }
+        ]
+      },
+      "NodesCount": 2,
+      "Name": "campaign_vo_selected_fail",
+      "OverrideId": 0
+    }
+  ],
+  "DatStates": [
+    "ovn_vo_actor_Araby_Grand_Vizier_Lord2",
+    "Any"
+  ]
+}

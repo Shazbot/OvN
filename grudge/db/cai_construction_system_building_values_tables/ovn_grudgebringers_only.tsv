@@ -6,7 +6,8 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		wh_main_emp_cha_grudge_wizard_1	wh_main_emp_cha_grudge_wizard_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
 		wh_main_emp_cha_grudge_worship	wh_main_emp_cha_grudge_worship			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
 		wh_main_emp_cha_grudge_growth_1	wh_main_emp_cha_grudge_growth_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
-		wh_main_emp_cha_grudge_paymaster	wh_main_emp_cha_grudge_paymaster_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_paymaster	wh_main_emp_cha_grudge_paymaster_3			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
 		wh_main_emp_cha_grudge_blacksmith	wh_main_emp_cha_grudge_blacksmith_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
+		wh_main_emp_cha_grudge_income_camp_1	wh_main_emp_cha_grudge_income_camp_5			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
 		wh_main_emp_cha_grudge_income	wh_main_emp_cha_grudge_income_2			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50
 		wh_main_emp_cha_grudge_main_1	wh_main_emp_cha_grudge_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	0	0	60	60	60	60	0	0	50	50

@@ -1,0 +1,16 @@
+<VARIANT_MESH>
+	<SLOT name="carpet" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\fc2\arb\arb_flying_carpet\arb_flying_carpet_ror_01.wsmodel" >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:none</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\fc2\arb\arb_flying_carpet\arb_flying_carpet_ror_02.wsmodel" >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:none</META_DATA>
+		</VARIANT_MESH>
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\fc2\arb\arb_flying_carpet\arb_flying_carpet_ror_03.wsmodel" >
+			<META_DATA>audio_armour_type:leather</META_DATA>
+			<META_DATA>audio_entity_type:none</META_DATA>
+		</VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

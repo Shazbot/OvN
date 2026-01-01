@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/ovn_fimir_only_custom_battle_mounts.loc		
+units_custom_battle_mounts_mount_name_fim_cha_boglar_shamanfim_cha_boglar_shaman_hound	Moor Hound	true
+units_custom_battle_mounts_localised_description_fim_cha_boglar_shamanfim_cha_boglar_shaman_hound	Boglar Shamans are often gifted Moor Hounds by the Fimir. Such gifts can serve as either reward or punishment - if the Hound devours the Shaman, it was a punishment; if the Shaman tames it, a reward.	true
+units_custom_battle_mounts_mount_name_fim_cha_fimirach_noblefim_cha_fimirach_noble_bog_beast	Bog Beast	true
+units_custom_battle_mounts_localised_description_fim_cha_fimirach_noblefim_cha_fimirach_noble_bog_beast	The highest-ranking nobles often ride into battle atop mighty Bog Beasts.	true
+units_custom_battle_mounts_mount_name_fim_cha_meargh_skattachfim_cha_meargh_skattach_palanquin	Throne of the Hell-Mother	true
+units_custom_battle_mounts_localised_description_fim_cha_meargh_skattachfim_cha_meargh_skattach_palanquin	Whether it is the genuine article or a replica made for her is unknown, but Skattach claims it to be the original throne of the mythical Hell-Mother, ruler of all Fimir. It is borne aloft by four of Skattach’s most trusted Fianna Guardians.	true

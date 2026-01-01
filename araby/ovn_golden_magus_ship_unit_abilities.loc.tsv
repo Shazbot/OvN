@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_golden_magus_ship_unit_abilities.loc		
-unit_abilities_onscreen_name_ovn_unit_abilities_air_skiff_broadside_right	Broadside (Right)	true
-unit_abilities_tooltip_text_ovn_unit_abilities_air_skiff_broadside_right		true
-unit_abilities_onscreen_name_ovn_unit_abilities_air_skiff_broadside_left	Broadside (Left)	true
-unit_abilities_tooltip_text_ovn_unit_abilities_air_skiff_broadside_left		true

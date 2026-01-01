@@ -159,6 +159,7 @@ omen_upkeep_flagellants	military_spending.png	11	military_spending.png	campaign	
 omen_unbreakable_witch_hunter_warrior_priest	attribute_unbreakable.png	11	attribute_unbreakable.png	campaign	true
 omen_recruit_rank_warrior_priest_witch_hunter	experience.png	11	experience.png	campaign	true
 luther_flamenstrike_mount	mount.png	50	mount.png	both	true
+ludwig_uberdorf_mount	mount.png	50	mount.png	both	true
 do_main_effect_agent_action_enable_wizard_assist_army_scouting		0		campaign	true
 do_main_effect_agent_action_enable_wizard_hinder_agent_wound		0		campaign	true
 do_main_effect_agent_action_enable_wizard_hinder_army_assault_unit		0		campaign	true
@@ -168,3 +169,13 @@ do_main_effect_agent_action_enable_wizard_passive_boost_income		0		campaign	true
 do_main_effect_agent_action_passive_boost_income_effect_negative		0		campaign	true
 do_main_effect_agent_action_passive_boost_income_effect_positive		0		campaign	true
 do_main_effect_agent_action_wizard_hinder_settlement_steal_technology		0		campaign	true
+ovn_gru_stat_melee_attack_units_recruited_building	melee.png	430	melee.png	battle	true
+ovn_gru_stat_melee_defense_units_recruited_building	defence.png	430	melee.png	battle	true
+ovn_gru_stat_leadership_units_recruited_building	morale.png	430	melee.png	battle	true
+grudge_sack_attrition	attrition.png	1	attrition.png	campaign	false
+vladimir_stormbringer_mount	mount.png	50	mount.png	both	true
+matthias_war_wagon	mount.png	50	mount.png	both	true
+dwarf_envoy_oath_stone	mount.png	50	mount.png	both	true
+enable_ovn_allor_spell_bound_earth_blood	item_ability.png	291	item_ability.png	battle	true
+enable_ovn_bound_wall_of_wind_and_fire	item_ability.png	300	item_ability.png	both	true
+enable_ovn_luthor_raging_flames	general_ability.png	310	general_ability.png	battle	true

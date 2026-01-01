@@ -50,13 +50,20 @@ mod.mission_key_to_unit_key = {
 	rhox_grudgebringer_piece_of_eight_22 = "imperial_cannon_darius_flugenheim",
 	rhox_grudgebringer_piece_of_eight_23 = "grail_knights_tristan_de_la_tourtristan_de_la_tour",
 	rhox_grudgebringer_piece_of_eight_24 = "knights_of_the_realm_bertrand_le_grande",
+	rhox_grudgebringer_piece_of_eight_25 = "leitdorf_9th_crossbows",
+	rhox_grudgebringer_piece_of_eight_26 = "emperors_hellblaster_volley_gun",
+	rhox_grudgebringer_piece_of_eight_27 = "reiksguard_knights_todbringer",
 	rhox_grudgebringer_lh_1 = "ludwig_uberdorf",
-	rhox_grudgebringer_lh_2 = "ceridan",
+	--rhox_grudgebringer_lh_2 = "ceridan",
+	rhox_grudgebringer_lh_2 = "ilmarin",
 	rhox_grudgebringer_lh_3 = "ice_mage_vladimir_stormbringer",
 	rhox_grudgebringer_lh_4 = "dwarf_envoy",
 	rhox_grudgebringer_lh_5 = "matthias",
 	rhox_grudgebringer_lh_6 = "luther_flamenstrike",
+	rhox_grudgebringer_lh_7 = "allor"
 }
+
+
 
 mod.unit_key_to_unit_card = {
 	azguz_bloodfist_dwarf_warriors = "azguz_bloodfist_dwarf_warriors",
@@ -65,6 +72,7 @@ mod.unit_key_to_unit_card = {
 	grudgebringer_cavalry	= "grudgebringer_cavalry",
 	grudgebringer_infantry	= "grudgebringer_infantry",
 	ceridan	= "ceridan",
+	ilmarin = "ilmarin",
 	ice_mage_vladimir_stormbringer	= "ice_mage_vladimir_stormbringer",
 	morgan_bernhardt	= "morgan_bernhardt",
 	dwarf_envoy	= "dwarf_envoy",
@@ -94,6 +102,10 @@ mod.unit_key_to_unit_card = {
 	grail_knights_tristan_de_la_tourtristan_de_la_tour = "grail_knights_tristan_de_la_tourtristan_de_la_tour",
 	knights_of_the_realm_bertrand_le_grande = "knights_of_the_realm_bertrand_le_grande",
 	imperial_cannon_darius_flugenheim = "imperial_cannon_darius_flugenheim",
+    leitdorf_9th_crossbows = "leitdorf_9th_crossbows",
+    emperors_hellblaster_volley_gun = "emperors_hellblaster_volley_gun",
+    reiksguard_knights_todbringer = "reiksguard_knights_todbringer",
+    allor="allor"
 }
 
 mod.unit_key_to_mission_key = {}
@@ -142,12 +154,17 @@ mod.bog_pages_list = {
 	"imperial_cannon_darius_flugenheim",
 	"grail_knights_tristan_de_la_tourtristan_de_la_tour",
 	"knights_of_the_realm_bertrand_le_grande",
+	"leitdorf_9th_crossbows",
+    "emperors_hellblaster_volley_gun",
+    "reiksguard_knights_todbringer",
 	"ludwig_uberdorf",
-	"ceridan",
+	--"ceridan",
+	"ilmarin",
 	"ice_mage_vladimir_stormbringer",
 	"dwarf_envoy",
 	"matthias",
 	"luther_flamenstrike",
+	"allor"
 }
 
 mod.bog_pages = {
@@ -252,7 +269,7 @@ mod.bog_pages = {
 		unit_description = "",
 	},
 	boris_von_raukov_4th_nuln_halberdiers = {
-		unit_commander_name = "", 
+		unit_commander_name = "",
 		unit_description = "",
 	},
 	stephan_weiss_outlaw_pistoliers = {
@@ -271,6 +288,18 @@ mod.bog_pages = {
 		unit_commander_name = "",
 		unit_description = "",
 	},
+	leitdorf_9th_crossbows = {
+		unit_commander_name = "",
+		unit_description = "",
+	},
+    emperors_hellblaster_volley_gun = {
+		unit_commander_name = "",
+		unit_description = "",
+	},
+    reiksguard_knights_todbringer = {
+		unit_commander_name = "",
+		unit_description = "",
+	},
 	ludwig_uberdorf = {
 		unit_commander_name = "",
 		unit_description = "",
@@ -278,11 +307,20 @@ mod.bog_pages = {
 			return common.get_localised_string("ludwig_uberdorf_unlock_condition")
 		end
 	},
+	--[[
 	ceridan = {
 		unit_commander_name = "",
 		unit_description = "",
 		unlock = function()
 			return common.get_localised_string("ceridan_unlock_condition")
+		end
+	},
+	--]]
+	ilmarin = {
+		unit_commander_name = "",
+		unit_description = "",
+		unlock = function()
+			return common.get_localised_string("ilmarin_unlock_condition")
 		end
 	},
 	ice_mage_vladimir_stormbringer = {
@@ -315,7 +353,17 @@ mod.bog_pages = {
 			return common.get_localised_string("luther_flamenstrike_unlock_condition")
 		end
 	},
+	allor = {
+		unit_commander_name = "",
+		unit_description = "",
+		unlock = function()
+			return common.get_localised_string("allor_unlock_condition")
+		end
+	},
 }
+
+
+
 
 mod.grudge_map_component_ids = {}
 for mission_key in pairs(mod.mission_key_to_unit_key) do
@@ -359,6 +407,12 @@ mod.create_map = function()
 
 	local map = core:get_or_create_component("pj_grudge_book_map", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
 	map:SetImagePath("ui/ovn_grudge_book/wh3_map.png", 0)
+	if cm:get_campaign_name() == "cr_oldworld" then
+        map:SetImagePath("ui/ovn_grudge_book/cr_oldworld_map.png", 0)
+	end
+	if cm:get_campaign_name() == "cr_oldworldclassic" then
+        map:SetImagePath("ui/ovn_grudge_book/cr_oldworld_map.png", 0)
+	end
 	map:SetCanResizeWidth(true)
 	map:SetCanResizeHeight(true)
 	map:Resize(1093,725)
@@ -380,7 +434,7 @@ mod.create_toc = function()
 	local current_x = 140
 	local current_y = 30
 	for i=0, #mod.bog_pages_list-1 do
-		if i == 18 then
+		if i == 20 then--Rhox: Was 18 before
 			current_y = 30
 			current_x = 720
 		end
@@ -468,10 +522,15 @@ mod.create_toc = function()
 		local without_dots_w = 450 - loc_w - page_num_w
 		local num_dots = math.floor(without_dots_w/dot_w)
 		local line = "[[col:black]]"..localized_unit_key
-		for i=1, num_dots do
-			line = line.."."
+
+		-- if UI is scaled the ones place in width won't be 0
+		if core:get_ui_root():Width()%10 == 0 then
+			for i=1, num_dots do
+				line = line.."."
+			end
+			line = line..(i+3)
 		end
-		line = line..(i+3).."[[/col]]"
+		line = line.."[[/col]]"
 		obj:SetStateText(line)
 	end
 end
@@ -533,9 +592,9 @@ mod.draw_bog_page = function(page_num)
 
 	local page_data = mod.get_bog_page(page_num)
 	if not page_data then return end
-	
+
 	local unit_key = mod.bog_pages_list[page_num-2]
-	
+
 	local desc = common.get_localised_string(unit_key.. "_unit_description") or mod.page_defaults.unit_description
 
 	local is_left_page = true
@@ -558,7 +617,7 @@ mod.draw_bog_page = function(page_num)
 		unit_desc:MoveTo(x+580, y+555)
 	end
 
-	
+
 
 	local banner = core:get_or_create_component("pj_grudge_book_banner", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
 	banner:SetImagePath(page_data.unit_banner or ('ui/ovn_grudge_book/banners/'..unit_key..'.png'), 0)
@@ -695,7 +754,7 @@ mod.draw_bog_page = function(page_num)
 	if unit_key then
 		unit_info:SetContextObject(cco("CcoMainUnitRecord",unit_key))
 		unit_info:SetContextObject(cco("CcoUnitDetails","UnitRecord_"..unit_key.."_ovn_emp_grudgebringers_0_0.8"))
-		
+
 		---@type CA_CHAR
 		for _,char in model_pairs(cm:get_faction(cm:get_local_faction_name(true)):character_list()) do
 			if char:character_subtype_key() == unit_key then
@@ -950,7 +1009,7 @@ mod.remove_reqs = function()
 	end
 end
 
-mod.add_subculture_reqs = function(mission)
+mod.add_subculture_reqs = function(mission, mission_key)
 	local root = core:get_ui_root()
 	local pages = find_uicomponent(root, "pj_grudge_book", "book_frame", "pages")
 
@@ -969,6 +1028,35 @@ mod.add_subculture_reqs = function(mission)
 			req_text_text:SetStateText(string.format("[[col:black]]%s %d %s %s.[[/col]]", common.get_localised_string("ovn_book_win_word_text"), count, common.get_localised_string("ovn_book_battles_against_text"), common.get_localised_string("cultures_subcultures_name_"..mission.subculture_key)))
 		end
 	end
+
+	local rq_x, rq_y = req_text_text:Position()
+
+	local is_completed = false
+    local is_failed = false
+    local mission_statuses = cm:get_saved_value("ovn_grudge_missions_statuses")
+    if mission_statuses then
+        is_completed = mission_statuses.success and mission_statuses.success[mission_key]
+        is_failed = mission_statuses.failed and mission_statuses.failed[mission_key]
+    end
+    if is_completed or is_failed then
+        local old_seal = find_uicomponent(pages, "pj_grudge_book_seal")
+        if old_seal then old_seal:Destroy() end
+
+        local seal = core:get_or_create_component("pj_grudge_book_seal", "ui/ovn_grudge_book/pj_custom_image.twui.xml", pages)
+        seal:SetImagePath(is_completed and "ui/ovn_grudge_book/grudge_seal.png" or "ui/ovn_grudge_book/stamp_mission_failed.png", 0)
+        seal:SetCanResizeWidth(true)
+        seal:SetCanResizeHeight(true)
+        if is_completed then
+            seal:Resize(127*1.3,194*1.3)
+        else
+            seal:Resize(170,159)
+        end
+
+        seal:SetVisible(true)
+        -- seal:SetDockingPoint(8)
+        -- seal:SetDockOffset(260,-10)
+        seal:MoveTo(rq_x+40+cm:random_number(90,0), rq_y+10+cm:random_number(50,0))
+    end
 end
 
 mod.get_mission_by_key = function(mission_key)
@@ -979,6 +1067,13 @@ mod.get_mission_by_key = function(mission_key)
 		end
 	end
 end
+
+mod.unit_key_to_additional_y={
+    keelers_longbows = 30,
+    emperors_hellblaster_volley_gun = 50,
+    ludwig_uberdorf=50,
+    ice_mage_vladimir_stormbringer=50
+}
 
 mod.clone_reqs = function(mission_key)
 	local root = core:get_ui_root()
@@ -1010,9 +1105,14 @@ mod.clone_reqs = function(mission_key)
 		if unit_data and unit_data.unlock_delta then
 			offset_x, offset_y = unit_data.unlock_delta[1], unit_data.unlock_delta[2]
 		end
+		
+		local additional_y=0
+		if mod.unit_key_to_additional_y[unit_key] then
+            additional_y=mod.unit_key_to_additional_y[unit_key]
+		end
 
 		rq:SetDockingPoint(5)
-		rq:SetDockOffset(290+offset_x,210+offset_y)
+		rq:SetDockOffset(290+offset_x,210+offset_y+additional_y)
 		local rq_buttons = find_uicomponent(rq, "dy_requirement_text", "button_holder")
 		if rq_buttons then
 			rq_buttons:SetVisible(false)
@@ -1069,7 +1169,7 @@ mod.add_missions_to_map = function()
 	local treasure_hunts = find_uicomponent(root, "treasure_hunts")
 	if not treasure_hunts then
 		local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-		if treasure_hunts_button then		
+		if treasure_hunts_button then
 			root:Adopt(treasure_hunts_button:Address())
 			treasure_hunts_button:MoveTo(-100,-100)
 		end
@@ -1077,11 +1177,12 @@ mod.add_missions_to_map = function()
 			treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
 		end
 		if not treasure_hunts_button then return end
+		treasure_hunts_button:SetState("active")
 		treasure_hunts_button:SetVisible(true)
 		treasure_hunts_button:SimulateLClick()
 		-- treasure_hunts_button:Resize(1,1)
 	end
-	
+
 	local map_w, map_h = 1090,700
 
 	cm:callback(function()
@@ -1132,7 +1233,7 @@ mod.add_reqs = function(page_num)
 	if not mission_key then return end
 	local mission = mod.get_mission_by_key(mission_key)
 	if mission and mission.subculture_key then
-		return mod.add_subculture_reqs(mission)
+		return mod.add_subculture_reqs(mission, mission_key)
 	end
 
 	local root = core:get_ui_root()
@@ -1142,7 +1243,7 @@ mod.add_reqs = function(page_num)
 	local treasure_hunts = find_uicomponent(root, "treasure_hunts")
 	if not treasure_hunts then
 		local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-		if treasure_hunts_button then		
+		if treasure_hunts_button then
 			root:Adopt(treasure_hunts_button:Address())
 			treasure_hunts_button:MoveTo(-100,-100)
 		end
@@ -1150,10 +1251,11 @@ mod.add_reqs = function(page_num)
 			treasure_hunts_button = find_uicomponent(root, "button_treasure_hunts")
 		end
 		if not treasure_hunts_button then return end
+		treasure_hunts_button:SetState("active")
 		treasure_hunts_button:SetVisible(true)
 		treasure_hunts_button:SimulateLClick()
 	end
-	
+
 	cm:callback(function()
 		local pieces_tab = find_uicomponent(root, "treasure_hunts", "TabGroup", "pieces")
 		pieces_tab:SimulateLClick()
@@ -1223,34 +1325,16 @@ mod.create_main_button = function()
 	main_hlf_cooking_button:SetImagePath("ui/skins/default/icon_book_grudges.png", 0)
 end
 
--- mod.get_mission_unlock_text = function(mission_key)
--- 	if not mod.grudge_missions then return end
-
--- 	local mission
--- 	for _, current_mission in ipairs(mod.grudge_missions) do
--- 		if current_mission.mission_key == mission_key then
--- 			mission = current_mission
--- 			break
--- 		end
--- 	end
-
--- 	if not mission then return end
-
--- 	if mission.subculture_key then
-
--- 	end
--- end
-
 mod.create_unlock_string = function(unit_key)
 	local mission_key = mod.unit_key_to_mission_key[unit_key]
 	local mission = mission_key and mod.get_mission_by_key(mission_key)
-	if not mission then 
+	if not mission then
         if mission_key then --it means there is a mission key but it's not fired, so let's put it in the not fired section
             return common.get_localised_string("ovn_book_not_available_text")
         end
         return
     end
-    
+
 
 	if mission.type ~= "DEFEAT_N_ARMIES_OF_FACTION" then return end
 
@@ -1315,7 +1399,7 @@ local function init()
 	local root = core:get_ui_root()
 
 	local treasure_hunts_button = find_uicomponent(root, "hud_campaign", "faction_buttons_docker", "button_group_management", "button_treasure_hunts")
-	if treasure_hunts_button then		
+	if treasure_hunts_button then
 		root:Adopt(treasure_hunts_button:Address())
 		treasure_hunts_button:MoveTo(-100,-100)
 	end
@@ -1396,10 +1480,7 @@ core:add_listener(
 	"pj_grudge_book_destroy",
 	"ComponentLClickUp",
 	function(context)
-		if context.string ~= "button_ok" then return false end
-		local parent_address = UIComponent(context.component):Parent()
-		local parent =  parent_address and UIComponent(parent_address)
-		return parent and parent:Id() == "pj_grudge_book"
+		return context.string == "pj_close_grudgebringer_book_button"
 	end,
 	function()
 		mod.destroy_book()
@@ -1408,6 +1489,28 @@ core:add_listener(
 )
 
 cm:add_first_tick_callback(function()
+    if RHOX_GRUDGEBRINGER_MCT.all_hero == false then --rhox setting the text different for the dilemma ones
+        mod.bog_pages["luther_flamenstrike"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+        mod.bog_pages["matthias"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+        mod.bog_pages["dwarf_envoy"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+        mod.bog_pages["ludwig_uberdorf"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+        mod.bog_pages["ice_mage_vladimir_stormbringer"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+        mod.bog_pages["ilmarin"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+        mod.bog_pages["allor"].unlock=function() return common.get_localised_string("rhox_grudge_dilemma_unlock_condition")  end
+    end
+    if cm:get_saved_value("rhox_ceridan_saw_incident") ==true then --rhox doing ceridan change thing
+        mod.mission_key_to_unit_key["rhox_grudgebringer_lh_2"]="ceridan"
+        mod.unit_key_to_mission_key["ceridan"]="rhox_grudgebringer_lh_2"
+        mod.bog_pages_list[34]="ceridan"
+        mod.bog_pages["ilmarin"]=nil
+        mod.bog_pages["ceridan"]={
+            unit_commander_name = "",
+            unit_description = "",
+            unlock = function()
+                return common.get_localised_string("ceridan_unlock_condition")
+            end
+        }
+    end
 	cm:callback(function()
 		init()
 	end, 1)

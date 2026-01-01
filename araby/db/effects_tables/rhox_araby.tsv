@@ -1,0 +1,20 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_araby					
+rhox_araby_golden_magus_ror_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_araby_fatandira_ror_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_araby_fatandira_constructs_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_araby_jaffar_ror_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_araby_jaffar_mehmed_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_araby_urban_meter_effect	urban_influence.png	1	urban_influence.png	campaign	true
+rhox_araby_nomad_meter_effect		0		campaign	false
+rhox_araby_nomad_meter_effect_dummy	nomad_influence.png	1	nomad_influence.png	campaign	true
+rhox_araby_urban_in_power	urban_influence.png	1	urban_influence.png	campaign	true
+rhox_araby_nomad_in_power	nomad_influence.png	1	nomad_influence.png	campaign	true
+rhox_araby_status_quo	wh2_dlc09_tmb_hierotitan_magic_scales.png	1	wh2_dlc09_tmb_hierotitan_magic_scales.png	campaign	true
+rhox_araby_fatandira_feature_dummy	wh2_dlc09_tmb_hierotitan_magic_scales.png	1	wh2_dlc09_tmb_hierotitan_magic_scales.png	campaign	true
+rhox_araby_jaffar_feature_dummy	cotw_give_war_coordination_target.png	1	cotw_give_war_coordination_target.png	campaign	true
+rhox_araby_gm_feature_dummy	cst_piece_of_eight.png	1	cst_piece_of_eight.png	campaign	true
+rhox_araby_slave_feature_dummy	slaves.png	5	slaves.png	campaign	true
+rhox_araby_faction_political_diplomacy_mod_crusaders	diplomacy.png	6	diplomacy.png	campaign	true
+rhox_araby_effect_force_army_campaign_experience_base_war_beast	experience.png	120	experience.png	campaign	true
+rhox_araby_effect_force_replenishment_rate_war_beast	replenishment.png	101	replenishment.png	campaign	true

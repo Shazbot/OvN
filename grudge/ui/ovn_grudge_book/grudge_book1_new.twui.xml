@@ -73,13 +73,13 @@
 						</list_left>
 						<list_right this="191470d8-9c46-145e-00155d2c9b35bb372CBA"/>
 					</pages>
-					<button_info_holder this="eb0c0ae1-2d09-602e-00155d2c9b35e95cA40B">
-						<button_info this="e5cd3fe2-2f2b-3920-00155d2c9b35a8a83170"/>
-					</button_info_holder>
+					<pj_close_grudgebringer_book_button_holder this="eb0c0ae1-2d09-602e-00155d2c9b35e95cA40B">
+						<pj_close_grudgebringer_book_button this="e5cd3fe2-2f2b-3920-00155d2c9b35a8a83170"/>
+					</pj_close_grudgebringer_book_button_holder>
 				</book_frame>
 				<page_left this="b2498d5a-dfb3-45aa-00155d2c9b3560d409BC"/>
 				<page_right this="06086bca-06c6-1701-00155d2c9b35aa97BDA7"/>
-				<button_ok this="06964708-26d8-f078-00155d2c9b358bc0DB9A"/>
+				<pj_close_grudgebringer_book_button this="06964708-26d8-f078-00155d2c9b358bc0DB9A"/>
 				<page_cycle this="8d41981a-3e72-a934-00155d2c9b35a0d50D61">
 					<dy_page this="ce8fc27a-4d98-2dc2-00155d2c9b35c31104EE"/>
 					<button_l this="d408bd97-511e-0545-00155d2c9b35ac68A4C3">
@@ -163,9 +163,9 @@
 					uniqueguid="df981a34-a62f-bfc6-00155d2c9b350ca62EAB"/>
 			</states>
 		</book_of_grudges>
-		<button_info
+		<pj_close_grudgebringer_book_button
 			this="e5cd3fe2-2f2b-3920-00155d2c9b35a8a83170"
-			id="button_info"
+			id="pj_close_grudgebringer_book_button"
 			template_id="round_small_button"
 			part_of_template="true"
 			uniqueguid_in_template="82F58892-7F49-4844-B36443AED497BEEF"
@@ -173,6 +173,7 @@
 			dimensions="38.00,38.00"
 			dock_point="Top Right"
 			priority="50"
+            dock_offset="-38.00,0.00"
 			sound_category="UI_GBL_TMP_Round_Small_Button">
 			<state_uniqueguids>
 				<state_uniqueguid
@@ -193,7 +194,7 @@
 			</state_uniqueguids>
 			<component_image_uniqueguids>
 				<component_image_uniqueguid
-					name="ui/skins/default/icon_question_mark.png"
+					name="ui/skins/default/dev/icon_close.png"
 					uniqueguid="51d37081-8bdd-255f-00155d2c9b352e7c0706"/>
 				<component_image_uniqueguid
 					name="ui/skins/default/button_round_small_pressed.png"
@@ -234,8 +235,8 @@
 			</user_properties>
 			<localised_texts>
 				<localised_text
-					tooltip_label="ComponentTooltip_3e685d0c"
-					tooltip_text="{{tr:help_pages}}"/>
+					tooltip_label="ComponentTooltip_561933e8"
+					tooltip_text="Close this panel"/>
 				<localised_text state="active"/>
 				<localised_text state="down"/>
 				<localised_text state="down_off"/>
@@ -243,7 +244,7 @@
 				<localised_text state="inactive"/>
 			</localised_texts>
 			<override_images>
-				<element value="ui/skins/default/icon_question_mark.png"/>
+				<element value="ui/skins/default/dev/icon_close.png"/>
 				<element value="ui/skins/default/button_round_small_pressed.png"/>
 				<element value="ui/skins/default/button_round_small_hover.png"/>
 				<element value="ui/skins/default/button_round_small_active.png"/>
@@ -251,7 +252,7 @@
 				<element value="ui/skins/default/button_round_small_underlay.png"/>
 				<element value=""/>
 			</override_images>
-		</button_info>
+		</pj_close_grudgebringer_book_button>
 		<button_l
 			this="d408bd97-511e-0545-00155d2c9b35ac68A4C3"
 			id="button_L"
@@ -329,9 +330,9 @@
 				<element value="ui/skins/default/button_cycle_arrow_underlay.png"/>
 			</override_images>
 		</button_l>
-		<button_ok
+		<pj_close_grudgebringer_book_button
 			this="06964708-26d8-f078-00155d2c9b358bc0DB9A"
-			id="button_ok"
+			id="pj_close_grudgebringer_book_button"
 			template_id="round_medium_button"
 			part_of_template="true"
 			uniqueguid_in_template="4E08AA99-2BAB-4DB6-AC47ACC0CEBD26BE"
@@ -430,7 +431,7 @@
 				<element value="ui/skins/default/button_round_medium_underlay.png"/>
 				<element value=""/>
 			</override_images>
-		</button_ok>
+		</pj_close_grudgebringer_book_button>
 		<button_pin
 			this="c28f756f-0557-974d-00155d2c9b35981c86D6"
 			id="button_pin"
@@ -789,8 +790,8 @@
 				<newstate
 					this="55db4e36-1918-447e-00155d2c9b3533a9D24B"
 					name="NewState"
-					width="1336"
-					height="821"
+					width="1350"
+					height="850"
 					interactive="true"
 					uniqueguid="55db4e36-1918-447e-00155d2c9b3533a9D24B">
 					<imagemetrics>
@@ -799,8 +800,8 @@
 							uniqueguid="6ec76bb6-3518-6da2-00155d2c9b35c17c9EC9"
 							componentimage="fc43e0be-3d86-cf48-00155d2c9b351bca2A16"
 							offset="9.00,5.00"
-							width="1317"
-							height="910"
+							width="1331"
+							height="940"
 							tile="true"
 							dockpoint="Center"
 							margin="5.00,5.00,5.00,5.00"/>
@@ -809,7 +810,7 @@
 							uniqueguid="c66ef8e7-5952-e12a-00155d2c9b35b99fE48C"
 							componentimage="f25bc917-ff42-53ce-00155d2c9b35b544035B"
 							offset="-28.00,-21.00"
-							width="1447"
+							width="1460"
 							height="963"
 							dockpoint="Center"
 							dock_offset="27.00,0.00"
@@ -3924,9 +3925,9 @@
 				</inactive>
 			</states>
 		</vslider>
-		<button_info_holder
+		<pj_close_grudgebringer_book_button_holder
 			this="eb0c0ae1-2d09-602e-00155d2c9b35e95cA40B"
-			id="button_info_holder"
+			id="pj_close_grudgebringer_book_button_holder"
 			offset="1310.00,-4.00"
 			allowhorizontalresize="false"
 			allowverticalresize="false"
@@ -3990,6 +3991,6 @@
 					</frames>
 				</close>
 			</animations>
-		</button_info_holder>
+		</pj_close_grudgebringer_book_button_holder>
 	</components>
 </layout>

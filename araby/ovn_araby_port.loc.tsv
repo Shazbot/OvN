@@ -1,7 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_araby_port.loc		
-building_chains_chain_tooltip_ovn_araby_port	Port	false
-building_culture_variants_name_ovn_araby_port_1ovn_sc_arb_araby	Arabyan Docks	false
-building_culture_variants_name_ovn_araby_port_2ovn_sc_arb_araby	Arabyan Merchants Wharf	false
-building_culture_variants_name_ovn_araby_port_3ovn_sc_arb_araby	Slavers Bay	false
-building_culture_variants_name_ovn_araby_port_ruin	Ruined Docks	false

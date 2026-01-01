@@ -1,47 +1,47 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/ovn_balefiend_beast										
-bale_beasts_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	0.0000		0	0	true
-bale_beasts_campaign_02		wh2_main_skill_all_hero_passive_stimulate_growth	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	1.0000		0	0	true
-bale_beasts_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	2.0000		0	0	true
-bale_beasts_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	3.0000		0	0	true
-bale_beasts_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	4.0000		0	0	true
-bale_beasts_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	wh_dlc08_nor_cha_fimir_balefiend_beast		5.0000	5.0000		0	0	true
-bale_beasts_campaign_actions_dummy		wh_dlc08_skill_all_dummy_agent_actions_nor_fimir_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		8.0000	0.0000		1	0	false
-bale_beasts_magic_00_dummy		wh_dlc03_skill_magic_beasts_dummy_wyssans_wildform	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	11.0000		1	0	false
-bale_beasts_magic_01		wh_dlc03_skill_magic_beasts_wyssans_wildform	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	0.0000		0	0	true
-bale_beasts_magic_02		wh_dlc03_skill_magic_beasts_wild_heart	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	1.0000		0	0	true
-bale_beasts_magic_03		wh_dlc03_skill_magic_beasts_flock_of_doom	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	2.0000		0	0	true
-bale_beasts_magic_04		wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	3.0000		0	0	true
-bale_beasts_magic_05		wh_dlc03_skill_magic_beasts_the_amber_spear	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	4.0000		0	0	true
-bale_beasts_magic_06		wh_main_skill_all_magic_all_06_evasion	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	5.0000		0	4	true
-bale_beasts_magic_07		wh_main_skill_all_magic_all_07_earthing	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	6.0000		0	0	true
-bale_beasts_magic_08		wh_main_skill_all_magic_all_08_power_drain	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	7.0000		0	0	true
-bale_beasts_magic_09		wh_dlc03_skill_magic_beasts_the_curse_of_anraheir	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	8.0000		0	0	true
-bale_beasts_magic_10		wh_dlc03_skill_magic_beasts_transformation_of_kadon	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	9.0000		0	0	true
-bale_beasts_magic_11		wh_main_skill_all_magic_all_11_arcane_conduit	wh_dlc08_nor_cha_fimir_balefiend_beast		2.0000	10.0000		0	4	true
-bale_beasts_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	0.0000		0	0	true
-bale_beasts_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	1.0000		0	0	true
-bale_beasts_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	2.0000		0	0	true
-bale_beasts_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	3.0000		0	0	true
-bale_beasts_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	4.0000		0	0	true
-bale_beasts_unique_06		wh2_main_skill_all_immortality_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	5.0000		0	0	true
-bale_beasts_innate_01		fim_lord_innate_9	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	0.0000		0	0	false
-bale_beasts_innate_03		wh2_main_skill_innate_all_fleet_footed	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	2.0000		0	0	false
-bale_beasts_innate_04		wh2_main_skill_innate_all_cunning	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	3.0000		0	0	false
-bale_beasts_innate_05		wh2_main_skill_innate_all_determined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	4.0000		0	0	false
-bale_beasts_innate_06		wh2_main_skill_innate_all_confident	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	5.0000		0	0	false
-bale_beasts_innate_07		wh2_main_skill_innate_all_disciplined	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	6.0000		0	0	false
-bale_beasts_innate_08		wh2_main_skill_innate_all_perceptive	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	7.0000		0	0	false
-bale_beasts_innate_09		wh2_main_skill_innate_all_aggressive	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	8.0000		0	0	false
-bale_beasts_innate_10		wh2_main_skill_innate_all_tough	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	9.0000		0	0	false
-bale_beasts_innate_13		wh2_main_skill_innate_all_knowledgeable	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	12.0000		0	0	false
-bale_beasts_innate_14		wh2_main_skill_innate_all_intelligent	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	13.0000		0	0	false
-bale_beasts_innate_16		wh_main_skill_innate_all_phlegmatic	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	15.0000		0	0	false
-bale_beasts_innate_17		wh_main_skill_innate_all_sanguine	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	16.0000		0	0	false
-bale_beasts_innate_18		wh_main_skill_innate_all_scar_disfiguring	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	17.0000		0	0	false
-bale_beasts_innate_19		wh_main_skill_innate_all_scar_distinguishing	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	18.0000		0	0	false
-bale_beasts_innate_20		wh_main_skill_innate_all_sneaky	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	19.0000		0	0	false
-bale_beasts_innate_21		wh_main_skill_innate_all_stupid	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	20.0000		0	0	false
-bale_beasts_innate_22		wh_main_skill_innate_all_uncompromising	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	21.0000		0	0	false
-bale_beasts_innate_23		fim_lord_innate_8	wh_dlc08_nor_cha_fimir_balefiend_beast		6.0000	22.0000		0	0	false
-bale_beasts_mentor		wh3_main_skill_all_mentor_hero	wh_dlc08_nor_cha_fimir_balefiend_beast		0.0000	12.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/ovn_balefiend_beast									
+bale_beasts_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops		5	0		0	0	true
+bale_beasts_campaign_02		wh2_main_skill_all_hero_passive_stimulate_growth		5	1		0	0	true
+bale_beasts_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building		5	2		0	0	true
+bale_beasts_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound		5	3		0	0	true
+bale_beasts_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment		5	4		0	0	true
+bale_beasts_campaign_06		wh2_main_skill_all_hero_reduce_action_cost		5	5		0	0	true
+bale_beasts_campaign_actions_dummy		wh_dlc08_skill_all_dummy_agent_actions_nor_fimir_balefiend		8	0		1	0	false
+bale_beasts_magic_00_dummy		wh_dlc03_skill_magic_beasts_dummy_wyssans_wildform		2	11		1	0	false
+bale_beasts_magic_01		wh_dlc03_skill_magic_beasts_wyssans_wildform		2	0		0	0	true
+bale_beasts_magic_02		wh_dlc03_skill_magic_beasts_wild_heart		2	1		0	0	true
+bale_beasts_magic_03		wh_dlc03_skill_magic_beasts_flock_of_doom		2	2		0	0	true
+bale_beasts_magic_04		wh_dlc03_skill_magic_beasts_panns_impenetrable_pelt		2	3		0	0	true
+bale_beasts_magic_05		wh_dlc03_skill_magic_beasts_the_amber_spear		2	4		0	0	true
+bale_beasts_magic_06		wh_main_skill_all_magic_all_06_evasion		2	5		0	4	true
+bale_beasts_magic_07		wh_main_skill_all_magic_all_07_earthing		2	6		0	0	true
+bale_beasts_magic_08		wh_main_skill_all_magic_all_08_power_drain		2	7		0	0	true
+bale_beasts_magic_09		wh_dlc03_skill_magic_beasts_the_curse_of_anraheir		2	8		0	0	true
+bale_beasts_magic_10		wh_dlc03_skill_magic_beasts_transformation_of_kadon		2	9		0	0	true
+bale_beasts_magic_11		wh_main_skill_all_magic_all_11_arcane_conduit		2	10		0	4	true
+bale_beasts_unique_01		wh_dlc08_skill_nor_lords_unique_aura_of_chaos		0	0		0	0	true
+bale_beasts_unique_02		wh_dlc08_skill_nor_wizards_unique_ritualistic_fury		0	1		0	0	true
+bale_beasts_unique_03		wh_dlc08_skill_nor_fimir_balefiend_unique_might_of_the_swamp		0	2		0	0	true
+bale_beasts_unique_04		wh_dlc08_skill_nor_fimir_balefiend_unique_miasma_of_despair		0	3		0	0	true
+bale_beasts_unique_05		wh_dlc08_skill_nor_fimir_balefiend_unique_eye_of_the_balefiend		0	4		0	0	true
+bale_beasts_unique_06		wh2_main_skill_all_immortality_hero		0	5		0	0	true
+bale_beasts_innate_01		fim_lord_innate_9		6	0		0	0	false
+bale_beasts_innate_03		wh2_main_skill_innate_all_fleet_footed		6	2		0	0	false
+bale_beasts_innate_04		wh2_main_skill_innate_all_cunning		6	3		0	0	false
+bale_beasts_innate_05		wh2_main_skill_innate_all_determined		6	4		0	0	false
+bale_beasts_innate_06		wh2_main_skill_innate_all_confident		6	5		0	0	false
+bale_beasts_innate_07		wh2_main_skill_innate_all_disciplined		6	6		0	0	false
+bale_beasts_innate_08		wh2_main_skill_innate_all_perceptive		6	7		0	0	false
+bale_beasts_innate_09		wh2_main_skill_innate_all_aggressive		6	8		0	0	false
+bale_beasts_innate_10		wh2_main_skill_innate_all_tough		6	9		0	0	false
+bale_beasts_innate_13		wh2_main_skill_innate_all_knowledgeable		6	12		0	0	false
+bale_beasts_innate_14		wh2_main_skill_innate_all_intelligent		6	13		0	0	false
+bale_beasts_innate_16		wh_main_skill_innate_all_phlegmatic		6	15		0	0	false
+bale_beasts_innate_17		wh_main_skill_innate_all_sanguine		6	16		0	0	false
+bale_beasts_innate_18		wh_main_skill_innate_all_scar_disfiguring		6	17		0	0	false
+bale_beasts_innate_19		wh_main_skill_innate_all_scar_distinguishing		6	18		0	0	false
+bale_beasts_innate_20		wh_main_skill_innate_all_sneaky		6	19		0	0	false
+bale_beasts_innate_21		wh_main_skill_innate_all_stupid		6	20		0	0	false
+bale_beasts_innate_22		wh_main_skill_innate_all_uncompromising		6	21		0	0	false
+bale_beasts_innate_23		fim_lord_innate_8		6	22		0	0	false
+bale_beasts_mentor		wh3_main_skill_all_mentor_hero		0	12		0	0	true

@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_araby_occupation.loc		
+culture_settlement_occupation_options_tooltip_1791181982	Occupy||{{tr:occupation_decision_occupy}}	false
+culture_settlement_occupation_options_tooltip_1791181983	Resettle||With no regions currently under your control, you have the option to settle your army here.	false
+culture_settlement_occupation_options_tooltip_1791181984	Raze||All buildings are destroyed and the settlement is torched. The previous owners will like you a lot less.	false
+culture_settlement_occupation_options_tooltip_1791181985	Sack||You do not capture the settlement but instead steal wealth and damage buildings. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is reduced, and the previous owners will like you a lot less.	false
+culture_settlement_occupation_options_tooltip_1791181986	Do Nothing||Leave the settlement as it stands.	false
+culture_settlement_occupation_options_tooltip_1791181987	Colonise||Settle your troops.	false
+culture_settlement_occupation_options_tooltip_1791181988	Loot & Occupy||You gain wealth from looting, but buildings in the settlement are damaged. All captives are enslaved, [[img:icon_public_order]][[/img]]{{tr:hp_campaign_public_order_term}} is greatly reduced, and your diplomatic relations with the previous owner also suffer greatly.	false
+culture_settlement_occupation_options_tooltip_1791181989	Raze||All buildings are destroyed and the settlement is torched. The previous owners will like you a lot less.	false
+culture_settlement_occupation_options_tooltip_1791181990	Restore Numas||Return ownership of Numas to its rightful owner.	false
