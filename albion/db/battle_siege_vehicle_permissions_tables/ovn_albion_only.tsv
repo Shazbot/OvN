@@ -1,6 +1,0 @@
-faction	vehicle
-#battle_siege_vehicle_permissions_tables;0;db/battle_siege_vehicle_permissions_tables/ovn_albion_only	
-ovn_alb_order_of_the_truthsayers	nor_battering_ram
-ovn_alb_order_of_the_truthsayers	nor_siege_tower_15m
-ovn_alb_host_ravenqueen	nor_battering_ram
-ovn_alb_host_ravenqueen	nor_siege_tower_15m

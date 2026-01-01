@@ -1,3 +1,0 @@
-character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
-#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/ovn_trolls_only												
-elo_chief_ugma	1	77779001		100	77779002	elo_chief_ugma	general	elo_chief_ugma	ui/portraits/portholes/no_culture/elo_chief_ugma.png	119193		true

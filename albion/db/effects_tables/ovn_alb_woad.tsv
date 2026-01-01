@@ -1,4 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/ovn_alb_woad					
-ovn_albion_woad_upgrades_buildings	icon_alb_woad_res.png	1	icon_alb_woad_res.png	campaign	true
-ovn_albion_woad_upgrades_woad_multiplier	icon_alb_woad_res.png	2	icon_alb_woad_res.png	campaign	true

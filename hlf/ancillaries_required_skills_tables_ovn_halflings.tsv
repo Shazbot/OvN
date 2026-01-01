@@ -1,7 +1,0 @@
-ancillary	required_skill	required_skill_level
-#ancillaries_required_skills_tables;0;db/ancillaries_required_skills_tables/ovn_halflings		
-hlf_staff	hlf_staff	1
-hlf_robe	hlf_robe	1
-hlf_genchanter_ram_mount	hlf_ll_battleram_mount	1
-hlf_genchanter_swan_mount	ovn_skill_mtl_ll_mount_swan	1
-ovn_anc_mount_mtl_fieldwarden_swan	ovn_skill_mtl_fieldwarden_mount_swan	1

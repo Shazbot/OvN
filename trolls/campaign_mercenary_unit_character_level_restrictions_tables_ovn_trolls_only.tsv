@@ -1,7 +1,0 @@
-unit	faction_override	character_level
-#campaign_mercenary_unit_character_level_restrictions_tables;1;db/campaign_mercenary_unit_character_level_restrictions_tables/ovn_trolls_only		
-elo_red_avalanche		18
-elo_shipwreckers		22
-elo_kin		12
-elo_night_trolls_ror		30
-elo_warpstone_trolls		26

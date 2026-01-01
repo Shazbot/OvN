@@ -1,9 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_hlf_outpost.loc		
-building_chains_chain_tooltip_ovn_hlf_allied_outpost	Outpost	false
-building_short_description_texts_short_description_ovn_hlf_allied_outpost_1	Unusally small tents strewn about haphazardly.	false
-building_short_description_texts_short_description_ovn_hlf_allied_outpost_2	Miniature tents and cooking smells to die for.	false
-building_short_description_texts_short_description_ovn_hlf_allied_outpost_3	A good meal is not a Moot-shot away.	false
-building_culture_variants_name_ovn_hlf_allied_outpost_1ovn_sc_halflings	Halfling Tents	false
-building_culture_variants_name_ovn_hlf_allied_outpost_2ovn_sc_halflings	Halfling Tent City	false
-building_culture_variants_name_ovn_hlf_allied_outpost_3ovn_sc_halflings	Halfling Mini-Moot	false

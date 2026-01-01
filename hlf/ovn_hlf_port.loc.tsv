@@ -1,7 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_hlf_port.loc		
-building_chains_chain_tooltip_ovn_hlf_port	Port	false
-building_culture_variants_name_ovn_hlf_port_1ovn_sc_halflings	Imperial Wharf	false
-building_culture_variants_name_ovn_hlf_port_2ovn_sc_halflings	Imperial Harbour	false
-building_culture_variants_name_ovn_hlf_port_3ovn_sc_halflings	Imperial Port	false
-building_culture_variants_name_ovn_hlf_port_ruin	Ruined Docks	false

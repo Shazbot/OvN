@@ -1,9 +1,0 @@
-id	culture	faction	remove	set	subculture
-#faction_set_items_tables;1;db/faction_set_items_tables/ovn_albion					
-632625253	ovn_albion		false	anc_set_multi_kislev_norsca_bretonnia_chaos_dwarfs_empire_vampire_counts	
-632625254	ovn_albion		false	anc_set_multi_high_elves_kislev_norsca_chaos_empire	
-632625255	ovn_albion		false	anc_set_multi_kislev_bretonnia_dwarfs_empire_greenskins	
-632625256	ovn_albion		false	anc_set_multi_tomb_kings_vampire_coast_dark_elves_high_elves_kislev_empire_vampire_counts	
-632625257	ovn_albion		false	FavouredCorruptionNone	
-632625258	ovn_albion		false	human_factions	
-632625259	ovn_albion		false	ovn_albion	

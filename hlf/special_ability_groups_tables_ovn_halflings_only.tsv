@@ -1,3 +1,0 @@
-ability_group	icon_path	special_edition_mask	sort_order	is_naval	button_name	sound_event	is_composite_group	unique_id	sound_switch	show_lore_icon	colour_hex
-#special_ability_groups_tables;11;db/special_ability_groups_tables/ovn_halflings_only											
-cr_lore_moot	UI\Battle UI\ability_icons\cr_lore_passive_whiff_of_home_and_hearth.png	0	26	false	lore_moot	Play_WH_UI_Ability_Click_Generic_Light	false	959419841		true	4CAA0E

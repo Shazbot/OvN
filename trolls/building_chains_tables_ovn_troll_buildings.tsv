@@ -1,9 +1,0 @@
-key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
-#building_chains_tables;9;db/building_chains_tables/ovn_troll_buildings									
-ovn_grn_agent			military	false	ovn_grn_agent		7		true
-ovn_troll_Bridges			money	false	ovn_troll_Bridges		7		true
-ovn_troll_Wyvern			military	false	ovn_troll_Wyvern		7		true
-ovn_troll_offerings			military	false	ovn_troll_offerings		7		true
-ovn_troll_outpost_stables			military	false	ovn_troll_outpost_stables		2		true
-ovn_troll_worship			money	false	ovn_troll_worship		4		true
-elo_troll			military	false	elo_troll		0		true

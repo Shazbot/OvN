@@ -1,8 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_trolls_only_events_and_dilemmas.loc		
-event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_lost_primary_detail	Trollz Abandon The Tribe	true
-event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_lost_secondary_detail	An ungrateful bunch of Trollz have abandoned you. moaning that they were starving. They are clearly too stupid to know what's good for them.	true
-event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_cannibal_primary_detail	Cannibalism Takes Hold	true
-event_feed_strings_text_wh_event_feed_string_scripted_event_troll_army_cannibal_secondary_detail	When starving the troll next to you can look very tasty and a bunch of your Trollz couldn't resist. A lot of Trollz will be lost but at least those left are pretty ard.	true
-missions_localised_description_ovn_troll_me_take_karak_azgal	Shortly after the Dwarfs lost control of the hold, Ugma and his band of River Trolls made their home in its underground reservoir. Here they lived tormenting local adventurers and any other stupid enough to cross them, this was until Gorgal and Gorfang invaded and conquered their homes. Ugma and his tribe are determined to reclaim their home and treasure and smash in those rotten greenskins who humiliated them.	true
-missions_localised_title_ovn_troll_me_take_karak_azgal	The Dark Reservoir	true

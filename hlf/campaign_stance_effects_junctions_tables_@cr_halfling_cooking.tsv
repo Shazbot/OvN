@@ -1,3 +1,0 @@
-stance	culture	subculture	faction	force_type	effect_bundle	resource_cost
-#campaign_stance_effects_junctions_tables;1;db/campaign_stance_effects_junctions_tables/@cr_halfling_cooking						
-MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMP		ovn_sc_halflings			ovn_bundle_stance_army_fortification_mootland	

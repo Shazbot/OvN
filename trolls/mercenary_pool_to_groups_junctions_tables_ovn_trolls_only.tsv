@@ -1,7 +1,0 @@
-key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
-#mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/ovn_trolls_only						
-29052024	elo_red_avalanche_ugma	1	ovn_troll_units_of_renown_pool	ovn_troll_ugma_tribe		
-29052025	elo_shipwreckers_ugma	1	ovn_troll_units_of_renown_pool	ovn_troll_ugma_tribe		
-29052026	elo_kin_ugma	1	ovn_troll_units_of_renown_pool	ovn_troll_ugma_tribe		
-29052027	elo_night_trolls_ror_ugma	1	ovn_troll_units_of_renown_pool	ovn_troll_ugma_tribe		
-29052037	wh2_dlc15_grn_mon_river_trolls_ror_0_ugma	1	ovn_troll_units_of_renown_pool	ovn_troll_ugma_tribe		

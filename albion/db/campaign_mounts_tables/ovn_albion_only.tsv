@@ -1,5 +1,0 @@
-model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-#campaign_mounts_tables;8;db/campaign_mounts_tables/ovn_albion_only							
-albion_warhorse	cam_hr1_warhorse	albion_warhorse	1.0000	wh_main_vo_culture_Horse	true	0	false
-albion_warhorse_chariot	cam_wm_marauder_chariot	albion_chariot_cam	1.0000	wh_main_vo_culture_Horse	false	0	false
-morrigan_crow	cam_bi1_eagle	morrigan_midnight	0.6000	wh_main_vo_culture_Eagle	false	0	false

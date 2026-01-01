@@ -1,3 +1,0 @@
-art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/ovn_cod_only								
-ovn_stormrider	general				false	true	ovn_stormrider	1.1000

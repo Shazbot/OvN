@@ -1,5 +1,0 @@
-agent_subtype	ancillary	rank	instant	is_quest_battle
-#character_ancillary_quest_ui_details_tables;2;db/character_ancillary_quest_ui_details_tables/ovn_cod				
-ovn_stormrider	ovn_as_starblade	10	true	false
-ovn_stormrider	ovn_as_armour	8	true	false
-ovn_stormrider	ovn_as_Hoeth_Talisman	5	true	false

@@ -1,6 +1,0 @@
-bombardment_key	arrival_window	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
-#projectile_bombardments_tables;6;db/projectile_bombardments_tables/ovn_halflings_only											
-reckless_taste	2.0000	5	reckless_taste	10.0000	1.0000	launch_and_explode	empty	10		75	true
-hlf_master_chef_flush_soup	0.0500	1	reckless_taste	0.0000	0.0010	at_target	empty	10		75	false
-cr_spell_moot_josiass_bodily_cleanse	3.0000	80	cr_spell_moot_josiass_bodily_cleanse	10.0000	2.0000	above_target	cr_moot_josiass_bodily_cleanse_spawn	150	wh_main_spell_metal_searing_doom	75	true
-cr_spell_moot_josiass_bodily_cleanse_upgraded	3.0000	160	cr_spell_moot_josiass_bodily_cleanse_upgraded	20.0000	2.0000	above_target	cr_moot_josiass_bodily_cleanse_spawn	150	wh_main_spell_metal_searing_doom	75	true

@@ -1,5 +1,0 @@
-key	ammo_caisson_destroyed_model	ammo_caisson_destruction	ammo_caisson_entity	ammo_caisson_model	articulated_entity	articulation_node_1_offset	articulation_node_1_radius	articulation_node_2_offset	articulation_node_2_radius	articulation_node_3_offset	articulation_node_3_radius	articulation_max_angle	head_offset
-#land_unit_articulated_vehicles_tables;4;db/land_unit_articulated_vehicles_tables/ovn_halflings_only													
-ovn_mtl_reaper		vmp_black_coach_01			ovn_mtl_reaper_articulation	0.4000	1.4000	2.4000	0.2500	4.0000	1.2000	45.0000	2.6000
-ovn_mtl_chuckwagon		vmp_black_coach_01			ovn_vehicle_chuckwagon_articulation	1.2500	1.3000	3.5000	0.2500	6.0000	1.5000	57.0000	2.2000
-wh_main_mtl_soupcart		vmp_black_coach_01			wh_main_vehicle_soupcart_articulation	1.2500	1.4000	3.3000	0.2500	6.0000	1.5000	57.0000	2.2000

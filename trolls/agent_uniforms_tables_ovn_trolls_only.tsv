@@ -1,9 +1,0 @@
-uniform_name	filename	battle_filename	campaign_porthole_filename	campaign_politician_filename	campaign_override_skeleton
-#agent_uniforms_tables;10;db/agent_uniforms_tables/ovn_trolls_only					
-elo_carrion_boss	elo_carrion_boss	elo_carrion_boss	elo_carrion_boss		
-elo_cha_troll_lord_01	elo_cha_troll_lord_01	elo_cha_troll_lord_01	elo_cha_troll_lord_01		
-elo_cha_troll_lord_02	elo_cha_troll_lord_02	elo_cha_troll_lord_02	elo_cha_troll_lord_02		
-elo_cha_troll_lord_03	elo_cha_troll_lord_03	elo_cha_troll_lord_03	elo_cha_troll_lord_03		
-elo_chief_ugma	elo_chief_ugma_campaign	elo_chief_ugma	elo_chief_ugma		
-elo_troll_champ	elo_troll_champ_campaign	elo_troll_champ	elo_troll_champ		
-elo_sea_hag	elo_sea_hag	elo_sea_hag	elo_sea_hag		

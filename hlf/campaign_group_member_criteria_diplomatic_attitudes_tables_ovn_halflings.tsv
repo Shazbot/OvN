@@ -1,6 +1,0 @@
-member	attitude
-#campaign_group_member_criteria_diplomatic_attitudes_tables;0;db/campaign_group_member_criteria_diplomatic_attitudes_tables/ovn_halflings	
-diplomacy_Faction_Halfling_&_Negative	hostile
-diplomacy_Faction_Halfling_&_Positive	friendly
-diplomacy_Faction_comradeship_&_Negative	hostile
-diplomacy_Faction_comradeship_&_Positive	friendly

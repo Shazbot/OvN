@@ -1,6 +1,3 @@
-2026/JAN/1 Prop Joe
-- moved json.lua to ovn_requires/json.lua to avoid an error when loading mod scripts
-
 2025/DEC/24 Rhox
 - Fixed the issue of the camp killing script calling out errors when killing lots of people. I added the checking factions part, and the script does nothing if it's not the Grudgebringers faction.
 

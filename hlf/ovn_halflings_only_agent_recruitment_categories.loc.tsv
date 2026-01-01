@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_halflings_only_agent_recruitment_categories.loc		
-agent_recruitment_categories_onscreen_name_hlf_moot_general	Moot General	true
-agent_recruitment_categories_onscreen_description_hlf_moot_general	Moot General	true
-agent_recruitment_categories_onscreen_name_cr_mtl_matron	Matron-Maestro	true
-agent_recruitment_categories_onscreen_description_cr_mtl_matron	Matron-Maestro	true

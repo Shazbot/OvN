@@ -1,5 +1,0 @@
-key	order	icon_file_path
-#agent_recruitment_categories_tables;1;db/agent_recruitment_categories_tables/ovn_albion_only		
-albion_warleader	1	UI\Common UI\unit_category_icons\infantry_sword.png
-albion_truthsayer	2	UI\Common UI\unit_category_icons\wh2_dlc12_magic_lore_generic.png
-albion_legendary_lords	0	UI\Common UI\unit_category_icons\commander.png

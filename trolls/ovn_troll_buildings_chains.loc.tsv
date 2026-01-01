@@ -1,9 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_troll_buildings_chains.loc		
-building_chains_chain_tooltip_ovn_troll_Bridges	Income	false
-building_chains_chain_tooltip_ovn_troll_Wyvern	Monsters	false
-building_chains_chain_tooltip_ovn_grn_agent	Goblin Hut	true
-building_chains_chain_tooltip_elo_troll	Chaos Troll Recruitment	true
-building_chains_chain_tooltip_ovn_troll_offerings	Offerings	true
-building_chains_chain_tooltip_ovn_troll_outpost_stables	Trolls	true
-building_chains_chain_tooltip_ovn_troll_worship	Dung	true

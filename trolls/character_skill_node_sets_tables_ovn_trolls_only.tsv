@@ -1,7 +1,0 @@
-key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
-#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/ovn_trolls_only							
-elo_troll_lord	general	false	false				elo_cha_troll_lord
-elo_troll_champ_skillz	champion	false	false				elo_troll_champ
-elo_chief_ugma	general	false	false				elo_chief_ugma
-elo_carrion_boss	spy	false	false				elo_carrion_boss
-elo_sea_hag	runesmith	false	false				elo_sea_hag

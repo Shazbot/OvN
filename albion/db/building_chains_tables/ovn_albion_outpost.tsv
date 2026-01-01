@@ -1,3 +1,0 @@
-key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
-#building_chains_tables;9;db/building_chains_tables/ovn_albion_outpost									
-ovn_albion_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false

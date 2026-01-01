@@ -1,9 +1,0 @@
-base_unit	mounted_unit	icon_name
-#units_custom_battle_mounts_tables;1;db/units_custom_battle_mounts_tables/ovn_halflings_only		
-ovn_hlf_master_chef_0	ovn_hlf_master_chef_1	ui/campaign ui/mounts/mount_cwagon.png
-ovn_hlf_sheriff_0	ovn_hlf_sheriff_1	ui/campaign ui/mounts/mount_bpig.png
-ovn_hlf_ll	ovn_hlf_ll_battle_ram	ui/campaign ui/mounts/mount_warhorse.png
-ovn_hlf_ll	ovn_hlf_ll_swan	ui/campaign ui/mounts/mount_great_eagle.png
-ovn_hlf_moot_general_0	ovn_hlf_moot_general_3	ui/campaign ui/mounts/mount_great_eagle.png
-ovn_hlf_fieldwarden_0	ovn_hlf_fieldwarden_1	ui/campaign ui/mounts/mount_great_eagle.png
-ovn_hlf_moot_general_0	ovn_hlf_moot_general_2	ui/campaign ui/mounts/mount_cockarel.png

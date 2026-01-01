@@ -1,3 +1,0 @@
-event	group	target	flavour_text	image	secondary_detail	layout	layout_data	sound_event	context_located	override_icon	instant_open
-#event_feed_message_events_tables;0;db/event_feed_message_events_tables/ovn_halflings											
-scripted_persistent_located_event	ovn_halfling_cooking_ingredient_unlocked	event_feed_target_faction	wh_event_feed_string_all_null	ovn/halfling_forage	wh_event_feed_string_scripted_event_secondary_detail	standard	event_feed_none	UI_CAM_POPUP_Message_Event_Positive	event_feed_none	halfling_forage.png	false

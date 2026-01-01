@@ -1,3 +1,0 @@
-model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
-#campaign_mounts_tables;8;db/campaign_mounts_tables/ovn_cod_only							
-ovn_stormrider_mount	cam_bc2_griffon	ovn_stormrider_mount_sharpclaw	0.5000	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph	false	0	false

@@ -1,8 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/@cr_skybutter_loading_screen_quotes.loc		
-loading_screen_quotes_title_ovn_cr_hef_skycutter	Lothern Skycutters	true
-loading_screen_quotes_bulletpoints_ovn_cr_hef_skycutter	[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles	true
-loading_screen_quotes_description_ovn_cr_hef_skycutter	Skycutters are sleek, airborne chariots that are drawn into battle by the Swiftfeather Rocs that nest along the Glittering Coast of Lothern.	true
-loading_screen_quotes_title_ovn_cr_hef_skycutter_ror	Sons of Kalagan (Lothern Skycutters)	true
-loading_screen_quotes_bulletpoints_ovn_cr_hef_skycutter_ror	[[img:icon_ap_ranged]][[/img]]Armour-piercing missiles	true
-loading_screen_quotes_description_ovn_cr_hef_skycutter_ror	The Sons of Kalagan seek to emulate the dragon Kalagan's deeds, roaming the battlefield in search of those in need of their aid.	true

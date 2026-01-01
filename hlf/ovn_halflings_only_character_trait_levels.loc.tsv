@@ -1,9 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/ovn_halflings_only_character_trait_levels.loc		
-character_trait_levels_explanation_text_ovn_trait_defeated_olorin_the_grey_wizard	Defeated Olorin the Grey Wizard	true
-character_trait_levels_onscreen_name_ovn_trait_defeated_olorin_the_grey_wizard	Sunk Their Comradeship	true
-character_trait_levels_removal_text_ovn_trait_defeated_olorin_the_grey_wizard		true
-character_trait_levels_colour_text_ovn_trait_defeated_olorin_the_grey_wizard	Maybe the real treasure was the comrades we made along the way.	true
-character_trait_levels_onscreen_name_hlf_glibfoot_defeated_trait	The Last Tale	false
-character_trait_levels_colour_text_hlf_glibfoot_defeated_trait	Defeated Glibfoot Volespanker	false
-character_trait_levels_explanation_text_hlf_glibfoot_defeated_trait	There was no quirky remark, absurd story or honey-tongued comment to save Glibfoot this time. This is the end of his "grand" tale.	false

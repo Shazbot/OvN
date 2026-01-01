@@ -1,4 +1,0 @@
-group	stance	composite_scene	composite_movement_start	composite_movement_stop
-#campaign_stances_composite_scenes_tables;0;db/campaign_stances_composite_scenes_tables/ovn_sc_alb_albion				
-wh_stance_csc_albion	MILITARY_FORCE_ACTIVE_STANCE_TYPE_LAND_RAID	raiding_stance		
-wh_stance_csc_albion	MILITARY_FORCE_ACTIVE_STANCE_TYPE_SET_CAMP	norsca_encampment		

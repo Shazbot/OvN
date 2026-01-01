@@ -1,5 +1,0 @@
-subculture	subtype	agent	associated_unit_override	icon
-#agent_subtype_subculture_overrides_tables;5;db/agent_subtype_subculture_overrides_tables/ovn_trolls_only				
-ovn_sc_troll_troll	wh2_dlc15_grn_river_troll_hag	runesmith		
-ovn_sc_troll_troll	elo_troll_champ	champion	elo_troll_champ	
-ovn_sc_troll_troll	elo_sea_hag	runesmith		

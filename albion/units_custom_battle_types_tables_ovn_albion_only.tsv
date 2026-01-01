@@ -1,6 +1,0 @@
-alternate_unit	base_unit	type_category	type_icon	show_base_in_unit_list	id	colour	sort_order
-#units_custom_battle_types_tables;3;db/units_custom_battle_types_tables/ovn_albion_only							
-albion_truthsayer_truth	albion_truthsayer_truth	type_spell_lore		true	1633547893	FFFFFF	0
-albion_truthsayer_life	albion_truthsayer_truth	type_spell_lore		false	1633547894	FFFFFF	20
-albion_truthsayer_light	albion_truthsayer_truth	type_spell_lore		false	1633547895	FFFFFF	10
-albion_truthsayer_beast	albion_truthsayer_truth	type_spell_lore		false	1633547896	FFFFFF	30
